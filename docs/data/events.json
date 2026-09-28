@@ -1,0 +1,804 @@
+{
+  "generated_at": "2026-09-28T07:20:11.787049+00:00",
+  "event_count": 10,
+  "run": {
+    "status": "partial",
+    "articles_fetched": 111,
+    "articles_unique": 109,
+    "errors": [
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      },
+      {
+        "source": "DW Top Stories",
+        "error": "HTTPSConnectionPool(host='rss.dw.com', port=443): Max retries exceeded with url: /rdf/rss-en-top (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+      }
+    ]
+  },
+  "events": [
+    {
+      "event_id": "evt_f326aa4b908306f0bd92",
+      "title": "Mother of woman found hanging in tree shocked as police say body was staged",
+      "category": "社会突发",
+      "score": 62.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 16.5,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 1.1
+      },
+      "first_seen": "2026-09-27T05:13:13+08:00",
+      "last_updated": "2026-09-28T08:25:12+08:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "police",
+        "body",
+        "woman",
+        "tree",
+        "mother",
+        "found",
+        "hanging",
+        "shocked"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Mother of woman found hanging in tree shocked as police say body was staged”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "South African",
+          "Johannesburg Mother"
+        ],
+        "latest_progress": [
+          "09月28日 08:25 UTC，Al Jazeera报道：“South African police discover body of 11th woman near Johannesburg”。",
+          "09月27日 05:13 UTC，BBC World报道：“Mother of woman found hanging in tree shocked as police say body was staged”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_80f1b40d81cee192957d",
+          "url": "https://www.aljazeera.com/news/2026/9/28/south-african-police-discover-body-of-10th-woman-near-johannesburg?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/28/south-african-police-discover-body-of-10th-woman-near-johannesburg?traffic_source=rss",
+          "title": "South African police discover body of 11th woman near Johannesburg",
+          "summary": "Police are investigating the killings in a country with one of the highest femicide rates in the world.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T08:25:12+08:00",
+          "fetched_at": "2026-09-28T14:53:00.601236+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_50dc9557420b82e346bd",
+          "url": "https://www.bbc.co.uk/news/articles/cq4gmmdl52rgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq4gmmdl52rgo?at_campaign=rss&at_medium=RSS",
+          "title": "Mother of woman found hanging in tree shocked as police say body was staged",
+          "summary": "Christy Spivey tells the BBC she only has more questions now police think Tasia Fortune's body was put in the tree after her death.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-27T05:13:13+08:00",
+          "fetched_at": "2026-09-28T14:52:34.204304+08:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a17c/live/ff226520-ac63-11f1-be57-03729df1d736.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6b0977ebdf48e2cdf2bb",
+      "title": "Palestine Action protesters arrested outside UK Labour Party conference",
+      "category": "国际政治",
+      "score": 61.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 17.9,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-28T09:37:27+08:00",
+      "last_updated": "2026-09-28T10:23:30+08:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "palestine",
+        "action",
+        "foreign",
+        "secretary",
+        "confronted",
+        "activists",
+        "proscription",
+        "ban"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Palestine Action protesters arrested outside UK Labour Party conference”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Palestine Action",
+          "UK",
+          "Labour Party",
+          "Foreign Secretary"
+        ],
+        "latest_progress": [
+          "09月28日 10:23 UTC，Al Jazeera报道：“Palestine Action protesters arrested outside UK Labour Party conference”。",
+          "09月28日 09:37 UTC，Al Jazeera报道：“UK Foreign Secretary confronted by activists over Palestine Action ban”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7d0b0ebab1c289f38010",
+          "url": "https://www.aljazeera.com/news/2026/9/28/palestine-action-protesters-arrested-outside-uk-labour-party-conference?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/28/palestine-action-protesters-arrested-outside-uk-labour-party-conference?traffic_source=rss",
+          "title": "Palestine Action protesters arrested outside UK Labour Party conference",
+          "summary": "Demonstrators protest against UK government's proscription of Palestine Action as a 'terrorist' organisation.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T10:23:30+08:00",
+          "fetched_at": "2026-09-28T14:53:00.600239+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f4f09a41ae5fbaf318c7",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/uk-foreign-secretary-confronted-by-activists-over-palestine-action-ban?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/uk-foreign-secretary-confronted-by-activists-over-palestine-action-ban?traffic_source=rss",
+          "title": "UK Foreign Secretary confronted by activists over Palestine Action ban",
+          "summary": "UK Foreign Secretary Ed Miliband was confronted by activists at a restaurant over the proscription of Palestine Action.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T09:37:27+08:00",
+          "fetched_at": "2026-09-28T14:53:00.600465+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_aabaa0ffd7a6a13b0a04",
+      "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
+      "category": "经济金融",
+      "score": 60.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.2,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-28T14:24:33+08:00",
+      "last_updated": "2026-09-28T14:24:33+08:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "china",
+        "list",
+        "goods",
+        "recommended",
+        "tariff",
+        "cuts",
+        "following",
+        "trump-xi"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的经济金融事件为“US, China list goods recommended for tariff cuts following Trump-Xi summit”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "US",
+          "China",
+          "Trump",
+          "Xi"
+        ],
+        "latest_progress": [
+          "09月28日 14:24 UTC，Al Jazeera报道：“US, China list goods recommended for tariff cuts following Trump-Xi summit”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f0814ac0e154e7ba2bc3",
+          "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
+          "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit",
+          "summary": "Washington and Beijing announce details of agreement to reduce tariffs on $60bn of trade.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T14:24:33+08:00",
+          "fetched_at": "2026-09-28T14:53:00.597928+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a35288b13d0bb059039f",
+      "title": "Sudanese army impounds dozens of motorcycles in Blue Nile curfew",
+      "category": "军事安全",
+      "score": 60.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.9,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-28T12:56:00+08:00",
+      "last_updated": "2026-09-28T12:56:00+08:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "dozens",
+        "motorcycles",
+        "blue",
+        "nile",
+        "curfew",
+        "sudanese",
+        "army",
+        "impounds"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Sudanese army impounds dozens of motorcycles in Blue Nile curfew”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Sudanese",
+          "Blue Nile"
+        ],
+        "latest_progress": [
+          "09月28日 12:56 UTC，Al Jazeera报道：“Sudanese army impounds dozens of motorcycles in Blue Nile curfew”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0649586d6fcd1b44f3d9",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/sudanese-army-impounds-dozens-of-motorcycles-in-blue-nile-curfew?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/sudanese-army-impounds-dozens-of-motorcycles-in-blue-nile-curfew?traffic_source=rss",
+          "title": "Sudanese army impounds dozens of motorcycles in Blue Nile curfew",
+          "summary": "Dozens of motorcycles were impounded in Sudan’s Blue Nile State, after their riders were accused of flouting a curfew.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T12:56:00+08:00",
+          "fetched_at": "2026-09-28T14:53:00.599246+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9df4ce8271c866568cc7",
+      "title": "Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?",
+      "category": "国际政治",
+      "score": 60.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.1,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-28T14:23:02+08:00",
+      "last_updated": "2026-09-28T14:23:02+08:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "vucic",
+        "serbia",
+        "snap",
+        "election",
+        "can",
+        "outmanoeuvre",
+        "student",
+        "revolt"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Serbia",
+          "Can Vucic"
+        ],
+        "latest_progress": [
+          "09月28日 14:23 UTC，Al Jazeera报道：“Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f35aa1e65527027f4e84",
+          "url": "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/9/28/serbias-snap-election-can-vucic-outmanoeuvre-the-student-revolt?traffic_source=rss",
+          "title": "Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?",
+          "summary": "The country's early parliamentary elections won’t end its crisis or defuse Vucic’s troubles, analysts say.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T14:23:02+08:00",
+          "fetched_at": "2026-09-28T14:53:00.598063+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fd98c42ac8e19be625db",
+      "title": "Watch: BBC reports from the front-line of an escalating war in Yemen",
+      "category": "军事安全",
+      "score": 59.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 14.5,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-28T05:00:06+08:00",
+      "last_updated": "2026-09-28T05:16:31+08:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "bbc",
+        "yemen's",
+        "front-line",
+        "rare",
+        "access",
+        "conflict",
+        "zone",
+        "travels"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的2篇报道，当前关注的军事安全事件为“Watch: BBC reports from the front-line of an escalating war in Yemen”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Inside Yemen",
+          "Houthis",
+          "BBC",
+          "Yemen"
+        ],
+        "latest_progress": [
+          "09月28日 05:16 UTC，BBC World报道：“Inside Yemen's front-line city as Houthis battle for control”。",
+          "09月28日 05:00 UTC，BBC World报道：“Watch: BBC reports from the front-line of an escalating war in Yemen”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_95f416128cd3c2d07f79",
+          "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_campaign=rss&at_medium=RSS",
+          "title": "Inside Yemen's front-line city as Houthis battle for control",
+          "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-28T05:16:31+08:00",
+          "fetched_at": "2026-09-28T14:52:34.203096+08:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b03e/live/dca633d0-bab6-11f1-aa85-8f10bc212c53.jpg"
+        },
+        {
+          "article_id": "art_bd8a4a95ff0167014d45",
+          "url": "https://www.bbc.co.uk/news/videos/crp3kgjygnkeo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/crp3kgjygnkeo?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: BBC reports from the front-line of an escalating war in Yemen",
+          "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-28T05:00:06+08:00",
+          "fetched_at": "2026-09-28T14:52:34.205031+08:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d55/live/464cb340-bafd-11f1-bc1f-3f186ca4140c.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e9d9650ec9d73b46f25e",
+      "title": "Serbia’s president resigns to run for prime minister",
+      "category": "国际政治",
+      "score": 58.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.8,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-28T12:50:46+08:00",
+      "last_updated": "2026-09-28T12:50:46+08:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "serbia",
+        "president",
+        "resigns",
+        "run",
+        "prime",
+        "minister",
+        "aleksandar",
+        "vucic"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Serbia’s president resigns to run for prime minister”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Serbia"
+        ],
+        "latest_progress": [
+          "09月28日 12:50 UTC，Al Jazeera报道：“Serbia’s president resigns to run for prime minister”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a7a76bb14347a93b33a2",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/28-09-sv-serbias-vucic-resigns-to-run-for-pm-sb?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/28-09-sv-serbias-vucic-resigns-to-run-for-pm-sb?traffic_source=rss",
+          "title": "Serbia’s president resigns to run for prime minister",
+          "summary": "Serbia’s Aleksandar Vucic has resigned as president and will lead his ruling party into a snap parliamentary election.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T12:50:46+08:00",
+          "fetched_at": "2026-09-28T14:53:00.599586+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_cf5431e98685b76c3325",
+      "title": "Ben-Gvir releases video threatening to kill senior Hamas figure in jail",
+      "category": "军事安全",
+      "score": 58.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 17.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-28T09:33:52+08:00",
+      "last_updated": "2026-09-28T09:33:52+08:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "ben-gvir",
+        "video",
+        "threatening",
+        "kill",
+        "releases",
+        "senior",
+        "hamas",
+        "figure"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Ben-Gvir releases video threatening to kill senior Hamas figure in jail”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Ben",
+          "Gvir",
+          "Hamas"
+        ],
+        "latest_progress": [
+          "09月28日 09:33 UTC，Al Jazeera报道：“Ben-Gvir releases video threatening to kill senior Hamas figure in jail”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2f2ff6836342eb917413",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/ben-gvir-releases-video-threatening-to-kill-senior-hamas-figure-in-jail?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/ben-gvir-releases-video-threatening-to-kill-senior-hamas-figure-in-jail?traffic_source=rss",
+          "title": "Ben-Gvir releases video threatening to kill senior Hamas figure in jail",
+          "summary": "Israel’s security minister Itamar Ben-Gvir has released a video in which he is seen threatening to kill Hassan Salameh.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T09:33:52+08:00",
+          "fetched_at": "2026-09-28T14:53:00.600799+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_36ceeb08fdd636906a29",
+      "title": "Iran war live: Tehran open to ‘real diplomacy’, ready for ‘apocalyptic war’",
+      "category": "军事安全",
+      "score": 57.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 16.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-28T08:00:00+08:00",
+      "last_updated": "2026-09-28T08:00:00+08:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "war",
+        "iran",
+        "tehran",
+        "open",
+        "real",
+        "diplomacy",
+        "ready",
+        "apocalyptic"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Tehran open to ‘real diplomacy’, ready for ‘apocalyptic war’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "Tehran"
+        ],
+        "latest_progress": [
+          "09月28日 08:00 UTC，Al Jazeera报道：“Iran war live: Tehran open to ‘real diplomacy’, ready for ‘apocalyptic war’”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4f92e36c7245c4e5a7d0",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
+          "title": "Iran war live: Tehran open to ‘real diplomacy’, ready for ‘apocalyptic war’",
+          "summary": "Abbas Araghchi's warning comes after Washington rejected a seven-day roadmap to end the war and reopen Strait of Hormuz.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T08:00:00+08:00",
+          "fetched_at": "2026-09-28T14:53:00.601416+08:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_38fa8093d5b672bfa594",
+      "title": "5 arrested near a U.K. air base used by U.S. on suspicion of preparing a terrorist act",
+      "category": "军事安全",
+      "score": 56.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 14.4,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 2.9
+      },
+      "first_seen": "2026-09-27T18:49:36+08:00",
+      "last_updated": "2026-09-28T05:14:44+08:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "NPR World"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "keywords": [
+        "arrested",
+        "near",
+        "air",
+        "base",
+        "used",
+        "suspicion",
+        "terrorist",
+        "act"
+      ],
+      "analysis": {
+        "what_happened": "据NPR World等来源的2篇报道，当前关注的军事安全事件为“5 arrested near a U.K. air base used by U.S. on suspicion of preparing a terrorist act”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Five",
+          "UK",
+          "Iran"
+        ],
+        "latest_progress": [
+          "09月28日 05:14 UTC，NPR World报道：“Five arrested near UK air base used by U.S. bombers in Iran war”。",
+          "09月27日 18:49 UTC，NPR World报道：“5 arrested near a U.K. air base used by U.S. on suspicion of preparing a terrorist act”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_39ba1a3902ade16a65da",
+          "url": "https://www.npr.org/2026/09/27/nx-s1-5982718/five-arrested-near-uk-air-base-used-by-u-s-bombers-in-iran-war",
+          "canonical_url": "https://www.npr.org/2026/09/27/nx-s1-5982718/five-arrested-near-uk-air-base-used-by-u-s-bombers-in-iran-war",
+          "title": "Five arrested near UK air base used by U.S. bombers in Iran war",
+          "summary": "U.K. police say five men were arrested on suspicion of preparation of a terrorist act after three vehicles were spotted near an air base the U.S. military has been using to launch attacks on Iran.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-28T05:14:44+08:00",
+          "fetched_at": "2026-09-28T14:52:59.672987+08:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0db0e95648e88c83ad56",
+          "url": "https://www.npr.org/2026/09/27/nx-s1-5982480/multiple-arrests-suspicion-explosives-offenses-uk-base-us-forces",
+          "canonical_url": "https://www.npr.org/2026/09/27/nx-s1-5982480/multiple-arrests-suspicion-explosives-offenses-uk-base-us-forces",
+          "title": "5 arrested near a U.K. air base used by U.S. on suspicion of preparing a terrorist act",
+          "summary": "Police evacuated homes Sunday near an air base in England used by the U.S. and arrested several men over suspected explosives offenses.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-27T18:49:36+08:00",
+          "fetched_at": "2026-09-28T14:52:59.677127+08:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    }
+  ]
+}
