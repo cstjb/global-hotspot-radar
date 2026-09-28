@@ -1,44 +1,61 @@
 {
-  "generated_at": "2026-09-28T16:46:48.486738+00:00",
+  "generated_at": "2026-09-28T22:34:14.318786+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 183,
-    "articles_unique": 182,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 141,
+    "articles_unique": 141,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
       "event_id": "evt_efac250cc50a831b705e",
       "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate – Winnipeg Free Press",
       "category": "科技AI",
-      "score": 90.8,
+      "score": 88.5,
       "score_breakdown": {
         "coverage": 22.0,
         "source_diversity": 18.0,
         "region_diversity": 7.5,
-        "recency": 21.1,
+        "recency": 18.8,
         "credibility": 7.5,
         "impact": 9.8,
         "velocity": 5.0
       },
       "first_seen": "2026-09-28T02:45:00+00:00",
-      "last_updated": "2026-09-28T15:45:00+00:00",
-      "source_count": 21,
-      "article_count": 21,
+      "last_updated": "2026-09-28T18:45:00+00:00",
+      "source_count": 33,
+      "article_count": 33,
       "sources": [
         "2news.com",
+        "akronnewsreporter.com",
+        "broomfieldenterprise.com",
+        "capitalgazette.com",
         "cbs12.com",
+        "citizensvoice.com",
         "clickondetroit.com",
         "clickorlando.com",
+        "coloradohometownweekly.com",
+        "dailydemocrat.com",
         "dailylocal.com",
+        "eastbaytimes.com",
         "elpasoinc.com",
+        "fortmorgantimes.com",
         "fox17.com",
         "kob.com",
         "ktul.com",
+        "mainlinemedianews.com",
+        "mcall.com",
         "news4sanantonio.com",
         "niagarafallsreview.ca",
+        "nypost.com",
         "paradisepost.com",
+        "pottsmerc.com",
         "theoaklandpress.com",
         "timesherald.com",
         "wcyb.com",
@@ -65,20 +82,21 @@
         "debate"
       ],
       "analysis": {
-        "what_happened": "据2news.com、cbs12.com、clickondetroit.com、clickorlando.com等来源的21篇报道，当前关注的科技AI事件为“Trump said he would dine with Anthropic CEO amid mounting AI debate – Winnipeg Free Press”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据2news.com、akronnewsreporter.com、broomfieldenterprise.com、capitalgazette.com等来源的33篇报道，当前关注的科技AI事件为“Trump said he would dine with Anthropic CEO amid mounting AI debate – Winnipeg Free Press”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
           "Trump",
           "Anthropic",
           "CEO",
           "AI",
+          "Dario Amodei",
           "Pentagon",
           "Winnipeg Free Press"
         ],
         "latest_progress": [
-          "09月28日 15:45 UTC，dailylocal.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。",
-          "09月28日 15:30 UTC，theoaklandpress.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。",
-          "09月28日 15:30 UTC，fox17.com报道：“Trump meets Anthropic CEO after Pentagon clash over AI safety”。"
+          "09月28日 18:45 UTC，citizensvoice.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。",
+          "09月28日 18:15 UTC，mcall.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。",
+          "09月28日 18:15 UTC，nypost.com报道：“Trump dines with Anthropic CEO Dario Amodei after months of bitter AI feud”。"
         ],
         "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
         "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
@@ -91,6 +109,186 @@
       },
       "articles": [
         {
+          "article_id": "art_da65be3618e852f2ce00",
+          "url": "https://www.citizensvoice.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.citizensvoice.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "citizensvoice.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T18:45:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153535+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.citizensvoice.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_a19f7d96264d12b79a22",
+          "url": "https://www.mcall.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.mcall.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "mcall.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T18:15:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153162+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.mcall.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_8bc5f2ba52718de95495",
+          "url": "https://nypost.com/2026/09/28/business/trump-dines-with-anthropic-ceo-dario-amodei-after-months-of-bitter-ai-feud/",
+          "canonical_url": "https://nypost.com/2026/09/28/business/trump-dines-with-anthropic-ceo-dario-amodei-after-months-of-bitter-ai-feud",
+          "title": "Trump dines with Anthropic CEO Dario Amodei after months of bitter AI feud",
+          "summary": "",
+          "source": "nypost.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T18:15:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.155549+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142881706.jpg?quality=75&strip=all"
+        },
+        {
+          "article_id": "art_b3cf783924c40e2f9f5c",
+          "url": "https://www.fortmorgantimes.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.fortmorgantimes.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "fortmorgantimes.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T18:00:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.156759+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.fortmorgantimes.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_366c14e604dd73362499",
+          "url": "https://www.coloradohometownweekly.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.coloradohometownweekly.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "coloradohometownweekly.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T18:00:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.156844+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.coloradohometownweekly.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_6fde0a2295a9fb075147",
+          "url": "https://www.dailydemocrat.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.dailydemocrat.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "dailydemocrat.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T17:45:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.156586+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.dailydemocrat.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_5ffcda3000b75e6eeab7",
+          "url": "https://www.akronnewsreporter.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.akronnewsreporter.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "akronnewsreporter.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T17:45:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.156671+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.akronnewsreporter.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_d77b97aca050e326de64",
+          "url": "https://www.mainlinemedianews.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.mainlinemedianews.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "mainlinemedianews.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T17:45:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.156954+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.mainlinemedianews.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_70c1cd225b2377da69dd",
+          "url": "https://www.capitalgazette.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.capitalgazette.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "capitalgazette.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T17:00:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.154102+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.capitalgazette.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_e3f03fc919647db5e352",
+          "url": "https://www.eastbaytimes.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.eastbaytimes.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "eastbaytimes.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T16:45:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153255+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.eastbaytimes.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_697a105f619266b27afa",
+          "url": "https://www.pottsmerc.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.pottsmerc.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "pottsmerc.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T16:45:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.157231+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.pottsmerc.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_833392e6a288a432f628",
+          "url": "https://www.broomfieldenterprise.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.broomfieldenterprise.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "broomfieldenterprise.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T16:45:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.157326+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.broomfieldenterprise.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
           "article_id": "art_bd8c6f079d9ecfee47e2",
           "url": "https://www.dailylocal.com/2026/09/28/trump-anthropic-ceo-dinner/",
           "canonical_url": "https://www.dailylocal.com/2026/09/28/trump-anthropic-ceo-dinner",
@@ -99,7 +297,7 @@
           "source": "dailylocal.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:45:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783147+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153889+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -114,7 +312,7 @@
           "source": "theoaklandpress.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783014+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153711+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -129,26 +327,11 @@
           "source": "fox17.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783591+00:00",
+          "fetched_at": "2026-09-28T22:34:12.154579+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
           "image_url": "https://fox17.com/resources/media2/16x9/7140/1320/0x151/90/3fbe47c2-3e8b-4ce2-ad3e-7b992bf1d9ce-AP26255587007476.jpg"
-        },
-        {
-          "article_id": "art_8e82296773cdae2ffcf0",
-          "url": "https://www.timesherald.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.timesherald.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "timesherald.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784843+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.timesherald.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
         },
         {
           "article_id": "art_558b9d87e9e10f590935",
@@ -159,11 +342,26 @@
           "source": "paradisepost.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784905+00:00",
+          "fetched_at": "2026-09-28T22:34:12.157059+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
           "image_url": "https://www.paradisepost.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+        },
+        {
+          "article_id": "art_8e82296773cdae2ffcf0",
+          "url": "https://www.timesherald.com/2026/09/28/trump-anthropic-ceo-dinner/",
+          "canonical_url": "https://www.timesherald.com/2026/09/28/trump-anthropic-ceo-dinner",
+          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+          "summary": "",
+          "source": "timesherald.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T15:30:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.157146+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.timesherald.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
         },
         {
           "article_id": "art_691c46351b3d66583bfd",
@@ -174,7 +372,7 @@
           "source": "wset.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:00:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783424+00:00",
+          "fetched_at": "2026-09-28T22:34:12.154390+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -189,7 +387,7 @@
           "source": "ktul.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T14:15:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784049+00:00",
+          "fetched_at": "2026-09-28T22:34:12.155269+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -204,7 +402,7 @@
           "source": "wcyb.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T13:15:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783726+00:00",
+          "fetched_at": "2026-09-28T22:34:12.154762+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -219,7 +417,7 @@
           "source": "cbs12.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T13:15:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784111+00:00",
+          "fetched_at": "2026-09-28T22:34:12.155460+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -234,7 +432,7 @@
           "source": "news4sanantonio.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T13:15:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784496+00:00",
+          "fetched_at": "2026-09-28T22:34:12.157420+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -249,7 +447,7 @@
           "source": "wsbradio.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T07:00:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783078+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153803+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -264,7 +462,7 @@
           "source": "elpasoinc.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:45:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784776+00:00",
+          "fetched_at": "2026-09-28T22:34:12.156502+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -279,7 +477,7 @@
           "source": "wral.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.782660+00:00",
+          "fetched_at": "2026-09-28T22:34:12.152902+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -294,7 +492,7 @@
           "source": "clickorlando.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.782876+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153447+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -309,7 +507,7 @@
           "source": "wsls.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.782941+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153624+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -324,7 +522,7 @@
           "source": "niagarafallsreview.ca",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:00:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783359+00:00",
+          "fetched_at": "2026-09-28T22:34:12.154293+00:00",
           "language": "English",
           "region": "Canada",
           "source_weight": 0.75,
@@ -339,7 +537,7 @@
           "source": "2news.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T04:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784711+00:00",
+          "fetched_at": "2026-09-28T22:34:12.156416+00:00",
           "language": "English",
           "region": "Global",
           "source_weight": 0.75,
@@ -354,7 +552,7 @@
           "source": "kob.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T04:15:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.782809+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153355+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -369,7 +567,7 @@
           "source": "wgauradio.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T03:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784641+00:00",
+          "fetched_at": "2026-09-28T22:34:12.156329+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -384,7 +582,7 @@
           "source": "clickondetroit.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T02:45:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.782739+00:00",
+          "fetched_at": "2026-09-28T22:34:12.153053+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -399,7 +597,7 @@
           "source": "winnipegfreepress.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T02:45:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783225+00:00",
+          "fetched_at": "2026-09-28T22:34:12.154011+00:00",
           "language": "English",
           "region": "Canada",
           "source_weight": 0.75,
@@ -408,31 +606,420 @@
       ]
     },
     {
-      "event_id": "evt_c0a922f4454d8cd6ab49",
-      "title": "Why South Korea is demanding an apology from Ukraine over North Korean PoWs",
-      "category": "军事安全",
-      "score": 76.5,
+      "event_id": "evt_5d51e256819de101f7c1",
+      "title": "人民日报刊发金轩文章 ： 智能经济何以塑造中国发展新优势 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网",
+      "category": "经济金融",
+      "score": 68.7,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
         "source_diversity": 10.8,
+        "region_diversity": 2.5,
+        "recency": 18.4,
+        "credibility": 7.5,
+        "impact": 11.7,
+        "velocity": 1.7
+      },
+      "first_seen": "2026-09-27T06:30:00+00:00",
+      "last_updated": "2026-09-28T18:15:00+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "baijiahao.baidu.com",
+        "china.com.cn",
+        "news.iqilu.com"
+      ],
+      "regions": [
+        "China"
+      ],
+      "keywords": [
+        "智能",
+        "能经",
+        "经济",
+        "济何",
+        "何以",
+        "以塑",
+        "塑造",
+        "造中"
+      ],
+      "analysis": {
+        "what_happened": "据baijiahao.baidu.com、china.com.cn、news.iqilu.com等来源的4篇报道，当前关注的经济金融事件为“人民日报刊发金轩文章 ： 智能经济何以塑造中国发展新优势 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "baijiahao.baidu.com",
+          "china.com.cn",
+          "news.iqilu.com"
+        ],
+        "latest_progress": [
+          "09月28日 18:15 UTC，baijiahao.baidu.com报道：“人民日报金轩 ： 智能经济何以塑造中国发展新优势”。",
+          "09月28日 07:30 UTC，china.com.cn报道：“智能经济何以塑造中国发展新优势”。",
+          "09月27日 06:30 UTC，baijiahao.baidu.com报道：“智能经济何以塑造中国发展新优势”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_99b60ba1fefc54ba133d",
+          "url": "https://baijiahao.baidu.com/s?id=1877437272556283745",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1877437272556283745",
+          "title": "人民日报金轩 ： 智能经济何以塑造中国发展新优势",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T18:15:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.155078+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_396ae5c6ceb7ea91e0dd",
+          "url": "http://www.china.com.cn/opinion2020/2026-09/28/content_118715780.shtml",
+          "canonical_url": "https://www.china.com.cn/opinion2020/2026-09/28/content_118715780.shtml",
+          "title": "智能经济何以塑造中国发展新优势",
+          "summary": "",
+          "source": "china.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T07:30:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.155171+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1b5d69e3243156738b73",
+          "url": "https://baijiahao.baidu.com/s?id=1877442714849766308",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1877442714849766308",
+          "title": "智能经济何以塑造中国发展新优势",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-27T06:30:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.154975+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_62ad99bdc77c0c82772f",
+          "url": "https://news.iqilu.com/china/gedi/2026/0927/5948229.shtml",
+          "canonical_url": "https://news.iqilu.com/china/gedi/2026/0927/5948229.shtml",
+          "title": "人民日报刊发金轩文章 ： 智能经济何以塑造中国发展新优势 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网",
+          "summary": "",
+          "source": "news.iqilu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-27T06:30:00+00:00",
+          "fetched_at": "2026-09-28T22:34:12.155366+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d52efd0487ddc4bef01e",
+      "title": "Hundreds set up tent encampments in Madrid over housing crisis",
+      "category": "国际政治",
+      "score": 66.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.4,
+        "recency": 20.8,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.2
+      },
+      "first_seen": "2026-09-28T07:20:18+00:00",
+      "last_updated": "2026-09-28T21:12:29+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "NPR World"
+      ],
+      "regions": [
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "madrid",
+        "housing",
+        "crisis",
+        "eviction",
+        "year-old",
+        "set",
+        "tent",
+        "encampments"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的国际政治事件为“Hundreds set up tent encampments in Madrid over housing crisis”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Hundreds",
+          "Madrid",
+          "Eviction"
+        ],
+        "latest_progress": [
+          "09月28日 21:12 UTC，Al Jazeera报道：“Hundreds set up tent encampments in Madrid over housing crisis”。",
+          "09月28日 07:20 UTC，NPR World报道：“Eviction of 87-year-old sparks protests in Madrid over housing crisis”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c8ea9e409733e750a1ff",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/hundreds-set-up-tent-encampments-in-madrid-over-housing-crisis?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/hundreds-set-up-tent-encampments-in-madrid-over-housing-crisis?traffic_source=rss",
+          "title": "Hundreds set up tent encampments in Madrid over housing crisis",
+          "summary": "Protesters have set up tent encampments in central Madrid to demand government action on soaring housing costs.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T21:12:29+00:00",
+          "fetched_at": "2026-09-28T22:34:12.948298+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_617bfc057639ab9c83dc",
+          "url": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
+          "canonical_url": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
+          "title": "Eviction of 87-year-old sparks protests in Madrid over housing crisis",
+          "summary": "Tens of thousands marched through Madrid on Saturday to protest Spain's housing crisis and the eviction of an 87-year-old woman, camping overnight in Madrid's historic Puerta del Sol plaza.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-28T07:20:18+00:00",
+          "fetched_at": "2026-09-28T22:34:12.866006+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0a0e53ad9afefe10b84f",
+      "title": "What we know about the suspected U.K. terror plot. And, why the Gulf remains in limbo",
+      "category": "军事安全",
+      "score": 64.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 3.0
+      },
+      "first_seen": "2026-09-28T12:15:05+00:00",
+      "last_updated": "2026-09-28T22:10:02+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "NPR World"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "keywords": [
+        "terror",
+        "suspected",
+        "plot",
+        "base",
+        "british",
+        "know",
+        "about",
+        "near"
+      ],
+      "analysis": {
+        "what_happened": "据NPR World等来源的2篇报道，当前关注的军事安全事件为“What we know about the suspected U.K. terror plot. And, why the Gulf remains in limbo”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "British",
+          "What",
+          "And",
+          "Gulf"
+        ],
+        "latest_progress": [
+          "09月28日 22:10 UTC，NPR World报道：“British men released on bail after suspected terror plot”。",
+          "09月28日 12:15 UTC，NPR World报道：“What we know about the suspected U.K. terror plot. And, why the Gulf remains in limbo”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b98eebe71f49cc9f27d9",
+          "url": "https://www.npr.org/2026/09/28/nx-s1-5983550/british-men-released-on-bail-after-suspected-terror-plot",
+          "canonical_url": "https://www.npr.org/2026/09/28/nx-s1-5983550/british-men-released-on-bail-after-suspected-terror-plot",
+          "title": "British men released on bail after suspected terror plot",
+          "summary": "Five British men have been released on bail after being detained near a military base for alleged terror offenses. The British base is used by the U.S. military for strikes on Iran.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-28T22:10:02+00:00",
+          "fetched_at": "2026-09-28T22:34:12.865477+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5e38e6c612a20e3ea9c6",
+          "url": "https://www.npr.org/2026/09/28/g-s1-145248/up-first-newsletter-uk-us-air-base-iran-strait-hormuz-media-outlets-cnn-trump",
+          "canonical_url": "https://www.npr.org/2026/09/28/g-s1-145248/up-first-newsletter-uk-us-air-base-iran-strait-hormuz-media-outlets-cnn-trump",
+          "title": "What we know about the suspected U.K. terror plot. And, why the Gulf remains in limbo",
+          "summary": "What we know — and still don't — about the suspected terror plot near a U.K. air base. Trump rejects Iran's offer to pause fighting. And CNN prepares for new owners with ties to Trump.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-28T12:15:05+00:00",
+          "fetched_at": "2026-09-28T22:34:12.865655+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_693e3073be784db0a259",
+      "title": "Twelve women have been killed in one part of South Africa since July. Here's what we know so far",
+      "category": "国际政治",
+      "score": 62.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.8,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 1.1
+      },
+      "first_seen": "2026-09-27T13:01:27+00:00",
+      "last_updated": "2026-09-28T17:26:21+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "south",
+        "africa",
+        "mass",
+        "shootings",
+        "killed",
+        "reels",
+        "spate",
+        "people"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“Twelve women have been killed in one part of South Africa since July. Here's what we know so far”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Twelve",
+          "South Africa",
+          "July",
+          "Here"
+        ],
+        "latest_progress": [
+          "09月28日 17:26 UTC，BBC World报道：“Twelve women have been killed in one part of South Africa since July. Here's what we know so far”。",
+          "09月27日 13:01 UTC，NPR World报道：“South Africa reels from spate of mass shootings that killed 38 people in a week”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_10406655df1a490c6dd5",
+          "url": "https://www.bbc.co.uk/news/articles/c6m27dprvzv7o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6m27dprvzv7o?at_campaign=rss&at_medium=RSS",
+          "title": "Twelve women have been killed in one part of South Africa since July. Here's what we know so far",
+          "summary": "South African President Cyril Ramaphosa says the murders are a \"stain on our national conscience\".",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-28T17:26:21+00:00",
+          "fetched_at": "2026-09-28T22:34:12.245892+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c325/live/9671af90-bb40-11f1-a071-65d2e11c8f4a.jpg"
+        },
+        {
+          "article_id": "art_479c2c6c1df89b1967ed",
+          "url": "https://www.npr.org/2026/09/27/nx-s1-5982488/south-africa-mass-shootings-killed-38-week",
+          "canonical_url": "https://www.npr.org/2026/09/27/nx-s1-5982488/south-africa-mass-shootings-killed-38-week",
+          "title": "South Africa reels from spate of mass shootings that killed 38 people in a week",
+          "summary": "On Saturday night, there were separate mass shootings near South Africa's two largest cities.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-27T13:01:27+00:00",
+          "fetched_at": "2026-09-28T22:34:12.866472+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c0a922f4454d8cd6ab49",
+      "title": "Seoul summons Ukraine envoy over North Korean prisoner-of-war row",
+      "category": "军事安全",
+      "score": 61.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 16.0,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 3.6
+        "velocity": 2.4
       },
       "first_seen": "2026-09-28T02:32:00+00:00",
       "last_updated": "2026-09-28T14:57:31+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera",
         "BBC World",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
         "ukraine",
@@ -441,22 +1028,20 @@
         "korea",
         "korean",
         "seoul",
-        "pows",
-        "agreement"
+        "relations",
+        "sour"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Why South Korea is demanding an apology from Ukraine over North Korean PoWs”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Seoul summons Ukraine envoy over North Korean prisoner-of-war row”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Seoul",
           "Ukraine",
           "North Korean",
-          "Why South Korea",
           "South Korea"
         ],
         "latest_progress": [
           "09月28日 14:57 UTC，BBC World报道：“Seoul summons Ukraine envoy over North Korean prisoner-of-war row”。",
-          "09月28日 12:09 UTC，Al Jazeera报道：“Why South Korea is demanding an apology from Ukraine over North Korean PoWs”。",
           "09月28日 02:32 UTC，DW Top Stories报道：“Ukraine, South Korea relations sour over North Korean POWs”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -478,26 +1063,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-09-28T14:57:31+00:00",
-          "fetched_at": "2026-09-28T16:46:45.930614+00:00",
+          "fetched_at": "2026-09-28T22:34:12.245727+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4afe/live/251cfde0-bb54-11f1-bc1f-3f186ca4140c.jpg"
-        },
-        {
-          "article_id": "art_e2bcae673d51f35980f6",
-          "url": "https://www.aljazeera.com/news/2026/9/28/why-south-korea-is-demanding-an-apology-from-ukraine-over-north-korean-pows?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/28/why-south-korea-is-demanding-an-apology-from-ukraine-over-north-korean-pows?traffic_source=rss",
-          "title": "Why South Korea is demanding an apology from Ukraine over North Korean PoWs",
-          "summary": "Seoul says Kyiv agreed to a nondisclosure agreement over the prisoners but broke it.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-28T12:09:23+00:00",
-          "fetched_at": "2026-09-28T16:46:46.890607+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         },
         {
           "article_id": "art_ac4be35d75a90f64f2d9",
@@ -508,7 +1078,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-09-28T02:32:00+00:00",
-          "fetched_at": "2026-09-28T16:46:46.392272+00:00",
+          "fetched_at": "2026-09-28T22:34:12.626918+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -517,206 +1087,120 @@
       ]
     },
     {
-      "event_id": "evt_8af53e49bafc5a9e2341",
-      "title": "新型电池产业发展 十五五 规划 ： 到2030年实现全固态电池初步规模化应用|储能|电源|锂电池",
-      "category": "科技AI",
-      "score": 72.3,
+      "event_id": "evt_0779482a903ad108899c",
+      "title": "NFL asks US Homeland Security to remove video with former star player",
+      "category": "军事安全",
+      "score": 60.7,
       "score_breakdown": {
-        "coverage": 19.5,
-        "source_diversity": 10.8,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 17.3,
-        "credibility": 7.5,
-        "impact": 9.8,
+        "recency": 19.6,
+        "credibility": 10.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-28T07:00:00+00:00",
-      "last_updated": "2026-09-28T11:00:00+00:00",
-      "source_count": 3,
-      "article_count": 6,
+      "first_seen": "2026-09-28T19:49:25+00:00",
+      "last_updated": "2026-09-28T19:49:25+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "163.com",
-        "finance.eastmoney.com",
-        "stcn.com"
+        "Al Jazeera"
       ],
       "regions": [
-        "China"
+        "Middle East"
       ],
       "keywords": [
-        "电池",
-        "七部",
-        "部门",
-        "新型",
-        "型电",
-        "产业",
-        "池产",
-        "利好"
+        "video",
+        "player",
+        "nfl",
+        "asks",
+        "homeland",
+        "security",
+        "remove",
+        "former"
       ],
       "analysis": {
-        "what_happened": "据163.com、finance.eastmoney.com、stcn.com等来源的6篇报道，当前关注的科技AI事件为“新型电池产业发展 十五五 规划 ： 到2030年实现全固态电池初步规模化应用|储能|电源|锂电池”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“NFL asks US Homeland Security to remove video with former star player”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "163.com",
-          "finance.eastmoney.com",
-          "stcn.com"
+          "NFL",
+          "US",
+          "Homeland Security"
         ],
         "latest_progress": [
-          "09月28日 11:00 UTC，stcn.com报道：“利好来了 ！ 刚刚 ， 七部门重磅发布 ！”。",
-          "09月28日 10:00 UTC，163.com报道：“利好来了 ！ 刚刚 ， 七部门重磅发布 ！”。",
-          "09月28日 09:45 UTC，finance.eastmoney.com报道：“利好来了 ！ 七部门重磅发布 新型电池产业迎来政策支持 _ 东方财富网”。"
+          "09月28日 19:49 UTC，Al Jazeera报道：“NFL asks US Homeland Security to remove video with former star player”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_273f66e7551392b5af06",
-          "url": "https://www.stcn.com/article/detail/4201310.html",
-          "canonical_url": "https://www.stcn.com/article/detail/4201310.html",
-          "title": "利好来了 ！ 刚刚 ， 七部门重磅发布 ！",
-          "summary": "",
-          "source": "stcn.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T11:00:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.785462+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a4e817642728ebac8326",
-          "url": "https://www.163.com/dy/article/L7U9VJUC053469RG.html",
-          "canonical_url": "https://www.163.com/dy/article/L7U9VJUC053469RG.html",
-          "title": "利好来了 ！ 刚刚 ， 七部门重磅发布 ！",
-          "summary": "",
-          "source": "163.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T10:00:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.785214+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_bb4bdb758acc313875f5",
-          "url": "https://finance.eastmoney.com/a/202609283885255230.html",
-          "canonical_url": "https://finance.eastmoney.com/a/202609283885255230.html",
-          "title": "利好来了 ！ 七部门重磅发布 新型电池产业迎来政策支持 _ 东方财富网",
-          "summary": "",
-          "source": "finance.eastmoney.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T09:45:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.785279+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e653f6fe59423d0bd8ba",
-          "url": "https://www.163.com/dy/article/L7U2DR1D053469RG.html",
-          "canonical_url": "https://www.163.com/dy/article/L7U2DR1D053469RG.html",
-          "title": "七部门 ： 推动人工智能等新一代信息技术赋能新型电池全产业链",
-          "summary": "",
-          "source": "163.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T07:45:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783785+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c3a1f36e02ab599ac1fc",
-          "url": "https://www.163.com/dy/article/L7U1BC1E05198UNI.html",
-          "canonical_url": "https://www.163.com/dy/article/L7U1BC1E05198UNI.html",
-          "title": "新型电池产业发展 十五五 规划 ： 到2030年实现全固态电池初步规模化应用|储能|电源|锂电池",
-          "summary": "",
-          "source": "163.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T07:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784428+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_58d719f628799f245bfd",
-          "url": "https://finance.eastmoney.com/a/202609283885154233.html",
-          "canonical_url": "https://finance.eastmoney.com/a/202609283885154233.html",
-          "title": "七部门联合印发 《 新型电池产业发展 十五五 规划 》 _ 东方财富网",
-          "summary": "",
-          "source": "finance.eastmoney.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T07:00:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.784231+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
+          "article_id": "art_b8709b9779334b3a6433",
+          "url": "https://www.aljazeera.com/news/2026/9/28/nfl-asks-us-homeland-security-to-remove-video-with-former-star-player?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/28/nfl-asks-us-homeland-security-to-remove-video-with-former-star-player?traffic_source=rss",
+          "title": "NFL asks US Homeland Security to remove video with former star player",
+          "summary": "Agency used video of Hall of Fame player Brian Dawkins to show readiness for border protection.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-28T19:49:25+00:00",
+          "fetched_at": "2026-09-28T22:34:12.949886+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_595ad1d081ec902bfaa0",
-      "title": "UK pledges tougher stance on Israeli actions in Gaza, West Bank",
+      "event_id": "evt_0e9d11a82e84981ca19a",
+      "title": "French PM warns against escalation of school protests after 164 arrested",
       "category": "国际政治",
-      "score": 66.9,
+      "score": 60.4,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.9,
-        "credibility": 9.8,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 10.0,
         "impact": 11.0,
-        "velocity": 1.9
+        "velocity": 5.0
       },
-      "first_seen": "2026-09-28T00:00:00+00:00",
-      "last_updated": "2026-09-28T15:35:21+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-09-28T21:46:53+00:00",
+      "last_updated": "2026-09-28T21:46:53+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "dutch",
-        "west",
-        "bank",
-        "israeli",
-        "foreign",
-        "ministry",
-        "israel",
-        "strips"
+        "french",
+        "warns",
+        "against",
+        "escalation",
+        "school",
+        "protests",
+        "arrested",
+        "students"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“UK pledges tougher stance on Israeli actions in Gaza, West Bank”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“French PM warns against escalation of school protests after 164 arrested”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "UK",
-          "Israeli",
-          "Gaza",
-          "West Bank Israel",
-          "Dutch",
-          "West Bank"
+          "French",
+          "PM"
         ],
         "latest_progress": [
-          "09月28日 15:35 UTC，Al Jazeera报道：“UK pledges tougher stance on Israeli actions in Gaza, West Bank”。",
-          "09月28日 00:00 UTC，DW Top Stories报道：“Israel strips Dutch diplomats of status in West Bank”。"
+          "09月28日 21:46 UTC，BBC World报道：“French PM warns against escalation of school protests after 164 arrested”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -729,246 +1213,38 @@
       },
       "articles": [
         {
-          "article_id": "art_3ff7eeb534d67d9c0d23",
-          "url": "https://www.aljazeera.com/news/2026/9/28/uk-pledges-tougher-stance-on-israeli-actions-in-gaza-west-bank?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/28/uk-pledges-tougher-stance-on-israeli-actions-in-gaza-west-bank?traffic_source=rss",
-          "title": "UK pledges tougher stance on Israeli actions in Gaza, West Bank",
-          "summary": "British foreign minister vows to 'match word with action' when it comes to defending Palestinian rights.",
-          "source": "Al Jazeera",
+          "article_id": "art_5f1a4063c42b7d2c0c41",
+          "url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o?at_campaign=rss&at_medium=RSS",
+          "title": "French PM warns against escalation of school protests after 164 arrested",
+          "summary": "Students are protesting over issues such as overcrowded classes, but the prime minister has condemned reports of violence.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-09-28T15:35:21+00:00",
-          "fetched_at": "2026-09-28T16:46:46.888835+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a9cf130ed6dc3de89525",
-          "url": "https://www.dw.com/en/israel-strips-dutch-diplomats-of-status-in-west-bank/a-79451271?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/israel-strips-dutch-diplomats-of-status-in-west-bank/a-79451271?maca=en-rss-en-top-1022-rdf",
-          "title": "Israel strips Dutch diplomats of status in West Bank",
-          "summary": "The move by the Israeli Foreign Ministry is a response to Dutch sanctions targeting goods from illegal Israeli settlements in the occupied West Bank. The Dutch Foreign Ministry is yet to comment.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-09-28T00:00:00+00:00",
-          "fetched_at": "2026-09-28T16:46:46.392367+00:00",
+          "published_at": "2026-09-28T21:46:53+00:00",
+          "fetched_at": "2026-09-28T22:34:12.246082+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5d51e256819de101f7c1",
-      "title": "人民日报刊发金轩文章 ： 智能经济何以塑造中国发展新优势 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网",
-      "category": "经济金融",
-      "score": 63.1,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 2.5,
-        "recency": 14.9,
-        "credibility": 7.5,
-        "impact": 11.7,
-        "velocity": 1.8
-      },
-      "first_seen": "2026-09-27T06:30:00+00:00",
-      "last_updated": "2026-09-28T07:30:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "baijiahao.baidu.com",
-        "china.com.cn",
-        "news.iqilu.com"
-      ],
-      "regions": [
-        "China"
-      ],
-      "keywords": [
-        "智能",
-        "能经",
-        "经济",
-        "济何",
-        "何以",
-        "以塑",
-        "塑造",
-        "造中"
-      ],
-      "analysis": {
-        "what_happened": "据baijiahao.baidu.com、china.com.cn、news.iqilu.com等来源的3篇报道，当前关注的经济金融事件为“人民日报刊发金轩文章 ： 智能经济何以塑造中国发展新优势 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "baijiahao.baidu.com",
-          "china.com.cn",
-          "news.iqilu.com"
-        ],
-        "latest_progress": [
-          "09月28日 07:30 UTC，china.com.cn报道：“智能经济何以塑造中国发展新优势”。",
-          "09月27日 06:30 UTC，baijiahao.baidu.com报道：“智能经济何以塑造中国发展新优势”。",
-          "09月27日 06:30 UTC，news.iqilu.com报道：“人民日报刊发金轩文章 ： 智能经济何以塑造中国发展新优势 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_396ae5c6ceb7ea91e0dd",
-          "url": "http://www.china.com.cn/opinion2020/2026-09/28/content_118715780.shtml",
-          "canonical_url": "https://www.china.com.cn/opinion2020/2026-09/28/content_118715780.shtml",
-          "title": "智能经济何以塑造中国发展新优势",
-          "summary": "",
-          "source": "china.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T07:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783919+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_1b5d69e3243156738b73",
-          "url": "https://baijiahao.baidu.com/s?id=1877442714849766308",
-          "canonical_url": "https://baijiahao.baidu.com/s?id=1877442714849766308",
-          "title": "智能经济何以塑造中国发展新优势",
-          "summary": "",
-          "source": "baijiahao.baidu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-27T06:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783860+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_62ad99bdc77c0c82772f",
-          "url": "https://news.iqilu.com/china/gedi/2026/0927/5948229.shtml",
-          "canonical_url": "https://news.iqilu.com/china/gedi/2026/0927/5948229.shtml",
-          "title": "人民日报刊发金轩文章 ： 智能经济何以塑造中国发展新优势 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网",
-          "summary": "",
-          "source": "news.iqilu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-27T06:30:00+00:00",
-          "fetched_at": "2026-09-28T16:46:45.783984+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_79aa2c869f8bca784c27",
-      "title": "Israeli fans direct monkey chants and military slogans at Ireland’s players",
-      "category": "军事安全",
-      "score": 62.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-28T11:10:03+00:00",
-      "last_updated": "2026-09-28T11:43:27+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "israeli",
-        "fans",
-        "military",
-        "slogans",
-        "ireland",
-        "football",
-        "chant",
-        "defeat"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Israeli fans direct monkey chants and military slogans at Ireland’s players”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Israeli",
-          "Ireland"
-        ],
-        "latest_progress": [
-          "09月28日 11:43 UTC，Al Jazeera报道：“Israeli fans direct monkey chants and military slogans at Ireland’s players”。",
-          "09月28日 11:10 UTC，Al Jazeera报道：“Israeli football fans chant military slogans after defeat to Ireland”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6acbad112b2ba77b8f47",
-          "url": "https://www.aljazeera.com/sports/2026/9/28/israeli-fans-monkey-chants-ireland-adam-idah-uefa-nations-league?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/9/28/israeli-fans-monkey-chants-ireland-adam-idah-uefa-nations-league?traffic_source=rss",
-          "title": "Israeli fans direct monkey chants and military slogans at Ireland’s players",
-          "summary": "Israeli fans directed monkey chants at Ireland's Adam Idah, who scored a goal in his team's 3-0 Nations League win.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-28T11:43:27+00:00",
-          "fetched_at": "2026-09-28T16:46:46.890962+00:00",
-          "language": "en",
-          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6898596530d8dd7ace28",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/israeli-football-fans-chant-military-slogans-after-defeat-to-ireland?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/israeli-football-fans-chant-military-slogans-after-defeat-to-ireland?traffic_source=rss",
-          "title": "Israeli football fans chant military slogans after defeat to Ireland",
-          "summary": "Israeli football fans chant military slogans after defeat to Ireland",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-28T11:10:03+00:00",
-          "fetched_at": "2026-09-28T16:46:46.891294+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f058/live/59b822c0-bb7a-11f1-b505-77b42c904b07.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_1aadfc81515acc7ca02a",
-      "title": "At least 33 killed after Myanmar military air strike hits market",
+      "event_id": "evt_e33c3f217dfbb5316b86",
+      "title": "Myanmar army air strike kills dozens in Rakhine state",
       "category": "军事安全",
-      "score": 62.0,
+      "score": 60.4,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.0,
+        "recency": 19.4,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-28T15:38:16+00:00",
-      "last_updated": "2026-09-28T15:38:16+00:00",
+      "first_seen": "2026-09-28T19:31:27+00:00",
+      "last_updated": "2026-09-28T19:31:27+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -978,24 +1254,24 @@
         "Middle East"
       ],
       "keywords": [
-        "killed",
+        "rakhine",
         "myanmar",
-        "military",
+        "army",
         "air",
         "strike",
-        "least",
-        "hits",
-        "market"
+        "kills",
+        "dozens",
+        "state"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“At least 33 killed after Myanmar military air strike hits market”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Myanmar army air strike kills dozens in Rakhine state”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "At",
-          "Myanmar"
+          "Myanmar",
+          "Rakhine"
         ],
         "latest_progress": [
-          "09月28日 15:38 UTC，Al Jazeera报道：“At least 33 killed after Myanmar military air strike hits market”。"
+          "09月28日 19:31 UTC，Al Jazeera报道：“Myanmar army air strike kills dozens in Rakhine state”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1008,15 +1284,15 @@
       },
       "articles": [
         {
-          "article_id": "art_456d7a2ce620d22d0425",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/at-least-33-killed-after-myanmar-military-air-strike-hits-market?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/at-least-33-killed-after-myanmar-military-air-strike-hits-market?traffic_source=rss",
-          "title": "At least 33 killed after Myanmar military air strike hits market",
-          "summary": "Dozens of people have been killed in a military air strike on an opposition-controlled area of Rakhine State, Myanmar.",
+          "article_id": "art_b4341fbd626d531e6157",
+          "url": "https://www.aljazeera.com/news/2026/9/28/myanmar-army-air-strike-kills-dozens-in-rakhine-state?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/28/myanmar-army-air-strike-kills-dozens-in-rakhine-state?traffic_source=rss",
+          "title": "Myanmar army air strike kills dozens in Rakhine state",
+          "summary": "Nearly half a million people are displaced in Rakhine as a result of the conflict between the military and rebel groups.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-28T15:38:16+00:00",
-          "fetched_at": "2026-09-28T16:46:46.888687+00:00",
+          "published_at": "2026-09-28T19:31:27+00:00",
+          "fetched_at": "2026-09-28T22:34:12.950517+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -1025,21 +1301,21 @@
       ]
     },
     {
-      "event_id": "evt_43b0b44d8bd5dd33fdfc",
-      "title": "Iran denies link to attack on airbase as UK minister warns of ‘proxies’",
-      "category": "军事安全",
-      "score": 61.9,
+      "event_id": "evt_4618fa6223b825483ef1",
+      "title": "Gold falls amid rising oil prices and higher US dollar",
+      "category": "能源资源",
+      "score": 60.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
+        "recency": 21.1,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-28T15:29:48+00:00",
-      "last_updated": "2026-09-28T15:29:48+00:00",
+      "first_seen": "2026-09-28T21:34:51+00:00",
+      "last_updated": "2026-09-28T21:34:51+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -1049,224 +1325,45 @@
         "Middle East"
       ],
       "keywords": [
-        "proxies",
-        "iran",
-        "denies",
-        "link",
-        "attack",
-        "airbase",
-        "minister",
-        "warns"
+        "gold",
+        "falls",
+        "rising",
+        "oil",
+        "prices",
+        "higher",
+        "dollar",
+        "hits"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran denies link to attack on airbase as UK minister warns of ‘proxies’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“Gold falls amid rising oil prices and higher US dollar”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Iran",
-          "UK"
+          "Gold",
+          "US"
         ],
         "latest_progress": [
-          "09月28日 15:29 UTC，Al Jazeera报道：“Iran denies link to attack on airbase as UK minister warns of ‘proxies’”。"
+          "09月28日 21:34 UTC，Al Jazeera报道：“Gold falls amid rising oil prices and higher US dollar”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_1b39771486a44db2e3d1",
-          "url": "https://www.aljazeera.com/news/2026/9/28/iran-denies-link-to-attack-on-airbase-as-uk-minister-warns-of-proxies?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/28/iran-denies-link-to-attack-on-airbase-as-uk-minister-warns-of-proxies?traffic_source=rss",
-          "title": "Iran denies link to attack on airbase as UK minister warns of ‘proxies’",
-          "summary": "Tehran condemns 'unfounded and malicious speculation'; British FM vows to 'act against the proxies of Iran'.",
+          "article_id": "art_e02d666057d5d581f1ea",
+          "url": "https://www.aljazeera.com/economy/2026/9/28/gold-falls-amid-rising-oil-prices-and-higher-us-dollar?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/9/28/gold-falls-amid-rising-oil-prices-and-higher-us-dollar?traffic_source=rss",
+          "title": "Gold falls amid rising oil prices and higher US dollar",
+          "summary": "Gold hits seven-week low; silver follows suit and records a nearly 5 percent loss.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-28T15:29:48+00:00",
-          "fetched_at": "2026-09-28T16:46:46.888976+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_38fa8093d5b672bfa594",
-      "title": "5 British suspects arrested, explosives found near U.S.-run air base. Iran denies role",
-      "category": "军事安全",
-      "score": 61.5,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.2,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 1.9
-      },
-      "first_seen": "2026-09-27T10:49:36+00:00",
-      "last_updated": "2026-09-28T10:51:25+00:00",
-      "source_count": 1,
-      "article_count": 3,
-      "sources": [
-        "NPR World"
-      ],
-      "regions": [
-        "North America"
-      ],
-      "keywords": [
-        "arrested",
-        "air",
-        "base",
-        "near",
-        "iran",
-        "used",
-        "five",
-        "suspicion"
-      ],
-      "analysis": {
-        "what_happened": "据NPR World等来源的3篇报道，当前关注的军事安全事件为“5 British suspects arrested, explosives found near U.S.-run air base. Iran denies role”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "British",
-          "Iran",
-          "Five",
-          "UK"
-        ],
-        "latest_progress": [
-          "09月28日 10:51 UTC，NPR World报道：“5 British suspects arrested, explosives found near U.S.-run air base. Iran denies role”。",
-          "09月27日 21:14 UTC，NPR World报道：“Five arrested near UK air base used by U.S. bombers in Iran war”。",
-          "09月27日 10:49 UTC，NPR World报道：“5 arrested near a U.K. air base used by U.S. on suspicion of preparing a terrorist act”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d9f06ca0a86d8e67e8fe",
-          "url": "https://www.npr.org/2026/09/28/g-s1-145245/britain-us-base-suspected-foiled-attack",
-          "canonical_url": "https://www.npr.org/2026/09/28/g-s1-145245/britain-us-base-suspected-foiled-attack",
-          "title": "5 British suspects arrested, explosives found near U.S.-run air base. Iran denies role",
-          "summary": "Authorities have arrested five British nationals over a suspected attack at a U.S.-operated air force base in England. Iran denied involvement.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-09-28T10:51:25+00:00",
-          "fetched_at": "2026-09-28T16:46:46.620634+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_39ba1a3902ade16a65da",
-          "url": "https://www.npr.org/2026/09/27/nx-s1-5982718/five-arrested-near-uk-air-base-used-by-u-s-bombers-in-iran-war",
-          "canonical_url": "https://www.npr.org/2026/09/27/nx-s1-5982718/five-arrested-near-uk-air-base-used-by-u-s-bombers-in-iran-war",
-          "title": "Five arrested near UK air base used by U.S. bombers in Iran war",
-          "summary": "U.K. police say five men were arrested on suspicion of preparation of a terrorist act after three vehicles were spotted near an air base the U.S. military has been using to launch attacks on Iran.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-09-27T21:14:44+00:00",
-          "fetched_at": "2026-09-28T16:46:46.620894+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0db0e95648e88c83ad56",
-          "url": "https://www.npr.org/2026/09/27/nx-s1-5982480/multiple-arrests-suspicion-explosives-offenses-uk-base-us-forces",
-          "canonical_url": "https://www.npr.org/2026/09/27/nx-s1-5982480/multiple-arrests-suspicion-explosives-offenses-uk-base-us-forces",
-          "title": "5 arrested near a U.K. air base used by U.S. on suspicion of preparing a terrorist act",
-          "summary": "Police evacuated homes Sunday near an air base in England used by the U.S. and arrested several men over suspected explosives offenses.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-09-27T10:49:36+00:00",
-          "fetched_at": "2026-09-28T16:46:46.621595+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_29dafda40e25fc0b0bb6",
-      "title": "Ben-Gvir joins hundreds of Israelis to storm Al-Aqsa Mosque compound",
-      "category": "社会突发",
-      "score": 59.4,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.6,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-28T14:03:55+00:00",
-      "last_updated": "2026-09-28T14:03:55+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "ben-gvir",
-        "joins",
-        "hundreds",
-        "israelis",
-        "storm",
-        "al-aqsa",
-        "mosque",
-        "compound"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Ben-Gvir joins hundreds of Israelis to storm Al-Aqsa Mosque compound”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Ben",
-          "Gvir",
-          "Israelis",
-          "Al",
-          "Aqsa Mosque"
-        ],
-        "latest_progress": [
-          "09月28日 14:03 UTC，Al Jazeera报道：“Ben-Gvir joins hundreds of Israelis to storm Al-Aqsa Mosque compound”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f4f501619bbdb86e8e69",
-          "url": "https://www.aljazeera.com/news/2026/9/28/ben-gvir-joins-hundreds-of-israelis-to-storm-al-aqsa-mosque-compound?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/28/ben-gvir-joins-hundreds-of-israelis-to-storm-al-aqsa-mosque-compound?traffic_source=rss",
-          "title": "Ben-Gvir joins hundreds of Israelis to storm Al-Aqsa Mosque compound",
-          "summary": "Israeli national security minister declares 'we are the owners of the place in Al-Aqsa' amid heavily guarded incursion.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-28T14:03:55+00:00",
-          "fetched_at": "2026-09-28T16:46:46.889245+00:00",
+          "published_at": "2026-09-28T21:34:51+00:00",
+          "fetched_at": "2026-09-28T22:34:12.948138+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
