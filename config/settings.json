@@ -1,0 +1,16 @@
+{
+  "lookback_hours": 48,
+  "max_articles_per_source": 50,
+  "request_timeout_seconds": 20,
+  "cluster_similarity_threshold": 0.34,
+  "cluster_time_window_hours": 36,
+  "top_n": 10,
+  "database_path": "data/hotspots.duckdb",
+  "docs_path": "docs",
+  "language": "zh-CN",
+  "gdelt_queries": [
+    "(conflict OR election OR economy OR technology OR energy OR disaster)",
+    "(geopolitics OR security OR supply chain OR artificial intelligence)"
+  ]
+}
+
