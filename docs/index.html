@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="聚合 GDELT 与全球媒体 RSS 的全球热点事件雷达">
+    <meta name="color-scheme" content="dark">
+    <title>Global Hotspot Radar · 全球热点事件雷达</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="全球热点事件雷达首页">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><strong>GLOBAL HOTSPOT</strong><small>INTELLIGENCE RADAR</small></span>
+      </a>
+      <div class="header-status">
+        <span class="live-dot"></span>
+        <span id="run-status">数据载入中</span>
+        <time id="updated-at"></time>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">GLOBAL SIGNALS · STRUCTURED INTELLIGENCE</p>
+          <h1>看见新闻背后的<br><em>全球事件</em></h1>
+          <p class="hero-description">跨来源聚合、事件级去重与热度评分，将分散报道整理成可追踪的全球风险信号。</p>
+        </div>
+        <div class="radar" aria-hidden="true">
+          <div class="radar-grid"></div>
+          <div class="radar-sweep"></div>
+          <span class="blip b1"></span><span class="blip b2"></span><span class="blip b3"></span>
+          <div class="radar-center"></div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="数据概览">
+        <article><span>热点事件</span><strong id="metric-events">—</strong><small>TOP RANKED</small></article>
+        <article><span>有效报道</span><strong id="metric-articles">—</strong><small>UNIQUE ARTICLES</small></article>
+        <article><span>信息来源</span><strong id="metric-sources">—</strong><small>GLOBAL SOURCES</small></article>
+        <article><span>覆盖地区</span><strong id="metric-regions">—</strong><small>REGIONS</small></article>
+      </section>
+
+      <section class="feed-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">PRIORITY FEED</p><h2>全球热点 TOP 10</h2></div>
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="search" type="search" placeholder="搜索事件、来源或关键词" autocomplete="off">
+          </label>
+        </div>
+        <div class="category-filters" id="category-filters" aria-label="按分类筛选"></div>
+        <div class="content-grid">
+          <div id="event-list" class="event-list" aria-live="polite"></div>
+          <aside id="event-detail" class="event-detail" aria-live="polite">
+            <div class="empty-detail">
+              <span class="crosshair">+</span>
+              <p>选择一个事件查看完整研判</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>GDELT + BBC + DW + NPR + Al Jazeera</p>
+      <p>自动聚类结果仅供信息参考，请以原始信源为准。</p>
+    </footer>
+    <noscript>此页面需要 JavaScript 才能显示事件数据。</noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>
