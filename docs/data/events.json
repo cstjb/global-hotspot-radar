@@ -1,266 +1,69 @@
 {
-  "generated_at": "2026-09-30T08:34:48.129373+00:00",
+  "generated_at": "2026-09-30T15:57:11.825736+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 136,
-    "articles_unique": 136,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 181,
+    "articles_unique": 180,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_957369f7795f9535ebbd",
-      "title": "First female prime minister named in Morocco after winning elections",
-      "category": "国际政治",
-      "score": 72.4,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 16.9,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-29T17:14:10+00:00",
-      "last_updated": "2026-09-30T02:13:07+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "morocco",
-        "first",
-        "prime",
-        "minister",
-        "king",
-        "female",
-        "named",
-        "elections"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“First female prime minister named in Morocco after winning elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "King",
-          "Morocco",
-          "First"
-        ],
-        "latest_progress": [
-          "09月30日 02:13 UTC，Al Jazeera报道：“King appoints Morocco’s first female prime minister”。",
-          "09月29日 19:56 UTC，DW Top Stories报道：“Morocco: King appoints first woman prime minister”。",
-          "09月29日 17:14 UTC，BBC World报道：“First female prime minister named in Morocco after winning elections”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4f03df2c4effc274df81",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/king-appoints-moroccos-first-female-prime-minister-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/king-appoints-moroccos-first-female-prime-minister-2?traffic_source=rss",
-          "title": "King appoints Morocco’s first female prime minister",
-          "summary": "Morocco’s King Mohammed VI has named Marrakesh’s long-time mayor as the country’s first female prime minister.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-30T02:13:07+00:00",
-          "fetched_at": "2026-09-30T08:34:46.980981+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a01abe6b5e833dae9263",
-          "url": "https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722?maca=en-rss-en-top-1022-rdf",
-          "title": "Morocco: King appoints first woman prime minister",
-          "summary": "The appointment of Fatima Zahra Mansouri comes after her center-right party won last week's parliamentary elections in Morocco. She had previously served as mayor of the city of Marrakesh.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-09-29T19:56:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.572818+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_54c44aeb4560a83dc284",
-          "url": "https://www.bbc.co.uk/news/articles/c674kkjllw17o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c674kkjllw17o?at_campaign=rss&at_medium=RSS",
-          "title": "First female prime minister named in Morocco after winning elections",
-          "summary": "Her appointment by the king makes her only the second woman to lead a government in the Arab world.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-29T17:14:10+00:00",
-          "fetched_at": "2026-09-30T08:34:46.372733+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89e1/live/1f6a3b30-b8f5-11f1-bd4a-e9ce4be469f6.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4bc6914d7cacc1e99c82",
-      "title": "South Korea demands apology from Pyongyang for landmine blasts that injured three",
-      "category": "社会突发",
-      "score": 71.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-30T05:24:52+00:00",
-      "last_updated": "2026-09-30T08:02:20+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "korea",
-        "south",
-        "apology",
-        "blasts",
-        "injured",
-        "three",
-        "dmz",
-        "demands"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“South Korea demands apology from Pyongyang for landmine blasts that injured three”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Korea",
-          "DMZ",
-          "South Korea",
-          "Pyongyang"
-        ],
-        "latest_progress": [
-          "09月30日 08:02 UTC，Al Jazeera报道：“S Korea demands apology over DMZ blasts as N Korea denies planting mines”。",
-          "09月30日 05:24 UTC，BBC World报道：“South Korea demands apology from Pyongyang for landmine blasts that injured three”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2c17ac5d98b832c072be",
-          "url": "https://www.aljazeera.com/news/2026/9/30/south-korea-demands-apology-over-dmz-blasts-as-north-denies-planting-mines?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/south-korea-demands-apology-over-dmz-blasts-as-north-denies-planting-mines?traffic_source=rss",
-          "title": "S Korea demands apology over DMZ blasts as N Korea denies planting mines",
-          "summary": "South Korea calls for a formal apology from North Korea over the DMZ explosion that injured three soldiers.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-30T08:02:20+00:00",
-          "fetched_at": "2026-09-30T08:34:46.979017+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7a17e8f8bc2586a25111",
-          "url": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o?at_campaign=rss&at_medium=RSS",
-          "title": "South Korea demands apology from Pyongyang for landmine blasts that injured three",
-          "summary": "Blasts in the Demilitarised Zone (DMZ) injured three South Korean personnel earlier this month.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T05:24:52+00:00",
-          "fetched_at": "2026-09-30T08:34:46.371817+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1795/live/6e65f480-bc7f-11f1-8f6a-cb544b8fa0f7.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c7a046da6e953b8c6295",
-      "title": "Trump calls Kim Jong Un a ‘friend’ and plays down N Korea’s nuclear arsenal",
+      "event_id": "evt_a6d00afe8ae9430a03fd",
+      "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
       "category": "军事安全",
-      "score": 71.4,
+      "score": 88.2,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.4,
+        "coverage": 19.5,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 19.1,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-30T04:27:00+00:00",
-      "last_updated": "2026-09-30T06:48:09+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-09-30T06:22:00+00:00",
+      "last_updated": "2026-09-30T12:33:05+00:00",
+      "source_count": 4,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories"
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "north",
-        "korea",
-        "kim",
-        "jong",
-        "calls",
-        "dmz",
-        "blast",
-        "nuclear"
+        "iraq",
+        "troops",
+        "iran",
+        "withdrawal",
+        "forces",
+        "exit",
+        "sovereignty",
+        "withdraw"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Trump calls Kim Jong Un a ‘friend’ and plays down N Korea’s nuclear arsenal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Last UK and US troops leave Iraq as anti-Islamic State mission ends”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Trump",
-          "Kim Jong Un",
-          "Korea",
-          "North Korea",
-          "South",
-          "DMZ"
+          "Iraq",
+          "US",
+          "National Sovereignty Day",
+          "Last",
+          "UK",
+          "Islamic State",
+          "Iran",
+          "And"
         ],
         "latest_progress": [
-          "09月30日 06:48 UTC，Al Jazeera报道：“Trump calls Kim Jong Un a ‘friend’ and plays down N Korea’s nuclear arsenal”。",
-          "09月30日 04:27 UTC，DW Top Stories报道：“North Korea denies South's claim, calls DMZ blast a 'farce'”。"
+          "09月30日 12:33 UTC，Al Jazeera报道：“How does Iraq’s security change after US forces withdraw?”。",
+          "09月30日 12:17 UTC，Al Jazeera报道：“Iraq celebrates National Sovereignty Day as US troops withdraw”。",
+          "09月30日 11:36 UTC，BBC World报道：“Last UK and US troops leave Iraq as anti-Islamic State mission ends”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -273,30 +76,90 @@
       },
       "articles": [
         {
-          "article_id": "art_73f71ad9d33ead28fe4a",
-          "url": "https://www.aljazeera.com/news/2026/9/30/trump-calls-kim-jong-un-a-friend-and-plays-down-n-koreas-nuclear-arsenal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/trump-calls-kim-jong-un-a-friend-and-plays-down-n-koreas-nuclear-arsenal?traffic_source=rss",
-          "title": "Trump calls Kim Jong Un a ‘friend’ and plays down N Korea’s nuclear arsenal",
-          "summary": "US president's comments came after he was asked why North Korea can have nuclear weapons when Iran cannot.",
+          "article_id": "art_70bb2af1f65130c98d18",
+          "url": "https://www.aljazeera.com/news/2026/9/30/how-does-iraqs-security-change-after-us-forces-withdraw?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/how-does-iraqs-security-change-after-us-forces-withdraw?traffic_source=rss",
+          "title": "How does Iraq’s security change after US forces withdraw?",
+          "summary": "Iraq marks US troop withdrawal with 'Sovereignty Days', symbolising a shift after decades of foreign military presence.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-30T06:48:09+00:00",
-          "fetched_at": "2026-09-30T08:34:46.979690+00:00",
+          "published_at": "2026-09-30T12:33:05+00:00",
+          "fetched_at": "2026-09-30T15:57:08.141940+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_8d34c5420320edaa6790",
-          "url": "https://www.dw.com/en/north-korea-denies-south-s-claim-calls-dmz-blast-a-farce/a-79481164?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/north-korea-denies-south-s-claim-calls-dmz-blast-a-farce/a-79481164?maca=en-rss-en-top-1022-rdf",
-          "title": "North Korea denies South's claim, calls DMZ blast a 'farce'",
-          "summary": "North Korean leader Kim Jong Un's sister Kim Yo Jong has accused Seoul of conspiracy after it blamed Pyongyang for the blast in the DMZ.",
+          "article_id": "art_72ff6f2612f00196aa21",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/iraq-celebrates-national-sovereignty-day-as-us-troops-withdraw?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/iraq-celebrates-national-sovereignty-day-as-us-troops-withdraw?traffic_source=rss",
+          "title": "Iraq celebrates National Sovereignty Day as US troops withdraw",
+          "summary": "Iraq’s security forces held parades in Baghdad and Najaf to celebrate ‘Sovereignty Day’ as US troops withdraw.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-30T12:17:00+00:00",
+          "fetched_at": "2026-09-30T15:57:08.142020+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_a5233518180669531b1d",
+          "url": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_campaign=rss&at_medium=RSS",
+          "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
+          "summary": "The withdrawal of coalition forces, under a deal agreed two years ago, was a key demand of the Iraqi government.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-30T11:36:23+00:00",
+          "fetched_at": "2026-09-30T15:57:07.365568+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1f4/live/bfefaa90-bcba-11f1-babe-4199b0e7ccea.jpg"
+        },
+        {
+          "article_id": "art_6c12c6e911ce14da3d7d",
+          "url": "https://www.npr.org/2026/09/30/g-s1-145604/up-first-newsletter-iraq-us-troops-scotus-deportations-trump-ai",
+          "canonical_url": "https://www.npr.org/2026/09/30/g-s1-145604/up-first-newsletter-iraq-us-troops-scotus-deportations-trump-ai",
+          "title": "U.S. forces exit Iraq amid Iran war. And, SCOTUS revives Trump deportation policy",
+          "summary": "The U.S. has withdrawn its final troops from Iraq, leaving its defense future uncertain. And, the Supreme Court has sided for now with the Trump administration on third-country deportations.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-30T11:13:17+00:00",
+          "fetched_at": "2026-09-30T15:57:07.988791+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8a580ddd884371eb34b8",
+          "url": "https://www.npr.org/2026/09/30/nx-s1-5984953/mcmaster-us-troop-withdrawal-iraq-iran-isis",
+          "canonical_url": "https://www.npr.org/2026/09/30/nx-s1-5984953/mcmaster-us-troop-withdrawal-iraq-iran-isis",
+          "title": "Retired general who led troops in Iraq warns U.S. exit may give Iran, ISIS an opening",
+          "summary": "Retired Lt. Gen. H.R. McMaster, who commanded U.S. troops in Iraq, says the withdrawal could strengthen Iran and leave Iraq more vulnerable to ISIS.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-30T08:42:46+00:00",
+          "fetched_at": "2026-09-30T15:57:07.988970+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5eda352c83ad266cdf70",
+          "url": "https://www.dw.com/en/us-troops-exit-iraq-after-more-than-a-decade/a-79481523?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-troops-exit-iraq-after-more-than-a-decade/a-79481523?maca=en-rss-en-top-1022-rdf",
+          "title": "US troops exit Iraq after more than a decade",
+          "summary": "The current deployment began in 2014 in an effort to combat 'Islamic State' extremists. Iran, which has sought a complete removal of the US military from the Middle East, celebrated the withdrawal.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-09-30T04:27:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.572673+00:00",
+          "published_at": "2026-09-30T06:22:00+00:00",
+          "fetched_at": "2026-09-30T15:57:07.853937+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -305,194 +168,124 @@
       ]
     },
     {
-      "event_id": "evt_073c141eae28cddeb8ff",
-      "title": "Public workers in France strike over pay as student protests turn violent",
-      "category": "国际政治",
-      "score": 70.2,
+      "event_id": "evt_ae5de44c51c08a8b97d9",
+      "title": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?",
+      "category": "军事安全",
+      "score": 83.7,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.1,
-        "credibility": 10.0,
-        "impact": 11.0,
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 21.6,
+        "credibility": 9.8,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-29T21:53:36+00:00",
-      "last_updated": "2026-09-30T03:53:39+00:00",
-      "source_count": 2,
-      "article_count": 3,
+      "first_seen": "2026-09-30T11:43:35+00:00",
+      "last_updated": "2026-09-30T15:27:26+00:00",
+      "source_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
-        "BBC World"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "students",
-        "protests",
-        "france",
-        "more",
-        "than",
-        "student",
-        "schools",
-        "workers"
+        "flydubai",
+        "pilot",
+        "crash",
+        "plane",
+        "flight",
+        "israel",
+        "tel",
+        "tried"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的国际政治事件为“Public workers in France strike over pay as student protests turn violent”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“What happened on diverted Flydubai flight from Dubai to Tel Aviv?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Public",
-          "France",
-          "More",
-          "Fires"
+          "What",
+          "Flydubai",
+          "Dubai",
+          "Tel Aviv",
+          "Israel",
+          "Israeli"
         ],
         "latest_progress": [
-          "09月30日 03:53 UTC，Al Jazeera报道：“Public workers in France strike over pay as student protests turn violent”。",
-          "09月29日 21:55 UTC，BBC World报道：“More than 400 detained as France student protests escalate”。",
-          "09月29日 21:53 UTC，BBC World报道：“Fires and blockades as students stage school protests across France”。"
+          "09月30日 15:27 UTC，Al Jazeera报道：“What happened on diverted Flydubai flight from Dubai to Tel Aviv?”。",
+          "09月30日 14:35 UTC，DW Top Stories报道：“Flydubai pilot investigated over possible attempt to crash Tel Aviv-bound flight”。",
+          "09月30日 13:35 UTC，NPR World报道：“Israel says a flydubai pilot tried to crash a plane of mostly Israeli passengers”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_7b976307452d22386edf",
-          "url": "https://www.aljazeera.com/news/2026/9/30/french-public-workers-strike-over-pay-as-student-protests-turn-violent?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/french-public-workers-strike-over-pay-as-student-protests-turn-violent?traffic_source=rss",
-          "title": "Public workers in France strike over pay as student protests turn violent",
-          "summary": "Tens of thousands of workers march nationwide, as police arrest 440 students in clashes at schools.",
+          "article_id": "art_db3a73a598a3db9ad75a",
+          "url": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
+          "title": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?",
+          "summary": "Israel's prime minister said one of the pilots stabbed the other and then tried to crash the plane.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-30T03:53:39+00:00",
-          "fetched_at": "2026-09-30T08:34:46.980514+00:00",
+          "published_at": "2026-09-30T15:27:26+00:00",
+          "fetched_at": "2026-09-30T15:57:08.140617+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_57e88350e64d520ed0c3",
-          "url": "https://www.bbc.co.uk/news/articles/c862epne7glyo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c862epne7glyo?at_campaign=rss&at_medium=RSS",
-          "title": "More than 400 detained as France student protests escalate",
-          "summary": "Students have been protesting conditions and resources in high schools since last week.",
-          "source": "BBC World",
+          "article_id": "art_d199bf29a55e80b4ab43",
+          "url": "https://www.dw.com/en/flydubai-pilot-investigated-over-possible-attempt-to-crash-tel-aviv-bound-flight/a-79484761?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/flydubai-pilot-investigated-over-possible-attempt-to-crash-tel-aviv-bound-flight/a-79484761?maca=en-rss-en-top-1022-rdf",
+          "title": "Flydubai pilot investigated over possible attempt to crash Tel Aviv-bound flight",
+          "summary": "A Flydubai service from the UAE to Israel made an emergency landing after one pilot stabbed another. Officials are investigating whether this was a deliberate attempt to crash the plane.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-09-29T21:55:13+00:00",
-          "fetched_at": "2026-09-30T08:34:46.372216+00:00",
+          "published_at": "2026-09-30T14:35:00+00:00",
+          "fetched_at": "2026-09-30T15:57:07.852955+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d901/live/a477e710-bc46-11f1-a76b-c53c7866f2b5.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
-          "article_id": "art_5a592a19ae595ebadd19",
-          "url": "https://www.bbc.co.uk/news/videos/cmy0zey3ey2lo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cmy0zey3ey2lo?at_campaign=rss&at_medium=RSS",
-          "title": "Fires and blockades as students stage school protests across France",
-          "summary": "More than 400 people, mainly minors, were arrested on Tuesday, the country's interior minister says.",
-          "source": "BBC World",
+          "article_id": "art_2a367b651dc4197b3dbb",
+          "url": "https://www.npr.org/2026/09/30/nx-s1-5985806/flydubai-flight-dubai-tel-aviv-israel",
+          "canonical_url": "https://www.npr.org/2026/09/30/nx-s1-5985806/flydubai-flight-dubai-tel-aviv-israel",
+          "title": "Israel says a flydubai pilot tried to crash a plane of mostly Israeli passengers",
+          "summary": "\"As the plane was approaching Israel, one of the pilots stabbed the other pilot and tried to crash the plane with everyone on board,\" but a passenger and crew member broke into the cockpit to stop it.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-09-29T21:53:36+00:00",
-          "fetched_at": "2026-09-30T08:34:46.373499+00:00",
+          "published_at": "2026-09-30T13:35:11+00:00",
+          "fetched_at": "2026-09-30T15:57:07.988696+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d63/live/fbaef680-bc4c-11f1-bc1f-3f186ca4140c.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_01fdacfff3c4c0eb744a",
-      "title": "Somali pirates killed five crew members on hijacked tanker, officials say",
-      "category": "能源资源",
-      "score": 69.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.3,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-30T02:39:06+00:00",
-      "last_updated": "2026-09-30T06:41:35+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "somali",
-        "pirates",
-        "killed",
-        "crew",
-        "tanker",
-        "five",
-        "members",
-        "hijacked"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的能源资源事件为“Somali pirates killed five crew members on hijacked tanker, officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Somali",
-          "BBC"
-        ],
-        "latest_progress": [
-          "09月30日 06:41 UTC，BBC World报道：“Somali pirates killed oil tanker crew before rescue, official tells BBC”。",
-          "09月30日 02:39 UTC，Al Jazeera报道：“Somali pirates killed five crew members on hijacked tanker, officials say”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_fa42f2be149a806d9ad1",
-          "url": "https://www.bbc.co.uk/news/articles/crjw5jp2de7go?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crjw5jp2de7go?at_campaign=rss&at_medium=RSS",
-          "title": "Somali pirates killed oil tanker crew before rescue, official tells BBC",
-          "summary": "Piracy off the Somali coast has increased in recent years after dropping when international naval operations began in 2011.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T06:41:35+00:00",
-          "fetched_at": "2026-09-30T08:34:46.372394+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/660d/live/ab3dbe70-bc97-11f1-afac-af7610470640.jpg"
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
-          "article_id": "art_95f6fd9941526c479736",
-          "url": "https://www.aljazeera.com/news/2026/9/30/somali-pirates-killed-five-crew-members-on-hijacked-tanker-officials-say?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/somali-pirates-killed-five-crew-members-on-hijacked-tanker-officials-say?traffic_source=rss",
-          "title": "Somali pirates killed five crew members on hijacked tanker, officials say",
-          "summary": "The deaths appear to be the first at the hands of Somali pirates in more than a decade.",
+          "article_id": "art_4cd848915727253eb671",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-flight-to-israel-diverted-after-attack-on-pilot?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-flight-to-israel-diverted-after-attack-on-pilot?traffic_source=rss",
+          "title": "Flydubai flight to Israel diverted after attack on pilot",
+          "summary": "Dramatic video shows the aftermath of an attack on a pilot on a Flydubai flight to the Israeli city of Tel Aviv.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-30T02:39:06+00:00",
-          "fetched_at": "2026-09-30T08:34:46.980693+00:00",
+          "published_at": "2026-09-30T11:43:35+00:00",
+          "fetched_at": "2026-09-30T15:57:08.142179+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -501,48 +294,40 @@
       ]
     },
     {
-      "event_id": "evt_f6bb89cc938c907ba523",
-      "title": "Trump dines with Anthropic CEO Dario Amodei after months of bitter AI feud",
+      "event_id": "evt_6025b625503613670c40",
+      "title": "Trump ha bisogno di anthropic e anthropic ha bisogno di trump – ci sarÀ anche dario amodei ...",
       "category": "科技AI",
-      "score": 69.3,
+      "score": 73.2,
       "score_breakdown": {
         "coverage": 22.0,
         "source_diversity": 18.0,
-        "region_diversity": 2.5,
-        "recency": 4.5,
+        "region_diversity": 5.0,
+        "recency": 5.9,
         "credibility": 7.5,
         "impact": 9.8,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-28T13:15:00+00:00",
-      "last_updated": "2026-09-28T18:45:00+00:00",
-      "source_count": 22,
-      "article_count": 22,
+      "first_seen": "2026-09-28T16:45:00+00:00",
+      "last_updated": "2026-09-29T08:30:00+00:00",
+      "source_count": 13,
+      "article_count": 13,
       "sources": [
         "akronnewsreporter.com",
         "broomfieldenterprise.com",
         "capitalgazette.com",
-        "cbs12.com",
         "citizensvoice.com",
         "coloradohometownweekly.com",
+        "dagospia.com",
         "dailydemocrat.com",
-        "dailylocal.com",
         "eastbaytimes.com",
         "fortmorgantimes.com",
-        "fox17.com",
-        "ktul.com",
         "mainlinemedianews.com",
         "mcall.com",
-        "news4sanantonio.com",
         "nypost.com",
-        "paradisepost.com",
-        "pottsmerc.com",
-        "theoaklandpress.com",
-        "timesherald.com",
-        "wcyb.com",
-        "wset.com"
+        "pottsmerc.com"
       ],
       "regions": [
+        "Italy",
         "United States"
       ],
       "keywords": [
@@ -556,20 +341,19 @@
         "debate"
       ],
       "analysis": {
-        "what_happened": "据akronnewsreporter.com、broomfieldenterprise.com、capitalgazette.com、cbs12.com等来源的22篇报道，当前关注的科技AI事件为“Trump dines with Anthropic CEO Dario Amodei after months of bitter AI feud”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据akronnewsreporter.com、broomfieldenterprise.com、capitalgazette.com、citizensvoice.com等来源的13篇报道，当前关注的科技AI事件为“Trump ha bisogno di anthropic e anthropic ha bisogno di trump – ci sarÀ anche dario amodei ...”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
           "Trump",
           "Anthropic",
           "CEO",
           "AI",
-          "Dario Amodei",
-          "Pentagon"
+          "Dario Amodei"
         ],
         "latest_progress": [
+          "09月29日 08:30 UTC，dagospia.com报道：“Trump ha bisogno di anthropic e anthropic ha bisogno di trump – ci sarÀ anche dario amodei ...”。",
           "09月28日 18:45 UTC，citizensvoice.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。",
-          "09月28日 18:15 UTC，mcall.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。",
-          "09月28日 18:15 UTC，nypost.com报道：“Trump dines with Anthropic CEO Dario Amodei after months of bitter AI feud”。"
+          "09月28日 18:15 UTC，mcall.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。"
         ],
         "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
         "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
@@ -582,6 +366,21 @@
       },
       "articles": [
         {
+          "article_id": "art_7da7f7990af2e2f52c03",
+          "url": "https://www.dagospia.com/business/trump-bisogno-anthropic-anthropic-bisogno-trump-ci-sara-dario-amodei-488430",
+          "canonical_url": "https://www.dagospia.com/business/trump-bisogno-anthropic-anthropic-bisogno-trump-ci-sara-dario-amodei-488430",
+          "title": "Trump ha bisogno di anthropic e anthropic ha bisogno di trump – ci sarÀ anche dario amodei ...",
+          "summary": "",
+          "source": "dagospia.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-29T08:30:00+00:00",
+          "fetched_at": "2026-09-30T15:57:07.165568+00:00",
+          "language": "Italian",
+          "region": "Italy",
+          "source_weight": 0.75,
+          "image_url": "https://static.dagospia.com/img/patch/05-2026/dario-amodei-trump-2268021_600_q50.webp"
+        },
+        {
           "article_id": "art_da65be3618e852f2ce00",
           "url": "https://www.citizensvoice.com/2026/09/28/trump-anthropic-ceo-dinner/",
           "canonical_url": "https://www.citizensvoice.com/2026/09/28/trump-anthropic-ceo-dinner",
@@ -590,7 +389,7 @@
           "source": "citizensvoice.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T18:45:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.245761+00:00",
+          "fetched_at": "2026-09-30T15:57:07.163374+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -605,7 +404,7 @@
           "source": "mcall.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T18:15:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.245619+00:00",
+          "fetched_at": "2026-09-30T15:57:07.163273+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -620,7 +419,7 @@
           "source": "nypost.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T18:15:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.246685+00:00",
+          "fetched_at": "2026-09-30T15:57:07.164008+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -635,7 +434,7 @@
           "source": "fortmorgantimes.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T18:00:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.247780+00:00",
+          "fetched_at": "2026-09-30T15:57:07.164970+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -650,7 +449,7 @@
           "source": "coloradohometownweekly.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T18:00:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.247825+00:00",
+          "fetched_at": "2026-09-30T15:57:07.165013+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -665,7 +464,7 @@
           "source": "dailydemocrat.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T17:45:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.247691+00:00",
+          "fetched_at": "2026-09-30T15:57:07.164884+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -680,7 +479,7 @@
           "source": "akronnewsreporter.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T17:45:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.247736+00:00",
+          "fetched_at": "2026-09-30T15:57:07.164927+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -695,7 +494,7 @@
           "source": "mainlinemedianews.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T17:45:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.247872+00:00",
+          "fetched_at": "2026-09-30T15:57:07.165057+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -710,7 +509,7 @@
           "source": "capitalgazette.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T17:00:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.245932+00:00",
+          "fetched_at": "2026-09-30T15:57:07.163471+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -725,7 +524,7 @@
           "source": "eastbaytimes.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T16:45:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.245696+00:00",
+          "fetched_at": "2026-09-30T15:57:07.163325+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -740,7 +539,7 @@
           "source": "pottsmerc.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T16:45:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.248004+00:00",
+          "fetched_at": "2026-09-30T15:57:07.165100+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -755,212 +554,240 @@
           "source": "broomfieldenterprise.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T16:45:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.248067+00:00",
+          "fetched_at": "2026-09-30T15:57:07.165144+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
           "image_url": "https://www.broomfieldenterprise.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_bd8c6f079d9ecfee47e2",
-          "url": "https://www.dailylocal.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.dailylocal.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "dailylocal.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T15:45:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.245879+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.dailylocal.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_d1105043ef6bd5ac5c01",
-          "url": "https://www.theoaklandpress.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.theoaklandpress.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "theoaklandpress.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.245821+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.theoaklandpress.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_b4a2139f20db86403e44",
-          "url": "https://fox17.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "canonical_url": "https://fox17.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "title": "Trump meets Anthropic CEO after Pentagon clash over AI safety",
-          "summary": "",
-          "source": "fox17.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.246257+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://fox17.com/resources/media2/16x9/7140/1320/0x151/90/3fbe47c2-3e8b-4ce2-ad3e-7b992bf1d9ce-AP26255587007476.jpg"
-        },
-        {
-          "article_id": "art_558b9d87e9e10f590935",
-          "url": "https://www.paradisepost.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.paradisepost.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "paradisepost.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.247916+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.paradisepost.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_8e82296773cdae2ffcf0",
-          "url": "https://www.timesherald.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.timesherald.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "timesherald.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.247960+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.timesherald.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_691c46351b3d66583bfd",
-          "url": "https://wset.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "canonical_url": "https://wset.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "title": "Trump meets Anthropic CEO after Pentagon clash over AI safety",
-          "summary": "",
-          "source": "wset.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T15:00:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.246140+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://wset.com/resources/media2/16x9/7140/1320/0x151/90/3fbe47c2-3e8b-4ce2-ad3e-7b992bf1d9ce-AP26255587007476.jpg"
-        },
-        {
-          "article_id": "art_34ff298e4e0164bd5a1e",
-          "url": "https://ktul.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "canonical_url": "https://ktul.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "title": "Trump meets Anthropic CEO after Pentagon clash over AI safety",
-          "summary": "",
-          "source": "ktul.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T14:15:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.246472+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://ktul.com/resources/media2/16x9/7140/1320/0x151/90/3fbe47c2-3e8b-4ce2-ad3e-7b992bf1d9ce-AP26255587007476.jpg"
-        },
-        {
-          "article_id": "art_61c4f3132aadb771be4f",
-          "url": "https://wcyb.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "canonical_url": "https://wcyb.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "title": "Trump meets Anthropic CEO after Pentagon clash over AI safety",
-          "summary": "",
-          "source": "wcyb.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T13:15:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.246360+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://wcyb.com/resources/media2/16x9/7140/1320/0x151/90/3fbe47c2-3e8b-4ce2-ad3e-7b992bf1d9ce-AP26255587007476.jpg"
-        },
-        {
-          "article_id": "art_2a318237677c13cd97fc",
-          "url": "https://cbs12.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "canonical_url": "https://cbs12.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "title": "Trump meets Anthropic CEO after Pentagon clash over AI safety",
-          "summary": "",
-          "source": "cbs12.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T13:15:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.246572+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://cbs12.com/resources/media2/16x9/7140/1320/0x151/90/3fbe47c2-3e8b-4ce2-ad3e-7b992bf1d9ce-AP26255587007476.jpg"
-        },
-        {
-          "article_id": "art_bb1b7b055b391b1513cc",
-          "url": "https://news4sanantonio.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "canonical_url": "https://news4sanantonio.com/news/nation-world/president-donald-trump-meets-anthropic-ceo-dario-amodei-after-pentagon-clash-over-ai-artificial-intelligence-safety-department-of-war-hegseth-technology-development-national-security-supply-chain-risk",
-          "title": "Trump meets Anthropic CEO after Pentagon clash over AI safety",
-          "summary": "",
-          "source": "news4sanantonio.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T13:15:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.247643+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://news4sanantonio.com/resources/media2/16x9/7140/1320/0x151/90/3fbe47c2-3e8b-4ce2-ad3e-7b992bf1d9ce-AP26255587007476.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_d52efd0487ddc4bef01e",
-      "title": "An 87-year-old woman whose eviction sparked protests in Spain is returning home",
-      "category": "国际政治",
-      "score": 68.3,
+      "event_id": "evt_9a30481f255ad440f15b",
+      "title": "Africa's richest man launches Kenya oil refinery despite land protests",
+      "category": "能源资源",
+      "score": 67.8,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-30T11:25:12+00:00",
+      "last_updated": "2026-09-30T15:11:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "oil",
+        "refinery",
+        "kenya",
+        "africa's",
+        "richest",
+        "man",
+        "dangote",
+        "launches"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Africa's richest man launches Kenya oil refinery despite land protests”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "African",
+          "Dangote",
+          "Kenya Africa",
+          "Kenya"
+        ],
+        "latest_progress": [
+          "09月30日 15:11 UTC，DW Top Stories报道：“African leaders herald $16B Dangote oil refinery in Kenya”。",
+          "09月30日 11:25 UTC，BBC World报道：“Africa's richest man launches Kenya oil refinery despite land protests”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_32217c4f16ff1eb1b565",
+          "url": "https://www.dw.com/en/african-leaders-herald-16b-dangote-oil-refinery-in-kenya/a-79491068?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/african-leaders-herald-16b-dangote-oil-refinery-in-kenya/a-79491068?maca=en-rss-en-top-1022-rdf",
+          "title": "African leaders herald $16B Dangote oil refinery in Kenya",
+          "summary": "An oil refinery on Kenya's coast is expected to be completed in 40 months, and will process an estimated 700,000 barrels of oil per day. Africa's richest man, Aliko Dangote, will lead the project.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-09-30T15:11:00+00:00",
+          "fetched_at": "2026-09-30T15:57:07.852873+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_4e72d92f72e2e6518c65",
+          "url": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_campaign=rss&at_medium=RSS",
+          "title": "Africa's richest man launches Kenya oil refinery despite land protests",
+          "summary": "The Kenya refinery is part of Dangote's ambitious bid to expand and help industralise Africa by 2030.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-30T11:25:12+00:00",
+          "fetched_at": "2026-09-30T15:57:07.366006+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c3ff/live/eb5c7d60-bcac-11f1-a3e9-bbda6f9b9e25.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c7a046da6e953b8c6295",
+      "title": "N Korea and S Korea exchange threats over DMZ blast",
+      "category": "社会突发",
+      "score": 67.2,
+      "score_breakdown": {
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.7,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 0.9
+        "recency": 18.1,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 4.4
       },
-      "first_seen": "2026-09-28T07:20:18+00:00",
-      "last_updated": "2026-09-30T07:07:42+00:00",
+      "first_seen": "2026-09-30T04:27:00+00:00",
+      "last_updated": "2026-09-30T11:19:10+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
-        "DW Top Stories",
-        "NPR World"
+        "Al Jazeera",
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "eviction",
-        "housing",
-        "crisis",
-        "year-old",
-        "protests",
-        "measures",
-        "madrid",
-        "tens"
+        "korea",
+        "dmz",
+        "blast",
+        "korean",
+        "north",
+        "kim",
+        "jong",
+        "denies"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“An 87-year-old woman whose eviction sparked protests in Spain is returning home”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“N Korea and S Korea exchange threats over DMZ blast”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Spain",
-          "Eviction",
-          "Madrid"
+          "Korea",
+          "DMZ",
+          "North Korea",
+          "South"
         ],
         "latest_progress": [
-          "09月30日 07:07 UTC，NPR World报道：“An 87-year-old woman whose eviction sparked protests in Spain is returning home”。",
-          "09月29日 12:01 UTC，DW Top Stories报道：“Spain agrees on measures to fix housing crisis, ban eviction”。",
-          "09月28日 07:20 UTC，NPR World报道：“Eviction of 87-year-old sparks protests in Madrid over housing crisis”。"
+          "09月30日 11:19 UTC，Al Jazeera报道：“N Korea and S Korea exchange threats over DMZ blast”。",
+          "09月30日 04:27 UTC，DW Top Stories报道：“North Korea denies South's claim, calls DMZ blast a 'farce'”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_63442d36b12e1f402028",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/n-korea-and-s-korea-exchange-threats-over-dmz-blast?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/n-korea-and-s-korea-exchange-threats-over-dmz-blast?traffic_source=rss",
+          "title": "N Korea and S Korea exchange threats over DMZ blast",
+          "summary": "A landmine explosion which injured three South Korean soldiers in the Korean Demilitarized Zone last week.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-30T11:19:10+00:00",
+          "fetched_at": "2026-09-30T15:57:08.142420+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8d34c5420320edaa6790",
+          "url": "https://www.dw.com/en/north-korea-denies-south-s-claim-calls-dmz-blast-a-farce/a-79481164?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/north-korea-denies-south-s-claim-calls-dmz-blast-a-farce/a-79481164?maca=en-rss-en-top-1022-rdf",
+          "title": "North Korea denies South's claim, calls DMZ blast a 'farce'",
+          "summary": "North Korean leader Kim Jong Un's sister Kim Yo Jong has accused Seoul of conspiracy after it blamed Pyongyang for the blast in the DMZ.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-09-30T04:27:00+00:00",
+          "fetched_at": "2026-09-30T15:57:07.854128+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_168ec1794b1d2fdb5cd2",
+      "title": "2026 Midterm Election Update – September 30th , 2026 | Vero Patriot",
+      "category": "国际政治",
+      "score": 65.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.7,
+        "credibility": 7.5,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-30T12:00:00+00:00",
+      "last_updated": "2026-09-30T14:30:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "veropatriot.iheart.com",
+        "wjno.iheart.com"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "keywords": [
+        "midterm",
+        "election",
+        "september",
+        "wjno",
+        "vero",
+        "patriot"
+      ],
+      "analysis": {
+        "what_happened": "据veropatriot.iheart.com、wjno.iheart.com等来源的2篇报道，当前关注的国际政治事件为“2026 Midterm Election Update – September 30th , 2026 | Vero Patriot”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Midterm Election Update",
+          "September",
+          "Vero Patriot",
+          "WJNO"
+        ],
+        "latest_progress": [
+          "09月30日 14:30 UTC，veropatriot.iheart.com报道：“2026 Midterm Election Update – September 30th , 2026 | Vero Patriot”。",
+          "09月30日 12:00 UTC，wjno.iheart.com报道：“2026 Midterm Election Update – September 30th , 2026 | 1290 WJNO”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -973,188 +800,85 @@
       },
       "articles": [
         {
-          "article_id": "art_2c44d00bca824daa31af",
-          "url": "https://www.npr.org/2026/09/30/nx-s1-5985703/woman-eviction-protests-spain",
-          "canonical_url": "https://www.npr.org/2026/09/30/nx-s1-5985703/woman-eviction-protests-spain",
-          "title": "An 87-year-old woman whose eviction sparked protests in Spain is returning home",
-          "summary": "María del Carmen Abascal's case has drawn tens of thousands of people to the streets in recent days and led the Spanish government to present measures to address the country's housing crisis.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T07:07:42+00:00",
-          "fetched_at": "2026-09-30T08:34:46.864931+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
+          "article_id": "art_f81395414e04ff316833",
+          "url": "https://veropatriot.iheart.com/featured/brian-mudd/content/2026-09-30-2026-midterm-election-update-september-30th-2026/",
+          "canonical_url": "https://veropatriot.iheart.com/featured/brian-mudd/content/2026-09-30-2026-midterm-election-update-september-30th-2026",
+          "title": "2026 Midterm Election Update – September 30th , 2026 | Vero Patriot",
+          "summary": "",
+          "source": "veropatriot.iheart.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-30T14:30:00+00:00",
+          "fetched_at": "2026-09-30T15:55:43.947550+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://i.iheart.com/v3/re/assets.getty/6abcea89da4b7528a61804d3?ops=gravity(%22north%22),fit(1200,675),quality(65)"
         },
         {
-          "article_id": "art_7d4c33e734944a12fc84",
-          "url": "https://www.dw.com/en/spain-agrees-on-measures-to-fix-housing-crisis-ban-eviction/a-79467953?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/spain-agrees-on-measures-to-fix-housing-crisis-ban-eviction/a-79467953?maca=en-rss-en-top-1022-rdf",
-          "title": "Spain agrees on measures to fix housing crisis, ban eviction",
-          "summary": "Spain's cabinet ministers said they have consensus on new measures to curb the housing crisis in the country after the eviction of 87-year-old Maricarmen last week from her apartment sparked protests.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-09-29T12:01:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.573554+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_617bfc057639ab9c83dc",
-          "url": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
-          "canonical_url": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
-          "title": "Eviction of 87-year-old sparks protests in Madrid over housing crisis",
-          "summary": "Tens of thousands marched through Madrid on Saturday to protest Spain's housing crisis and the eviction of an 87-year-old woman, camping overnight in Madrid's historic Puerta del Sol plaza.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-09-28T07:20:18+00:00",
-          "fetched_at": "2026-09-30T08:34:46.865645+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
+          "article_id": "art_daa11682700efc1856d5",
+          "url": "https://wjno.iheart.com/featured/brian-mudd/content/2026-09-30-2026-midterm-election-update-september-30th-2026/",
+          "canonical_url": "https://wjno.iheart.com/featured/brian-mudd/content/2026-09-30-2026-midterm-election-update-september-30th-2026",
+          "title": "2026 Midterm Election Update – September 30th , 2026 | 1290 WJNO",
+          "summary": "",
+          "source": "wjno.iheart.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-30T12:00:00+00:00",
+          "fetched_at": "2026-09-30T15:55:43.947599+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://i.iheart.com/v3/re/assets.getty/6abcea89da4b7528a61804d3?ops=gravity(%22north%22),fit(1200,675),quality(65)"
         }
       ]
     },
     {
-      "event_id": "evt_b86c8688cf39345b17b3",
-      "title": "Trump backs AI self-regulation at tech summit but is it enough?",
-      "category": "科技AI",
-      "score": 65.1,
+      "event_id": "evt_41243f238e7859c64768",
+      "title": "Restaurant named after Xi Jinping attacked by Chinese nationals in South Korea",
+      "category": "产业供应链",
+      "score": 62.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.4,
-        "credibility": 9.8,
-        "impact": 9.8,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-29T23:10:00+00:00",
-      "last_updated": "2026-09-30T03:00:59+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "trump",
-        "companies",
-        "donald",
-        "development",
-        "agreement",
-        "tech",
-        "agree",
-        "self-police'"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的科技AI事件为“Trump backs AI self-regulation at tech summit but is it enough?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "Trump",
-          "AI"
-        ],
-        "latest_progress": [
-          "09月30日 03:00 UTC，Al Jazeera报道：“Trump backs AI self-regulation at tech summit but is it enough?”。",
-          "09月29日 23:10 UTC，DW Top Stories报道：“Trump says AI companies agree to 'self-police'”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_50df96df2c6dfb3c3826",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/trump-backs-ai-self-regulation-at-tech-summit-but-is-it-enough?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/trump-backs-ai-self-regulation-at-tech-summit-but-is-it-enough?traffic_source=rss",
-          "title": "Trump backs AI self-regulation at tech summit but is it enough?",
-          "summary": "US President Donald Trump and leading tech companies have signed a voluntary agreement to regulate AI development.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-30T03:00:59+00:00",
-          "fetched_at": "2026-09-30T08:34:46.980602+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ec4b6469ccc93f037a8d",
-          "url": "https://www.dw.com/en/trump-says-ai-companies-agree-to-self-police/a-79480781?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-says-ai-companies-agree-to-self-police/a-79480781?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump says AI companies agree to 'self-police'",
-          "summary": "Donald Trump said the US won't \"stifle\" the development of AI, which he sees as \"bigger than the Industrial Revolution.\" The agreement comes amid mounting concerns over AI safety after recent hacking incidents.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-09-29T23:10:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.572746+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_df9a02c4b98a046bbfb0",
-      "title": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert",
-      "category": "产业供应链",
-      "score": 64.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.5,
-        "credibility": 10.0,
+        "recency": 16.5,
+        "credibility": 9.8,
         "impact": 10.4,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-30T07:22:52+00:00",
-      "last_updated": "2026-09-30T08:00:10+00:00",
-      "source_count": 1,
+      "first_seen": "2026-09-30T04:21:11+00:00",
+      "last_updated": "2026-09-30T09:07:00+00:00",
+      "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "saudi",
-        "arabia",
-        "pakistan",
-        "houthis",
-        "vows",
-        "defend",
-        "against",
-        "islamabad"
+        "south",
+        "korea",
+        "restaurant",
+        "named",
+        "chinese",
+        "shark",
+        "jinping",
+        "attacked"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的产业供应链事件为“Flydubai flight to Israel diverted to Saudi Arabia after emergency alert”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的产业供应链事件为“Restaurant named after Xi Jinping attacked by Chinese nationals in South Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
         "participants": [
-          "Flydubai",
-          "Israel",
-          "Saudi Arabia",
-          "Pakistan",
-          "Houthis"
+          "South Korea",
+          "Lost",
+          "Restaurant",
+          "Xi Jinping",
+          "Chinese"
         ],
         "latest_progress": [
-          "09月30日 08:00 UTC，Al Jazeera报道：“Flydubai flight to Israel diverted to Saudi Arabia after emergency alert”。",
-          "09月30日 07:22 UTC，Al Jazeera报道：“Pakistan vows to defend Saudi Arabia against Houthis”。"
+          "09月30日 09:07 UTC，DW Top Stories报道：“South Korea: Lost shark draws over half a million visitors”。",
+          "09月30日 04:21 UTC，BBC World报道：“Restaurant named after Xi Jinping attacked by Chinese nationals in South Korea”。"
         ],
         "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
         "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
@@ -1167,83 +891,80 @@
       },
       "articles": [
         {
-          "article_id": "art_94ab8db5bc2b08d0cac3",
-          "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert?traffic_source=rss",
-          "title": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert",
-          "summary": "Airline says plane experiences 'incident' en route from Dubai to Tel Aviv, lands safely at Saudi Arabia's Tabuk airport.",
-          "source": "Al Jazeera",
+          "article_id": "art_8e9f0d43d01d5698d793",
+          "url": "https://www.dw.com/en/south-korea-lost-shark-draws-over-half-a-million-visitors/a-79482014?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/south-korea-lost-shark-draws-over-half-a-million-visitors/a-79482014?maca=en-rss-en-top-1022-rdf",
+          "title": "South Korea: Lost shark draws over half a million visitors",
+          "summary": "The South Korean port of Busan says that a stranded shark has become a major tourist draw. It's also named the ocean predator an honorary ambassador to the city.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-09-30T08:00:10+00:00",
-          "fetched_at": "2026-09-30T08:34:46.979167+00:00",
+          "published_at": "2026-09-30T09:07:00+00:00",
+          "fetched_at": "2026-09-30T15:57:07.853610+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_9a5104bdbb108153f489",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/pakistan-vows-to-defend-saudi-arabia-against-houthis?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/pakistan-vows-to-defend-saudi-arabia-against-houthis?traffic_source=rss",
-          "title": "Pakistan vows to defend Saudi Arabia against Houthis",
-          "summary": "Pakistan says Islamabad will make “whatever means” available to Saudi Arabia if Saudi faces threats from the Houthis.",
-          "source": "Al Jazeera",
+          "article_id": "art_e71f1217fa7a9d1f4a4b",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgvm275ev8o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c9kgvm275ev8o?at_campaign=rss&at_medium=RSS",
+          "title": "Restaurant named after Xi Jinping attacked by Chinese nationals in South Korea",
+          "summary": "The owner said he chose the name because he wanted to run the \"best Chinese restaurant\" in South Korea.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-09-30T07:22:52+00:00",
-          "fetched_at": "2026-09-30T08:34:46.979388+00:00",
+          "published_at": "2026-09-30T04:21:11+00:00",
+          "fetched_at": "2026-09-30T15:57:07.366575+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c90/live/65be9d30-bc81-11f1-a200-b9459c1e297a.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_b0da5fb5c16a2d899e63",
-      "title": "Estonia blames Russia for arson at defence company supplying Ukraine",
+      "event_id": "evt_0fb3620a7711f05c0a26",
+      "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
       "category": "军事安全",
-      "score": 61.3,
+      "score": 62.1,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 12.8,
-        "credibility": 9.8,
+        "recency": 21.0,
+        "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-29T18:08:00+00:00",
-      "last_updated": "2026-09-29T19:36:41+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-09-30T14:53:02+00:00",
+      "last_updated": "2026-09-30T14:53:02+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "BBC World",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
         "russia",
-        "estonia",
-        "blames",
-        "arson",
-        "company",
-        "accused",
-        "sabotage",
-        "across"
+        "launches",
+        "largest",
+        "attack",
+        "ukraine",
+        "energy",
+        "infrastructure",
+        "since"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Estonia blames Russia for arson at defence company supplying Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Russia launches largest attack on Ukraine energy infrastructure since spring”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Estonia",
           "Russia",
-          "Ukraine Estonia"
+          "Ukraine"
         ],
         "latest_progress": [
-          "09月29日 19:36 UTC，BBC World报道：“Estonia blames Russia for arson at defence company supplying Ukraine”。",
-          "09月29日 18:08 UTC，DW Top Stories报道：“Estonia blames Russia for arson attack on defense company”。"
+          "09月30日 14:53 UTC，BBC World报道：“Russia launches largest attack on Ukraine energy infrastructure since spring”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1256,34 +977,163 @@
       },
       "articles": [
         {
-          "article_id": "art_94bd4f77bb9b28bc131d",
-          "url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_campaign=rss&at_medium=RSS",
-          "title": "Estonia blames Russia for arson at defence company supplying Ukraine",
-          "summary": "Russia has been accused of launching sabotage attacks across a number of European Nato countries which have been helping Ukraine.",
+          "article_id": "art_e60c04aa848085ec01c1",
+          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_campaign=rss&at_medium=RSS",
+          "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+          "summary": "In total 11 regions of the country were attacked overnight, with residential buildings and railways also targeted, the Ukrainian PM says.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-09-29T19:36:41+00:00",
-          "fetched_at": "2026-09-30T08:34:46.372897+00:00",
+          "published_at": "2026-09-30T14:53:02+00:00",
+          "fetched_at": "2026-09-30T15:57:07.365454+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40f7/live/b696a7d0-bbfe-11f1-90b9-913e4354ed35.jpg"
-        },
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cc3/live/0f9ce800-bcc0-11f1-babe-4199b0e7ccea.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_89927d7564060e3f62f2",
+      "title": "Why is Hegseth cutting 20 percent of US general and admiral positions?",
+      "category": "军事安全",
+      "score": 61.8,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.8,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-30T14:35:47+00:00",
+      "last_updated": "2026-09-30T14:35:47+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "hegseth",
+        "cutting",
+        "percent",
+        "general",
+        "admiral",
+        "positions",
+        "overhaul",
+        "could"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why is Hegseth cutting 20 percent of US general and admiral positions?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Why",
+          "Hegseth",
+          "US"
+        ],
+        "latest_progress": [
+          "09月30日 14:35 UTC，Al Jazeera报道：“Why is Hegseth cutting 20 percent of US general and admiral positions?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
-          "article_id": "art_43018fdef12d365493b8",
-          "url": "https://www.dw.com/en/estonia-blames-russia-for-arson-attack-on-defense-company/a-79478937?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/estonia-blames-russia-for-arson-attack-on-defense-company/a-79478937?maca=en-rss-en-top-1022-rdf",
-          "title": "Estonia blames Russia for arson attack on defense company",
-          "summary": "The Estonian government accused Moscow of an \"act of sabotage\" that is part of Russia's broader campaign across Europe. The Baltic state has received support from EU and NATO leaders.",
-          "source": "DW Top Stories",
+          "article_id": "art_99540a0903c4d9ebc3bb",
+          "url": "https://www.aljazeera.com/news/2026/9/30/why-is-hegseth-cutting-20-percent-of-us-general-and-admiral-positions?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/why-is-hegseth-cutting-20-percent-of-us-general-and-admiral-positions?traffic_source=rss",
+          "title": "Why is Hegseth cutting 20 percent of US general and admiral positions?",
+          "summary": "The overhaul could reshape the US military as Hegseth faces scrutiny over senior officers’ removal.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-29T18:08:00+00:00",
-          "fetched_at": "2026-09-30T08:34:46.572890+00:00",
+          "published_at": "2026-09-30T14:35:47+00:00",
+          "fetched_at": "2026-09-30T15:57:08.141102+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_965aa866607df6b48d0d",
+      "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
+      "category": "社会突发",
+      "score": 61.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-30T15:29:11+00:00",
+      "last_updated": "2026-09-30T15:29:11+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "pike",
+        "execution",
+        "murderer",
+        "christa",
+        "halted",
+        "shortly",
+        "before",
+        "due"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的社会突发事件为“Execution of US murderer Christa Pike halted shortly before it was due to happen”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Execution",
+          "US",
+          "Christa Pike"
+        ],
+        "latest_progress": [
+          "09月30日 15:29 UTC，BBC World报道：“Execution of US murderer Christa Pike halted shortly before it was due to happen”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4d507ba9999d6293dffd",
+          "url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_campaign=rss&at_medium=RSS",
+          "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
+          "summary": "Pike was convicted and sentenced to death in 1996 for the murder of Colleen Slemmer.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-30T15:29:11+00:00",
+          "fetched_at": "2026-09-30T15:57:07.365335+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7cd/live/e4a1ffd0-bbdb-11f1-bd21-bdf910f2cec6.jpg"
         }
       ]
     }
