@@ -1,28 +1,300 @@
 {
-  "generated_at": "2026-09-29T21:26:07.464289+00:00",
+  "generated_at": "2026-09-30T01:19:28.936582+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 138,
-    "articles_unique": 138,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 190,
+    "articles_unique": 189,
+    "errors": []
   },
   "events": [
+    {
+      "event_id": "evt_6b7263f864ad5cd83e12",
+      "title": "Iran war live: Trump claims war will end ‘very soon’, gives no details",
+      "category": "军事安全",
+      "score": 83.1,
+      "score_breakdown": {
+        "coverage": 19.5,
+        "source_diversity": 14.4,
+        "region_diversity": 5.0,
+        "recency": 20.8,
+        "credibility": 8.3,
+        "impact": 13.0,
+        "velocity": 2.1
+      },
+      "first_seen": "2026-09-28T05:00:00+00:00",
+      "last_updated": "2026-09-30T00:00:00+00:00",
+      "source_count": 4,
+      "article_count": 6,
+      "sources": [
+        "Al Jazeera",
+        "baomoi.com",
+        "vietnamnet.vn",
+        "vneconomy.vn"
+      ],
+      "regions": [
+        "Middle East",
+        "Vietnam"
+      ],
+      "keywords": [
+        "iran",
+        "trump",
+        "sau",
+        "war",
+        "gia",
+        "chi",
+        "tranh",
+        "sanctions"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、baomoi.com、vietnamnet.vn、vneconomy.vn等来源的6篇报道，当前关注的军事安全事件为“Iran war live: Trump claims war will end ‘very soon’, gives no details”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "Trump",
+          "US"
+        ],
+        "latest_progress": [
+          "09月30日 00:00 UTC，Al Jazeera报道：“Iran war live: Trump claims war will end ‘very soon’, gives no details”。",
+          "09月29日 20:48 UTC，Al Jazeera报道：“US sanctions 10 entities for allegedly supporting Iran’s military”。",
+          "09月29日 13:15 UTC，baomoi.com报道：“Iran cảnh báo về cái giá của chiến tranh nếu tái diễn”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d08408ad35a4bd147b7d",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/9/30/iran-war-live-trump-claims-war-will-end-very-soon-provides-no-details?traffic_source=rss",
+          "title": "Iran war live: Trump claims war will end ‘very soon’, gives no details",
+          "summary": "US President Donald Trump reiterates that Tehran will not have a nuclear weapon.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-30T00:00:00+00:00",
+          "fetched_at": "2026-09-30T01:19:27.216493+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c4a36666b5b0760daca8",
+          "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
+          "title": "US sanctions 10 entities for allegedly supporting Iran’s military",
+          "summary": "Individuals and firms in China, Pakistan, Turkiye, Iran and Saudi Arabia sanctioned as part of a pressure campaign.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-29T20:48:34+00:00",
+          "fetched_at": "2026-09-30T01:19:27.218614+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_06d176779ad3bfbdcbf3",
+          "url": "https://baomoi.com/iran-canh-bao-ve-cai-gia-cua-chien-tranh-neu-tai-dien-c56159147.epi",
+          "canonical_url": "https://baomoi.com/iran-canh-bao-ve-cai-gia-cua-chien-tranh-neu-tai-dien-c56159147.epi",
+          "title": "Iran cảnh báo về cái giá của chiến tranh nếu tái diễn",
+          "summary": "",
+          "source": "baomoi.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-29T13:15:00+00:00",
+          "fetched_at": "2026-09-30T01:18:57.617355+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://baomoi-photo-fbcrawler.bmcdn.me/w1200_r16x9/2026_09_29_294_56159147/7306ea235d68b436ed79.jpg"
+        },
+        {
+          "article_id": "art_3a8d33b2eaa4be34fe23",
+          "url": "https://baomoi.com/an-y-dang-sau-viec-ong-trump-bac-bo-de-xuat-ngung-ban-moi-cua-iran-c56152704.epi",
+          "canonical_url": "https://baomoi.com/an-y-dang-sau-viec-ong-trump-bac-bo-de-xuat-ngung-ban-moi-cua-iran-c56152704.epi",
+          "title": "Ẩn ý đằng sau việc ông Trump bác bỏ đề xuất ngừng bắn mới của Iran",
+          "summary": "",
+          "source": "baomoi.com",
+          "source_type": "gdelt",
+          "published_at": "2026-09-29T00:15:00+00:00",
+          "fetched_at": "2026-09-30T01:18:57.616564+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://baomoi-photo-fbcrawler.bmcdn.me/w1200_r16x9/2026_09_29_23_56152704/49cbe55f5214bb4ae205.jpg"
+        },
+        {
+          "article_id": "art_3f7b78ca2ab5020f9cba",
+          "url": "https://vietnamnet.vn/an-y-dang-sau-viec-ong-trump-bac-bo-de-xuat-ngung-ban-moi-cua-iran-2559600.html",
+          "canonical_url": "https://vietnamnet.vn/an-y-dang-sau-viec-ong-trump-bac-bo-de-xuat-ngung-ban-moi-cua-iran-2559600.html",
+          "title": "Ẩn ý đằng sau việc ông Trump bác bỏ đề xuất ngừng bắn mới của Iran",
+          "summary": "",
+          "source": "vietnamnet.vn",
+          "source_type": "gdelt",
+          "published_at": "2026-09-29T00:00:00+00:00",
+          "fetched_at": "2026-09-30T01:18:57.616495+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/9/28/an-y-dang-sau-viec-ong-trump-bac-bo-de-xuat-ngung-ban-moi-cua-iran-3504.jpg?&s=BdTH7BPX7ZSq6vUA4ALITg"
+        },
+        {
+          "article_id": "art_f7f14ff18f8db88f609c",
+          "url": "https://vneconomy.vn/tong-thong-trump-tu-choi-de-xuat-ngung-ban-cua-iran-tehran-tuyen-bo-khong-nhuong-bo.htm",
+          "canonical_url": "https://vneconomy.vn/tong-thong-trump-tu-choi-de-xuat-ngung-ban-cua-iran-tehran-tuyen-bo-khong-nhuong-bo.htm",
+          "title": "Tổng thống Trump bác đề xuất ngừng bắn của Iran , căng thẳng gia tăng",
+          "summary": "",
+          "source": "vneconomy.vn",
+          "source_type": "gdelt",
+          "published_at": "2026-09-28T05:00:00+00:00",
+          "fetched_at": "2026-09-30T01:18:57.618893+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://premedia.vneconomy.vn/files/uploads/2026/09/28/07a45ae18c684f4584aa28f672b18730-122193.png?&mode=crop"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d52efd0487ddc4bef01e",
+      "title": "Spain protests: Evicted 87-year-old woman to return to Madrid home",
+      "category": "社会突发",
+      "score": 75.9,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 18.4,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 1.6
+      },
+      "first_seen": "2026-09-28T07:20:18+00:00",
+      "last_updated": "2026-09-29T21:02:02+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "housing",
+        "crisis",
+        "eviction",
+        "year-old",
+        "protests",
+        "madrid",
+        "spain",
+        "spain's"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的社会突发事件为“Spain protests: Evicted 87-year-old woman to return to Madrid home”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Spain",
+          "Evicted",
+          "Madrid",
+          "Eviction"
+        ],
+        "latest_progress": [
+          "09月29日 21:02 UTC，Al Jazeera报道：“Spain protests: Evicted 87-year-old woman to return to Madrid home”。",
+          "09月29日 18:57 UTC，Al Jazeera报道：“Madrid residents feel the impact of Spain’s housing crisis”。",
+          "09月29日 12:01 UTC，DW Top Stories报道：“Spain agrees on measures to fix housing crisis, ban eviction”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_aa4274821eb2defaeb72",
+          "url": "https://www.aljazeera.com/news/2026/9/29/spain-protests-evicted-87-year-old-woman-to-return-to-madrid-home?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/29/spain-protests-evicted-87-year-old-woman-to-return-to-madrid-home?traffic_source=rss",
+          "title": "Spain protests: Evicted 87-year-old woman to return to Madrid home",
+          "summary": "The real estate firm backs down and restores her old rent after mass protests over Spain's housing crisis.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-29T21:02:02+00:00",
+          "fetched_at": "2026-09-30T01:19:27.218385+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_86f29726ff652d6f6111",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/madrid-residents-feel-the-impact-of-spains-housing-crisis?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/madrid-residents-feel-the-impact-of-spains-housing-crisis?traffic_source=rss",
+          "title": "Madrid residents feel the impact of Spain’s housing crisis",
+          "summary": "Spain’s housing crisis is deepening as soaring rents and a shortage of homes put affordable housing out of reach.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-29T18:57:52+00:00",
+          "fetched_at": "2026-09-30T01:19:27.219195+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7d4c33e734944a12fc84",
+          "url": "https://www.dw.com/en/spain-agrees-on-measures-to-fix-housing-crisis-ban-eviction/a-79467953?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/spain-agrees-on-measures-to-fix-housing-crisis-ban-eviction/a-79467953?maca=en-rss-en-top-1022-rdf",
+          "title": "Spain agrees on measures to fix housing crisis, ban eviction",
+          "summary": "Spain's cabinet ministers said they have consensus on new measures to curb the housing crisis in the country after the eviction of 87-year-old Maricarmen last week from her apartment sparked protests.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-09-29T12:01:00+00:00",
+          "fetched_at": "2026-09-30T01:19:26.828982+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_617bfc057639ab9c83dc",
+          "url": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
+          "canonical_url": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
+          "title": "Eviction of 87-year-old sparks protests in Madrid over housing crisis",
+          "summary": "Tens of thousands marched through Madrid on Saturday to protest Spain's housing crisis and the eviction of an 87-year-old woman, camping overnight in Madrid's historic Puerta del Sol plaza.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-28T07:20:18+00:00",
+          "fetched_at": "2026-09-30T01:19:27.048328+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
     {
       "event_id": "evt_0c9d0bd9992203c7f572",
       "title": "US ban on $1bn of Canadian goods takes effect in Trump’s latest retaliation",
       "category": "经济金融",
-      "score": 77.1,
+      "score": 73.9,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.8,
+        "recency": 17.7,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
@@ -82,7 +354,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-09-29T20:08:33+00:00",
-          "fetched_at": "2026-09-29T21:26:06.063508+00:00",
+          "fetched_at": "2026-09-30T01:19:27.218743+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -97,7 +369,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-09-29T13:38:06+00:00",
-          "fetched_at": "2026-09-29T21:26:05.212621+00:00",
+          "fetched_at": "2026-09-30T01:19:26.154474+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -112,226 +384,9 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-09-29T11:18:00+00:00",
-          "fetched_at": "2026-09-29T21:26:05.597348+00:00",
+          "fetched_at": "2026-09-30T01:19:26.829269+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_957369f7795f9535ebbd",
-      "title": "First female prime minister named in Morocco after winning elections",
-      "category": "国际政治",
-      "score": 76.2,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.7,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-29T17:14:10+00:00",
-      "last_updated": "2026-09-29T19:56:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "morocco",
-        "woman",
-        "first",
-        "prime",
-        "minister",
-        "king",
-        "fatima",
-        "mansouri"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“First female prime minister named in Morocco after winning elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Morocco",
-          "King",
-          "Fatima Ezzahra El Mansouri",
-          "PM",
-          "First"
-        ],
-        "latest_progress": [
-          "09月29日 19:56 UTC，DW Top Stories报道：“Morocco: King appoints first woman prime minister”。",
-          "09月29日 18:10 UTC，Al Jazeera报道：“Morocco’s king names Fatima Ezzahra El Mansouri first woman PM”。",
-          "09月29日 17:14 UTC，BBC World报道：“First female prime minister named in Morocco after winning elections”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a01abe6b5e833dae9263",
-          "url": "https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722?maca=en-rss-en-top-1022-rdf",
-          "title": "Morocco: King appoints first woman prime minister",
-          "summary": "The appointment of Fatima Zahra Mansouri comes after her center-right party won last week's parliamentary elections in Morocco. She had previously served as mayor of the city of Marrakesh.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-09-29T19:56:00+00:00",
-          "fetched_at": "2026-09-29T21:26:05.595637+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_71d8e37ba88f402f49b4",
-          "url": "https://www.aljazeera.com/news/2026/9/29/truly-historic-moroccos-king-appoints-first-woman-prime-minister?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/29/truly-historic-moroccos-king-appoints-first-woman-prime-minister?traffic_source=rss",
-          "title": "Morocco’s king names Fatima Ezzahra El Mansouri first woman PM",
-          "summary": "Fatima Ezzahra El Mansouri becomes the second woman to serve as prime minister in the Arab world.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-29T18:10:37+00:00",
-          "fetched_at": "2026-09-29T21:26:06.064611+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_54c44aeb4560a83dc284",
-          "url": "https://www.bbc.co.uk/news/articles/c674kkjllw17o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c674kkjllw17o?at_campaign=rss&at_medium=RSS",
-          "title": "First female prime minister named in Morocco after winning elections",
-          "summary": "Her appointment by the king makes her only the second woman to lead a government in the Arab world.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-29T17:14:10+00:00",
-          "fetched_at": "2026-09-29T21:26:05.210780+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89e1/live/1f6a3b30-b8f5-11f1-bd4a-e9ce4be469f6.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d52efd0487ddc4bef01e",
-      "title": "Madrid residents feel the impact of Spain’s housing crisis",
-      "category": "社会突发",
-      "score": 74.7,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 19.8,
-        "credibility": 9.7,
-        "impact": 11.7,
-        "velocity": 1.3
-      },
-      "first_seen": "2026-09-28T07:20:18+00:00",
-      "last_updated": "2026-09-29T18:57:52+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "housing",
-        "crisis",
-        "eviction",
-        "year-old",
-        "madrid",
-        "spain",
-        "protests",
-        "spain's"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的社会突发事件为“Madrid residents feel the impact of Spain’s housing crisis”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Madrid",
-          "Spain",
-          "Eviction"
-        ],
-        "latest_progress": [
-          "09月29日 18:57 UTC，Al Jazeera报道：“Madrid residents feel the impact of Spain’s housing crisis”。",
-          "09月29日 12:01 UTC，DW Top Stories报道：“Spain agrees on measures to fix housing crisis, ban eviction”。",
-          "09月28日 07:20 UTC，NPR World报道：“Eviction of 87-year-old sparks protests in Madrid over housing crisis”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_86f29726ff652d6f6111",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/madrid-residents-feel-the-impact-of-spains-housing-crisis?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/madrid-residents-feel-the-impact-of-spains-housing-crisis?traffic_source=rss",
-          "title": "Madrid residents feel the impact of Spain’s housing crisis",
-          "summary": "Spain’s housing crisis is deepening as soaring rents and a shortage of homes put affordable housing out of reach.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-29T18:57:52+00:00",
-          "fetched_at": "2026-09-29T21:26:06.064150+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7d4c33e734944a12fc84",
-          "url": "https://www.dw.com/en/spain-agrees-on-measures-to-fix-housing-crisis-ban-eviction/a-79467953?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/spain-agrees-on-measures-to-fix-housing-crisis-ban-eviction/a-79467953?maca=en-rss-en-top-1022-rdf",
-          "title": "Spain agrees on measures to fix housing crisis, ban eviction",
-          "summary": "Spain's cabinet ministers said they have consensus on new measures to curb the housing crisis in the country after the eviction of 87-year-old Maricarmen last week from her apartment sparked protests.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-09-29T12:01:00+00:00",
-          "fetched_at": "2026-09-29T21:26:05.596957+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_617bfc057639ab9c83dc",
-          "url": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
-          "canonical_url": "https://www.npr.org/2026/09/28/nx-s1-5983303/encampment-protest-madrid-housing-crisis",
-          "title": "Eviction of 87-year-old sparks protests in Madrid over housing crisis",
-          "summary": "Tens of thousands marched through Madrid on Saturday to protest Spain's housing crisis and the eviction of an 87-year-old woman, camping overnight in Madrid's historic Puerta del Sol plaza.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-09-28T07:20:18+00:00",
-          "fetched_at": "2026-09-29T21:26:05.894777+00:00",
-          "language": "en",
-          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
@@ -341,12 +396,12 @@
       "event_id": "evt_efac250cc50a831b705e",
       "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate – Winnipeg Free Press",
       "category": "科技AI",
-      "score": 74.5,
+      "score": 73.4,
       "score_breakdown": {
         "coverage": 22.0,
         "source_diversity": 18.0,
         "region_diversity": 5.0,
-        "recency": 7.2,
+        "recency": 6.2,
         "credibility": 7.5,
         "impact": 9.8,
         "velocity": 5.0
@@ -427,7 +482,7 @@
           "source": "citizensvoice.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T18:45:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813524+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961490+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -442,7 +497,7 @@
           "source": "mcall.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T18:15:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813160+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961224+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -457,7 +512,7 @@
           "source": "nypost.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T18:15:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.815785+00:00",
+          "fetched_at": "2026-09-30T01:19:25.963100+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -472,7 +527,7 @@
           "source": "capitalgazette.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T17:00:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.814105+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961914+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -487,7 +542,7 @@
           "source": "eastbaytimes.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T16:45:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813250+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961286+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -502,7 +557,7 @@
           "source": "dailylocal.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:45:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813893+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961775+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -517,7 +572,7 @@
           "source": "theoaklandpress.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813709+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961628+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -532,7 +587,7 @@
           "source": "fox17.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:30:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.814882+00:00",
+          "fetched_at": "2026-09-30T01:19:25.962461+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -547,7 +602,7 @@
           "source": "wset.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T15:00:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.814608+00:00",
+          "fetched_at": "2026-09-30T01:19:25.962264+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -562,7 +617,7 @@
           "source": "ktul.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T14:15:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.815519+00:00",
+          "fetched_at": "2026-09-30T01:19:25.962852+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -577,7 +632,7 @@
           "source": "wcyb.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T13:15:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.815082+00:00",
+          "fetched_at": "2026-09-30T01:19:25.962583+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -592,7 +647,7 @@
           "source": "cbs12.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T13:15:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.815699+00:00",
+          "fetched_at": "2026-09-30T01:19:25.962976+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -607,7 +662,7 @@
           "source": "wsbradio.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T07:00:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813800+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961694+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -622,7 +677,7 @@
           "source": "wral.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:30:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.812962+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961089+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -637,7 +692,7 @@
           "source": "clickorlando.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:30:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813436+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961428+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -652,7 +707,7 @@
           "source": "wsls.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:30:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813612+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961561+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -667,7 +722,7 @@
           "source": "niagarafallsreview.ca",
           "source_type": "gdelt",
           "published_at": "2026-09-28T06:00:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.814310+00:00",
+          "fetched_at": "2026-09-30T01:19:25.962049+00:00",
           "language": "English",
           "region": "Canada",
           "source_weight": 0.75,
@@ -682,7 +737,7 @@
           "source": "kob.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T04:15:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813339+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961360+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -697,7 +752,7 @@
           "source": "clickondetroit.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T02:45:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.813067+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961159+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -712,7 +767,7 @@
           "source": "winnipegfreepress.com",
           "source_type": "gdelt",
           "published_at": "2026-09-28T02:45:00+00:00",
-          "fetched_at": "2026-09-29T21:26:04.814016+00:00",
+          "fetched_at": "2026-09-30T01:19:25.961850+00:00",
           "language": "English",
           "region": "Canada",
           "source_weight": 0.75,
@@ -721,15 +776,214 @@
       ]
     },
     {
-      "event_id": "evt_0a0e53ad9afefe10b84f",
-      "title": "What we know about RAF Fairford ‘bomb plot’",
-      "category": "军事安全",
-      "score": 71.7,
+      "event_id": "evt_c2ce357172fd8a05d994",
+      "title": "French students clash with police as protests over education cuts spread",
+      "category": "国际政治",
+      "score": 71.2,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.5,
+        "recency": 19.1,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-29T21:09:23+00:00",
+      "last_updated": "2026-09-29T21:55:13+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "students",
+        "protests",
+        "france",
+        "french",
+        "school",
+        "schools",
+        "across",
+        "conditions"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的国际政治事件为“French students clash with police as protests over education cuts spread”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "More",
+          "France",
+          "Fires",
+          "France French"
+        ],
+        "latest_progress": [
+          "09月29日 21:55 UTC，BBC World报道：“More than 400 detained as France student protests escalate”。",
+          "09月29日 21:53 UTC，BBC World报道：“Fires and blockades as students stage school protests across France”。",
+          "09月29日 21:09 UTC，Al Jazeera报道：“French students clash with police as protests over education cuts spread”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_57e88350e64d520ed0c3",
+          "url": "https://www.bbc.co.uk/news/articles/c862epne7glyo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c862epne7glyo?at_campaign=rss&at_medium=RSS",
+          "title": "More than 400 detained as France student protests escalate",
+          "summary": "Students have been protesting conditions and resources in high schools since last week.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-29T21:55:13+00:00",
+          "fetched_at": "2026-09-30T01:19:26.152840+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d901/live/a477e710-bc46-11f1-a76b-c53c7866f2b5.jpg"
+        },
+        {
+          "article_id": "art_5a592a19ae595ebadd19",
+          "url": "https://www.bbc.co.uk/news/videos/cmy0zey3ey2lo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmy0zey3ey2lo?at_campaign=rss&at_medium=RSS",
+          "title": "Fires and blockades as students stage school protests across France",
+          "summary": "More than 400 people, mainly minors, were arrested on Tuesday, the country's interior minister says.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-29T21:53:36+00:00",
+          "fetched_at": "2026-09-30T01:19:26.155163+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d63/live/fbaef680-bc4c-11f1-bc1f-3f186ca4140c.jpg"
+        },
+        {
+          "article_id": "art_eb6ed70939ac5dd051b1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/french-students-clash-with-police-as-protests-over-education-cuts-spread?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/french-students-clash-with-police-as-protests-over-education-cuts-spread?traffic_source=rss",
+          "title": "French students clash with police as protests over education cuts spread",
+          "summary": "French school students have blocked schools across France, demanding better learning conditions.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-29T21:09:23+00:00",
+          "fetched_at": "2026-09-30T01:19:27.218158+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ead9f1d81df15c30d2e5",
+      "title": "Iraq begins high-stakes security balancing act as US troops withdraw",
+      "category": "军事安全",
+      "score": 68.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.1,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 2.5
+      },
+      "first_seen": "2026-09-29T11:08:00+00:00",
+      "last_updated": "2026-09-29T23:06:53+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "iraq",
+        "troops",
+        "security",
+        "withdraw",
+        "sovereignty",
+        "iraqi",
+        "us-led",
+        "operation"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Iraq begins high-stakes security balancing act as US troops withdraw”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iraq",
+          "US",
+          "Iraqi",
+          "Operation Inherent Resolve",
+          "ISIS"
+        ],
+        "latest_progress": [
+          "09月29日 23:06 UTC，Al Jazeera报道：“Iraq begins high-stakes security balancing act as US troops withdraw”。",
+          "09月29日 11:08 UTC，DW Top Stories报道：“Iraq: US troops withdraw from their Iraqi US-led Operation Inherent Resolve mission against ISIS after 12 years”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_6dffb670f760120cce46",
+          "url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw?traffic_source=rss",
+          "title": "Iraq begins high-stakes security balancing act as US troops withdraw",
+          "summary": "Iraq marks national 'Sovereignty Days' as US troops depart, but must navigate risks of new security landscape.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-29T23:06:53+00:00",
+          "fetched_at": "2026-09-30T01:19:27.217342+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2654f2e7fa5f2af97bc5",
+          "url": "https://www.dw.com/en/iraq-us-troops-withdraw-from-their-iraqi-us-led-operation-inherent-resolve-mission-against-isis-after-12-years/a-79462926?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/iraq-us-troops-withdraw-from-their-iraqi-us-led-operation-inherent-resolve-mission-against-isis-after-12-years/a-79462926?maca=en-rss-en-top-1022-rdf",
+          "title": "Iraq: US troops withdraw from their Iraqi US-led Operation Inherent Resolve mission against ISIS after 12 years",
+          "summary": "As the US completes its military withdrawal from Iraq, Baghdad declares a new era of sovereignty. But as US troops leave, questions remain over militias, foreign forces and the country's future security.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-09-29T11:08:00+00:00",
+          "fetched_at": "2026-09-30T01:19:26.829363+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0a0e53ad9afefe10b84f",
+      "title": "What we know about RAF Fairford ‘bomb plot’",
+      "category": "军事安全",
+      "score": 68.4,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.3,
         "credibility": 9.7,
         "impact": 13.0,
         "velocity": 1.4
@@ -791,7 +1045,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-09-29T20:55:20+00:00",
-          "fetched_at": "2026-09-29T21:26:06.063172+00:00",
+          "fetched_at": "2026-09-30T01:19:27.218500+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -806,7 +1060,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-09-28T22:10:02+00:00",
-          "fetched_at": "2026-09-29T21:26:05.894340+00:00",
+          "fetched_at": "2026-09-30T01:19:27.047949+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -821,7 +1075,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-09-28T12:15:05+00:00",
-          "fetched_at": "2026-09-29T21:26:05.894493+00:00",
+          "fetched_at": "2026-09-30T01:19:27.048079+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -833,12 +1087,12 @@
       "event_id": "evt_3681a0d26effcf61adb8",
       "title": "Israeli settlers attack West Bank village and block Palestinian family's return home",
       "category": "军事安全",
-      "score": 70.8,
+      "score": 67.8,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.8,
+        "recency": 16.8,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 4.8
@@ -897,7 +1151,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-09-29T18:51:30+00:00",
-          "fetched_at": "2026-09-29T21:26:06.064301+00:00",
+          "fetched_at": "2026-09-30T01:19:27.219306+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -912,7 +1166,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-09-29T12:39:18+00:00",
-          "fetched_at": "2026-09-29T21:26:05.210421+00:00",
+          "fetched_at": "2026-09-30T01:19:26.152689+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -924,12 +1178,12 @@
       "event_id": "evt_494ad3b7742ba9790419",
       "title": "Journalist crowned king in Uganda after bitter succession dispute",
       "category": "国际政治",
-      "score": 70.3,
+      "score": 67.2,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.9,
+        "recency": 17.7,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -988,7 +1242,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-09-29T20:09:27+00:00",
-          "fetched_at": "2026-09-29T21:26:05.213683+00:00",
+          "fetched_at": "2026-09-30T01:19:26.155050+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -1003,7 +1257,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-09-29T19:35:19+00:00",
-          "fetched_at": "2026-09-29T21:26:05.213996+00:00",
+          "fetched_at": "2026-09-30T01:19:26.155272+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -1018,7 +1272,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-09-29T14:48:00+00:00",
-          "fetched_at": "2026-09-29T21:26:05.596198+00:00",
+          "fetched_at": "2026-09-30T01:19:26.828371+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -1027,172 +1281,12 @@
       ]
     },
     {
-      "event_id": "evt_b0da5fb5c16a2d899e63",
-      "title": "Estonia blames Russia for arson at defence company supplying Ukraine",
+      "event_id": "evt_cd5d3f537e758de8ded2",
+      "title": "‘Nothing is justifying this’: Qatar’s PM slams Israel’s atrocities in Gaza",
       "category": "军事安全",
-      "score": 68.8,
+      "score": 65.8,
       "score_breakdown": {
         "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 20.4,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-29T18:08:00+00:00",
-      "last_updated": "2026-09-29T19:36:41+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "russia",
-        "estonia",
-        "blames",
-        "arson",
-        "company",
-        "accused",
-        "sabotage",
-        "across"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Estonia blames Russia for arson at defence company supplying Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Estonia",
-          "Russia",
-          "Ukraine Estonia"
-        ],
-        "latest_progress": [
-          "09月29日 19:36 UTC，BBC World报道：“Estonia blames Russia for arson at defence company supplying Ukraine”。",
-          "09月29日 18:08 UTC，DW Top Stories报道：“Estonia blames Russia for arson attack on defense company”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_94bd4f77bb9b28bc131d",
-          "url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_campaign=rss&at_medium=RSS",
-          "title": "Estonia blames Russia for arson at defence company supplying Ukraine",
-          "summary": "Russia has been accused of launching sabotage attacks across a number of European Nato countries which have been helping Ukraine.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-29T19:36:41+00:00",
-          "fetched_at": "2026-09-29T21:26:05.211417+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40f7/live/b696a7d0-bbfe-11f1-90b9-913e4354ed35.jpg"
-        },
-        {
-          "article_id": "art_43018fdef12d365493b8",
-          "url": "https://www.dw.com/en/estonia-blames-russia-for-arson-attack-on-defense-company/a-79478937?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/estonia-blames-russia-for-arson-attack-on-defense-company/a-79478937?maca=en-rss-en-top-1022-rdf",
-          "title": "Estonia blames Russia for arson attack on defense company",
-          "summary": "The Estonian government accused Moscow of an \"act of sabotage\" that is part of Russia's broader campaign across Europe. The Baltic state has received support from EU and NATO leaders.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-09-29T18:08:00+00:00",
-          "fetched_at": "2026-09-29T21:26:05.595781+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_8ffa6fe86b1f9965e3da",
-      "title": "US sanctions 10 entities for allegedly supporting Iran’s military",
-      "category": "军事安全",
-      "score": 62.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-29T20:48:34+00:00",
-      "last_updated": "2026-09-29T20:48:34+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "iran",
-        "sanctions",
-        "entities",
-        "allegedly",
-        "supporting",
-        "military",
-        "individuals",
-        "firms"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“US sanctions 10 entities for allegedly supporting Iran’s military”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US",
-          "Iran"
-        ],
-        "latest_progress": [
-          "09月29日 20:48 UTC，Al Jazeera报道：“US sanctions 10 entities for allegedly supporting Iran’s military”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c4a36666b5b0760daca8",
-          "url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/29/us-sanctions-10-entities-for-allegedly-supporting-irans-military?traffic_source=rss",
-          "title": "US sanctions 10 entities for allegedly supporting Iran’s military",
-          "summary": "Individuals and firms in China, Pakistan, Turkiye, Iran and Saudi Arabia sanctioned as part of a pressure campaign.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-29T20:48:34+00:00",
-          "fetched_at": "2026-09-29T21:26:06.063341+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c3bf0e6fa63761c34189",
-      "title": "US troops fully withdraw from Baghdad base after two decades",
-      "category": "军事安全",
-      "score": 61.8,
-      "score_breakdown": {
-        "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
         "recency": 20.7,
@@ -1200,10 +1294,10 @@
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-29T20:00:31+00:00",
-      "last_updated": "2026-09-29T20:00:31+00:00",
+      "first_seen": "2026-09-29T20:05:41+00:00",
+      "last_updated": "2026-09-29T23:49:18+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "sources": [
         "Al Jazeera"
       ],
@@ -1211,24 +1305,29 @@
         "Middle East"
       ],
       "keywords": [
-        "fully",
-        "baghdad",
-        "base",
-        "troops",
-        "withdraw",
-        "two",
+        "gaza",
+        "israel",
+        "broken",
+        "consensus",
         "decades",
-        "army"
+        "untouchable",
+        "washington",
+        "changed"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“US troops fully withdraw from Baghdad base after two decades”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“‘Nothing is justifying this’: Qatar’s PM slams Israel’s atrocities in Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "US",
-          "Baghdad"
+          "Nothing",
+          "Qatar",
+          "PM",
+          "Israel",
+          "Gaza Has Gaza",
+          "US"
         ],
         "latest_progress": [
-          "09月29日 20:00 UTC，Al Jazeera报道：“US troops fully withdraw from Baghdad base after two decades”。"
+          "09月29日 23:49 UTC，Al Jazeera报道：“‘Nothing is justifying this’: Qatar’s PM slams Israel’s atrocities in Gaza”。",
+          "09月29日 20:05 UTC，Al Jazeera报道：“Has Gaza broken the Israel consensus in the US?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1241,15 +1340,30 @@
       },
       "articles": [
         {
-          "article_id": "art_741f39696da8d51ee56e",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/us-troops-fully-withdraw-from-baghdad-base-after-two-decades?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/us-troops-fully-withdraw-from-baghdad-base-after-two-decades?traffic_source=rss",
-          "title": "US troops fully withdraw from Baghdad base after two decades",
-          "summary": "US Army soldiers have fully withdrawn from the US base in Baghdad.",
+          "article_id": "art_371dda199451cea1c8ef",
+          "url": "https://www.aljazeera.com/news/2026/9/29/nothing-is-justifying-this-qatari-pm-slams-atrocities-in-gaza?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/29/nothing-is-justifying-this-qatari-pm-slams-atrocities-in-gaza?traffic_source=rss",
+          "title": "‘Nothing is justifying this’: Qatar’s PM slams Israel’s atrocities in Gaza",
+          "summary": "Qatar's top diplomat says Israel has undermined Doha's efforts to broker a ceasefire in Gaza from 'day one'.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-29T20:00:31+00:00",
-          "fetched_at": "2026-09-29T21:26:06.063812+00:00",
+          "published_at": "2026-09-29T23:49:18+00:00",
+          "fetched_at": "2026-09-30T01:19:27.216807+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8304765cc079f202e91c",
+          "url": "https://www.aljazeera.com/video/lets-focus/2026/9/29/has-gaza-broken-the-israel-consensus-in-the-us?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/lets-focus/2026/9/29/has-gaza-broken-the-israel-consensus-in-the-us?traffic_source=rss",
+          "title": "Has Gaza broken the Israel consensus in the US?",
+          "summary": "For decades, Israel was untouchable in Washington. Gaza changed that. Josh Rushing investigates how and what comes next.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-29T20:05:41+00:00",
+          "fetched_at": "2026-09-30T01:19:27.218860+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
