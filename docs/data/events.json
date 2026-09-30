@@ -1,31 +1,36 @@
 {
-  "generated_at": "2026-09-30T15:57:11.825736+00:00",
+  "generated_at": "2026-09-30T20:49:52.153647+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 181,
-    "articles_unique": 180,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 136,
+    "articles_unique": 135,
+    "errors": [
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_a6d00afe8ae9430a03fd",
-      "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
-      "category": "军事安全",
-      "score": 88.2,
+      "event_id": "evt_cee7338ed878ddaa01b2",
+      "title": "Netanyahu praises stabbed Indian pilot for saving lives on Flydubai flight",
+      "category": "国际政治",
+      "score": 87.6,
       "score_breakdown": {
-        "coverage": 19.5,
+        "coverage": 17.9,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 19.1,
+        "recency": 21.9,
         "credibility": 9.8,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-30T06:22:00+00:00",
-      "last_updated": "2026-09-30T12:33:05+00:00",
+      "first_seen": "2026-09-30T13:35:11+00:00",
+      "last_updated": "2026-09-30T20:44:12+00:00",
       "source_count": 4,
-      "article_count": 6,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -38,32 +43,172 @@
         "North America"
       ],
       "keywords": [
+        "pilot",
+        "flight",
+        "flydubai",
+        "crash",
+        "israel",
+        "emergency",
+        "stabbed",
+        "another"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“Netanyahu praises stabbed Indian pilot for saving lives on Flydubai flight”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "What",
+          "Flydubai",
+          "Israel Netanyahu",
+          "Indian",
+          "Israel",
+          "Tel Aviv"
+        ],
+        "latest_progress": [
+          "09月30日 20:44 UTC，BBC World报道：“What we know about stabbing on Flydubai flight to Israel”。",
+          "09月30日 19:49 UTC，Al Jazeera报道：“Netanyahu praises stabbed Indian pilot for saving lives on Flydubai flight”。",
+          "09月30日 19:39 UTC，Al Jazeera报道：“Flydubai FZ1073 timeline: How the Israel-bound flight emergency unfolded”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4ff436aef582eea4c68e",
+          "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_campaign=rss&at_medium=RSS",
+          "title": "What we know about stabbing on Flydubai flight to Israel",
+          "summary": "A pilot has been arrested and is being questioned after another pilot was stabbed, officials say.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-30T20:44:12+00:00",
+          "fetched_at": "2026-09-30T20:49:50.241222+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83af/live/a2587eb0-bce4-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_337bdec06d04ab6f2ec5",
+          "url": "https://www.aljazeera.com/news/2026/9/30/netanyahu-praises-indian-pilot-for-saving-lives-on-flydubai-flight?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/netanyahu-praises-indian-pilot-for-saving-lives-on-flydubai-flight?traffic_source=rss",
+          "title": "Netanyahu praises stabbed Indian pilot for saving lives on Flydubai flight",
+          "summary": "The Israeli prime minister thanks 'true hero' Captain Smit Machchhar for 'extraordinary bravery'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-30T19:49:21+00:00",
+          "fetched_at": "2026-09-30T20:49:51.281583+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8e309bfa558c8f7c390a",
+          "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/flydubai-fz1073-timeline-how-the-israel-bound-flight-emergency-unfolded?traffic_source=rss",
+          "title": "Flydubai FZ1073 timeline: How the Israel-bound flight emergency unfolded",
+          "summary": "Flydubai flight diverts to Saudi Arabia after cockpit emergency, as Netanyahu alleges a crash attempt.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-30T19:39:50+00:00",
+          "fetched_at": "2026-09-30T20:49:51.281957+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d199bf29a55e80b4ab43",
+          "url": "https://www.dw.com/en/flydubai-pilot-investigated-over-possible-attempt-to-crash-tel-aviv-bound-flight/a-79484761?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/flydubai-pilot-investigated-over-possible-attempt-to-crash-tel-aviv-bound-flight/a-79484761?maca=en-rss-en-top-1022-rdf",
+          "title": "Flydubai pilot investigated over possible attempt to crash Tel Aviv-bound flight",
+          "summary": "A Flydubai service from the UAE to Israel made an emergency landing after the copilot stabbed the captain. Eyewitnesses said he attempted to crash the plane before he was subdued by passengers.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-09-30T19:13:00+00:00",
+          "fetched_at": "2026-09-30T20:49:50.785338+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2a367b651dc4197b3dbb",
+          "url": "https://www.npr.org/2026/09/30/nx-s1-5985806/flydubai-flight-dubai-tel-aviv-israel",
+          "canonical_url": "https://www.npr.org/2026/09/30/nx-s1-5985806/flydubai-flight-dubai-tel-aviv-israel",
+          "title": "A pilot stabs another pilot and tries to crash their flight to Tel Aviv, Israel says",
+          "summary": "As the plane went into a spin and began to plunge, a passenger and crew members got into the cockpit, subdued the pilot and diverted the flight to land in Saudi Arabia, Israel's leader says.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-09-30T13:35:11+00:00",
+          "fetched_at": "2026-09-30T20:49:51.049029+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a6d00afe8ae9430a03fd",
+      "title": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
+      "category": "军事安全",
+      "score": 74.5,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 15.0,
+        "credibility": 9.6,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-30T06:22:00+00:00",
+      "last_updated": "2026-09-30T11:36:23+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
         "iraq",
         "troops",
         "iran",
-        "withdrawal",
-        "forces",
         "exit",
-        "sovereignty",
-        "withdraw"
+        "withdrawal",
+        "more",
+        "retired",
+        "isis"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Last UK and US troops leave Iraq as anti-Islamic State mission ends”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Last UK and US troops leave Iraq as anti-Islamic State mission ends”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iraq",
-          "US",
-          "National Sovereignty Day",
           "Last",
           "UK",
+          "US",
+          "Iraq",
           "Islamic State",
           "Iran",
-          "And"
+          "And",
+          "SCOTUS"
         ],
         "latest_progress": [
-          "09月30日 12:33 UTC，Al Jazeera报道：“How does Iraq’s security change after US forces withdraw?”。",
-          "09月30日 12:17 UTC，Al Jazeera报道：“Iraq celebrates National Sovereignty Day as US troops withdraw”。",
-          "09月30日 11:36 UTC，BBC World报道：“Last UK and US troops leave Iraq as anti-Islamic State mission ends”。"
+          "09月30日 11:36 UTC，BBC World报道：“Last UK and US troops leave Iraq as anti-Islamic State mission ends”。",
+          "09月30日 11:13 UTC，NPR World报道：“U.S. forces exit Iraq amid Iran war. And, SCOTUS revives Trump deportation policy”。",
+          "09月30日 08:42 UTC，NPR World报道：“Retired general who led troops in Iraq warns U.S. exit may give Iran, ISIS an opening”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -76,36 +221,6 @@
       },
       "articles": [
         {
-          "article_id": "art_70bb2af1f65130c98d18",
-          "url": "https://www.aljazeera.com/news/2026/9/30/how-does-iraqs-security-change-after-us-forces-withdraw?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/how-does-iraqs-security-change-after-us-forces-withdraw?traffic_source=rss",
-          "title": "How does Iraq’s security change after US forces withdraw?",
-          "summary": "Iraq marks US troop withdrawal with 'Sovereignty Days', symbolising a shift after decades of foreign military presence.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-30T12:33:05+00:00",
-          "fetched_at": "2026-09-30T15:57:08.141940+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_72ff6f2612f00196aa21",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/iraq-celebrates-national-sovereignty-day-as-us-troops-withdraw?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/iraq-celebrates-national-sovereignty-day-as-us-troops-withdraw?traffic_source=rss",
-          "title": "Iraq celebrates National Sovereignty Day as US troops withdraw",
-          "summary": "Iraq’s security forces held parades in Baghdad and Najaf to celebrate ‘Sovereignty Day’ as US troops withdraw.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-30T12:17:00+00:00",
-          "fetched_at": "2026-09-30T15:57:08.142020+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
           "article_id": "art_a5233518180669531b1d",
           "url": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_campaign=rss&at_medium=RSS",
@@ -114,7 +229,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-09-30T11:36:23+00:00",
-          "fetched_at": "2026-09-30T15:57:07.365568+00:00",
+          "fetched_at": "2026-09-30T20:49:50.241643+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -129,7 +244,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-09-30T11:13:17+00:00",
-          "fetched_at": "2026-09-30T15:57:07.988791+00:00",
+          "fetched_at": "2026-09-30T20:49:51.049104+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -144,7 +259,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-09-30T08:42:46+00:00",
-          "fetched_at": "2026-09-30T15:57:07.988970+00:00",
+          "fetched_at": "2026-09-30T20:49:51.049245+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -159,7 +274,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-09-30T06:22:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.853937+00:00",
+          "fetched_at": "2026-09-30T20:49:50.786465+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -168,58 +283,53 @@
       ]
     },
     {
-      "event_id": "evt_ae5de44c51c08a8b97d9",
-      "title": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?",
+      "event_id": "evt_bb9b7771b9bb96658f08",
+      "title": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS",
       "category": "军事安全",
-      "score": 83.7,
+      "score": 71.6,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 21.6,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.7,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-30T11:43:35+00:00",
-      "last_updated": "2026-09-30T15:27:26+00:00",
-      "source_count": 3,
-      "article_count": 4,
+      "first_seen": "2026-09-30T17:23:00+00:00",
+      "last_updated": "2026-09-30T19:20:04+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "flydubai",
-        "pilot",
-        "crash",
-        "plane",
-        "flight",
-        "israel",
-        "tel",
-        "tried"
+        "houthis",
+        "saudi",
+        "arabia",
+        "can",
+        "not",
+        "winning",
+        "against",
+        "it's"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“What happened on diverted Flydubai flight from Dubai to Tel Aviv?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "What",
-          "Flydubai",
-          "Dubai",
-          "Tel Aviv",
-          "Israel",
-          "Israeli"
+          "Saudi Arabia",
+          "Houthis",
+          "MBS",
+          "Are"
         ],
         "latest_progress": [
-          "09月30日 15:27 UTC，Al Jazeera报道：“What happened on diverted Flydubai flight from Dubai to Tel Aviv?”。",
-          "09月30日 14:35 UTC，DW Top Stories报道：“Flydubai pilot investigated over possible attempt to crash Tel Aviv-bound flight”。",
-          "09月30日 13:35 UTC，NPR World报道：“Israel says a flydubai pilot tried to crash a plane of mostly Israeli passengers”。"
+          "09月30日 19:20 UTC，Al Jazeera报道：“Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS”。",
+          "09月30日 17:23 UTC，DW Top Stories报道：“Are the Houthis winning against Saudi Arabia?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -232,333 +342,125 @@
       },
       "articles": [
         {
-          "article_id": "art_db3a73a598a3db9ad75a",
-          "url": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
-          "title": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?",
-          "summary": "Israel's prime minister said one of the pilots stabbed the other and then tried to crash the plane.",
+          "article_id": "art_f3324e735f8424f6d7bb",
+          "url": "https://www.aljazeera.com/news/2026/9/30/saudi-crown-prince-says-no-compromise-on-kingdoms-security-against-threats?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/saudi-crown-prince-says-no-compromise-on-kingdoms-security-against-threats?traffic_source=rss",
+          "title": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS",
+          "summary": "Crown Prince Mohammed bin Salman says the kingdom 'will not hesitate to respond firmly to any threat'.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-30T15:27:26+00:00",
-          "fetched_at": "2026-09-30T15:57:08.140617+00:00",
+          "published_at": "2026-09-30T19:20:04+00:00",
+          "fetched_at": "2026-09-30T20:49:51.282116+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_d199bf29a55e80b4ab43",
-          "url": "https://www.dw.com/en/flydubai-pilot-investigated-over-possible-attempt-to-crash-tel-aviv-bound-flight/a-79484761?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/flydubai-pilot-investigated-over-possible-attempt-to-crash-tel-aviv-bound-flight/a-79484761?maca=en-rss-en-top-1022-rdf",
-          "title": "Flydubai pilot investigated over possible attempt to crash Tel Aviv-bound flight",
-          "summary": "A Flydubai service from the UAE to Israel made an emergency landing after one pilot stabbed another. Officials are investigating whether this was a deliberate attempt to crash the plane.",
+          "article_id": "art_dc7b2e99eb5298ed4253",
+          "url": "https://www.dw.com/en/are-the-houthis-winning-against-saudi-arabia/a-79492476?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/are-the-houthis-winning-against-saudi-arabia/a-79492476?maca=en-rss-en-top-1022-rdf",
+          "title": "Are the Houthis winning against Saudi Arabia?",
+          "summary": "It's unclear how the Saudis can defuse the threat presented by the Houthis in next-door Yemen or who they can turn to for help. The US isn't interested, the Europeans are hedging and nobody wants open conflict with Iran.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-09-30T14:35:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.852955+00:00",
+          "published_at": "2026-09-30T17:23:00+00:00",
+          "fetched_at": "2026-09-30T20:49:50.785471+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2a367b651dc4197b3dbb",
-          "url": "https://www.npr.org/2026/09/30/nx-s1-5985806/flydubai-flight-dubai-tel-aviv-israel",
-          "canonical_url": "https://www.npr.org/2026/09/30/nx-s1-5985806/flydubai-flight-dubai-tel-aviv-israel",
-          "title": "Israel says a flydubai pilot tried to crash a plane of mostly Israeli passengers",
-          "summary": "\"As the plane was approaching Israel, one of the pilots stabbed the other pilot and tried to crash the plane with everyone on board,\" but a passenger and crew member broke into the cockpit to stop it.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T13:35:11+00:00",
-          "fetched_at": "2026-09-30T15:57:07.988696+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4cd848915727253eb671",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-flight-to-israel-diverted-after-attack-on-pilot?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-flight-to-israel-diverted-after-attack-on-pilot?traffic_source=rss",
-          "title": "Flydubai flight to Israel diverted after attack on pilot",
-          "summary": "Dramatic video shows the aftermath of an attack on a pilot on a Flydubai flight to the Israeli city of Tel Aviv.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-09-30T11:43:35+00:00",
-          "fetched_at": "2026-09-30T15:57:08.142179+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_6025b625503613670c40",
-      "title": "Trump ha bisogno di anthropic e anthropic ha bisogno di trump – ci sarÀ anche dario amodei ...",
-      "category": "科技AI",
-      "score": 73.2,
+      "event_id": "evt_965aa866607df6b48d0d",
+      "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
+      "category": "社会突发",
+      "score": 68.5,
       "score_breakdown": {
-        "coverage": 22.0,
-        "source_diversity": 18.0,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 5.9,
-        "credibility": 7.5,
-        "impact": 9.8,
+        "recency": 18.6,
+        "credibility": 10.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-28T16:45:00+00:00",
-      "last_updated": "2026-09-29T08:30:00+00:00",
-      "source_count": 13,
-      "article_count": 13,
+      "first_seen": "2026-09-30T15:29:11+00:00",
+      "last_updated": "2026-09-30T16:44:16+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "akronnewsreporter.com",
-        "broomfieldenterprise.com",
-        "capitalgazette.com",
-        "citizensvoice.com",
-        "coloradohometownweekly.com",
-        "dagospia.com",
-        "dailydemocrat.com",
-        "eastbaytimes.com",
-        "fortmorgantimes.com",
-        "mainlinemedianews.com",
-        "mcall.com",
-        "nypost.com",
-        "pottsmerc.com"
+        "Al Jazeera",
+        "BBC World"
       ],
       "regions": [
-        "Italy",
-        "United States"
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
-        "trump",
-        "anthropic",
-        "ceo",
-        "said",
-        "would",
-        "dine",
-        "mounting",
-        "debate"
+        "pike",
+        "christa",
+        "execution",
+        "tennessee",
+        "murderer",
+        "halted",
+        "shortly",
+        "before"
       ],
       "analysis": {
-        "what_happened": "据akronnewsreporter.com、broomfieldenterprise.com、capitalgazette.com、citizensvoice.com等来源的13篇报道，当前关注的科技AI事件为“Trump ha bisogno di anthropic e anthropic ha bisogno di trump – ci sarÀ anche dario amodei ...”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Execution of US murderer Christa Pike halted shortly before it was due to happen”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Trump",
-          "Anthropic",
-          "CEO",
-          "AI",
-          "Dario Amodei"
+          "US",
+          "Tennessee",
+          "Christa Pike Execution",
+          "Christa Pike"
         ],
         "latest_progress": [
-          "09月29日 08:30 UTC，dagospia.com报道：“Trump ha bisogno di anthropic e anthropic ha bisogno di trump – ci sarÀ anche dario amodei ...”。",
-          "09月28日 18:45 UTC，citizensvoice.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。",
-          "09月28日 18:15 UTC，mcall.com报道：“Trump said he would dine with Anthropic CEO amid mounting AI debate”。"
+          "09月30日 16:44 UTC，Al Jazeera报道：“US appeals court halts Tennessee execution of Christa Pike”。",
+          "09月30日 15:29 UTC，BBC World报道：“Execution of US murderer Christa Pike halted shortly before it was due to happen”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_7da7f7990af2e2f52c03",
-          "url": "https://www.dagospia.com/business/trump-bisogno-anthropic-anthropic-bisogno-trump-ci-sara-dario-amodei-488430",
-          "canonical_url": "https://www.dagospia.com/business/trump-bisogno-anthropic-anthropic-bisogno-trump-ci-sara-dario-amodei-488430",
-          "title": "Trump ha bisogno di anthropic e anthropic ha bisogno di trump – ci sarÀ anche dario amodei ...",
-          "summary": "",
-          "source": "dagospia.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-29T08:30:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.165568+00:00",
-          "language": "Italian",
-          "region": "Italy",
-          "source_weight": 0.75,
-          "image_url": "https://static.dagospia.com/img/patch/05-2026/dario-amodei-trump-2268021_600_q50.webp"
+          "article_id": "art_cf5ff80b0648ffbbb9a2",
+          "url": "https://www.aljazeera.com/news/2026/9/30/us-appeals-court-halts-tennessee-execution-of-christa-pike?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/us-appeals-court-halts-tennessee-execution-of-christa-pike?traffic_source=rss",
+          "title": "US appeals court halts Tennessee execution of Christa Pike",
+          "summary": "Christa Pike was set to become the first woman executed by Tennessee in more than 200 years.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-09-30T16:44:16+00:00",
+          "fetched_at": "2026-09-30T20:49:51.283199+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         },
         {
-          "article_id": "art_da65be3618e852f2ce00",
-          "url": "https://www.citizensvoice.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.citizensvoice.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "citizensvoice.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T18:45:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.163374+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.citizensvoice.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_a19f7d96264d12b79a22",
-          "url": "https://www.mcall.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.mcall.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "mcall.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T18:15:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.163273+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.mcall.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_8bc5f2ba52718de95495",
-          "url": "https://nypost.com/2026/09/28/business/trump-dines-with-anthropic-ceo-dario-amodei-after-months-of-bitter-ai-feud/",
-          "canonical_url": "https://nypost.com/2026/09/28/business/trump-dines-with-anthropic-ceo-dario-amodei-after-months-of-bitter-ai-feud",
-          "title": "Trump dines with Anthropic CEO Dario Amodei after months of bitter AI feud",
-          "summary": "",
-          "source": "nypost.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T18:15:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.164008+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142881706.jpg?quality=75&strip=all"
-        },
-        {
-          "article_id": "art_b3cf783924c40e2f9f5c",
-          "url": "https://www.fortmorgantimes.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.fortmorgantimes.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "fortmorgantimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T18:00:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.164970+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.fortmorgantimes.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_366c14e604dd73362499",
-          "url": "https://www.coloradohometownweekly.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.coloradohometownweekly.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "coloradohometownweekly.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T18:00:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.165013+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.coloradohometownweekly.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_6fde0a2295a9fb075147",
-          "url": "https://www.dailydemocrat.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.dailydemocrat.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "dailydemocrat.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T17:45:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.164884+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.dailydemocrat.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_5ffcda3000b75e6eeab7",
-          "url": "https://www.akronnewsreporter.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.akronnewsreporter.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "akronnewsreporter.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T17:45:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.164927+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.akronnewsreporter.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_d77b97aca050e326de64",
-          "url": "https://www.mainlinemedianews.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.mainlinemedianews.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "mainlinemedianews.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T17:45:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.165057+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.mainlinemedianews.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_70c1cd225b2377da69dd",
-          "url": "https://www.capitalgazette.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.capitalgazette.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "capitalgazette.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T17:00:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.163471+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.capitalgazette.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_e3f03fc919647db5e352",
-          "url": "https://www.eastbaytimes.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.eastbaytimes.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "eastbaytimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T16:45:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.163325+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.eastbaytimes.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_697a105f619266b27afa",
-          "url": "https://www.pottsmerc.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.pottsmerc.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "pottsmerc.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T16:45:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.165100+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.pottsmerc.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
-        },
-        {
-          "article_id": "art_833392e6a288a432f628",
-          "url": "https://www.broomfieldenterprise.com/2026/09/28/trump-anthropic-ceo-dinner/",
-          "canonical_url": "https://www.broomfieldenterprise.com/2026/09/28/trump-anthropic-ceo-dinner",
-          "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
-          "summary": "",
-          "source": "broomfieldenterprise.com",
-          "source_type": "gdelt",
-          "published_at": "2026-09-28T16:45:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.165144+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.broomfieldenterprise.com/wp-content/uploads/2026/09/Trump_69118-1.jpg"
+          "article_id": "art_4d507ba9999d6293dffd",
+          "url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_campaign=rss&at_medium=RSS",
+          "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
+          "summary": "Pike was convicted and sentenced to death in 1996 for the murder of Colleen Slemmer.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-09-30T15:29:11+00:00",
+          "fetched_at": "2026-09-30T20:49:50.241494+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7cd/live/e4a1ffd0-bbdb-11f1-bd21-bdf910f2cec6.jpg"
         }
       ]
     },
@@ -566,12 +468,12 @@
       "event_id": "evt_9a30481f255ad440f15b",
       "title": "Africa's richest man launches Kenya oil refinery despite land protests",
       "category": "能源资源",
-      "score": 67.8,
+      "score": 63.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 21.3,
+        "recency": 17.4,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -629,7 +531,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-09-30T15:11:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.852873+00:00",
+          "fetched_at": "2026-09-30T20:49:50.785647+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -644,7 +546,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-09-30T11:25:12+00:00",
-          "fetched_at": "2026-09-30T15:57:07.366006+00:00",
+          "fetched_at": "2026-09-30T20:49:50.242075+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -653,92 +555,144 @@
       ]
     },
     {
-      "event_id": "evt_c7a046da6e953b8c6295",
-      "title": "N Korea and S Korea exchange threats over DMZ blast",
-      "category": "社会突发",
-      "score": 67.2,
+      "event_id": "evt_48daf2d96edc0ef68fdd",
+      "title": "Displaced by war, young Sudanese turn to entrepeneurship to survive",
+      "category": "军事安全",
+      "score": 62.1,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.1,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 4.4
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-09-30T04:27:00+00:00",
-      "last_updated": "2026-09-30T11:19:10+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-09-30T19:43:47+00:00",
+      "last_updated": "2026-09-30T19:43:47+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "korea",
-        "dmz",
-        "blast",
-        "korean",
-        "north",
-        "kim",
-        "jong",
-        "denies"
+        "displaced",
+        "war",
+        "young",
+        "sudanese",
+        "entrepeneurship",
+        "turn",
+        "survive",
+        "shut"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“N Korea and S Korea exchange threats over DMZ blast”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Displaced by war, young Sudanese turn to entrepeneurship to survive”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Korea",
-          "DMZ",
-          "North Korea",
-          "South"
+          "Displaced",
+          "Sudanese"
         ],
         "latest_progress": [
-          "09月30日 11:19 UTC，Al Jazeera报道：“N Korea and S Korea exchange threats over DMZ blast”。",
-          "09月30日 04:27 UTC，DW Top Stories报道：“North Korea denies South's claim, calls DMZ blast a 'farce'”。"
+          "09月30日 19:43 UTC，Al Jazeera报道：“Displaced by war, young Sudanese turn to entrepeneurship to survive”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_63442d36b12e1f402028",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/n-korea-and-s-korea-exchange-threats-over-dmz-blast?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/n-korea-and-s-korea-exchange-threats-over-dmz-blast?traffic_source=rss",
-          "title": "N Korea and S Korea exchange threats over DMZ blast",
-          "summary": "A landmine explosion which injured three South Korean soldiers in the Korean Demilitarized Zone last week.",
+          "article_id": "art_801ce35fa8df3681927e",
+          "url": "https://www.aljazeera.com/features/2026/9/30/displaced-by-war-young-sudanese-turn-to-entrepeneurship-to-survive?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/9/30/displaced-by-war-young-sudanese-turn-to-entrepeneurship-to-survive?traffic_source=rss",
+          "title": "Displaced by war, young Sudanese turn to entrepeneurship to survive",
+          "summary": "Displaced by war and shut out of formal jobs, young Sudanese are turning to art, small businesses, and entrepeneurship.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-30T11:19:10+00:00",
-          "fetched_at": "2026-09-30T15:57:08.142420+00:00",
+          "published_at": "2026-09-30T19:43:47+00:00",
+          "fetched_at": "2026-09-30T20:49:51.281811+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fb735f35606cbb1dce8a",
+      "title": "Russia warns NATO of possible nuclear response if Kaliningrad is cut off",
+      "category": "军事安全",
+      "score": 61.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-09-30T18:52:51+00:00",
+      "last_updated": "2026-09-30T18:52:51+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "nato",
+        "russia",
+        "warns",
+        "possible",
+        "nuclear",
+        "response",
+        "kaliningrad",
+        "cut"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Russia warns NATO of possible nuclear response if Kaliningrad is cut off”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russia",
+          "NATO",
+          "Kaliningrad"
+        ],
+        "latest_progress": [
+          "09月30日 18:52 UTC，Al Jazeera报道：“Russia warns NATO of possible nuclear response if Kaliningrad is cut off”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
-          "article_id": "art_8d34c5420320edaa6790",
-          "url": "https://www.dw.com/en/north-korea-denies-south-s-claim-calls-dmz-blast-a-farce/a-79481164?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/north-korea-denies-south-s-claim-calls-dmz-blast-a-farce/a-79481164?maca=en-rss-en-top-1022-rdf",
-          "title": "North Korea denies South's claim, calls DMZ blast a 'farce'",
-          "summary": "North Korean leader Kim Jong Un's sister Kim Yo Jong has accused Seoul of conspiracy after it blamed Pyongyang for the blast in the DMZ.",
-          "source": "DW Top Stories",
+          "article_id": "art_d58b2bcce8297a16a76c",
+          "url": "https://www.aljazeera.com/news/2026/9/30/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off?traffic_source=rss",
+          "title": "Russia warns NATO of possible nuclear response if Kaliningrad is cut off",
+          "summary": "Moscow claims that NATO is preparing an air and naval blockade in the Baltic Sea.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-30T04:27:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.854128+00:00",
+          "published_at": "2026-09-30T18:52:51+00:00",
+          "fetched_at": "2026-09-30T20:49:51.282328+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
@@ -747,12 +701,12 @@
       "event_id": "evt_168ec1794b1d2fdb5cd2",
       "title": "2026 Midterm Election Update – September 30th , 2026 | Vero Patriot",
       "category": "国际政治",
-      "score": 65.0,
+      "score": 61.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.7,
+        "recency": 16.9,
         "credibility": 7.5,
         "impact": 11.0,
         "velocity": 5.0
@@ -808,7 +762,7 @@
           "source": "veropatriot.iheart.com",
           "source_type": "gdelt",
           "published_at": "2026-09-30T14:30:00+00:00",
-          "fetched_at": "2026-09-30T15:55:43.947550+00:00",
+          "fetched_at": "2026-09-30T20:48:48.005598+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -823,7 +777,7 @@
           "source": "wjno.iheart.com",
           "source_type": "gdelt",
           "published_at": "2026-09-30T12:00:00+00:00",
-          "fetched_at": "2026-09-30T15:55:43.947599+00:00",
+          "fetched_at": "2026-09-30T20:48:48.005638+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -832,183 +786,21 @@
       ]
     },
     {
-      "event_id": "evt_41243f238e7859c64768",
-      "title": "Restaurant named after Xi Jinping attacked by Chinese nationals in South Korea",
-      "category": "产业供应链",
-      "score": 62.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 16.5,
-        "credibility": 9.8,
-        "impact": 10.4,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-30T04:21:11+00:00",
-      "last_updated": "2026-09-30T09:07:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "south",
-        "korea",
-        "restaurant",
-        "named",
-        "chinese",
-        "shark",
-        "jinping",
-        "attacked"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的产业供应链事件为“Restaurant named after Xi Jinping attacked by Chinese nationals in South Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
-        "participants": [
-          "South Korea",
-          "Lost",
-          "Restaurant",
-          "Xi Jinping",
-          "Chinese"
-        ],
-        "latest_progress": [
-          "09月30日 09:07 UTC，DW Top Stories报道：“South Korea: Lost shark draws over half a million visitors”。",
-          "09月30日 04:21 UTC，BBC World报道：“Restaurant named after Xi Jinping attacked by Chinese nationals in South Korea”。"
-        ],
-        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
-        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
-        "watch_indicators": [
-          "港口和工厂运行率",
-          "交货周期与运价",
-          "企业订单及库存"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_8e9f0d43d01d5698d793",
-          "url": "https://www.dw.com/en/south-korea-lost-shark-draws-over-half-a-million-visitors/a-79482014?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/south-korea-lost-shark-draws-over-half-a-million-visitors/a-79482014?maca=en-rss-en-top-1022-rdf",
-          "title": "South Korea: Lost shark draws over half a million visitors",
-          "summary": "The South Korean port of Busan says that a stranded shark has become a major tourist draw. It's also named the ocean predator an honorary ambassador to the city.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-09-30T09:07:00+00:00",
-          "fetched_at": "2026-09-30T15:57:07.853610+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e71f1217fa7a9d1f4a4b",
-          "url": "https://www.bbc.co.uk/news/articles/c9kgvm275ev8o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c9kgvm275ev8o?at_campaign=rss&at_medium=RSS",
-          "title": "Restaurant named after Xi Jinping attacked by Chinese nationals in South Korea",
-          "summary": "The owner said he chose the name because he wanted to run the \"best Chinese restaurant\" in South Korea.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T04:21:11+00:00",
-          "fetched_at": "2026-09-30T15:57:07.366575+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c90/live/65be9d30-bc81-11f1-a200-b9459c1e297a.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0fb3620a7711f05c0a26",
-      "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+      "event_id": "evt_ae08d076b5a1bd5d40d6",
+      "title": "Netanyahu meets Flydubai passenger who subdued pilot in stabbing attack",
       "category": "军事安全",
-      "score": 62.1,
+      "score": 60.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.0,
+        "recency": 19.2,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-30T14:53:02+00:00",
-      "last_updated": "2026-09-30T14:53:02+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "russia",
-        "launches",
-        "largest",
-        "attack",
-        "ukraine",
-        "energy",
-        "infrastructure",
-        "since"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Russia launches largest attack on Ukraine energy infrastructure since spring”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russia",
-          "Ukraine"
-        ],
-        "latest_progress": [
-          "09月30日 14:53 UTC，BBC World报道：“Russia launches largest attack on Ukraine energy infrastructure since spring”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e60c04aa848085ec01c1",
-          "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_campaign=rss&at_medium=RSS",
-          "title": "Russia launches largest attack on Ukraine energy infrastructure since spring",
-          "summary": "In total 11 regions of the country were attacked overnight, with residential buildings and railways also targeted, the Ukrainian PM says.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T14:53:02+00:00",
-          "fetched_at": "2026-09-30T15:57:07.365454+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cc3/live/0f9ce800-bcc0-11f1-babe-4199b0e7ccea.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_89927d7564060e3f62f2",
-      "title": "Why is Hegseth cutting 20 percent of US general and admiral positions?",
-      "category": "军事安全",
-      "score": 61.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-30T14:35:47+00:00",
-      "last_updated": "2026-09-30T14:35:47+00:00",
+      "first_seen": "2026-09-30T17:36:17+00:00",
+      "last_updated": "2026-09-30T17:36:17+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -1018,25 +810,24 @@
         "Middle East"
       ],
       "keywords": [
-        "hegseth",
-        "cutting",
-        "percent",
-        "general",
-        "admiral",
-        "positions",
-        "overhaul",
-        "could"
+        "netanyahu",
+        "flydubai",
+        "passenger",
+        "pilot",
+        "meets",
+        "subdued",
+        "stabbing",
+        "attack"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why is Hegseth cutting 20 percent of US general and admiral positions?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Netanyahu meets Flydubai passenger who subdued pilot in stabbing attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Why",
-          "Hegseth",
-          "US"
+          "Netanyahu",
+          "Flydubai"
         ],
         "latest_progress": [
-          "09月30日 14:35 UTC，Al Jazeera报道：“Why is Hegseth cutting 20 percent of US general and admiral positions?”。"
+          "09月30日 17:36 UTC，Al Jazeera报道：“Netanyahu meets Flydubai passenger who subdued pilot in stabbing attack”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1049,15 +840,15 @@
       },
       "articles": [
         {
-          "article_id": "art_99540a0903c4d9ebc3bb",
-          "url": "https://www.aljazeera.com/news/2026/9/30/why-is-hegseth-cutting-20-percent-of-us-general-and-admiral-positions?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/9/30/why-is-hegseth-cutting-20-percent-of-us-general-and-admiral-positions?traffic_source=rss",
-          "title": "Why is Hegseth cutting 20 percent of US general and admiral positions?",
-          "summary": "The overhaul could reshape the US military as Hegseth faces scrutiny over senior officers’ removal.",
+          "article_id": "art_6036dbc8124d60d1a861",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/netanyahu-meets-flydubai-passenger-who-subdued-pilot-in-stabbing-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/netanyahu-meets-flydubai-passenger-who-subdued-pilot-in-stabbing-attack?traffic_source=rss",
+          "title": "Netanyahu meets Flydubai passenger who subdued pilot in stabbing attack",
+          "summary": "Benjamin Netanyahu has met Yaniv Hayun, the Flydubai passenger that helped restrain a pilot who stabbed a colleague.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-30T14:35:47+00:00",
-          "fetched_at": "2026-09-30T15:57:08.141102+00:00",
+          "published_at": "2026-09-30T17:36:17+00:00",
+          "fetched_at": "2026-09-30T20:49:51.282909+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -1066,49 +857,48 @@
       ]
     },
     {
-      "event_id": "evt_965aa866607df6b48d0d",
-      "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
+      "event_id": "evt_3e49dd4fa18f3c276f05",
+      "title": "Video: Bangladesh Dengue deaths surpass 233 in deadly outbreak",
       "category": "社会突发",
-      "score": 61.3,
+      "score": 59.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.6,
+        "recency": 19.7,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-09-30T15:29:11+00:00",
-      "last_updated": "2026-09-30T15:29:11+00:00",
+      "first_seen": "2026-09-30T18:12:27+00:00",
+      "last_updated": "2026-09-30T18:12:27+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "BBC World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "pike",
-        "execution",
-        "murderer",
-        "christa",
-        "halted",
-        "shortly",
-        "before",
-        "due"
+        "bangladesh",
+        "dengue",
+        "video",
+        "deaths",
+        "surpass",
+        "deadly",
+        "outbreak",
+        "health"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的社会突发事件为“Execution of US murderer Christa Pike halted shortly before it was due to happen”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Video: Bangladesh Dengue deaths surpass 233 in deadly outbreak”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Execution",
-          "US",
-          "Christa Pike"
+          "Video",
+          "Bangladesh Dengue"
         ],
         "latest_progress": [
-          "09月30日 15:29 UTC，BBC World报道：“Execution of US murderer Christa Pike halted shortly before it was due to happen”。"
+          "09月30日 18:12 UTC，Al Jazeera报道：“Video: Bangladesh Dengue deaths surpass 233 in deadly outbreak”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -1121,19 +911,19 @@
       },
       "articles": [
         {
-          "article_id": "art_4d507ba9999d6293dffd",
-          "url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_campaign=rss&at_medium=RSS",
-          "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
-          "summary": "Pike was convicted and sentenced to death in 1996 for the murder of Colleen Slemmer.",
-          "source": "BBC World",
+          "article_id": "art_b2223c1ca28ccbcabcc1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/video-bangladesh-dengue-deaths-surpass-233-in-deadly-outbreak?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/video-bangladesh-dengue-deaths-surpass-233-in-deadly-outbreak?traffic_source=rss",
+          "title": "Video: Bangladesh Dengue deaths surpass 233 in deadly outbreak",
+          "summary": "Bangladesh’s health authorities report that at least 233 people have died from dengue fever.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-09-30T15:29:11+00:00",
-          "fetched_at": "2026-09-30T15:57:07.365335+00:00",
+          "published_at": "2026-09-30T18:12:27+00:00",
+          "fetched_at": "2026-09-30T20:49:51.282549+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7cd/live/e4a1ffd0-bbdb-11f1-bd21-bdf910f2cec6.jpg"
+          "image_url": null
         }
       ]
     }
