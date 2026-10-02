@@ -1,34 +1,42 @@
 {
-  "generated_at": "2026-10-02T13:53:04.517132+00:00",
+  "generated_at": "2026-10-02T19:19:45.824105+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 186,
-    "articles_unique": 185,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 89,
+    "articles_unique": 89,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_16dc674b6629cf44f59b",
-      "title": "Protests shutter hundreds of French schools as violence flares",
-      "category": "国际政治",
-      "score": 79.2,
+      "event_id": "evt_7f339dfe83bf9ba4008e",
+      "title": "Trump says Europe agreed to release ‘massive amount’ of diesel reserves",
+      "category": "经济金融",
+      "score": 76.6,
       "score_breakdown": {
         "coverage": 16.1,
-        "source_diversity": 10.8,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.4,
+        "recency": 21.7,
         "credibility": 9.9,
-        "impact": 11.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-02T09:17:00+00:00",
-      "last_updated": "2026-10-02T13:12:45+00:00",
-      "source_count": 3,
+      "first_seen": "2026-10-02T13:16:44+00:00",
+      "last_updated": "2026-10-02T19:01:45+00:00",
+      "source_count": 2,
       "article_count": 4,
       "sources": [
         "Al Jazeera",
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -36,98 +44,96 @@
         "Middle East"
       ],
       "keywords": [
-        "protests",
-        "france",
-        "schools",
-        "across",
-        "french",
-        "closed",
-        "student",
-        "continue"
+        "release",
+        "diesel",
+        "trump",
+        "europe",
+        "reserves",
+        "emergency",
+        "trump's",
+        "barrels"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Protests shutter hundreds of French schools as violence flares”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的4篇报道，当前关注的经济金融事件为“Trump says Europe agreed to release ‘massive amount’ of diesel reserves”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Protests",
-          "French",
-          "School",
-          "What",
-          "France"
+          "Trump",
+          "Europe",
+          "US"
         ],
         "latest_progress": [
-          "10月02日 13:12 UTC，Al Jazeera报道：“Protests shutter hundreds of French schools as violence flares”。",
-          "10月02日 12:43 UTC，BBC World报道：“School protests send shivers down French government's spine”。",
-          "10月02日 11:42 UTC，Al Jazeera报道：“What’s behind France’s school protests?”。"
+          "10月02日 19:01 UTC，Al Jazeera报道：“Trump says Europe agreed to release ‘massive amount’ of diesel reserves”。",
+          "10月02日 15:02 UTC，DW Top Stories报道：“Europe to release diesel reserves after Trump request”。",
+          "10月02日 14:14 UTC，Al Jazeera报道：“G7 to release 100m oil barrels as Trump hails Europe diesel deal”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_47d31702cd15c9448944",
-          "url": "https://www.aljazeera.com/news/2026/10/2/protests-shutter-hundreds-of-french-schools-as-violence-flares?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/protests-shutter-hundreds-of-french-schools-as-violence-flares?traffic_source=rss",
-          "title": "Protests shutter hundreds of French schools as violence flares",
-          "summary": "Education minister declares students 'in danger' as hundreds of injuries reported across the country.",
+          "article_id": "art_7ead3dffd93a220113aa",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_ig_thumb_diesel-021026?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/aje-onl-nf_ig_thumb_diesel-021026?traffic_source=rss",
+          "title": "Trump says Europe agreed to release ‘massive amount’ of diesel reserves",
+          "summary": "US President Donald Trump says Europe agreed to release a ‘massive amount’ of diesel from emergency stockpiles.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-02T13:12:45+00:00",
-          "fetched_at": "2026-10-02T13:53:02.712136+00:00",
+          "published_at": "2026-10-02T19:01:45+00:00",
+          "fetched_at": "2026-10-02T19:19:45.066234+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_7654ddf8e32783206ca4",
-          "url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_campaign=rss&at_medium=RSS",
-          "title": "School protests send shivers down French government's spine",
-          "summary": "A movement that started nearly two weeks ago has spread, and in France young people on the streets spells trouble, writes Hugh Schofield.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-02T12:43:02+00:00",
-          "fetched_at": "2026-10-02T13:53:01.919673+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/acd5/live/a17ab8d0-be58-11f1-8828-9d9deece30a1.jpg"
-        },
-        {
-          "article_id": "art_4dbd7b74a1ebb100f1fa",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/2-10-reported-natascha-paris-school-fr?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/2-10-reported-natascha-paris-school-fr?traffic_source=rss",
-          "title": "What’s behind France’s school protests?",
-          "summary": "Many French schools are still closed as protests over learning conditions continue across the country.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-02T11:42:52+00:00",
-          "fetched_at": "2026-10-02T13:53:02.713441+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ba5f733a2eac4117a054",
-          "url": "https://www.dw.com/en/france-400-schools-closed-as-student-protests-continue/a-79512732?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-400-schools-closed-as-student-protests-continue/a-79512732?maca=en-rss-en-top-1022-rdf",
-          "title": "France: 400 schools closed as student protests continue",
-          "summary": "Police have made around 2,000 arrests and scores of people have been injured as student protests spread across France. Ministers have called for a \"day of dialogue\" but students have called for further strike action.",
+          "article_id": "art_faa95b95eea0eb59ff82",
+          "url": "https://www.dw.com/en/europe-to-release-diesel-reserves-after-trump-request/a-79522810?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/europe-to-release-diesel-reserves-after-trump-request/a-79522810?maca=en-rss-en-top-1022-rdf",
+          "title": "Europe to release diesel reserves after Trump request",
+          "summary": "The US leader asked European countries to release some of their diesel reserves to ease the rising prices. The issue has damaged Trump's popularity back home.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-02T09:17:00+00:00",
-          "fetched_at": "2026-10-02T13:53:02.303318+00:00",
+          "published_at": "2026-10-02T15:02:00+00:00",
+          "fetched_at": "2026-10-02T19:19:44.516472+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0fa702a854d9a62d3223",
+          "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss",
+          "title": "G7 to release 100m oil barrels as Trump hails Europe diesel deal",
+          "summary": "Macron says G7 will release 100 million barrels over four months; diesel release to be 'frontloaded'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-02T14:14:18+00:00",
+          "fetched_at": "2026-10-02T19:19:45.067726+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3b9f407b9d7398ccbef4",
+          "url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks?traffic_source=rss",
+          "title": "Trump vs Europe as US presses for release of emergency diesel stocks",
+          "summary": "Europe's leaders are mulling proposals to respond to Trump's diesel demands.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-02T13:16:44+00:00",
+          "fetched_at": "2026-10-02T19:19:45.068107+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
@@ -136,27 +142,26 @@
       "event_id": "evt_0639c8ef33c174717db4",
       "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
       "category": "军事安全",
-      "score": 76.5,
+      "score": 73.9,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
+        "region_diversity": 2.5,
         "recency": 20.2,
-        "credibility": 10.0,
+        "credibility": 9.9,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-02T08:46:37+00:00",
-      "last_updated": "2026-10-02T11:52:04+00:00",
+      "last_updated": "2026-10-02T17:15:00+00:00",
       "source_count": 2,
       "article_count": 4,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
         "pilot",
@@ -164,12 +169,12 @@
         "attack",
         "cockpit",
         "flight",
-        "door",
-        "co-pilot",
-        "describes"
+        "smit",
+        "machchhar",
+        "door"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的4篇报道，当前关注的军事安全事件为“'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Who",
@@ -179,8 +184,8 @@
           "Emotional"
         ],
         "latest_progress": [
+          "10月02日 17:15 UTC，DW Top Stories报道：“FlyDubai 'hero' pilot speaks for first time”。",
           "10月02日 11:52 UTC，BBC World报道：“Who is the 'hero' Indian pilot who was stabbed on Israel-bound flight?”。",
-          "10月02日 11:23 UTC，Al Jazeera报道：“FlyDubai pilot describes opening cockpit door during attack”。",
           "10月02日 09:08 UTC，BBC World报道：“'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -194,6 +199,21 @@
       },
       "articles": [
         {
+          "article_id": "art_4d5fccd47b884efcd947",
+          "url": "https://www.dw.com/en/flydubai-hero-pilot-speaks-for-first-time/a-79524500?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/flydubai-hero-pilot-speaks-for-first-time/a-79524500?maca=en-rss-en-top-1022-rdf",
+          "title": "FlyDubai 'hero' pilot speaks for first time",
+          "summary": "India's Prime Minister Narendra Modi spoke with Captain Smit Machchhar via video call. Meanwhile, authorities in the UAE and Israel said an investigation is making progress.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T17:15:00+00:00",
+          "fetched_at": "2026-10-02T19:19:44.516060+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
           "article_id": "art_7ffc5ec3b273dbc68cc0",
           "url": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo?at_campaign=rss&at_medium=RSS",
@@ -202,26 +222,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-02T11:52:04+00:00",
-          "fetched_at": "2026-10-02T13:53:01.923150+00:00",
+          "fetched_at": "2026-10-02T19:19:43.602203+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/861f/live/112640e0-bda1-11f1-babe-4199b0e7ccea.jpg"
-        },
-        {
-          "article_id": "art_4f795bff7051db53fa9c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/flydubai-pilot-describes-opening-cockpit-door-during-attack?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/flydubai-pilot-describes-opening-cockpit-door-during-attack?traffic_source=rss",
-          "title": "FlyDubai pilot describes opening cockpit door during attack",
-          "summary": "The Indian pilot who was stabbed by his co-pilot on a Flydubai flight to Israel describes the attack.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-02T11:23:27+00:00",
-          "fetched_at": "2026-10-02T13:53:02.713981+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         },
         {
           "article_id": "art_e49e45b6fde4fce9a9e8",
@@ -232,7 +237,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-02T09:08:06+00:00",
-          "fetched_at": "2026-10-02T13:53:01.919481+00:00",
+          "fetched_at": "2026-10-02T19:19:43.599709+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -247,7 +252,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-02T08:46:37+00:00",
-          "fetched_at": "2026-10-02T13:53:01.923293+00:00",
+          "fetched_at": "2026-10-02T19:19:43.602295+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -256,23 +261,113 @@
       ]
     },
     {
-      "event_id": "evt_2bffeae7051df2a828f8",
-      "title": "Man City lodge appeal after guilty finding in financial breach scandal",
-      "category": "经济金融",
-      "score": 74.1,
+      "event_id": "evt_3d0c10c423af16c64f4b",
+      "title": "Ethiopia, Eritrea break ties: Does the conflict risk becoming regional war?",
+      "category": "军事安全",
+      "score": 70.5,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 9.8,
-        "impact": 11.7,
+        "recency": 19.3,
+        "credibility": 10.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-02T09:24:48+00:00",
-      "last_updated": "2026-10-02T13:17:42+00:00",
+      "first_seen": "2026-10-02T13:53:24+00:00",
+      "last_updated": "2026-10-02T16:08:25+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "ethiopia",
+        "eritrea",
+        "ties",
+        "conflict",
+        "diplomatic",
+        "northern",
+        "break",
+        "does"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Ethiopia, Eritrea break ties: Does the conflict risk becoming regional war?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Ethiopia",
+          "Eritrea",
+          "Does"
+        ],
+        "latest_progress": [
+          "10月02日 16:08 UTC，BBC World报道：“Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates”。",
+          "10月02日 13:53 UTC，Al Jazeera报道：“Ethiopia, Eritrea break ties: Does the conflict risk becoming regional war?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1a18a82663c512a265f3",
+          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_campaign=rss&at_medium=RSS",
+          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
+          "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-02T16:08:25+00:00",
+          "fetched_at": "2026-10-02T19:19:43.600527+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dc3/live/316213c0-be23-11f1-bf88-854b5521eba9.jpg"
+        },
+        {
+          "article_id": "art_a89b7324d9145bf966ef",
+          "url": "https://www.aljazeera.com/news/2026/10/2/ethiopia-eritrea-break-ties-does-the-conflict-risk-becoming-regional-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/ethiopia-eritrea-break-ties-does-the-conflict-risk-becoming-regional-war?traffic_source=rss",
+          "title": "Ethiopia, Eritrea break ties: Does the conflict risk becoming regional war?",
+          "summary": "Analysts warn unrest is likely to spill into neighbouring states and could further destabilise war-torn Sudan.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-02T13:53:24+00:00",
+          "fetched_at": "2026-10-02T19:19:45.067820+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_163afc678942ff3e2d01",
+      "title": "Israel’s Supreme Court overturns election panel ban on Arab parties",
+      "category": "国际政治",
+      "score": 70.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.0,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-02T15:53:00+00:00",
+      "last_updated": "2026-10-02T18:11:37+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
         "DW Top Stories"
@@ -282,28 +377,205 @@
         "Middle East"
       ],
       "keywords": [
-        "city",
-        "manchester",
-        "financial",
-        "premier",
-        "league",
-        "appeal",
-        "breach",
-        "fallout"
+        "court",
+        "arab",
+        "parties",
+        "election",
+        "overturns",
+        "elections",
+        "ban",
+        "israel's"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的经济金融事件为“Man City lodge appeal after guilty finding in financial breach scandal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Israel’s Supreme Court overturns election panel ban on Arab parties”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Man City",
-          "Manchester City Premier League",
-          "What",
-          "Manchester City"
+          "Israel",
+          "Supreme Court",
+          "Arab"
         ],
         "latest_progress": [
-          "10月02日 13:17 UTC，Al Jazeera报道：“Man City lodge appeal after guilty finding in financial breach scandal”。",
-          "10月02日 11:59 UTC，DW Top Stories报道：“Manchester City Premier League charges: What do they mean?”。",
-          "10月02日 09:24 UTC，Al Jazeera报道：“Manchester City to launch appeal as financial breach fallout grows”。"
+          "10月02日 18:11 UTC，Al Jazeera报道：“Israel’s Supreme Court overturns election panel ban on Arab parties”。",
+          "10月02日 15:53 UTC，DW Top Stories报道：“Israel's top court allows Arab parties to run in election”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1761f755f074f78aac46",
+          "url": "https://www.aljazeera.com/news/2026/10/2/israels-supreme-court-overturns-election-panel-ban-on-arab-parties?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/israels-supreme-court-overturns-election-panel-ban-on-arab-parties?traffic_source=rss",
+          "title": "Israel’s Supreme Court overturns election panel ban on Arab parties",
+          "summary": "Court reinstates two Arab lists and Jewish Knesset member Ofer Cassif as Balad leader withdraws after pressure.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-02T18:11:37+00:00",
+          "fetched_at": "2026-10-02T19:19:45.066599+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_234bfa33b46a1740c206",
+          "url": "https://www.dw.com/en/israel-s-top-court-allows-arab-parties-to-run-in-election/a-79519184?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/israel-s-top-court-allows-arab-parties-to-run-in-election/a-79519184?maca=en-rss-en-top-1022-rdf",
+          "title": "Israel's top court allows Arab parties to run in election",
+          "summary": "The ruling overturns a move by the Central Elections Committee to ban four parties. The conservative Muslim Ra'am party could serve as the kingmaker following the next elections.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T15:53:00+00:00",
+          "fetched_at": "2026-10-02T19:19:44.516314+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fd7b981239294c609ba0",
+      "title": "Spain’s parliament rejects gov’t housing decrees amid mass protests",
+      "category": "国际政治",
+      "score": 68.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.7,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-02T15:01:08+00:00",
+      "last_updated": "2026-10-02T16:39:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "housing",
+        "parliament",
+        "protests",
+        "rejects",
+        "decrees",
+        "measures",
+        "spain's",
+        "spain"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Spain’s parliament rejects gov’t housing decrees amid mass protests”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Spain"
+        ],
+        "latest_progress": [
+          "10月02日 16:39 UTC，DW Top Stories报道：“Spain's parliament rejects housing bill as protests continue”。",
+          "10月02日 15:01 UTC，Al Jazeera报道：“Spain’s parliament rejects gov’t housing decrees amid mass protests”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e890362a712698546889",
+          "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-top-1022-rdf",
+          "title": "Spain's parliament rejects housing bill as protests continue",
+          "summary": "Spain's minority government suffered defeat in parliament as it tried to push through a pair of emergency measures aimed at making housing more affordable. A pensioner's eviction and protests led to the bid.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T16:39:00+00:00",
+          "fetched_at": "2026-10-02T19:19:44.516150+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3a6c6bc1858719bcd799",
+          "url": "https://www.aljazeera.com/news/2026/10/2/spains-parliament-rejects-govt-housing-decrees-amid-mass-protests?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/spains-parliament-rejects-govt-housing-decrees-amid-mass-protests?traffic_source=rss",
+          "title": "Spain’s parliament rejects gov’t housing decrees amid mass protests",
+          "summary": "Both decrees to tackle housing affordability crisis shot down as critics say measures would tighten the housing market.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-02T15:01:08+00:00",
+          "fetched_at": "2026-10-02T19:19:45.067627+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8337a5e47535f6f7c9c9",
+      "title": "Manchester City appeal Premier League financial breach ruling",
+      "category": "经济金融",
+      "score": 66.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.1,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-02T11:59:00+00:00",
+      "last_updated": "2026-10-02T13:17:42+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "manchester",
+        "city",
+        "premier",
+        "league",
+        "charges",
+        "financial",
+        "they",
+        "mean"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的经济金融事件为“Manchester City appeal Premier League financial breach ruling”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "Manchester City",
+          "Premier League",
+          "Manchester City Premier League",
+          "What"
+        ],
+        "latest_progress": [
+          "10月02日 13:17 UTC，Al Jazeera报道：“Manchester City appeal Premier League financial breach ruling”。",
+          "10月02日 11:59 UTC，DW Top Stories报道：“Manchester City Premier League charges: What do they mean?”。"
         ],
         "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
         "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
@@ -319,12 +591,12 @@
           "article_id": "art_4add9688c4331ebb37af",
           "url": "https://www.aljazeera.com/sports/2026/10/2/manchester-city-appeal-premier-league-financial-ruling-england-fa?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/sports/2026/10/2/manchester-city-appeal-premier-league-financial-ruling-england-fa?traffic_source=rss",
-          "title": "Man City lodge appeal after guilty finding in financial breach scandal",
+          "title": "Manchester City appeal Premier League financial breach ruling",
           "summary": "The Abu Dhabi-controlled club has protested its innocence throughout the long-running case, which dates back to 2018.",
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-02T13:17:42+00:00",
-          "fetched_at": "2026-10-02T13:53:02.711634+00:00",
+          "fetched_at": "2026-10-02T19:19:45.068012+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -339,45 +611,30 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-02T11:59:00+00:00",
-          "fetched_at": "2026-10-02T13:53:02.302551+00:00",
+          "fetched_at": "2026-10-02T19:19:44.516890+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_281fc77c770976d3f308",
-          "url": "https://www.aljazeera.com/sports/2026/10/2/manchester-city-to-launch-deadline-appeal-as-financial-breach-fallout-grows?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/2/manchester-city-to-launch-deadline-appeal-as-financial-breach-fallout-grows?traffic_source=rss",
-          "title": "Manchester City to launch appeal as financial breach fallout grows",
-          "summary": "Friday deadline looms as the legal fallout widens beyond the Premier League case over the alleged breaches.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-02T09:24:48+00:00",
-          "fetched_at": "2026-10-02T13:53:02.715538+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_dbdb1de5ffca84ae6d84",
-      "title": "Trump vs Europe as US presses for release of emergency diesel stocks",
-      "category": "经济金融",
-      "score": 69.3,
+      "event_id": "evt_6700e9b4435bcb3cea50",
+      "title": "Can India’s ‘cockroach’ movement oust Modi’s election chief?",
+      "category": "国际政治",
+      "score": 65.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.5,
+        "recency": 17.5,
         "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 3.2
+        "impact": 11.0,
+        "velocity": 4.4
       },
-      "first_seen": "2026-10-02T03:51:00+00:00",
-      "last_updated": "2026-10-02T13:16:44+00:00",
+      "first_seen": "2026-10-02T07:02:00+00:00",
+      "last_updated": "2026-10-02T13:50:06+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -389,118 +646,27 @@
         "Middle East"
       ],
       "keywords": [
-        "diesel",
-        "release",
-        "allies",
-        "trump",
-        "emergency",
-        "pressures",
-        "stockpiles",
-        "administration"
+        "election",
+        "chief",
+        "india",
+        "delhi",
+        "india's",
+        "protesters",
+        "turn",
+        "heat"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的经济金融事件为“Trump vs Europe as US presses for release of emergency diesel stocks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Trump",
-          "Europe",
-          "US",
-          "EU"
-        ],
-        "latest_progress": [
-          "10月02日 13:16 UTC，Al Jazeera报道：“Trump vs Europe as US presses for release of emergency diesel stocks”。",
-          "10月02日 03:51 UTC，DW Top Stories报道：“US pressures EU allies to release diesel stockpiles”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_3b9f407b9d7398ccbef4",
-          "url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/trump-vs-europe-as-us-presses-for-release-of-emergency-diesel-stocks?traffic_source=rss",
-          "title": "Trump vs Europe as US presses for release of emergency diesel stocks",
-          "summary": "Europe's leaders are mulling proposals to respond to Trump's diesel demands.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-02T13:16:44+00:00",
-          "fetched_at": "2026-10-02T13:53:02.711815+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_fcf5dfba5eed3eedd49c",
-          "url": "https://www.dw.com/en/us-pressures-eu-allies-to-release-diesel-stockpiles/a-79509571?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-pressures-eu-allies-to-release-diesel-stockpiles/a-79509571?maca=en-rss-en-top-1022-rdf",
-          "title": "US pressures EU allies to release diesel stockpiles",
-          "summary": "The Trump administration has urged its European allies, particularly Germany and France, to release strategic diesel reserves to ease fuel prices. The EU was holding an emergency meeting on Friday to discuss the issue.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-02T03:51:00+00:00",
-          "fetched_at": "2026-10-02T13:53:02.304222+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7d86716d96bb9a136d53",
-      "title": "North and South Korea trade accusations over landmines that injured three soldiers",
-      "category": "国际政治",
-      "score": 67.2,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.7,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-02T04:40:00+00:00",
-      "last_updated": "2026-10-02T13:30:00+00:00",
-      "source_count": 1,
-      "article_count": 3,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "south",
-        "north",
-        "korea",
-        "korean",
-        "ukraine",
-        "prisoners",
-        "transfer",
-        "diplomatic"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“North and South Korea trade accusations over landmines that injured three soldiers”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Can India’s ‘cockroach’ movement oust Modi’s election chief?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "North",
-          "South Korea",
-          "Ukraine",
-          "POW",
-          "North Korean"
+          "Can India",
+          "Modi",
+          "India",
+          "Delhi"
         ],
         "latest_progress": [
-          "10月02日 13:30 UTC，DW Top Stories报道：“North and South Korea trade accusations over landmines that injured three soldiers”。",
-          "10月02日 06:33 UTC，DW Top Stories报道：“South Korea demands Ukraine apology over POW disclosure”。",
-          "10月02日 04:40 UTC，DW Top Stories报道：“Ukraine, South Korea clash over transfer of 2 North Korean prisoners”。"
+          "10月02日 13:50 UTC，Al Jazeera报道：“Can India’s ‘cockroach’ movement oust Modi’s election chief?”。",
+          "10月02日 07:02 UTC，DW Top Stories报道：“India news: Delhi protesters turn up heat on election chief, police tightens security”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -513,45 +679,30 @@
       },
       "articles": [
         {
-          "article_id": "art_058d0a9225400ba192d2",
-          "url": "https://www.dw.com/en/north-and-south-korea-trade-accusations-over-landmines-that-injured-three-soldiers/a-79503854?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/north-and-south-korea-trade-accusations-over-landmines-that-injured-three-soldiers/a-79503854?maca=en-rss-en-top-1022-rdf",
-          "title": "North and South Korea trade accusations over landmines that injured three soldiers",
-          "summary": "A mine blast that injured three South Korean soldiers has renewed scrutiny of North Korea's actions along the border and raised questions about its strategic goals.",
-          "source": "DW Top Stories",
+          "article_id": "art_f448fe492c6edd6b9d6c",
+          "url": "https://www.aljazeera.com/features/2026/10/2/can-indias-cockroach-movement-oust-modis-election-chief?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/10/2/can-indias-cockroach-movement-oust-modis-election-chief?traffic_source=rss",
+          "title": "Can India’s ‘cockroach’ movement oust Modi’s election chief?",
+          "summary": "India's youth protests return to streets, eyeing PM Modi's prized bureaucrat who oversees the world's biggest elections.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-02T13:30:00+00:00",
-          "fetched_at": "2026-10-02T13:53:02.302411+00:00",
+          "published_at": "2026-10-02T13:50:06+00:00",
+          "fetched_at": "2026-10-02T19:19:45.067917+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_065aa40909a56abc558a",
-          "url": "https://www.dw.com/en/south-korea-demands-ukraine-apology-over-pow-disclosure/a-79510305?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/south-korea-demands-ukraine-apology-over-pow-disclosure/a-79510305?maca=en-rss-en-top-1022-rdf",
-          "title": "South Korea demands Ukraine apology over POW disclosure",
-          "summary": "Ukrainian President Volodymyr Zelenskyy's disclosure of the transfer of North Korean prisoners of war (POWs) to Seoul has caused a major diplomatic spat between Seoul and Kyiv.",
+          "article_id": "art_d8ce90bec3b9d37cacf0",
+          "url": "https://www.dw.com/en/india-news-delhi-protesters-turn-up-heat-on-election-chief-police-tightens-security/live-79509860?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-news-delhi-protesters-turn-up-heat-on-election-chief-police-tightens-security/live-79509860?maca=en-rss-en-top-1022-rdf",
+          "title": "India news: Delhi protesters turn up heat on election chief, police tightens security",
+          "summary": "Hundreds have gathered in central Delhi to demand the resignation of India's Chief Election Commissioner Gyanesh Kumar, over the deletion of voters from electoral rolls. Follow DW.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-02T06:33:00+00:00",
-          "fetched_at": "2026-10-02T13:53:02.303854+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9c5ae0056f192a5e73d2",
-          "url": "https://www.dw.com/en/ukraine-south-korea-clash-over-transfer-of-2-north-korean-prisoners/a-79508601?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-south-korea-clash-over-transfer-of-2-north-korean-prisoners/a-79508601?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine, South Korea clash over transfer of 2 North Korean prisoners",
-          "summary": "A diplomatic scandal has erupted over two North Korean prisoners of war, with South Korea demanding an apology from Ukraine. What's been the reaction in Kyiv?",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-02T04:40:00+00:00",
-          "fetched_at": "2026-10-02T13:53:02.303979+00:00",
+          "published_at": "2026-10-02T07:02:00+00:00",
+          "fetched_at": "2026-10-02T19:19:44.517525+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -560,15 +711,87 @@
       ]
     },
     {
+      "event_id": "evt_c656cd92add7382886b6",
+      "title": "Sudan’s army says it captured RSF stronghold in North Kordofan",
+      "category": "军事安全",
+      "score": 62.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-02T18:51:54+00:00",
+      "last_updated": "2026-10-02T18:51:54+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "rsf",
+        "sudan",
+        "army",
+        "captured",
+        "stronghold",
+        "north",
+        "kordofan",
+        "sudanese"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Sudan’s army says it captured RSF stronghold in North Kordofan”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Sudan",
+          "RSF",
+          "North Kordofan"
+        ],
+        "latest_progress": [
+          "10月02日 18:51 UTC，Al Jazeera报道：“Sudan’s army says it captured RSF stronghold in North Kordofan”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f868f9d4293c56a791ea",
+          "url": "https://www.aljazeera.com/news/2026/10/2/sudans-army-says-it-captured-rsf-stronghold-in-north-kordofan?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/sudans-army-says-it-captured-rsf-stronghold-in-north-kordofan?traffic_source=rss",
+          "title": "Sudan’s army says it captured RSF stronghold in North Kordofan",
+          "summary": "Sudanese Armed Forces reportedly retake al-Mazroub, advancing the army's goal of cutting the RSF’s supply lines.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-02T18:51:54+00:00",
+          "fetched_at": "2026-10-02T19:19:45.066365+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_c015c9f2a19218dc5940",
       "title": "Renee Good: Family of US woman killed by ICE agent sues Trump officials",
       "category": "国际政治",
-      "score": 65.8,
+      "score": 61.8,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.8,
+        "recency": 15.8,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 2.0
@@ -630,7 +853,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-02T11:22:38+00:00",
-          "fetched_at": "2026-10-02T13:53:02.576831+00:00",
+          "fetched_at": "2026-10-02T19:19:44.767594+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -645,7 +868,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-01T20:30:47+00:00",
-          "fetched_at": "2026-10-02T13:53:01.921535+00:00",
+          "fetched_at": "2026-10-02T19:19:43.601052+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -654,295 +877,48 @@
       ]
     },
     {
-      "event_id": "evt_080b31c5dbe68343986f",
-      "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
-      "category": "社会突发",
-      "score": 64.3,
+      "event_id": "evt_df22ff6710b9043ef318",
+      "title": "\"NAZA\": Israeli military issues statement on film",
+      "category": "军事安全",
+      "score": 59.6,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.6,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 3.0
+        "recency": 19.1,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-01T20:09:34+00:00",
-      "last_updated": "2026-10-02T11:06:10+00:00",
+      "first_seen": "2026-10-02T15:55:00+00:00",
+      "last_updated": "2026-10-02T15:55:00+00:00",
       "source_count": 1,
-      "article_count": 3,
+      "article_count": 1,
       "sources": [
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "pike",
-        "christa",
-        "execution",
-        "surviving",
-        "two",
-        "lethal",
-        "condition",
-        "failed"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的3篇报道，当前关注的社会突发事件为“Christa Pike in critical condition after surviving two lethal injections, lawyer says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Christa Pike",
-          "What"
-        ],
-        "latest_progress": [
-          "10月02日 11:06 UTC，BBC World报道：“Christa Pike in critical condition after surviving two lethal injections, lawyer says”。",
-          "10月02日 02:11 UTC，BBC World报道：“What happened in the failed execution of Christa Pike - and what next?”。",
-          "10月01日 20:09 UTC，BBC World报道：“What we know about Christa Pike’s condition after failed execution”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a140f53c9e87e349021e",
-          "url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_campaign=rss&at_medium=RSS",
-          "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
-          "summary": "Pike’s lawyers have asked for her death sentence to be commuted following the botched execution.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-02T11:06:10+00:00",
-          "fetched_at": "2026-10-02T13:53:01.919840+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d4ac/live/3102c5a0-be37-11f1-babe-4199b0e7ccea.jpg"
-        },
-        {
-          "article_id": "art_d930c7ed217af1693515",
-          "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_campaign=rss&at_medium=RSS",
-          "title": "What happened in the failed execution of Christa Pike - and what next?",
-          "summary": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-02T02:11:34+00:00",
-          "fetched_at": "2026-10-02T13:53:01.922426+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf7e/live/8225e2d0-bd8f-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_aab7c386d39ad4f9a913",
-          "url": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_campaign=rss&at_medium=RSS",
-          "title": "What we know about Christa Pike’s condition after failed execution",
-          "summary": "The BBC’s Ione Wells reports from outside the Tennessee hospital where Pike is said to have arrived Wednesday night after surviving two lethal injection attempts.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-01T20:09:34+00:00",
-          "fetched_at": "2026-10-02T13:53:01.923471+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae55/live/83794cf0-bdd3-11f1-babe-4199b0e7ccea.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c0372b5f22edb038be35",
-      "title": "Washington’s diplomacy in Sudan has backfired",
-      "category": "军事安全",
-      "score": 61.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-02T11:41:45+00:00",
-      "last_updated": "2026-10-02T11:41:45+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "washington",
-        "sudan",
-        "diplomacy",
-        "backfired",
-        "pressure",
-        "meant",
-        "isolate",
-        "army"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Washington’s diplomacy in Sudan has backfired”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Washington",
-          "Sudan"
-        ],
-        "latest_progress": [
-          "10月02日 11:41 UTC，Al Jazeera报道：“Washington’s diplomacy in Sudan has backfired”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b67647a7af500d5a9d79",
-          "url": "https://www.aljazeera.com/opinions/2026/10/2/washingtons-diplomacy-in-sudan-has-backfired?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/opinions/2026/10/2/washingtons-diplomacy-in-sudan-has-backfired?traffic_source=rss",
-          "title": "Washington’s diplomacy in Sudan has backfired",
-          "summary": "Pressure meant to isolate Sudan’s army has instead left Washington isolated and a ceasefire further out of reach.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-02T11:41:45+00:00",
-          "fetched_at": "2026-10-02T13:53:02.713608+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e29528fc8cdfb4e9c229",
-      "title": "Ebola death toll surpasses 4,000 as DR Congo struggles to suppress outbreak",
-      "category": "社会突发",
-      "score": 60.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-02T12:56:18+00:00",
-      "last_updated": "2026-10-02T12:56:18+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "ebola",
-        "death",
-        "toll",
-        "surpasses",
-        "congo",
-        "struggles",
-        "suppress",
-        "outbreak"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Ebola death toll surpasses 4,000 as DR Congo struggles to suppress outbreak”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Ebola",
-          "DR",
-          "Congo"
-        ],
-        "latest_progress": [
-          "10月02日 12:56 UTC，Al Jazeera报道：“Ebola death toll surpasses 4,000 as DR Congo struggles to suppress outbreak”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_547891d4bda19cea08f3",
-          "url": "https://www.aljazeera.com/news/2026/10/2/ebola-death-toll-surpasses-4000-as-dr-congo-struggles-to-suppress-outbreak?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/ebola-death-toll-surpasses-4000-as-dr-congo-struggles-to-suppress-outbreak?traffic_source=rss",
-          "title": "Ebola death toll surpasses 4,000 as DR Congo struggles to suppress outbreak",
-          "summary": "Burning of a Ebola-hit transit camp sends 19,000 fleeing, illustrating the difficulties of controlling epidemic.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-02T12:56:18+00:00",
-          "fetched_at": "2026-10-02T13:53:02.712303+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_356cd42d8720a0817d45",
-      "title": "Explosions reported near military airport in Syria’s Idlib province",
-      "category": "军事安全",
-      "score": 60.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-02T11:00:20+00:00",
-      "last_updated": "2026-10-02T11:00:20+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "explosions",
-        "near",
+        "naza",
+        "israeli",
         "military",
-        "airport",
-        "syria",
-        "idlib",
-        "province",
-        "reported"
+        "statement",
+        "issues",
+        "film",
+        "award-winning",
+        "documentary"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Explosions reported near military airport in Syria’s Idlib province”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“\"NAZA\": Israeli military issues statement on film”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Explosions",
-          "Syria",
-          "Idlib"
+          "NAZA",
+          "Israeli"
         ],
         "latest_progress": [
-          "10月02日 11:00 UTC，Al Jazeera报道：“Explosions reported near military airport in Syria’s Idlib province”。"
+          "10月02日 15:55 UTC，DW Top Stories报道：“\"NAZA\": Israeli military issues statement on film”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -955,18 +931,18 @@
       },
       "articles": [
         {
-          "article_id": "art_917b01fc96845b9ca317",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-syria-explosion-clip?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/10-2-syria-explosion-clip?traffic_source=rss",
-          "title": "Explosions reported near military airport in Syria’s Idlib province",
-          "summary": "Two explosions have occurred near Taftanaz military airport in Syria’s Idlib province, sending smoke into the sky.",
-          "source": "Al Jazeera",
+          "article_id": "art_b7e5c150d5c2c60e94a3",
+          "url": "https://www.dw.com/en/naza-israeli-military-issues-statement-on-film/a-79520483?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/naza-israeli-military-issues-statement-on-film/a-79520483?maca=en-rss-en-top-1022-rdf",
+          "title": "\"NAZA\": Israeli military issues statement on film",
+          "summary": "The award-winning documentary \"NAZA\" continues to spark controversy in Israel. The Israeli military has now published a multi-page statement calling the film's portrayal \"distorted.\"",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-02T11:00:20+00:00",
-          "fetched_at": "2026-10-02T13:53:02.714472+00:00",
+          "published_at": "2026-10-02T15:55:00+00:00",
+          "fetched_at": "2026-10-02T19:19:44.516232+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
