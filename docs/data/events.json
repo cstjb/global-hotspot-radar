@@ -1,118 +1,119 @@
 {
-  "generated_at": "2026-10-02T00:49:07.634236+00:00",
+  "generated_at": "2026-10-02T07:02:07.599679+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 136,
-    "articles_unique": 136,
+    "articles_fetched": 135,
+    "articles_unique": 134,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_af024b34f336afb29c53",
-      "title": "Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank",
-      "category": "军事安全",
-      "score": 69.0,
+      "event_id": "evt_e9189707142731763aa3",
+      "title": "US pressures Europe over diesel reserves as Trump threatens export ban",
+      "category": "产业供应链",
+      "score": 76.9,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.0,
-        "credibility": 10.0,
-        "impact": 13.0,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 22.0,
+        "credibility": 9.8,
+        "impact": 10.4,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-01T19:45:37+00:00",
-      "last_updated": "2026-10-01T23:44:39+00:00",
-      "source_count": 1,
+      "first_seen": "2026-10-02T01:23:35+00:00",
+      "last_updated": "2026-10-02T06:59:30+00:00",
+      "source_count": 3,
       "article_count": 3,
       "sources": [
-        "Al Jazeera"
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
+        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "west",
-        "bank",
-        "occupied",
-        "palestinian",
-        "killed",
-        "israeli",
-        "palestinians",
-        "funeral"
+        "diesel",
+        "trump",
+        "release",
+        "reserves",
+        "prices",
+        "ban",
+        "europe",
+        "export"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的3篇报道，当前关注的军事安全事件为“Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的产业供应链事件为“US pressures Europe over diesel reserves as Trump threatens export ban”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
         "participants": [
-          "Israeli",
-          "Palestinian",
-          "Gaza",
-          "West Bank Funeral",
-          "West Bank What",
-          "West Bank"
+          "US",
+          "Europe",
+          "Trump",
+          "EU"
         ],
         "latest_progress": [
-          "10月01日 23:44 UTC，Al Jazeera报道：“Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank”。",
-          "10月01日 20:45 UTC，Al Jazeera报道：“Funeral held for Palestinian man killed in the occupied West Bank”。",
-          "10月01日 19:45 UTC，Al Jazeera报道：“What’s driving Israeli settler violence in the occupied West Bank?”。"
+          "10月02日 06:59 UTC，BBC World报道：“US pressures Europe over diesel reserves as Trump threatens export ban”。",
+          "10月02日 03:51 UTC，DW Top Stories报道：“US pressures EU allies to release diesel stockpiles”。",
+          "10月02日 01:23 UTC，Al Jazeera报道：“Trump says US may ask Europe to release diesel reserves”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
+        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "港口和工厂运行率",
+          "交货周期与运价",
+          "企业订单及库存"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_37a87f23de79b21b0b6d",
-          "url": "https://www.aljazeera.com/news/2026/10/1/israeli-drone-kills-palestinian-in-gaza-settlers-kill-another-in-west-bank?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/1/israeli-drone-kills-palestinian-in-gaza-settlers-kill-another-in-west-bank?traffic_source=rss",
-          "title": "Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank",
-          "summary": "1,439 Palestinians have been killed in Gaza and 5,052 injured since the 'ceasefire' began in October 2025.",
-          "source": "Al Jazeera",
+          "article_id": "art_ecd0bfa99020544c475a",
+          "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_campaign=rss&at_medium=RSS",
+          "title": "US pressures Europe over diesel reserves as Trump threatens export ban",
+          "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-01T23:44:39+00:00",
-          "fetched_at": "2026-10-02T00:49:05.587159+00:00",
+          "published_at": "2026-10-02T06:59:30+00:00",
+          "fetched_at": "2026-10-02T07:02:05.069909+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/95a3/live/c2123c20-be1d-11f1-8202-6fffc4c0ebaa.jpg"
+        },
+        {
+          "article_id": "art_fcf5dfba5eed3eedd49c",
+          "url": "https://www.dw.com/en/us-pressures-eu-allies-to-release-diesel-stockpiles/a-79509571?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-pressures-eu-allies-to-release-diesel-stockpiles/a-79509571?maca=en-rss-en-top-1022-rdf",
+          "title": "US pressures EU allies to release diesel stockpiles",
+          "summary": "The Trump administration has called on its European allies, particularly Germany and France, to release strategic diesel reserves in an effort to ease fuel prices. The EU will hold an emergency meeting on Friday.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T03:51:00+00:00",
+          "fetched_at": "2026-10-02T07:02:05.657491+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_cc7cf4c20e3142d921fa",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/funeral-held-for-palestinian-man-killed-in-the-occupied-west-bank?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/funeral-held-for-palestinian-man-killed-in-the-occupied-west-bank?traffic_source=rss",
-          "title": "Funeral held for Palestinian man killed in the occupied West Bank",
-          "summary": "Funeral held for Palestinian man killed in the occupied West Bank",
+          "article_id": "art_8b1324d14577ae6f5f5b",
+          "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-us-may-ask-europe-to-release-diesel-reserves?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/trump-says-us-may-ask-europe-to-release-diesel-reserves?traffic_source=rss",
+          "title": "Trump says US may ask Europe to release diesel reserves",
+          "summary": "Skyrocketing diesel prices have pushed Washington to weigh an export ban, raising alarm across European economies.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-01T20:45:04+00:00",
-          "fetched_at": "2026-10-02T00:49:05.587941+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e65826e923e23e3fd591",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/10/1/whats-driving-israeli-settler-violence-in-the-occupied-west-bank?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/1/whats-driving-israeli-settler-violence-in-the-occupied-west-bank?traffic_source=rss",
-          "title": "What’s driving Israeli settler violence in the occupied West Bank?",
-          "summary": "Attacks on Palestinians in the area are growing at unprecedented levels.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-01T19:45:37+00:00",
-          "fetched_at": "2026-10-02T00:49:05.588471+00:00",
+          "published_at": "2026-10-02T01:23:35+00:00",
+          "fetched_at": "2026-10-02T07:02:06.119820+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -122,24 +123,25 @@
     },
     {
       "event_id": "evt_deab117b747f6feec718",
-      "title": "Eritrea severs diplomatic ties with Ethiopia in tit-for-tat move",
+      "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
       "category": "国际政治",
-      "score": 67.1,
+      "score": 74.9,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 18.1,
+        "recency": 20.8,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 3.5
       },
       "first_seen": "2026-10-01T16:57:00+00:00",
-      "last_updated": "2026-10-01T20:10:52+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "last_updated": "2026-10-02T05:42:07+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -150,22 +152,24 @@
         "ethiopia",
         "eritrea",
         "ties",
+        "diplomatic",
+        "tigray",
         "said",
-        "eritrean",
-        "diplomats",
-        "sever",
-        "tigray"
+        "northern",
+        "sever"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Eritrea severs diplomatic ties with Ethiopia in tit-for-tat move”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Eritrea",
           "Ethiopia",
+          "Eritrea",
+          "Tigray Ethiopia",
           "Tigray"
         ],
         "latest_progress": [
-          "10月01日 20:10 UTC，Al Jazeera报道：“Eritrea severs diplomatic ties with Ethiopia in tit-for-tat move”。",
+          "10月02日 05:42 UTC，BBC World报道：“Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates”。",
+          "10月02日 04:40 UTC，Al Jazeera报道：“Eritrea severs diplomatic ties with Ethiopia in row over Tigray”。",
           "10月01日 16:57 UTC，DW Top Stories报道：“Ethiopia and Eritrea sever ties amid Tigray fighting”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
@@ -179,15 +183,30 @@
       },
       "articles": [
         {
-          "article_id": "art_41002dfdb09507b93481",
-          "url": "https://www.aljazeera.com/news/2026/10/1/eritrea-severs-diplomatic-ties-with-ethiopia-in-tit-for-tat-move?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/1/eritrea-severs-diplomatic-ties-with-ethiopia-in-tit-for-tat-move?traffic_source=rss",
-          "title": "Eritrea severs diplomatic ties with Ethiopia in tit-for-tat move",
-          "summary": "Ethiopia says it will shut its embassy in Asmara, declares 10 Eritrean diplomats persona non grata.",
+          "article_id": "art_1a18a82663c512a265f3",
+          "url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_campaign=rss&at_medium=RSS",
+          "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
+          "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-02T05:42:07+00:00",
+          "fetched_at": "2026-10-02T07:02:05.071127+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dc3/live/316213c0-be23-11f1-bf88-854b5521eba9.jpg"
+        },
+        {
+          "article_id": "art_d96daa4891231d4a22cb",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/eritrea-severs-diplomatic-ties-with-ethiopia-in-row-over-tigray?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/eritrea-severs-diplomatic-ties-with-ethiopia-in-row-over-tigray?traffic_source=rss",
+          "title": "Eritrea severs diplomatic ties with Ethiopia in row over Tigray",
+          "summary": "Eritrea has severed diplomatic ties with Ethiopia after Addis Ababa closed its embassy in Asmara",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-01T20:10:52+00:00",
-          "fetched_at": "2026-10-02T00:49:05.588139+00:00",
+          "published_at": "2026-10-02T04:40:14+00:00",
+          "fetched_at": "2026-10-02T07:02:06.118227+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -202,7 +221,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-01T16:57:00+00:00",
-          "fetched_at": "2026-10-02T00:49:05.132293+00:00",
+          "fetched_at": "2026-10-02T07:02:05.658232+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -211,144 +230,174 @@
       ]
     },
     {
-      "event_id": "evt_9a7a62422f7bcc1c5b6e",
-      "title": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
-      "category": "军事安全",
-      "score": 66.7,
+      "event_id": "evt_2cb6343e1d13ab1b8f31",
+      "title": "Row between Ukraine, South Korea mounts over North Korean POWs",
+      "category": "国际政治",
+      "score": 74.2,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 16.1,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 1.3
+        "recency": 21.6,
+        "credibility": 9.6,
+        "impact": 11.0,
+        "velocity": 3.6
       },
-      "first_seen": "2026-09-30T23:10:06+00:00",
-      "last_updated": "2026-10-01T21:33:15+00:00",
+      "first_seen": "2026-10-01T13:57:00+00:00",
+      "last_updated": "2026-10-02T06:33:00+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "putin",
-        "russia",
+        "south",
+        "north",
+        "korea",
+        "korean",
         "ukraine",
-        "speech",
-        "russian",
-        "rosenberg",
-        "shows",
-        "sign"
+        "transfer",
+        "prisoners",
+        "injured"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Row between Ukraine, South Korea mounts over North Korean POWs”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Russia",
-          "Putin",
+          "South Korea",
           "Ukraine",
-          "Moscow Rosenberg"
+          "POW",
+          "North Korean",
+          "Row",
+          "North"
         ],
         "latest_progress": [
-          "10月01日 21:33 UTC，Al Jazeera报道：“Russia’s Putin rules out ceasefire with Ukraine during speech in Moscow”。",
-          "09月30日 23:10 UTC，BBC World报道：“Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine”。"
+          "10月02日 06:33 UTC，DW Top Stories报道：“South Korea demands Ukraine apology over POW disclosure”。",
+          "10月02日 04:40 UTC，DW Top Stories报道：“Ukraine, South Korea clash over transfer of 2 North Korean prisoners”。",
+          "10月02日 02:54 UTC，Al Jazeera报道：“Row between Ukraine, South Korea mounts over North Korean POWs”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_cd999dd5b7a8b7a5f8fe",
-          "url": "https://www.aljazeera.com/news/2026/10/1/russias-putin-rules-out-ceasefire-with-ukraine-during-speech-in-moscow?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/1/russias-putin-rules-out-ceasefire-with-ukraine-during-speech-in-moscow?traffic_source=rss",
-          "title": "Russia’s Putin rules out ceasefire with Ukraine during speech in Moscow",
-          "summary": "Putin warned the West he would deploy nuclear weapons if necessary to defend the Russian Baltic exclave of Kaliningrad.",
+          "article_id": "art_065aa40909a56abc558a",
+          "url": "https://www.dw.com/en/south-korea-demands-ukraine-apology-over-pow-disclosure/a-79510305?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/south-korea-demands-ukraine-apology-over-pow-disclosure/a-79510305?maca=en-rss-en-top-1022-rdf",
+          "title": "South Korea demands Ukraine apology over POW disclosure",
+          "summary": "Ukrainian President Volodymyr Zelenskyy's disclosure of the transfer of North Korean prisoners of war (POWs) to Seoul has caused a major diplomatic spat between Seoul and Kyiv.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T06:33:00+00:00",
+          "fetched_at": "2026-10-02T07:02:05.656911+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9c5ae0056f192a5e73d2",
+          "url": "https://www.dw.com/en/ukraine-south-korea-clash-over-transfer-of-2-north-korean-prisoners/a-79508601?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-south-korea-clash-over-transfer-of-2-north-korean-prisoners/a-79508601?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine, South Korea clash over transfer of 2 North Korean prisoners",
+          "summary": "A diplomatic scandal has erupted over two North Korean prisoners of war, with South Korea demanding an apology from Ukraine. What's been the reaction in Kyiv?",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T04:40:00+00:00",
+          "fetched_at": "2026-10-02T07:02:05.657198+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_195e2d6eecfe3bd87c15",
+          "url": "https://www.aljazeera.com/news/2026/10/2/row-between-ukraine-south-korea-mounts-over-north-korean-pows?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/row-between-ukraine-south-korea-mounts-over-north-korean-pows?traffic_source=rss",
+          "title": "Row between Ukraine, South Korea mounts over North Korean POWs",
+          "summary": "South Korea’s ⁠President accused Ukraine of ⁠undermining him by disclosing POW transfer deal",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-01T21:33:15+00:00",
-          "fetched_at": "2026-10-02T00:49:05.587670+00:00",
+          "published_at": "2026-10-02T02:54:13+00:00",
+          "fetched_at": "2026-10-02T07:02:06.119028+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_3520e0235182295ecc61",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqx2ze420kpyo?at_campaign=rss&at_medium=RSS",
-          "title": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine",
-          "summary": "A foreign policy speech by the Russian president will be keenly watched, but all signs point to the full-scale invasion continuing.",
-          "source": "BBC World",
+          "article_id": "art_058d0a9225400ba192d2",
+          "url": "https://www.dw.com/en/north-and-south-korea-trade-accusations-over-landmines-that-injured-three-soldiers/a-79503854?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/north-and-south-korea-trade-accusations-over-landmines-that-injured-three-soldiers/a-79503854?maca=en-rss-en-top-1022-rdf",
+          "title": "North and South Korea trade accusations over landmines that injured three soldiers",
+          "summary": "A mine blast that injured three South Korean soldiers has renewed scrutiny of North Korea's actions along the border and raised questions about its strategic goals.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-09-30T23:10:06+00:00",
-          "fetched_at": "2026-10-02T00:49:04.441744+00:00",
+          "published_at": "2026-10-01T13:57:00+00:00",
+          "fetched_at": "2026-10-02T07:02:05.659006+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c37/live/eac38c60-bce6-11f1-8ce2-417f8f7cb095.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_3e828f071b8d9b76bf3e",
-      "title": "School protests spread as fires, blockades deepen unrest in France",
+      "event_id": "evt_080b31c5dbe68343986f",
+      "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
       "category": "社会突发",
-      "score": 66.7,
+      "score": 64.7,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.8,
+        "coverage": 13.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.0,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-01T12:31:18+00:00",
-      "last_updated": "2026-10-01T18:18:18+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-01T20:09:34+00:00",
+      "last_updated": "2026-10-02T02:11:34+00:00",
+      "source_count": 1,
+      "article_count": 3,
       "sources": [
-        "Al Jazeera",
         "BBC World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "france",
-        "students",
-        "school",
-        "protests",
-        "overcrowded",
-        "teacher",
-        "shortages",
-        "watch"
+        "pike",
+        "christa",
+        "execution",
+        "surviving",
+        "two",
+        "lethal",
+        "condition",
+        "failed"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“School protests spread as fires, blockades deepen unrest in France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的3篇报道，当前关注的社会突发事件为“Christa Pike in critical condition after surviving two lethal injections, lawyer says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "School",
-          "France Watch",
-          "Why",
-          "France"
+          "What",
+          "Christa Pike"
         ],
         "latest_progress": [
-          "10月01日 18:18 UTC，Al Jazeera报道：“School protests spread as fires, blockades deepen unrest in France”。",
-          "10月01日 12:31 UTC，BBC World报道：“Watch: Why are students protesting at schools in France?”。"
+          "10月02日 02:11 UTC，BBC World报道：“What happened in the failed execution of Christa Pike - and what next?”。",
+          "10月01日 22:28 UTC，BBC World报道：“Christa Pike in critical condition after surviving two lethal injections, lawyer says”。",
+          "10月01日 20:09 UTC，BBC World报道：“What we know about Christa Pike’s condition after failed execution”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -361,176 +410,183 @@
       },
       "articles": [
         {
-          "article_id": "art_1ad140fafb2fb86b3531",
-          "url": "https://www.aljazeera.com/news/2026/10/1/school-protests-spread-as-fires-blockades-deepen-unrest-in-france?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/1/school-protests-spread-as-fires-blockades-deepen-unrest-in-france?traffic_source=rss",
-          "title": "School protests spread as fires, blockades deepen unrest in France",
-          "summary": "Police have detained hundreds as students protest overcrowded classrooms, teacher shortages and crumbling facilities.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-01T18:18:18+00:00",
-          "fetched_at": "2026-10-02T00:49:05.588736+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_b9270dd84bda100ea863",
-          "url": "https://www.bbc.co.uk/news/videos/cwy8z8rney97o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwy8z8rney97o?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: Why are students protesting at schools in France?",
-          "summary": "The BBC's Hugh Schofield is in Paris as a wave of school protests over overcrowded classes and teacher shortages spreads across France.",
+          "article_id": "art_d930c7ed217af1693515",
+          "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_campaign=rss&at_medium=RSS",
+          "title": "What happened in the failed execution of Christa Pike - and what next?",
+          "summary": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-01T12:31:18+00:00",
-          "fetched_at": "2026-10-02T00:49:04.442058+00:00",
+          "published_at": "2026-10-02T02:11:34+00:00",
+          "fetched_at": "2026-10-02T07:02:05.072837+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a0/live/d4becb50-bd90-11f1-babe-4199b0e7ccea.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf7e/live/8225e2d0-bd8f-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_a140f53c9e87e349021e",
+          "url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_campaign=rss&at_medium=RSS",
+          "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
+          "summary": "Pike’s lawyers have asked for her death sentence to be commuted following the botched execution.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-01T22:28:45+00:00",
+          "fetched_at": "2026-10-02T07:02:05.070111+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5bc/live/73d236d0-bdb6-11f1-babe-4199b0e7ccea.jpg"
+        },
+        {
+          "article_id": "art_aab7c386d39ad4f9a913",
+          "url": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_campaign=rss&at_medium=RSS",
+          "title": "What we know about Christa Pike’s condition after failed execution",
+          "summary": "The BBC’s Ione Wells reports from outside the Tennessee hospital where Pike is said to have arrived Wednesday night after surviving two lethal injection attempts.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-01T20:09:34+00:00",
+          "fetched_at": "2026-10-02T07:02:05.073770+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae55/live/83794cf0-bdd3-11f1-babe-4199b0e7ccea.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_efb40f63172e1c5d0a66",
-      "title": "ICC ends contract with French insurer amid US sanctions threat",
-      "category": "经济金融",
-      "score": 65.5,
+      "event_id": "evt_478fb8c70b0b686c9531",
+      "title": "SpaceX launches crew to ISS",
+      "category": "科技AI",
+      "score": 61.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.3,
+        "region_diversity": 2.5,
+        "recency": 18.9,
         "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 2.6
+        "impact": 9.8,
+        "velocity": 2.8
       },
-      "first_seen": "2026-10-01T08:42:13+00:00",
-      "last_updated": "2026-10-01T20:20:00+00:00",
+      "first_seen": "2026-10-01T16:32:17+00:00",
+      "last_updated": "2026-10-02T03:23:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "sanctions",
-        "icc",
-        "court",
-        "life",
-        "judge",
-        "under",
-        "looks",
-        "like"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的经济金融事件为“ICC ends contract with French insurer amid US sanctions threat”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "ICC",
-          "French",
-          "US",
-          "What"
-        ],
-        "latest_progress": [
-          "10月01日 20:20 UTC，Al Jazeera报道：“ICC ends contract with French insurer amid US sanctions threat”。",
-          "10月01日 08:42 UTC，NPR World报道：“What life under U.S. sanctions looks like for one ICC judge”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b4c61fb0a726ce4e87bb",
-          "url": "https://www.aljazeera.com/economy/2026/10/1/icc-ends-contract-with-french-insurer-amid-us-sanctions-threat?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/1/icc-ends-contract-with-french-insurer-amid-us-sanctions-threat?traffic_source=rss",
-          "title": "ICC ends contract with French insurer amid US sanctions threat",
-          "summary": "ICC and Axa terminate agreement amid mounting US criticism and looming financial restrictions on the court, FT reports.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-01T20:20:00+00:00",
-          "fetched_at": "2026-10-02T00:49:05.588075+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6d40697d5a9d962376ad",
-          "url": "https://www.npr.org/2026/10/01/nx-s1-5977815/trump-icc-sanctions-kimberly-prost",
-          "canonical_url": "https://www.npr.org/2026/10/01/nx-s1-5977815/trump-icc-sanctions-kimberly-prost",
-          "title": "What life under U.S. sanctions looks like for one ICC judge",
-          "summary": "Kimberly Prost, a Canadian judge at the International Criminal Court, says U.S. sanctions disrupted her daily life. She is still hearing cases and challenging the sanctions in court.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-01T08:42:13+00:00",
-          "fetched_at": "2026-10-02T00:49:05.392615+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_680db703923a7d51aee4",
-      "title": "Flydubai passenger describes hugging his children as plane nosedived during attack",
-      "category": "军事安全",
-      "score": 65.3,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 2.1
-      },
-      "first_seen": "2026-09-30T15:07:00+00:00",
-      "last_updated": "2026-10-01T19:59:24+00:00",
-      "source_count": 1,
-      "article_count": 4,
-      "sources": [
-        "BBC World"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "plane",
-        "flydubai",
-        "passengers",
-        "stabbing",
-        "flight",
-        "israel-bound",
-        "passenger",
-        "describes"
+        "spacex",
+        "crew",
+        "iss",
+        "international",
+        "space",
+        "station",
+        "launches",
+        "falcon"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的4篇报道，当前关注的军事安全事件为“Flydubai passenger describes hugging his children as plane nosedived during attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的科技AI事件为“SpaceX launches crew to ISS”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Netanyahu",
-          "Flydubai",
-          "Islamist",
-          "Passengers",
-          "Israel"
+          "US",
+          "ISS"
         ],
         "latest_progress": [
-          "10月01日 19:59 UTC，BBC World报道：“Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'”。",
-          "10月01日 13:57 UTC，BBC World报道：“Flydubai passenger describes hugging his children as plane nosedived during attack”。",
-          "09月30日 21:38 UTC，BBC World报道：“Flydubai passenger describes putting attacker in chokehold after cockpit stabbing”。"
+          "10月02日 03:23 UTC，DW Top Stories报道：“New crew makes the quickest US flight to ISS”。",
+          "10月01日 16:32 UTC，BBC World报道：“SpaceX launches crew to ISS”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_18647f742a533aa71174",
+          "url": "https://www.dw.com/en/new-crew-makes-the-quickest-us-flight-to-iss/a-79509556?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/new-crew-makes-the-quickest-us-flight-to-iss/a-79509556?maca=en-rss-en-top-1022-rdf",
+          "title": "New crew makes the quickest US flight to ISS",
+          "summary": "The SpaceX spacecraft carrying the Crew-13 team docked with the International Space Station in 7 hours and 55 minutes, setting a new record.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T03:23:00+00:00",
+          "fetched_at": "2026-10-02T07:02:05.657614+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7ca01831062078d9c2c3",
+          "url": "https://www.bbc.co.uk/news/videos/c5rm9mdperemo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c5rm9mdperemo?at_campaign=rss&at_medium=RSS",
+          "title": "SpaceX launches crew to ISS",
+          "summary": "The Falcon 9 rocket blasted off from Cape Canaveral with two Americans, a Russian and a Canadian who will spend up to six months aboard the International Space Station.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-01T16:32:17+00:00",
+          "fetched_at": "2026-10-02T07:02:05.074393+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/809f/live/1b9fbe20-bdb5-11f1-babe-4199b0e7ccea.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_15481c76359178a29a3b",
+      "title": "The Sudan connection: Is Ethiopia at risk of a proxy war?",
+      "category": "军事安全",
+      "score": 61.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-02T05:52:00+00:00",
+      "last_updated": "2026-10-02T05:52:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "sudan",
+        "ethiopia",
+        "connection",
+        "risk",
+        "proxy",
+        "war",
+        "trading",
+        "accusations"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“The Sudan connection: Is Ethiopia at risk of a proxy war?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "The Sudan",
+          "Is Ethiopia"
+        ],
+        "latest_progress": [
+          "10月02日 05:52 UTC，DW Top Stories报道：“The Sudan connection: Is Ethiopia at risk of a proxy war?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -543,64 +599,19 @@
       },
       "articles": [
         {
-          "article_id": "art_324f85d01816eabdf781",
-          "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_campaign=rss&at_medium=RSS",
-          "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-          "summary": "Israel's prime minister says the pilot who tried to take over the Flydubai plane clearly intended to \"down the plane\".",
-          "source": "BBC World",
+          "article_id": "art_35b32feb46d2ebc7bef6",
+          "url": "https://www.dw.com/en/the-sudan-connection-is-ethiopia-at-risk-of-a-proxy-war/a-79491261?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/the-sudan-connection-is-ethiopia-at-risk-of-a-proxy-war/a-79491261?maca=en-rss-en-top-1022-rdf",
+          "title": "The Sudan connection: Is Ethiopia at risk of a proxy war?",
+          "summary": "Ethiopia and Sudan are trading accusations over the armed conflicts they face. Can the conflict dynamics in the wider Horn of Africa exacerbate tensions?",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-01T19:59:24+00:00",
-          "fetched_at": "2026-10-02T00:49:04.440559+00:00",
+          "published_at": "2026-10-02T05:52:00+00:00",
+          "fetched_at": "2026-10-02T07:02:05.657063+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/806d/live/8cf56f00-8950-11f1-aee1-9f17574ebbb3.jpg"
-        },
-        {
-          "article_id": "art_7f62cfdb701ef83e8674",
-          "url": "https://www.bbc.co.uk/news/articles/c6d949ydnw3po?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6d949ydnw3po?at_campaign=rss&at_medium=RSS",
-          "title": "Flydubai passenger describes hugging his children as plane nosedived during attack",
-          "summary": "Adam Polovincik tells the BBC he told his young children \"everything is going to be all right\" as flight plunged more than 17,000ft (5,200m).",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-01T13:57:28+00:00",
-          "fetched_at": "2026-10-02T00:49:04.441619+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dc5/live/ecab7fd0-bda2-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_f5de8afc606e7886d8ef",
-          "url": "https://www.bbc.co.uk/news/articles/cmx2z92xx57no?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmx2z92xx57no?at_campaign=rss&at_medium=RSS",
-          "title": "Flydubai passenger describes putting attacker in chokehold after cockpit stabbing",
-          "summary": "Other passengers on the Israel-bound flight described the \"terrifying\" moment the plane dropped.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T21:38:54+00:00",
-          "fetched_at": "2026-10-02T00:49:04.441933+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab8/live/f51d98c0-bd10-11f1-bc2e-018d645d8d21.png"
-        },
-        {
-          "article_id": "art_075653ad15c106655689",
-          "url": "https://www.bbc.co.uk/news/videos/cv70d22kd34do?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cv70d22kd34do?at_campaign=rss&at_medium=RSS",
-          "title": "Passengers describe stabbing on Israel-bound plane",
-          "summary": "Passengers on the Flydubai flight bound for Israel filmed the moments following the stabbing.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T15:07:00+00:00",
-          "fetched_at": "2026-10-02T00:49:04.442182+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee3c/live/4572b2f0-bcea-11f1-babe-4199b0e7ccea.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
@@ -608,12 +619,12 @@
       "event_id": "evt_5a0bb288992dda184d2e",
       "title": "Renee Good: Family of US woman killed by ICE agent sues Trump officials",
       "category": "国际政治",
-      "score": 64.9,
+      "score": 60.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.4,
+        "recency": 14.2,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -672,7 +683,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-01T20:30:47+00:00",
-          "fetched_at": "2026-10-02T00:49:04.440698+00:00",
+          "fetched_at": "2026-10-02T07:02:05.071920+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -687,7 +698,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-01T14:43:00+00:00",
-          "fetched_at": "2026-10-02T00:49:05.132541+00:00",
+          "fetched_at": "2026-10-02T07:02:05.658764+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -696,213 +707,21 @@
       ]
     },
     {
-      "event_id": "evt_e3a7e429c9612ce1591a",
-      "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
-      "category": "能源资源",
-      "score": 64.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 8.9,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-09-30T23:00:00+00:00",
-      "last_updated": "2026-10-01T03:13:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "glaciers",
-        "ice",
-        "swiss",
-        "year",
-        "record",
-        "loss",
-        "suffer",
-        "pace"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的能源资源事件为“Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Swiss"
-        ],
-        "latest_progress": [
-          "10月01日 03:13 UTC，DW Top Stories报道：“Swiss glaciers lose more than 5% in ice volume in 2026”。",
-          "10月01日 00:08 UTC，BBC World报道：“Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies”。",
-          "09月30日 23:00 UTC，NPR World报道：“Swiss glaciers suffer another year of record ice loss”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_23dc466a42993de3ae96",
-          "url": "https://www.dw.com/en/swiss-glaciers-lose-more-than-5-in-ice-volume-in-2026/a-79495965?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/swiss-glaciers-lose-more-than-5-in-ice-volume-in-2026/a-79495965?maca=en-rss-en-top-1022-rdf",
-          "title": "Swiss glaciers lose more than 5% in ice volume in 2026",
-          "summary": "Over the last five years, Swiss glaciers have lost nearly 20% of their mass, and 2026 saw the second-biggest loss of glacier volume on record. Experts warn there could be no ice left in the next 10-15 years.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-01T03:13:00+00:00",
-          "fetched_at": "2026-10-02T00:49:05.133231+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ca31bc503f5e0f152e3e",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_campaign=rss&at_medium=RSS",
-          "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
-          "summary": "Scientists say such rapid melting is no longer surprising given the pace of climate change.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-01T00:08:23+00:00",
-          "fetched_at": "2026-10-02T00:49:04.441228+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4300/live/fc078410-bccb-11f1-9f83-d9975ff80416.jpg"
-        },
-        {
-          "article_id": "art_cde3e751edf0549c3367",
-          "url": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
-          "canonical_url": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
-          "title": "Swiss glaciers suffer another year of record ice loss",
-          "summary": "Switzerland's glaciers are disappearing at a record pace. More than 5% of their ice has vanished this year alone — threatening water supplies, ecosystems and communities across Europe.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-09-30T23:00:00+00:00",
-          "fetched_at": "2026-10-02T00:49:05.392686+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6c7209e3b441d7e2447f",
-      "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
-      "category": "社会突发",
-      "score": 64.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.3,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-01T22:28:45+00:00",
-      "last_updated": "2026-10-01T22:52:19+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "pike",
-        "christa",
-        "surviving",
-        "two",
-        "lethal",
-        "injections",
-        "execution",
-        "critical"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的社会突发事件为“Christa Pike in critical condition after surviving two lethal injections, lawyer says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "What",
-          "Christa Pike"
-        ],
-        "latest_progress": [
-          "10月01日 22:52 UTC，BBC World报道：“What happened in the failed execution of Christa Pike - and what next?”。",
-          "10月01日 22:28 UTC，BBC World报道：“Christa Pike in critical condition after surviving two lethal injections, lawyer says”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d930c7ed217af1693515",
-          "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_campaign=rss&at_medium=RSS",
-          "title": "What happened in the failed execution of Christa Pike - and what next?",
-          "summary": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-01T22:52:19+00:00",
-          "fetched_at": "2026-10-02T00:49:04.440478+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf7e/live/8225e2d0-bd8f-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_a140f53c9e87e349021e",
-          "url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_campaign=rss&at_medium=RSS",
-          "title": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
-          "summary": "Pike’s lawyers have asked for her death sentence to be commuted following the botched execution.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-01T22:28:45+00:00",
-          "fetched_at": "2026-10-02T00:49:04.440353+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5bc/live/73d236d0-bdb6-11f1-babe-4199b0e7ccea.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_97d1b8589e89bf8590ee",
-      "title": "Iran war live: US moves 2,000 Marines to Middle East, tanker hit in Hormuz",
-      "category": "军事安全",
-      "score": 62.3,
+      "event_id": "evt_01e278c487fbe7ee5e8f",
+      "title": "Election debate cancelled in Brazil, bomb scare outside Supreme Court",
+      "category": "国际政治",
+      "score": 60.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.3,
+        "recency": 21.2,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-02T00:00:00+00:00",
-      "last_updated": "2026-10-02T00:00:00+00:00",
+      "first_seen": "2026-10-02T06:09:57+00:00",
+      "last_updated": "2026-10-02T06:09:57+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -912,27 +731,167 @@
         "Middle East"
       ],
       "keywords": [
-        "iran",
-        "marines",
-        "middle",
-        "east",
-        "war",
-        "moves",
-        "tanker",
-        "hit"
+        "election",
+        "debate",
+        "cancelled",
+        "brazil",
+        "bomb",
+        "scare",
+        "outside",
+        "supreme"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: US moves 2,000 Marines to Middle East, tanker hit in Hormuz”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Election debate cancelled in Brazil, bomb scare outside Supreme Court”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Iran",
-          "US",
-          "Marines",
-          "Middle East",
-          "Hormuz"
+          "Election",
+          "Brazil",
+          "Supreme Court"
         ],
         "latest_progress": [
-          "10月02日 00:00 UTC，Al Jazeera报道：“Iran war live: US moves 2,000 Marines to Middle East, tanker hit in Hormuz”。"
+          "10月02日 06:09 UTC，Al Jazeera报道：“Election debate cancelled in Brazil, bomb scare outside Supreme Court”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_dc15ab9ab50c14536b91",
+          "url": "https://www.aljazeera.com/news/2026/10/2/election-debate-cancelled-in-brazil-bomb-scare-outside-supreme-court?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/election-debate-cancelled-in-brazil-bomb-scare-outside-supreme-court?traffic_source=rss",
+          "title": "Election debate cancelled in Brazil, bomb scare outside Supreme Court",
+          "summary": "Brazilian president and opposition candidate snub the final debate ahead of the presidential election.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-02T06:09:57+00:00",
+          "fetched_at": "2026-10-02T07:02:06.117239+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ec10a7c9ffce5dab7bbc",
+      "title": "How Switzerland lost 20 percent of its ice in five years",
+      "category": "经济金融",
+      "score": 60.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-02T04:59:58+00:00",
+      "last_updated": "2026-10-02T04:59:58+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "lost",
+        "percent",
+        "ice",
+        "switzerland",
+        "five",
+        "years",
+        "swiss",
+        "glaciers"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的经济金融事件为“How Switzerland lost 20 percent of its ice in five years”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "How Switzerland"
+        ],
+        "latest_progress": [
+          "10月02日 04:59 UTC，Al Jazeera报道：“How Switzerland lost 20 percent of its ice in five years”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_fddb04c27da411922584",
+          "url": "https://www.aljazeera.com/news/2026/10/2/how-switzerland-lost-20-percent-of-its-ice-in-five-years?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/how-switzerland-lost-20-percent-of-its-ice-in-five-years?traffic_source=rss",
+          "title": "How Switzerland lost 20 percent of its ice in five years",
+          "summary": "Swiss glaciers have lost more than 5 percent of their ice, threatening the country’s alpine economy.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-02T04:59:58+00:00",
+          "fetched_at": "2026-10-02T07:02:06.117601+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9181054d1dd9935c28b7",
+      "title": "US to send third aircraft carrier towards Iran: US official to Al Jazeera",
+      "category": "军事安全",
+      "score": 59.8,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.8,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-02T03:14:47+00:00",
+      "last_updated": "2026-10-02T03:14:47+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "send",
+        "third",
+        "aircraft",
+        "carrier",
+        "towards",
+        "iran",
+        "official",
+        "jazeera"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“US to send third aircraft carrier towards Iran: US official to Al Jazeera”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "US",
+          "Iran",
+          "Al Jazeera"
+        ],
+        "latest_progress": [
+          "10月02日 03:14 UTC，Al Jazeera报道：“US to send third aircraft carrier towards Iran: US official to Al Jazeera”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -945,15 +904,15 @@
       },
       "articles": [
         {
-          "article_id": "art_d3d0e356cb6314a6ccbb",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/2/iran-war-live-us-moves-2000-marines-to-middle-east-tanker-hit-in-hormuz?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/2/iran-war-live-us-moves-2000-marines-to-middle-east-tanker-hit-in-hormuz?traffic_source=rss",
-          "title": "Iran war live: US moves 2,000 Marines to Middle East, tanker hit in Hormuz",
-          "summary": "US deploys Roosevelt strike group and 2,000 Marines to the Middle East as part of a wider buildup around Iran.",
+          "article_id": "art_6140760d398c45498534",
+          "url": "https://www.aljazeera.com/news/2026/10/2/us-to-send-third-aircraft-carrier-towards-iran-us-official-to-al-jazeera?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/2/us-to-send-third-aircraft-carrier-towards-iran-us-official-to-al-jazeera?traffic_source=rss",
+          "title": "US to send third aircraft carrier towards Iran: US official to Al Jazeera",
+          "summary": "Massive US military deployment to the Middle East includes 50,000 troops, F-35s and Marines to pressure Tehran.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-02T00:00:00+00:00",
-          "fetched_at": "2026-10-02T00:49:05.587062+00:00",
+          "published_at": "2026-10-02T03:14:47+00:00",
+          "fetched_at": "2026-10-02T07:02:06.118877+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
