@@ -1,44 +1,558 @@
 {
-  "generated_at": "2026-10-03T11:40:35.515692+00:00",
+  "generated_at": "2026-10-03T16:17:30.374029+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 97,
-    "articles_unique": 97,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 198,
+    "articles_unique": 198,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_46ea4115766daab07e16",
-      "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices?",
-      "category": "能源资源",
-      "score": 82.1,
+      "event_id": "evt_0639c8ef33c174717db4",
+      "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+      "category": "军事安全",
+      "score": 82.5,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 20.1,
+        "coverage": 19.5,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.4,
+        "credibility": 9.9,
+        "impact": 13.0,
+        "velocity": 2.9
+      },
+      "first_seen": "2026-10-02T08:46:37+00:00",
+      "last_updated": "2026-10-03T15:39:10+00:00",
+      "source_count": 3,
+      "article_count": 6,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "flydubai",
+        "co-pilot",
+        "attack",
+        "pilot",
+        "accused",
+        "cockpit",
+        "reportedly",
+        "hamam"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的6篇报道，当前关注的军事安全事件为“'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "What",
+          "Flydubai",
+          "UAE",
+          "Who",
+          "Emotional"
+        ],
+        "latest_progress": [
+          "10月03日 15:39 UTC，Al Jazeera报道：“What we know about the co-pilot accused in Flydubai attack”。",
+          "10月03日 14:27 UTC，BBC World报道：“Flydubai co-pilot attacked captain with axe, UAE official says”。",
+          "10月03日 09:25 UTC，Al Jazeera报道：“Who is the mystery co-pilot behind the Flydubai attack?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2e005b1343a99e2d92ff",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/what-we-know-about-the-co-pilot-accused-in-flydubai-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/what-we-know-about-the-co-pilot-accused-in-flydubai-attack?traffic_source=rss",
+          "title": "What we know about the co-pilot accused in Flydubai attack",
+          "summary": "The co-pilot accused of attacking a Flydubai captain has reportedly been identified as Hamam al-Hammami.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-03T15:39:10+00:00",
+          "fetched_at": "2026-10-03T16:17:28.508613+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ef4d9f789f5e9f571f2c",
+          "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_campaign=rss&at_medium=RSS",
+          "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
+          "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-03T14:27:33+00:00",
+          "fetched_at": "2026-10-03T16:17:27.869017+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2448/live/1043b780-befe-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_eb56473f9fb34fac11aa",
+          "url": "https://www.aljazeera.com/news/2026/10/3/who-is-the-mystery-co-pilot-behind-the-flydubai-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/who-is-the-mystery-co-pilot-behind-the-flydubai-attack?traffic_source=rss",
+          "title": "Who is the mystery co-pilot behind the Flydubai attack?",
+          "summary": "Accused pilot Hamam al-Hammami reportedly barred from flying in Oman due to concerns over extremist views.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-03T09:25:31+00:00",
+          "fetched_at": "2026-10-03T16:17:28.511639+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3c2f543bf542d5970a7d",
+          "url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
+          "title": "Flydubai co-pilot attempted 'terrorist attack,' UAE says",
+          "summary": "The man, who stabbed his fellow pilot on an Israel-bound Flydubai flight, was reportedly barred from flying in his native Oman over security concerns.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-03T08:17:00+00:00",
+          "fetched_at": "2026-10-03T16:17:27.933560+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e49e45b6fde4fce9a9e8",
+          "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_campaign=rss&at_medium=RSS",
+          "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+          "summary": "Capt Smit Machchhar tells Indian Prime Minister Narendra Modi he opened the cockpit door to let others in during the attack.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-02T09:08:06+00:00",
+          "fetched_at": "2026-10-03T16:17:27.871026+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8316/live/441b8c40-be3b-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_7e2eb8171fa2dc6ef588",
+          "url": "https://www.bbc.co.uk/news/videos/c914d43y7xn4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c914d43y7xn4o?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: Emotional pilot recounts moment of Flydubai attack",
+          "summary": "He has been hailed a hero for opening the cockpit door, allowing passengers to overpower his co-pilot.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-02T08:46:37+00:00",
+          "fetched_at": "2026-10-03T16:17:27.873866+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba1c/live/ef0f91d0-be42-11f1-a64c-550be9e3c66b.png"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_dc19c05b62eaadb807dc",
+      "title": "Tens of thousands protest in Spain after failed housing reforms",
+      "category": "国际政治",
+      "score": 78.9,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.9,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 3.3
       },
-      "first_seen": "2026-10-02T15:02:00+00:00",
-      "last_updated": "2026-10-03T09:27:38+00:00",
-      "source_count": 4,
+      "first_seen": "2026-10-02T16:39:00+00:00",
+      "last_updated": "2026-10-03T15:06:40+00:00",
+      "source_count": 3,
+      "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "housing",
+        "protests",
+        "spain's",
+        "parliament",
+        "crisis",
+        "affordable",
+        "spain",
+        "government"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的国际政治事件为“Tens of thousands protest in Spain after failed housing reforms”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Tens",
+          "Spain",
+          "Massive",
+          "Protesters",
+          "Will Spain"
+        ],
+        "latest_progress": [
+          "10月03日 15:06 UTC，Al Jazeera报道：“Tens of thousands protest in Spain after failed housing reforms”。",
+          "10月03日 14:18 UTC，DW Top Stories报道：“Spain: Massive protests after housing bills voted down”。",
+          "10月03日 13:34 UTC，BBC World报道：“Protesters across Spain demand action over housing crisis”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9ac9bbb535bc119a95c1",
+          "url": "https://www.aljazeera.com/news/2026/10/3/tens-of-thousands-protest-in-spain-after-failed-housing-reforms?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/tens-of-thousands-protest-in-spain-after-failed-housing-reforms?traffic_source=rss",
+          "title": "Tens of thousands protest in Spain after failed housing reforms",
+          "summary": "Latest demonstrations deepen a days-long crisis after parliament struck down two affordable housing decrees.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-03T15:06:40+00:00",
+          "fetched_at": "2026-10-03T16:17:28.508918+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3e7b049ccf5b222abcd6",
+          "url": "https://www.dw.com/en/spain-massive-protests-after-housing-bills-voted-down/a-79532124?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/spain-massive-protests-after-housing-bills-voted-down/a-79532124?maca=en-rss-en-top-1022-rdf",
+          "title": "Spain: Massive protests after housing bills voted down",
+          "summary": "Organizers estimated that 500,000 people turned out in the streets of Madrid to demand affordable housing. Similar protests were held in around 50 other Spanish cities.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-03T14:18:00+00:00",
+          "fetched_at": "2026-10-03T16:17:27.932906+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9e19bd1f7bfc867d663d",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_campaign=rss&at_medium=RSS",
+          "title": "Protesters across Spain demand action over housing crisis",
+          "summary": "More than 50 protests are taking place on Saturday after the government failed to get emergency legislation through parliament.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-03T13:34:11+00:00",
+          "fetched_at": "2026-10-03T16:17:27.869344+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/225b/live/a58f5d00-bf24-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_bdfb94b5705c7272a8a8",
+          "url": "https://www.bbc.co.uk/news/videos/cmgj9vz2zxelo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmgj9vz2zxelo?at_campaign=rss&at_medium=RSS",
+          "title": "Will Spain's housing crisis lead to a snap election?",
+          "summary": "The BBC's Guy Hedgecoe is in Madrid, where a series of marches have been scheduled, after Spain's Congress rejected measures aimed at tackling the country's housing crisis.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-03T12:26:30+00:00",
+          "fetched_at": "2026-10-03T16:17:27.873422+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2169/live/c040d170-bf23-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_e890362a712698546889",
+          "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-top-1022-rdf",
+          "title": "Spain's parliament rejects housing bill as protests continue",
+          "summary": "Spain's minority government suffered defeat in parliament as it tried to push through a pair of emergency measures aimed at making housing more affordable. A pensioner's eviction and protests led to the bid.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T16:39:00+00:00",
+          "fetched_at": "2026-10-03T16:17:27.934783+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_afd89ae6606b42c2e4d1",
+      "title": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge",
+      "category": "经济金融",
+      "score": 78.2,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 22.0,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-03T08:36:00+00:00",
+      "last_updated": "2026-10-03T16:16:49+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "bridge",
+        "russia",
+        "kyiv",
+        "another",
+        "major",
+        "second",
+        "strikes",
+        "northern"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的经济金融事件为“Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "Russia",
+          "Ukraine",
+          "Kyiv Five",
+          "Kyiv",
+          "Moscow"
+        ],
+        "latest_progress": [
+          "10月03日 16:16 UTC，BBC World报道：“Russia hits second major bridge in Ukraine's capital Kyiv”。",
+          "10月03日 12:55 UTC，Al Jazeera报道：“Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge”。",
+          "10月03日 08:36 UTC，DW Top Stories报道：“Russia strikes another major bridge in Kyiv, says mayor”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2e83ff9a3f6319741e80",
+          "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_campaign=rss&at_medium=RSS",
+          "title": "Russia hits second major bridge in Ukraine's capital Kyiv",
+          "summary": "The strike on the Pivnichnyi (Northern) Bridge comes after repeat attacks on another major bridge in Ukraine's capital.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-03T16:16:49+00:00",
+          "fetched_at": "2026-10-03T16:17:27.869187+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/554e/live/87c08780-bf1b-11f1-9b47-174f268aae1d.jpg"
+        },
+        {
+          "article_id": "art_bea985726e47b652dd0c",
+          "url": "https://www.aljazeera.com/news/2026/10/3/five-killed-as-kyiv-and-moscow-trade-strikes-russia-hits-second-bridge?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/five-killed-as-kyiv-and-moscow-trade-strikes-russia-hits-second-bridge?traffic_source=rss",
+          "title": "Five killed as Kyiv and Moscow trade strikes, Russia hits second bridge",
+          "summary": "Russia has also attacked another key bridge in Kyiv, the second such strike in two days.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-03T12:55:54+00:00",
+          "fetched_at": "2026-10-03T16:17:28.509949+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_81463690b548381177f9",
+          "url": "https://www.dw.com/en/russia-strikes-another-major-bridge-in-kyiv-says-mayor/a-79527753?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/russia-strikes-another-major-bridge-in-kyiv-says-mayor/a-79527753?maca=en-rss-en-top-1022-rdf",
+          "title": "Russia strikes another major bridge in Kyiv, says mayor",
+          "summary": "The attack on Kyiv's Northern Bridge comes after the Southern Bridge on the Dnipro river was hit multiple times by Russia's drones.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-03T08:36:00+00:00",
+          "fetched_at": "2026-10-03T16:17:27.933464+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_080b31c5dbe68343986f",
+      "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+      "category": "社会突发",
+      "score": 73.1,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 18.1,
+        "credibility": 9.9,
+        "impact": 11.7,
+        "velocity": 1.5
+      },
+      "first_seen": "2026-10-01T20:09:34+00:00",
+      "last_updated": "2026-10-03T11:32:42+00:00",
+      "source_count": 3,
       "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "pike",
+        "christa",
+        "execution",
+        "failed",
+        "unconscious",
+        "tennessee",
+        "hospital",
+        "said"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的社会突发事件为“US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Christa Pike",
+          "US",
+          "What"
+        ],
+        "latest_progress": [
+          "10月03日 11:32 UTC，Al Jazeera报道：“The double standards of a failed execution”。",
+          "10月02日 22:52 UTC，DW Top Stories报道：“Christa Pike unconscious after failed execution — attorneys”。",
+          "10月02日 20:32 UTC，BBC World报道：“US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2f8c3fe9ac280c0d2cb4",
+          "url": "https://www.aljazeera.com/opinions/2026/10/3/the-double-standards-of-a-failed-execution?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/opinions/2026/10/3/the-double-standards-of-a-failed-execution?traffic_source=rss",
+          "title": "The double standards of a failed execution",
+          "summary": "Had Christa Pike faced the death penalty in the Middle East, there would be relentless outrage and condemnations.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-03T11:32:42+00:00",
+          "fetched_at": "2026-10-03T16:17:28.510570+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2cd5109eb4ae4a98f5a2",
+          "url": "https://www.dw.com/en/christa-pike-unconscious-after-failed-execution-attorneys/a-79526118?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/christa-pike-unconscious-after-failed-execution-attorneys/a-79526118?maca=en-rss-en-top-1022-rdf",
+          "title": "Christa Pike unconscious after failed execution — attorneys",
+          "summary": "Lawyers for Christa Pike said she's unconscious and on a ventilator after a botched execution attempt. Pike is believed to be the first person to have survived the administration of lethal drugs in the modern era.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-02T22:52:00+00:00",
+          "fetched_at": "2026-10-03T16:17:27.934227+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_aedb59906961df5f8084",
+          "url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c3kgqw7zvz47o?at_campaign=rss&at_medium=RSS",
+          "title": "US murderer Christa Pike unconscious and on ventilator after failed execution, lawyers say",
+          "summary": "As of Thursday night, Pike remained critically ill and is being treated at a hospital in Nashville, Tennessee.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-02T20:32:07+00:00",
+          "fetched_at": "2026-10-03T16:17:27.870082+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b22/live/55676b60-be9d-11f1-ad04-23a70b53c1a5.jpg"
+        },
+        {
+          "article_id": "art_aab7c386d39ad4f9a913",
+          "url": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po?at_campaign=rss&at_medium=RSS",
+          "title": "What we know about Christa Pike’s condition after failed execution",
+          "summary": "The BBC’s Ione Wells reports from outside the Tennessee hospital where Pike is said to have arrived Wednesday night after surviving two lethal injection attempts.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-01T20:09:34+00:00",
+          "fetched_at": "2026-10-03T16:17:27.873982+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae55/live/83794cf0-bdd3-11f1-babe-4199b0e7ccea.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ef6dd49abc79a6a37806",
+      "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices?",
+      "category": "能源资源",
+      "score": 73.1,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 16.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.4
+      },
+      "first_seen": "2026-10-02T20:23:49+00:00",
+      "last_updated": "2026-10-03T09:27:38+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
         "NPR World"
       ],
       "regions": [
@@ -50,18 +564,17 @@
         "release",
         "diesel",
         "barrels",
-        "reserves",
-        "prices",
         "million",
         "oil",
-        "trump"
+        "fuel",
+        "energy",
+        "prices"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的能源资源事件为“G7 to release 100 million barrels of oil and diesel, will it curb prices?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的3篇报道，当前关注的能源资源事件为“G7 to release 100 million barrels of oil and diesel, will it curb prices?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Trump",
-          "Europe"
+          "Trump"
         ],
         "latest_progress": [
           "10月03日 09:27 UTC，Al Jazeera报道：“G7 to release 100 million barrels of oil and diesel, will it curb prices?”。",
@@ -87,7 +600,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-03T09:27:38+00:00",
-          "fetched_at": "2026-10-03T11:40:34.528282+00:00",
+          "fetched_at": "2026-10-03T16:17:28.511526+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -102,7 +615,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-03T04:38:31+00:00",
-          "fetched_at": "2026-10-03T11:40:33.102137+00:00",
+          "fetched_at": "2026-10-03T16:17:27.869481+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -117,169 +630,122 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-02T20:23:49+00:00",
-          "fetched_at": "2026-10-03T11:40:34.315055+00:00",
+          "fetched_at": "2026-10-03T16:17:28.191664+00:00",
           "language": "en",
           "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_faa95b95eea0eb59ff82",
-          "url": "https://www.dw.com/en/europe-to-release-diesel-reserves-after-trump-request/a-79522810?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/europe-to-release-diesel-reserves-after-trump-request/a-79522810?maca=en-rss-en-top-1022-rdf",
-          "title": "Europe to release diesel reserves after Trump request",
-          "summary": "The US leader asked European countries to release some of their diesel reserves to ease the rising prices. The issue has damaged Trump's popularity back home.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-02T15:02:00+00:00",
-          "fetched_at": "2026-10-03T11:40:33.985454+00:00",
-          "language": "en",
-          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_2ab154cb130cd83fb00b",
-      "title": "Flydubai co-pilot attacked captain with crash axe in ‘terrorist act’: UAE",
-      "category": "军事安全",
-      "score": 81.5,
+      "event_id": "evt_b9572308fe16f0f2b9fe",
+      "title": "What to know about Brazil’s 2026 presidential election",
+      "category": "国际政治",
+      "score": 67.0,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.7,
-        "credibility": 9.9,
-        "impact": 13.0,
-        "velocity": 5.0
+        "recency": 20.3,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.6
       },
-      "first_seen": "2026-10-03T06:16:47+00:00",
-      "last_updated": "2026-10-03T11:20:21+00:00",
-      "source_count": 3,
-      "article_count": 4,
+      "first_seen": "2026-10-03T02:57:07+00:00",
+      "last_updated": "2026-10-03T14:23:55+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
+        "NPR World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "flydubai",
-        "co-pilot",
-        "uae",
-        "attacked",
-        "captain",
-        "axe",
-        "terrorist",
-        "attack"
+        "lula",
+        "rematch",
+        "know",
+        "about",
+        "election",
+        "bolsonaro",
+        "brazil",
+        "brazil's"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Flydubai co-pilot attacked captain with crash axe in ‘terrorist act’: UAE”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的国际政治事件为“What to know about Brazil’s 2026 presidential election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Flydubai",
-          "UAE",
-          "Who"
+          "What",
+          "Brazil",
+          "Brazilian"
         ],
         "latest_progress": [
-          "10月03日 11:20 UTC，BBC World报道：“Flydubai co-pilot attacked captain with axe, UAE official says”。",
-          "10月03日 09:25 UTC，Al Jazeera报道：“Who is the mystery co-pilot behind the Flydubai attack?”。",
-          "10月03日 08:17 UTC，DW Top Stories报道：“Flydubai co-pilot attempted 'terrorist attack,' UAE says”。"
+          "10月03日 14:23 UTC，Al Jazeera报道：“What to know about Brazil’s 2026 presidential election”。",
+          "10月03日 02:57 UTC，NPR World报道：“Brazil's big political rematch: What to know about the Brazilian election”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_ef4d9f789f5e9f571f2c",
-          "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_campaign=rss&at_medium=RSS",
-          "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
-          "summary": "The man accused of trying to take over the Israel-bound jet is named as Hamam al-Hammami by several media outlets.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-03T11:20:21+00:00",
-          "fetched_at": "2026-10-03T11:40:33.101696+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2448/live/1043b780-befe-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_eb56473f9fb34fac11aa",
-          "url": "https://www.aljazeera.com/news/2026/10/3/who-is-the-mystery-co-pilot-behind-the-flydubai-attack?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/who-is-the-mystery-co-pilot-behind-the-flydubai-attack?traffic_source=rss",
-          "title": "Who is the mystery co-pilot behind the Flydubai attack?",
-          "summary": "Accused pilot Hamam al-Hammami reportedly barred from flying in Oman due to concerns over extremist views.",
+          "article_id": "art_0d10083dbfc25ea119dd",
+          "url": "https://www.aljazeera.com/news/2026/10/3/what-to-know-about-brazils-2026-presidential-election?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/what-to-know-about-brazils-2026-presidential-election?traffic_source=rss",
+          "title": "What to know about Brazil’s 2026 presidential election",
+          "summary": "Polls show tight race between incumbent Lula and right-wing rival Flavio Bolsonaro amid concerns over crime and economy.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-03T09:25:31+00:00",
-          "fetched_at": "2026-10-03T11:40:34.528430+00:00",
+          "published_at": "2026-10-03T14:23:55+00:00",
+          "fetched_at": "2026-10-03T16:17:28.509182+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_3c2f543bf542d5970a7d",
-          "url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
-          "title": "Flydubai co-pilot attempted 'terrorist attack,' UAE says",
-          "summary": "The man, who stabbed his fellow pilot on an Israel-bound Flydubai flight, was reportedly barred from flying in his native Oman over security concerns.",
-          "source": "DW Top Stories",
+          "article_id": "art_e2184b73d2fcd8a28689",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "canonical_url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "title": "Brazil's big political rematch: What to know about the Brazilian election",
+          "summary": "Four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time, Lula faces Bolsonaro's son, Flávio, in a high-stakes rematch.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-03T08:17:00+00:00",
-          "fetched_at": "2026-10-03T11:40:33.983305+00:00",
+          "published_at": "2026-10-03T02:57:07+00:00",
+          "fetched_at": "2026-10-03T16:17:28.191367+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_81054c51d2eee0ed4305",
-          "url": "https://www.aljazeera.com/news/2026/10/3/flydubai-co-pilot-stabbed-pilot-with-crash-axe-in-terrorist-attack-uae?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/flydubai-co-pilot-stabbed-pilot-with-crash-axe-in-terrorist-attack-uae?traffic_source=rss",
-          "title": "Flydubai co-pilot attacked captain with crash axe in ‘terrorist act’: UAE",
-          "summary": "Probe ⁠under way to ​determine 'all the ⁠circumstances', including motive, UAE's prosecutor general says.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-03T06:16:47+00:00",
-          "fetched_at": "2026-10-03T11:40:34.530451+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_f3d8551351638ff86a8e",
-      "title": "India beat Pakistan by 19 runs in Asian Games men’s cricket final – updates",
-      "category": "军事安全",
-      "score": 73.6,
+      "event_id": "evt_d56c625bad8ca80120e9",
+      "title": "French high school engulfed in flames as student protests continue",
+      "category": "国际政治",
+      "score": 64.7,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.6,
+        "recency": 19.2,
         "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
+        "impact": 11.0,
+        "velocity": 1.2
       },
-      "first_seen": "2026-10-03T06:37:31+00:00",
-      "last_updated": "2026-10-03T08:51:14+00:00",
+      "first_seen": "2026-10-02T12:43:02+00:00",
+      "last_updated": "2026-10-03T12:59:27+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
         "BBC World"
@@ -289,133 +755,111 @@
         "Middle East"
       ],
       "keywords": [
-        "asian",
-        "games",
-        "india",
-        "pakistan",
-        "gold",
-        "beat",
-        "runs",
-        "updates"
+        "school",
+        "protests",
+        "french",
+        "spread",
+        "high",
+        "flames",
+        "student",
+        "send"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“India beat Pakistan by 19 runs in Asian Games men’s cricket final – updates”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“French high school engulfed in flames as student protests continue”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Kim",
-          "Asian Games",
-          "No",
-          "India",
-          "Pakistan",
-          "Asian Games India"
+          "French",
+          "School"
         ],
         "latest_progress": [
-          "10月03日 08:51 UTC，BBC World报道：“Kim wins Asian Games gold to secure military exemption”。",
-          "10月03日 08:18 UTC，Al Jazeera报道：“No handshakes and a delayed ceremony as India beat Pakistan at Asian Games”。",
-          "10月03日 06:37 UTC，Al Jazeera报道：“India beat Pakistan by 19 runs in Asian Games men’s cricket final – updates”。"
+          "10月03日 12:59 UTC，Al Jazeera报道：“French high school engulfed in flames as student protests continue”。",
+          "10月02日 12:43 UTC，BBC World报道：“School protests send shivers down French government's spine”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_4aa1b7cd058ee8817e43",
-          "url": "https://www.bbc.co.uk/sport/golf/articles/cmy0rn425k4xo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/sport/golf/articles/cmy0rn425k4xo?at_campaign=rss&at_medium=RSS",
-          "title": "Kim wins Asian Games gold to secure military exemption",
-          "summary": "Golfer Tom Kim wins gold at the Asian Games to secure an exemption from mandatory service in South Korea's military.",
+          "article_id": "art_13269d73a04eae2b2b60",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/french-high-school-engulfed-in-flames-as-student-protests-continue?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/french-high-school-engulfed-in-flames-as-student-protests-continue?traffic_source=rss",
+          "title": "French high school engulfed in flames as student protests continue",
+          "summary": "A French high school in Metz went up in flames as student protests over school conditions spread across the country.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-03T12:59:27+00:00",
+          "fetched_at": "2026-10-03T16:17:28.509833+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7654ddf8e32783206ca4",
+          "url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_campaign=rss&at_medium=RSS",
+          "title": "School protests send shivers down French government's spine",
+          "summary": "A movement that started nearly two weeks ago has spread, and in France young people on the streets spells trouble, writes Hugh Schofield.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-03T08:51:14+00:00",
-          "fetched_at": "2026-10-03T11:40:33.102797+00:00",
+          "published_at": "2026-10-02T12:43:02+00:00",
+          "fetched_at": "2026-10-03T16:17:27.873069+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1ce/live/86c8b370-beee-11f1-8fc0-833897bb0a69.jpg"
-        },
-        {
-          "article_id": "art_7fe3c8d96f9928e66007",
-          "url": "https://www.aljazeera.com/sports/2026/10/3/india-beat-arch-rivals-pakistan-to-win-asian-games-t20-cricket-gold?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/3/india-beat-arch-rivals-pakistan-to-win-asian-games-t20-cricket-gold?traffic_source=rss",
-          "title": "No handshakes and a delayed ceremony as India beat Pakistan at Asian Games",
-          "summary": "India beat Pakistan by 19 runs in gold medal match at Asian Games as Hasan Nawaz's 96 in vain in reply to 211-6.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-03T08:18:40+00:00",
-          "fetched_at": "2026-10-03T11:40:34.529070+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e44bf728554a8d916df7",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/liveblog/2026/10/3/india-vs-pakistan-live-asian-games-cricket-final?traffic_source=rss",
-          "title": "India beat Pakistan by 19 runs in Asian Games men’s cricket final – updates",
-          "summary": "Updates as India win the gold medal match after Pakistan fall short by 19 runs at the Asian Games in Japan.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-03T06:37:31+00:00",
-          "fetched_at": "2026-10-03T11:40:34.530296+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5401/live/a6cf60b0-be6c-11f1-a64c-550be9e3c66b.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_afd89ae6606b42c2e4d1",
-      "title": "Russia strikes second major bridge in Kyiv, mayor says",
+      "event_id": "evt_b34bb2b20370b34cc9de",
+      "title": "UK remands 2 Iranians over alleged antisemitic terror plot",
       "category": "军事安全",
-      "score": 68.9,
+      "score": 62.4,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.4,
-        "credibility": 9.8,
+        "recency": 21.9,
+        "credibility": 9.5,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-03T08:36:00+00:00",
-      "last_updated": "2026-10-03T09:53:16+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-03T16:10:00+00:00",
+      "last_updated": "2026-10-03T16:10:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "bridge",
-        "major",
-        "russia",
-        "strikes",
-        "another",
-        "kyiv",
-        "mayor",
-        "northern"
+        "remands",
+        "iranians",
+        "alleged",
+        "antisemitic",
+        "terror",
+        "plot",
+        "pair",
+        "arrested"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Russia strikes second major bridge in Kyiv, mayor says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“UK remands 2 Iranians over alleged antisemitic terror plot”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Russia",
-          "Kyiv"
+          "UK",
+          "Iranians"
         ],
         "latest_progress": [
-          "10月03日 09:53 UTC，BBC World报道：“Russia strikes second major bridge in Kyiv, mayor says”。",
-          "10月03日 08:36 UTC，DW Top Stories报道：“Russia strikes another major bridge in Kyiv, says mayor”。"
+          "10月03日 16:10 UTC，DW Top Stories报道：“UK remands 2 Iranians over alleged antisemitic terror plot”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -428,30 +872,15 @@
       },
       "articles": [
         {
-          "article_id": "art_2e83ff9a3f6319741e80",
-          "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_campaign=rss&at_medium=RSS",
-          "title": "Russia strikes second major bridge in Kyiv, mayor says",
-          "summary": "The strike on Northern Bridge comes after repeat attacks on another major bridge in recent days.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-03T09:53:16+00:00",
-          "fetched_at": "2026-10-03T11:40:33.101949+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40ff/live/e6e2a0c0-beeb-11f1-a8d6-110a5391f5ce.jpg"
-        },
-        {
-          "article_id": "art_81463690b548381177f9",
-          "url": "https://www.dw.com/en/russia-strikes-another-major-bridge-in-kyiv-says-mayor/a-79527753?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russia-strikes-another-major-bridge-in-kyiv-says-mayor/a-79527753?maca=en-rss-en-top-1022-rdf",
-          "title": "Russia strikes another major bridge in Kyiv, says mayor",
-          "summary": "The attack on Kyiv's Northern Bridge comes after the Southern Bridge on the Dnipro river was hit multiple times by Russia's drones.",
+          "article_id": "art_f0b58f4cdb6945dc7a85",
+          "url": "https://www.dw.com/en/uk-remands-2-iranians-over-alleged-antisemitic-terror-plot/a-79532184?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/uk-remands-2-iranians-over-alleged-antisemitic-terror-plot/a-79532184?maca=en-rss-en-top-1022-rdf",
+          "title": "UK remands 2 Iranians over alleged antisemitic terror plot",
+          "summary": "The pair were arrested on the eve of Yom Kippur and later charged with plotting to attack Jewish targets in Manchester.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-03T08:36:00+00:00",
-          "fetched_at": "2026-10-03T11:40:33.983180+00:00",
+          "published_at": "2026-10-03T16:10:00+00:00",
+          "fetched_at": "2026-10-03T16:17:27.932774+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -460,21 +889,21 @@
       ]
     },
     {
-      "event_id": "evt_ba439f17693ad380a36e",
-      "title": "Israeli air attack on residential apartment in Gaza kills 5 Palestinians",
-      "category": "军事安全",
-      "score": 66.6,
+      "event_id": "evt_0901b6849e5426e75b4f",
+      "title": "Ethiopia’s government forces retake airport from Tigray rebels in Mekelle",
+      "category": "国际政治",
+      "score": 62.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.5,
+        "recency": 19.2,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-03T07:57:47+00:00",
-      "last_updated": "2026-10-03T11:08:17+00:00",
+      "first_seen": "2026-10-03T11:16:43+00:00",
+      "last_updated": "2026-10-03T13:00:57+00:00",
       "source_count": 1,
       "article_count": 2,
       "sources": [
@@ -484,112 +913,27 @@
         "Middle East"
       ],
       "keywords": [
-        "gaza",
-        "palestinians",
-        "israeli",
-        "air",
-        "attack",
-        "residential",
-        "apartment",
-        "football"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Israeli air attack on residential apartment in Gaza kills 5 Palestinians”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Palestinians",
-          "Gaza",
-          "Israeli"
-        ],
-        "latest_progress": [
-          "10月03日 11:08 UTC，Al Jazeera报道：“Palestinians gather for football amid Gaza’s ruins”。",
-          "10月03日 07:57 UTC，Al Jazeera报道：“Israeli air attack on residential apartment in Gaza kills 5 Palestinians”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1043a2917b64bce130f1",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/palestinians-gather-for-football-amid-gazas-ruins?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/palestinians-gather-for-football-amid-gazas-ruins?traffic_source=rss",
-          "title": "Palestinians gather for football amid Gaza’s ruins",
-          "summary": "Displaced Palestinians gathered to watch a friendly football match in Gaza’s Khan Younis.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-03T11:08:17+00:00",
-          "fetched_at": "2026-10-03T11:40:34.527271+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_310bd118c3c4bacdbf26",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/israeli-air-attack-on-residential-apartment-in-gaza-kills-5-palestinians?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/israeli-air-attack-on-residential-apartment-in-gaza-kills-5-palestinians?traffic_source=rss",
-          "title": "Israeli air attack on residential apartment in Gaza kills 5 Palestinians",
-          "summary": "An Israeli air attack on a residential apartment in Gaza City has killed at least five Palestinians.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-03T07:57:47+00:00",
-          "fetched_at": "2026-10-03T11:40:34.529682+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0901b6849e5426e75b4f",
-      "title": "Ethiopia’s government forces retake airport from Tigray rebels in Mekelle",
-      "category": "国际政治",
-      "score": 60.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-03T11:16:43+00:00",
-      "last_updated": "2026-10-03T11:16:43+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
+        "forces",
         "tigray",
         "rebels",
+        "airport",
+        "capital",
         "ethiopia",
         "government",
-        "forces",
-        "retake",
-        "airport",
-        "mekelle"
+        "retake"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Ethiopia’s government forces retake airport from Tigray rebels in Mekelle”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Ethiopia’s government forces retake airport from Tigray rebels in Mekelle”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Ethiopia",
+          "Ethiopian",
           "Tigray",
+          "What",
+          "Ethiopia",
           "Mekelle"
         ],
         "latest_progress": [
+          "10月03日 13:00 UTC，Al Jazeera报道：“Ethiopian gov’t forces advance in Tigray as rebels retreat: What to know”。",
           "10月03日 11:16 UTC，Al Jazeera报道：“Ethiopia’s government forces retake airport from Tigray rebels in Mekelle”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
@@ -603,6 +947,21 @@
       },
       "articles": [
         {
+          "article_id": "art_699d04c5a4111698063b",
+          "url": "https://www.aljazeera.com/news/2026/10/3/ethiopian-govt-forces-advance-in-tigray-as-rebels-retreat-what-to-know?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/ethiopian-govt-forces-advance-in-tigray-as-rebels-retreat-what-to-know?traffic_source=rss",
+          "title": "Ethiopian gov’t forces advance in Tigray as rebels retreat: What to know",
+          "summary": "Military, pro-government forces recapture airport in Tigray's capital as fighting also rages in Amhara and Afar regions.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-03T13:00:57+00:00",
+          "fetched_at": "2026-10-03T16:17:28.509716+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_859010d52e054569104c",
           "url": "https://www.aljazeera.com/news/2026/10/3/rebels-pulling-back-as-addis-ababas-forces-advance-reports-say?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/3/rebels-pulling-back-as-addis-ababas-forces-advance-reports-say?traffic_source=rss",
@@ -611,7 +970,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-03T11:16:43+00:00",
-          "fetched_at": "2026-10-03T11:40:34.527095+00:00",
+          "fetched_at": "2026-10-03T16:17:28.510687+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -620,10 +979,10 @@
       ]
     },
     {
-      "event_id": "evt_ae751f6d85168aaf8981",
-      "title": "Yemen’s army claims over 1,500 Houthi casualties in past 24 hours",
+      "event_id": "evt_dbabefd64bb66d98647b",
+      "title": "Britain’s military in Kenya: Allegations, immunity and a fight for justice",
       "category": "军事安全",
-      "score": 60.4,
+      "score": 60.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
@@ -633,8 +992,8 @@
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-03T08:36:17+00:00",
-      "last_updated": "2026-10-03T08:36:17+00:00",
+      "first_seen": "2026-10-03T13:18:37+00:00",
+      "last_updated": "2026-10-03T13:18:37+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -644,24 +1003,25 @@
         "Middle East"
       ],
       "keywords": [
-        "yemen",
-        "army",
-        "claims",
-        "houthi",
-        "casualties",
-        "past",
-        "hours",
-        "government"
+        "military",
+        "immunity",
+        "britain",
+        "kenya",
+        "allegations",
+        "fight",
+        "justice",
+        "kenyan"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Yemen’s army claims over 1,500 Houthi casualties in past 24 hours”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Britain’s military in Kenya: Allegations, immunity and a fight for justice”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Yemen",
-          "Houthi"
+          "Britain",
+          "Kenya",
+          "Allegations"
         ],
         "latest_progress": [
-          "10月03日 08:36 UTC，Al Jazeera报道：“Yemen’s army claims over 1,500 Houthi casualties in past 24 hours”。"
+          "10月03日 13:18 UTC，Al Jazeera报道：“Britain’s military in Kenya: Allegations, immunity and a fight for justice”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -674,234 +1034,18 @@
       },
       "articles": [
         {
-          "article_id": "art_e657d6ed2f7a2fc7630c",
-          "url": "https://www.aljazeera.com/news/2026/10/3/over-1500-houthi-casualties-in-past-24-hours-yemeni-army-says?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/over-1500-houthi-casualties-in-past-24-hours-yemeni-army-says?traffic_source=rss",
-          "title": "Yemen’s army claims over 1,500 Houthi casualties in past 24 hours",
-          "summary": "Government forces close a key crossing connecting Houthi-held al-Houban to government-held Taiz city.",
+          "article_id": "art_76e50c0947a612ed9c80",
+          "url": "https://www.aljazeera.com/features/longform/2026/10/3/britains-military-in-kenya-allegations-immunity-and-a-fight-for-justice?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/longform/2026/10/3/britains-military-in-kenya-allegations-immunity-and-a-fight-for-justice?traffic_source=rss",
+          "title": "Britain’s military in Kenya: Allegations, immunity and a fight for justice",
+          "summary": "Kenyan survivors are challenging the UK military over decades of alleged abuses — and the immunity that has shielded it.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-03T08:36:17+00:00",
-          "fetched_at": "2026-10-03T11:40:34.528582+00:00",
+          "published_at": "2026-10-03T13:18:37+00:00",
+          "fetched_at": "2026-10-03T16:17:28.509462+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_3a690698a839f84152bd",
-      "title": "Pakistan summons Indian diplomat over border killing of two Pakistanis",
-      "category": "国际政治",
-      "score": 60.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-03T10:46:20+00:00",
-      "last_updated": "2026-10-03T10:46:20+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "killing",
-        "two",
-        "pakistan",
-        "summons",
-        "indian",
-        "diplomat",
-        "border",
-        "pakistanis"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Pakistan summons Indian diplomat over border killing of two Pakistanis”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Pakistan",
-          "Indian",
-          "Pakistanis"
-        ],
-        "latest_progress": [
-          "10月03日 10:46 UTC，Al Jazeera报道：“Pakistan summons Indian diplomat over border killing of two Pakistanis”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_df611564071b49dc0fcf",
-          "url": "https://www.aljazeera.com/news/2026/10/3/pakistan-summons-indian-diplomat-over-border-killing-of-two-pakistanis?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/3/pakistan-summons-indian-diplomat-over-border-killing-of-two-pakistanis?traffic_source=rss",
-          "title": "Pakistan summons Indian diplomat over border killing of two Pakistanis",
-          "summary": "Foreign Ministry says it summoned India's ⁠charge d'affaires to lodge 'strong protest' over killing of two civilians.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-03T10:46:20+00:00",
-          "fetched_at": "2026-10-03T11:40:34.527797+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_3bda790dc2d7ebcd94e5",
-      "title": "On German Unity Day, Steinmeier laments 'bitter setbacks'",
-      "category": "国际政治",
-      "score": 59.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-03T10:56:00+00:00",
-      "last_updated": "2026-10-03T10:56:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "unity",
-        "day",
-        "bitter",
-        "german",
-        "steinmeier",
-        "laments",
-        "setbacks'",
-        "germany's"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“On German Unity Day, Steinmeier laments 'bitter setbacks'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "On German Unity Day",
-          "Steinmeier"
-        ],
-        "latest_progress": [
-          "10月03日 10:56 UTC，DW Top Stories报道：“On German Unity Day, Steinmeier laments 'bitter setbacks'”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_35e1f45c7a0f970de3de",
-          "url": "https://www.dw.com/en/on-german-unity-day-steinmeier-laments-bitter-setbacks/live-79528092?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/on-german-unity-day-steinmeier-laments-bitter-setbacks/live-79528092?maca=en-rss-en-top-1022-rdf",
-          "title": "On German Unity Day, Steinmeier laments 'bitter setbacks'",
-          "summary": "Germany's president has used his final Unity Day speech to warn the hopes of the reunification era have suffered \"bitter setbacks.\" DW has the latest.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-03T10:56:00+00:00",
-          "fetched_at": "2026-10-03T11:40:33.982885+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_593978219d6ef934bb0a",
-      "title": "India news: Cockroach Janta Party announces Delhi march for October 10, calls for election chief's resignation",
-      "category": "国际政治",
-      "score": 59.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.7,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-03T10:13:00+00:00",
-      "last_updated": "2026-10-03T10:13:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "cockroach",
-        "janta",
-        "party",
-        "delhi",
-        "election",
-        "india",
-        "announces",
-        "march"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“India news: Cockroach Janta Party announces Delhi march for October 10, calls for election chief's resignation”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "India",
-          "Cockroach Janta Party",
-          "Delhi",
-          "October"
-        ],
-        "latest_progress": [
-          "10月03日 10:13 UTC，DW Top Stories报道：“India news: Cockroach Janta Party announces Delhi march for October 10, calls for election chief's resignation”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_56acb50afe4f5509b351",
-          "url": "https://www.dw.com/en/india-news-cockroach-janta-party-announces-delhi-march-for-october-10-calls-for-election-chief-s-resignation/live-79527537?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/india-news-cockroach-janta-party-announces-delhi-march-for-october-10-calls-for-election-chief-s-resignation/live-79527537?maca=en-rss-en-top-1022-rdf",
-          "title": "India news: Cockroach Janta Party announces Delhi march for October 10, calls for election chief's resignation",
-          "summary": "The Cockroach Janta Party has called for a protest in Delhi if Chief Election Commissioner Gyanesh Kumar does not resign. After the Indian men's cricket team struck gold, all eyes are on their hockey counterparts.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-03T10:13:00+00:00",
-          "fetched_at": "2026-10-03T11:40:33.983045+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
