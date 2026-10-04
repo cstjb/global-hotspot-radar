@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T13:12:39.606712+00:00",
+  "generated_at": "2026-10-04T17:36:09.072492+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
@@ -7,30 +7,156 @@
     "articles_unique": 77,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_301605202fd263768424",
-      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-      "category": "军事安全",
-      "score": 78.6,
+      "event_id": "evt_6f172e5934bf8bc12914",
+      "title": "Japan summons US envoy as marine arrested over Okinawa murder",
+      "category": "国际政治",
+      "score": 84.2,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.0,
+        "coverage": 16.1,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 20.4,
         "credibility": 9.8,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-04T08:13:00+00:00",
-      "last_updated": "2026-10-04T12:09:04+00:00",
+      "first_seen": "2026-10-04T11:15:00+00:00",
+      "last_updated": "2026-10-04T15:45:04+00:00",
+      "source_count": 4,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "marine",
+        "okinawa",
+        "arrested",
+        "murder",
+        "japan",
+        "woman",
+        "suspicion",
+        "japanese"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Japan summons US envoy as marine arrested over Okinawa murder”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Japan",
+          "US",
+          "Okinawa",
+          "Marine",
+          "Japan Japan"
+        ],
+        "latest_progress": [
+          "10月04日 15:45 UTC，Al Jazeera报道：“Japan summons US envoy as marine arrested over Okinawa murder”。",
+          "10月04日 15:15 UTC，NPR World报道：“U.S. Marine arrested for alleged murder of a woman in Okinawa, Japan”。",
+          "10月04日 14:36 UTC，BBC World报道：“US Marine arrested over murder of woman in Okinawa, Japan”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_66370d205e067ce33d5c",
+          "url": "https://www.aljazeera.com/news/2026/10/4/japan-summons-us-envoy-as-marine-arrested-over-okinawa-murder?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/japan-summons-us-envoy-as-marine-arrested-over-okinawa-murder?traffic_source=rss",
+          "title": "Japan summons US envoy as marine arrested over Okinawa murder",
+          "summary": "Ambassador vows cooperation as Japan protests after a US marine’s arrest in connection to Okinawa murder case.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T15:45:04+00:00",
+          "fetched_at": "2026-10-04T17:36:08.222803+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_62de0136dce15b2ae1db",
+          "url": "https://www.npr.org/2026/10/04/nx-s1-5990790/us-marine-arrested-for-alleged-murder-woman-on-okinawa",
+          "canonical_url": "https://www.npr.org/2026/10/04/nx-s1-5990790/us-marine-arrested-for-alleged-murder-woman-on-okinawa",
+          "title": "U.S. Marine arrested for alleged murder of a woman in Okinawa, Japan",
+          "summary": "Japanese police arrested a U.S. Marine in the alleged robbery and murder of a woman on Okinawa, officials said Sunday.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-04T15:15:09+00:00",
+          "fetched_at": "2026-10-04T17:36:08.023871+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_61989e590066e463c863",
+          "url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_campaign=rss&at_medium=RSS",
+          "title": "US Marine arrested over murder of woman in Okinawa, Japan",
+          "summary": "Japan's government lodged a formal protest with the US, demanding that military officials take action.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-04T14:36:57+00:00",
+          "fetched_at": "2026-10-04T17:36:07.474023+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7389/live/cde58c00-bffd-11f1-a6d2-b3be352f49ed.jpg"
+        },
+        {
+          "article_id": "art_e7f2e9c8eca6f4de840e",
+          "url": "https://www.dw.com/en/japan-us-marine-arrested-in-okinawa-on-suspicion-of-murder/a-79536987?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/japan-us-marine-arrested-in-okinawa-on-suspicion-of-murder/a-79536987?maca=en-rss-en-top-1022-rdf",
+          "title": "Japan: US Marine arrested in Okinawa on suspicion of murder",
+          "summary": "The Japanese government has lodged an official protest with Washington after a US Marine was arrested on suspicion of murdering a woman in Okinawa — where incidents involving US service personnel are not uncommon.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-04T11:15:00+00:00",
+          "fetched_at": "2026-10-04T17:36:07.804710+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5b4e1954c69f6bbe5089",
+      "title": "Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war",
+      "category": "军事安全",
+      "score": 80.9,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.1,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 3.2
+      },
+      "first_seen": "2026-10-03T17:16:00+00:00",
+      "last_updated": "2026-10-04T16:38:45+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -42,30 +168,31 @@
       ],
       "keywords": [
         "kyiv",
-        "bridge",
         "merz",
-        "visits",
-        "chancellor",
-        "drone",
+        "ukraine",
         "russia",
-        "strikes"
+        "russian",
+        "bridge",
+        "visits",
+        "chancellor"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的军事安全事件为“Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Kyiv",
-          "Russian",
-          "German",
-          "Russia",
           "Germany",
           "Merz",
+          "Kyiv",
+          "Putin",
+          "What",
+          "Russian",
+          "Russia",
           "Ukraine"
         ],
         "latest_progress": [
-          "10月04日 12:09 UTC，BBC World报道：“Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit”。",
-          "10月04日 11:58 UTC，Al Jazeera报道：“Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital”。",
-          "10月04日 08:13 UTC，DW Top Stories报道：“Germany's Merz visits Kyiv as Russia strikes bridge”。"
+          "10月04日 16:38 UTC，Al Jazeera报道：“Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war”。",
+          "10月04日 14:25 UTC，BBC World报道：“Watch: What we know about Russian strikes on Kyiv bridges”。",
+          "10月04日 14:24 UTC，DW Top Stories报道：“Germany's Merz visits Kyiv as Russia strikes bridge”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -78,19 +205,49 @@
       },
       "articles": [
         {
-          "article_id": "art_e385a783f8adac999e09",
-          "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_campaign=rss&at_medium=RSS",
-          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-          "summary": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating a large fireball.",
+          "article_id": "art_737229af507d5702302c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/germany-merz-visits-kyiv-air-raids-ukraine?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/germany-merz-visits-kyiv-air-raids-ukraine?traffic_source=rss",
+          "title": "Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war",
+          "summary": "German Chancellor Friedrich Merz, on a surprise visit to Kyiv, announced $1.5 billion in military and reconstruction aid",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T16:38:45+00:00",
+          "fetched_at": "2026-10-04T17:36:08.221663+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_47c8b7572a694d72ecad",
+          "url": "https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmglwkyl9djyo?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: What we know about Russian strikes on Kyiv bridges",
+          "summary": "BBC Ukraine correspondent Dan Johnson is near Kyiv's Northern Bridge, which has been hit for the second day in a row.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-04T12:09:04+00:00",
-          "fetched_at": "2026-10-04T13:12:38.205508+00:00",
+          "published_at": "2026-10-04T14:25:32+00:00",
+          "fetched_at": "2026-10-04T17:36:07.473338+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6139/live/b7fa6620-bfe6-11f1-b4e6-d96c2bf27b65.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df42/live/012a8270-bff2-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_55afbc0e036072997b0b",
+          "url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-top-1022-rdf",
+          "title": "Germany's Merz visits Kyiv as Russia strikes bridge",
+          "summary": "As air raid sirens sounded in Kyiv, Chancellor Merz called on President Putin to end his \"senseless war\" and announced new measures to support Ukraine, including plans for joint Ukrainian-German drone production.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-04T14:24:00+00:00",
+          "fetched_at": "2026-10-04T17:36:07.804138+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
           "article_id": "art_1e061e9a32481fefa289",
@@ -101,22 +258,22 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-04T11:58:14+00:00",
-          "fetched_at": "2026-10-04T13:12:38.747023+00:00",
+          "fetched_at": "2026-10-04T17:36:08.225154+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_55afbc0e036072997b0b",
-          "url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany's Merz visits Kyiv as Russia strikes bridge",
-          "summary": "As air raid sirens sounded in Kyiv, Chancellor Merz called on President Putin to end his \"senseless war\" and announced new measures to support Ukraine, including plans for joint Ukrainian-German drone production.",
+          "article_id": "art_c5dcc4bb722bf2cd7115",
+          "url": "https://www.dw.com/en/ukraine-to-step-up-oil-attacks-as-russia-hits-kyiv-bridges/a-79527753?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-to-step-up-oil-attacks-as-russia-hits-kyiv-bridges/a-79527753?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine to step up oil attacks as Russia hits Kyiv bridges",
+          "summary": "As Moscow intensifies attacks on Kyiv and other cities, Ukrainian President Volodymyr Zelenskyy has vowed to hit Russian energy infrastructure.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-04T08:13:00+00:00",
-          "fetched_at": "2026-10-04T13:12:38.371103+00:00",
+          "published_at": "2026-10-03T17:16:00+00:00",
+          "fetched_at": "2026-10-04T17:36:07.806013+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -125,163 +282,60 @@
       ]
     },
     {
-      "event_id": "evt_371b32ec529527a97822",
-      "title": "Australia investigating Flydubai co-pilot's links to country",
-      "category": "军事安全",
-      "score": 73.4,
+      "event_id": "evt_b9572308fe16f0f2b9fe",
+      "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+      "category": "国际政治",
+      "score": 80.3,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.2,
+        "coverage": 16.1,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 19.8,
         "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 1.8
+        "impact": 11.0,
+        "velocity": 1.7
       },
-      "first_seen": "2026-10-03T08:17:00+00:00",
-      "last_updated": "2026-10-04T09:53:39+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-10-03T02:57:07+00:00",
+      "last_updated": "2026-10-04T15:05:37+00:00",
+      "source_count": 4,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "flydubai",
-        "co-pilot",
-        "attempted",
-        "flight",
-        "security",
-        "plane",
-        "terrorist",
-        "attack"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Australia investigating Flydubai co-pilot's links to country”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Flydubai",
-          "What",
-          "Australia",
-          "UAE"
-        ],
-        "latest_progress": [
-          "10月04日 09:53 UTC，Al Jazeera报道：“Flydubai: What happens when a plane plunges 17,000 feet?”。",
-          "10月04日 06:19 UTC，BBC World报道：“Australia investigating Flydubai co-pilot's links to country”。",
-          "10月03日 08:17 UTC，DW Top Stories报道：“Flydubai co-pilot attempted 'terrorist attack,' UAE says”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_762bed354d406e130277",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/flydubai-what-happens-when-a-plane-plunges-17000-feet?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/flydubai-what-happens-when-a-plane-plunges-17000-feet?traffic_source=rss",
-          "title": "Flydubai: What happens when a plane plunges 17,000 feet?",
-          "summary": "A flight instructor recreates the Flydubai jet’s near-vertical 17,000 foot dive in a simulator.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T09:53:39+00:00",
-          "fetched_at": "2026-10-04T13:12:38.748917+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9cb46d2de4f102416c19",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_campaign=rss&at_medium=RSS",
-          "title": "Australia investigating Flydubai co-pilot's links to country",
-          "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-04T06:19:17+00:00",
-          "fetched_at": "2026-10-04T13:12:38.205715+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png"
-        },
-        {
-          "article_id": "art_3c2f543bf542d5970a7d",
-          "url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
-          "title": "Flydubai co-pilot attempted 'terrorist attack,' UAE says",
-          "summary": "The man, who stabbed his fellow pilot on an Israel-bound Flydubai flight, was reportedly barred from flying in his native Oman over security concerns.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-03T08:17:00+00:00",
-          "fetched_at": "2026-10-04T13:12:38.372504+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_9cfaa079aba15050801f",
-      "title": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
-      "category": "国际政治",
-      "score": 72.4,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.5,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T10:00:00+00:00",
-      "last_updated": "2026-10-04T11:28:00+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "bolsonaro",
         "lula",
-        "brazil",
-        "voting",
-        "flavio",
-        "close",
-        "presidential",
-        "race"
+        "bolsonaro",
+        "election",
+        "president",
+        "brazil's",
+        "polls",
+        "rematch",
+        "know"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Brazil votes in deeply polarised election pitting Lula against Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“What to know about Brazil's election pitting Lula against Flávio Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Voting",
-          "Brazil",
           "Lula",
           "Bolsonaro",
-          "Bolsonaro Brazil"
+          "Brazil",
+          "Voting",
+          "What",
+          "Bolsonaro Brazil",
+          "Brazilian"
         ],
         "latest_progress": [
+          "10月04日 15:05 UTC，Al Jazeera报道：“Lula and Bolsonaro vote in Brazil’s polarised presidential election”。",
           "10月04日 11:28 UTC，DW Top Stories报道：“Voting in Brazil's 2026 presidential election has begun, with polls showing Lula and Bolsonaro nearly tied”。",
-          "10月04日 11:15 UTC，Al Jazeera报道：“Brazil votes in deeply polarised election pitting Lula against Bolsonaro”。",
-          "10月04日 10:00 UTC，Al Jazeera报道：“Brazil elections live: Lula faces Bolsonaro in close presidential race”。"
+          "10月04日 11:03 UTC，BBC World报道：“What to know about Brazil's election pitting Lula against Flávio Bolsonaro”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -293,6 +347,21 @@
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_308a0935a37eb16168ab",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/lula-and-bolsonaro-vote-in-brazils-polarised-presidential-election?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/lula-and-bolsonaro-vote-in-brazils-polarised-presidential-election?traffic_source=rss",
+          "title": "Lula and Bolsonaro vote in Brazil’s polarised presidential election",
+          "summary": "President Luiz Inacio Lula da Silva and Senator Flavio Bolsonaro have voted in a tightly contested election.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T15:05:37+00:00",
+          "fetched_at": "2026-10-04T17:36:08.223750+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
         {
           "article_id": "art_55338d8f9a3a75b230d6",
           "url": "https://www.dw.com/en/voting-in-brazil-s-2026-presidential-election-has-begun-with-polls-showing-lula-and-bolsonaro-nearly-tied/a-79533857?maca=en-rss-en-top-1022-rdf",
@@ -302,284 +371,12 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-04T11:28:00+00:00",
-          "fetched_at": "2026-10-04T13:12:38.370274+00:00",
+          "fetched_at": "2026-10-04T17:36:07.804569+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
-        {
-          "article_id": "art_8560b67806cdcb4e0d1e",
-          "url": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss",
-          "title": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
-          "summary": "Close race expected as left-wing leader Lula seeks fourth nonconsecutive term against right-wing Flavio Bolsonaro.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T11:15:34+00:00",
-          "fetched_at": "2026-10-04T13:12:38.747175+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_62f7506f172b1e7114f2",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-elections-live-voters-head-to-polls-for-close-presidential-race?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-elections-live-voters-head-to-polls-for-close-presidential-race?traffic_source=rss",
-          "title": "Brazil elections live: Lula faces Bolsonaro in close presidential race",
-          "summary": "Voting begins in Brazil as Lula seeks a historic fourth term, facing strong opposition from Flavio Bolsonaro.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T10:00:00+00:00",
-          "fetched_at": "2026-10-04T13:12:38.748743+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b88252dc76632b0d2dfd",
-      "title": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
-      "category": "国际政治",
-      "score": 68.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.1,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 4.1
-      },
-      "first_seen": "2026-10-04T03:48:00+00:00",
-      "last_updated": "2026-10-04T11:05:02+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "ethiopian",
-        "government",
-        "forces",
-        "tigray",
-        "against",
-        "northern",
-        "rebel",
-        "group"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Ethiopian",
-          "Tigray",
-          "Mekelle",
-          "TPLF",
-          "In Tigray"
-        ],
-        "latest_progress": [
-          "10月04日 11:05 UTC，Al Jazeera报道：“Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws”。",
-          "10月04日 03:48 UTC，DW Top Stories报道：“In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_17b87bf7263b44c21089",
-          "url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss",
-          "title": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
-          "summary": "Federal troops and allied fighters seen in control of the city after capturing main regional airport.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T11:05:02+00:00",
-          "fetched_at": "2026-10-04T13:12:38.747483+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_be9c941bde26e49347a1",
-          "url": "https://www.dw.com/en/in-tigray-ethiopian-government-forces-have-advanced-against-a-northern-rebel-group-reports-indicate/a-79534372?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/in-tigray-ethiopian-government-forces-have-advanced-against-a-northern-rebel-group-reports-indicate/a-79534372?maca=en-rss-en-top-1022-rdf",
-          "title": "In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate",
-          "summary": "Reports indicate Ethiopian government forces have made advances against a northern rebel group. Renewed fighting has raised fears the conflict could spill over into the wider region.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-04T03:48:00+00:00",
-          "fetched_at": "2026-10-04T13:12:38.371227+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_18c7ce7ce72f73494f63",
-      "title": "Cornell president says university 'must do better' after frat house rape allegations",
-      "category": "国际政治",
-      "score": 66.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.1,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 3.6
-      },
-      "first_seen": "2026-10-04T00:11:25+00:00",
-      "last_updated": "2026-10-04T08:33:54+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "allegations",
-        "cornell",
-        "president",
-        "university",
-        "must",
-        "rape",
-        "better",
-        "better'"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Cornell president says university 'must do better' after frat house rape allegations”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Cornell"
-        ],
-        "latest_progress": [
-          "10月04日 08:33 UTC，Al Jazeera报道：“Cornell president says university ‘must do better’ after rape allegations”。",
-          "10月04日 00:11 UTC，BBC World报道：“Cornell president says university 'must do better' after frat house rape allegations”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ea4347ff41f3dbdc7f24",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/cornell-president-says-university-must-do-better-after-rape-allegations?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/cornell-president-says-university-must-do-better-after-rape-allegations?traffic_source=rss",
-          "title": "Cornell president says university ‘must do better’ after rape allegations",
-          "summary": "Cornell president says university ‘must do better’ after rape allegations",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T08:33:54+00:00",
-          "fetched_at": "2026-10-04T13:12:38.749530+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_db42f9c75dfbb92f92e6",
-          "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_campaign=rss&at_medium=RSS",
-          "title": "Cornell president says university 'must do better' after frat house rape allegations",
-          "summary": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-04T00:11:25+00:00",
-          "fetched_at": "2026-10-04T13:12:38.206086+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1acd/live/708a4390-bf7e-11f1-9b0d-03ed169a0cab.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b9572308fe16f0f2b9fe",
-      "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
-      "category": "国际政治",
-      "score": 65.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.1,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 0.9
-      },
-      "first_seen": "2026-10-03T02:57:07+00:00",
-      "last_updated": "2026-10-04T11:03:20+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "election",
-        "lula",
-        "brazil's",
-        "rematch",
-        "know",
-        "about",
-        "bolsonaro",
-        "vio"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“What to know about Brazil's election pitting Lula against Flávio Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "What",
-          "Brazil",
-          "Lula",
-          "Bolsonaro Brazil",
-          "Brazilian"
-        ],
-        "latest_progress": [
-          "10月04日 11:03 UTC，BBC World报道：“What to know about Brazil's election pitting Lula against Flávio Bolsonaro”。",
-          "10月03日 02:57 UTC，NPR World报道：“Brazil's big political rematch: What to know about the Brazilian election”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
         {
           "article_id": "art_e458ae17637104239238",
           "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
@@ -589,7 +386,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-04T11:03:20+00:00",
-          "fetched_at": "2026-10-04T13:12:38.206414+00:00",
+          "fetched_at": "2026-10-04T17:36:07.474477+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -604,7 +401,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-03T02:57:07+00:00",
-          "fetched_at": "2026-10-04T13:12:38.640936+00:00",
+          "fetched_at": "2026-10-04T17:36:08.024867+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -613,25 +410,26 @@
       ]
     },
     {
-      "event_id": "evt_620f6157e10475e06401",
-      "title": "Spain protests flare after housing bill rejected: Will it cause snap poll?",
-      "category": "国际政治",
-      "score": 65.0,
+      "event_id": "evt_8cf8865df913b078ad20",
+      "title": "Indian police accused of sexual harassment against journalists at protest",
+      "category": "社会突发",
+      "score": 77.7,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 19.5,
+        "recency": 21.5,
         "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 1.5
+        "impact": 11.7,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-03T14:18:00+00:00",
-      "last_updated": "2026-10-04T10:16:49+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-04T08:53:00+00:00",
+      "last_updated": "2026-10-04T17:01:19+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -639,26 +437,241 @@
         "Middle East"
       ],
       "keywords": [
-        "protests",
-        "housing",
-        "spain",
-        "massive",
-        "bills",
-        "voted",
-        "down",
-        "organizers"
+        "police",
+        "sexual",
+        "delhi",
+        "protest",
+        "women",
+        "harassment",
+        "allegations",
+        "against"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Spain protests flare after housing bill rejected: Will it cause snap poll?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“Indian police accused of sexual harassment against journalists at protest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Spain",
-          "Will",
-          "Massive"
+          "Indian",
+          "We",
+          "New Delhi",
+          "India",
+          "Police",
+          "Delhi"
         ],
         "latest_progress": [
-          "10月04日 10:16 UTC，Al Jazeera报道：“Spain protests flare after housing bill rejected: Will it cause snap poll?”。",
-          "10月03日 14:18 UTC，DW Top Stories报道：“Spain: Massive protests after housing bills voted down”。"
+          "10月04日 17:01 UTC，BBC World报道：“Indian police accused of sexual harassment against journalists at protest”。",
+          "10月04日 15:20 UTC，Al Jazeera报道：“‘We need freedom’: New Delhi women protest sexual violence”。",
+          "10月04日 08:53 UTC，DW Top Stories报道：“India news: Police order probe amid sexual harassment allegations against officers at Delhi protest”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_6469e82cbb4213d508c4",
+          "url": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_campaign=rss&at_medium=RSS",
+          "title": "Indian police accused of sexual harassment against journalists at protest",
+          "summary": "The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-04T17:01:19+00:00",
+          "fetched_at": "2026-10-04T17:36:07.474177+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2fb/live/20fd0ca0-bffa-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_7353e7f02115a4c9b14d",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/we-need-freedom-new-delhi-women-protest-sexual-violence?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/we-need-freedom-new-delhi-women-protest-sexual-violence?traffic_source=rss",
+          "title": "‘We need freedom’: New Delhi women protest sexual violence",
+          "summary": "Aditi Subramanian joined protests after the alleged gang rape of a teenager in New Delhi, calling for women’s safety.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T15:20:48+00:00",
+          "fetched_at": "2026-10-04T17:36:08.223264+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f0d3da2e5a443c9241f1",
+          "url": "https://www.dw.com/en/india-news-police-order-probe-amid-sexual-harassment-allegations-against-officers-at-delhi-protest/live-79527537?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-news-police-order-probe-amid-sexual-harassment-allegations-against-officers-at-delhi-protest/live-79527537?maca=en-rss-en-top-1022-rdf",
+          "title": "India news: Police order probe amid sexual harassment allegations against officers at Delhi protest",
+          "summary": "Three women journalists say police officers sexually harassed them as they covered protests demanding the resignation of India's election chief. Meanwhile, LGBTQIA influencer Mad Sandhu was shot dead in Amritsar.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-04T08:53:00+00:00",
+          "fetched_at": "2026-10-04T17:36:07.804973+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_371b32ec529527a97822",
+      "title": "How was Flydubai co-pilot cleared despite being deemed a security risk?",
+      "category": "军事安全",
+      "score": 72.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 18.7,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 1.5
+      },
+      "first_seen": "2026-10-03T08:17:00+00:00",
+      "last_updated": "2026-10-04T13:42:16+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "flydubai",
+        "co-pilot",
+        "security",
+        "attempted",
+        "attack",
+        "flight",
+        "terrorist",
+        "uae"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“How was Flydubai co-pilot cleared despite being deemed a security risk?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Flydubai",
+          "Australia",
+          "UAE"
+        ],
+        "latest_progress": [
+          "10月04日 13:42 UTC，Al Jazeera报道：“How was Flydubai co-pilot cleared despite being deemed a security risk?”。",
+          "10月04日 06:19 UTC，BBC World报道：“Australia investigating Flydubai co-pilot's links to country”。",
+          "10月03日 08:17 UTC，DW Top Stories报道：“Flydubai co-pilot attempted 'terrorist attack,' UAE says”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_26b5d05d8e4f1489266f",
+          "url": "https://www.aljazeera.com/news/2026/10/4/how-was-flydubai-co-pilot-cleared-despite-being-deemed-a-security-risk?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/how-was-flydubai-co-pilot-cleared-despite-being-deemed-a-security-risk?traffic_source=rss",
+          "title": "How was Flydubai co-pilot cleared despite being deemed a security risk?",
+          "summary": "Aviation security protocols under scrutiny after co-pilot accused of attempted axe attack aboard Flydubai flight.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T13:42:16+00:00",
+          "fetched_at": "2026-10-04T17:36:08.224057+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9cb46d2de4f102416c19",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_campaign=rss&at_medium=RSS",
+          "title": "Australia investigating Flydubai co-pilot's links to country",
+          "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-04T06:19:17+00:00",
+          "fetched_at": "2026-10-04T17:36:07.474326+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png"
+        },
+        {
+          "article_id": "art_3c2f543bf542d5970a7d",
+          "url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
+          "title": "Flydubai co-pilot attempted 'terrorist attack,' UAE says",
+          "summary": "The man, who stabbed his fellow pilot on an Israel-bound Flydubai flight, was reportedly barred from flying in his native Oman over security concerns.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-03T08:17:00+00:00",
+          "fetched_at": "2026-10-04T17:36:07.806658+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b88252dc76632b0d2dfd",
+      "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+      "category": "国际政治",
+      "score": 63.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 18.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.1
+      },
+      "first_seen": "2026-10-04T03:48:00+00:00",
+      "last_updated": "2026-10-04T13:33:05+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "forces",
+        "ethiopian",
+        "rebel",
+        "tigray",
+        "government",
+        "against",
+        "northern",
+        "group"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Ethiopian rebel forces withdraw from Tigray regional capital”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Ethiopian",
+          "Tigray",
+          "In Tigray"
+        ],
+        "latest_progress": [
+          "10月04日 13:33 UTC，BBC World报道：“Ethiopian rebel forces withdraw from Tigray regional capital”。",
+          "10月04日 03:48 UTC，DW Top Stories报道：“In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -671,30 +684,30 @@
       },
       "articles": [
         {
-          "article_id": "art_ae7c8bced106f0b26068",
-          "url": "https://www.aljazeera.com/news/2026/10/4/spain-protests-flare-after-housing-bill-rejected-will-it-cause-snap-poll?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/spain-protests-flare-after-housing-bill-rejected-will-it-cause-snap-poll?traffic_source=rss",
-          "title": "Spain protests flare after housing bill rejected: Will it cause snap poll?",
-          "summary": "Measures pushed by Spain's leftist government fail to pass parliament as the protests spread.",
-          "source": "Al Jazeera",
+          "article_id": "art_4708e277b828ab8f37e6",
+          "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_campaign=rss&at_medium=RSS",
+          "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+          "summary": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-04T10:16:49+00:00",
-          "fetched_at": "2026-10-04T13:12:38.748293+00:00",
+          "published_at": "2026-10-04T13:33:05+00:00",
+          "fetched_at": "2026-10-04T17:36:07.473710+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/965b/live/ca8ca230-bfeb-11f1-8c3e-3b2eab095459.jpg"
         },
         {
-          "article_id": "art_3e7b049ccf5b222abcd6",
-          "url": "https://www.dw.com/en/spain-massive-protests-after-housing-bills-voted-down/a-79532124?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/spain-massive-protests-after-housing-bills-voted-down/a-79532124?maca=en-rss-en-top-1022-rdf",
-          "title": "Spain: Massive protests after housing bills voted down",
-          "summary": "Organizers estimated that 500,000 people turned out in the streets of Madrid to demand affordable housing. Similar protests were held in around 50 other Spanish cities.",
+          "article_id": "art_be9c941bde26e49347a1",
+          "url": "https://www.dw.com/en/in-tigray-ethiopian-government-forces-have-advanced-against-a-northern-rebel-group-reports-indicate/a-79534372?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/in-tigray-ethiopian-government-forces-have-advanced-against-a-northern-rebel-group-reports-indicate/a-79534372?maca=en-rss-en-top-1022-rdf",
+          "title": "In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate",
+          "summary": "Reports indicate Ethiopian government forces have made advances against a northern rebel group. Renewed fighting has raised fears the conflict could spill over into the wider region.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-03T14:18:00+00:00",
-          "fetched_at": "2026-10-04T13:12:38.372122+00:00",
+          "published_at": "2026-10-04T03:48:00+00:00",
+          "fetched_at": "2026-10-04T17:36:07.805353+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -703,79 +716,8 @@
       ]
     },
     {
-      "event_id": "evt_5cbc8fda69e75a2ed5fd",
-      "title": "Yemen’s leader announces military operation to retake Houthi-held territory",
-      "category": "军事安全",
-      "score": 62.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T12:48:50+00:00",
-      "last_updated": "2026-10-04T12:48:50+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "yemen",
-        "leader",
-        "announces",
-        "military",
-        "operation",
-        "retake",
-        "houthi-held",
-        "territory"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Yemen’s leader announces military operation to retake Houthi-held territory”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Yemen",
-          "Houthi"
-        ],
-        "latest_progress": [
-          "10月04日 12:48 UTC，Al Jazeera报道：“Yemen’s leader announces military operation to retake Houthi-held territory”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_de2cce3625e61856c814",
-          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory?traffic_source=rss",
-          "title": "Yemen’s leader announces military operation to retake Houthi-held territory",
-          "summary": "Rashad al-Alimi says the campaign aims to restore state authority throughout Yemen.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T12:48:50+00:00",
-          "fetched_at": "2026-10-04T13:12:38.746856+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2814b612eacd9ab12b6e",
-      "title": "Iran says Hormuz to remain closed until US meets conditions",
+      "event_id": "evt_99771dfd9382840168c1",
+      "title": "Why does the US want to deport Salah Sarsour?",
       "category": "军事安全",
       "score": 61.3,
       "score_breakdown": {
@@ -787,8 +729,8 @@
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-04T11:11:30+00:00",
-      "last_updated": "2026-10-04T11:11:30+00:00",
+      "first_seen": "2026-10-04T15:36:10+00:00",
+      "last_updated": "2026-10-04T15:36:10+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -798,25 +740,25 @@
         "Middle East"
       ],
       "keywords": [
-        "hormuz",
-        "iran",
-        "remain",
-        "closed",
-        "until",
-        "meets",
-        "conditions",
-        "tehran"
+        "does",
+        "want",
+        "deport",
+        "salah",
+        "sarsour",
+        "judge",
+        "ruled",
+        "prominent"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran says Hormuz to remain closed until US meets conditions”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why does the US want to deport Salah Sarsour?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iran",
-          "Hormuz",
-          "US"
+          "Why",
+          "US",
+          "Salah Sarsour"
         ],
         "latest_progress": [
-          "10月04日 11:11 UTC，Al Jazeera报道：“Iran says Hormuz to remain closed until US meets conditions”。"
+          "10月04日 15:36 UTC，Al Jazeera报道：“Why does the US want to deport Salah Sarsour?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -829,15 +771,15 @@
       },
       "articles": [
         {
-          "article_id": "art_6169c026fecb43e0a454",
-          "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
-          "title": "Iran says Hormuz to remain closed until US meets conditions",
-          "summary": "Tehran says reopening Strait of Hormuz has been its main goal, while the US continues to focus on nuclear talks.",
+          "article_id": "art_ca0135ba038fe0a4935f",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/why-does-the-us-want-to-deport-salah-sarsour?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/why-does-the-us-want-to-deport-salah-sarsour?traffic_source=rss",
+          "title": "Why does the US want to deport Salah Sarsour?",
+          "summary": "A US judge has ruled a prominent Palestinian rights advocate can be deported under a controversial, cold-war era law.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-04T11:11:30+00:00",
-          "fetched_at": "2026-10-04T13:12:38.747330+00:00",
+          "published_at": "2026-10-04T15:36:10+00:00",
+          "fetched_at": "2026-10-04T17:36:08.222956+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -846,21 +788,21 @@
       ]
     },
     {
-      "event_id": "evt_e7d94a5c47107820d2d5",
-      "title": "Is the Sudanese army gaining momentum against the RSF?",
+      "event_id": "evt_23490116e68cd02adc6a",
+      "title": "Iran tells US: there is ‘no military solution’ to end the war",
       "category": "军事安全",
-      "score": 61.1,
+      "score": 60.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.0,
+        "recency": 19.8,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-04T10:56:12+00:00",
-      "last_updated": "2026-10-04T10:56:12+00:00",
+      "first_seen": "2026-10-04T15:06:14+00:00",
+      "last_updated": "2026-10-04T15:06:14+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -870,25 +812,24 @@
         "Middle East"
       ],
       "keywords": [
-        "rsf",
-        "sudanese",
-        "army",
-        "gaining",
-        "momentum",
-        "against",
-        "saf",
-        "claims"
+        "iran",
+        "tells",
+        "there",
+        "military",
+        "solution",
+        "end",
+        "war",
+        "iranian"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Is the Sudanese army gaining momentum against the RSF?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran tells US: there is ‘no military solution’ to end the war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Is",
-          "Sudanese",
-          "RSF"
+          "Iran",
+          "US"
         ],
         "latest_progress": [
-          "10月04日 10:56 UTC，Al Jazeera报道：“Is the Sudanese army gaining momentum against the RSF?”。"
+          "10月04日 15:06 UTC，Al Jazeera报道：“Iran tells US: there is ‘no military solution’ to end the war”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -901,15 +842,159 @@
       },
       "articles": [
         {
-          "article_id": "art_621ef75fe78a6b811de3",
-          "url": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
-          "title": "Is the Sudanese army gaining momentum against the RSF?",
-          "summary": "The SAF claims victory in a vital North Kordofan town, weakening RSF’s access to fighters and supply routes.",
+          "article_id": "art_5f1603cb1f977294ff6b",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/iran-tells-us-there-is-no-military-solution-to-end-the-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/iran-tells-us-there-is-no-military-solution-to-end-the-war?traffic_source=rss",
+          "title": "Iran tells US: there is ‘no military solution’ to end the war",
+          "summary": "Iranian Foreign Minister Abbas Araghchi says the era of “wasting time and dictating demands is over’.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-04T10:56:12+00:00",
-          "fetched_at": "2026-10-04T13:12:38.747821+00:00",
+          "published_at": "2026-10-04T15:06:14+00:00",
+          "fetched_at": "2026-10-04T17:36:08.223587+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a48fb85dd1030de95432",
+      "title": "Ukraine ready for US-backed talks with Russia: Zelenskyy",
+      "category": "国际政治",
+      "score": 60.8,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.7,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-04T17:17:42+00:00",
+      "last_updated": "2026-10-04T17:17:42+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "talks",
+        "ukraine",
+        "ready",
+        "us-backed",
+        "russia",
+        "zelenskyy",
+        "trilateral",
+        "could"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Ukraine ready for US-backed talks with Russia: Zelenskyy”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Ukraine",
+          "US",
+          "Russia",
+          "Zelenskyy"
+        ],
+        "latest_progress": [
+          "10月04日 17:17 UTC，Al Jazeera报道：“Ukraine ready for US-backed talks with Russia: Zelenskyy”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3e708d52082f011dd483",
+          "url": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy?traffic_source=rss",
+          "title": "Ukraine ready for US-backed talks with Russia: Zelenskyy",
+          "summary": "Trilateral talks could happen this month in UAE or another US-proposed venue, says the president.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T17:17:42+00:00",
+          "fetched_at": "2026-10-04T17:36:08.221286+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b954ee714e2007b774d4",
+      "title": "Mass protests demanding poll chief resignation shake India for third day",
+      "category": "国际政治",
+      "score": 60.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-04T16:55:03+00:00",
+      "last_updated": "2026-10-04T16:55:03+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "mass",
+        "protests",
+        "demanding",
+        "poll",
+        "chief",
+        "resignation",
+        "shake",
+        "india"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Mass protests demanding poll chief resignation shake India for third day”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Mass",
+          "India"
+        ],
+        "latest_progress": [
+          "10月04日 16:55 UTC，Al Jazeera报道：“Mass protests demanding poll chief resignation shake India for third day”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_64850e1f9588b6ce1dcb",
+          "url": "https://www.aljazeera.com/news/2026/10/4/mass-protests-demanding-poll-chief-resignation-shake-india-for-third-day?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/mass-protests-demanding-poll-chief-resignation-shake-india-for-third-day?traffic_source=rss",
+          "title": "Mass protests demanding poll chief resignation shake India for third day",
+          "summary": "Protesters say the election commission’s voter-roll revision has removed millions of eligible voters to benefit PM Modi.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T16:55:03+00:00",
+          "fetched_at": "2026-10-04T17:36:08.221468+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
