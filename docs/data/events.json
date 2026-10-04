@@ -1,29 +1,34 @@
 {
-  "generated_at": "2026-10-04T06:50:46.547202+00:00",
+  "generated_at": "2026-10-04T13:12:39.606712+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 197,
-    "articles_unique": 195,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 77,
+    "articles_unique": 77,
+    "errors": [
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_235665f9bdb6a874a7cb",
-      "title": "Brazil’s Lula and Bolsonaro close campaigns ahead of critical election",
-      "category": "国际政治",
-      "score": 72.0,
+      "event_id": "evt_301605202fd263768424",
+      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+      "category": "军事安全",
+      "score": 78.6,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 17.6,
+        "recency": 21.0,
         "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 3.9
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-03T13:52:13+00:00",
-      "last_updated": "2026-10-04T01:26:00+00:00",
+      "first_seen": "2026-10-04T08:13:00+00:00",
+      "last_updated": "2026-10-04T12:09:04+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
@@ -36,29 +41,247 @@
         "Middle East"
       ],
       "keywords": [
-        "bolsonaro",
-        "lula",
-        "election",
-        "president",
-        "polls",
-        "brazil",
-        "silva",
-        "lead"
+        "kyiv",
+        "bridge",
+        "merz",
+        "visits",
+        "chancellor",
+        "drone",
+        "russia",
+        "strikes"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Brazil’s Lula and Bolsonaro close campaigns ahead of critical election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Kyiv",
+          "Russian",
+          "German",
+          "Russia",
+          "Germany",
+          "Merz",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月04日 12:09 UTC，BBC World报道：“Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit”。",
+          "10月04日 11:58 UTC，Al Jazeera报道：“Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital”。",
+          "10月04日 08:13 UTC，DW Top Stories报道：“Germany's Merz visits Kyiv as Russia strikes bridge”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e385a783f8adac999e09",
+          "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_campaign=rss&at_medium=RSS",
+          "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+          "summary": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating a large fireball.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-04T12:09:04+00:00",
+          "fetched_at": "2026-10-04T13:12:38.205508+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6139/live/b7fa6620-bfe6-11f1-b4e6-d96c2bf27b65.jpg"
+        },
+        {
+          "article_id": "art_1e061e9a32481fefa289",
+          "url": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine?traffic_source=rss",
+          "title": "Russia hits Kyiv bridge as Germany’s Merz visits Ukraine’s capital",
+          "summary": "German chancellor visits Kyiv amid air raid sirens, pledging strong support as Russian strikes disrupt the capital.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T11:58:14+00:00",
+          "fetched_at": "2026-10-04T13:12:38.747023+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_55afbc0e036072997b0b",
+          "url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-top-1022-rdf",
+          "title": "Germany's Merz visits Kyiv as Russia strikes bridge",
+          "summary": "As air raid sirens sounded in Kyiv, Chancellor Merz called on President Putin to end his \"senseless war\" and announced new measures to support Ukraine, including plans for joint Ukrainian-German drone production.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-04T08:13:00+00:00",
+          "fetched_at": "2026-10-04T13:12:38.371103+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_371b32ec529527a97822",
+      "title": "Australia investigating Flydubai co-pilot's links to country",
+      "category": "军事安全",
+      "score": 73.4,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 19.2,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 1.8
+      },
+      "first_seen": "2026-10-03T08:17:00+00:00",
+      "last_updated": "2026-10-04T09:53:39+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "flydubai",
+        "co-pilot",
+        "attempted",
+        "flight",
+        "security",
+        "plane",
+        "terrorist",
+        "attack"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Australia investigating Flydubai co-pilot's links to country”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Flydubai",
+          "What",
+          "Australia",
+          "UAE"
+        ],
+        "latest_progress": [
+          "10月04日 09:53 UTC，Al Jazeera报道：“Flydubai: What happens when a plane plunges 17,000 feet?”。",
+          "10月04日 06:19 UTC，BBC World报道：“Australia investigating Flydubai co-pilot's links to country”。",
+          "10月03日 08:17 UTC，DW Top Stories报道：“Flydubai co-pilot attempted 'terrorist attack,' UAE says”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_762bed354d406e130277",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/flydubai-what-happens-when-a-plane-plunges-17000-feet?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/flydubai-what-happens-when-a-plane-plunges-17000-feet?traffic_source=rss",
+          "title": "Flydubai: What happens when a plane plunges 17,000 feet?",
+          "summary": "A flight instructor recreates the Flydubai jet’s near-vertical 17,000 foot dive in a simulator.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T09:53:39+00:00",
+          "fetched_at": "2026-10-04T13:12:38.748917+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9cb46d2de4f102416c19",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_campaign=rss&at_medium=RSS",
+          "title": "Australia investigating Flydubai co-pilot's links to country",
+          "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-04T06:19:17+00:00",
+          "fetched_at": "2026-10-04T13:12:38.205715+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png"
+        },
+        {
+          "article_id": "art_3c2f543bf542d5970a7d",
+          "url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/flydubai-co-pilot-attempted-terrorist-attack-uae-says/a-79526641?maca=en-rss-en-top-1022-rdf",
+          "title": "Flydubai co-pilot attempted 'terrorist attack,' UAE says",
+          "summary": "The man, who stabbed his fellow pilot on an Israel-bound Flydubai flight, was reportedly barred from flying in his native Oman over security concerns.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-03T08:17:00+00:00",
+          "fetched_at": "2026-10-04T13:12:38.372504+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9cfaa079aba15050801f",
+      "title": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
+      "category": "国际政治",
+      "score": 72.4,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-04T10:00:00+00:00",
+      "last_updated": "2026-10-04T11:28:00+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "bolsonaro",
+        "lula",
+        "brazil",
+        "voting",
+        "flavio",
+        "close",
+        "presidential",
+        "race"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Brazil votes in deeply polarised election pitting Lula against Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Voting",
           "Brazil",
           "Lula",
           "Bolsonaro",
-          "Why",
-          "US"
+          "Bolsonaro Brazil"
         ],
         "latest_progress": [
-          "10月04日 01:26 UTC，DW Top Stories报道：“Brazil's 2026 presidential election is kicking off with polls showing Lula and Bolsonaro nearly tied.”。",
-          "10月04日 00:07 UTC，Al Jazeera报道：“Brazil’s Lula and Bolsonaro close campaigns ahead of critical election”。",
-          "10月03日 13:52 UTC，BBC World报道：“Why has Brazil accused the US of election interference?”。"
+          "10月04日 11:28 UTC，DW Top Stories报道：“Voting in Brazil's 2026 presidential election has begun, with polls showing Lula and Bolsonaro nearly tied”。",
+          "10月04日 11:15 UTC，Al Jazeera报道：“Brazil votes in deeply polarised election pitting Lula against Bolsonaro”。",
+          "10月04日 10:00 UTC，Al Jazeera报道：“Brazil elections live: Lula faces Bolsonaro in close presidential race”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -71,68 +294,68 @@
       },
       "articles": [
         {
-          "article_id": "art_40883dbb66ac8721488b",
-          "url": "https://www.dw.com/en/brazil-s-2026-presidential-election-is-kicking-off-with-polls-showing-lula-and-bolsonaro-nearly-tied/a-79533857?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-s-2026-presidential-election-is-kicking-off-with-polls-showing-lula-and-bolsonaro-nearly-tied/a-79533857?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil's 2026 presidential election is kicking off with polls showing Lula and Bolsonaro nearly tied.",
+          "article_id": "art_55338d8f9a3a75b230d6",
+          "url": "https://www.dw.com/en/voting-in-brazil-s-2026-presidential-election-has-begun-with-polls-showing-lula-and-bolsonaro-nearly-tied/a-79533857?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/voting-in-brazil-s-2026-presidential-election-has-begun-with-polls-showing-lula-and-bolsonaro-nearly-tied/a-79533857?maca=en-rss-en-top-1022-rdf",
+          "title": "Voting in Brazil's 2026 presidential election has begun, with polls showing Lula and Bolsonaro nearly tied",
           "summary": "Flavio Bolsonaro, the son of former far-right populist President Jair Bolsonaro, is taking on incumbent left-wing President Lula da Silva. Polls show the first round of voting will likely lead to a runoff.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-04T01:26:00+00:00",
-          "fetched_at": "2026-10-04T06:50:43.717114+00:00",
+          "published_at": "2026-10-04T11:28:00+00:00",
+          "fetched_at": "2026-10-04T13:12:38.370274+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_b20912b2756931d3e387",
-          "url": "https://www.aljazeera.com/news/2026/10/4/brazils-lula-and-bolsonaro-close-campaigns-ahead-of-critical-election?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/brazils-lula-and-bolsonaro-close-campaigns-ahead-of-critical-election?traffic_source=rss",
-          "title": "Brazil’s Lula and Bolsonaro close campaigns ahead of critical election",
-          "summary": "Latest polls suggest Lula's lead over Bolsonaro is narrowing, with neither candidate likely to win outright on Sunday.",
+          "article_id": "art_8560b67806cdcb4e0d1e",
+          "url": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/brazil-votes-in-deeply-polarised-election-pitting-lula-against-bolsonaro?traffic_source=rss",
+          "title": "Brazil votes in deeply polarised election pitting Lula against Bolsonaro",
+          "summary": "Close race expected as left-wing leader Lula seeks fourth nonconsecutive term against right-wing Flavio Bolsonaro.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-04T00:07:12+00:00",
-          "fetched_at": "2026-10-04T06:50:44.036524+00:00",
+          "published_at": "2026-10-04T11:15:34+00:00",
+          "fetched_at": "2026-10-04T13:12:38.747175+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_67e2945c33adbb86f650",
-          "url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c3eweld0nddeo?at_campaign=rss&at_medium=RSS",
-          "title": "Why has Brazil accused the US of election interference?",
-          "summary": "The Latin American country will vote for its next president, as Lula da Silva and Bolsonaro clash over sovereignty, security and ties with Washington.",
-          "source": "BBC World",
+          "article_id": "art_62f7506f172b1e7114f2",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-elections-live-voters-head-to-polls-for-close-presidential-race?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-elections-live-voters-head-to-polls-for-close-presidential-race?traffic_source=rss",
+          "title": "Brazil elections live: Lula faces Bolsonaro in close presidential race",
+          "summary": "Voting begins in Brazil as Lula seeks a historic fourth term, facing strong opposition from Flavio Bolsonaro.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-03T13:52:13+00:00",
-          "fetched_at": "2026-10-04T06:50:42.991267+00:00",
+          "published_at": "2026-10-04T10:00:00+00:00",
+          "fetched_at": "2026-10-04T13:12:38.748743+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a8e/live/a3940800-bebd-11f1-8d3f-711f85e5e3bb.jpg"
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_cc84225dce286f0f70df",
-      "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
+      "event_id": "evt_b88252dc76632b0d2dfd",
+      "title": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
       "category": "国际政治",
-      "score": 68.4,
+      "score": 68.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.4,
+        "recency": 20.1,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 4.1
       },
-      "first_seen": "2026-10-04T01:41:28+00:00",
-      "last_updated": "2026-10-04T03:48:00+00:00",
+      "first_seen": "2026-10-04T03:48:00+00:00",
+      "last_updated": "2026-10-04T11:05:02+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -144,27 +367,28 @@
         "Middle East"
       ],
       "keywords": [
-        "government",
         "ethiopian",
-        "tigray",
+        "government",
         "forces",
-        "mekelle",
+        "tigray",
         "against",
         "northern",
-        "rebel"
+        "rebel",
+        "group"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Ethiopian government troops seize Tigray’s capital Mekelle”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "In Tigray",
           "Ethiopian",
           "Tigray",
-          "Mekelle"
+          "Mekelle",
+          "TPLF",
+          "In Tigray"
         ],
         "latest_progress": [
-          "10月04日 03:48 UTC，DW Top Stories报道：“In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate”。",
-          "10月04日 01:41 UTC，Al Jazeera报道：“Ethiopian government troops seize Tigray’s capital Mekelle”。"
+          "10月04日 11:05 UTC，Al Jazeera报道：“Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws”。",
+          "10月04日 03:48 UTC，DW Top Stories报道：“In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -176,6 +400,21 @@
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_17b87bf7263b44c21089",
+          "url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels?traffic_source=rss",
+          "title": "Ethiopian government forces seize Tigray capital Mekelle as TPLF withdraws",
+          "summary": "Federal troops and allied fighters seen in control of the city after capturing main regional airport.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T11:05:02+00:00",
+          "fetched_at": "2026-10-04T13:12:38.747483+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
         {
           "article_id": "art_be9c941bde26e49347a1",
           "url": "https://www.dw.com/en/in-tigray-ethiopian-government-forces-have-advanced-against-a-northern-rebel-group-reports-indicate/a-79534372?maca=en-rss-en-top-1022-rdf",
@@ -185,47 +424,32 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-04T03:48:00+00:00",
-          "fetched_at": "2026-10-04T06:50:43.716940+00:00",
+          "fetched_at": "2026-10-04T13:12:38.371227+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_54e73ea8ef1f0d49892f",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle?traffic_source=rss",
-          "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
-          "summary": "Ethiopia’s government forces say they’ve seized Mekelle from Tigray fighters after a week of intense battles.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T01:41:28+00:00",
-          "fetched_at": "2026-10-04T06:50:44.036154+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_09caf4ba1cb50973e219",
+      "event_id": "evt_18c7ce7ce72f73494f63",
       "title": "Cornell president says university 'must do better' after frat house rape allegations",
       "category": "国际政治",
-      "score": 66.5,
+      "score": 66.0,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.4,
+        "recency": 18.1,
         "credibility": 10.0,
         "impact": 11.0,
-        "velocity": 2.0
+        "velocity": 3.6
       },
-      "first_seen": "2026-10-03T02:23:07+00:00",
-      "last_updated": "2026-10-04T01:15:58+00:00",
+      "first_seen": "2026-10-04T00:11:25+00:00",
+      "last_updated": "2026-10-04T08:33:54+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
         "BBC World"
@@ -235,25 +459,24 @@
         "Middle East"
       ],
       "keywords": [
-        "cornell",
-        "rape",
-        "frat",
-        "house",
-        "lawyer",
-        "president",
         "allegations",
-        "michael"
+        "cornell",
+        "president",
+        "university",
+        "must",
+        "rape",
+        "better",
+        "better'"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的国际政治事件为“Cornell president says university 'must do better' after frat house rape allegations”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Cornell president says university 'must do better' after frat house rape allegations”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Cornell"
         ],
         "latest_progress": [
-          "10月04日 01:15 UTC，Al Jazeera报道：“Cornell president vows transparency amid outrage over fraternity rape case”。",
-          "10月04日 00:11 UTC，BBC World报道：“Cornell president says university 'must do better' after frat house rape allegations”。",
-          "10月03日 02:23 UTC，BBC World报道：“Cornell frat house rape accuser 'under siege' online, says lawyer”。"
+          "10月04日 08:33 UTC，Al Jazeera报道：“Cornell president says university ‘must do better’ after rape allegations”。",
+          "10月04日 00:11 UTC，BBC World报道：“Cornell president says university 'must do better' after frat house rape allegations”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -266,15 +489,15 @@
       },
       "articles": [
         {
-          "article_id": "art_72115608a920523f6878",
-          "url": "https://www.aljazeera.com/news/2026/10/4/cornell-president-vows-transparency-amid-outrage-over-fraternity-rape-case?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/cornell-president-vows-transparency-amid-outrage-over-fraternity-rape-case?traffic_source=rss",
-          "title": "Cornell president vows transparency amid outrage over fraternity rape case",
-          "summary": "Michael Kotlikoff expresses deep sorrow over the case, calling it one of the most challenging periods for Cornell.",
+          "article_id": "art_ea4347ff41f3dbdc7f24",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/cornell-president-says-university-must-do-better-after-rape-allegations?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/cornell-president-says-university-must-do-better-after-rape-allegations?traffic_source=rss",
+          "title": "Cornell president says university ‘must do better’ after rape allegations",
+          "summary": "Cornell president says university ‘must do better’ after rape allegations",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-04T01:15:58+00:00",
-          "fetched_at": "2026-10-04T06:50:44.036248+00:00",
+          "published_at": "2026-10-04T08:33:54+00:00",
+          "fetched_at": "2026-10-04T13:12:38.749530+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -289,331 +512,30 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-04T00:11:25+00:00",
-          "fetched_at": "2026-10-04T06:50:42.990769+00:00",
+          "fetched_at": "2026-10-04T13:12:38.206086+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1acd/live/708a4390-bf7e-11f1-9b0d-03ed169a0cab.jpg"
-        },
-        {
-          "article_id": "art_3dcde2a6e6887be85c1d",
-          "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_campaign=rss&at_medium=RSS",
-          "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
-          "summary": "A lawyer for Jane Doe says she is \"not doing well\" amid attempts to uncover her identity.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-03T02:23:07+00:00",
-          "fetched_at": "2026-10-04T06:50:42.992064+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/689e/live/042cea50-beb0-11f1-b48e-15cf4ddc906e.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_e945d71901dea959b957",
-      "title": "Australia investigating Flydubai co-pilot's links to country",
-      "category": "军事安全",
-      "score": 62.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T06:19:17+00:00",
-      "last_updated": "2026-10-04T06:19:17+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "flydubai",
-        "australia",
-        "investigating",
-        "co-pilot's",
-        "links",
-        "country",
-        "state",
-        "police"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Australia investigating Flydubai co-pilot's links to country”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Australia",
-          "Flydubai"
-        ],
-        "latest_progress": [
-          "10月04日 06:19 UTC，BBC World报道：“Australia investigating Flydubai co-pilot's links to country”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9cb46d2de4f102416c19",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_campaign=rss&at_medium=RSS",
-          "title": "Australia investigating Flydubai co-pilot's links to country",
-          "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-04T06:19:17+00:00",
-          "fetched_at": "2026-10-04T06:50:42.990658+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_aaf2ef8bf4bb0e2537f3",
-      "title": "Germany's Merz arrives in Kyiv to pledge more support",
-      "category": "军事安全",
-      "score": 61.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T06:11:00+00:00",
-      "last_updated": "2026-10-04T06:11:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "merz",
-        "support",
-        "germany's",
-        "arrives",
-        "kyiv",
-        "pledge",
-        "more",
-        "chancellor"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Germany's Merz arrives in Kyiv to pledge more support”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Germany",
-          "Merz",
-          "Kyiv"
-        ],
-        "latest_progress": [
-          "10月04日 06:11 UTC，DW Top Stories报道：“Germany's Merz arrives in Kyiv to pledge more support”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_931d51f4283e346242d6",
-          "url": "https://www.dw.com/en/germany-s-merz-arrives-in-kyiv-to-pledge-more-support/a-79534734?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-s-merz-arrives-in-kyiv-to-pledge-more-support/a-79534734?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany's Merz arrives in Kyiv to pledge more support",
-          "summary": "Chancellor Friedrich Merz is expected to announce a new raft of measures to support Ukraine, including military aid and plans for the joint production of interceptor drones.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-04T06:11:00+00:00",
-          "fetched_at": "2026-10-04T06:50:43.716835+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_8094e22b42ac5193eb72",
-      "title": "Saudi-backed Yemeni army says 700 Houthis killed in 24 hours",
-      "category": "军事安全",
-      "score": 60.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.7,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T04:09:13+00:00",
-      "last_updated": "2026-10-04T04:09:13+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "killed",
-        "saudi-backed",
-        "yemeni",
-        "army",
-        "houthis",
-        "hours",
-        "yemen",
-        "government"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Saudi-backed Yemeni army says 700 Houthis killed in 24 hours”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Saudi",
-          "Yemeni",
-          "Houthis"
-        ],
-        "latest_progress": [
-          "10月04日 04:09 UTC，Al Jazeera报道：“Saudi-backed Yemeni army says 700 Houthis killed in 24 hours”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_061956e2a196520a886e",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/saudi-backed-yemeni-army-says-700-houthis-killed-in-24-hours?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/saudi-backed-yemeni-army-says-700-houthis-killed-in-24-hours?traffic_source=rss",
-          "title": "Saudi-backed Yemeni army says 700 Houthis killed in 24 hours",
-          "summary": "Yemen’s government forces claim to have killed hundreds of Houthi rebels as they attempt to retake lost territory.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T04:09:13+00:00",
-          "fetched_at": "2026-10-04T06:50:44.035685+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ed0533dd0922d5234299",
-      "title": "Pick-up truck overturns trying to carry military chopper in Russia",
-      "category": "军事安全",
-      "score": 60.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T04:06:05+00:00",
-      "last_updated": "2026-10-04T04:06:05+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "truck",
-        "carry",
-        "pick-up",
-        "overturns",
-        "trying",
-        "military",
-        "chopper",
-        "russia"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Pick-up truck overturns trying to carry military chopper in Russia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Pick",
-          "Russia"
-        ],
-        "latest_progress": [
-          "10月04日 04:06 UTC，Al Jazeera报道：“Pick-up truck overturns trying to carry military chopper in Russia”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f8319cded48ac3b50739",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/pick-up-truck-overturns-trying-to-carry-military-chopper-in-russia?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/pick-up-truck-overturns-trying-to-carry-military-chopper-in-russia?traffic_source=rss",
-          "title": "Pick-up truck overturns trying to carry military chopper in Russia",
-          "summary": "An attempt by Russian stuntman Evgeny Chebotarev to carry an Mi-2 helicopter on a pickup truck went awfully wrong.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T04:06:05+00:00",
-          "fetched_at": "2026-10-04T06:50:44.035780+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d56c625bad8ca80120e9",
-      "title": "School protests send shivers down French government's spine",
+      "event_id": "evt_b9572308fe16f0f2b9fe",
+      "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
       "category": "国际政治",
-      "score": 60.1,
+      "score": 65.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 15.2,
+        "recency": 20.1,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 0.9
       },
-      "first_seen": "2026-10-02T12:43:02+00:00",
-      "last_updated": "2026-10-03T21:57:35+00:00",
+      "first_seen": "2026-10-03T02:57:07+00:00",
+      "last_updated": "2026-10-04T11:03:20+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -625,26 +547,28 @@
         "North America"
       ],
       "keywords": [
-        "school",
-        "protests",
-        "spread",
-        "france",
-        "people",
-        "send",
-        "shivers",
-        "down"
+        "election",
+        "lula",
+        "brazil's",
+        "rematch",
+        "know",
+        "about",
+        "bolsonaro",
+        "vio"
       ],
       "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“School protests send shivers down French government's spine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“What to know about Brazil's election pitting Lula against Flávio Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "France",
-          "School",
-          "French"
+          "What",
+          "Brazil",
+          "Lula",
+          "Bolsonaro Brazil",
+          "Brazilian"
         ],
         "latest_progress": [
-          "10月03日 21:57 UTC，NPR World报道：“France arrests 5,000 people, mostly teens, as school protests spread”。",
-          "10月02日 12:43 UTC，BBC World报道：“School protests send shivers down French government's spine”。"
+          "10月04日 11:03 UTC，BBC World报道：“What to know about Brazil's election pitting Lula against Flávio Bolsonaro”。",
+          "10月03日 02:57 UTC，NPR World报道：“Brazil's big political rematch: What to know about the Brazilian election”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -657,53 +581,143 @@
       },
       "articles": [
         {
-          "article_id": "art_29ebe0b28ec43e80e025",
-          "url": "https://www.npr.org/2026/10/03/nx-s1-5989532/france-arrests-5-000-people-mostly-teens-as-school-protests-spread",
-          "canonical_url": "https://www.npr.org/2026/10/03/nx-s1-5989532/france-arrests-5-000-people-mostly-teens-as-school-protests-spread",
-          "title": "France arrests 5,000 people, mostly teens, as school protests spread",
-          "summary": "High school students say their classrooms are overcrowded, teachers are missing and buildings need repairs. The protests have spread to cities across France, and some 5,000 people have been arrested.",
+          "article_id": "art_e458ae17637104239238",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_campaign=rss&at_medium=RSS",
+          "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+          "summary": "Polls suggest the election will be a closely run contest between the left-wing incumbent and his right-wing rival.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-04T11:03:20+00:00",
+          "fetched_at": "2026-10-04T13:12:38.206414+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70fc/live/b2ed88c0-bd79-11f1-babe-4199b0e7ccea.png"
+        },
+        {
+          "article_id": "art_e2184b73d2fcd8a28689",
+          "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "canonical_url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+          "title": "Brazil's big political rematch: What to know about the Brazilian election",
+          "summary": "Four years after President Lula narrowly defeated Jair Bolsonaro, Brazil is back at the ballot box. This time, Lula faces Bolsonaro's son, Flávio, in a high-stakes rematch.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-03T21:57:35+00:00",
-          "fetched_at": "2026-10-04T06:50:43.945836+00:00",
+          "published_at": "2026-10-03T02:57:07+00:00",
+          "fetched_at": "2026-10-04T13:12:38.640936+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_7654ddf8e32783206ca4",
-          "url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_campaign=rss&at_medium=RSS",
-          "title": "School protests send shivers down French government's spine",
-          "summary": "A movement that started nearly two weeks ago has spread, and in France young people on the streets spells trouble, writes Hugh Schofield.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-02T12:43:02+00:00",
-          "fetched_at": "2026-10-04T06:50:42.993623+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5401/live/a6cf60b0-be6c-11f1-a64c-550be9e3c66b.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_a398bfc8c2b86003e39d",
-      "title": "Somalia President: Houthis ‘not in a position’ to bring Yemen peace",
+      "event_id": "evt_620f6157e10475e06401",
+      "title": "Spain protests flare after housing bill rejected: Will it cause snap poll?",
       "category": "国际政治",
-      "score": 59.5,
+      "score": 65.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 1.5
+      },
+      "first_seen": "2026-10-03T14:18:00+00:00",
+      "last_updated": "2026-10-04T10:16:49+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "protests",
+        "housing",
+        "spain",
+        "massive",
+        "bills",
+        "voted",
+        "down",
+        "organizers"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Spain protests flare after housing bill rejected: Will it cause snap poll?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Spain",
+          "Will",
+          "Massive"
+        ],
+        "latest_progress": [
+          "10月04日 10:16 UTC，Al Jazeera报道：“Spain protests flare after housing bill rejected: Will it cause snap poll?”。",
+          "10月03日 14:18 UTC，DW Top Stories报道：“Spain: Massive protests after housing bills voted down”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ae7c8bced106f0b26068",
+          "url": "https://www.aljazeera.com/news/2026/10/4/spain-protests-flare-after-housing-bill-rejected-will-it-cause-snap-poll?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/spain-protests-flare-after-housing-bill-rejected-will-it-cause-snap-poll?traffic_source=rss",
+          "title": "Spain protests flare after housing bill rejected: Will it cause snap poll?",
+          "summary": "Measures pushed by Spain's leftist government fail to pass parliament as the protests spread.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T10:16:49+00:00",
+          "fetched_at": "2026-10-04T13:12:38.748293+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3e7b049ccf5b222abcd6",
+          "url": "https://www.dw.com/en/spain-massive-protests-after-housing-bills-voted-down/a-79532124?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/spain-massive-protests-after-housing-bills-voted-down/a-79532124?maca=en-rss-en-top-1022-rdf",
+          "title": "Spain: Massive protests after housing bills voted down",
+          "summary": "Organizers estimated that 500,000 people turned out in the streets of Madrid to demand affordable housing. Similar protests were held in around 50 other Spanish cities.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-03T14:18:00+00:00",
+          "fetched_at": "2026-10-04T13:12:38.372122+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5cbc8fda69e75a2ed5fd",
+      "title": "Yemen’s leader announces military operation to retake Houthi-held territory",
+      "category": "军事安全",
+      "score": 62.7,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.4,
+        "recency": 21.6,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-04T05:00:40+00:00",
-      "last_updated": "2026-10-04T05:00:40+00:00",
+      "first_seen": "2026-10-04T12:48:50+00:00",
+      "last_updated": "2026-10-04T12:48:50+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -713,46 +727,45 @@
         "Middle East"
       ],
       "keywords": [
-        "somalia",
-        "president",
-        "houthis",
-        "not",
-        "position",
-        "bring",
         "yemen",
-        "peace"
+        "leader",
+        "announces",
+        "military",
+        "operation",
+        "retake",
+        "houthi-held",
+        "territory"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Somalia President: Houthis ‘not in a position’ to bring Yemen peace”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Yemen’s leader announces military operation to retake Houthi-held territory”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Somalia President",
-          "Houthis",
-          "Yemen"
+          "Yemen",
+          "Houthi"
         ],
         "latest_progress": [
-          "10月04日 05:00 UTC，Al Jazeera报道：“Somalia President: Houthis ‘not in a position’ to bring Yemen peace”。"
+          "10月04日 12:48 UTC，Al Jazeera报道：“Yemen’s leader announces military operation to retake Houthi-held territory”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_9bfb7952dbec59ba6bb5",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/somalia-president-houthis-not-in-a-position-to-bring-yemen-peace?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/somalia-president-houthis-not-in-a-position-to-bring-yemen-peace?traffic_source=rss",
-          "title": "Somalia President: Houthis ‘not in a position’ to bring Yemen peace",
-          "summary": "Somalia’s president accuses the Houthis of destabilising the region and disrupting navigation through the Bab al-Mandeb",
+          "article_id": "art_de2cce3625e61856c814",
+          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory?traffic_source=rss",
+          "title": "Yemen’s leader announces military operation to retake Houthi-held territory",
+          "summary": "Rashad al-Alimi says the campaign aims to restore state authority throughout Yemen.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-04T05:00:40+00:00",
-          "fetched_at": "2026-10-04T06:50:44.035382+00:00",
+          "published_at": "2026-10-04T12:48:50+00:00",
+          "fetched_at": "2026-10-04T13:12:38.746856+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -761,21 +774,21 @@
       ]
     },
     {
-      "event_id": "evt_74503473c9a5262ee13d",
-      "title": "Bosnia general election 2026 explained in maps and charts",
-      "category": "国际政治",
-      "score": 59.4,
+      "event_id": "evt_2814b612eacd9ab12b6e",
+      "title": "Iran says Hormuz to remain closed until US meets conditions",
+      "category": "军事安全",
+      "score": 61.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.4,
+        "recency": 20.2,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-04T04:58:50+00:00",
-      "last_updated": "2026-10-04T04:58:50+00:00",
+      "first_seen": "2026-10-04T11:11:30+00:00",
+      "last_updated": "2026-10-04T11:11:30+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -785,44 +798,118 @@
         "Middle East"
       ],
       "keywords": [
-        "bosnia",
-        "general",
-        "election",
-        "explained",
-        "maps",
-        "charts",
-        "bosnians",
-        "head"
+        "hormuz",
+        "iran",
+        "remain",
+        "closed",
+        "until",
+        "meets",
+        "conditions",
+        "tehran"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Bosnia general election 2026 explained in maps and charts”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran says Hormuz to remain closed until US meets conditions”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Bosnia"
+          "Iran",
+          "Hormuz",
+          "US"
         ],
         "latest_progress": [
-          "10月04日 04:58 UTC，Al Jazeera报道：“Bosnia general election 2026 explained in maps and charts”。"
+          "10月04日 11:11 UTC，Al Jazeera报道：“Iran says Hormuz to remain closed until US meets conditions”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_4b6c743ac1a2c6cdead6",
-          "url": "https://www.aljazeera.com/news/2026/10/4/bosnia-general-election-2026-explained-in-maps-and-charts?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/bosnia-general-election-2026-explained-in-maps-and-charts?traffic_source=rss",
-          "title": "Bosnia general election 2026 explained in maps and charts",
-          "summary": "Bosnians head to the polls on October 4. Here’s a quick guide to the voting process, candidates and what's at stake.",
+          "article_id": "art_6169c026fecb43e0a454",
+          "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss",
+          "title": "Iran says Hormuz to remain closed until US meets conditions",
+          "summary": "Tehran says reopening Strait of Hormuz has been its main goal, while the US continues to focus on nuclear talks.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-04T04:58:50+00:00",
-          "fetched_at": "2026-10-04T06:50:44.035486+00:00",
+          "published_at": "2026-10-04T11:11:30+00:00",
+          "fetched_at": "2026-10-04T13:12:38.747330+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e7d94a5c47107820d2d5",
+      "title": "Is the Sudanese army gaining momentum against the RSF?",
+      "category": "军事安全",
+      "score": 61.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-04T10:56:12+00:00",
+      "last_updated": "2026-10-04T10:56:12+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "rsf",
+        "sudanese",
+        "army",
+        "gaining",
+        "momentum",
+        "against",
+        "saf",
+        "claims"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Is the Sudanese army gaining momentum against the RSF?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Is",
+          "Sudanese",
+          "RSF"
+        ],
+        "latest_progress": [
+          "10月04日 10:56 UTC，Al Jazeera报道：“Is the Sudanese army gaining momentum against the RSF?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_621ef75fe78a6b811de3",
+          "url": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/is-the-sudanese-army-gaining-momentum-against-the-rsf?traffic_source=rss",
+          "title": "Is the Sudanese army gaining momentum against the RSF?",
+          "summary": "The SAF claims victory in a vital North Kordofan town, weakening RSF’s access to fighters and supply routes.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-04T10:56:12+00:00",
+          "fetched_at": "2026-10-04T13:12:38.747821+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
