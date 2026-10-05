@@ -1,363 +1,63 @@
 {
-  "generated_at": "2026-10-05T16:02:06.205239+00:00",
+  "generated_at": "2026-10-05T22:38:14.201488+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 81,
-    "articles_unique": 81,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 79,
+    "articles_unique": 79,
+    "errors": []
   },
   "events": [
-    {
-      "event_id": "evt_01659a1c0bb1f157c346",
-      "title": "Yemeni forces reclaim Dhubab, key positions near Bab al-Mandeb from Houthis",
-      "category": "国际政治",
-      "score": 73.6,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-05T09:40:37+00:00",
-      "last_updated": "2026-10-05T15:29:04+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "yemeni",
-        "forces",
-        "near",
-        "bab",
-        "strait",
-        "government",
-        "dhubab",
-        "key"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的国际政治事件为“Yemeni forces reclaim Dhubab, key positions near Bab al-Mandeb from Houthis”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Yemeni",
-          "Sanaa",
-          "Houthi",
-          "Bab",
-          "Mandab Strait Yemeni",
-          "Dhubab",
-          "Mandeb",
-          "Houthis"
-        ],
-        "latest_progress": [
-          "10月05日 15:29 UTC，Al Jazeera报道：“Yemeni gov’t forces aim for Sanaa, but Houthi defeat will be a challenge”。",
-          "10月05日 14:37 UTC，BBC World报道：“Yemeni government forces say they have 'secured' Bab al-Mandab Strait”。",
-          "10月05日 09:40 UTC，Al Jazeera报道：“Yemeni forces reclaim Dhubab, key positions near Bab al-Mandeb from Houthis”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_82616b36d8fa474754f2",
-          "url": "https://www.aljazeera.com/news/2026/10/5/yemeni-govt-forces-aim-for-sanaa-but-houthi-defeat-will-be-a-challenge?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/yemeni-govt-forces-aim-for-sanaa-but-houthi-defeat-will-be-a-challenge?traffic_source=rss",
-          "title": "Yemeni gov’t forces aim for Sanaa, but Houthi defeat will be a challenge",
-          "summary": "Yemeni government forces claim strategic advances near Bab al-Mandeb strait amid a major anti-Houthi offensive.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T15:29:04+00:00",
-          "fetched_at": "2026-10-05T16:02:05.304756+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_575e291226a1ab8c2b55",
-          "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_campaign=rss&at_medium=RSS",
-          "title": "Yemeni government forces say they have 'secured' Bab al-Mandab Strait",
-          "summary": "Houthi-run media deny the government has made advances in the Dhubab area, which overlooks the strategic Red Sea waterway.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-05T14:37:17+00:00",
-          "fetched_at": "2026-10-05T16:02:04.693021+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e58c/live/3aa7d380-c0ca-11f1-a5b0-6f550c662e91.jpg"
-        },
-        {
-          "article_id": "art_f0ef4cc54c9eb01e8150",
-          "url": "https://www.aljazeera.com/news/2026/10/5/yemen-forces-claim-to-seize-dhubab-sites-near-bab-al-mandeb-from-houthis?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/yemen-forces-claim-to-seize-dhubab-sites-near-bab-al-mandeb-from-houthis?traffic_source=rss",
-          "title": "Yemeni forces reclaim Dhubab, key positions near Bab al-Mandeb from Houthis",
-          "summary": "Army of internationally recognised gov't claims key gains near strait before Saudi, Pakistani, Turkish officials meet.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T09:40:37+00:00",
-          "fetched_at": "2026-10-05T16:02:05.308405+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6f7d5c8807371f73dc4b",
-      "title": "Nigeria launches rescue after military plane crashes with 32 aboard",
-      "category": "军事安全",
-      "score": 72.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-05T14:05:00+00:00",
-      "last_updated": "2026-10-05T15:30:15+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "military",
-        "nigeria",
-        "aircraft",
-        "crashes",
-        "rescue",
-        "people",
-        "board",
-        "southern"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Nigeria launches rescue after military plane crashes with 32 aboard”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Nigeria",
-          "Military"
-        ],
-        "latest_progress": [
-          "10月05日 15:30 UTC，Al Jazeera报道：“Nigeria launches rescue after military plane crashes with 32 aboard”。",
-          "10月05日 14:05 UTC，DW Top Stories报道：“Military aircraft with 32 people on board crashes in southern Nigeria”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4e414f97b940c76d98e8",
-          "url": "https://www.aljazeera.com/news/2026/10/5/nigeria-launches-rescue-after-military-plane-crashes-with-32-aboard?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/nigeria-launches-rescue-after-military-plane-crashes-with-32-aboard?traffic_source=rss",
-          "title": "Nigeria launches rescue after military plane crashes with 32 aboard",
-          "summary": "Nigeria launches rescue operation after military aircraft carrying 32 people crashes in Ondo state.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T15:30:15+00:00",
-          "fetched_at": "2026-10-05T16:02:05.304572+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6128483c974e539b6012",
-          "url": "https://www.dw.com/en/military-aircraft-with-32-people-on-board-crashes-in-southern-nigeria/a-79552403?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/military-aircraft-with-32-people-on-board-crashes-in-southern-nigeria/a-79552403?maca=en-rss-en-top-1022-rdf",
-          "title": "Military aircraft with 32 people on board crashes in southern Nigeria",
-          "summary": "Rescue teams are searching the crash site after the military aircraft went down in southern Nigeria. The fate of those on board remains unclear.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-05T14:05:00+00:00",
-          "fetched_at": "2026-10-05T16:02:05.031038+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_33d104fe4826fd9873e2",
-      "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
-      "category": "军事安全",
-      "score": 70.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-05T11:09:57+00:00",
-      "last_updated": "2026-10-05T13:16:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "bombers",
-        "raf",
-        "fairford",
-        "base",
-        "video",
-        "watch",
-        "moment",
-        "leave"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“No10 insists UK military base RAF Fairford is safe after US withdraws bombers”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "UK",
-          "RAF",
-          "Fairford",
-          "US",
-          "Video"
-        ],
-        "latest_progress": [
-          "10月05日 13:16 UTC，BBC World报道：“No10 insists UK military base RAF Fairford is safe after US withdraws bombers”。",
-          "10月05日 11:09 UTC，Al Jazeera报道：“Video: Watch the moment US bombers leave UK airbase RAF Fairford”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b588727ff48181023a04",
-          "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_campaign=rss&at_medium=RSS",
-          "title": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
-          "summary": "US media reported a new threat led to the bombers being removed on Sunday, following an incident near the base last week.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-05T13:16:00+00:00",
-          "fetched_at": "2026-10-05T16:02:04.691289+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6efe/live/e16fb630-c0be-11f1-885f-4f9e8c6dce17.jpg"
-        },
-        {
-          "article_id": "art_a4ed87bd25213c00498d",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/us-abruptly-withdraws-bombers-from-uks-raf-fairford?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/us-abruptly-withdraws-bombers-from-uks-raf-fairford?traffic_source=rss",
-          "title": "Video: Watch the moment US bombers leave UK airbase RAF Fairford",
-          "summary": "The US has abruptly withdrawn all of its aircraft from the UK’s RAF Fairford, citing concerns about a potential attack.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T11:09:57+00:00",
-          "fetched_at": "2026-10-05T16:02:05.307444+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
     {
       "event_id": "evt_478a0e21dd64c667d541",
       "title": "Watch: How Spain's housing crisis has resulted in an early general election",
       "category": "国际政治",
-      "score": 69.3,
+      "score": 79.7,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.3,
-        "credibility": 9.8,
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 19.3,
+        "credibility": 9.9,
         "impact": 11.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-05T09:03:30+00:00",
-      "last_updated": "2026-10-05T10:18:47+00:00",
-      "source_count": 2,
-      "article_count": 3,
+      "last_updated": "2026-10-05T19:30:50+00:00",
+      "source_count": 3,
+      "article_count": 4,
       "sources": [
+        "Al Jazeera",
         "BBC World",
         "NPR World"
       ],
       "regions": [
         "Europe",
+        "Middle East",
         "North America"
       ],
       "keywords": [
         "housing",
         "crisis",
-        "early",
-        "measures",
-        "nchez",
-        "spain's",
         "election",
-        "prime"
+        "early",
+        "prime",
+        "minister",
+        "spain",
+        "snap"
       ],
       "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的国际政治事件为“Watch: How Spain's housing crisis has resulted in an early general election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的4篇报道，当前关注的国际政治事件为“Watch: How Spain's housing crisis has resulted in an early general election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Spanish",
-          "PM",
           "Spain",
+          "PM",
           "How Spain"
         ],
         "latest_progress": [
-          "10月05日 10:18 UTC，BBC World报道：“Spanish PM Sánchez calls early election after housing protests”。",
-          "10月05日 09:15 UTC，NPR World报道：“Spain's prime minister calls early elections as pressure mounts over housing crisis”。",
-          "10月05日 09:03 UTC，BBC World报道：“Watch: How Spain's housing crisis has resulted in an early general election”。"
+          "10月05日 19:30 UTC，BBC World报道：“Spain PM pins hopes on housing crisis to help win snap election”。",
+          "10月05日 17:27 UTC，Al Jazeera报道：“Spain calls snap election amid housing crisis”。",
+          "10月05日 09:15 UTC，NPR World报道：“Spain's prime minister calls early elections as pressure mounts over housing crisis”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -370,19 +70,34 @@
       },
       "articles": [
         {
-          "article_id": "art_aa5986a1aecb78a6a9e5",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_campaign=rss&at_medium=RSS",
-          "title": "Spanish PM Sánchez calls early election after housing protests",
-          "summary": "Sánchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
+          "article_id": "art_f6a935d95527c28eeb5c",
+          "url": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_campaign=rss&at_medium=RSS",
+          "title": "Spain PM pins hopes on housing crisis to help win snap election",
+          "summary": "Calling of a snap election was not a knee-jerk reaction from Pedro Sánchez but a carefully thought-out manoeuvre, Guy Hedgecoe reports from Madrid.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-05T10:18:47+00:00",
-          "fetched_at": "2026-10-05T16:02:04.691552+00:00",
+          "published_at": "2026-10-05T19:30:50+00:00",
+          "fetched_at": "2026-10-05T22:38:12.978381+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bee9/live/eb472d40-c0b5-11f1-a64c-550be9e3c66b.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da25/live/2b424680-c0ea-11f1-ac9b-4d871a6ff8ee.jpg"
+        },
+        {
+          "article_id": "art_d7a0048d2d8346b269a9",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/spain-calls-snap-election-amid-housing-crisis?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/spain-calls-snap-election-amid-housing-crisis?traffic_source=rss",
+          "title": "Spain calls snap election amid housing crisis",
+          "summary": "Mounting anger over Spain’s housing crisis have led Prime Minister Sanchez to call an early election on November 29",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T17:27:14+00:00",
+          "fetched_at": "2026-10-05T22:38:13.385573+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         },
         {
           "article_id": "art_d7d92a6d0ab39a4f39d6",
@@ -393,7 +108,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-05T09:15:55+00:00",
-          "fetched_at": "2026-10-05T16:02:05.225148+00:00",
+          "fetched_at": "2026-10-05T22:38:13.305349+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -408,7 +123,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-05T09:03:30+00:00",
-          "fetched_at": "2026-10-05T16:02:04.694586+00:00",
+          "fetched_at": "2026-10-05T22:38:12.980559+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -417,25 +132,26 @@
       ]
     },
     {
-      "event_id": "evt_9107ff4ee6744083bbe3",
-      "title": "Students continue to protest in France as hundreds of schools close",
+      "event_id": "evt_c2d0af985c3d39db6d1e",
+      "title": "Trump says US ready to aid Russia with plague outbreak in Siberia",
       "category": "社会突发",
-      "score": 68.1,
+      "score": 76.9,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 18.9,
+        "recency": 21.0,
         "credibility": 9.8,
         "impact": 11.7,
-        "velocity": 4.5
+        "velocity": 4.7
       },
-      "first_seen": "2026-10-05T05:48:00+00:00",
-      "last_updated": "2026-10-05T12:25:26+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-05T11:58:00+00:00",
+      "last_updated": "2026-10-05T21:33:49+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -443,27 +159,30 @@
         "Middle East"
       ],
       "keywords": [
-        "schools",
-        "hundreds",
-        "hand",
-        "protests",
-        "france",
-        "closed",
-        "monday",
-        "french"
+        "plague",
+        "siberia",
+        "suspected",
+        "pneumonic",
+        "research",
+        "died",
+        "contacts",
+        "russian"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Students continue to protest in France as hundreds of schools close”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“Trump says US ready to aid Russia with plague outbreak in Siberia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Students",
-          "France",
-          "Hundreds",
-          "French"
+          "US",
+          "Russia Trump",
+          "Russia",
+          "Siberia Suspected",
+          "Siberia",
+          "What"
         ],
         "latest_progress": [
-          "10月05日 12:25 UTC，Al Jazeera报道：“Students continue to protest in France as hundreds of schools close”。",
-          "10月05日 05:48 UTC，DW Top Stories报道：“Hundreds of French schools shut, teen loses hand in protests”。"
+          "10月05日 21:33 UTC，BBC World报道：“US 'watching closely' after plague researcher dies in Russia”。",
+          "10月05日 21:03 UTC，Al Jazeera报道：“Trump says US ready to aid Russia with plague outbreak in Siberia”。",
+          "10月05日 11:58 UTC，DW Top Stories报道：“Suspected pneumonic plague in Siberia: What we know about the disease”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -476,30 +195,45 @@
       },
       "articles": [
         {
-          "article_id": "art_5d53bd45f8c5444d95ff",
-          "url": "https://www.aljazeera.com/news/2026/10/5/students-continue-to-protest-in-france-as-hundreds-of-schools-close?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/students-continue-to-protest-in-france-as-hundreds-of-schools-close?traffic_source=rss",
-          "title": "Students continue to protest in France as hundreds of schools close",
-          "summary": "Education Minister Edouard Geffray said on Sunday about 500 schools likely to be fully or partially closed on Monday.",
+          "article_id": "art_8a50d0358a1e40086f62",
+          "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_campaign=rss&at_medium=RSS",
+          "title": "US 'watching closely' after plague researcher dies in Russia",
+          "summary": "Donald Trump says the US was looking \"very strongly\" at the case of a lab technician who died at a research centre in Siberia.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-05T21:33:49+00:00",
+          "fetched_at": "2026-10-05T22:38:12.978537+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bee8/live/9f1fa570-c103-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_b84fc763125e5270b59f",
+          "url": "https://www.aljazeera.com/news/2026/10/5/trump-says-us-ready-to-aid-russia-with-plague-outbreak-in-siberia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/trump-says-us-ready-to-aid-russia-with-plague-outbreak-in-siberia?traffic_source=rss",
+          "title": "Trump says US ready to aid Russia with plague outbreak in Siberia",
+          "summary": "Russian authorities quarantine hospital, monitor 200 contacts after suspected pneumonic plague death in Siberia.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-05T12:25:26+00:00",
-          "fetched_at": "2026-10-05T16:02:05.306856+00:00",
+          "published_at": "2026-10-05T21:03:21+00:00",
+          "fetched_at": "2026-10-05T22:38:13.383127+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_2d0f2a36c0ae9f841c5c",
-          "url": "https://www.dw.com/en/hundreds-of-french-schools-shut-teen-loses-hand-in-protests/a-79542656?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/hundreds-of-french-schools-shut-teen-loses-hand-in-protests/a-79542656?maca=en-rss-en-top-1022-rdf",
-          "title": "Hundreds of French schools shut, teen loses hand in protests",
-          "summary": "The student protests that rocked France last week have prompted authorities to keep up to 500 schools closed on Monday. A teenage boy lost his hand, seemingly while trying to pick up a police tear gas grenade.",
+          "article_id": "art_05266dec47359b0e05bd",
+          "url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-top-1022-rdf",
+          "title": "Suspected pneumonic plague in Siberia: What we know about the disease",
+          "summary": "A worker at a plague research institute in Siberia has died, and nearly 200 of her contacts are under medical observation. Russian authorities deny a link to the bacterial infection. The US is monitoring the situation.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-05T05:48:00+00:00",
-          "fetched_at": "2026-10-05T16:02:05.032996+00:00",
+          "published_at": "2026-10-05T11:58:00+00:00",
+          "fetched_at": "2026-10-05T22:38:13.126297+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -508,21 +242,202 @@
       ]
     },
     {
-      "event_id": "evt_d9d85c5bf4cb3d8ea735",
-      "title": "Growing outrage in Japan after US Marine arrested in woman’s killing",
-      "category": "社会突发",
-      "score": 67.8,
+      "event_id": "evt_efa1556162d1fa2c2064",
+      "title": "Can Yemen retake territory seized by Houthis?",
+      "category": "军事安全",
+      "score": 71.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.2,
+        "recency": 20.4,
         "credibility": 9.8,
-        "impact": 11.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-05T10:53:37+00:00",
-      "last_updated": "2026-10-05T11:25:45+00:00",
+      "first_seen": "2026-10-05T18:36:00+00:00",
+      "last_updated": "2026-10-05T20:52:24+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "yemen",
+        "military",
+        "houthis",
+        "retake",
+        "territory",
+        "launches",
+        "major",
+        "operation"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Can Yemen retake territory seized by Houthis?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Can Yemen",
+          "Houthis",
+          "Yemen"
+        ],
+        "latest_progress": [
+          "10月05日 20:52 UTC，Al Jazeera报道：“Can Yemen retake territory seized by Houthis?”。",
+          "10月05日 18:36 UTC，DW Top Stories报道：“Yemen launches major military operation against Houthis”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_837007a70b11cad8c953",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/5/can-yemen-retake-territory-seized-by-houthis?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/5/can-yemen-retake-territory-seized-by-houthis?traffic_source=rss",
+          "title": "Can Yemen retake territory seized by Houthis?",
+          "summary": "The group has taken control of much of the Red Sea coast.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T20:52:24+00:00",
+          "fetched_at": "2026-10-05T22:38:13.383584+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_72ce61b1a7ec7eab0c95",
+          "url": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-top-1022-rdf",
+          "title": "Yemen launches major military operation against Houthis",
+          "summary": "Yemen's internationally recognized government announced a new military offensive to retake Houthi-held territory after rebels cut a key road linking the city of Taiz with Aden.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-05T18:36:00+00:00",
+          "fetched_at": "2026-10-05T22:38:13.124883+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b7cf70f4256f3c444249",
+      "title": "Ukraine says Russian drone attack sinks ship in Romanian waters",
+      "category": "军事安全",
+      "score": 70.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.8,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T15:49:00+00:00",
+      "last_updated": "2026-10-05T20:03:06+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "ukraine",
+        "ship",
+        "russian",
+        "romanian",
+        "drone",
+        "drones",
+        "behind",
+        "turkish"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Ukraine says Russian drone attack sinks ship in Romanian waters”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Ukraine",
+          "Russian",
+          "Romanian",
+          "Turkish"
+        ],
+        "latest_progress": [
+          "10月05日 20:03 UTC，Al Jazeera报道：“Ukraine says Russian drone attack sinks ship in Romanian waters”。",
+          "10月05日 15:49 UTC，DW Top Stories报道：“Ukraine says Russian drones behind Turkish ship sinking”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7cf4e61bf0b5479c5879",
+          "url": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters?traffic_source=rss",
+          "title": "Ukraine says Russian drone attack sinks ship in Romanian waters",
+          "summary": "The latest suspected incursion on NATO's eastern flank increases fears that the war in Ukraine threatens to spill over.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T20:03:06+00:00",
+          "fetched_at": "2026-10-05T22:38:13.384353+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_18ce4c2b799b50b53e19",
+          "url": "https://www.dw.com/en/ukraine-says-russian-drones-behind-turkish-ship-sinking/a-79552387?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-says-russian-drones-behind-turkish-ship-sinking/a-79552387?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine says Russian drones behind Turkish ship sinking",
+          "summary": "Romanian authorities did not say what caused the fire, but local media reported that the ship was carrying grain and was hit by a drone.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-05T15:49:00+00:00",
+          "fetched_at": "2026-10-05T22:38:13.125390+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a122bb22ecbca7b16288",
+      "title": "Brazil’s presidential race head for a tough runoff",
+      "category": "能源资源",
+      "score": 67.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.0
+      },
+      "first_seen": "2026-10-05T11:07:09+00:00",
+      "last_updated": "2026-10-05T21:00:59+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -534,118 +449,26 @@
         "North America"
       ],
       "keywords": [
-        "marine",
-        "arrested",
-        "japan",
-        "okinawa",
-        "suspected",
-        "woman's",
-        "death",
-        "suspicion"
+        "presidential",
+        "climate",
+        "race",
+        "runoff",
+        "major",
+        "change",
+        "case",
+        "brazil's"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的社会突发事件为“Growing outrage in Japan after US Marine arrested in woman’s killing”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Growing",
-          "Japan",
-          "US",
-          "Marine"
-        ],
-        "latest_progress": [
-          "10月05日 11:25 UTC，Al Jazeera报道：“Growing outrage in Japan after US Marine arrested in woman’s killing”。",
-          "10月05日 10:53 UTC，NPR World报道：“U.S. Marine suspected in woman's death arrested in Japan”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a8417892f536557e801f",
-          "url": "https://www.aljazeera.com/news/2026/10/5/growing-outrage-in-japan-after-us-marine-arrested-in-womans-killing?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/growing-outrage-in-japan-after-us-marine-arrested-in-womans-killing?traffic_source=rss",
-          "title": "Growing outrage in Japan after US Marine arrested in woman’s killing",
-          "summary": "The 20-year-old soldier denies the charge as protests held on Okinawa and in Tokyo.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T11:25:45+00:00",
-          "fetched_at": "2026-10-05T16:02:05.307296+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_fc9247c67a3c6a3db301",
-          "url": "https://www.npr.org/2026/10/05/nx-s1-5990879/u-s-marine-suspected-in-womans-death-arrested-in-japan",
-          "canonical_url": "https://www.npr.org/2026/10/05/nx-s1-5990879/u-s-marine-suspected-in-womans-death-arrested-in-japan",
-          "title": "U.S. Marine suspected in woman's death arrested in Japan",
-          "summary": "A U.S. Marine has been arrested on suspicion of murder in Okinawa, prompting renewed Japanese criticism of the conduct of American military personnel.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-05T10:53:37+00:00",
-          "fetched_at": "2026-10-05T16:02:05.224714+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5a553e074dcdfbae38f2",
-      "title": "Is Iran charging a toll to allow oil traffic through Hormuz?",
-      "category": "能源资源",
-      "score": 67.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.5,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 3.9
-      },
-      "first_seen": "2026-10-05T05:35:00+00:00",
-      "last_updated": "2026-10-05T13:11:42+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "exports",
-        "hormuz",
-        "oil",
-        "levels",
-        "crude",
-        "pre-war",
-        "september",
-        "remain"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Is Iran charging a toll to allow oil traffic through Hormuz?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的能源资源事件为“Brazil’s presidential race head for a tough runoff”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Is Iran",
-          "Hormuz",
-          "Middle East",
-          "Iran"
+          "Brazil",
+          "SCOTUS",
+          "And"
         ],
         "latest_progress": [
-          "10月05日 13:11 UTC，Al Jazeera报道：“Is Iran charging a toll to allow oil traffic through Hormuz?”。",
-          "10月05日 05:35 UTC，DW Top Stories报道：“Middle East oil exports recover to pre-Iran war levels despite Hormuz attacks”。"
+          "10月05日 21:00 UTC，Al Jazeera报道：“Brazil’s presidential race head for a tough runoff”。",
+          "10月05日 11:07 UTC，NPR World报道：“SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
         "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
@@ -658,176 +481,83 @@
       },
       "articles": [
         {
-          "article_id": "art_e047058f4a9bfe0e45d3",
-          "url": "https://www.aljazeera.com/news/2026/10/5/is-iran-charging-a-toll-to-allow-oil-traffic-through-hormuz?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/is-iran-charging-a-toll-to-allow-oil-traffic-through-hormuz?traffic_source=rss",
-          "title": "Is Iran charging a toll to allow oil traffic through Hormuz?",
-          "summary": "Crude exports bypassing Hormuz surged in September, yet oil prices remain high. Could a secret fee be the reason?",
+          "article_id": "art_5a7769eea4da520c78aa",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/brazils-presidential-race-head-for-a-tough-runoff?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/brazils-presidential-race-head-for-a-tough-runoff?traffic_source=rss",
+          "title": "Brazil’s presidential race head for a tough runoff",
+          "summary": "Brazil is heading into a fiercely contested presidential runoff after the first round revealed major gains for Bolsonaro",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-05T13:11:42+00:00",
-          "fetched_at": "2026-10-05T16:02:05.306061+00:00",
+          "published_at": "2026-10-05T21:00:59+00:00",
+          "fetched_at": "2026-10-05T22:38:13.383283+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_ca91eba2b96834f60321",
-          "url": "https://www.dw.com/en/middle-east-oil-exports-recover-to-pre-iran-war-levels-despite-hormuz-attacks/a-79542680?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/middle-east-oil-exports-recover-to-pre-iran-war-levels-despite-hormuz-attacks/a-79542680?maca=en-rss-en-top-1022-rdf",
-          "title": "Middle East oil exports recover to pre-Iran war levels despite Hormuz attacks",
-          "summary": "Gulf crude exports returned to pre-war levels in September, with producers increasingly relying on alternative routes and ship-to-ship transfers to bypass Hormuz. Iranian exports remain below the pre-war average.",
-          "source": "DW Top Stories",
+          "article_id": "art_25e08eafb8a94d1b3664",
+          "url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
+          "canonical_url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
+          "title": "SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff",
+          "summary": "The Supreme Court is set to hear a blockbuster climate change case that could affect more than just climate issues. And, Brazil's presidential race is too close to call.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-05T05:35:00+00:00",
-          "fetched_at": "2026-10-05T16:02:05.033118+00:00",
+          "published_at": "2026-10-05T11:07:09+00:00",
+          "fetched_at": "2026-10-05T22:38:13.304593+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_c29da608a2f121198ba8",
-      "title": "Supporters of jailed ex-PM Imran Khan begin march in Pakistan",
+      "event_id": "evt_95b33428bb57c3d5920c",
+      "title": "What’s next for Bosnia after elections?",
       "category": "国际政治",
       "score": 67.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.3,
+        "recency": 20.5,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 2.8
       },
-      "first_seen": "2026-10-05T10:23:26+00:00",
-      "last_updated": "2026-10-05T11:38:26+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "talks",
-        "khan's",
-        "supporters",
-        "imran",
-        "khan",
-        "march",
-        "pakistan",
-        "between"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“Supporters of jailed ex-PM Imran Khan begin march in Pakistan”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Imran Khan",
-          "Pakistan",
-          "Supporters",
-          "PM"
-        ],
-        "latest_progress": [
-          "10月05日 11:38 UTC，NPR World报道：“Imran Khan supporters march in Pakistan to demand his release after talks failed”。",
-          "10月05日 10:23 UTC，BBC World报道：“Supporters of jailed ex-PM Imran Khan begin march in Pakistan”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_cb899b57616d18bac535",
-          "url": "https://www.npr.org/2026/10/05/g-s1-146408/imran-khan-supporters-march-in-pakistan-to-demand-his-release-after-talks-failed",
-          "canonical_url": "https://www.npr.org/2026/10/05/g-s1-146408/imran-khan-supporters-march-in-pakistan-to-demand-his-release-after-talks-failed",
-          "title": "Imran Khan supporters march in Pakistan to demand his release after talks failed",
-          "summary": "Talks between Khan's party and the government failed two days ago. Besides Khan's release, protesters demand his transfer to a hospital and family visits.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-05T11:38:26+00:00",
-          "fetched_at": "2026-10-05T16:02:05.224228+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_985b0a8828769b434f7b",
-          "url": "https://www.bbc.co.uk/news/articles/cmkg79z04w4zo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmkg79z04w4zo?at_campaign=rss&at_medium=RSS",
-          "title": "Supporters of jailed ex-PM Imran Khan begin march in Pakistan",
-          "summary": "Thousands have taken to the streets after talks between authorities and Khan's party ended in deadlock.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-05T10:23:26+00:00",
-          "fetched_at": "2026-10-05T16:02:04.693317+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eaa/live/091199c0-c06e-11f1-9135-d3a6369912e1.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_aa08996cc0bd99bbb988",
-      "title": "Bolsonaro favourite to win: What Brazil’s first round of elections tells us",
-      "category": "国际政治",
-      "score": 66.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.0,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 3.2
-      },
-      "first_seen": "2026-10-05T03:16:16+00:00",
-      "last_updated": "2026-10-05T12:34:30+00:00",
+      "first_seen": "2026-10-05T10:23:00+00:00",
+      "last_updated": "2026-10-05T20:54:57+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "bolsonaro",
-        "first",
-        "round",
-        "brazil",
+        "bosnia",
+        "parties",
         "election",
-        "vote",
-        "run-off",
-        "october"
+        "nationalist",
+        "elections",
+        "steps",
+        "prevent",
+        "electoral"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Bolsonaro favourite to win: What Brazil’s first round of elections tells us”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“What’s next for Bosnia after elections?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Bolsonaro",
-          "What Brazil",
-          "Right",
-          "Brazil"
+          "What",
+          "Bosnia"
         ],
         "latest_progress": [
-          "10月05日 12:34 UTC，Al Jazeera报道：“Bolsonaro favourite to win: What Brazil’s first round of elections tells us”。",
-          "10月05日 03:16 UTC，BBC World报道：“Right-wing Flávio Bolsonaro wins first round of Brazil election”。"
+          "10月05日 20:54 UTC，Al Jazeera报道：“What’s next for Bosnia after elections?”。",
+          "10月05日 10:23 UTC，DW Top Stories报道：“Bosnia election: New steps to prevent electoral fraud, but nationalist parties remain on top”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -840,124 +570,341 @@
       },
       "articles": [
         {
-          "article_id": "art_63a5fc8a125f8fe80b89",
-          "url": "https://www.aljazeera.com/news/2026/10/5/bolsonaro-favourite-to-win-what-brazils-first-round-of-election-tells-us?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/bolsonaro-favourite-to-win-what-brazils-first-round-of-election-tells-us?traffic_source=rss",
-          "title": "Bolsonaro favourite to win: What Brazil’s first round of elections tells us",
-          "summary": "Analysts say Flavio Bolsonaro is projected to win the run-off vote on October 25 and become Brazil's next president.",
+          "article_id": "art_82644afef5cefa7f532e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/whats-next-for-bosnia-after-elections?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/whats-next-for-bosnia-after-elections?traffic_source=rss",
+          "title": "What’s next for Bosnia after elections?",
+          "summary": "Bosnia and Herzegovina’s election strengthened nationalist parties.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-05T12:34:30+00:00",
-          "fetched_at": "2026-10-05T16:02:05.306385+00:00",
+          "published_at": "2026-10-05T20:54:57+00:00",
+          "fetched_at": "2026-10-05T22:38:13.383435+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_61684489722e66eb8a7c",
-          "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_campaign=rss&at_medium=RSS",
-          "title": "Right-wing Flávio Bolsonaro wins first round of Brazil election",
-          "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
-          "source": "BBC World",
+          "article_id": "art_ed065cc7488a530b291c",
+          "url": "https://www.dw.com/en/bosnia-election-new-steps-to-prevent-electoral-fraud-but-nationalist-parties-remain-on-top/a-79544717?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/bosnia-election-new-steps-to-prevent-electoral-fraud-but-nationalist-parties-remain-on-top/a-79544717?maca=en-rss-en-top-1022-rdf",
+          "title": "Bosnia election: New steps to prevent electoral fraud, but nationalist parties remain on top",
+          "summary": "New technology has stopped votes being cast on behalf of dead or absent voters, and turnout has fallen to a record low. But it was a case of deja vu in Bosnia's elections with the same parties winning.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-05T03:16:16+00:00",
-          "fetched_at": "2026-10-05T16:02:04.692557+00:00",
+          "published_at": "2026-10-05T10:23:00+00:00",
+          "fetched_at": "2026-10-05T22:38:13.126542+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e4ea/live/56a0e6c0-c053-11f1-babe-4199b0e7ccea.png"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_e6e14c4329f51057587f",
-      "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
-      "category": "国际政治",
-      "score": 65.9,
+      "event_id": "evt_1a54f710918c79d1925b",
+      "title": "Turkiye, Pakistan agree Saudi Arabia military deployment under Mecca pact",
+      "category": "军事安全",
+      "score": 65.1,
       "score_breakdown": {
         "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.4,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 3.7
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-05T03:47:00+00:00",
-      "last_updated": "2026-10-05T11:47:36+00:00",
-      "source_count": 2,
+      "first_seen": "2026-10-05T18:32:04+00:00",
+      "last_updated": "2026-10-05T20:17:35+00:00",
+      "source_count": 1,
       "article_count": 2,
       "sources": [
-        "DW Top Stories",
-        "NPR World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "fbi",
-        "woman",
-        "spying",
-        "china",
-        "arrests",
-        "accused",
-        "president's",
-        "son"
+        "turkiye",
+        "pakistan",
+        "agree",
+        "saudi",
+        "arabia",
+        "military",
+        "deployment",
+        "trigger"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的国际政治事件为“FBI arrests a woman accused of spying on Taiwan leader's family for China”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Turkiye, Pakistan agree Saudi Arabia military deployment under Mecca pact”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "FBI",
-          "Taiwan",
-          "China",
-          "US"
+          "Turkiye",
+          "Pakistan",
+          "Saudi Arabia Turkiye",
+          "Saudi Arabia",
+          "Mecca"
         ],
         "latest_progress": [
-          "10月05日 11:47 UTC，NPR World报道：“FBI arrests a woman accused of spying on Taiwan leader's family for China”。",
-          "10月05日 03:47 UTC，DW Top Stories报道：“US: FBI arrests woman accused of spying for China”。"
+          "10月05日 20:17 UTC，Al Jazeera报道：“Turkiye, Pakistan agree to military deployment to Saudi Arabia”。",
+          "10月05日 18:32 UTC，Al Jazeera报道：“Turkiye, Pakistan agree Saudi Arabia military deployment under Mecca pact”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_99dcb925830cefe3ed3c",
-          "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
-          "canonical_url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
-          "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
-          "summary": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
-          "source": "NPR World",
+          "article_id": "art_01a1e97ecea2b8fa75a2",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/turkiye-pakistan-agree-to-military-deployment-to-saudi-arabia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/turkiye-pakistan-agree-to-military-deployment-to-saudi-arabia?traffic_source=rss",
+          "title": "Turkiye, Pakistan agree to military deployment to Saudi Arabia",
+          "summary": "Turkiye, Saudi Arabia and Pakistan have agreed to trigger collective deterrence measures in response to Houthi attacks.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-05T11:47:36+00:00",
-          "fetched_at": "2026-10-05T16:02:05.224068+00:00",
+          "published_at": "2026-10-05T20:17:35+00:00",
+          "fetched_at": "2026-10-05T22:38:13.383913+00:00",
           "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_f296fb6f74500b519f35",
-          "url": "https://www.dw.com/en/us-fbi-arrests-woman-accused-of-spying-for-china/a-79541849?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-fbi-arrests-woman-accused-of-spying-for-china/a-79541849?maca=en-rss-en-top-1022-rdf",
-          "title": "US: FBI arrests woman accused of spying for China",
-          "summary": "A California woman was arrested at Los Angeles International Airport, just before departing for China, with the US officials accusing her of spying on Taiwan's president's son.",
-          "source": "DW Top Stories",
+          "article_id": "art_f8825c6b5059c4462531",
+          "url": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures?traffic_source=rss",
+          "title": "Turkiye, Pakistan agree Saudi Arabia military deployment under Mecca pact",
+          "summary": "The three countries agree to trigger collective deterrence measures in response to 'heinous attacks' by Yemen's Houthis.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-05T03:47:00+00:00",
-          "fetched_at": "2026-10-05T16:02:05.033235+00:00",
+          "published_at": "2026-10-05T18:32:04+00:00",
+          "fetched_at": "2026-10-05T22:38:13.385122+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_45b3573c8a1a105a97ea",
+      "title": "Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war",
+      "category": "军事安全",
+      "score": 60.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.9,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T19:01:32+00:00",
+      "last_updated": "2026-10-05T19:01:32+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "trump",
+        "ukraine",
+        "fuel",
+        "blames",
+        "democrats",
+        "soaring",
+        "prices",
+        "not"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Democrats",
+          "Ukraine",
+          "US",
+          "Iran"
+        ],
+        "latest_progress": [
+          "10月05日 19:01 UTC，Al Jazeera报道：“Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e755e7a6d6a98b5f07c2",
+          "url": "https://www.aljazeera.com/economy/2026/10/5/trump-blames-democrats-and-ukraine-for-soaring-us-fuel-prices-not-iran-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/5/trump-blames-democrats-and-ukraine-for-soaring-us-fuel-prices-not-iran-war?traffic_source=rss",
+          "title": "Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war",
+          "summary": "Trump shifts blame for fuel price hikes to blue states like California and Ukraine strikes on Russian oil refineries.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T19:01:32+00:00",
+          "fetched_at": "2026-10-05T22:38:13.384818+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5b8e1c679f4dcb96cd77",
+      "title": "Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway",
+      "category": "军事安全",
+      "score": 59.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T17:49:59+00:00",
+      "last_updated": "2026-10-05T17:49:59+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "yemeni",
+        "military",
+        "retaken",
+        "mokha",
+        "secured'",
+        "red",
+        "sea",
+        "waterway"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Yemeni",
+          "Mokha",
+          "Red Sea"
+        ],
+        "latest_progress": [
+          "10月05日 17:49 UTC，BBC World报道：“Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_575e291226a1ab8c2b55",
+          "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_campaign=rss&at_medium=RSS",
+          "title": "Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway",
+          "summary": "Saudi-backed forces say they seized the port city of Mocha, near the Bab al-Mandab Strait, at the start of an offensive against the Houthis.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-05T17:49:59+00:00",
+          "fetched_at": "2026-10-05T22:38:12.979634+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e58c/live/3aa7d380-c0ca-11f1-a5b0-6f550c662e91.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3cb832afcc4e39cc664b",
+      "title": "Rubio starts European tour in Iceland to boost security ties",
+      "category": "军事安全",
+      "score": 58.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 17.8,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T17:34:15+00:00",
+      "last_updated": "2026-10-05T17:34:15+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "rubio",
+        "security",
+        "starts",
+        "european",
+        "tour",
+        "iceland",
+        "boost",
+        "ties"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Rubio starts European tour in Iceland to boost security ties”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Rubio",
+          "European",
+          "Iceland"
+        ],
+        "latest_progress": [
+          "10月05日 17:34 UTC，Al Jazeera报道：“Rubio starts European tour in Iceland to boost security ties”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_377e4aaeaa498a34e9df",
+          "url": "https://www.aljazeera.com/news/2026/10/5/rubio-no-direct-link-between-us-bombers-removal-and-uk-base-incident?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/rubio-no-direct-link-between-us-bombers-removal-and-uk-base-incident?traffic_source=rss",
+          "title": "Rubio starts European tour in Iceland to boost security ties",
+          "summary": "Rubio stresses US base security, following the removal of B-1 bombers amid alleged threats targeting UK military assets.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T17:34:15+00:00",
+          "fetched_at": "2026-10-05T22:38:13.385414+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
