@@ -1,67 +1,69 @@
 {
-  "generated_at": "2026-10-05T00:56:16.938799+00:00",
+  "generated_at": "2026-10-05T07:03:35.833669+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
+    "status": "partial",
     "articles_fetched": 78,
     "articles_unique": 78,
-    "errors": []
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
       "event_id": "evt_235665f9bdb6a874a7cb",
       "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
       "category": "国际政治",
-      "score": 88.2,
+      "score": 74.7,
       "score_breakdown": {
-        "coverage": 20.8,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 21.6,
-        "credibility": 9.8,
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.3,
+        "credibility": 9.9,
         "impact": 11.0,
-        "velocity": 3.0
+        "velocity": 1.5
       },
       "first_seen": "2026-10-03T13:52:13+00:00",
-      "last_updated": "2026-10-05T00:27:06+00:00",
-      "source_count": 4,
-      "article_count": 7,
+      "last_updated": "2026-10-05T05:08:23+00:00",
+      "source_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "lula",
-        "bolsonaro",
         "brazil",
+        "bolsonaro",
         "election",
-        "president",
-        "silva",
-        "race",
-        "incumbent"
+        "lula",
+        "vote",
+        "runoff",
+        "run-off",
+        "country"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的国际政治事件为“Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Brazil",
           "Bolsonaro",
+          "Brazil",
           "Lula",
-          "What",
           "Why",
           "US"
         ],
         "latest_progress": [
-          "10月05日 00:27 UTC，BBC World报道：“Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round”。",
-          "10月05日 00:27 UTC，DW Top Stories报道：“Brazil election: Bolsonaro and Lula head to runoff”。",
-          "10月05日 00:17 UTC，NPR World报道：“Brazil's presidential race heads to Lula–Bolsonaro run-off as right gains ground”。"
+          "10月05日 05:08 UTC，Al Jazeera报道：“Bolsonaro beats expectations in Brazil vote, faces Lula in runoff”。",
+          "10月05日 03:16 UTC，BBC World报道：“Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round”。",
+          "10月05日 00:27 UTC，DW Top Stories报道：“Brazil election: Bolsonaro and Lula head to runoff”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -74,6 +76,21 @@
       },
       "articles": [
         {
+          "article_id": "art_82e30247ec21b7ea825b",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/bolsonaro-beats-expectations-in-brazil-vote-faces-lula-in-runoff?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/bolsonaro-beats-expectations-in-brazil-vote-faces-lula-in-runoff?traffic_source=rss",
+          "title": "Bolsonaro beats expectations in Brazil vote, faces Lula in runoff",
+          "summary": "Brazil’s presidential election is heading to a run-off after Bolsonaro and Lula both fell short of the 50% needed to win",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T05:08:23+00:00",
+          "fetched_at": "2026-10-05T07:03:35.028371+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_61684489722e66eb8a7c",
           "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_campaign=rss&at_medium=RSS",
@@ -81,8 +98,8 @@
           "summary": "With neither candidate getting more than 50% of the vote, the election will go to a run-off on 25 October.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-05T00:27:06+00:00",
-          "fetched_at": "2026-10-05T00:56:15.460409+00:00",
+          "published_at": "2026-10-05T03:16:16+00:00",
+          "fetched_at": "2026-10-05T07:03:33.931242+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -97,70 +114,10 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-05T00:27:00+00:00",
-          "fetched_at": "2026-10-05T00:56:15.679703+00:00",
+          "fetched_at": "2026-10-05T07:03:34.603285+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_d63530c1332de789fdb6",
-          "url": "https://www.npr.org/2026/10/04/nx-s1-5981181/brazil-presidential-lula-bolsonaro",
-          "canonical_url": "https://www.npr.org/2026/10/04/nx-s1-5981181/brazil-presidential-lula-bolsonaro",
-          "title": "Brazil's presidential race heads to Lula–Bolsonaro run-off as right gains ground",
-          "summary": "Now there are two: Brazil heads into a runoff after a first round that failed to fully energize voters, setting the stage for a more polarized contest that Washington is watching very closely.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-05T00:17:35+00:00",
-          "fetched_at": "2026-10-05T00:56:15.883927+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3ba93f1fd8b81552b163",
-          "url": "https://www.npr.org/2026/10/04/nx-s1-5981107/brazil-votes-with-lula-facing-bolsonaros-son",
-          "canonical_url": "https://www.npr.org/2026/10/04/nx-s1-5981107/brazil-votes-with-lula-facing-bolsonaros-son",
-          "title": "Brazil votes, with Lula facing Bolsonaro's son",
-          "summary": "In Brazil, President Lula da Silva faces Flávio Bolsonaro, son of the jailed former president, in a tight race. If neither wins more than half the votes they'll face each other again on Oct. 25.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-04T21:52:09+00:00",
-          "fetched_at": "2026-10-05T00:56:15.884447+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e458ae17637104239238",
-          "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_campaign=rss&at_medium=RSS",
-          "title": "What to know about Brazil's election as Lula and Flávio Bolsonaro face off",
-          "summary": "Polls suggest the election will be a closely run contest between the left-wing incumbent and his right-wing rival.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-04T20:14:49+00:00",
-          "fetched_at": "2026-10-05T00:56:15.461379+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70fc/live/b2ed88c0-bd79-11f1-babe-4199b0e7ccea.png"
-        },
-        {
-          "article_id": "art_f5ce208d5e1a239c53e2",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-election-results-live-lula-and-bolsonaro-locked-in-a-tight-race?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-election-results-live-lula-and-bolsonaro-locked-in-a-tight-race?traffic_source=rss",
-          "title": "Brazil election results live: Lula and Bolsonaro locked in a tight race",
-          "summary": "Leftist incumbent Lula is seeking a fourth term in office, facing off against right-wing Senator Flavio Bolsonaro.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T20:00:05+00:00",
-          "fetched_at": "2026-10-05T00:56:16.088352+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         },
         {
@@ -172,7 +129,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-03T13:52:13+00:00",
-          "fetched_at": "2026-10-05T00:56:15.462810+00:00",
+          "fetched_at": "2026-10-05T07:03:33.933016+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -181,25 +138,746 @@
       ]
     },
     {
-      "event_id": "evt_6f172e5934bf8bc12914",
-      "title": "US Marine arrested over murder of woman in Okinawa, Japan",
-      "category": "国际政治",
-      "score": 70.1,
+      "event_id": "evt_e699c6dfad7df3223b37",
+      "title": "Yemen gov’t forces commence major combat operation against Houthis",
+      "category": "军事安全",
+      "score": 72.3,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 14.7,
-        "credibility": 9.7,
+        "recency": 21.3,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T03:11:03+00:00",
+      "last_updated": "2026-10-05T06:18:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "houthis",
+        "yemen",
+        "forces",
+        "major",
+        "operation",
+        "against",
+        "government",
+        "retake"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Yemen gov’t forces commence major combat operation against Houthis”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Yemen",
+          "Houthis Yemen",
+          "Houthis"
+        ],
+        "latest_progress": [
+          "10月05日 06:18 UTC，DW Top Stories报道：“Yemen launches major military operation against Houthis”。",
+          "10月05日 03:11 UTC，Al Jazeera报道：“Yemen gov’t forces commence major combat operation against Houthis”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_72ce61b1a7ec7eab0c95",
+          "url": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-top-1022-rdf",
+          "title": "Yemen launches major military operation against Houthis",
+          "summary": "Yemen's internationally recognized government announced a new military offensive to retake Houthi-held territory after rebels cut a key road linking the city of Taiz with Aden.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-05T06:18:00+00:00",
+          "fetched_at": "2026-10-05T07:03:34.602695+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c52f57368cf43a19a8e7",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/yemen-govt-forces-commence-major-combat-operation-against-houthis?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/yemen-govt-forces-commence-major-combat-operation-against-houthis?traffic_source=rss",
+          "title": "Yemen gov’t forces commence major combat operation against Houthis",
+          "summary": "Yemeni government forces have declared a ‘battle for liberation’ to retake remaining territory held by the Houthis.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T03:11:03+00:00",
+          "fetched_at": "2026-10-05T07:03:35.028989+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_666e3ff7d4f3e93860a2",
+      "title": "Middle East oil exports surpass pre-war levels despite tensions, data shows",
+      "category": "军事安全",
+      "score": 71.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.7,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T05:20:57+00:00",
+      "last_updated": "2026-10-05T05:35:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "exports",
+        "oil",
+        "pre-war",
+        "levels",
+        "hormuz",
+        "middle",
+        "east",
+        "despite"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Middle East oil exports surpass pre-war levels despite tensions, data shows”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Middle East",
+          "Iran",
+          "Hormuz"
+        ],
+        "latest_progress": [
+          "10月05日 05:35 UTC，DW Top Stories报道：“Middle East oil exports recover to pre-Iran war levels despite Hormuz attacks”。",
+          "10月05日 05:20 UTC，Al Jazeera报道：“Middle East oil exports surpass pre-war levels despite tensions, data shows”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ca91eba2b96834f60321",
+          "url": "https://www.dw.com/en/middle-east-oil-exports-recover-to-pre-iran-war-levels-despite-hormuz-attacks/a-79542680?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/middle-east-oil-exports-recover-to-pre-iran-war-levels-despite-hormuz-attacks/a-79542680?maca=en-rss-en-top-1022-rdf",
+          "title": "Middle East oil exports recover to pre-Iran war levels despite Hormuz attacks",
+          "summary": "Gulf crude exports returned to pre-war levels in September, with producers increasingly relying on alternative routes and ship-to-ship transfers to bypass Hormuz. Iranian exports remain below the pre-war average.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-05T05:35:00+00:00",
+          "fetched_at": "2026-10-05T07:03:34.603002+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_beda29121c512ea5f7dd",
+          "url": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss",
+          "title": "Middle East oil exports surpass pre-war levels despite tensions, data shows",
+          "summary": "IRGC commander says oil flows through US-supervised route in Hormuz are ‘negligible’.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T05:20:57+00:00",
+          "fetched_at": "2026-10-05T07:03:35.027977+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_483f1bb6f59699fb380d",
+      "title": "US air force removes all bombers from British military base RAF Fairford",
+      "category": "军事安全",
+      "score": 68.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T01:58:00+00:00",
+      "last_updated": "2026-10-05T04:58:56+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "fairford",
+        "airbase",
+        "bombers",
+        "uk's",
+        "air",
+        "force",
+        "all",
+        "pulls"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“US air force removes all bombers from British military base RAF Fairford”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "US",
+          "British",
+          "RAF",
+          "Fairford",
+          "UK"
+        ],
+        "latest_progress": [
+          "10月05日 04:58 UTC，BBC World报道：“US air force removes all bombers from British military base RAF Fairford”。",
+          "10月05日 01:58 UTC，DW Top Stories报道：“US pulls bombers out of UK's Fairford airbase after arrests”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1a19ef620b46667bbf79",
+          "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_campaign=rss&at_medium=RSS",
+          "title": "US air force removes all bombers from British military base RAF Fairford",
+          "summary": "No reason has been given for the withdrawal, but it follows a major incident last week when police were alerted to \"suspicious vehicles\" near the airbase.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-05T04:58:56+00:00",
+          "fetched_at": "2026-10-05T07:03:33.931085+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f03f/live/de45ba80-c07e-11f1-babe-4199b0e7ccea.jpg"
+        },
+        {
+          "article_id": "art_3fe9e027cf5ae99e0c16",
+          "url": "https://www.dw.com/en/us-pulls-bombers-out-of-uk-s-fairford-airbase-after-arrests/a-79541731?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-pulls-bombers-out-of-uk-s-fairford-airbase-after-arrests/a-79541731?maca=en-rss-en-top-1022-rdf",
+          "title": "US pulls bombers out of UK's Fairford airbase after arrests",
+          "summary": "Following a suspected terrorist plot targeting the UK's Fairford airbase, the US Air Force withdrew all its B-1 planes from the site.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-05T01:58:00+00:00",
+          "fetched_at": "2026-10-05T07:03:34.603193+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e6e14c4329f51057587f",
+      "title": "FBI arrests ‘Chinese foreign agent’ for spying on Taiwan president’s son",
+      "category": "国际政治",
+      "score": 68.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T03:47:00+00:00",
+      "last_updated": "2026-10-05T04:13:20+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "woman",
+        "spying",
+        "son",
+        "fbi",
+        "arrests",
+        "china",
+        "california",
+        "officials"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“FBI arrests ‘Chinese foreign agent’ for spying on Taiwan president’s son”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "FBI",
+          "Chinese",
+          "Taiwan",
+          "US",
+          "China"
+        ],
+        "latest_progress": [
+          "10月05日 04:13 UTC，Al Jazeera报道：“FBI arrests ‘Chinese foreign agent’ for spying on Taiwan president’s son”。",
+          "10月05日 03:47 UTC，DW Top Stories报道：“US: FBI arrests woman accused of spying for China”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e9f4fcf929a3724faf37",
+          "url": "https://www.aljazeera.com/news/2026/10/5/fbi-arrests-chinese-foreign-agent-for-spying-on-taiwan-presidents-son?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/fbi-arrests-chinese-foreign-agent-for-spying-on-taiwan-presidents-son?traffic_source=rss",
+          "title": "FBI arrests ‘Chinese foreign agent’ for spying on Taiwan president’s son",
+          "summary": "A California woman allegedly sent photos and videos of President Lai's son and his family to Chinese officials.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-05T04:13:20+00:00",
+          "fetched_at": "2026-10-05T07:03:35.028481+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f296fb6f74500b519f35",
+          "url": "https://www.dw.com/en/us-fbi-arrests-woman-accused-of-spying-for-china/a-79541849?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-fbi-arrests-woman-accused-of-spying-for-china/a-79541849?maca=en-rss-en-top-1022-rdf",
+          "title": "US: FBI arrests woman accused of spying for China",
+          "summary": "A California woman was arrested at Los Angeles International Airport, just before departing for China, with the US officials accusing her of spying on Taiwan's president's son.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-05T03:47:00+00:00",
+          "fetched_at": "2026-10-05T07:03:34.603105+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_bffb18c0f14588842009",
+      "title": "Watch: How Brazil's dramatic election unfolded",
+      "category": "国际政治",
+      "score": 68.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.1,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 4.3
+      },
+      "first_seen": "2026-10-04T21:53:15+00:00",
+      "last_updated": "2026-10-05T04:51:24+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "brazil's",
+        "election",
+        "could",
+        "china",
+        "presidential",
+        "shift",
+        "ties",
+        "brazil"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“Watch: How Brazil's dramatic election unfolded”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "How Brazil",
+          "Brazil",
+          "China"
+        ],
+        "latest_progress": [
+          "10月05日 04:51 UTC，BBC World报道：“Watch: How Brazil's dramatic election unfolded”。",
+          "10月04日 21:53 UTC，NPR World报道：“Brazil's election could shift its ties with the U.S. and China”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_6959d6e6fabdc71c5997",
+          "url": "https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwp9g54v9xjlo?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: How Brazil's dramatic election unfolded",
+          "summary": "Millions of Brazilians took to the polls on Sunday for the first round of the country's presidential elections.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-05T04:51:24+00:00",
+          "fetched_at": "2026-10-05T07:03:33.931363+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac5f/live/837994b0-c03c-11f1-8a9a-cff8e8e5b3a9.jpg"
+        },
+        {
+          "article_id": "art_953d70e649c81a5d5db4",
+          "url": "https://www.npr.org/2026/10/04/nx-s1-5989593/brazils-election-could-shift-its-ties-with-the-u-s-and-china",
+          "canonical_url": "https://www.npr.org/2026/10/04/nx-s1-5989593/brazils-election-could-shift-its-ties-with-the-u-s-and-china",
+          "title": "Brazil's election could shift its ties with the U.S. and China",
+          "summary": "Brazil is a global supplier of oil, soybeans and critical minerals. Americas Quarterly editor in chief Brian Winter explains how Brazil's presidential election could impact trade with the U.S. and China.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-04T21:53:15+00:00",
+          "fetched_at": "2026-10-05T07:03:34.832907+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_472a17cc808d94bd7b73",
+      "title": "France closes up to 500 schools Monday over student protests",
+      "category": "国际政治",
+      "score": 67.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.9,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-05T04:49:14+00:00",
+      "last_updated": "2026-10-05T05:48:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "schools",
+        "protests",
+        "student",
+        "france",
+        "monday",
+        "closed",
+        "closes",
+        "lessons"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“France closes up to 500 schools Monday over student protests”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Hundreds",
+          "French",
+          "France",
+          "Monday"
+        ],
+        "latest_progress": [
+          "10月05日 05:48 UTC，DW Top Stories报道：“Hundreds of French schools closed amid protests”。",
+          "10月05日 04:49 UTC，BBC World报道：“France closes up to 500 schools Monday over student protests”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e1167719e7408efa602f",
+          "url": "https://www.dw.com/en/hundreds-of-french-schools-closed-amid-protests/a-79542656?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/hundreds-of-french-schools-closed-amid-protests/a-79542656?maca=en-rss-en-top-1022-rdf",
+          "title": "Hundreds of French schools closed amid protests",
+          "summary": "The student protests that rocked France last week have prompted authorities to keep up to 500 schools closed on Monday. More protests are planned for Tuesday.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-05T05:48:00+00:00",
+          "fetched_at": "2026-10-05T07:03:34.602911+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_573a1d7bb7be3156a60e",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o?at_campaign=rss&at_medium=RSS",
+          "title": "France closes up to 500 schools Monday over student protests",
+          "summary": "Lessons will be \"totally or partly suspended\" in some high schools after clashes between riot police and student protesters, France's education minister says.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-05T04:49:14+00:00",
+          "fetched_at": "2026-10-05T07:03:33.931589+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f337/live/a9a0ba20-c022-11f1-ae5f-052d2eebe3b9.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6ea2b665823c514dca1e",
+      "title": "Supporters of jailed ex-PM Imran Khan march to Pakistan capital",
+      "category": "国际政治",
+      "score": 64.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.7
+      },
+      "first_seen": "2026-10-04T18:22:00+00:00",
+      "last_updated": "2026-10-05T05:28:46+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "imran",
+        "khan",
+        "supporters",
+        "pakistan",
+        "demand",
+        "thousands",
+        "deadlock",
+        "ex-pm's"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Supporters of jailed ex-PM Imran Khan march to Pakistan capital”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Supporters",
+          "PM",
+          "Imran Khan",
+          "Pakistan"
+        ],
+        "latest_progress": [
+          "10月05日 05:28 UTC，BBC World报道：“Supporters of jailed ex-PM Imran Khan march to Pakistan capital”。",
+          "10月04日 18:22 UTC，DW Top Stories报道：“Pakistan: Imran Khan supporters demand ex-PM's release”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_985b0a8828769b434f7b",
+          "url": "https://www.bbc.co.uk/news/articles/cmkg79z04w4zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmkg79z04w4zo?at_campaign=rss&at_medium=RSS",
+          "title": "Supporters of jailed ex-PM Imran Khan march to Pakistan capital",
+          "summary": "Thousands have taken to the streets after talks between authorities and Khan's party ended in deadlock.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-05T05:28:46+00:00",
+          "fetched_at": "2026-10-05T07:03:33.931799+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3eaa/live/091199c0-c06e-11f1-9135-d3a6369912e1.jpg"
+        },
+        {
+          "article_id": "art_73e81e5162c5b3481ad5",
+          "url": "https://www.dw.com/en/pakistan-imran-khan-supporters-demand-ex-pm-s-release/a-79539221?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/pakistan-imran-khan-supporters-demand-ex-pm-s-release/a-79539221?maca=en-rss-en-top-1022-rdf",
+          "title": "Pakistan: Imran Khan supporters demand ex-PM's release",
+          "summary": "Thousands of Imran Khan supporters have begun a trek to Islamabad to demand he be freed as Pakistan's political leadership remains in deadlock. The government has set up roadblocks to keep protesters at bay.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-04T18:22:00+00:00",
+          "fetched_at": "2026-10-05T07:03:34.603450+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b88252dc76632b0d2dfd",
+      "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+      "category": "国际政治",
+      "score": 63.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 1.1
+      },
+      "first_seen": "2026-10-04T03:48:00+00:00",
+      "last_updated": "2026-10-05T06:17:13+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "forces",
+        "ethiopian",
+        "rebel",
+        "tigray",
+        "government",
+        "against",
+        "northern",
+        "group"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Ethiopian rebel forces withdraw from Tigray regional capital”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Ethiopian",
+          "Tigray",
+          "In Tigray"
+        ],
+        "latest_progress": [
+          "10月05日 06:17 UTC，BBC World报道：“Ethiopian rebel forces withdraw from Tigray regional capital”。",
+          "10月04日 03:48 UTC，DW Top Stories报道：“In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4708e277b828ab8f37e6",
+          "url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqm249v07j4xo?at_campaign=rss&at_medium=RSS",
+          "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+          "summary": "Two residents in Mekelle tell the BBC pro-government forces have taken control of the city.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-05T06:17:13+00:00",
+          "fetched_at": "2026-10-05T07:03:33.932240+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/965b/live/ca8ca230-bfeb-11f1-8c3e-3b2eab095459.jpg"
+        },
+        {
+          "article_id": "art_be9c941bde26e49347a1",
+          "url": "https://www.dw.com/en/in-tigray-ethiopian-government-forces-have-advanced-against-a-northern-rebel-group-reports-indicate/a-79534372?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/in-tigray-ethiopian-government-forces-have-advanced-against-a-northern-rebel-group-reports-indicate/a-79534372?maca=en-rss-en-top-1022-rdf",
+          "title": "In Tigray, Ethiopian government forces have advanced against a northern rebel group, reports indicate",
+          "summary": "Reports indicate Ethiopian government forces have made advances against a northern rebel group. Renewed fighting has raised fears the conflict could spill over into the wider region.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-04T03:48:00+00:00",
+          "fetched_at": "2026-10-05T07:03:34.604194+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6f172e5934bf8bc12914",
+      "title": "U.S. Marine arrested for alleged murder of a woman in Okinawa, Japan",
+      "category": "国际政治",
+      "score": 60.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 11.4,
+        "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-04T11:15:00+00:00",
       "last_updated": "2026-10-04T15:15:09+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
@@ -218,18 +896,16 @@
         "japanese"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“US Marine arrested over murder of woman in Okinawa, Japan”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的国际政治事件为“U.S. Marine arrested for alleged murder of a woman in Okinawa, Japan”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Marine",
           "Okinawa",
-          "Japan",
-          "US",
-          "Japan Japan"
+          "Japan Japan",
+          "US"
         ],
         "latest_progress": [
           "10月04日 15:15 UTC，NPR World报道：“U.S. Marine arrested for alleged murder of a woman in Okinawa, Japan”。",
-          "10月04日 14:36 UTC，BBC World报道：“US Marine arrested over murder of woman in Okinawa, Japan”。",
           "10月04日 11:15 UTC，DW Top Stories报道：“Japan: US Marine arrested in Okinawa on suspicion of murder”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
@@ -251,26 +927,11 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-04T15:15:09+00:00",
-          "fetched_at": "2026-10-05T00:56:15.884598+00:00",
+          "fetched_at": "2026-10-05T07:03:34.833147+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_61989e590066e463c863",
-          "url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cme3xw4yy28do?at_campaign=rss&at_medium=RSS",
-          "title": "US Marine arrested over murder of woman in Okinawa, Japan",
-          "summary": "Japan's government lodged a formal protest with the US, demanding that military officials take action.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-04T14:36:57+00:00",
-          "fetched_at": "2026-10-05T00:56:15.461070+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7389/live/cde58c00-bffd-11f1-a6d2-b3be352f49ed.jpg"
         },
         {
           "article_id": "art_e7f2e9c8eca6f4de840e",
@@ -281,677 +942,10 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-04T11:15:00+00:00",
-          "fetched_at": "2026-10-05T00:56:15.680700+00:00",
+          "fetched_at": "2026-10-05T07:03:34.603857+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6ea2b665823c514dca1e",
-      "title": "Pro-Imran Khan mass rally launched after Pakistan government talks fail",
-      "category": "国际政治",
-      "score": 69.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.8,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T18:22:00+00:00",
-      "last_updated": "2026-10-04T19:53:55+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "khan",
-        "imran",
-        "supporters",
-        "islamabad",
-        "pakistan",
-        "demand",
-        "release",
-        "government"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Pro-Imran Khan mass rally launched after Pakistan government talks fail”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Imran Khan",
-          "Islamabad",
-          "Pro",
-          "Pakistan",
-          "PM"
-        ],
-        "latest_progress": [
-          "10月04日 19:53 UTC，Al Jazeera报道：“Imran Khan’s party launches march to Islamabad demanding his release”。",
-          "10月04日 19:20 UTC，Al Jazeera报道：“Pro-Imran Khan mass rally launched after Pakistan government talks fail”。",
-          "10月04日 18:22 UTC，DW Top Stories报道：“Pakistan: Imran Khan supporters demand ex-PM's release”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_eed0e9ff94f299081841",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/imran-khans-party-launches-march-to-islamabad-demanding-his-release?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/imran-khans-party-launches-march-to-islamabad-demanding-his-release?traffic_source=rss",
-          "title": "Imran Khan’s party launches march to Islamabad demanding his release",
-          "summary": "Supporters of jailed former Pakistani prime minister Imran Khan have launched a long march towards Islamabad.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T19:53:55+00:00",
-          "fetched_at": "2026-10-05T00:56:16.088546+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_018bdb9b9aa5578c1d93",
-          "url": "https://www.aljazeera.com/news/2026/10/4/pro-imran-khan-mass-rally-launched-after-pakistan-government-talks-fail?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/pro-imran-khan-mass-rally-launched-after-pakistan-government-talks-fail?traffic_source=rss",
-          "title": "Pro-Imran Khan mass rally launched after Pakistan government talks fail",
-          "summary": "Supporters of jailed former prime minister have set off from northwest Pakistan towards Islamabad.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T19:20:08+00:00",
-          "fetched_at": "2026-10-05T00:56:16.089048+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_73e81e5162c5b3481ad5",
-          "url": "https://www.dw.com/en/pakistan-imran-khan-supporters-demand-ex-pm-s-release/a-79539221?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/pakistan-imran-khan-supporters-demand-ex-pm-s-release/a-79539221?maca=en-rss-en-top-1022-rdf",
-          "title": "Pakistan: Imran Khan supporters demand ex-PM's release",
-          "summary": "Thousands of Imran Khan supporters have begun a trek to Islamabad to demand he be freed as Pakistan's political leadership remains in deadlock. The government has set up roadblocks to keep protesters at bay.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-04T18:22:00+00:00",
-          "fetched_at": "2026-10-05T00:56:15.680026+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_301605202fd263768424",
-      "title": "Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war",
-      "category": "军事安全",
-      "score": 66.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 15.6,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T14:24:00+00:00",
-      "last_updated": "2026-10-04T16:38:45+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "merz",
-        "kyiv",
-        "chancellor",
-        "putin",
-        "end",
-        "war",
-        "announced",
-        "aid"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Germany",
-          "Merz",
-          "Kyiv",
-          "Putin",
-          "Russia"
-        ],
-        "latest_progress": [
-          "10月04日 16:38 UTC，Al Jazeera报道：“Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war”。",
-          "10月04日 14:24 UTC，DW Top Stories报道：“Germany's Merz visits Kyiv as Russia strikes bridge”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_737229af507d5702302c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/germany-merz-visits-kyiv-air-raids-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/germany-merz-visits-kyiv-air-raids-ukraine?traffic_source=rss",
-          "title": "Germany’s Merz in Kyiv announces $1.5B in aid, urges Putin to end war",
-          "summary": "German Chancellor Friedrich Merz, on a surprise visit to Kyiv, announced $1.5 billion in military and reconstruction aid",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T16:38:45+00:00",
-          "fetched_at": "2026-10-05T00:56:16.089952+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_55afbc0e036072997b0b",
-          "url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany's Merz visits Kyiv as Russia strikes bridge",
-          "summary": "As air raid sirens sounded in Kyiv, Chancellor Merz called on President Putin to end his \"senseless war\" and announced new measures to support Ukraine, including plans for joint Ukrainian-German drone production.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-04T14:24:00+00:00",
-          "fetched_at": "2026-10-05T00:56:15.680301+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e945d71901dea959b957",
-      "title": "Australia investigating Flydubai co-pilot's links to country",
-      "category": "军事安全",
-      "score": 65.2,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.4,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 2.6
-      },
-      "first_seen": "2026-10-04T06:19:17+00:00",
-      "last_updated": "2026-10-04T17:53:34+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "flydubai",
-        "police",
-        "australia",
-        "investigating",
-        "co-pilot",
-        "co-pilot's",
-        "links",
-        "country"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Australia investigating Flydubai co-pilot's links to country”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Police",
-          "Flydubai",
-          "Australia"
-        ],
-        "latest_progress": [
-          "10月04日 17:53 UTC，Al Jazeera报道：“Police investigating Flydubai co-pilot’s Australia ties”。",
-          "10月04日 06:19 UTC，BBC World报道：“Australia investigating Flydubai co-pilot's links to country”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5e50dfe1ef477a4240be",
-          "url": "https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties?traffic_source=rss",
-          "title": "Police investigating Flydubai co-pilot’s Australia ties",
-          "summary": "Australian police and intelligence join the list of those probing the incident.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T17:53:34+00:00",
-          "fetched_at": "2026-10-05T00:56:16.089493+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9cb46d2de4f102416c19",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_campaign=rss&at_medium=RSS",
-          "title": "Australia investigating Flydubai co-pilot's links to country",
-          "summary": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-04T06:19:17+00:00",
-          "fetched_at": "2026-10-05T00:56:15.461227+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_073c78a86bf85254c7f3",
-      "title": "Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks",
-      "category": "军事安全",
-      "score": 62.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-05T00:00:00+00:00",
-      "last_updated": "2026-10-05T00:00:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "iran",
-        "ready",
-        "attacks",
-        "war",
-        "yemen",
-        "fighting",
-        "intensifies",
-        "tehran"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Iran",
-          "Yemen",
-          "Tehran",
-          "US"
-        ],
-        "latest_progress": [
-          "10月05日 00:00 UTC，Al Jazeera报道：“Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_cc72d0b636657e98dd74",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war?traffic_source=rss",
-          "title": "Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks",
-          "summary": "Yemeni government announces major offensive against Houthis, as Iran says it is ready to defend itself if US attacks.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T00:00:00+00:00",
-          "fetched_at": "2026-10-05T00:56:16.086179+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_8cf8865df913b078ad20",
-      "title": "Indian police accused of sexually harassing journalists at protest",
-      "category": "社会突发",
-      "score": 61.7,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.8,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 3.7
-      },
-      "first_seen": "2026-10-04T08:53:00+00:00",
-      "last_updated": "2026-10-04T17:01:19+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "police",
-        "allegations",
-        "officers",
-        "protest",
-        "journalists",
-        "sexually",
-        "demanding",
-        "resignation"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Indian police accused of sexually harassing journalists at protest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Indian",
-          "India",
-          "Police",
-          "Delhi"
-        ],
-        "latest_progress": [
-          "10月04日 17:01 UTC，BBC World报道：“Indian police accused of sexually harassing journalists at protest”。",
-          "10月04日 08:53 UTC，DW Top Stories报道：“India news: Police order probe amid sexual harassment allegations against officers at Delhi protest”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6469e82cbb4213d508c4",
-          "url": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c9e8lvm6nrr3o?at_campaign=rss&at_medium=RSS",
-          "title": "Indian police accused of sexually harassing journalists at protest",
-          "summary": "The allegations were made after police detained dozens of protesters demanding the resignation of the election chief over changes to voter rolls.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-04T17:01:19+00:00",
-          "fetched_at": "2026-10-05T00:56:15.460892+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d2fb/live/20fd0ca0-bffa-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_f0d3da2e5a443c9241f1",
-          "url": "https://www.dw.com/en/india-news-police-order-probe-amid-sexual-harassment-allegations-against-officers-at-delhi-protest/live-79527537?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/india-news-police-order-probe-amid-sexual-harassment-allegations-against-officers-at-delhi-protest/live-79527537?maca=en-rss-en-top-1022-rdf",
-          "title": "India news: Police order probe amid sexual harassment allegations against officers at Delhi protest",
-          "summary": "Three women journalists say police officers sexually harassed them as they covered protests demanding the resignation of India's election chief. Meanwhile, LGBTQIA influencer Mad Sandhu was shot dead in Amritsar.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-04T08:53:00+00:00",
-          "fetched_at": "2026-10-05T00:56:15.680825+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d4b7504c78f232459eff",
-      "title": "Manchester City must be relegated, says Canada’s ex-Leeds manager",
-      "category": "经济金融",
-      "score": 60.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.6,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T23:22:02+00:00",
-      "last_updated": "2026-10-04T23:22:02+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "must",
-        "manchester",
-        "city",
-        "relegated",
-        "canada",
-        "ex-leeds",
-        "manager",
-        "jesse"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的经济金融事件为“Manchester City must be relegated, says Canada’s ex-Leeds manager”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Manchester City",
-          "Canada",
-          "Leeds"
-        ],
-        "latest_progress": [
-          "10月04日 23:22 UTC，Al Jazeera报道：“Manchester City must be relegated, says Canada’s ex-Leeds manager”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_511361a9f26fe4c28006",
-          "url": "https://www.aljazeera.com/sports/2026/10/4/manchester-city-must-be-relegated-says-canadas-ex-leeds-manager?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/4/manchester-city-must-be-relegated-says-canadas-ex-leeds-manager?traffic_source=rss",
-          "title": "Manchester City must be relegated, says Canada’s ex-Leeds manager",
-          "summary": "Jesse Marsch alleges Man City's financial wrongdoing was widely known in the Premier League, and relegation must follow.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T23:22:02+00:00",
-          "fetched_at": "2026-10-05T00:56:16.086553+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0e2245919f04be6e4194",
-      "title": "Mysterious luminous object burns in the skies above Libya",
-      "category": "社会突发",
-      "score": 60.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.2,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T22:56:32+00:00",
-      "last_updated": "2026-10-04T22:56:32+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "mysterious",
-        "object",
-        "libya",
-        "luminous",
-        "burns",
-        "skies",
-        "above",
-        "filmed"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Mysterious luminous object burns in the skies above Libya”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Mysterious",
-          "Libya"
-        ],
-        "latest_progress": [
-          "10月04日 22:56 UTC，Al Jazeera报道：“Mysterious luminous object burns in the skies above Libya”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e4b074693451014777a2",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/mysterious-luminous-object-burns-in-the-skies-above-libya?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/mysterious-luminous-object-burns-in-the-skies-above-libya?traffic_source=rss",
-          "title": "Mysterious luminous object burns in the skies above Libya",
-          "summary": "A mysterious object has been filmed flying over Tripoli and western Libya, followed by reports of a loud explosion.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T22:56:32+00:00",
-          "fetched_at": "2026-10-05T00:56:16.086875+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1c407fa4560f43538d42",
-      "title": "Nicaragua says it will withdraw from Central American Parliament",
-      "category": "国际政治",
-      "score": 59.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.0,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-04T22:36:54+00:00",
-      "last_updated": "2026-10-04T22:36:54+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "nicaragua",
-        "withdraw",
-        "central",
-        "american",
-        "parliament",
-        "country's",
-        "crackdown",
-        "human"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Nicaragua says it will withdraw from Central American Parliament”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Nicaragua",
-          "Central American Parliament"
-        ],
-        "latest_progress": [
-          "10月04日 22:36 UTC，Al Jazeera报道：“Nicaragua says it will withdraw from Central American Parliament”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a8737cc02251945c08f8",
-          "url": "https://www.aljazeera.com/news/2026/10/4/nicaragua-says-it-will-withdraw-from-central-american-parliament?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/4/nicaragua-says-it-will-withdraw-from-central-american-parliament?traffic_source=rss",
-          "title": "Nicaragua says it will withdraw from Central American Parliament",
-          "summary": "The country's crackdown on human rights has left it increasingly isolated in Latin America.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-04T22:36:54+00:00",
-          "fetched_at": "2026-10-05T00:56:16.087220+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
