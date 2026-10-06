@@ -1,31 +1,36 @@
 {
-  "generated_at": "2026-10-06T02:58:56.088763+00:00",
+  "generated_at": "2026-10-06T10:18:34.553562+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 79,
-    "articles_unique": 79,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 130,
+    "articles_unique": 130,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_c2d0af985c3d39db6d1e",
-      "title": "Trump says US ready to aid Russia with plague outbreak in Siberia",
-      "category": "社会突发",
-      "score": 73.5,
+      "event_id": "evt_dd02acfbda609869b210",
+      "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+      "category": "国际政治",
+      "score": 78.7,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 17.6,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 4.7
+        "recency": 20.9,
+        "credibility": 9.9,
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-05T11:58:00+00:00",
-      "last_updated": "2026-10-05T21:33:49+00:00",
+      "first_seen": "2026-10-06T03:11:44+00:00",
+      "last_updated": "2026-10-06T09:01:51+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -36,30 +41,236 @@
         "Middle East"
       ],
       "keywords": [
-        "plague",
-        "siberia",
-        "suspected",
-        "pneumonic",
-        "research",
-        "died",
-        "contacts",
-        "russian"
+        "independence",
+        "referendum",
+        "quebec",
+        "election",
+        "canada",
+        "parti",
+        "quebecois",
+        "party"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“Trump says US ready to aid Russia with plague outbreak in Siberia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Separatist party projected to win Quebec election, adding new test to Canada's unity”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "US",
-          "Russia Trump",
-          "Russia",
-          "Siberia Suspected",
-          "Siberia",
-          "What"
+          "Separatist",
+          "Quebec",
+          "Canada",
+          "Secessionist"
         ],
         "latest_progress": [
-          "10月05日 21:33 UTC，BBC World报道：“US 'watching closely' after plague researcher dies in Russia”。",
-          "10月05日 21:03 UTC，Al Jazeera报道：“Trump says US ready to aid Russia with plague outbreak in Siberia”。",
-          "10月05日 11:58 UTC，DW Top Stories报道：“Suspected pneumonic plague in Siberia: What we know about the disease”。"
+          "10月06日 09:01 UTC，BBC World报道：“Separatist party projected to win Quebec election, adding new test to Canada's unity”。",
+          "10月06日 06:57 UTC，DW Top Stories报道：“Canada: Quebec separatists return to power, promise new independence referendum”。",
+          "10月06日 04:34 UTC，Al Jazeera报道：“Quebec separatists win election reviving push for independence”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_8321d72eecb7de19f74a",
+          "url": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_campaign=rss&at_medium=RSS",
+          "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+          "summary": "The Parti Québécois, which secured a minority, has vowed to hold an independence referendum in the years to come.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-06T09:01:51+00:00",
+          "fetched_at": "2026-10-06T10:18:32.650836+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eab2/live/ebf36a30-c162-11f1-babe-4199b0e7ccea.jpg"
+        },
+        {
+          "article_id": "art_af29ae98793dec5290ef",
+          "url": "https://www.dw.com/en/canada-quebec-separatists-return-to-power-promise-new-independence-referendum/a-79558642?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/canada-quebec-separatists-return-to-power-promise-new-independence-referendum/a-79558642?maca=en-rss-en-top-1022-rdf",
+          "title": "Canada: Quebec separatists return to power, promise new independence referendum",
+          "summary": "Parti Quebecois has won the provincial election, but fallen short of a majority. Leader Paul St-Pierre Plamondon says he will seek another referendum on independence, but not while US President Donald Trump is in office.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-06T06:57:00+00:00",
+          "fetched_at": "2026-10-06T10:18:32.832181+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2b6d6e340d035a34ce8f",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/quebec-separatists-win-election-reviving-push-for-independence?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/quebec-separatists-win-election-reviving-push-for-independence?traffic_source=rss",
+          "title": "Quebec separatists win election reviving push for independence",
+          "summary": "Parti Quebecois leader Paul St-Pierre Plamondon vows a future referendum on independence from Canada.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-06T04:34:16+00:00",
+          "fetched_at": "2026-10-06T10:18:33.295482+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f70cf6a3a97d0d5ba94c",
+          "url": "https://www.aljazeera.com/news/2026/10/6/secessionist-parti-quebecois-wins-quebec-election-in-canada?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/6/secessionist-parti-quebecois-wins-quebec-election-in-canada?traffic_source=rss",
+          "title": "Secessionist party wins Quebec election in Canada",
+          "summary": "Parti Quebecois returns to power, promising a third referendum on Quebec's independence from Canada.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-06T03:11:44+00:00",
+          "fetched_at": "2026-10-06T10:18:33.295774+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_dbd1bb9e4bd9a3d05cfc",
+      "title": "Children brave snipers and mortars to go to school near Yemen front line",
+      "category": "军事安全",
+      "score": 71.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-06T07:23:24+00:00",
+      "last_updated": "2026-10-06T08:42:10+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "children",
+        "yemen",
+        "brave",
+        "snipers",
+        "mortars",
+        "school",
+        "near",
+        "front"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Children brave snipers and mortars to go to school near Yemen front line”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Yemen",
+          "Children"
+        ],
+        "latest_progress": [
+          "10月06日 08:42 UTC，Al Jazeera报道：“How hunger is devastating Yemen’s children”。",
+          "10月06日 07:23 UTC，BBC World报道：“Children brave snipers and mortars to go to school near Yemen front line”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_87f2aabece0764d6395d",
+          "url": "https://www.aljazeera.com/news/2026/10/6/malnutrition-among-yemens-children?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/6/malnutrition-among-yemens-children?traffic_source=rss",
+          "title": "How hunger is devastating Yemen’s children",
+          "summary": "Al Jazeera travels to Yemen's displacement camps to measure the toll of malnutrition on the country's children.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-06T08:42:10+00:00",
+          "fetched_at": "2026-10-06T10:18:33.293354+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_065ed5aaf5a1f4801241",
+          "url": "https://www.bbc.co.uk/news/articles/c670pzpv9gk4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c670pzpv9gk4o?at_campaign=rss&at_medium=RSS",
+          "title": "Children brave snipers and mortars to go to school near Yemen front line",
+          "summary": "In rare access to Taiz, the BBC World Service speaks to children, teachers and families affected by the war.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-06T07:23:24+00:00",
+          "fetched_at": "2026-10-06T10:18:32.652216+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/194d/live/f95e6680-c0d0-11f1-a64c-550be9e3c66b.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_edb6b6d83f76cb95c727",
+      "title": "Kenya ministry of health confirms first imported Ebola case",
+      "category": "社会突发",
+      "score": 71.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-06T09:26:11+00:00",
+      "last_updated": "2026-10-06T09:51:44+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "kenya",
+        "first",
+        "ebola",
+        "confirms",
+        "imported",
+        "case",
+        "death",
+        "outbreak"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Kenya ministry of health confirms first imported Ebola case”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Kenya",
+          "Ebola"
+        ],
+        "latest_progress": [
+          "10月06日 09:51 UTC，Al Jazeera报道：“Kenya ministry of health confirms first imported Ebola case”。",
+          "10月06日 09:26 UTC，BBC World报道：“Kenya confirms its first Ebola death as outbreak spreads”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -72,99 +283,86 @@
       },
       "articles": [
         {
-          "article_id": "art_8a50d0358a1e40086f62",
-          "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_campaign=rss&at_medium=RSS",
-          "title": "US 'watching closely' after plague researcher dies in Russia",
-          "summary": "Donald Trump says the US was looking \"very strongly\" at the case of a lab technician who died at a research centre in Siberia.",
+          "article_id": "art_78ad8ec3d275b2fcf092",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/kenya-ministry-of-health-confirms-first-imported-ebola-case?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/kenya-ministry-of-health-confirms-first-imported-ebola-case?traffic_source=rss",
+          "title": "Kenya ministry of health confirms first imported Ebola case",
+          "summary": "The first imported case of Ebola has been recorded in Kenya.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-06T09:51:44+00:00",
+          "fetched_at": "2026-10-06T10:18:33.292202+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e59ffe4e4a68b0be6494",
+          "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_campaign=rss&at_medium=RSS",
+          "title": "Kenya confirms its first Ebola death as outbreak spreads",
+          "summary": "The patient had been living in DR Congo, where more than 4,000 people have died from the disease this year.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-05T21:33:49+00:00",
-          "fetched_at": "2026-10-06T02:58:54.416187+00:00",
+          "published_at": "2026-10-06T09:26:11+00:00",
+          "fetched_at": "2026-10-06T10:18:32.650540+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bee8/live/9f1fa570-c103-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_b84fc763125e5270b59f",
-          "url": "https://www.aljazeera.com/news/2026/10/5/trump-says-us-ready-to-aid-russia-with-plague-outbreak-in-siberia?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/trump-says-us-ready-to-aid-russia-with-plague-outbreak-in-siberia?traffic_source=rss",
-          "title": "Trump says US ready to aid Russia with plague outbreak in Siberia",
-          "summary": "Russian authorities quarantine hospital, monitor 200 contacts after suspected pneumonic plague death in Siberia.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T21:03:21+00:00",
-          "fetched_at": "2026-10-06T02:58:55.287893+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_05266dec47359b0e05bd",
-          "url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-top-1022-rdf",
-          "title": "Suspected pneumonic plague in Siberia: What we know about the disease",
-          "summary": "A worker at a plague research institute in Siberia has died, and nearly 200 of her contacts are under medical observation. Russian authorities deny a link to the bacterial infection. The US is monitoring the situation.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-05T11:58:00+00:00",
-          "fetched_at": "2026-10-06T02:58:55.006648+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/535c/live/9ad923b0-c167-11f1-bc2e-018d645d8d21.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_efa1556162d1fa2c2064",
-      "title": "Can Yemen retake territory seized by Houthis?",
+      "event_id": "evt_1a9e882094e14f008b48",
+      "title": "Fort Hood shooter to be executed by firing squad - a first for US military since World War Two",
       "category": "军事安全",
-      "score": 68.0,
+      "score": 70.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.1,
-        "credibility": 9.8,
+        "recency": 19.5,
+        "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-05T18:36:00+00:00",
-      "last_updated": "2026-10-05T20:52:24+00:00",
+      "first_seen": "2026-10-06T02:22:24+00:00",
+      "last_updated": "2026-10-06T07:23:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "yemen",
+        "fort",
+        "hood",
+        "nidal",
+        "hasan",
+        "firing",
+        "squad",
         "military",
-        "houthis",
-        "retake",
-        "territory",
-        "group",
-        "launches",
-        "major"
+        "execution"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Can Yemen retake territory seized by Houthis?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Fort Hood shooter to be executed by firing squad - a first for US military since World War Two”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Can Yemen",
-          "Houthis",
-          "Yemen"
+          "Trump",
+          "Fort Hood",
+          "Nidal Hasan Fort Hood",
+          "US",
+          "World War Two"
         ],
         "latest_progress": [
-          "10月05日 20:52 UTC，Al Jazeera报道：“Can Yemen retake territory seized by Houthis?”。",
-          "10月05日 18:36 UTC，DW Top Stories报道：“Yemen launches major military operation against Houthis”。"
+          "10月06日 07:23 UTC，Al Jazeera报道：“Trump approves firing squad execution for Fort Hood attacker Nidal Hasan”。",
+          "10月06日 02:22 UTC，BBC World报道：“Fort Hood shooter to be executed by firing squad - a first for US military since World War Two”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -177,146 +375,55 @@
       },
       "articles": [
         {
-          "article_id": "art_837007a70b11cad8c953",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/10/5/can-yemen-retake-territory-seized-by-houthis?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/5/can-yemen-retake-territory-seized-by-houthis?traffic_source=rss",
-          "title": "Can Yemen retake territory seized by Houthis?",
-          "summary": "The group has taken control of much of the Red Sea coast.",
+          "article_id": "art_e14a3a66dfbe7ccda930",
+          "url": "https://www.aljazeera.com/news/2026/10/6/trump-approves-firing-squad-execution-for-fort-hood-attacker-nidal-hasan?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/6/trump-approves-firing-squad-execution-for-fort-hood-attacker-nidal-hasan?traffic_source=rss",
+          "title": "Trump approves firing squad execution for Fort Hood attacker Nidal Hasan",
+          "summary": "Pentagon confirms execution order for Nidal Hasan, convicted of killing 13 in Fort Hood shooting in 2009.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-05T20:52:24+00:00",
-          "fetched_at": "2026-10-06T02:58:55.288326+00:00",
+          "published_at": "2026-10-06T07:23:00+00:00",
+          "fetched_at": "2026-10-06T10:18:33.294126+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_72ce61b1a7ec7eab0c95",
-          "url": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-top-1022-rdf",
-          "title": "Yemen launches major military operation against Houthis",
-          "summary": "Yemen's internationally recognized government has launched a new military offensive to retake Houthi-held territory, as the Iran-backed rebel group claims new attacks in Saudi Arabia.",
-          "source": "DW Top Stories",
+          "article_id": "art_245d0c11388df66f06d4",
+          "url": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o?at_campaign=rss&at_medium=RSS",
+          "title": "Fort Hood shooter to be executed by firing squad - a first for US military since World War Two",
+          "summary": "Nidal Malik Hasan killed 13 unarmed soldiers and injured another 32 in the deadliest ever non-combat attack on an American military base.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-05T18:36:00+00:00",
-          "fetched_at": "2026-10-06T02:58:55.005229+00:00",
+          "published_at": "2026-10-06T02:22:24+00:00",
+          "fetched_at": "2026-10-06T10:18:32.649739+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff10/live/a25702e0-c128-11f1-8bde-69484745c5ca.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_b7cf70f4256f3c444249",
-      "title": "Ukraine says Russian drone attack sinks ship in Romanian waters",
-      "category": "军事安全",
-      "score": 67.4,
+      "event_id": "evt_d29af8ce785a0e51f4d2",
+      "title": "US 'watching closely' after plague researcher dies in Russia",
+      "category": "社会突发",
+      "score": 70.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 16.5,
+        "recency": 20.7,
         "credibility": 9.8,
-        "impact": 13.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-05T15:49:00+00:00",
-      "last_updated": "2026-10-05T20:03:06+00:00",
+      "first_seen": "2026-10-06T07:58:19+00:00",
+      "last_updated": "2026-10-06T08:49:38+00:00",
       "source_count": 2,
       "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "ukraine",
-        "ship",
-        "russian",
-        "romanian",
-        "drone",
-        "drones",
-        "behind",
-        "turkish"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Ukraine says Russian drone attack sinks ship in Romanian waters”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ukraine",
-          "Russian",
-          "Romanian",
-          "Turkish"
-        ],
-        "latest_progress": [
-          "10月05日 20:03 UTC，Al Jazeera报道：“Ukraine says Russian drone attack sinks ship in Romanian waters”。",
-          "10月05日 15:49 UTC，DW Top Stories报道：“Ukraine says Russian drones behind Turkish ship sinking”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7cf4e61bf0b5479c5879",
-          "url": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters?traffic_source=rss",
-          "title": "Ukraine says Russian drone attack sinks ship in Romanian waters",
-          "summary": "The latest suspected incursion on NATO's eastern flank increases fears that the war in Ukraine threatens to spill over.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T20:03:06+00:00",
-          "fetched_at": "2026-10-06T02:58:55.289084+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_18ce4c2b799b50b53e19",
-          "url": "https://www.dw.com/en/ukraine-says-russian-drones-behind-turkish-ship-sinking/a-79552387?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-says-russian-drones-behind-turkish-ship-sinking/a-79552387?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine says Russian drones behind Turkish ship sinking",
-          "summary": "Romanian authorities did not say what caused the fire, but local media reported that the ship was carrying grain and was hit by a drone.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-05T15:49:00+00:00",
-          "fetched_at": "2026-10-06T02:58:55.005757+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_478a0e21dd64c667d541",
-      "title": "Watch: How Spain's housing crisis has resulted in an early general election",
-      "category": "国际政治",
-      "score": 67.4,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.1,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 4.3
-      },
-      "first_seen": "2026-10-05T09:03:30+00:00",
-      "last_updated": "2026-10-05T19:30:50+00:00",
-      "source_count": 2,
-      "article_count": 3,
       "sources": [
         "BBC World",
         "NPR World"
@@ -326,222 +433,117 @@
         "North America"
       ],
       "keywords": [
-        "housing",
-        "crisis",
-        "early",
-        "election",
-        "spain's",
-        "measures",
-        "prime",
-        "minister"
+        "plague",
+        "research",
+        "russia",
+        "lab",
+        "died",
+        "siberia",
+        "employee",
+        "here's"
       ],
       "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的国际政治事件为“Watch: How Spain's housing crisis has resulted in an early general election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的社会突发事件为“US 'watching closely' after plague researcher dies in Russia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Spain",
-          "PM",
-          "How Spain"
+          "Russia",
+          "Here",
+          "US"
         ],
         "latest_progress": [
-          "10月05日 19:30 UTC，BBC World报道：“Spain PM pins hopes on housing crisis to help win snap election”。",
-          "10月05日 09:15 UTC，NPR World报道：“Spain's prime minister calls early elections as pressure mounts over housing crisis”。",
-          "10月05日 09:03 UTC，BBC World报道：“Watch: How Spain's housing crisis has resulted in an early general election”。"
+          "10月06日 08:49 UTC，NPR World报道：“A plague research employee in Russia died from an unknown cause. Here's what we know”。",
+          "10月06日 07:58 UTC，BBC World报道：“US 'watching closely' after plague researcher dies in Russia”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_f6a935d95527c28eeb5c",
-          "url": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_campaign=rss&at_medium=RSS",
-          "title": "Spain PM pins hopes on housing crisis to help win snap election",
-          "summary": "Calling of a snap election was not a knee-jerk reaction from Pedro Sánchez but a carefully thought-out manoeuvre, Guy Hedgecoe reports from Madrid.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-05T19:30:50+00:00",
-          "fetched_at": "2026-10-06T02:58:54.416025+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da25/live/2b424680-c0ea-11f1-ac9b-4d871a6ff8ee.jpg"
-        },
-        {
-          "article_id": "art_d7d92a6d0ab39a4f39d6",
-          "url": "https://www.npr.org/2026/10/05/nx-s1-5991404/spain-snap-elections",
-          "canonical_url": "https://www.npr.org/2026/10/05/nx-s1-5991404/spain-snap-elections",
-          "title": "Spain's prime minister calls early elections as pressure mounts over housing crisis",
-          "summary": "Spanish Prime Minister Pedro Sánchez announced early elections Monday after his government suffered a bruising legislative defeat last week on emergency measures related to the country's housing crisis.",
+          "article_id": "art_d996afe5f763e3de1042",
+          "url": "https://www.npr.org/2026/10/06/nx-s1-5991803/a-plague-research-employee-in-russia-died-from-an-unknown-cause-heres-what-we-know",
+          "canonical_url": "https://www.npr.org/2026/10/06/nx-s1-5991803/a-plague-research-employee-in-russia-died-from-an-unknown-cause-heres-what-we-know",
+          "title": "A plague research employee in Russia died from an unknown cause. Here's what we know",
+          "summary": "There are more questions than answers regarding the death of a plague research lab employee last week in Siberia. Here's what we do and don't know.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-05T09:15:55+00:00",
-          "fetched_at": "2026-10-06T02:58:55.218073+00:00",
+          "published_at": "2026-10-06T08:49:38+00:00",
+          "fetched_at": "2026-10-06T10:18:33.085342+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_470de67f17434406f215",
-          "url": "https://www.bbc.co.uk/news/videos/c83vqk2k2k20o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c83vqk2k2k20o?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: How Spain's housing crisis has resulted in an early general election",
-          "summary": "A series of measures to tackle the housing crisis were defeated in parliament on Friday",
+          "article_id": "art_8a50d0358a1e40086f62",
+          "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_campaign=rss&at_medium=RSS",
+          "title": "US 'watching closely' after plague researcher dies in Russia",
+          "summary": "Donald Trump says the US was looking \"very strongly\" at the case of a lab technician who died at a research centre in Siberia.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-05T09:03:30+00:00",
-          "fetched_at": "2026-10-06T02:58:54.418171+00:00",
+          "published_at": "2026-10-06T07:58:19+00:00",
+          "fetched_at": "2026-10-06T10:18:32.651601+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a64/live/2e5b2970-c0a1-11f1-babe-4199b0e7ccea.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bee8/live/9f1fa570-c103-11f1-a64c-550be9e3c66b.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_083c6d38258a93f05c91",
-      "title": "Turkiye, Pakistan to deploy forces to Saudi as Yemen fighting grows",
-      "category": "军事安全",
-      "score": 65.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-05T20:17:35+00:00",
-      "last_updated": "2026-10-06T01:39:54+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "turkiye",
-        "pakistan",
-        "saudi",
-        "arabia",
-        "deployment",
-        "agreed",
-        "forces",
-        "agree"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Turkiye, Pakistan to deploy forces to Saudi as Yemen fighting grows”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Turkiye",
-          "Pakistan",
-          "Saudi",
-          "Yemen",
-          "Saudi Arabia"
-        ],
-        "latest_progress": [
-          "10月06日 01:39 UTC，Al Jazeera报道：“Turkiye, Pakistan to deploy forces to Saudi as Yemen fighting grows”。",
-          "10月05日 20:17 UTC，Al Jazeera报道：“Turkiye, Pakistan agree to military deployment to Saudi Arabia”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ba001a8f216634ef6a91",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/10-6-yemen-war-update-sv?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/6/10-6-yemen-war-update-sv?traffic_source=rss",
-          "title": "Turkiye, Pakistan to deploy forces to Saudi as Yemen fighting grows",
-          "summary": "During emergency talks in Riyadh, Turkiye and Pakistan agreed to send rapid deployment forces to Saudi Arabia.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-06T01:39:54+00:00",
-          "fetched_at": "2026-10-06T02:58:55.285688+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_01a1e97ecea2b8fa75a2",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/turkiye-pakistan-agree-to-military-deployment-to-saudi-arabia?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/turkiye-pakistan-agree-to-military-deployment-to-saudi-arabia?traffic_source=rss",
-          "title": "Turkiye, Pakistan agree to military deployment to Saudi Arabia",
-          "summary": "Turkiye, Saudi Arabia and Pakistan have agreed to trigger collective deterrence measures in response to Houthi attacks.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-05T20:17:35+00:00",
-          "fetched_at": "2026-10-06T02:58:55.288652+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a122bb22ecbca7b16288",
-      "title": "Brazil’s presidential race head for a tough runoff",
+      "event_id": "evt_834d6220698a904a9d51",
+      "title": "Southeast Asia’s energy chiefs meet against backdrop of Iran war",
       "category": "能源资源",
-      "score": 64.2,
+      "score": 68.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.2,
-        "credibility": 9.8,
+        "recency": 20.4,
+        "credibility": 8.8,
         "impact": 11.0,
-        "velocity": 3.0
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-05T11:07:09+00:00",
-      "last_updated": "2026-10-05T21:00:59+00:00",
+      "first_seen": "2026-10-06T07:07:47+00:00",
+      "last_updated": "2026-10-06T08:30:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "NPR World"
+        "global.chinadaily.com.cn"
       ],
       "regions": [
-        "Middle East",
-        "North America"
+        "China",
+        "Middle East"
       ],
       "keywords": [
-        "presidential",
-        "climate",
-        "race",
-        "runoff",
-        "major",
-        "change",
-        "case",
-        "brazil's"
+        "energy",
+        "asia",
+        "iran",
+        "war",
+        "southeast",
+        "chiefs",
+        "meet",
+        "against"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的能源资源事件为“Brazil’s presidential race head for a tough runoff”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、global.chinadaily.com.cn等来源的2篇报道，当前关注的能源资源事件为“Southeast Asia’s energy chiefs meet against backdrop of Iran war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Brazil",
-          "SCOTUS",
-          "And"
+          "SE",
+          "Asia",
+          "Southeast Asia",
+          "Iran"
         ],
         "latest_progress": [
-          "10月05日 21:00 UTC，Al Jazeera报道：“Brazil’s presidential race head for a tough runoff”。",
-          "10月05日 11:07 UTC，NPR World报道：“SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff”。"
+          "10月06日 08:30 UTC，global.chinadaily.com.cn报道：“SE . Asia data boom faces energy squeeze”。",
+          "10月06日 07:07 UTC，Al Jazeera报道：“Southeast Asia’s energy chiefs meet against backdrop of Iran war”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
         "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
@@ -554,83 +556,84 @@
       },
       "articles": [
         {
-          "article_id": "art_5a7769eea4da520c78aa",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/brazils-presidential-race-head-for-a-tough-runoff?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/brazils-presidential-race-head-for-a-tough-runoff?traffic_source=rss",
-          "title": "Brazil’s presidential race head for a tough runoff",
-          "summary": "Brazil is heading into a fiercely contested presidential runoff after the first round revealed major gains for Bolsonaro",
+          "article_id": "art_51a6bb995ef6793c2c6d",
+          "url": "http://global.chinadaily.com.cn/a/202610/06/WS6ac449dfe4b06d4aa0561728.html",
+          "canonical_url": "https://global.chinadaily.com.cn/a/202610/06/WS6ac449dfe4b06d4aa0561728.html",
+          "title": "SE . Asia data boom faces energy squeeze",
+          "summary": "",
+          "source": "global.chinadaily.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-06T08:30:00+00:00",
+          "fetched_at": "2026-10-06T10:18:32.463144+00:00",
+          "language": "English",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": "http://img2.chinadaily.com.cn/images/202610/06/6ac449dfe4b06d4a392d95aa.jpeg"
+        },
+        {
+          "article_id": "art_5827415a3425de7b242e",
+          "url": "https://www.aljazeera.com/economy/2026/10/6/southeast-asias-energy-chiefs-meet-against-backdrop-of-iran-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/6/southeast-asias-energy-chiefs-meet-against-backdrop-of-iran-war?traffic_source=rss",
+          "title": "Southeast Asia’s energy chiefs meet against backdrop of Iran war",
+          "summary": "ASEAN ministers to discuss energy security amid energy crunch caused by the war on Iran.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-05T21:00:59+00:00",
-          "fetched_at": "2026-10-06T02:58:55.288037+00:00",
+          "published_at": "2026-10-06T07:07:47+00:00",
+          "fetched_at": "2026-10-06T10:18:33.294571+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_25e08eafb8a94d1b3664",
-          "url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
-          "canonical_url": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
-          "title": "SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff",
-          "summary": "The Supreme Court is set to hear a blockbuster climate change case that could affect more than just climate issues. And, Brazil's presidential race is too close to call.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-05T11:07:09+00:00",
-          "fetched_at": "2026-10-06T02:58:55.217319+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_95b33428bb57c3d5920c",
-      "title": "What’s next for Bosnia after elections?",
+      "event_id": "evt_e035bbf4c163bef8b967",
+      "title": "Indian opposition MPs detained in protest against election chief",
       "category": "国际政治",
-      "score": 63.9,
+      "score": 68.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.1,
+        "region_diversity": 2.5,
+        "recency": 21.8,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 2.8
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-05T10:23:00+00:00",
-      "last_updated": "2026-10-05T20:54:57+00:00",
+      "first_seen": "2026-10-06T05:02:00+00:00",
+      "last_updated": "2026-10-06T10:05:22+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "bosnia",
-        "parties",
+        "opposition",
         "election",
-        "nationalist",
-        "elections",
-        "steps",
-        "prevent",
-        "electoral"
+        "leaders",
+        "chief",
+        "gyanesh",
+        "kumar",
+        "alleged",
+        "voter"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“What’s next for Bosnia after elections?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Indian opposition MPs detained in protest against election chief”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "What",
-          "Bosnia"
+          "Indian",
+          "India",
+          "Opposition",
+          "Election Commission"
         ],
         "latest_progress": [
-          "10月05日 20:54 UTC，Al Jazeera报道：“What’s next for Bosnia after elections?”。",
-          "10月05日 10:23 UTC，DW Top Stories报道：“Bosnia election: New steps to prevent electoral fraud, but nationalist parties remain on top”。"
+          "10月06日 10:05 UTC，BBC World报道：“Indian opposition MPs detained in protest against election chief”。",
+          "10月06日 05:02 UTC，DW Top Stories报道：“India news: Opposition leaders march towards Election Commission”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -643,30 +646,30 @@
       },
       "articles": [
         {
-          "article_id": "art_82644afef5cefa7f532e",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/whats-next-for-bosnia-after-elections?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/whats-next-for-bosnia-after-elections?traffic_source=rss",
-          "title": "What’s next for Bosnia after elections?",
-          "summary": "Bosnia and Herzegovina’s election strengthened nationalist parties.",
-          "source": "Al Jazeera",
+          "article_id": "art_2391507467f152c0192e",
+          "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_campaign=rss&at_medium=RSS",
+          "title": "Indian opposition MPs detained in protest against election chief",
+          "summary": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-05T20:54:57+00:00",
-          "fetched_at": "2026-10-06T02:58:55.288180+00:00",
+          "published_at": "2026-10-06T10:05:22+00:00",
+          "fetched_at": "2026-10-06T10:18:32.650393+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e0e/live/d31f47a0-c16b-11f1-a003-8be783290413.jpg"
         },
         {
-          "article_id": "art_ed065cc7488a530b291c",
-          "url": "https://www.dw.com/en/bosnia-election-new-steps-to-prevent-electoral-fraud-but-nationalist-parties-remain-on-top/a-79544717?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/bosnia-election-new-steps-to-prevent-electoral-fraud-but-nationalist-parties-remain-on-top/a-79544717?maca=en-rss-en-top-1022-rdf",
-          "title": "Bosnia election: New steps to prevent electoral fraud, but nationalist parties remain on top",
-          "summary": "New technology has stopped votes being cast on behalf of dead or absent voters, and turnout has fallen to a record low. But it was a case of deja vu in Bosnia's elections with the same parties winning.",
+          "article_id": "art_f31193f688cdb8a0de16",
+          "url": "https://www.dw.com/en/india-news-opposition-leaders-march-towards-election-commission/live-79557629?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-news-opposition-leaders-march-towards-election-commission/live-79557629?maca=en-rss-en-top-1022-rdf",
+          "title": "India news: Opposition leaders march towards Election Commission",
+          "summary": "India's opposition is amping up pressure on Chief Election Commissioner Gyanesh Kumar to resign over alleged voter roll manipulation. DW has more.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-05T10:23:00+00:00",
-          "fetched_at": "2026-10-06T02:58:55.006891+00:00",
+          "published_at": "2026-10-06T05:02:00+00:00",
+          "fetched_at": "2026-10-06T10:18:32.832421+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -675,48 +678,50 @@
       ]
     },
     {
-      "event_id": "evt_5b8e1c679f4dcb96cd77",
-      "title": "Yemeni military says it has 'secured' Red Sea waterway",
+      "event_id": "evt_6f7d5c8807371f73dc4b",
+      "title": "Nigeria mourns 32 killed as military plane crashes into swamp",
       "category": "军事安全",
-      "score": 61.4,
+      "score": 66.9,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.3,
-        "credibility": 10.0,
+        "recency": 21.9,
+        "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 1.5
       },
-      "first_seen": "2026-10-06T01:05:00+00:00",
-      "last_updated": "2026-10-06T01:05:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-10-05T14:05:00+00:00",
+      "last_updated": "2026-10-06T10:13:02+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "BBC World"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "yemeni",
         "military",
-        "secured'",
-        "red",
-        "sea",
-        "waterway",
-        "saudi-backed",
-        "forces"
+        "nigeria",
+        "aircraft",
+        "people",
+        "crashes",
+        "southern",
+        "crash",
+        "plane"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Yemeni military says it has 'secured' Red Sea waterway”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Nigeria mourns 32 killed as military plane crashes into swamp”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Yemeni",
-          "Red Sea"
+          "Nigeria",
+          "Military"
         ],
         "latest_progress": [
-          "10月06日 01:05 UTC，BBC World报道：“Yemeni military says it has 'secured' Red Sea waterway”。"
+          "10月06日 10:13 UTC，BBC World报道：“Nigeria mourns 32 killed as military plane crashes into swamp”。",
+          "10月05日 14:05 UTC，DW Top Stories报道：“Military aircraft with 32 people on board crashes in southern Nigeria”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -729,110 +734,143 @@
       },
       "articles": [
         {
-          "article_id": "art_575e291226a1ab8c2b55",
-          "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_campaign=rss&at_medium=RSS",
-          "title": "Yemeni military says it has 'secured' Red Sea waterway",
-          "summary": "Saudi-backed forces gave conflicting reports of whether they had also seized the port city of Mokha, near the Bab al-Mandab Strait.",
+          "article_id": "art_b29582b13550cc485058",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvjer20qqo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck1wvjer20qqo?at_campaign=rss&at_medium=RSS",
+          "title": "Nigeria mourns 32 killed as military plane crashes into swamp",
+          "summary": "President Bola Tinubu describes the crash as a \"painful moment\" for the military and the entire nation.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-06T01:05:00+00:00",
-          "fetched_at": "2026-10-06T02:58:54.417265+00:00",
+          "published_at": "2026-10-06T10:13:02+00:00",
+          "fetched_at": "2026-10-06T10:18:32.650688+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e58c/live/3aa7d380-c0ca-11f1-a5b0-6f550c662e91.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_845af4a11d3e1e7a9fbc",
-      "title": "Police clash with Kosovo protesters over bid to curb Hague war crimes court",
-      "category": "军事安全",
-      "score": 60.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-06T00:10:27+00:00",
-      "last_updated": "2026-10-06T00:10:27+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "court",
-        "police",
-        "clash",
-        "kosovo",
-        "protesters",
-        "bid",
-        "curb",
-        "hague"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Police clash with Kosovo protesters over bid to curb Hague war crimes court”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Police",
-          "Kosovo",
-          "Hague"
-        ],
-        "latest_progress": [
-          "10月06日 00:10 UTC，Al Jazeera报道：“Police clash with Kosovo protesters over bid to curb Hague war crimes court”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4e2/live/c7aa3c10-c146-11f1-91a4-9d3e6655f0dd.jpg"
+        },
         {
-          "article_id": "art_a5b1499ff5e9ff15799f",
-          "url": "https://www.aljazeera.com/news/2026/10/6/police-clash-with-kosovo-protesters-over-bid-to-curb-hague-war-crimes-court?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/6/police-clash-with-kosovo-protesters-over-bid-to-curb-hague-war-crimes-court?traffic_source=rss",
-          "title": "Police clash with Kosovo protesters over bid to curb Hague war crimes court",
-          "summary": "The political dispute over the court has become a factor in negotiations to hold a new presidential election.",
-          "source": "Al Jazeera",
+          "article_id": "art_6128483c974e539b6012",
+          "url": "https://www.dw.com/en/military-aircraft-with-32-people-on-board-crashes-in-southern-nigeria/a-79552403?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/military-aircraft-with-32-people-on-board-crashes-in-southern-nigeria/a-79552403?maca=en-rss-en-top-1022-rdf",
+          "title": "Military aircraft with 32 people on board crashes in southern Nigeria",
+          "summary": "Rescue teams searched the crash site after the military aircraft went down in southern Nigeria. All 32 people on the plane are confirmed to have died.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-06T00:10:27+00:00",
-          "fetched_at": "2026-10-06T02:58:55.286342+00:00",
+          "published_at": "2026-10-05T14:05:00+00:00",
+          "fetched_at": "2026-10-06T10:18:32.833907+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_b5f1ecbdb57362bb9c18",
-      "title": "Iran war live: Yemen forces reclaim strategic port city Mocha from Houthis",
+      "event_id": "evt_5a82a6eb06113ebd19a9",
+      "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
+      "category": "能源资源",
+      "score": 66.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.6,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 1.3
+      },
+      "first_seen": "2026-10-05T10:11:33+00:00",
+      "last_updated": "2026-10-06T09:54:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "nobel",
+        "prize",
+        "medicine",
+        "goes",
+        "scientists",
+        "brain",
+        "activity",
+        "halzen"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的能源资源事件为“Nobel medicine prize goes to 3 scientists for research into brain activity”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Nobel Physics Prize",
+          "Francis Halzen",
+          "Nobel"
+        ],
+        "latest_progress": [
+          "10月06日 09:54 UTC，DW Top Stories报道：“Nobel Physics Prize goes to Francis Halzen for neutrino work”。",
+          "10月05日 10:11 UTC，NPR World报道：“Nobel medicine prize goes to 3 scientists for research into brain activity”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d2181b750b968bc4812a",
+          "url": "https://www.dw.com/en/nobel-physics-prize-goes-to-francis-halzen-for-neutrino-work/a-79561506?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/nobel-physics-prize-goes-to-francis-halzen-for-neutrino-work/a-79561506?maca=en-rss-en-top-1022-rdf",
+          "title": "Nobel Physics Prize goes to Francis Halzen for neutrino work",
+          "summary": "Halzen got the Nobel for his contributions to the IceCube neutrino Observatory and discovery of high-energy neutrinos.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-06T09:54:00+00:00",
+          "fetched_at": "2026-10-06T10:18:32.831635+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_97ab4adaec6241d61e0e",
+          "url": "https://www.npr.org/2026/10/05/g-s1-146400/nobel-medicine-prize",
+          "canonical_url": "https://www.npr.org/2026/10/05/g-s1-146400/nobel-medicine-prize",
+          "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
+          "summary": "The Nobel Prize in medicine was awarded Monday to three scientists working on the mechanisms the brain uses to switch on, or off, the activity of individual nerve cells.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-05T10:11:33+00:00",
+          "fetched_at": "2026-10-06T10:18:33.086552+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a7f59d8047151303a813",
+      "title": "South Korea considers steps to force North Korea apology for DMZ mine blast",
       "category": "军事安全",
-      "score": 60.5,
+      "score": 61.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.4,
+        "recency": 20.8,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-06T00:00:00+00:00",
-      "last_updated": "2026-10-06T00:00:00+00:00",
+      "first_seen": "2026-10-06T08:58:36+00:00",
+      "last_updated": "2026-10-06T08:58:36+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -842,26 +880,25 @@
         "Middle East"
       ],
       "keywords": [
-        "iran",
-        "war",
-        "yemen",
-        "forces",
-        "reclaim",
-        "strategic",
-        "port",
-        "city"
+        "korea",
+        "south",
+        "considers",
+        "steps",
+        "force",
+        "north",
+        "apology",
+        "dmz"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Yemen forces reclaim strategic port city Mocha from Houthis”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“South Korea considers steps to force North Korea apology for DMZ mine blast”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iran",
-          "Yemen",
-          "Mocha",
-          "Houthis"
+          "South Korea",
+          "North Korea",
+          "DMZ"
         ],
         "latest_progress": [
-          "10月06日 00:00 UTC，Al Jazeera报道：“Iran war live: Yemen forces reclaim strategic port city Mocha from Houthis”。"
+          "10月06日 08:58 UTC，Al Jazeera报道：“South Korea considers steps to force North Korea apology for DMZ mine blast”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -874,15 +911,15 @@
       },
       "articles": [
         {
-          "article_id": "art_5901991248a3bb1a424d",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis?traffic_source=rss",
-          "title": "Iran war live: Yemen forces reclaim strategic port city Mocha from Houthis",
-          "summary": "Turkiye and Pakistan agree to rapidly deploy militaries to bolster Saudi security as part of the Mecca defence pact.",
+          "article_id": "art_3402277eb2313b8c86b0",
+          "url": "https://www.aljazeera.com/news/2026/10/6/south-korea-considers-steps-to-force-north-korea-apology-for-dmz-mine-blast?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/6/south-korea-considers-steps-to-force-north-korea-apology-for-dmz-mine-blast?traffic_source=rss",
+          "title": "South Korea considers steps to force North Korea apology for DMZ mine blast",
+          "summary": "Seoul has urged Pyongyang to remove any other mines planted on the southern side of the military demarcation line.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-06T00:00:00+00:00",
-          "fetched_at": "2026-10-06T02:58:55.286820+00:00",
+          "published_at": "2026-10-06T08:58:36+00:00",
+          "fetched_at": "2026-10-06T10:18:33.292849+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
