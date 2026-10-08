@@ -1,172 +1,29 @@
 {
-  "generated_at": "2026-10-08T01:56:16.256800+00:00",
+  "generated_at": "2026-10-08T08:57:27.279708+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 128,
-    "articles_unique": 128,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 180,
+    "articles_unique": 169,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_70cb9396cd5302bf38ca",
-      "title": "What we know about Christa Pike’s ‘unprecedented' recovery after failed execution",
+      "event_id": "evt_b450ef0f1d7e857de10b",
+      "title": "Texas carries out first US execution since Christa Pike's botched lethal injections",
       "category": "社会突发",
-      "score": 78.3,
-      "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.7,
-        "credibility": 9.9,
-        "impact": 11.7,
-        "velocity": 3.2
-      },
-      "first_seen": "2026-10-06T23:42:35+00:00",
-      "last_updated": "2026-10-07T23:20:01+00:00",
-      "source_count": 3,
-      "article_count": 5,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "execution",
-        "pike",
-        "christa",
-        "failed",
-        "said",
-        "judge",
-        "officials",
-        "preserve"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的社会突发事件为“What we know about Christa Pike’s ‘unprecedented' recovery after failed execution”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Christa Pike",
-          "Judge",
-          "Pike",
-          "What"
-        ],
-        "latest_progress": [
-          "10月07日 23:20 UTC，Al Jazeera报道：“Christa Pike was nearly taken off life support before waking, lawyers say”。",
-          "10月07日 22:05 UTC，Al Jazeera报道：“Judge orders officials to preserve Pike execution evidence”。",
-          "10月07日 21:23 UTC，DW Top Stories报道：“Christa Pike 'angry and confused' after botched execution”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_faff1d99e18b8b3faae3",
-          "url": "https://www.aljazeera.com/news/2026/10/7/christa-pike-was-nearly-taken-off-life-support-before-waking-lawyers-say?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/7/christa-pike-was-nearly-taken-off-life-support-before-waking-lawyers-say?traffic_source=rss",
-          "title": "Christa Pike was nearly taken off life support before waking, lawyers say",
-          "summary": "Death row inmate who survived execution by lethal injection is said to be 'angry and confused' about what happened.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-07T23:20:01+00:00",
-          "fetched_at": "2026-10-08T01:56:15.116483+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_411633058aaca5f187dd",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/judge-orders-officials-to-preserve-pike-execution-evidence?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/judge-orders-officials-to-preserve-pike-execution-evidence?traffic_source=rss",
-          "title": "Judge orders officials to preserve Pike execution evidence",
-          "summary": "A Nashville judge ordered Tennessee officials to preserve evidence from Christa Pike’s failed execution",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-07T22:05:49+00:00",
-          "fetched_at": "2026-10-08T01:56:15.116722+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9efa22b9275b010a0317",
-          "url": "https://www.dw.com/en/christa-pike-angry-and-confused-after-botched-execution/a-79586250?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/christa-pike-angry-and-confused-after-botched-execution/a-79586250?maca=en-rss-en-top-1022-rdf",
-          "title": "Christa Pike 'angry and confused' after botched execution",
-          "summary": "Pike's lawyers have said she was very aware of Tennessee's failed execution effort. A judge has ordered state officials to preserve all evidence from the botched execution.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-07T21:23:00+00:00",
-          "fetched_at": "2026-10-08T01:56:14.661542+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_d930c7ed217af1693515",
-          "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_campaign=rss&at_medium=RSS",
-          "title": "What happened in the failed execution of Christa Pike - and how did she survive?",
-          "summary": "The convicted killer of Colleen Slemmer is said to be awake and speaking in hospital in Tennessee after an execution attempt.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-07T10:01:47+00:00",
-          "fetched_at": "2026-10-08T01:56:14.222653+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/925e/live/9f0dd630-c237-11f1-be2f-0fbd447d6e43.jpg"
-        },
-        {
-          "article_id": "art_632a0723a34c55241817",
-          "url": "https://www.bbc.co.uk/news/videos/c5398nwe9lzlo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c5398nwe9lzlo?at_campaign=rss&at_medium=RSS",
-          "title": "What we know about Christa Pike’s ‘unprecedented' recovery after failed execution",
-          "summary": "The BBC's Sarah Smith details the injuries sustained by the US death row inmate after two failed lethal injections, and what comes next.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-06T23:42:35+00:00",
-          "fetched_at": "2026-10-08T01:56:14.223229+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e14/live/6a885c30-c211-11f1-babe-4199b0e7ccea.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5a4ab2302f285c8d9ded",
-      "title": "Russia dismisses reports of second plague case as ‘false information’",
-      "category": "社会突发",
-      "score": 75.7,
+      "score": 80.1,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.5,
+        "recency": 21.6,
         "credibility": 9.9,
         "impact": 11.7,
-        "velocity": 1.7
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-06T13:32:42+00:00",
-      "last_updated": "2026-10-08T00:16:41+00:00",
+      "first_seen": "2026-10-07T21:23:00+00:00",
+      "last_updated": "2026-10-08T08:29:36+00:00",
       "source_count": 3,
       "article_count": 4,
       "sources": [
@@ -179,31 +36,28 @@
         "Middle East"
       ],
       "keywords": [
-        "russia",
-        "plague",
-        "death",
-        "more",
-        "case",
-        "each",
-        "about",
-        "reports"
+        "execution",
+        "christa",
+        "botched",
+        "pike",
+        "pike's",
+        "lethal",
+        "injections",
+        "lawyer"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的社会突发事件为“Russia dismisses reports of second plague case as ‘false information’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的社会突发事件为“Texas carries out first US execution since Christa Pike's botched lethal injections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Russia",
-          "Trump",
-          "Putin",
-          "Russia Russia",
-          "WHO",
-          "How Russia",
-          "US"
+          "Christa Pike",
+          "US",
+          "BBC",
+          "Texas"
         ],
         "latest_progress": [
-          "10月08日 00:16 UTC，Al Jazeera报道：“Russia dismisses reports of second plague case as ‘false information’”。",
-          "10月07日 18:27 UTC，BBC World报道：“Trump to speak to Putin about plague lab worker's death in Russia”。",
-          "10月07日 17:16 UTC，DW Top Stories报道：“Russia: WHO not able to 'fully' assess plague situation”。"
+          "10月08日 08:29 UTC，Al Jazeera报道：“Christa Pike almost taken off life support before she woke up”。",
+          "10月08日 08:13 UTC，BBC World报道：“Christa Pike now walking after failed US execution, lawyer tells BBC”。",
+          "10月08日 03:02 UTC，BBC World报道：“Texas carries out first US execution since Christa Pike's botched lethal injections”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -216,172 +70,60 @@
       },
       "articles": [
         {
-          "article_id": "art_88f4a3a372c5c98f18fd",
-          "url": "https://www.aljazeera.com/news/2026/10/8/russia-dismisses-reports-of-second-plague-case-as-false-information?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/8/russia-dismisses-reports-of-second-plague-case-as-false-information?traffic_source=rss",
-          "title": "Russia dismisses reports of second plague case as ‘false information’",
-          "summary": "Senior WHO official urges Russia to provide more information on the suspected pneumonic plague cases.",
+          "article_id": "art_02763103bd0e8d2147a7",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/christa-pike-almost-taken-off-life-support-before-she-woke-up?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/christa-pike-almost-taken-off-life-support-before-she-woke-up?traffic_source=rss",
+          "title": "Christa Pike almost taken off life support before she woke up",
+          "summary": "Death row inmate Christa Pike has regained consciousness following a botched execution in Tennessee, her lawyer says.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-08T00:16:41+00:00",
-          "fetched_at": "2026-10-08T01:56:15.115857+00:00",
+          "published_at": "2026-10-08T08:29:36+00:00",
+          "fetched_at": "2026-10-08T08:57:26.198053+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_1d280bff090e8cce4d5f",
-          "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_campaign=rss&at_medium=RSS",
-          "title": "Trump to speak to Putin about plague lab worker's death in Russia",
-          "summary": "Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia.",
+          "article_id": "art_b64ff249cb95da4a7c16",
+          "url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_campaign=rss&at_medium=RSS",
+          "title": "Christa Pike now walking after failed US execution, lawyer tells BBC",
+          "summary": "A lawyer says the murderer of Colleen Slemmer is moving around her hospital room after surviving two lethal injections.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-07T18:27:40+00:00",
-          "fetched_at": "2026-10-08T01:56:14.221683+00:00",
+          "published_at": "2026-10-08T08:13:52+00:00",
+          "fetched_at": "2026-10-08T08:57:25.506853+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3744/live/6325d7d0-c18d-11f1-83c7-97e75190a976.png"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afaf/live/3e4f37a0-c2ee-11f1-89a3-9b445bfcfe23.jpg"
         },
         {
-          "article_id": "art_8952160c0e25612f5d5b",
-          "url": "https://www.dw.com/en/russia-who-not-able-to-fully-assess-plague-situation/a-79584532?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russia-who-not-able-to-fully-assess-plague-situation/a-79584532?maca=en-rss-en-top-1022-rdf",
-          "title": "Russia: WHO not able to 'fully' assess plague situation",
-          "summary": "The UN health agency said Russia should be more transparent about the case of the plague as reports of a second case of the disease emerged. Russia played down any concerns, saying the population faces no risk.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-07T17:16:00+00:00",
-          "fetched_at": "2026-10-08T01:56:14.661980+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_1bb8922742a623678987",
-          "url": "https://www.bbc.co.uk/news/videos/c8e36y796enno?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c8e36y796enno?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: How Russia responded to US after plague researcher death",
-          "summary": "The US and Russia have each offered to help each other tackling infectious diseases.",
+          "article_id": "art_6b1abaa9c6b4f228fbbc",
+          "url": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_campaign=rss&at_medium=RSS",
+          "title": "Texas carries out first US execution since Christa Pike's botched lethal injections",
+          "summary": "Lawyers for Jamaal Howard had asked a judge to pause the execution after Christa Pike's botched lethal injections.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-06T13:32:42+00:00",
-          "fetched_at": "2026-10-08T01:56:14.223476+00:00",
+          "published_at": "2026-10-08T03:02:06+00:00",
+          "fetched_at": "2026-10-08T08:57:25.507015+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8aca/live/c2a99740-c198-11f1-bc2e-018d645d8d21.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d494097bff2ade9d528b",
-      "title": "Trump on why he thinks he deserves the Nobel Peace Prize",
-      "category": "国际政治",
-      "score": 75.0,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 18.3,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 3.9
-      },
-      "first_seen": "2026-10-07T09:51:00+00:00",
-      "last_updated": "2026-10-07T21:30:18+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "nobel",
-        "prize",
-        "chemistry",
-        "henri",
-        "kagan",
-        "kenso",
-        "soai",
-        "won"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Trump on why he thinks he deserves the Nobel Peace Prize”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Trump",
-          "Nobel Peace Prize Henri",
-          "Kagan",
-          "Kenso Soai",
-          "Nobel Prize",
-          "Chemistry",
-          "Henri"
-        ],
-        "latest_progress": [
-          "10月07日 21:30 UTC，Al Jazeera报道：“Trump on why he thinks he deserves the Nobel Peace Prize”。",
-          "10月07日 10:05 UTC，NPR World报道：“Henri B. Kagan and Kenso Soai win Nobel Prize in chemistry”。",
-          "10月07日 09:51 UTC，DW Top Stories报道：“Nobel Prize in Chemistry goes to Henri B. Kagan and Kenso Soai”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_221f7aa9e679a183c454",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/trump-on-why-he-thinks-he-deserves-the-nobel-peace-prize-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/trump-on-why-he-thinks-he-deserves-the-nobel-peace-prize-2?traffic_source=rss",
-          "title": "Trump on why he thinks he deserves the Nobel Peace Prize",
-          "summary": "US President Donald Trump said it would be a ‘great discredit’ to the Nobel Peace Prize committee.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-07T21:30:18+00:00",
-          "fetched_at": "2026-10-08T01:56:15.116954+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d330/live/7a937e50-c2bd-11f1-a495-0d8c3b3fd3d3.jpg"
         },
         {
-          "article_id": "art_1bdfa2be18e20937551d",
-          "url": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
-          "canonical_url": "https://www.npr.org/2026/10/07/g-s1-146849/nobel-prize-chemistry",
-          "title": "Henri B. Kagan and Kenso Soai win Nobel Prize in chemistry",
-          "summary": "Henri B. Kagan and Kenso Soai won the Nobel Prize in chemistry Wednesday for their discovery of non-linear effects and autocatalysis in asymmetric organic synthesis.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-07T10:05:54+00:00",
-          "fetched_at": "2026-10-08T01:56:14.870943+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9824e75be987e24b9ce8",
-          "url": "https://www.dw.com/en/nobel-prize-in-chemistry-goes-to-henri-b-kagan-and-kenso-soai/a-79573924?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/nobel-prize-in-chemistry-goes-to-henri-b-kagan-and-kenso-soai/a-79573924?maca=en-rss-en-top-1022-rdf",
-          "title": "Nobel Prize in Chemistry goes to Henri B. Kagan and Kenso Soai",
-          "summary": "Henri B. Kagan and Kenso Soai won the Nobel Prize in Chemistry for their groundbreaking discoveries related to the origin of chirality and life's building blocks.",
+          "article_id": "art_9efa22b9275b010a0317",
+          "url": "https://www.dw.com/en/christa-pike-angry-and-confused-after-botched-execution/a-79586250?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/christa-pike-angry-and-confused-after-botched-execution/a-79586250?maca=en-rss-en-top-1022-rdf",
+          "title": "Christa Pike 'angry and confused' after botched execution",
+          "summary": "Pike's lawyers have said she was very aware of Tennessee's failed execution effort. A judge has ordered state officials to preserve all evidence from the botched execution.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-07T09:51:00+00:00",
-          "fetched_at": "2026-10-08T01:56:14.663214+00:00",
+          "published_at": "2026-10-07T21:23:00+00:00",
+          "fetched_at": "2026-10-08T08:57:25.981974+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -390,200 +132,128 @@
       ]
     },
     {
-      "event_id": "evt_71acab45b104c6aef5a2",
-      "title": "What is pneumonic plague and how does it spread?",
-      "category": "社会突发",
-      "score": 70.6,
+      "event_id": "evt_9de9346ffb95369fcc1c",
+      "title": "New York court hears arguments in ongoing 9/11 families' lawsuit against Saudi Arabia",
+      "category": "军事安全",
+      "score": 78.2,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 9.7,
-        "impact": 11.7,
-        "velocity": 1.5
+        "recency": 19.0,
+        "credibility": 9.2,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-06T15:35:22+00:00",
-      "last_updated": "2026-10-07T21:06:31+00:00",
+      "first_seen": "2026-10-07T17:33:00+00:00",
+      "last_updated": "2026-10-08T05:30:00+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "BBC World",
         "DW Top Stories",
-        "NPR World"
+        "khaama.com"
       ],
       "regions": [
-        "Europe",
-        "North America"
+        "Afghanistan",
+        "Europe"
       ],
       "keywords": [
-        "plague",
-        "pneumonic",
-        "death",
-        "worker",
-        "russian",
-        "disease",
-        "lab",
-        "about"
+        "saudi",
+        "attacks",
+        "arabia",
+        "against",
+        "houthis",
+        "houthi",
+        "pakistan",
+        "turkey"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的社会突发事件为“What is pneumonic plague and how does it spread?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据BBC World、DW Top Stories、khaama.com等来源的4篇报道，当前关注的军事安全事件为“New York court hears arguments in ongoing 9/11 families' lawsuit against Saudi Arabia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "What",
-          "Suspected",
-          "Siberia"
+          "Jordan Condemns Houthi Attacks",
+          "Saudi Airports That Killed",
+          "Three Three",
+          "Houthi",
+          "Saudi Arabia",
+          "New York",
+          "Saudi Arabia Saudi Arabia",
+          "Pakistan"
         ],
         "latest_progress": [
-          "10月07日 21:06 UTC，NPR World报道：“What is the pneumonic plague?”。",
-          "10月07日 09:44 UTC，DW Top Stories报道：“Suspected pneumonic plague in Siberia: What we know about the disease”。",
-          "10月06日 15:35 UTC，BBC World报道：“What is pneumonic plague and how does it spread?”。"
+          "10月08日 05:30 UTC，khaama.com报道：“Jordan Condemns Houthi Attacks on Saudi Airports That Killed Three”。",
+          "10月08日 03:32 UTC，BBC World报道：“Three people killed in Houthi attacks on Saudi Arabia airports, officials say”。",
+          "10月07日 23:18 UTC，BBC World报道：“New York court hears arguments in ongoing 9/11 families' lawsuit against Saudi Arabia”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_98915bd7b19c103b0684",
-          "url": "https://www.npr.org/2026/10/07/g-s1-146952/pneumonic-plague-russia-siberia-lab-death",
-          "canonical_url": "https://www.npr.org/2026/10/07/g-s1-146952/pneumonic-plague-russia-siberia-lab-death",
-          "title": "What is the pneumonic plague?",
-          "summary": "The ancient disease of plague is back in the headlines after the death this month of a Russian lab worker.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-07T21:06:31+00:00",
-          "fetched_at": "2026-10-08T01:56:14.870164+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
+          "article_id": "art_afda613b5739b0f9d963",
+          "url": "https://www.khaama.com/jordan-condemns-houthi-attacks-on-saudi-airports-that-killed-three/",
+          "canonical_url": "https://www.khaama.com/jordan-condemns-houthi-attacks-on-saudi-airports-that-killed-three",
+          "title": "Jordan Condemns Houthi Attacks on Saudi Airports That Killed Three",
+          "summary": "",
+          "source": "khaama.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-08T05:30:00+00:00",
+          "fetched_at": "2026-10-08T08:57:17.823666+00:00",
+          "language": "English",
+          "region": "Afghanistan",
+          "source_weight": 0.75,
+          "image_url": "https://www.khaama.com/wp-content/uploads/2026/09/Houthis-1.jpg"
         },
         {
-          "article_id": "art_05266dec47359b0e05bd",
-          "url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/suspected-pneumonic-plague-in-siberia-what-we-know-about-the-disease/a-79547919?maca=en-rss-en-top-1022-rdf",
-          "title": "Suspected pneumonic plague in Siberia: What we know about the disease",
-          "summary": "After a worker at a Russian plague research institute in Siberia died October 2, 2026, nearly 200 of her contacts were under medical observation. But authorities there denied pneumonic plague had caused the death.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-07T09:44:00+00:00",
-          "fetched_at": "2026-10-08T01:56:14.663310+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_79083b06a82cba6e7ebf",
-          "url": "https://www.bbc.co.uk/news/articles/cxdd8035jzn3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cxdd8035jzn3o?at_campaign=rss&at_medium=RSS",
-          "title": "What is pneumonic plague and how does it spread?",
-          "summary": "The death of a worker from a Russian lab that researches plague has prompted questions about the disease.",
+          "article_id": "art_a459b827d51e0c628528",
+          "url": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_campaign=rss&at_medium=RSS",
+          "title": "Three people killed in Houthi attacks on Saudi Arabia airports, officials say",
+          "summary": "The Houthis have claimed responsibility for the attacks, which mark an escalation in the conflict.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-06T15:35:22+00:00",
-          "fetched_at": "2026-10-08T01:56:14.222532+00:00",
+          "published_at": "2026-10-08T03:32:35+00:00",
+          "fetched_at": "2026-10-08T08:57:25.507567+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b32/live/023d84b0-c195-11f1-aa62-b37233e4aed8.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_877c77bab59701d8f4d4",
-      "title": "‘No to the father, no to the son’: Thousands march in Rio against Bolsonaro",
-      "category": "国际政治",
-      "score": 70.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.0,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-07T22:14:58+00:00",
-      "last_updated": "2026-10-08T00:50:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "against",
-        "bolsonaro",
-        "thousands",
-        "march",
-        "rio",
-        "students",
-        "flavio",
-        "brazil's"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“‘No to the father, no to the son’: Thousands march in Rio against Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Brazil",
-          "Thousands",
-          "Bolsonaro",
-          "No",
-          "Rio"
-        ],
-        "latest_progress": [
-          "10月08日 00:50 UTC，DW Top Stories报道：“Brazil: Thousands of students march against Bolsonaro”。",
-          "10月07日 22:14 UTC，Al Jazeera报道：“‘No to the father, no to the son’: Thousands march in Rio against Bolsonaro”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb7a/live/b062fdf0-c2b6-11f1-babe-4199b0e7ccea.jpg"
+        },
         {
-          "article_id": "art_e407fb5262ab1a69f186",
-          "url": "https://www.dw.com/en/brazil-thousands-of-students-march-against-bolsonaro/a-79586626?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-thousands-of-students-march-against-bolsonaro/a-79586626?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil: Thousands of students march against Bolsonaro",
-          "summary": "After Flavio Bolsonaro came out on top in the first round of Brazil's presidential election, thousands of people joined student-led protests against the far-right in Rio de Janeiro.",
+          "article_id": "art_05b1b74f0babb457bf5b",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgrxlylj72o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwvgrxlylj72o?at_campaign=rss&at_medium=RSS",
+          "title": "New York court hears arguments in ongoing 9/11 families' lawsuit against Saudi Arabia",
+          "summary": "The families allege that men with links to the Saudi government helped those who carried out the 2001 attacks, something the country denies.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-07T23:18:40+00:00",
+          "fetched_at": "2026-10-08T08:57:25.507158+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19cd/live/9e6a0ef0-c2a1-11f1-b3a5-abc2b328c8d1.png"
+        },
+        {
+          "article_id": "art_a0ab442e1d1ea240388f",
+          "url": "https://www.dw.com/en/saudi-arabia-pakistan-turkey-could-the-mecca-defense-pact-become-a-game-changer-in-the-war-against-the-houthis-in-yemen/a-79577245?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/saudi-arabia-pakistan-turkey-could-the-mecca-defense-pact-become-a-game-changer-in-the-war-against-the-houthis-in-yemen/a-79577245?maca=en-rss-en-top-1022-rdf",
+          "title": "Saudi Arabia, Pakistan, Turkey: Could the Mecca defense pact become a game changer in the war against the Houthis in Yemen?",
+          "summary": "Pakistan and Turkey have agreed to provide \"practical measures\" to defend Saudi Arabia against Houthi attacks. Could a new alliance reshape the war against the Houthis in Yemen?",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-08T00:50:00+00:00",
-          "fetched_at": "2026-10-08T01:56:14.661393+00:00",
+          "published_at": "2026-10-07T17:33:00+00:00",
+          "fetched_at": "2026-10-08T08:57:25.982150+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_88210907dd064f871b9a",
-          "url": "https://www.aljazeera.com/gallery/2026/10/7/no-to-the-father-no-to-the-son-thousands-march-in-rio-against-bolsonaro-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/gallery/2026/10/7/no-to-the-father-no-to-the-son-thousands-march-in-rio-against-bolsonaro-2?traffic_source=rss",
-          "title": "‘No to the father, no to the son’: Thousands march in Rio against Bolsonaro",
-          "summary": "Students and other protesters marched against Flavio Bolsonaro after he advanced to Brazil's presidential run-off.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-07T22:14:58+00:00",
-          "fetched_at": "2026-10-08T01:56:15.116604+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
@@ -592,27 +262,29 @@
       "event_id": "evt_ec57bfe4fe1f50d50f44",
       "title": "US stocks slide as oil prices fluctuate over renewed Iran war fears",
       "category": "军事安全",
-      "score": 69.4,
+      "score": 76.0,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.8,
-        "credibility": 9.8,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 19.0,
+        "credibility": 9.0,
         "impact": 13.0,
-        "velocity": 2.7
+        "velocity": 2.8
       },
       "first_seen": "2026-10-07T13:32:37+00:00",
-      "last_updated": "2026-10-08T00:33:03+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "last_updated": "2026-10-08T05:30:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "NPR World"
+        "NPR World",
+        "stockbiz.vn"
       ],
       "regions": [
         "Middle East",
-        "North America"
+        "North America",
+        "Vietnam"
       ],
       "keywords": [
         "prices",
@@ -625,14 +297,15 @@
         "blessing"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“US stocks slide as oil prices fluctuate over renewed Iran war fears”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、NPR World、stockbiz.vn等来源的3篇报道，当前关注的军事安全事件为“US stocks slide as oil prices fluctuate over renewed Iran war fears”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "US",
           "Iran",
+          "US",
           "DIY"
         ],
         "latest_progress": [
+          "10月08日 05:30 UTC，stockbiz.vn报道：“Mỹ có thể không kích Iran trước thềm bầu cử giữa kỳ”。",
           "10月08日 00:33 UTC，Al Jazeera报道：“US stocks slide as oil prices fluctuate over renewed Iran war fears”。",
           "10月07日 13:32 UTC，NPR World报道：“DIY fertilizer is a blessing as farmers face steep prices due to the Iran war”。"
         ],
@@ -647,6 +320,21 @@
       },
       "articles": [
         {
+          "article_id": "art_aa1ba453244af4798f76",
+          "url": "https://stockbiz.vn/tin-tuc/my-co-the-khong-kich-iran-truoc-them-bau-cu-giua-ky/42168341",
+          "canonical_url": "https://stockbiz.vn/tin-tuc/my-co-the-khong-kich-iran-truoc-them-bau-cu-giua-ky/42168341",
+          "title": "Mỹ có thể không kích Iran trước thềm bầu cử giữa kỳ",
+          "summary": "",
+          "source": "stockbiz.vn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-08T05:30:00+00:00",
+          "fetched_at": "2026-10-08T08:57:17.822103+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://static.fireant.vn/posts/image/4053800"
+        },
+        {
           "article_id": "art_2aeeaf4b4bbe82488e90",
           "url": "https://www.aljazeera.com/news/2026/10/8/us-stocks-slide-as-oil-prices-fluctuate-over-renewed-iran-war-fears?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/8/us-stocks-slide-as-oil-prices-fluctuate-over-renewed-iran-war-fears?traffic_source=rss",
@@ -655,7 +343,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-08T00:33:03+00:00",
-          "fetched_at": "2026-10-08T01:56:15.115731+00:00",
+          "fetched_at": "2026-10-08T08:57:26.199688+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -670,7 +358,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-07T13:32:37+00:00",
-          "fetched_at": "2026-10-08T01:56:14.870591+00:00",
+          "fetched_at": "2026-10-08T08:57:26.110258+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -679,51 +367,58 @@
       ]
     },
     {
-      "event_id": "evt_4487d33daa08ced0902d",
-      "title": "Yemen war live: Yemeni forces claim key heights as Houthi attacks go on",
+      "event_id": "evt_454022a0b7ffb40833b7",
+      "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
       "category": "国际政治",
-      "score": 64.3,
+      "score": 73.6,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.2,
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.5,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-08T00:00:00+00:00",
-      "last_updated": "2026-10-08T01:02:07+00:00",
-      "source_count": 1,
-      "article_count": 2,
+      "first_seen": "2026-10-08T05:06:25+00:00",
+      "last_updated": "2026-10-08T08:25:20+00:00",
+      "source_count": 2,
+      "article_count": 3,
       "sources": [
-        "Al Jazeera"
+        "Al Jazeera",
+        "BBC World"
       ],
       "regions": [
+        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "yemeni",
-        "forces",
-        "claim",
-        "government",
-        "yemen",
-        "war",
-        "key",
-        "heights"
+        "consulate",
+        "east",
+        "jerusalem",
+        "diplomats",
+        "remain",
+        "miliband",
+        "israeli",
+        "deadline"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Yemen war live: Yemeni forces claim key heights as Houthi attacks go on”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的国际政治事件为“Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Yemeni",
-          "Houthis",
-          "Yemen",
-          "Houthi"
+          "Video",
+          "Signs",
+          "British",
+          "East Jerusalem Most",
+          "UK",
+          "East Jerusalem",
+          "Israel",
+          "Miliband"
         ],
         "latest_progress": [
-          "10月08日 01:02 UTC，Al Jazeera报道：“Yemeni government forces claim 1,860 Houthis ‘neutralised’”。",
-          "10月08日 00:00 UTC，Al Jazeera报道：“Yemen war live: Yemeni forces claim key heights as Houthi attacks go on”。"
+          "10月08日 08:25 UTC，Al Jazeera报道：“Video: Signs removed from British consulate in occupied East Jerusalem”。",
+          "10月08日 08:18 UTC，BBC World报道：“Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain”。",
+          "10月08日 05:06 UTC，Al Jazeera报道：“UK renames East Jerusalem consulate as a mission; some diplomats to remain”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -736,30 +431,45 @@
       },
       "articles": [
         {
-          "article_id": "art_233e827426c90eda3995",
-          "url": "https://www.aljazeera.com/news/2026/10/8/yemeni-government-forces-claim-1860-houthis-neutralised?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/8/yemeni-government-forces-claim-1860-houthis-neutralised?traffic_source=rss",
-          "title": "Yemeni government forces claim 1,860 Houthis ‘neutralised’",
-          "summary": "Yemeni government forces said in a social media post that they carried out 2,103 'precise targeting operations'.",
+          "article_id": "art_d8b1adf45002cdb7a660",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/video-signs-removed-from-british-consulate-in-occupied-east-jerusalem?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/video-signs-removed-from-british-consulate-in-occupied-east-jerusalem?traffic_source=rss",
+          "title": "Video: Signs removed from British consulate in occupied East Jerusalem",
+          "summary": "Signs from the British consulate in occupied East Jerusalem were removed overnight as a deadline for its closure loomed.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-08T01:02:07+00:00",
-          "fetched_at": "2026-10-08T01:56:15.115468+00:00",
+          "published_at": "2026-10-08T08:25:20+00:00",
+          "fetched_at": "2026-10-08T08:57:26.198134+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_77741c09394484dc8c47",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/8/yemen-war-live-yemeni-forces-claim-key-heights-as-houthi-attacks-go-on?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/8/yemen-war-live-yemeni-forces-claim-key-heights-as-houthi-attacks-go-on?traffic_source=rss",
-          "title": "Yemen war live: Yemeni forces claim key heights as Houthi attacks go on",
-          "summary": "Saudi-backed Yemeni forces claim advances in western Taiz's mountain belt overlooking the coast.",
+          "article_id": "art_495d6fc88bb8f8ef6f92",
+          "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_campaign=rss&at_medium=RSS",
+          "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
+          "summary": "Israel said in September it would act in response to UK sanctions on illegal Israeli settlements in the West Bank.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-08T08:18:36+00:00",
+          "fetched_at": "2026-10-08T08:57:25.506770+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1af2/live/5079a140-c2df-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_3378967b3aa193ec3cb8",
+          "url": "https://www.aljazeera.com/news/2026/10/8/signage-at-uk-consulate-in-east-jerusalem-removed-as-israels-deadline-over?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/8/signage-at-uk-consulate-in-east-jerusalem-removed-as-israels-deadline-over?traffic_source=rss",
+          "title": "UK renames East Jerusalem consulate as a mission; some diplomats to remain",
+          "summary": "UK Foreign ⁠Minister ⁠Ed Miliband says consulate building will not be closing as Israeli deadline expires.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-08T00:00:00+00:00",
-          "fetched_at": "2026-10-08T01:56:15.116104+00:00",
+          "published_at": "2026-10-08T05:06:25+00:00",
+          "fetched_at": "2026-10-08T08:57:26.198934+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -768,50 +478,140 @@
       ]
     },
     {
-      "event_id": "evt_350ea0377b9689854180",
-      "title": "Israelis demand accountability over 7 October failures three years after attacks",
-      "category": "军事安全",
-      "score": 62.6,
+      "event_id": "evt_4adafa3d3a69a86029ca",
+      "title": "Former Venezuelan President Nicolás Maduro expected to face more charges this week",
+      "category": "国际政治",
+      "score": 65.3,
       "score_breakdown": {
         "coverage": 11.0,
-        "source_diversity": 3.6,
+        "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 17.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
+        "recency": 19.9,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.9
       },
-      "first_seen": "2026-10-07T16:00:18+00:00",
-      "last_updated": "2026-10-07T20:27:03+00:00",
-      "source_count": 1,
+      "first_seen": "2026-10-07T22:50:00+00:00",
+      "last_updated": "2026-10-08T06:30:00+00:00",
+      "source_count": 2,
       "article_count": 2,
       "sources": [
-        "BBC World"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "israelis",
-        "october",
-        "three",
-        "years",
-        "attack",
-        "demand",
-        "accountability",
-        "failures"
+        "charges",
+        "maduro",
+        "torture",
+        "venezuelan",
+        "expected",
+        "more",
+        "wife",
+        "americans"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的军事安全事件为“Israelis demand accountability over 7 October failures three years after attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Former Venezuelan President Nicolás Maduro expected to face more charges this week”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Israelis",
-          "October",
-          "Hamas"
+          "US",
+          "Venezuela",
+          "Maduro",
+          "Former Venezuelan President"
         ],
         "latest_progress": [
-          "10月07日 20:27 UTC，BBC World报道：“Israelis mourn 7 October attack victims three years after deadly Hamas raid”。",
-          "10月07日 16:00 UTC，BBC World报道：“Israelis demand accountability over 7 October failures three years after attacks”。"
+          "10月08日 06:30 UTC，DW Top Stories报道：“US to lay fresh torture charges against Venezuela's Maduro and wife”。",
+          "10月07日 22:50 UTC，BBC World报道：“Former Venezuelan President Nicolás Maduro expected to face more charges this week”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a3ea124bed9ef0f3fb86",
+          "url": "https://www.dw.com/en/us-to-lay-fresh-torture-charges-against-venezuela-s-maduro-and-wife/a-79588019?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-to-lay-fresh-torture-charges-against-venezuela-s-maduro-and-wife/a-79588019?maca=en-rss-en-top-1022-rdf",
+          "title": "US to lay fresh torture charges against Venezuela's Maduro and wife",
+          "summary": "Prosecutors are considering charges for the alleged torture of more than a dozen Americans detained in Venezuela. Meanwhile, Cilia Flores is seeking release from jail on health grounds.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-08T06:30:00+00:00",
+          "fetched_at": "2026-10-08T08:57:25.981432+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_a99446dd773b83f9e9d2",
+          "url": "https://www.bbc.co.uk/news/articles/cx62y37r1p8eo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cx62y37r1p8eo?at_campaign=rss&at_medium=RSS",
+          "title": "Former Venezuelan President Nicolás Maduro expected to face more charges this week",
+          "summary": "The new charges are expected to accuse Maduro and his wife of playing a role in the torture of Americans in Venezuelan prisons, US media reports.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-07T22:50:00+00:00",
+          "fetched_at": "2026-10-08T08:57:25.507434+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/194b/live/a826b5f0-c2e3-11f1-babe-4199b0e7ccea.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2a1de0eef2375cfcb84e",
+      "title": "How Gaza war sped up India’s shift towards Israel under Modi",
+      "category": "军事安全",
+      "score": 62.7,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-08T08:31:44+00:00",
+      "last_updated": "2026-10-08T08:31:44+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "india",
+        "gaza",
+        "war",
+        "sped",
+        "shift",
+        "towards",
+        "israel",
+        "under"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“How Gaza war sped up India’s shift towards Israel under Modi”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "How Gaza",
+          "India",
+          "Israel",
+          "Modi"
+        ],
+        "latest_progress": [
+          "10月08日 08:31 UTC，Al Jazeera报道：“How Gaza war sped up India’s shift towards Israel under Modi”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -824,20 +624,84 @@
       },
       "articles": [
         {
-          "article_id": "art_48b6ef3add8b4cb8458e",
-          "url": "https://www.bbc.co.uk/news/articles/cwkgj0g30m5jo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwkgj0g30m5jo?at_campaign=rss&at_medium=RSS",
-          "title": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
-          "summary": "Memorial events have taken place in Israel on the third anniversary of the Hamas-led attack that sparked the devastating Gaza war.",
-          "source": "BBC World",
+          "article_id": "art_a7cd484fa7ef443c23ae",
+          "url": "https://www.aljazeera.com/news/2026/10/8/how-gaza-war-sped-up-indias-shift-towards-israel-under-modi?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/8/how-gaza-war-sped-up-indias-shift-towards-israel-under-modi?traffic_source=rss",
+          "title": "How Gaza war sped up India’s shift towards Israel under Modi",
+          "summary": "As even Israel's traditional allies are distancing themselves from Netanyahu, Modi's India has embraced the country.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-07T20:27:03+00:00",
-          "fetched_at": "2026-10-08T01:56:14.221116+00:00",
+          "published_at": "2026-10-08T08:31:44+00:00",
+          "fetched_at": "2026-10-08T08:57:26.197959+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d466/live/028c9160-c28d-11f1-81d9-d568e8babc26.jpg"
-        },
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_babf1105eb5ecd146fd0",
+      "title": "Israelis demand accountability over 7 October failures three years after attacks",
+      "category": "国际政治",
+      "score": 62.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 10.9,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-07T09:00:00+00:00",
+      "last_updated": "2026-10-07T16:00:18+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "israelis",
+        "warned",
+        "netanyahu",
+        "before",
+        "oct",
+        "attacks",
+        "prime",
+        "minister"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的国际政治事件为“Israelis demand accountability over 7 October failures three years after attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Israelis",
+          "October",
+          "And",
+          "Israel",
+          "Oct",
+          "Netanyahu"
+        ],
+        "latest_progress": [
+          "10月07日 16:00 UTC，BBC World报道：“Israelis demand accountability over 7 October failures three years after attacks”。",
+          "10月07日 10:52 UTC，NPR World报道：“U.S. moves long-range bombers from U.K. And, Israel allegedly warned before Oct. 7”。",
+          "10月07日 09:00 UTC，NPR World报道：“3 years on, Israelis grapple with reports Netanyahu was warned before Oct. 7 attacks”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
           "article_id": "art_8f4b0b073bf6015acaac",
           "url": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o?at_medium=RSS&at_campaign=rss",
@@ -847,136 +711,62 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-07T16:00:18+00:00",
-          "fetched_at": "2026-10-08T01:56:14.221261+00:00",
+          "fetched_at": "2026-10-08T08:57:25.507766+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80cb/live/9b494cf0-c25f-11f1-babe-4199b0e7ccea.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_319fc26d5870cb8a6931",
-      "title": "France halts use of stun grenades after boy's hand blown off in student protests",
-      "category": "能源资源",
-      "score": 62.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.7,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.2
-      },
-      "first_seen": "2026-10-06T21:22:22+00:00",
-      "last_updated": "2026-10-07T17:47:31+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "france",
-        "use",
-        "protesters",
-        "stun",
-        "grenades",
-        "police",
-        "protests",
-        "against"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“France halts use of stun grenades after boy's hand blown off in student protests”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "France",
-          "Riot"
-        ],
-        "latest_progress": [
-          "10月07日 17:47 UTC，BBC World报道：“France halts use of stun grenades after boy's hand blown off in student protests”。",
-          "10月07日 12:12 UTC，DW Top Stories报道：“France suspends use of stun grenades against protesters”。",
-          "10月06日 21:22 UTC，BBC World报道：“Watch: Riot police clash with school protesters and use tear gas in France”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_78241c42a676de857667",
-          "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_campaign=rss&at_medium=RSS",
-          "title": "France halts use of stun grenades after boy's hand blown off in student protests",
-          "summary": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-07T17:47:31+00:00",
-          "fetched_at": "2026-10-08T01:56:14.221392+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b147/live/114ad2c0-c229-11f1-babe-4199b0e7ccea.jpg"
         },
         {
-          "article_id": "art_e3036934cbe7265ef8a8",
-          "url": "https://www.dw.com/en/france-suspends-use-of-stun-grenades-against-protesters/a-79577769?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-suspends-use-of-stun-grenades-against-protesters/a-79577769?maca=en-rss-en-top-1022-rdf",
-          "title": "France suspends use of stun grenades against protesters",
-          "summary": "France suspended the use of stun grenades against protesters as allegations of student brutality draw more anger. French Prime Minister Sebastien Lecornu said the country could not ignore students' concerns.",
-          "source": "DW Top Stories",
+          "article_id": "art_76a0249464f20fbb7a6f",
+          "url": "https://www.npr.org/2026/10/07/g-s1-146853/up-first-newsletter-long-range-bombers-france-high-school-protest-germany-august-hanning-oct-7-memorial-day",
+          "canonical_url": "https://www.npr.org/2026/10/07/g-s1-146853/up-first-newsletter-long-range-bombers-france-high-school-protest-germany-august-hanning-oct-7-memorial-day",
+          "title": "U.S. moves long-range bombers from U.K. And, Israel allegedly warned before Oct. 7",
+          "summary": "A possible Iranian threat led the U.S. to remove long-range bombers from a U.K. base. And, Israelis are learning that their prime minister may have been warned before the Oct. 7 attacks.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-07T12:12:00+00:00",
-          "fetched_at": "2026-10-08T01:56:14.662941+00:00",
+          "published_at": "2026-10-07T10:52:58+00:00",
+          "fetched_at": "2026-10-08T08:57:26.110325+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_fd095b82f302a139a744",
-          "url": "https://www.bbc.co.uk/news/videos/cwm26078pkepo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwm26078pkepo?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: Riot police clash with school protesters and use tear gas in France",
-          "summary": "Hundreds of thousands of people have taken to the streets across France amid a wave of protests by high-school pupils.",
-          "source": "BBC World",
+          "article_id": "art_c29fcdcbc63e1e4a9aff",
+          "url": "https://www.npr.org/2026/10/07/g-s1-146776/israel-gaza-oct-7-attack-netanyahu-warning",
+          "canonical_url": "https://www.npr.org/2026/10/07/g-s1-146776/israel-gaza-oct-7-attack-netanyahu-warning",
+          "title": "3 years on, Israelis grapple with reports Netanyahu was warned before Oct. 7 attacks",
+          "summary": "On the three-year mark since the Hamas-led deadly attack, Israelis are grappling with reports that Prime Minister Benjamin Netanyahu was repeatedly warned by regional allies ahead of time.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-06T21:22:22+00:00",
-          "fetched_at": "2026-10-08T01:56:14.223352+00:00",
+          "published_at": "2026-10-07T09:00:00+00:00",
+          "fetched_at": "2026-10-08T08:57:26.110519+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f413/live/3e649d70-c1c7-11f1-a64c-550be9e3c66b.jpg"
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_a68afa61b2d059901f7f",
-      "title": "Death of 87-year old sparks furious Spain housing protests",
+      "event_id": "evt_ff8df161165ad7672bb9",
+      "title": "Protesters in Colombia rally against ties with Israel",
       "category": "社会突发",
-      "score": 61.1,
+      "score": 62.6,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.4,
+        "recency": 18.8,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-08T01:15:27+00:00",
-      "last_updated": "2026-10-08T01:15:27+00:00",
+      "first_seen": "2026-10-08T04:30:57+00:00",
+      "last_updated": "2026-10-08T05:09:13+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "sources": [
         "Al Jazeera"
       ],
@@ -984,24 +774,27 @@
         "Middle East"
       ],
       "keywords": [
-        "spain",
-        "death",
-        "year",
-        "old",
-        "sparks",
-        "furious",
-        "housing",
-        "protests"
+        "protesters",
+        "rally",
+        "trump",
+        "against",
+        "interrupted",
+        "texas",
+        "least",
+        "removed"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Death of 87-year old sparks furious Spain housing protests”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的社会突发事件为“Protesters in Colombia rally against ties with Israel”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Death",
-          "Spain"
+          "Protesters",
+          "Colombia",
+          "Israel Trump",
+          "Texas"
         ],
         "latest_progress": [
-          "10月08日 01:15 UTC，Al Jazeera报道：“Death of 87-year old sparks furious Spain housing protests”。"
+          "10月08日 05:09 UTC，Al Jazeera报道：“Protesters in Colombia rally against ties with Israel”。",
+          "10月08日 04:30 UTC，Al Jazeera报道：“Trump interrupted by protesters at Texas rally”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -1014,18 +807,175 @@
       },
       "articles": [
         {
-          "article_id": "art_644f8a04d911eec0710c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/death-of-87-year-old-sparks-furious-spain-housing-protests?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/death-of-87-year-old-sparks-furious-spain-housing-protests?traffic_source=rss",
-          "title": "Death of 87-year old sparks furious Spain housing protests",
-          "summary": "Hundreds of protesters gather outside Spain’s Parliament, demanding action over soaring rents.",
+          "article_id": "art_d8511e16e53368647c93",
+          "url": "https://www.aljazeera.com/news/2026/10/8/protesters-in-colombia-rally-against-ties-with-israel?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/8/protesters-in-colombia-rally-against-ties-with-israel?traffic_source=rss",
+          "title": "Protesters in Colombia rally against ties with Israel",
+          "summary": "Hundreds took to the streets of Bogota to protest against the ongoing genocide in Gaza.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-08T01:15:27+00:00",
-          "fetched_at": "2026-10-08T01:56:15.115301+00:00",
+          "published_at": "2026-10-08T05:09:13+00:00",
+          "fetched_at": "2026-10-08T08:57:26.198855+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1d45aeb35d36c9deadcd",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/trump-interrupted-by-protesters-at-texas-rally?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/trump-interrupted-by-protesters-at-texas-rally?traffic_source=rss",
+          "title": "Trump interrupted by protesters at Texas rally",
+          "summary": "At least 10 protesters were removed from a Trump rally in San Antonio as he was heckled during his speech.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-08T04:30:57+00:00",
+          "fetched_at": "2026-10-08T08:57:26.199000+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_478972b9c810cf0ca28d",
+      "title": "Why Israel loves skunk water",
+      "category": "军事安全",
+      "score": 62.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-08T08:15:52+00:00",
+      "last_updated": "2026-10-08T08:15:52+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "israel",
+        "loves",
+        "skunk",
+        "water",
+        "foul-smelling",
+        "weapon",
+        "turns",
+        "palestinian"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why Israel loves skunk water”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Why Israel"
+        ],
+        "latest_progress": [
+          "10月08日 08:15 UTC，Al Jazeera报道：“Why Israel loves skunk water”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9cd11c11ac9b74cab6c2",
+          "url": "https://www.aljazeera.com/opinions/2026/10/8/why-israel-loves-skunk-water?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/opinions/2026/10/8/why-israel-loves-skunk-water?traffic_source=rss",
+          "title": "Why Israel loves skunk water",
+          "summary": "Israel’s foul-smelling weapon turns Palestinian repression into a sales pitch.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-08T08:15:52+00:00",
+          "fetched_at": "2026-10-08T08:57:26.198210+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_73ddaa7258e61334d4bd",
+      "title": "Former ambassador on NATO's meeting in Ukraine and the ongoing war",
+      "category": "军事安全",
+      "score": 62.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.8,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-08T08:44:37+00:00",
+      "last_updated": "2026-10-08T08:44:37+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "NPR World"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "keywords": [
+        "former",
+        "ambassador",
+        "meeting",
+        "ongoing",
+        "war",
+        "nato",
+        "nato's",
+        "ukraine"
+      ],
+      "analysis": {
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“Former ambassador on NATO's meeting in Ukraine and the ongoing war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Former",
+          "NATO",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月08日 08:44 UTC，NPR World报道：“Former ambassador on NATO's meeting in Ukraine and the ongoing war”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_fe112187877e0906d600",
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5993774/former-ambassador-on-natos-meeting-in-ukraine-and-the-ongoing-war",
+          "canonical_url": "https://www.npr.org/2026/10/08/nx-s1-5993774/former-ambassador-on-natos-meeting-in-ukraine-and-the-ongoing-war",
+          "title": "Former ambassador on NATO's meeting in Ukraine and the ongoing war",
+          "summary": "Military representatives from all 32 NATO member states met in Kyiv. NPR's Steve Inskeep speaks with Kurt Volker, former U.S. ambassador to NATO, about the meeting and the ongoing war.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-08T08:44:37+00:00",
+          "fetched_at": "2026-10-08T08:57:26.109878+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
