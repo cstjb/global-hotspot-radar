@@ -1,286 +1,62 @@
 {
-  "generated_at": "2026-10-09T02:10:08.061628+00:00",
+  "generated_at": "2026-10-09T09:05:09.517751+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 192,
-    "articles_unique": 181,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 91,
+    "articles_unique": 91,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_761a6c63ab295c0debed",
-      "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
-      "category": "国际政治",
-      "score": 81.4,
+      "event_id": "evt_4161dee4e1e856a2fc18",
+      "title": "USS Lincoln returns to US after long deployment supporting war on Iran",
+      "category": "军事安全",
+      "score": 78.0,
       "score_breakdown": {
         "coverage": 16.1,
-        "source_diversity": 14.4,
+        "source_diversity": 10.8,
         "region_diversity": 7.5,
-        "recency": 17.6,
-        "credibility": 9.8,
-        "impact": 11.0,
+        "recency": 15.7,
+        "credibility": 9.9,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-08T16:05:37+00:00",
-      "last_updated": "2026-10-08T20:47:43+00:00",
-      "source_count": 4,
+      "first_seen": "2026-10-08T22:26:10+00:00",
+      "last_updated": "2026-10-09T00:57:45+00:00",
+      "source_count": 3,
       "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "maduro",
-        "torture",
-        "venezuelan",
-        "charges",
-        "former",
-        "president",
-        "nicol",
-        "against"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "US",
-          "Venezuela",
-          "Nicolas Maduro",
-          "Maduro",
-          "Maduro New",
-          "Venezuelan President"
-        ],
-        "latest_progress": [
-          "10月08日 20:47 UTC，Al Jazeera报道：“US charges Venezuela’s Nicolas Maduro over torture allegations”。",
-          "10月08日 17:38 UTC，BBC World报道：“Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture”。",
-          "10月08日 16:24 UTC，DW Top Stories报道：“US prosecutors add new torture charge against Maduro”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_eaca1a2228ea0eedf122",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/us-charges-venezuelas-nicolas-maduro-over-torture-allegations?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/us-charges-venezuelas-nicolas-maduro-over-torture-allegations?traffic_source=rss",
-          "title": "US charges Venezuela’s Nicolas Maduro over torture allegations",
-          "summary": "Former Venezuelan President Nicolas Maduro and his wife, Cilia Flores face a new US charge over alleged torture.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-08T20:47:43+00:00",
-          "fetched_at": "2026-10-09T02:10:06.351575+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_70f6798f2b6a860d5940",
-          "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_campaign=rss&at_medium=RSS",
-          "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
-          "summary": "The new accusations relate to the alleged torture of US citizens held in Venezuela while Maduro was in power.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-08T17:38:59+00:00",
-          "fetched_at": "2026-10-09T02:10:05.209922+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcd9/live/df938ae0-c329-11f1-9981-cf94ea240e40.jpg"
-        },
-        {
-          "article_id": "art_ef6b6a63d6daf6c666f1",
-          "url": "https://www.dw.com/en/us-prosecutors-add-new-torture-charge-against-maduro/a-79588019?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-prosecutors-add-new-torture-charge-against-maduro/a-79588019?maca=en-rss-en-top-1022-rdf",
-          "title": "US prosecutors add new torture charge against Maduro",
-          "summary": "US prosecutors have added a new charge to their case against deposed Venezuelan leader Nicolas Maduro and his wife, Cilia Flores, accusing the couple of conspiring to commit torture.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-08T16:24:00+00:00",
-          "fetched_at": "2026-10-09T02:10:05.924080+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c7205b0e962e041cd009",
-          "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
-          "canonical_url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
-          "title": "New U.S. indictment charges former Venezuelan President Nicolás Maduro with torture",
-          "summary": "U.S. authorities added new torture charges to their case against former Venezuelan President Nicolás Maduro, ramping up pressure on the ousted authoritarian leader already fighting drug trafficking allegations.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-08T16:05:37+00:00",
-          "fetched_at": "2026-10-09T02:10:06.168191+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_bd46f184bd0d0d223285",
-      "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
-      "category": "军事安全",
-      "score": 78.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.3,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-08T23:36:44+00:00",
-      "last_updated": "2026-10-09T01:25:33+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "execution",
-        "pentagon",
-        "firing",
-        "squad",
-        "fort",
-        "hood",
-        "public",
-        "would"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Fort Hood",
-          "Pentagon",
-          "US",
-          "Pentagon Hegseth"
-        ],
-        "latest_progress": [
-          "10月09日 01:25 UTC，BBC World报道：“Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says”。",
-          "10月08日 23:48 UTC，DW Top Stories报道：“US to livestream Fort Hood shooter's execution: Pentagon”。",
-          "10月08日 23:36 UTC，Al Jazeera报道：“Hegseth says firing squad execution of Fort Hood shooter will be ‘public’”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_603f345f9f3baf145204",
-          "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_campaign=rss&at_medium=RSS",
-          "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
-          "summary": "The US Defence Secretary says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T01:25:33+00:00",
-          "fetched_at": "2026-10-09T02:10:05.208946+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0816/live/4b8745c0-c35c-11f1-8787-a95282cfe51d.jpg"
-        },
-        {
-          "article_id": "art_2598db8e0e61369ecae3",
-          "url": "https://www.dw.com/en/us-to-livestream-fort-hood-shooter-s-execution-pentagon/a-79606395?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-to-livestream-fort-hood-shooter-s-execution-pentagon/a-79606395?maca=en-rss-en-top-1022-rdf",
-          "title": "US to livestream Fort Hood shooter's execution: Pentagon",
-          "summary": "US Pentagon chief Pete Hegseth had said that Nidal Hasan would be executed by firing squad and that it would be done \"in public.\" Hasan's execution will be the first by the US military since 1961.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-08T23:48:00+00:00",
-          "fetched_at": "2026-10-09T02:10:05.922977+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_fbc5301120965977eec1",
-          "url": "https://www.aljazeera.com/news/2026/10/8/hegseth-says-firing-squad-execution-of-fort-hood-shooter-will-be-public?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/8/hegseth-says-firing-squad-execution-of-fort-hood-shooter-will-be-public?traffic_source=rss",
-          "title": "Hegseth says firing squad execution of Fort Hood shooter will be ‘public’",
-          "summary": "An official at the Pentagon told Al Jazeera that former US Army Major Nidal Hasan's execution would be 'livestreamed'.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-08T23:36:44+00:00",
-          "fetched_at": "2026-10-09T02:10:06.349970+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_9acf4610b3fd155af569",
-      "title": "USS Lincoln returns to US after long deployment supporting war on Iran",
-      "category": "军事安全",
-      "score": 74.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.9,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-09T00:05:48+00:00",
-      "last_updated": "2026-10-09T00:57:45+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
         "Middle East",
         "North America"
       ],
       "keywords": [
         "uss",
         "lincoln",
-        "returns",
-        "home",
-        "abraham",
         "sea",
-        "deployment",
-        "san"
+        "san",
+        "diego",
+        "war",
+        "iran",
+        "returns"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的3篇报道，当前关注的军事安全事件为“USS Lincoln returns to US after long deployment supporting war on Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的4篇报道，当前关注的军事安全事件为“USS Lincoln returns to US after long deployment supporting war on Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "USS",
@@ -288,7 +64,8 @@
           "Lincoln",
           "US",
           "Iran The",
-          "San Diego Bay"
+          "San Diego Bay",
+          "San Diego"
         ],
         "latest_progress": [
           "10月09日 00:57 UTC，Al Jazeera报道：“USS Abraham Lincoln returns after record-breaking deployment”。",
@@ -314,7 +91,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-09T00:57:45+00:00",
-          "fetched_at": "2026-10-09T02:10:06.348775+00:00",
+          "fetched_at": "2026-10-09T09:05:08.541384+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -329,7 +106,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-09T00:39:20+00:00",
-          "fetched_at": "2026-10-09T02:10:06.349108+00:00",
+          "fetched_at": "2026-10-09T09:05:08.541705+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -344,32 +121,262 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T00:05:48+00:00",
-          "fetched_at": "2026-10-09T02:10:06.168014+00:00",
+          "fetched_at": "2026-10-09T09:05:08.416418+00:00",
           "language": "en",
           "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5dd7c4d93dec86e40e98",
+          "url": "https://www.bbc.co.uk/news/videos/cwp8gnp14xr2o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwp8gnp14xr2o?at_campaign=rss&at_medium=RSS",
+          "title": "​​USS Lincoln finally docks in San Diego after 10-month mission",
+          "summary": "The US aircraft carrier was set to return in May but the war with Iran has kept it at sea on one of the longest deployments ever.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-08T22:26:10+00:00",
+          "fetched_at": "2026-10-09T09:05:08.151231+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44b9/live/ed8b84e0-c35b-11f1-bc2e-018d645d8d21.png"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ed89290ca16b9c5aa0d3",
+      "title": "ICE shooting of New York man in car with five-year-old sparks protests",
+      "category": "军事安全",
+      "score": 77.9,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 18.1,
+        "credibility": 9.9,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-09T00:16:00+00:00",
+      "last_updated": "2026-10-09T04:26:50+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "york",
+        "man",
+        "ice",
+        "shooting",
+        "city",
+        "mayor",
+        "said",
+        "car"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“ICE shooting of New York man in car with five-year-old sparks protests”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Uproar",
+          "NY",
+          "ICE",
+          "New York City",
+          "New York",
+          "Man"
+        ],
+        "latest_progress": [
+          "10月09日 04:26 UTC，Al Jazeera报道：“Uproar in NY after ICE shoots man with child in the car”。",
+          "10月09日 04:26 UTC，BBC World报道：“ICE agent shoots man in New York City”。",
+          "10月09日 03:25 UTC，Al Jazeera报道：“ICE shooting of New York man in car with five-year-old sparks protests”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_84849ebd90dbf086f63c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/uproar-in-ny-after-ice-shoots-man-with-child-in-the-car?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/uproar-in-ny-after-ice-shoots-man-with-child-in-the-car?traffic_source=rss",
+          "title": "Uproar in NY after ICE shoots man with child in the car",
+          "summary": "There are protests and outrage in New York after ICE agents shot a man after surrounding his vehicle.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T04:26:50+00:00",
+          "fetched_at": "2026-10-09T09:05:08.540437+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_21e96a71ce05bd2b4291",
+          "url": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_campaign=rss&at_medium=RSS",
+          "title": "ICE agent shoots man in New York City",
+          "summary": "The mayor of New York expressed outrage at the shooting which the Department of Homeland Security said happened during the arrest of a \"criminal illegal alien\".",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T04:26:19+00:00",
+          "fetched_at": "2026-10-09T09:05:08.146710+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7221/live/91f77890-c384-11f1-ade5-f77879e85d6f.jpg"
+        },
+        {
+          "article_id": "art_ad96f6bf82408e9e5a06",
+          "url": "https://www.aljazeera.com/news/2026/10/9/ice-agent-shoots-man-in-car-with-five-year-old-child-in-new-york-mayor?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/ice-agent-shoots-man-in-car-with-five-year-old-child-in-new-york-mayor?traffic_source=rss",
+          "title": "ICE shooting of New York man in car with five-year-old sparks protests",
+          "summary": "Mayor, governor and US lawmakers condemn the shooting by immigration officers.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T03:25:33+00:00",
+          "fetched_at": "2026-10-09T09:05:08.540777+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_75e0faacb0e80f690382",
+          "url": "https://www.dw.com/en/man-injured-after-new-york-shooting-involving-ice/a-79606159?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/man-injured-after-new-york-shooting-involving-ice/a-79606159?maca=en-rss-en-top-1022-rdf",
+          "title": "Man injured after New York shooting involving ICE",
+          "summary": "New York City Mayor Zohran Mamdani has condemned the incident and urged Donald Trump to end ICE actions in the city. The man was being treated at a nearby hospital, New York police said.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-09T00:16:00+00:00",
+          "fetched_at": "2026-10-09T09:05:08.209785+00:00",
+          "language": "en",
+          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_117892289672102c8edf",
-      "title": "South Korea recalls Ukraine envoy over prisoner-of-war row",
+      "event_id": "evt_ccc8ab01e9ea2a4ccfc9",
+      "title": "Firing squad execution to be livestreamed, Pentagon says",
       "category": "军事安全",
-      "score": 74.2,
+      "score": 67.8,
       "score_breakdown": {
-        "coverage": 16.1,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 4.1
+      },
+      "first_seen": "2026-10-08T23:48:00+00:00",
+      "last_updated": "2026-10-09T07:05:05+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "execution",
+        "pentagon",
+        "pete",
+        "hegseth",
+        "would",
+        "firing",
+        "squad",
+        "public"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Firing squad execution to be livestreamed, Pentagon says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Firing",
+          "Pentagon",
+          "US",
+          "Fort Hood"
+        ],
+        "latest_progress": [
+          "10月09日 07:05 UTC，BBC World报道：“Firing squad execution to be livestreamed, Pentagon says”。",
+          "10月08日 23:48 UTC，DW Top Stories报道：“US to livestream Fort Hood shooter's execution: Pentagon”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_603f345f9f3baf145204",
+          "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_campaign=rss&at_medium=RSS",
+          "title": "Firing squad execution to be livestreamed, Pentagon says",
+          "summary": "Pete Hegseth says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T07:05:05+00:00",
+          "fetched_at": "2026-10-09T09:05:08.146310+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0816/live/4b8745c0-c35c-11f1-8787-a95282cfe51d.jpg"
+        },
+        {
+          "article_id": "art_2598db8e0e61369ecae3",
+          "url": "https://www.dw.com/en/us-to-livestream-fort-hood-shooter-s-execution-pentagon/a-79606395?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-to-livestream-fort-hood-shooter-s-execution-pentagon/a-79606395?maca=en-rss-en-top-1022-rdf",
+          "title": "US to livestream Fort Hood shooter's execution: Pentagon",
+          "summary": "US Pentagon chief Pete Hegseth had said that Nidal Hasan would be executed by firing squad and that it would be done \"in public.\" Hasan's execution will be the first by the US military since 1961.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-08T23:48:00+00:00",
+          "fetched_at": "2026-10-09T09:05:08.209915+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_761a6c63ab295c0debed",
+      "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
+      "category": "国际政治",
+      "score": 67.0,
+      "score_breakdown": {
+        "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 14.6,
-        "credibility": 9.6,
-        "impact": 13.0,
+        "recency": 11.6,
+        "credibility": 9.7,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-08T12:01:34+00:00",
-      "last_updated": "2026-10-08T16:23:09+00:00",
+      "first_seen": "2026-10-08T16:05:37+00:00",
+      "last_updated": "2026-10-08T17:38:59+00:00",
       "source_count": 3,
-      "article_count": 4,
+      "article_count": 3,
       "sources": [
         "BBC World",
         "DW Top Stories",
@@ -380,29 +387,405 @@
         "North America"
       ],
       "keywords": [
+        "maduro",
+        "torture",
+        "venezuelan",
+        "nicol",
+        "against",
+        "charges",
+        "former",
+        "president"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Venezuela",
+          "Maduro",
+          "US",
+          "Maduro New",
+          "Venezuelan President"
+        ],
+        "latest_progress": [
+          "10月08日 17:38 UTC，BBC World报道：“Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture”。",
+          "10月08日 16:24 UTC，DW Top Stories报道：“US prosecutors add new torture charge against Maduro”。",
+          "10月08日 16:05 UTC，NPR World报道：“New U.S. indictment charges former Venezuelan President Nicolás Maduro with torture”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_70f6798f2b6a860d5940",
+          "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_campaign=rss&at_medium=RSS",
+          "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
+          "summary": "The new accusations relate to the alleged torture of US citizens held in Venezuela while Maduro was in power.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-08T17:38:59+00:00",
+          "fetched_at": "2026-10-09T09:05:08.147846+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcd9/live/df938ae0-c329-11f1-9981-cf94ea240e40.jpg"
+        },
+        {
+          "article_id": "art_ef6b6a63d6daf6c666f1",
+          "url": "https://www.dw.com/en/us-prosecutors-add-new-torture-charge-against-maduro/a-79588019?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-prosecutors-add-new-torture-charge-against-maduro/a-79588019?maca=en-rss-en-top-1022-rdf",
+          "title": "US prosecutors add new torture charge against Maduro",
+          "summary": "US prosecutors have added a new charge to their case against deposed Venezuelan leader Nicolas Maduro and his wife, Cilia Flores, accusing the couple of conspiring to commit torture.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-08T16:24:00+00:00",
+          "fetched_at": "2026-10-09T09:05:08.210954+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c7205b0e962e041cd009",
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
+          "canonical_url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
+          "title": "New U.S. indictment charges former Venezuelan President Nicolás Maduro with torture",
+          "summary": "U.S. authorities added new torture charges to their case against former Venezuelan President Nicolás Maduro, ramping up pressure on the ousted authoritarian leader already fighting drug trafficking allegations.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-08T16:05:37+00:00",
+          "fetched_at": "2026-10-09T09:05:08.416572+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3e3092a8d529c8eca1c2",
+      "title": "Trump says US will not strike Iran before midterm elections",
+      "category": "能源资源",
+      "score": 66.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.5
+      },
+      "first_seen": "2026-10-08T18:18:00+00:00",
+      "last_updated": "2026-10-09T06:22:07+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "iran",
+        "trump",
+        "not",
+        "before",
+        "resume",
+        "strikes",
+        "midterm",
+        "elections"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Trump says US will not strike Iran before midterm elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Trump",
+          "US",
+          "Iran"
+        ],
+        "latest_progress": [
+          "10月09日 06:22 UTC，Al Jazeera报道：“Trump says US will not strike Iran before midterm elections”。",
+          "10月08日 18:18 UTC，DW Top Stories报道：“US will not resume strikes on Iran before midterms — Trump”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f68c9f2d209977572979",
+          "url": "https://www.aljazeera.com/news/2026/10/9/trump-says-us-will-not-strike-iran-before-midterm-elections?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/trump-says-us-will-not-strike-iran-before-midterm-elections?traffic_source=rss",
+          "title": "Trump says US will not strike Iran before midterm elections",
+          "summary": "Oil prices drop as Trump dismisses speculation of pre-midterm military action against Iran.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T06:22:07+00:00",
+          "fetched_at": "2026-10-09T09:05:08.539453+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ceafa15d34b2cd835c6e",
+          "url": "https://www.dw.com/en/us-will-not-resume-strikes-on-iran-before-midterms-trump/a-79603731?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-will-not-resume-strikes-on-iran-before-midterms-trump/a-79603731?maca=en-rss-en-top-1022-rdf",
+          "title": "US will not resume strikes on Iran before midterms — Trump",
+          "summary": "President Donald Trump said the US will not resume strikes on Iran before the midterm elections on November 3. High gas and grocery prices are top concerns for voters.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-08T18:18:00+00:00",
+          "fetched_at": "2026-10-09T09:05:08.210694+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6baf33e4ee0107b1d87b",
+      "title": "Russian strikes and approaching winter force some in Kyiv to pack bags and flee",
+      "category": "军事安全",
+      "score": 66.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.5,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 1.7
+      },
+      "first_seen": "2026-10-08T11:25:28+00:00",
+      "last_updated": "2026-10-09T04:53:50+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "russian",
+        "strikes",
+        "ukraine's",
+        "kyiv",
+        "some",
+        "public",
+        "buses",
+        "leave"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的军事安全事件为“Russian strikes and approaching winter force some in Kyiv to pack bags and flee”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russian",
+          "Kyiv",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月09日 04:53 UTC，BBC World报道：“Russian strikes and approaching winter force some in Kyiv to pack bags and flee”。",
+          "10月08日 11:25 UTC，NPR World报道：“Russian strikes on Ukraine's public buses leave 30 dead as blackouts worsen in Kyiv”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c43fd768ca067d285372",
+          "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_campaign=rss&at_medium=RSS",
+          "title": "Russian strikes and approaching winter force some in Kyiv to pack bags and flee",
+          "summary": "A renewed Russian campaign of strikes on power and energy infrastructure has made some contemplate leaving Ukraine's capital.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T04:53:50+00:00",
+          "fetched_at": "2026-10-09T09:05:08.146878+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/93d7/live/c7941370-c3a0-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_eb0c218e01f8eba1745a",
+          "url": "https://www.npr.org/2026/10/08/g-s1-147106/russia-ukraine-war",
+          "canonical_url": "https://www.npr.org/2026/10/08/g-s1-147106/russia-ukraine-war",
+          "title": "Russian strikes on Ukraine's public buses leave 30 dead as blackouts worsen in Kyiv",
+          "summary": "Russia and Ukraine are locked in a long-range aerial war while their armies remain largely deadlocked on the front line, more than 4 1/2 years since Moscow's full-scale invasion.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-08T11:25:28+00:00",
+          "fetched_at": "2026-10-09T09:05:08.417207+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_10a4aaea93dd5a279a67",
+      "title": "Cars torched and shops looted as anti-migrant violence erupts in South Africa",
+      "category": "国际政治",
+      "score": 65.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.2
+      },
+      "first_seen": "2026-10-08T18:42:00+00:00",
+      "last_updated": "2026-10-09T08:28:57+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "south",
+        "africa",
+        "anti-migrant",
+        "protests",
+        "violent",
+        "violence",
+        "turn",
+        "court"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Cars torched and shops looted as anti-migrant violence erupts in South Africa”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Cars",
+          "South Africa South Africa",
+          "Anti"
+        ],
+        "latest_progress": [
+          "10月09日 08:28 UTC，BBC World报道：“Cars torched and shops looted as anti-migrant violence erupts in South Africa”。",
+          "10月08日 18:42 UTC，DW Top Stories报道：“South Africa: Anti-migrant protests turn violent”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3bda8ddaa722db9f625d",
+          "url": "https://www.bbc.co.uk/news/articles/cwm24v45p4jgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwm24v45p4jgo?at_campaign=rss&at_medium=RSS",
+          "title": "Cars torched and shops looted as anti-migrant violence erupts in South Africa",
+          "summary": "South Africa has experienced recurrent outbreaks of violence, often targeting migrants from neighbouring countries.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T08:28:57+00:00",
+          "fetched_at": "2026-10-09T09:05:08.147040+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad50/live/3fc4bf60-c398-11f1-b85d-c511f5b4bc4a.jpg"
+        },
+        {
+          "article_id": "art_db3a7f0e2c6815e484bf",
+          "url": "https://www.dw.com/en/south-africa-anti-migrant-protests-turn-violent/a-79605037?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/south-africa-anti-migrant-protests-turn-violent/a-79605037?maca=en-rss-en-top-1022-rdf",
+          "title": "South Africa: Anti-migrant protests turn violent",
+          "summary": "A court order requiring the government to resume processing asylum applications reignited violent protests against immigration in South Africa.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-08T18:42:00+00:00",
+          "fetched_at": "2026-10-09T09:05:08.210548+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_117892289672102c8edf",
+      "title": "South Korea recalls Ukraine envoy over prisoner-of-war row",
+      "category": "军事安全",
+      "score": 64.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 11.0,
+        "credibility": 9.7,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-08T12:01:34+00:00",
+      "last_updated": "2026-10-08T16:23:09+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
         "south",
         "korea",
-        "korean",
         "north",
+        "korean",
         "ukraine",
         "hypersonic",
         "test",
-        "recent"
+        "test-flies"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“South Korea recalls Ukraine envoy over prisoner-of-war row”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的军事安全事件为“South Korea recalls Ukraine envoy over prisoner-of-war row”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "South Korea",
           "Ukraine",
-          "AI",
           "North Korean",
           "POW"
         ],
         "latest_progress": [
           "10月08日 16:23 UTC，BBC World报道：“South Korea recalls Ukraine envoy over prisoner-of-war row”。",
-          "10月08日 12:17 UTC，DW Top Stories报道：“South Korea warns of AI-aided hacking after bank data breaches”。",
-          "10月08日 12:13 UTC，NPR World报道：“South Korea to recall its ambassador to Ukraine over North Korean POW dispute”。"
+          "10月08日 12:13 UTC，NPR World报道：“South Korea to recall its ambassador to Ukraine over North Korean POW dispute”。",
+          "10月08日 12:01 UTC，NPR World报道：“South Korea test-flies its first domestically developed hypersonic weapon”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -423,26 +806,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-08T16:23:09+00:00",
-          "fetched_at": "2026-10-09T02:10:05.211188+00:00",
+          "fetched_at": "2026-10-09T09:05:08.149079+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f15e/live/fb9d5240-c2fa-11f1-b8c6-6d610e41a5d9.jpg"
-        },
-        {
-          "article_id": "art_c919fc0bef323df65c34",
-          "url": "https://www.dw.com/en/south-korea-warns-of-ai-aided-hacking-after-bank-data-breaches/a-79592922?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/south-korea-warns-of-ai-aided-hacking-after-bank-data-breaches/a-79592922?maca=en-rss-en-top-1022-rdf",
-          "title": "South Korea warns of AI-aided hacking after bank data breaches",
-          "summary": "Seoul is alarmed after a recent breach of South Korean banks' cyber defenses that reportedly involved AI-assisted hacking. Officials warn such methods could be used to also target other sectors and government agencies.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-08T12:17:00+00:00",
-          "fetched_at": "2026-10-09T02:10:05.925365+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
         },
         {
           "article_id": "art_1bd84ab444f01174f13e",
@@ -453,7 +821,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-08T12:13:54+00:00",
-          "fetched_at": "2026-10-09T02:10:06.168376+00:00",
+          "fetched_at": "2026-10-09T09:05:08.416758+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -468,7 +836,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-08T12:01:34+00:00",
-          "fetched_at": "2026-10-09T02:10:06.168532+00:00",
+          "fetched_at": "2026-10-09T09:05:08.416912+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -477,403 +845,21 @@
       ]
     },
     {
-      "event_id": "evt_49e9f179ae19d9c84183",
-      "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
-      "category": "国际政治",
-      "score": 69.6,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.4,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-08T12:01:55+00:00",
-      "last_updated": "2026-10-08T20:34:00+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "consulate",
-        "east",
-        "jerusalem",
-        "israel",
-        "british",
-        "removed",
-        "israeli",
-        "government"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的国际政治事件为“Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Israel",
-          "British",
-          "East Jerusalem Most",
-          "UK",
-          "East Jerusalem",
-          "Miliband",
-          "Why"
-        ],
-        "latest_progress": [
-          "10月08日 20:34 UTC，Al Jazeera报道：“Israel shuts down British consulate in occupied East Jerusalem”。",
-          "10月08日 15:21 UTC，BBC World报道：“Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain”。",
-          "10月08日 12:01 UTC，BBC World报道：“Watch: Why was the sign at the British consulate in East Jerusalem removed?”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c312d99877fd24eea962",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/israel-shuts-down-british-consulate-in-occupied-east-jerusalem?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/israel-shuts-down-british-consulate-in-occupied-east-jerusalem?traffic_source=rss",
-          "title": "Israel shuts down British consulate in occupied East Jerusalem",
-          "summary": "The British government says it will retain its presence in occupied East Jerusalem after Israel removed its consulate.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-08T20:34:00+00:00",
-          "fetched_at": "2026-10-09T02:10:06.351870+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_495d6fc88bb8f8ef6f92",
-          "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_campaign=rss&at_medium=RSS",
-          "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
-          "summary": "Israel said in September it would act in response to UK sanctions on illegal Israeli settlements in the West Bank.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-08T15:21:46+00:00",
-          "fetched_at": "2026-10-09T02:10:05.211660+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c755/live/4e65f620-c324-11f1-babe-4199b0e7ccea.jpg"
-        },
-        {
-          "article_id": "art_a056c9b44714c6af5a17",
-          "url": "https://www.bbc.co.uk/news/videos/c962yz01l7mmo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c962yz01l7mmo?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: Why was the sign at the British consulate in East Jerusalem removed?",
-          "summary": "The consulate, first established in 1838, was set to be closed by the Israeli government in retaliation for UK sanctions.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-08T12:01:55+00:00",
-          "fetched_at": "2026-10-09T02:10:05.213791+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a2c8/live/bab37fb0-c328-11f1-a64c-550be9e3c66b.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_872fc8d896944d1f01e7",
-      "title": "'Every day there is killing': Palestinians in Gaza face Israeli strikes despite ceasefire as peace deal stalls",
+      "event_id": "evt_fc6cf20c76bcefa81de9",
+      "title": "Three years after October 7, prolonged war takes its toll on Israelis",
       "category": "军事安全",
-      "score": 67.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 1.7
-      },
-      "first_seen": "2026-10-08T05:06:09+00:00",
-      "last_updated": "2026-10-08T22:54:23+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "gaza",
-        "every",
-        "palestinians",
-        "israeli",
-        "ceasefire",
-        "day",
-        "there",
-        "killing'"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“'Every day there is killing': Palestinians in Gaza face Israeli strikes despite ceasefire as peace deal stalls”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Israel",
-          "Palestinian",
-          "Gaza",
-          "Every",
-          "Palestinians",
-          "Israeli"
-        ],
-        "latest_progress": [
-          "10月08日 22:54 UTC，Al Jazeera报道：“Israel kills or wounds Palestinian every 90 minutes in Gaza since ceasefire”。",
-          "10月08日 05:06 UTC，BBC World报道：“'Every day there is killing': Palestinians in Gaza face Israeli strikes despite ceasefire as peace deal stalls”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_61a85ee55ded28e070fe",
-          "url": "https://www.aljazeera.com/news/2026/10/8/israel-kills-or-wounds-palestinian-every-90-minutes-in-gaza-since-ceasefire?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/8/israel-kills-or-wounds-palestinian-every-90-minutes-in-gaza-since-ceasefire?traffic_source=rss",
-          "title": "Israel kills or wounds Palestinian every 90 minutes in Gaza since ceasefire",
-          "summary": "Islamic Relief calls for global action as deadly Israeli attacks in Gaza continue and humanitarian conditions worsen.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-08T22:54:23+00:00",
-          "fetched_at": "2026-10-09T02:10:06.350279+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_81d20711d2c94006e35a",
-          "url": "https://www.bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_campaign=rss&at_medium=RSS",
-          "title": "'Every day there is killing': Palestinians in Gaza face Israeli strikes despite ceasefire as peace deal stalls",
-          "summary": "Many Palestinians are still living in cramped tent cities, with the US plan to end the war largely stalled.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-08T05:06:09+00:00",
-          "fetched_at": "2026-10-09T02:10:05.213171+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d71/live/8af61620-c233-11f1-a64c-550be9e3c66b.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c2163841f06b1c8fffe7",
-      "title": "Police use tear gas and water cannons on student protestors in Paris",
-      "category": "能源资源",
-      "score": 66.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.9,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-08T17:10:00+00:00",
-      "last_updated": "2026-10-08T21:17:05+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "police",
-        "paris",
-        "tear",
-        "gas",
-        "france",
-        "protesters",
-        "student",
-        "fired"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Police use tear gas and water cannons on student protestors in Paris”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Police",
-          "Paris France",
-          "Paris"
-        ],
-        "latest_progress": [
-          "10月08日 21:17 UTC，Al Jazeera报道：“Police use tear gas and water cannons on student protestors in Paris”。",
-          "10月08日 17:10 UTC，DW Top Stories报道：“France: Police clash with protesters at Paris student rally”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7d990c791b2293aec316",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/police-use-tear-gas-and-water-cannons-on-student-protestors-in-paris?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/police-use-tear-gas-and-water-cannons-on-student-protestors-in-paris?traffic_source=rss",
-          "title": "Police use tear gas and water cannons on student protestors in Paris",
-          "summary": "Police fired tear gas and water cannons as demonstrators gathered in Paris to demand more funding and teachers.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-08T21:17:05+00:00",
-          "fetched_at": "2026-10-09T02:10:06.351057+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_28b49edef98defa71ac9",
-          "url": "https://www.dw.com/en/france-police-clash-with-protesters-at-paris-student-rally/a-79603684?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-police-clash-with-protesters-at-paris-student-rally/a-79603684?maca=en-rss-en-top-1022-rdf",
-          "title": "France: Police clash with protesters at Paris student rally",
-          "summary": "Police fired tear gas at protesters in Paris again as students continue to voice grievances about school conditions across France. The education minister has said 3,000 substitute teachers will reach schools soon.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-08T17:10:00+00:00",
-          "fetched_at": "2026-10-09T02:10:05.923948+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_10a4aaea93dd5a279a67",
-      "title": "South Africa protests turn violent amid rage over asylum ruling",
-      "category": "国际政治",
-      "score": 66.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.5,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-08T18:42:00+00:00",
-      "last_updated": "2026-10-08T20:43:34+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "south",
-        "africa",
-        "protests",
-        "violent",
-        "turn",
-        "asylum",
-        "anti-migrant",
-        "court"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“South Africa protests turn violent amid rage over asylum ruling”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "South Africa",
-          "Anti"
-        ],
-        "latest_progress": [
-          "10月08日 20:43 UTC，Al Jazeera报道：“South Africa protests turn violent amid rage over asylum ruling”。",
-          "10月08日 18:42 UTC，DW Top Stories报道：“South Africa: Anti-migrant protests turn violent”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_79a526b0c6b3bc4a172a",
-          "url": "https://www.aljazeera.com/news/2026/10/8/south-africa-protests-turn-violent-amid-rage-over-asylum-ruling?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/8/south-africa-protests-turn-violent-amid-rage-over-asylum-ruling?traffic_source=rss",
-          "title": "South Africa protests turn violent amid rage over asylum ruling",
-          "summary": "Several cars torched and foreign-run businesses forced to shut in Johannesburg's Soweto and coastal city of Durban.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-08T20:43:34+00:00",
-          "fetched_at": "2026-10-09T02:10:06.351725+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_db3a7f0e2c6815e484bf",
-          "url": "https://www.dw.com/en/south-africa-anti-migrant-protests-turn-violent/a-79605037?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/south-africa-anti-migrant-protests-turn-violent/a-79605037?maca=en-rss-en-top-1022-rdf",
-          "title": "South Africa: Anti-migrant protests turn violent",
-          "summary": "A court order requiring the government to resume processing asylum applications reignited violent protests against immigration in South Africa.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-08T18:42:00+00:00",
-          "fetched_at": "2026-10-09T02:10:05.923692+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5757462ac168018db8ba",
-      "title": "Will Ethiopia’s neighbours intervene as Tigray war escalates?",
-      "category": "军事安全",
-      "score": 61.3,
+      "score": 62.0,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.2,
+        "recency": 21.0,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-09T00:08:33+00:00",
-      "last_updated": "2026-10-09T00:08:33+00:00",
+      "first_seen": "2026-10-09T07:57:36+00:00",
+      "last_updated": "2026-10-09T07:57:36+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -883,24 +869,24 @@
         "Middle East"
       ],
       "keywords": [
-        "ethiopia",
-        "tigray",
+        "three",
+        "years",
+        "october",
+        "prolonged",
         "war",
-        "neighbours",
-        "intervene",
-        "escalates",
-        "renewed",
-        "testing"
+        "takes",
+        "toll",
+        "israelis"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Will Ethiopia’s neighbours intervene as Tigray war escalates?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Three years after October 7, prolonged war takes its toll on Israelis”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Will Ethiopia",
-          "Tigray"
+          "October",
+          "Israelis"
         ],
         "latest_progress": [
-          "10月09日 00:08 UTC，Al Jazeera报道：“Will Ethiopia’s neighbours intervene as Tigray war escalates?”。"
+          "10月09日 07:57 UTC，Al Jazeera报道：“Three years after October 7, prolonged war takes its toll on Israelis”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -913,15 +899,15 @@
       },
       "articles": [
         {
-          "article_id": "art_48cd5eb4ce3e3e2b09f3",
-          "url": "https://www.aljazeera.com/news/2026/10/9/will-ethiopias-neighbours-intervene-as-tigray-war-escalates?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/will-ethiopias-neighbours-intervene-as-tigray-war-escalates?traffic_source=rss",
-          "title": "Will Ethiopia’s neighbours intervene as Tigray war escalates?",
-          "summary": "Tigray’s renewed war is testing Ethiopia’s already strained regional ties.",
+          "article_id": "art_9c50c5da9220f8ad16ab",
+          "url": "https://www.aljazeera.com/news/2026/10/9/three-years-after-october-7-prolonged-war-takes-its-toll-on-israelis?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/three-years-after-october-7-prolonged-war-takes-its-toll-on-israelis?traffic_source=rss",
+          "title": "Three years after October 7, prolonged war takes its toll on Israelis",
+          "summary": "Children’s psychiatric emergency visits have more than doubled in Israel, study shows.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-09T00:08:33+00:00",
-          "fetched_at": "2026-10-09T02:10:06.349458+00:00",
+          "published_at": "2026-10-09T07:57:36+00:00",
+          "fetched_at": "2026-10-09T09:05:08.538803+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -930,49 +916,48 @@
       ]
     },
     {
-      "event_id": "evt_770a7d3d80e02d814830",
-      "title": "Iran war live: Iranian media reports ‘massive explosions’ in Hormuz Strait",
+      "event_id": "evt_878805076445aa8cce9c",
+      "title": "Ukraine's made battlefield gains, but Russia tipped for large winter offensive",
       "category": "军事安全",
-      "score": 61.1,
+      "score": 61.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.1,
-        "credibility": 10.0,
+        "recency": 21.4,
+        "credibility": 9.5,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-09T00:00:21+00:00",
-      "last_updated": "2026-10-09T00:00:21+00:00",
+      "first_seen": "2026-10-09T08:24:57+00:00",
+      "last_updated": "2026-10-09T08:24:57+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "Al Jazeera"
+        "NPR World"
       ],
       "regions": [
-        "Middle East"
+        "North America"
       ],
       "keywords": [
-        "iranian",
-        "media",
-        "massive",
-        "explosions",
-        "hormuz",
-        "strait",
-        "iran",
-        "war"
+        "ukraine's",
+        "battlefield",
+        "gains",
+        "russia",
+        "large",
+        "winter",
+        "offensive",
+        "made"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Iranian media reports ‘massive explosions’ in Hormuz Strait”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“Ukraine's made battlefield gains, but Russia tipped for large winter offensive”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iran",
-          "Iranian",
-          "Hormuz Strait"
+          "Ukraine",
+          "Russia"
         ],
         "latest_progress": [
-          "10月09日 00:00 UTC，Al Jazeera报道：“Iran war live: Iranian media reports ‘massive explosions’ in Hormuz Strait”。"
+          "10月09日 08:24 UTC，NPR World报道：“Ukraine's made battlefield gains, but Russia tipped for large winter offensive”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -985,18 +970,18 @@
       },
       "articles": [
         {
-          "article_id": "art_dea6bdce475c5a03c0d9",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait?traffic_source=rss",
-          "title": "Iran war live: Iranian media reports ‘massive explosions’ in Hormuz Strait",
-          "summary": "Iranian media reported massive explosions in the southern Strait of Hormuz, with Fars citing unnamed military sources.",
-          "source": "Al Jazeera",
+          "article_id": "art_7619f1462c5e2396da75",
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5995245/ukraines-made-battlefield-gains-but-russia-tipped-for-large-winter-offensive",
+          "canonical_url": "https://www.npr.org/2026/10/09/nx-s1-5995245/ukraines-made-battlefield-gains-but-russia-tipped-for-large-winter-offensive",
+          "title": "Ukraine's made battlefield gains, but Russia tipped for large winter offensive",
+          "summary": "NPR's Michel Martin speaks with Christina Harward of the Institute for the Study of War about Ukraine's recent battlefield gains and the expectation of a large winter offensive by Russia.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-09T00:00:21+00:00",
-          "fetched_at": "2026-10-09T02:10:06.349623+00:00",
+          "published_at": "2026-10-09T08:24:57+00:00",
+          "fetched_at": "2026-10-09T09:05:08.416112+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "North America",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
