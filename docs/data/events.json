@@ -1,67 +1,222 @@
 {
-  "generated_at": "2026-10-10T18:35:58.427919+00:00",
+  "generated_at": "2026-10-10T22:32:46.379172+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 186,
-    "articles_unique": 180,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 86,
+    "articles_unique": 86,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_a5af2567c52c9171d92c",
-      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
-      "category": "国际政治",
-      "score": 83.7,
+      "event_id": "evt_2d9bd4a796b6780eb88b",
+      "title": "Attack on airport in Saudi capital, Riyadh, leaves several injured",
+      "category": "军事安全",
+      "score": 89.3,
       "score_breakdown": {
-        "coverage": 20.8,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.8,
-        "credibility": 9.6,
-        "impact": 11.0,
-        "velocity": 4.6
+        "coverage": 17.9,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.6,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-09T19:29:00+00:00",
-      "last_updated": "2026-10-10T18:24:03+00:00",
-      "source_count": 3,
-      "article_count": 7,
+      "first_seen": "2026-10-10T18:08:46+00:00",
+      "last_updated": "2026-10-10T22:07:00+00:00",
+      "source_count": 4,
+      "article_count": 5,
       "sources": [
+        "Al Jazeera",
         "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
+        "Middle East",
         "North America"
       ],
       "keywords": [
-        "diesel",
-        "trump",
-        "deal",
-        "russia",
-        "president",
-        "ukraine",
-        "russian",
-        "moscow"
+        "airport",
+        "attack",
+        "saudi",
+        "riyadh",
+        "week",
+        "king",
+        "khalid",
+        "international"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的国际政治事件为“'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Attack on airport in Saudi capital, Riyadh, leaves several injured”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Time",
-          "Ukraine",
+          "Saudi Arabia",
+          "Riyadh",
           "Trump",
-          "Zelensky",
-          "Zelenskyy",
-          "Germany",
-          "Russia",
-          "Analysis"
+          "Houthis",
+          "Several",
+          "Saudi",
+          "Riyadh Damage",
+          "Attack"
         ],
         "latest_progress": [
-          "10月10日 18:24 UTC，BBC World报道：“'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal”。",
-          "10月10日 17:48 UTC，DW Top Stories报道：“Trump slams Zelenskyy, says Ukraine should elect new president”。",
-          "10月10日 13:25 UTC，DW Top Stories报道：“Germany sticks to Russia sanctions after Trump diesel deal”。"
+          "10月10日 22:07 UTC，DW Top Stories报道：“Saudi Arabia: 12 killed, hundreds injured in Riyadh airport attack”。",
+          "10月10日 21:32 UTC，NPR World报道：“Trump weighs joining the fight against Houthis after Riyadh airport attack”。",
+          "10月10日 21:27 UTC，BBC World报道：“Several injured in attack on airport in Saudi capital Riyadh”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ae19c736914d0b837eab",
+          "url": "https://www.dw.com/en/saudi-arabia-12-killed-hundreds-injured-in-riyadh-airport-attack/a-79628862?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/saudi-arabia-12-killed-hundreds-injured-in-riyadh-airport-attack/a-79628862?maca=en-rss-en-top-1022-rdf",
+          "title": "Saudi Arabia: 12 killed, hundreds injured in Riyadh airport attack",
+          "summary": "Officials said at least 12 people were killed in a strike on King Khalid International Airport in the Saudi capital, Riyadh. The airport had already been targeted multiple times this week.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-10T22:07:00+00:00",
+          "fetched_at": "2026-10-10T22:32:45.117607+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_43d4a3ab6dc4b931216c",
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack",
+          "canonical_url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack",
+          "title": "Trump weighs joining the fight against Houthis after Riyadh airport attack",
+          "summary": "The surge in attacks, including against other Saudi airports, military facilities and oil infrastructure, has come in the week since a Saudi-led coalition launched a major military offensive against the Houthis.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T21:32:53+00:00",
+          "fetched_at": "2026-10-10T22:32:45.398944+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b92ce03fe31a38bba77f",
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_campaign=rss&at_medium=RSS",
+          "title": "Several injured in attack on airport in Saudi capital Riyadh",
+          "summary": "The US embassy says it is \"aware of attacks on King Khalid International Airport\", which come days after Yemen's Houthis said they had struck it.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T21:27:10+00:00",
+          "fetched_at": "2026-10-10T22:32:44.990005+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32eb/live/ede92230-c4f0-11f1-b35a-c3ed8feab55e.jpg"
+        },
+        {
+          "article_id": "art_8f2547a7b377952c3a98",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
+          "title": "Damage seen inside Saudi airport after third attack this week",
+          "summary": "Video shows damage inside King Khalid International Airport in Riyadh after the third attack in a week.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T20:43:19+00:00",
+          "fetched_at": "2026-10-10T22:32:45.519388+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_10dd9c536fd4793a08a6",
+          "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured?traffic_source=rss",
+          "title": "Attack on airport in Saudi capital, Riyadh, leaves several injured",
+          "summary": "Operations suspended at King Khalid International Airport after another attack this week, Civil Aviation Authority says.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T18:08:46+00:00",
+          "fetched_at": "2026-10-10T22:32:45.520656+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a5af2567c52c9171d92c",
+      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+      "category": "国际政治",
+      "score": 89.1,
+      "score_breakdown": {
+        "coverage": 22.0,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 19.4,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-09T19:29:00+00:00",
+      "last_updated": "2026-10-10T19:32:37+00:00",
+      "source_count": 4,
+      "article_count": 10,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "trump",
+        "diesel",
+        "ukraine",
+        "deal",
+        "president",
+        "russia",
+        "russian",
+        "said"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的10篇报道，当前关注的国际政治事件为“'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Trump",
+          "Ukraine",
+          "Time",
+          "Zelensky",
+          "Trump Trump",
+          "Ukraine Trump",
+          "Zelenskyy",
+          "Germany"
+        ],
+        "latest_progress": [
+          "10月10日 19:32 UTC，Al Jazeera报道：“Trump says Ukraine needs a new president who will agree to end the war”。",
+          "10月10日 19:28 UTC，BBC World报道：“'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal”。",
+          "10月10日 19:25 UTC，BBC World报道：“Watch: 'Time for Ukraine to get a new president', says Trump”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -74,6 +229,21 @@
       },
       "articles": [
         {
+          "article_id": "art_f57d295e9a4a993db42a",
+          "url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war?traffic_source=rss",
+          "title": "Trump says Ukraine needs a new president who will agree to end the war",
+          "summary": "US leader suggests Zelenskyy has not done enough to end the war amid tensions with Kyiv over a diesel deal with Russia.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T19:32:37+00:00",
+          "fetched_at": "2026-10-10T22:32:45.520116+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_5c4aca7a8f9392af619b",
           "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_campaign=rss&at_medium=RSS",
@@ -81,12 +251,42 @@
           "summary": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-10T18:24:03+00:00",
-          "fetched_at": "2026-10-10T18:35:55.593126+00:00",
+          "published_at": "2026-10-10T19:28:28+00:00",
+          "fetched_at": "2026-10-10T22:32:44.989722+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99c5/live/3203eb90-c4d2-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_38c2fa855d043d985216",
+          "url": "https://www.bbc.co.uk/news/videos/cwkg50dgpml7o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwkg50dgpml7o?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: 'Time for Ukraine to get a new president', says Trump",
+          "summary": "The US president's said President Volodymyr Zelensky \"wants to make problems for the world\".",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T19:25:03+00:00",
+          "fetched_at": "2026-10-10T22:32:44.992196+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9f8/live/c42726c0-c4de-11f1-9a39-31b474234113.jpg"
+        },
+        {
+          "article_id": "art_db5fcfa611674d2a0a91",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-calls-for-new-president-in-ukraine?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-calls-for-new-president-in-ukraine?traffic_source=rss",
+          "title": "Trump calls for new president in Ukraine",
+          "summary": "US President Trump criticised Ukraine’s Volodymyr Zelenskyy as he called for new leadership in Ukraine.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T18:50:23+00:00",
+          "fetched_at": "2026-10-10T22:32:45.520380+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         },
         {
           "article_id": "art_3cfcf14c3dddde445c8b",
@@ -97,7 +297,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-10T17:48:00+00:00",
-          "fetched_at": "2026-10-10T18:35:56.179780+00:00",
+          "fetched_at": "2026-10-10T22:32:45.117898+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -112,7 +312,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-10T13:25:00+00:00",
-          "fetched_at": "2026-10-10T18:35:56.180099+00:00",
+          "fetched_at": "2026-10-10T22:32:45.118052+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -127,7 +327,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-10T11:40:53+00:00",
-          "fetched_at": "2026-10-10T18:35:56.416571+00:00",
+          "fetched_at": "2026-10-10T22:32:45.399142+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -142,7 +342,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T22:30:22+00:00",
-          "fetched_at": "2026-10-10T18:35:55.595310+00:00",
+          "fetched_at": "2026-10-10T22:32:44.991505+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -157,7 +357,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T21:24:13+00:00",
-          "fetched_at": "2026-10-10T18:35:56.417109+00:00",
+          "fetched_at": "2026-10-10T22:32:45.399509+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -172,7 +372,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-09T19:29:00+00:00",
-          "fetched_at": "2026-10-10T18:35:56.181254+00:00",
+          "fetched_at": "2026-10-10T22:32:45.118891+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -181,305 +381,55 @@
       ]
     },
     {
-      "event_id": "evt_0059569b4ec057bec25f",
-      "title": "New Delhi police crack down on protesters ahead of anti-gov’t march",
-      "category": "社会突发",
-      "score": 83.7,
-      "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 17.7,
-        "credibility": 9.4,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T03:50:00+00:00",
-      "last_updated": "2026-10-10T13:23:42+00:00",
-      "source_count": 4,
-      "article_count": 5,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories",
-        "hindi.business-standard.com"
-      ],
-      "regions": [
-        "Europe",
-        "India",
-        "Middle East"
-      ],
-      "keywords": [
-        "delhi",
-        "party",
-        "leaders",
-        "detained",
-        "indian",
-        "protest",
-        "protesters",
-        "cockroach"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、hindi.business-standard.com等来源的5篇报道，当前关注的社会突发事件为“New Delhi police crack down on protesters ahead of anti-gov’t march”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "New Delhi",
-          "India",
-          "Cockroach",
-          "Delhi",
-          "Delhi Protest",
-          "Indian",
-          "Follow"
-        ],
-        "latest_progress": [
-          "10月10日 13:23 UTC，Al Jazeera报道：“New Delhi police crack down on protesters ahead of anti-gov’t march”。",
-          "10月10日 12:50 UTC，Al Jazeera报道：“India’s ‘Cockroach’ leaders detained; New Delhi in lockdown”。",
-          "10月10日 12:29 UTC，BBC World报道：“'Cockroach' group leaders among hundreds detained in Delhi protest”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d6faa7826185eb435118",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/new-delhi-police-crack-down-on-protesters-ahead-of-anti-govt-march?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/new-delhi-police-crack-down-on-protesters-ahead-of-anti-govt-march?traffic_source=rss",
-          "title": "New Delhi police crack down on protesters ahead of anti-gov’t march",
-          "summary": "India’s police have detained dozens of protesters, including ‘Cockroach’ party leaders ahead of an anti-gov't march.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T13:23:42+00:00",
-          "fetched_at": "2026-10-10T18:35:56.756373+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_554d6e843ca72c415e2b",
-          "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown?traffic_source=rss",
-          "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown",
-          "summary": "Indian police crackdown appears to have prevented mass protests against the country's election chief from taking place.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T12:50:34+00:00",
-          "fetched_at": "2026-10-10T18:35:56.756726+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_cbe6fd82c817831147d9",
-          "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_campaign=rss&at_medium=RSS",
-          "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
-          "summary": "The group - who are not registered as a political party in India - want electoral reforms ahead of crucial state elections.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-10T12:29:31+00:00",
-          "fetched_at": "2026-10-10T18:35:55.593730+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ee/live/0a7efdf0-c4b7-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_9c4928f6c9dfa3fbee84",
-          "url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004/",
-          "canonical_url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004",
-          "title": "Delhi Protest : मुख्य चुनाव आयुक्त के खिलाफ विरोध से पहले पुलिस की बड़ी कार्रवाई , 1000 से ज्यादा लोग हिरासत में",
-          "summary": "",
-          "source": "hindi.business-standard.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T18:35:10.992888+00:00",
-          "language": "Hindi",
-          "region": "India",
-          "source_weight": 0.75,
-          "image_url": "https://hindibusinessstandard.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/Delhi-Police-1200x630.jpg"
-        },
-        {
-          "article_id": "art_bc35e576b4e82a5c39b0",
-          "url": "https://www.dw.com/en/indian-authorities-crack-down-on-cockroach-protest-in-central-delhi-follow-live/live-79624339?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/indian-authorities-crack-down-on-cockroach-protest-in-central-delhi-follow-live/live-79624339?maca=en-rss-en-top-1022-rdf",
-          "title": "Indian authorities crack down on 'Cockroach' protest in central Delhi. Follow live.",
-          "summary": "Indian authorities have imposed extraordinary security measures to block protesters from joining a demonstration called by the Cockroach Janta Party in New Delhi. The main leaders of the party have been detained too.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-10T03:50:00+00:00",
-          "fetched_at": "2026-10-10T18:35:56.180702+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4f47546e7faa8aaa7423",
-      "title": "Attack on airport in Saudi capital, Riyadh, leaves several injured",
-      "category": "军事安全",
-      "score": 79.1,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.6,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T16:52:00+00:00",
-      "last_updated": "2026-10-10T18:08:46+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "airport",
-        "attack",
-        "saudi",
-        "riyadh",
-        "king",
-        "khalid",
-        "international",
-        "operations"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Attack on airport in Saudi capital, Riyadh, leaves several injured”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Attack",
-          "Saudi",
-          "Riyadh",
-          "Several",
-          "Riyadh Saudi Arabia"
-        ],
-        "latest_progress": [
-          "10月10日 18:08 UTC，Al Jazeera报道：“Attack on airport in Saudi capital, Riyadh, leaves several injured”。",
-          "10月10日 16:56 UTC，BBC World报道：“Several injured in attack on airport in Saudi capital Riyadh”。",
-          "10月10日 16:52 UTC，DW Top Stories报道：“Saudi Arabia suspends operations at Riyadh airport after an attack causes multiple injuries”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_10dd9c536fd4793a08a6",
-          "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured?traffic_source=rss",
-          "title": "Attack on airport in Saudi capital, Riyadh, leaves several injured",
-          "summary": "Operations suspended at King Khalid International Airport after another attack this week, Civil Aviation Authority says.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T18:08:46+00:00",
-          "fetched_at": "2026-10-10T18:35:56.753932+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_b92ce03fe31a38bba77f",
-          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_campaign=rss&at_medium=RSS",
-          "title": "Several injured in attack on airport in Saudi capital Riyadh",
-          "summary": "The US embassy says it is \"aware of attacks on King Khalid International Airport\", which come days after Yemen's Houthis said they had struck it.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-10T16:56:32+00:00",
-          "fetched_at": "2026-10-10T18:35:55.593467+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/882f/live/23bf5530-c4c1-11f1-9ce9-55293bd7f0d9.jpg"
-        },
-        {
-          "article_id": "art_54e49a1c365f7dfa24e9",
-          "url": "https://www.dw.com/en/saudi-arabia-suspends-operations-at-riyadh-airport-after-an-attack-causes-multiple-injuries/a-79628862?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/saudi-arabia-suspends-operations-at-riyadh-airport-after-an-attack-causes-multiple-injuries/a-79628862?maca=en-rss-en-top-1022-rdf",
-          "title": "Saudi Arabia suspends operations at Riyadh airport after an attack causes multiple injuries",
-          "summary": "Riyadh's King Khalid International Airport has already been targeted multiple times this week amid intensified fighting between Yemen-based Houthi rebels and a Saudi-backed coalition.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-10T16:52:00+00:00",
-          "fetched_at": "2026-10-10T18:35:56.179896+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5ced5a983dae8a2c7443",
-      "title": "Eritrea urges UN to intervene in standoff with Ethiopia",
+      "event_id": "evt_b26ff127175e35acf095",
+      "title": "Israeli attack destroys building in Gaza one year into ‘ceasefire’",
       "category": "军事安全",
       "score": 72.9,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.9,
+        "recency": 20.0,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 4.0
       },
-      "first_seen": "2026-10-10T16:41:25+00:00",
-      "last_updated": "2026-10-10T18:32:00+00:00",
+      "first_seen": "2026-10-10T09:00:00+00:00",
+      "last_updated": "2026-10-10T20:14:01+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories"
+        "NPR World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "eritrea",
-        "ethiopia",
-        "urges",
-        "conflict",
-        "intervene",
-        "standoff",
-        "neighbouring",
-        "countries"
+        "year",
+        "ceasefire",
+        "gaza",
+        "one",
+        "israeli",
+        "palestinians",
+        "killed",
+        "building"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Eritrea urges UN to intervene in standoff with Ethiopia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、NPR World等来源的3篇报道，当前关注的军事安全事件为“Israeli attack destroys building in Gaza one year into ‘ceasefire’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Eritrea",
-          "UN",
-          "Ethiopia Eritrea",
-          "Ethiopia"
+          "Israeli",
+          "Gaza",
+          "Palestinians",
+          "Photos",
+          "What"
         ],
         "latest_progress": [
-          "10月10日 18:32 UTC，DW Top Stories报道：“Eritrea urges UN deterrence measures against Ethiopia”。",
-          "10月10日 16:41 UTC，Al Jazeera报道：“Eritrea urges UN to intervene in standoff with Ethiopia”。"
+          "10月10日 20:14 UTC，Al Jazeera报道：“Israeli attack destroys building in Gaza one year into ‘ceasefire’”。",
+          "10月10日 18:38 UTC，Al Jazeera报道：“Palestinians still being killed in Gaza, one year into ‘ceasefire’”。",
+          "10月10日 09:00 UTC，NPR World报道：“Photos: What a year of ceasefire in Gaza looks like”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -492,55 +442,70 @@
       },
       "articles": [
         {
-          "article_id": "art_c9cf14e5408333619505",
-          "url": "https://www.dw.com/en/eritrea-urges-un-deterrence-measures-against-ethiopia/a-79629670?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/eritrea-urges-un-deterrence-measures-against-ethiopia/a-79629670?maca=en-rss-en-top-1022-rdf",
-          "title": "Eritrea urges UN deterrence measures against Ethiopia",
-          "summary": "Eritrea has officially requested UN Security Council assistance over the conflict in Tigray. Both Eritrea and Ethiopia accuse each other of fueling regional instability.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-10T18:32:00+00:00",
-          "fetched_at": "2026-10-10T18:35:56.179644+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9689969ed67963569818",
-          "url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
-          "title": "Eritrea urges UN to intervene in standoff with Ethiopia",
-          "summary": "The neighbouring countries blame one another for starting war amid heightened tensions and fears of a wider conflict.",
+          "article_id": "art_2204dd32a34aa9450f58",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
+          "title": "Israeli attack destroys building in Gaza one year into ‘ceasefire’",
+          "summary": "An Israeli strike destroyed a residential building in the Al-Rimal neighbourhood in Gaza City.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-10T16:41:25+00:00",
-          "fetched_at": "2026-10-10T18:35:56.754731+00:00",
+          "published_at": "2026-10-10T20:14:01+00:00",
+          "fetched_at": "2026-10-10T22:32:45.519669+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_38e822b989ea5ce7b89d",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/palestinians-still-being-killed-in-gaza-one-year-into?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/palestinians-still-being-killed-in-gaza-one-year-into?traffic_source=rss",
+          "title": "Palestinians still being killed in Gaza, one year into ‘ceasefire’",
+          "summary": "One year to the day after the US-brokered ceasefire was agreed, more Israeli attacks killed Palestinians in Gaza.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T18:38:01+00:00",
+          "fetched_at": "2026-10-10T22:32:45.520468+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_fb0eae658c9582d1c65e",
+          "url": "https://www.npr.org/sections/the-picture-show/2026/10/10/nx-s1-5991619/gaza-ceasefire-israel-life",
+          "canonical_url": "https://www.npr.org/sections/the-picture-show/2026/10/10/nx-s1-5991619/gaza-ceasefire-israel-life",
+          "title": "Photos: What a year of ceasefire in Gaza looks like",
+          "summary": "It has been one year since Hamas released the remaining Israeli hostages and President Trump promised an end to the war, but Palestinians say the past 12 months have been a ceasefire in name only.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T09:00:00+00:00",
+          "fetched_at": "2026-10-10T22:32:45.399235+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_f3eec076af3b6c7f2e87",
+      "event_id": "evt_876f252107d8dc9dbe8c",
       "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
       "category": "军事安全",
-      "score": 72.3,
+      "score": 67.1,
       "score_breakdown": {
-        "coverage": 16.1,
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.3,
+        "recency": 16.3,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 1.9
       },
-      "first_seen": "2026-10-09T08:23:16+00:00",
+      "first_seen": "2026-10-09T15:26:33+00:00",
       "last_updated": "2026-10-10T15:23:47+00:00",
       "source_count": 2,
-      "article_count": 4,
+      "article_count": 3,
       "sources": [
         "BBC World",
         "NPR World"
@@ -550,17 +515,17 @@
         "North America"
       ],
       "keywords": [
-        "human",
-        "rights",
-        "navi",
-        "pillay",
         "nobel",
         "peace",
+        "navi",
+        "pillay",
+        "prize",
         "south",
-        "prize"
+        "international",
+        "human"
       ],
       "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的4篇报道，当前关注的军事安全事件为“Nobel peace laureate says US sanctions on ICC 'unacceptable'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的军事安全事件为“Nobel peace laureate says US sanctions on ICC 'unacceptable'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Nobel",
@@ -596,7 +561,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-10T15:23:47+00:00",
-          "fetched_at": "2026-10-10T18:35:55.594089+00:00",
+          "fetched_at": "2026-10-10T22:32:44.990496+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -611,7 +576,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T21:25:59+00:00",
-          "fetched_at": "2026-10-10T18:35:56.416987+00:00",
+          "fetched_at": "2026-10-10T22:32:45.399419+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -626,75 +591,145 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T15:26:33+00:00",
-          "fetched_at": "2026-10-10T18:35:55.596443+00:00",
+          "fetched_at": "2026-10-10T22:32:44.992554+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fad2/live/5256ec10-c3f8-11f1-bc2e-018d645d8d21.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_697922efd02e1dea4b30",
+      "title": "Yemeni government’s military says its forces advancing against Houthis",
+      "category": "国际政治",
+      "score": 64.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.7,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T21:02:49+00:00",
+      "last_updated": "2026-10-10T22:12:25+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "houthis",
+        "forces",
+        "yemen",
+        "video",
+        "drone",
+        "attacks",
+        "saudi-backed",
+        "yemeni"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Yemeni government’s military says its forces advancing against Houthis”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Yemeni",
+          "Houthis Yemen",
+          "Houthis"
+        ],
+        "latest_progress": [
+          "10月10日 22:12 UTC，Al Jazeera报道：“Yemeni government’s military says its forces advancing against Houthis”。",
+          "10月10日 21:02 UTC，Al Jazeera报道：“Yemen’s Houthis release video of drone attacks on gov’t forces”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_84db7b91b593070ce403",
+          "url": "https://www.aljazeera.com/news/2026/10/10/yemeni-governments-military-says-its-forces-advancing-against-houthis?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/yemeni-governments-military-says-its-forces-advancing-against-houthis?traffic_source=rss",
+          "title": "Yemeni government’s military says its forces advancing against Houthis",
+          "summary": "Saudi-backed forces say 1,150 Houthis killed in operations against the Iran-aligned group over the past 24 hours.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T22:12:25+00:00",
+          "fetched_at": "2026-10-10T22:32:45.518764+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         },
         {
-          "article_id": "art_8ff2c8283ca9066c9821",
-          "url": "https://www.npr.org/2026/10/08/nx-s1-5994952/nobel-peace-prize",
-          "canonical_url": "https://www.npr.org/2026/10/08/nx-s1-5994952/nobel-peace-prize",
-          "title": "South African human rights lawyer Navi Pillay wins the Nobel Peace Prize",
-          "summary": "South African human rights lawyer Navi Pillay wins the 2026 Nobel Peace Prize for advancing human rights and international law.",
-          "source": "NPR World",
+          "article_id": "art_dcc2b8f8d419136fa37a",
+          "url": "https://www.aljazeera.com/video/2026/10/10/yemens-houthis-release-video-of-drone-attacks-on-govt-forces?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/2026/10/10/yemens-houthis-release-video-of-drone-attacks-on-govt-forces?traffic_source=rss",
+          "title": "Yemen’s Houthis release video of drone attacks on gov’t forces",
+          "summary": "Yemen’s Houthis have released drone video said to show attacks on Saudi-backed Yemeni government forces.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-09T08:23:16+00:00",
-          "fetched_at": "2026-10-10T18:35:56.417486+00:00",
+          "published_at": "2026-10-10T21:02:49+00:00",
+          "fetched_at": "2026-10-10T22:32:45.519296+00:00",
           "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_256ef9be256113f37ab7",
-      "title": "Woman injures three people in third Poland school knife attack in a week",
+      "event_id": "evt_404e44a2d30cf50e35f7",
+      "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
       "category": "军事安全",
-      "score": 70.3,
+      "score": 61.5,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.1,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.5,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-10T14:58:55+00:00",
-      "last_updated": "2026-10-10T15:13:55+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-10T20:51:12+00:00",
+      "last_updated": "2026-10-10T20:51:12+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
         "BBC World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "poland",
         "attack",
-        "three",
-        "people",
-        "third",
-        "school",
-        "week",
-        "police"
+        "russian",
+        "glide",
+        "bomb",
+        "zaporizhzhia",
+        "kills",
+        "least",
+        "people"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Woman injures three people in third Poland school knife attack in a week”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Russian glide bomb attack on Zaporizhzhia kills at least 20 people”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Poland",
-          "Woman"
+          "Russian",
+          "Zaporizhzhia"
         ],
         "latest_progress": [
-          "10月10日 15:13 UTC，Al Jazeera报道：“Three injured in third school attack in Poland in less than a week”。",
-          "10月10日 14:58 UTC，BBC World报道：“Woman injures three people in third Poland school knife attack in a week”。"
+          "10月10日 20:51 UTC，BBC World报道：“Russian glide bomb attack on Zaporizhzhia kills at least 20 people”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -707,85 +742,66 @@
       },
       "articles": [
         {
-          "article_id": "art_8477cd272038b48b6243",
-          "url": "https://www.aljazeera.com/news/2026/10/10/three-injured-in-third-school-attack-in-poland-in-less-than-a-week?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/three-injured-in-third-school-attack-in-poland-in-less-than-a-week?traffic_source=rss",
-          "title": "Three injured in third school attack in Poland in less than a week",
-          "summary": "The attack comes after police announced the detention of 76 people across Poland in connection with previous incidents.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T15:13:55+00:00",
-          "fetched_at": "2026-10-10T18:35:56.755205+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0cd6296ddc52556291c2",
-          "url": "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_campaign=rss&at_medium=RSS",
-          "title": "Woman injures three people in third Poland school knife attack in a week",
-          "summary": "Polish police had already deployed to schools after a female caretaker was killed and several others injured in two earlier attacks in two days.",
+          "article_id": "art_2a2638cbb191bff923a8",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_campaign=rss&at_medium=RSS",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+          "summary": "Volodymyr Zelensky says the attack, which left children dead, was Russia expressing its \"thanks\" for a US diesel deal.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-10T14:58:55+00:00",
-          "fetched_at": "2026-10-10T18:35:55.593854+00:00",
+          "published_at": "2026-10-10T20:51:12+00:00",
+          "fetched_at": "2026-10-10T22:32:44.989887+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82b6/live/15d89210-c4b7-11f1-9ce9-55293bd7f0d9.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ce/live/569e8e50-c49c-11f1-869c-8f95c437952a.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_d64091ba9c4d67e0f0fc",
-      "title": "Hurricane Isaias leaves two dead and 800,000 without power in US Southeast",
+      "event_id": "evt_960ff09a0170a58bbac2",
+      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
       "category": "社会突发",
-      "score": 66.5,
+      "score": 61.3,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.5,
-        "credibility": 9.8,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.5,
+        "credibility": 10.0,
         "impact": 11.7,
-        "velocity": 2.3
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-10T02:58:00+00:00",
-      "last_updated": "2026-10-10T15:45:36+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-10T22:02:07+00:00",
+      "last_updated": "2026-10-10T22:02:07+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "hurricane",
         "isaias",
-        "florida",
-        "storm",
-        "possible",
-        "tornadoes",
-        "makes",
-        "landfall"
+        "four",
+        "dead",
+        "thousands",
+        "without",
+        "power",
+        "hurricane",
+        "lashes"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Hurricane Isaias leaves two dead and 800,000 without power in US Southeast”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的社会突发事件为“Four dead and thousands without power after Hurricane Isaias lashes US”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
+          "Four",
           "Hurricane Isaias",
-          "US",
-          "Southeast Hurricane Isaias",
-          "Florida"
+          "US"
         ],
         "latest_progress": [
-          "10月10日 15:45 UTC，Al Jazeera报道：“Hurricane Isaias leaves two dead and 800,000 without power in US Southeast”。",
-          "10月10日 02:58 UTC，DW Top Stories报道：“Hurricane Isaias makes landfall in Florida”。"
+          "10月10日 22:02 UTC，BBC World报道：“Four dead and thousands without power after Hurricane Isaias lashes US”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -798,30 +814,178 @@
       },
       "articles": [
         {
-          "article_id": "art_3e0b6e971eb9e23306bc",
-          "url": "https://www.aljazeera.com/news/2026/10/10/hurricane-isaias-leaves-two-dead-and-800000-without-power-in-us-southeast?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/hurricane-isaias-leaves-two-dead-and-800000-without-power-in-us-southeast?traffic_source=rss",
-          "title": "Hurricane Isaias leaves two dead and 800,000 without power in US Southeast",
-          "summary": "Storm damage stretches across Florida and Alabama as officials warn of continued flooding and possible tornadoes.",
+          "article_id": "art_a58b93b1031253f5fcb6",
+          "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_campaign=rss&at_medium=RSS",
+          "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+          "summary": "Roofs were ripped off buildings after Isaias barrelled into the US on Friday evening, before it weakened to a post-tropical cyclone.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T22:02:07+00:00",
+          "fetched_at": "2026-10-10T22:32:44.990216+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a454/live/61dbc890-c4e3-11f1-a793-e9d00826e617.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1cf91ead54321df3be38",
+      "title": "Hurricane Simon strengthens to Category 4 off Mexico’s Pacific coast",
+      "category": "社会突发",
+      "score": 60.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.8,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T21:10:06+00:00",
+      "last_updated": "2026-10-10T21:10:06+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "hurricane",
+        "simon",
+        "mexico",
+        "coast",
+        "strengthens",
+        "category",
+        "off",
+        "pacific"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Hurricane Simon strengthens to Category 4 off Mexico’s Pacific coast”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Hurricane Simon",
+          "Category",
+          "Mexico",
+          "Pacific"
+        ],
+        "latest_progress": [
+          "10月10日 21:10 UTC，Al Jazeera报道：“Hurricane Simon strengthens to Category 4 off Mexico’s Pacific coast”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b5810412886fa3a8a831",
+          "url": "https://www.aljazeera.com/news/2026/10/10/hurricane-simon-strengthens-to-category-4-off-mexicos-pacific-coast?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/hurricane-simon-strengthens-to-category-4-off-mexicos-pacific-coast?traffic_source=rss",
+          "title": "Hurricane Simon strengthens to Category 4 off Mexico’s Pacific coast",
+          "summary": "Puerto Vallarta businesses board up windows as Hurricane Simon threatens Mexico’s west-central coast.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-10T15:45:36+00:00",
-          "fetched_at": "2026-10-10T18:35:56.754849+00:00",
+          "published_at": "2026-10-10T21:10:06+00:00",
+          "fetched_at": "2026-10-10T22:32:45.519199+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0059569b4ec057bec25f",
+      "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+      "category": "社会突发",
+      "score": 60.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 14.5,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 3.5
+      },
+      "first_seen": "2026-10-10T03:50:00+00:00",
+      "last_updated": "2026-10-10T12:29:31+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "delhi",
+        "party",
+        "indian",
+        "authorities",
+        "cockroach'",
+        "protest",
+        "leaders",
+        "detained"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“'Cockroach' group leaders among hundreds detained in Delhi protest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Cockroach",
+          "Delhi",
+          "Indian",
+          "Follow"
+        ],
+        "latest_progress": [
+          "10月10日 12:29 UTC，BBC World报道：“'Cockroach' group leaders among hundreds detained in Delhi protest”。",
+          "10月10日 03:50 UTC，DW Top Stories报道：“Indian authorities crack down on 'Cockroach' protest in central Delhi. Follow live.”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cbe6fd82c817831147d9",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_campaign=rss&at_medium=RSS",
+          "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+          "summary": "The group - who are not registered as a political party in India - want electoral reforms ahead of crucial state elections.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T12:29:31+00:00",
+          "fetched_at": "2026-10-10T22:32:44.990607+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ee/live/0a7efdf0-c4b7-11f1-bc2e-018d645d8d21.jpg"
         },
         {
-          "article_id": "art_5d7a000a1ddfe014b245",
-          "url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-top-1022-rdf",
-          "title": "Hurricane Isaias makes landfall in Florida",
-          "summary": "US weather authorities are warning of \"life-threatening\" storm surges on the Gulf Coast due to the Category 2 hurricane. Extreme winds, rising water levels and possible tornadoes are also on the radar.",
+          "article_id": "art_bc35e576b4e82a5c39b0",
+          "url": "https://www.dw.com/en/indian-authorities-crack-down-on-cockroach-protest-in-central-delhi-follow-live/live-79624339?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/indian-authorities-crack-down-on-cockroach-protest-in-central-delhi-follow-live/live-79624339?maca=en-rss-en-top-1022-rdf",
+          "title": "Indian authorities crack down on 'Cockroach' protest in central Delhi. Follow live.",
+          "summary": "Indian authorities have imposed extraordinary security measures to block protesters from joining a demonstration called by the Cockroach Janta Party in New Delhi. The main leaders of the party have been detained too.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-10T02:58:00+00:00",
-          "fetched_at": "2026-10-10T18:35:56.180792+00:00",
+          "published_at": "2026-10-10T03:50:00+00:00",
+          "fetched_at": "2026-10-10T22:32:45.118430+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -833,12 +997,12 @@
       "event_id": "evt_63975d23a9ad3ee21488",
       "title": "Photos: Thousands march across Europe to demand end to Israel’s war on Gaza",
       "category": "军事安全",
-      "score": 62.9,
+      "score": 59.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.9,
+        "recency": 18.5,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -895,168 +1059,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-10T18:26:13+00:00",
-          "fetched_at": "2026-10-10T18:35:56.753773+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7f39d4c24b64c9d4112e",
-      "title": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
-      "category": "军事安全",
-      "score": 62.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 13.4,
-        "credibility": 7.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T06:45:00+00:00",
-      "last_updated": "2026-10-10T06:45:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "economictimes.indiatimes.com",
-        "gazettextra.com"
-      ],
-      "regions": [
-        "India",
-        "United States"
-      ],
-      "keywords": [
-        "trump",
-        "iran",
-        "agree",
-        "one",
-        "thing",
-        "election",
-        "calendar",
-        "isnt"
-      ],
-      "analysis": {
-        "what_happened": "据economictimes.indiatimes.com、gazettextra.com等来源的2篇报道，当前关注的军事安全事件为“Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trump",
-          "Iran",
-          "US"
-        ],
-        "latest_progress": [
-          "10月10日 06:45 UTC，economictimes.indiatimes.com报道：“Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war”。",
-          "10月10日 06:45 UTC，gazettextra.com报道：“Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_8923f3e459329bff61d9",
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions-on-the-war/articleshow/134847184.cms",
-          "canonical_url": "https://economictimes.indiatimes.com/news/international/world-news/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions-on-the-war/articleshow/134847184.cms",
-          "title": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
-          "summary": "",
-          "source": "economictimes.indiatimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T18:35:10.991502+00:00",
-          "language": "English",
-          "region": "India",
-          "source_weight": 0.75,
-          "image_url": "https://img.etimg.com/thumb/msid-134847182,width-1200,height-900,imgsize-7740011,overlay-economictimes/articleshow.jpg"
-        },
-        {
-          "article_id": "art_f3d1552a64a54ecb6f02",
-          "url": "http://www.gazettextra.com/news/nation_world/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions/article_1c0bd0ae-dc37-559a-b9db-e23dbf21b05a.html",
-          "canonical_url": "https://www.gazettextra.com/news/nation_world/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions/article_1c0bd0ae-dc37-559a-b9db-e23dbf21b05a.html",
-          "title": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
-          "summary": "",
-          "source": "gazettextra.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T18:35:10.994349+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://bloximages.newyork1.vip.townnews.com/gazettextra.com/content/tncms/assets/v3/editorial/7/44/7442773c-66a5-5f9b-8b09-15bd0e2563ec/6ac9b9a9302fb.image.jpg?crop=1764%2C926%2C0%2C124"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_04abe58b633ef0ad2b9c",
-      "title": "Pope says death penalty ‘inadmissible’ as US plans to livestream execution",
-      "category": "社会突发",
-      "score": 60.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T17:38:18+00:00",
-      "last_updated": "2026-10-10T17:38:18+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "pope",
-        "death",
-        "penalty",
-        "inadmissible",
-        "plans",
-        "livestream",
-        "execution",
-        "leo"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Pope says death penalty ‘inadmissible’ as US plans to livestream execution”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Pope",
-          "US"
-        ],
-        "latest_progress": [
-          "10月10日 17:38 UTC，Al Jazeera报道：“Pope says death penalty ‘inadmissible’ as US plans to livestream execution”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_fa3c90015cac0c633aa0",
-          "url": "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution?traffic_source=rss",
-          "title": "Pope says death penalty ‘inadmissible’ as US plans to livestream execution",
-          "summary": "Pope Leo XIV describes capital punishment as an 'attack on the inviolability and dignity of the person' in post on X.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T17:38:18+00:00",
-          "fetched_at": "2026-10-10T18:35:56.754215+00:00",
+          "fetched_at": "2026-10-10T22:32:45.520557+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
