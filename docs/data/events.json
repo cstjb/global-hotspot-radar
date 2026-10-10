@@ -1,101 +1,139 @@
 {
-  "generated_at": "2026-10-10T07:07:30.775905+00:00",
+  "generated_at": "2026-10-10T13:41:28.211319+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 144,
-    "articles_unique": 144,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 184,
+    "articles_unique": 178,
+    "errors": []
   },
   "events": [
     {
       "event_id": "evt_a5af2567c52c9171d92c",
       "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
-      "category": "国际政治",
-      "score": 94.6,
+      "category": "军事安全",
+      "score": 93.4,
       "score_breakdown": {
-        "coverage": 19.5,
-        "source_diversity": 18.0,
-        "region_diversity": 10.0,
-        "recency": 21.7,
-        "credibility": 9.4,
-        "impact": 11.0,
+        "coverage": 22.0,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.8,
+        "credibility": 9.8,
+        "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-09T19:29:00+00:00",
-      "last_updated": "2026-10-10T06:45:00+00:00",
-      "source_count": 5,
-      "article_count": 6,
+      "last_updated": "2026-10-10T13:25:00+00:00",
+      "source_count": 4,
+      "article_count": 8,
       "sources": [
         "Al Jazeera",
         "BBC World",
         "DW Top Stories",
-        "NPR World",
-        "the-star.co.ke"
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Kenya",
         "Middle East",
         "North America"
       ],
       "keywords": [
-        "russian",
         "diesel",
-        "trump",
         "deal",
-        "president",
-        "putin",
         "russia",
-        "prices"
+        "trump",
+        "putin",
+        "russian",
+        "prices",
+        "president"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的8篇报道，当前关注的军事安全事件为“Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Germany",
+          "Russia",
           "Trump",
-          "Russian",
-          "Zelensky",
-          "Putin Trump",
-          "Putin Hours",
-          "Putin",
           "Ukraine",
-          "Analysis"
+          "Putin",
+          "Why",
+          "US",
+          "Russian"
         ],
         "latest_progress": [
-          "10月10日 06:45 UTC，the-star.co.ke报道：“Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin”。",
-          "10月10日 04:38 UTC，BBC World报道：“Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin”。",
-          "10月10日 04:30 UTC，Al Jazeera报道：“Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site”。"
+          "10月10日 13:25 UTC，DW Top Stories报道：“Germany sticks to Russia sanctions after Trump diesel deal”。",
+          "10月10日 12:33 UTC，Al Jazeera报道：“Ukraine warns Trump-Putin diesel deal will bankroll Russia’s war”。",
+          "10月10日 12:16 UTC，Al Jazeera报道：“Why is US turning to Russia for diesel despite sanctions?”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_41b5ef0e09fcf89479b5",
-          "url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
-          "canonical_url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
-          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-          "summary": "",
-          "source": "the-star.co.ke",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T07:06:24.552714+00:00",
-          "language": "English",
-          "region": "Kenya",
-          "source_weight": 0.75,
-          "image_url": "https://cdn.radioafrica.digital/image/2026/10/3710205d-6b53-45cf-a166-13c4b192670a.webp"
+          "article_id": "art_659af47afb91345dd07e",
+          "url": "https://www.dw.com/en/germany-sticks-to-russia-sanctions-after-trump-diesel-deal/live-79627811?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/germany-sticks-to-russia-sanctions-after-trump-diesel-deal/live-79627811?maca=en-rss-en-top-1022-rdf",
+          "title": "Germany sticks to Russia sanctions after Trump diesel deal",
+          "summary": "After Washington announced a sanctions pause on Russian diesel, Germany has said it remains committed to pressuring Moscow and supporting Ukraine. More on DW.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-10T13:25:00+00:00",
+          "fetched_at": "2026-10-10T13:41:26.137472+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_685a98633277100e2370",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/ukraine-warns-trump-putin-diesel-deal-will-bankroll-russias-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/ukraine-warns-trump-putin-diesel-deal-will-bankroll-russias-war?traffic_source=rss",
+          "title": "Ukraine warns Trump-Putin diesel deal will bankroll Russia’s war",
+          "summary": "Donald Trump’s diesel deal with Putin gives Russia more money to continue attacking Ukraine, Zelenskyy says.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T12:33:07+00:00",
+          "fetched_at": "2026-10-10T13:41:26.456336+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2a185cbdd43326c03d98",
+          "url": "https://www.aljazeera.com/news/2026/10/10/why-is-us-turning-to-russia-for-diesel-despite-sanctions?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/why-is-us-turning-to-russia-for-diesel-despite-sanctions?traffic_source=rss",
+          "title": "Why is US turning to Russia for diesel despite sanctions?",
+          "summary": "President Donald Trump's deal with Putin comes amid surging fuel prices and looming US midterm elections.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T12:16:12+00:00",
+          "fetched_at": "2026-10-10T13:41:26.456725+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d0d0d77c67fa1101eec9",
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5996938/u-s-and-russia-tout-diesel-deal-to-ease-sanctions-and-reopen-fuel-flows",
+          "canonical_url": "https://www.npr.org/2026/10/10/nx-s1-5996938/u-s-and-russia-tout-diesel-deal-to-ease-sanctions-and-reopen-fuel-flows",
+          "title": "U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows",
+          "summary": "Moscow and Washington tout a diesel deal to ease sanctions and reopen fuel flows, but few details leave questions on price impacts and U.S. policy, sparking anger from Ukraine and allies.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T11:40:53+00:00",
+          "fetched_at": "2026-10-10T13:41:26.245471+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
           "article_id": "art_a0a69161f2606dac851c",
@@ -106,26 +144,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-10T04:38:20+00:00",
-          "fetched_at": "2026-10-10T07:07:28.968642+00:00",
+          "fetched_at": "2026-10-10T13:41:25.606149+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c49/live/850032c0-c470-11f1-94f2-dbc7ff6db92b.jpg"
-        },
-        {
-          "article_id": "art_21220463a2255ee73d89",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
-          "title": "Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site",
-          "summary": "Ukraine bombed a Russian fuel site, hours after US President Trump and Russian President Putin announced a diesel deal.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T04:30:34+00:00",
-          "fetched_at": "2026-10-10T07:07:29.884978+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         },
         {
           "article_id": "art_2c8c006571f4e15d1f74",
@@ -136,7 +159,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T22:30:22+00:00",
-          "fetched_at": "2026-10-10T07:07:28.968747+00:00",
+          "fetched_at": "2026-10-10T13:41:25.606310+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -151,7 +174,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T21:24:13+00:00",
-          "fetched_at": "2026-10-10T07:07:29.645965+00:00",
+          "fetched_at": "2026-10-10T13:41:26.246147+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -166,7 +189,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-09T19:29:00+00:00",
-          "fetched_at": "2026-10-10T07:07:29.443095+00:00",
+          "fetched_at": "2026-10-10T13:41:26.139076+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -175,60 +198,201 @@
       ]
     },
     {
-      "event_id": "evt_f3eec076af3b6c7f2e87",
-      "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
-      "category": "军事安全",
-      "score": 84.1,
+      "event_id": "evt_0059569b4ec057bec25f",
+      "title": "New Delhi police crack down on protesters ahead of anti-gov’t march",
+      "category": "社会突发",
+      "score": 87.7,
       "score_breakdown": {
         "coverage": 17.9,
-        "source_diversity": 10.8,
+        "source_diversity": 14.4,
         "region_diversity": 7.5,
         "recency": 21.7,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.3
+        "credibility": 9.4,
+        "impact": 11.7,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-09T08:23:16+00:00",
-      "last_updated": "2026-10-10T06:47:10+00:00",
-      "source_count": 3,
+      "first_seen": "2026-10-10T03:50:00+00:00",
+      "last_updated": "2026-10-10T13:23:42+00:00",
+      "source_count": 4,
       "article_count": 5,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "NPR World"
+        "DW Top Stories",
+        "hindi.business-standard.com"
       ],
       "regions": [
         "Europe",
+        "India",
+        "Middle East"
+      ],
+      "keywords": [
+        "delhi",
+        "leaders",
+        "detained",
+        "indian",
+        "protest",
+        "protesters",
+        "cockroach",
+        "party"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、hindi.business-standard.com等来源的5篇报道，当前关注的社会突发事件为“New Delhi police crack down on protesters ahead of anti-gov’t march”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "New Delhi",
+          "India",
+          "Cockroach",
+          "Delhi",
+          "Delhi Protest",
+          "Indian",
+          "Follow"
+        ],
+        "latest_progress": [
+          "10月10日 13:23 UTC，Al Jazeera报道：“New Delhi police crack down on protesters ahead of anti-gov’t march”。",
+          "10月10日 12:50 UTC，Al Jazeera报道：“India’s ‘Cockroach’ leaders detained; New Delhi in lockdown”。",
+          "10月10日 12:29 UTC，BBC World报道：“'Cockroach' group leaders among hundreds detained in Delhi protest”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d6faa7826185eb435118",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/new-delhi-police-crack-down-on-protesters-ahead-of-anti-govt-march?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/new-delhi-police-crack-down-on-protesters-ahead-of-anti-govt-march?traffic_source=rss",
+          "title": "New Delhi police crack down on protesters ahead of anti-gov’t march",
+          "summary": "India’s police have detained dozens of protesters, including ‘Cockroach’ party leaders ahead of an anti-gov't march.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T13:23:42+00:00",
+          "fetched_at": "2026-10-10T13:41:26.455278+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_554d6e843ca72c415e2b",
+          "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown?traffic_source=rss",
+          "title": "India’s ‘Cockroach’ leaders detained; New Delhi in lockdown",
+          "summary": "Indian police crackdown appears to have prevented mass protests against the country's election chief from taking place.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T12:50:34+00:00",
+          "fetched_at": "2026-10-10T13:41:26.455829+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_cbe6fd82c817831147d9",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_campaign=rss&at_medium=RSS",
+          "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+          "summary": "Tens of thousands of security personnel were deployed and roads barricaded ahead of the demonstration.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T12:29:31+00:00",
+          "fetched_at": "2026-10-10T13:41:25.605779+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09cf/live/654d9660-c499-11f1-9a39-31b474234113.jpg"
+        },
+        {
+          "article_id": "art_9c4928f6c9dfa3fbee84",
+          "url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004/",
+          "canonical_url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004",
+          "title": "Delhi Protest : मुख्य चुनाव आयुक्त के खिलाफ विरोध से पहले पुलिस की बड़ी कार्रवाई , 1000 से ज्यादा लोग हिरासत में",
+          "summary": "",
+          "source": "hindi.business-standard.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T13:41:19.454490+00:00",
+          "language": "Hindi",
+          "region": "India",
+          "source_weight": 0.75,
+          "image_url": "https://hindibusinessstandard.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/Delhi-Police-1200x630.jpg"
+        },
+        {
+          "article_id": "art_bc35e576b4e82a5c39b0",
+          "url": "https://www.dw.com/en/indian-authorities-crack-down-on-cockroach-protest-in-central-delhi-follow-live/live-79624339?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/indian-authorities-crack-down-on-cockroach-protest-in-central-delhi-follow-live/live-79624339?maca=en-rss-en-top-1022-rdf",
+          "title": "Indian authorities crack down on 'Cockroach' protest in central Delhi. Follow live.",
+          "summary": "Indian authorities have imposed extraordinary security measures to block protesters from joining a demonstration called by the Cockroach Janta Party in New Delhi. The main leaders of the party have been detained too.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-10T03:50:00+00:00",
+          "fetched_at": "2026-10-10T13:41:26.138298+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b26ff127175e35acf095",
+      "title": "What has Trump’s Board of Peace achieved in a year since Gaza ‘ceasefire’?",
+      "category": "军事安全",
+      "score": 77.3,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.1,
+        "credibility": 9.9,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T09:00:00+00:00",
+      "last_updated": "2026-10-10T12:40:57+00:00",
+      "source_count": 2,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "NPR World"
+      ],
+      "regions": [
         "Middle East",
         "North America"
       ],
       "keywords": [
-        "nobel",
-        "peace",
-        "prize",
-        "human",
-        "rights",
-        "navi",
-        "pillay",
-        "south"
+        "ceasefire",
+        "gaza",
+        "year",
+        "since",
+        "palestinians",
+        "israeli",
+        "trump",
+        "say"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的5篇报道，当前关注的军事安全事件为“'Stain on the country': Trump criticises Norway over Nobel Peace Prize”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、NPR World等来源的4篇报道，当前关注的军事安全事件为“What has Trump’s Board of Peace achieved in a year since Gaza ‘ceasefire’?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Child",
+          "Israel",
+          "Gaza",
+          "What",
           "Trump",
-          "Norway",
-          "Nobel Peace Prize",
-          "Stain",
-          "Nobel Peace Prize South",
-          "African",
-          "Navi Pillay",
-          "Nobel Peace Prize Watch"
+          "Board",
+          "Peace",
+          "NPR"
         ],
         "latest_progress": [
-          "10月10日 06:47 UTC，Al Jazeera报道：“Trump slams Norway for not awarding him Nobel Peace Prize”。",
-          "10月10日 04:07 UTC，BBC World报道：“'Stain on the country': Trump criticises Norway over Nobel Peace Prize”。",
-          "10月09日 21:25 UTC，NPR World报道：“South African human rights lawyer Navi Pillay wins Nobel Peace Prize”。"
+          "10月10日 12:40 UTC，Al Jazeera报道：“Child among seven killed by Israel in Gaza on ‘ceasefire’ anniversary”。",
+          "10月10日 11:19 UTC，Al Jazeera报道：“What has Trump’s Board of Peace achieved in a year since Gaza ‘ceasefire’?”。",
+          "10月10日 09:30 UTC，Al Jazeera报道：“A year after the ‘ceasefire’, Gaza’s healthcare is still collapsing”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -241,20 +405,131 @@
       },
       "articles": [
         {
-          "article_id": "art_04c61b23a20dcf7be532",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-slams-norway-for-not-awarding-him-nobel-peace-prize?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-slams-norway-for-not-awarding-him-nobel-peace-prize?traffic_source=rss",
-          "title": "Trump slams Norway for not awarding him Nobel Peace Prize",
-          "summary": "Trump slams Norway for not awarding him Nobel Peace Prize",
+          "article_id": "art_0335042d860a9bfec7bd",
+          "url": "https://www.aljazeera.com/news/2026/10/10/israeli-forces-kill-six-in-gaza-including-a-child?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/israeli-forces-kill-six-in-gaza-including-a-child?traffic_source=rss",
+          "title": "Child among seven killed by Israel in Gaza on ‘ceasefire’ anniversary",
+          "summary": "At least 1,481 Palestinians killed in Israeli attacks since last year's 'ceasefire', Gaza's Health Ministry says.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-10T06:47:10+00:00",
-          "fetched_at": "2026-10-10T07:07:29.884354+00:00",
+          "published_at": "2026-10-10T12:40:57+00:00",
+          "fetched_at": "2026-10-10T13:41:26.456008+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
+        {
+          "article_id": "art_bbb830632e81007a2766",
+          "url": "https://www.aljazeera.com/news/2026/10/10/what-has-trumps-board-of-peace-achieved-in-a-year-since-gaza?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/what-has-trumps-board-of-peace-achieved-in-a-year-since-gaza?traffic_source=rss",
+          "title": "What has Trump’s Board of Peace achieved in a year since Gaza ‘ceasefire’?",
+          "summary": "Analysts say board has 'failed' in its attempts to secure lasting peace in Gaza.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T11:19:24+00:00",
+          "fetched_at": "2026-10-10T13:41:26.457265+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_47a3c42d57cddf5e6a02",
+          "url": "https://www.aljazeera.com/opinions/2026/10/10/a-year-after-the-ceasefire-gazas-healthcare-is-still-collapsing?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/opinions/2026/10/10/a-year-after-the-ceasefire-gazas-healthcare-is-still-collapsing?traffic_source=rss",
+          "title": "A year after the ‘ceasefire’, Gaza’s healthcare is still collapsing",
+          "summary": "Continuing attacks, restrictions on medical aid and delayed evacuations are still killing Palestinians.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T09:30:14+00:00",
+          "fetched_at": "2026-10-10T13:41:26.457979+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_fb0eae658c9582d1c65e",
+          "url": "https://www.npr.org/sections/the-picture-show/2026/10/10/nx-s1-5991619/gaza-ceasefire-israel-life",
+          "canonical_url": "https://www.npr.org/sections/the-picture-show/2026/10/10/nx-s1-5991619/gaza-ceasefire-israel-life",
+          "title": "A year of ceasefire in Gaza through the lens of NPR's reporter",
+          "summary": "It has been one year since Hamas released the remaining Israeli hostages and President Trump promised an end to the war, but Palestinians say the past 12 months have been a ceasefire in name only.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T09:00:00+00:00",
+          "fetched_at": "2026-10-10T13:41:26.245647+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f3eec076af3b6c7f2e87",
+      "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
+      "category": "军事安全",
+      "score": 68.9,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 14.8,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 3.0
+      },
+      "first_seen": "2026-10-09T08:23:16+00:00",
+      "last_updated": "2026-10-10T04:07:11+00:00",
+      "source_count": 2,
+      "article_count": 4,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "human",
+        "rights",
+        "navi",
+        "pillay",
+        "nobel",
+        "peace",
+        "prize",
+        "south"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的4篇报道，当前关注的军事安全事件为“'Stain on the country': Trump criticises Norway over Nobel Peace Prize”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Stain",
+          "Trump",
+          "Norway",
+          "Nobel Peace Prize South",
+          "African",
+          "Navi Pillay",
+          "Nobel Peace Prize Watch",
+          "Who"
+        ],
+        "latest_progress": [
+          "10月10日 04:07 UTC，BBC World报道：“'Stain on the country': Trump criticises Norway over Nobel Peace Prize”。",
+          "10月09日 21:25 UTC，NPR World报道：“South African human rights lawyer Navi Pillay wins Nobel Peace Prize”。",
+          "10月09日 15:26 UTC，BBC World报道：“Watch: Who is Nobel Peace Prize winner Navi Pillay?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
           "article_id": "art_89a68ddadaf7f225dca9",
           "url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
@@ -264,7 +539,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-10T04:07:11+00:00",
-          "fetched_at": "2026-10-10T07:07:28.969222+00:00",
+          "fetched_at": "2026-10-10T13:41:25.606962+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -279,7 +554,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T21:25:59+00:00",
-          "fetched_at": "2026-10-10T07:07:29.645870+00:00",
+          "fetched_at": "2026-10-10T13:41:26.245992+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -294,7 +569,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T15:26:33+00:00",
-          "fetched_at": "2026-10-10T07:07:28.971081+00:00",
+          "fetched_at": "2026-10-10T13:41:25.609723+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -309,7 +584,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T08:23:16+00:00",
-          "fetched_at": "2026-10-10T07:07:29.646187+00:00",
+          "fetched_at": "2026-10-10T13:41:26.246604+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -318,26 +593,25 @@
       ]
     },
     {
-      "event_id": "evt_1e1860cbcba4349e0ae7",
-      "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
-      "category": "军事安全",
-      "score": 76.2,
+      "event_id": "evt_d64091ba9c4d67e0f0fc",
+      "title": "Isaias weakens after making landfall in US Gulf Coast as hurricane",
+      "category": "社会突发",
+      "score": 67.4,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
         "recency": 17.8,
-        "credibility": 9.9,
-        "impact": 13.0,
-        "velocity": 3.7
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-09T09:43:22+00:00",
-      "last_updated": "2026-10-10T01:59:00+00:00",
-      "source_count": 3,
-      "article_count": 4,
+      "first_seen": "2026-10-10T02:58:00+00:00",
+      "last_updated": "2026-10-10T08:33:44+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -345,28 +619,280 @@
         "Middle East"
       ],
       "keywords": [
-        "execution",
-        "firing",
-        "squad",
-        "fort",
-        "hood",
-        "trump",
-        "shooter",
-        "livestream"
+        "hurricane",
+        "isaias",
+        "landfall",
+        "florida",
+        "gulf",
+        "coast",
+        "power",
+        "makes"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Fort Hood survivor supports gunman's execution by firing squad but questions livestream”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Isaias weakens after making landfall in US Gulf Coast as hurricane”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Isaias",
+          "US",
+          "Gulf Coast",
+          "Hurricane Isaias",
+          "Florida"
+        ],
+        "latest_progress": [
+          "10月10日 08:33 UTC，Al Jazeera报道：“Isaias weakens after making landfall in US Gulf Coast as hurricane”。",
+          "10月10日 02:58 UTC，DW Top Stories报道：“Hurricane Isaias makes landfall in Florida”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f21d37d4487468838d92",
+          "url": "https://www.aljazeera.com/news/2026/10/10/isaias-weakens-after-making-landfall-in-us-gulf-coast-as-hurricane?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/isaias-weakens-after-making-landfall-in-us-gulf-coast-as-hurricane?traffic_source=rss",
+          "title": "Isaias weakens after making landfall in US Gulf Coast as hurricane",
+          "summary": "More than 664,000 customers in Florida and Alabama have been left without power as Isaias downs trees, power lines.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T08:33:44+00:00",
+          "fetched_at": "2026-10-10T13:41:26.458438+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5d7a000a1ddfe014b245",
+          "url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-top-1022-rdf",
+          "title": "Hurricane Isaias makes landfall in Florida",
+          "summary": "US weather authorities are warning of \"life-threatening\" storm surges on the Gulf Coast due to the Category 2 hurricane. Extreme winds, rising water levels and possible tornadoes are also on the radar.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-10T02:58:00+00:00",
+          "fetched_at": "2026-10-10T13:41:26.138421+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7f39d4c24b64c9d4112e",
+      "title": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
+      "category": "军事安全",
+      "score": 65.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 16.5,
+        "credibility": 7.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T06:45:00+00:00",
+      "last_updated": "2026-10-10T06:45:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "economictimes.indiatimes.com",
+        "gazettextra.com"
+      ],
+      "regions": [
+        "India",
+        "United States"
+      ],
+      "keywords": [
+        "trump",
+        "iran",
+        "agree",
+        "one",
+        "thing",
+        "election",
+        "calendar",
+        "isnt"
+      ],
+      "analysis": {
+        "what_happened": "据economictimes.indiatimes.com、gazettextra.com等来源的2篇报道，当前关注的军事安全事件为“Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Trump",
-          "Fort Hood",
+          "Iran",
+          "US"
+        ],
+        "latest_progress": [
+          "10月10日 06:45 UTC，economictimes.indiatimes.com报道：“Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war”。",
+          "10月10日 06:45 UTC，gazettextra.com报道：“Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_8923f3e459329bff61d9",
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions-on-the-war/articleshow/134847184.cms",
+          "canonical_url": "https://economictimes.indiatimes.com/news/international/world-news/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions-on-the-war/articleshow/134847184.cms",
+          "title": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
+          "summary": "",
+          "source": "economictimes.indiatimes.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T13:41:19.452586+00:00",
+          "language": "English",
+          "region": "India",
+          "source_weight": 0.75,
+          "image_url": "https://img.etimg.com/thumb/msid-134847182,width-1200,height-900,imgsize-7740011,overlay-economictimes/articleshow.jpg"
+        },
+        {
+          "article_id": "art_f3d1552a64a54ecb6f02",
+          "url": "http://www.gazettextra.com/news/nation_world/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions/article_1c0bd0ae-dc37-559a-b9db-e23dbf21b05a.html",
+          "canonical_url": "https://www.gazettextra.com/news/nation_world/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions/article_1c0bd0ae-dc37-559a-b9db-e23dbf21b05a.html",
+          "title": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
+          "summary": "",
+          "source": "gazettextra.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T13:41:19.456531+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bloximages.newyork1.vip.townnews.com/gazettextra.com/content/tncms/assets/v3/editorial/7/44/7442773c-66a5-5f9b-8b09-15bd0e2563ec/6ac9b9a9302fb.image.jpg?crop=1764%2C926%2C0%2C124"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8a2233ce895f8c62ac6c",
+      "title": "High silver prices threaten Lucknow’s famed bridal nagra craft",
+      "category": "军事安全",
+      "score": 62.8,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.8,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T13:25:35+00:00",
+      "last_updated": "2026-10-10T13:25:35+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "silver",
+        "prices",
+        "nagra",
+        "high",
+        "threaten",
+        "lucknow",
+        "famed",
+        "bridal"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“High silver prices threaten Lucknow’s famed bridal nagra craft”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "High",
+          "Lucknow"
+        ],
+        "latest_progress": [
+          "10月10日 13:25 UTC，Al Jazeera报道：“High silver prices threaten Lucknow’s famed bridal nagra craft”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3bc00b96bf907d715fcb",
+          "url": "https://www.aljazeera.com/features/longform/2026/10/10/high-silver-prices-threaten-lucknows-famed-bridal-nagra-craft?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/longform/2026/10/10/high-silver-prices-threaten-lucknows-famed-bridal-nagra-craft?traffic_source=rss",
+          "title": "High silver prices threaten Lucknow’s famed bridal nagra craft",
+          "summary": "War-driven prices for silver are threatening nagra makers in northern India.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T13:25:35+00:00",
+          "fetched_at": "2026-10-10T13:41:26.455089+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1e1860cbcba4349e0ae7",
+      "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
+      "category": "军事安全",
+      "score": 62.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 13.5,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 2.8
+      },
+      "first_seen": "2026-10-09T09:43:22+00:00",
+      "last_updated": "2026-10-10T01:59:00+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "execution",
+        "firing",
+        "squad",
+        "would",
+        "fort",
+        "hood",
+        "livestream",
+        "whether"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Fort Hood survivor supports gunman's execution by firing squad but questions livestream”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
           "JD",
-          "Vance"
+          "Vance",
+          "Fort Hood"
         ],
         "latest_progress": [
           "10月10日 01:59 UTC，DW Top Stories报道：“Trump weighs livestream execution amid bipartisan backlash”。",
-          "10月09日 21:53 UTC，Al Jazeera报道：“Trump confirms Fort Hood shooter’s execution will be by firing squad”。",
-          "10月09日 21:50 UTC，BBC World报道：“JD Vance casts doubt on firing squad execution and says he will not watch it”。"
+          "10月09日 21:50 UTC，BBC World报道：“JD Vance casts doubt on firing squad execution and says he would not watch it”。",
+          "10月09日 09:43 UTC，BBC World报道：“Fort Hood survivor supports gunman's execution by firing squad but questions livestream”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -387,37 +913,22 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-10T01:59:00+00:00",
-          "fetched_at": "2026-10-10T07:07:29.442928+00:00",
+          "fetched_at": "2026-10-10T13:41:26.138665+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_31cdc3bb481c712e4949",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/trump-confirms-fort-hood-shooters-execution-will-be-by-firing-squad?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/trump-confirms-fort-hood-shooters-execution-will-be-by-firing-squad?traffic_source=rss",
-          "title": "Trump confirms Fort Hood shooter’s execution will be by firing squad",
-          "summary": "The Pentagon said the firing squad execution of Fort Hood shooter Nidal Malik Hasan will be public and livestreamed.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T21:53:01+00:00",
-          "fetched_at": "2026-10-10T07:07:29.885740+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
           "article_id": "art_9ce851f21fca152b1895",
           "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_campaign=rss&at_medium=RSS",
-          "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
+          "title": "JD Vance casts doubt on firing squad execution and says he would not watch it",
           "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T21:50:47+00:00",
-          "fetched_at": "2026-10-10T07:07:28.969290+00:00",
+          "fetched_at": "2026-10-10T13:41:25.607421+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -432,7 +943,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T09:43:22+00:00",
-          "fetched_at": "2026-10-10T07:07:28.970743+00:00",
+          "fetched_at": "2026-10-10T13:41:25.608961+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -441,397 +952,15 @@
       ]
     },
     {
-      "event_id": "evt_bbdf3ec75cb199fef5fd",
-      "title": "India deploys police and restricts transport ahead of mass protest in Delhi",
-      "category": "社会突发",
-      "score": 73.6,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.7,
-        "credibility": 9.2,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T04:07:30+00:00",
-      "last_updated": "2026-10-10T06:45:00+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "hindi.business-standard.com"
-      ],
-      "regions": [
-        "India",
-        "Middle East"
-      ],
-      "keywords": [
-        "protest",
-        "delhi",
-        "cockroach",
-        "india",
-        "janta",
-        "party",
-        "chief",
-        "election"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、hindi.business-standard.com等来源的3篇报道，当前关注的社会突发事件为“India deploys police and restricts transport ahead of mass protest in Delhi”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Delhi Protest",
-          "India",
-          "Cockroach",
-          "New Delhi",
-          "Delhi"
-        ],
-        "latest_progress": [
-          "10月10日 06:45 UTC，hindi.business-standard.com报道：“Delhi Protest : मुख्य चुनाव आयुक्त के खिलाफ विरोध से पहले पुलिस की बड़ी कार्रवाई , 1000 से ज्यादा लोग हिरासत में”。",
-          "10月10日 05:54 UTC，Al Jazeera报道：“India protest live: ‘Cockroach’ leaders detained; New Delhi in lockdown”。",
-          "10月10日 04:07 UTC，Al Jazeera报道：“India deploys police and restricts transport ahead of mass protest in Delhi”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9c4928f6c9dfa3fbee84",
-          "url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004/",
-          "canonical_url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004",
-          "title": "Delhi Protest : मुख्य चुनाव आयुक्त के खिलाफ विरोध से पहले पुलिस की बड़ी कार्रवाई , 1000 से ज्यादा लोग हिरासत में",
-          "summary": "",
-          "source": "hindi.business-standard.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T07:06:24.551515+00:00",
-          "language": "Hindi",
-          "region": "India",
-          "source_weight": 0.75,
-          "image_url": "https://hindibusinessstandard.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/Delhi-Police-1200x630.jpg"
-        },
-        {
-          "article_id": "art_26c079907e9781409e6e",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/10/india-protest-live-police-detain-cockroach-leaders-new-delhi-in-lockdown?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/10/india-protest-live-police-detain-cockroach-leaders-new-delhi-in-lockdown?traffic_source=rss",
-          "title": "India protest live: ‘Cockroach’ leaders detained; New Delhi in lockdown",
-          "summary": "Cockroach Janta ​Party founder Abhijeet Dipke and other leaders detained before ​protest to demand election chief quit.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T05:54:36+00:00",
-          "fetched_at": "2026-10-10T07:07:29.884534+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_d41b7df78a15893c4c6d",
-          "url": "https://www.aljazeera.com/news/2026/10/10/india-deploys-police-and-restricts-transport-ahead-of-mass-protest-in-delhi?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/india-deploys-police-and-restricts-transport-ahead-of-mass-protest-in-delhi?traffic_source=rss",
-          "title": "India deploys police and restricts transport ahead of mass protest in Delhi",
-          "summary": "The Cockroach Janta Party wants Chief Election Commissioner Gyanesh Kumar to quit over changes to voter lists.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T04:07:30+00:00",
-          "fetched_at": "2026-10-10T07:07:29.885045+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d64091ba9c4d67e0f0fc",
-      "title": "Hurricane Isaias downgraded after making landfall in Florida",
-      "category": "社会突发",
-      "score": 68.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 21.8,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T02:58:00+00:00",
-      "last_updated": "2026-10-10T06:54:16+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "hurricane",
-        "isaias",
-        "landfall",
-        "florida",
-        "downgraded",
-        "makes",
-        "weather",
-        "authorities"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Hurricane Isaias downgraded after making landfall in Florida”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Hurricane Isaias",
-          "Florida Hurricane Isaias",
-          "Florida"
-        ],
-        "latest_progress": [
-          "10月10日 06:54 UTC，BBC World报道：“Hurricane Isaias downgraded after making landfall in Florida”。",
-          "10月10日 02:58 UTC，DW Top Stories报道：“Hurricane Isaias makes landfall in Florida”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_fea2b35aa5c3f52cb294",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_campaign=rss&at_medium=RSS",
-          "title": "Hurricane Isaias downgraded after making landfall in Florida",
-          "summary": "Isaias is continuing across the Southeastern US after being downgraded from a hurricane to a post-tropical cyclone.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-10T06:54:16+00:00",
-          "fetched_at": "2026-10-10T07:07:28.969012+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg"
-        },
-        {
-          "article_id": "art_5d7a000a1ddfe014b245",
-          "url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-top-1022-rdf",
-          "title": "Hurricane Isaias makes landfall in Florida",
-          "summary": "US weather authorities are warning of \"life-threatening\" storm surges on the Gulf Coast due to the Category 2 hurricane. Extreme winds, rising water levels and possible tornadoes are also on the radar.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-10T02:58:00+00:00",
-          "fetched_at": "2026-10-10T07:07:29.442815+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b88fcc9c0b2cd344c05a",
-      "title": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
-      "category": "国际政治",
-      "score": 68.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.7,
-        "credibility": 7.5,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T06:45:00+00:00",
-      "last_updated": "2026-10-10T06:45:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "argentinastar.com",
-        "pakistantelegraph.com"
-      ],
-      "regions": [
-        "Argentina",
-        "Pakistan"
-      ],
-      "keywords": [
-        "finance",
-        "minister",
-        "guides",
-        "press",
-        "through",
-        "qsncc",
-        "ahead",
-        "imf"
-      ],
-      "analysis": {
-        "what_happened": "据argentinastar.com、pakistantelegraph.com等来源的2篇报道，当前关注的国际政治事件为“Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Finance Minister Guides Press",
-          "Through",
-          "QSNCC",
-          "Ahead",
-          "IMF",
-          "World Bank Group Annual",
-          "Meetings",
-          "Reaffirming Thailand Readiness"
-        ],
-        "latest_progress": [
-          "10月10日 06:45 UTC，argentinastar.com报道：“Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts”。",
-          "10月10日 06:45 UTC，pakistantelegraph.com报道：“Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_006067306e3bad7e21cb",
-          "url": "http://www.argentinastar.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
-          "canonical_url": "https://www.argentinastar.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
-          "title": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
-          "summary": "",
-          "source": "argentinastar.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T07:06:24.552874+00:00",
-          "language": "English",
-          "region": "Argentina",
-          "source_weight": 0.75,
-          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/8fa7672/2accb384-666b-4efa-9430-a5a515bcf66f/0/ANI-20261010044342-600x315.jpg"
-        },
-        {
-          "article_id": "art_7e626366d41593ff708a",
-          "url": "http://www.pakistantelegraph.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
-          "canonical_url": "https://www.pakistantelegraph.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
-          "title": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
-          "summary": "",
-          "source": "pakistantelegraph.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T07:06:24.552914+00:00",
-          "language": "English",
-          "region": "Pakistan",
-          "source_weight": 0.75,
-          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/8fa7672/2accb384-666b-4efa-9430-a5a515bcf66f/0/ANI-20261010044342-600x315.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_944b77f915a9ac4303ff",
-      "title": "Strong earthquakes shake Panama, buildings damaged",
-      "category": "国际政治",
-      "score": 67.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.7,
-        "credibility": 8.5,
-        "impact": 11.0,
-        "velocity": 2.6
-      },
-      "first_seen": "2026-10-09T19:03:00+00:00",
-      "last_updated": "2026-10-10T06:45:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories",
-        "timesofoman.com"
-      ],
-      "regions": [
-        "Europe",
-        "Oman"
-      ],
-      "keywords": [
-        "strong",
-        "earthquakes",
-        "shake",
-        "panama",
-        "buildings",
-        "damaged",
-        "panama's",
-        "president"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories、timesofoman.com等来源的2篇报道，当前关注的国际政治事件为“Strong earthquakes shake Panama, buildings damaged”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Strong",
-          "Panama Strong",
-          "Panama"
-        ],
-        "latest_progress": [
-          "10月10日 06:45 UTC，timesofoman.com报道：“Strong earthquakes , aftershocks shake Panama”。",
-          "10月09日 19:03 UTC，DW Top Stories报道：“Strong earthquakes shake Panama, buildings damaged”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6dbade4c59fe827c4c1c",
-          "url": "https://timesofoman.com/article/177841-strong-earthquakes-aftershocks-shake-panama",
-          "canonical_url": "https://timesofoman.com/article/177841-strong-earthquakes-aftershocks-shake-panama",
-          "title": "Strong earthquakes , aftershocks shake Panama",
-          "summary": "",
-          "source": "timesofoman.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T07:06:24.552601+00:00",
-          "language": "English",
-          "region": "Oman",
-          "source_weight": 0.75,
-          "image_url": "https://shabiba.eu-central-1.linodeobjects.com/2026/10/1791604013-1791604013-qjrys1npqbym-700x400.webp"
-        },
-        {
-          "article_id": "art_3cdfd75e40ad950e47dc",
-          "url": "https://www.dw.com/en/strong-earthquakes-shake-panama-buildings-damaged/a-79623168?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/strong-earthquakes-shake-panama-buildings-damaged/a-79623168?maca=en-rss-en-top-1022-rdf",
-          "title": "Strong earthquakes shake Panama, buildings damaged",
-          "summary": "Panama's president has declared a \"major disaster\" after a series of tremors damaged buildings, briefly suspended flights and triggered a tsunami alert in Central and South America.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-09T19:03:00+00:00",
-          "fetched_at": "2026-10-10T07:07:29.443148+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_ee94cbb5cd5be7fd6c14",
       "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
       "category": "军事安全",
-      "score": 66.2,
+      "score": 61.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 19.8,
+        "recency": 15.1,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 2.9
@@ -889,7 +1018,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-10T04:34:55+00:00",
-          "fetched_at": "2026-10-10T07:07:28.968860+00:00",
+          "fetched_at": "2026-10-10T13:41:25.606807+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -904,7 +1033,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-09T18:23:00+00:00",
-          "fetched_at": "2026-10-10T07:07:29.443200+00:00",
+          "fetched_at": "2026-10-10T13:41:26.139338+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -913,52 +1042,49 @@
       ]
     },
     {
-      "event_id": "evt_ce5da561994871cc8b69",
-      "title": "Commentator Katie Zacharia picked as new White House press secretary",
+      "event_id": "evt_b611d1baa65a54d49a45",
+      "title": "Operations Plan Germany: How the Bundeswehr trains for NATO collective defense",
       "category": "军事安全",
-      "score": 64.3,
+      "score": 61.1,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 15.8,
-        "credibility": 9.8,
+        "recency": 20.5,
+        "credibility": 9.5,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-09T22:41:21+00:00",
-      "last_updated": "2026-10-09T23:12:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-10T12:02:00+00:00",
+      "last_updated": "2026-10-10T12:02:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "trump",
-        "press",
-        "secretary",
-        "commentator",
-        "katie",
-        "zacharia",
-        "white",
-        "house"
+        "germany",
+        "operations",
+        "plan",
+        "defense",
+        "bundeswehr",
+        "trains",
+        "nato",
+        "collective"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Commentator Katie Zacharia picked as new White House press secretary”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Operations Plan Germany: How the Bundeswehr trains for NATO collective defense”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Trump",
-          "Karoline Leavitt Commentator Katie",
-          "Zacharia",
-          "White House"
+          "Operations Plan Germany",
+          "Bundeswehr",
+          "NATO"
         ],
         "latest_progress": [
-          "10月09日 23:12 UTC，DW Top Stories报道：“Trump names new press secretary to succeed Karoline Leavitt”。",
-          "10月09日 22:41 UTC，BBC World报道：“Commentator Katie Zacharia picked as new White House press secretary”。"
+          "10月10日 12:02 UTC，DW Top Stories报道：“Operations Plan Germany: How the Bundeswehr trains for NATO collective defense”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -971,120 +1097,19 @@
       },
       "articles": [
         {
-          "article_id": "art_1343b3190c4eb95f91c9",
-          "url": "https://www.dw.com/en/trump-names-new-press-secretary-to-succeed-karoline-leavitt/a-79623824?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-names-new-press-secretary-to-succeed-karoline-leavitt/a-79623824?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump names new press secretary to succeed Karoline Leavitt",
-          "summary": "Trump has appointed Katie Zacharia to take over the White House press secretary role vacated by Karoline Leavitt. She assumes the role with Trump struggling with low approval ratings driven by the US war with Iran.",
+          "article_id": "art_33d754035aeeed04cd0a",
+          "url": "https://www.dw.com/en/operations-plan-germany-how-the-bundeswehr-trains-for-nato-collective-defense/a-79553793?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/operations-plan-germany-how-the-bundeswehr-trains-for-nato-collective-defense/a-79553793?maca=en-rss-en-top-1022-rdf",
+          "title": "Operations Plan Germany: How the Bundeswehr trains for NATO collective defense",
+          "summary": "How prepared is Germany for national defense? The answer lies in the Operations Plan Germany. Military exercises such as \"Red Storm Charlie\" are designed to put these preparations to the test in realistic scenarios.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-09T23:12:00+00:00",
-          "fetched_at": "2026-10-10T07:07:29.442984+00:00",
+          "published_at": "2026-10-10T12:02:00+00:00",
+          "fetched_at": "2026-10-10T13:41:26.137612+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_8865cca9a5f2c0e18a46",
-          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_campaign=rss&at_medium=RSS",
-          "title": "Commentator Katie Zacharia picked as new White House press secretary",
-          "summary": "The conservative commentator currently works as a communications adviser at Trump Media & Technology Group.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T22:41:21+00:00",
-          "fetched_at": "2026-10-10T07:07:28.969621+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b258/live/476d9530-c414-11f1-9a39-31b474234113.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_abf3972b959775eb9b57",
-      "title": "李健聪 ： 对比昌明政府选举财案 同心党影子财案直面根本问题光华日报 | 1910年创刊 创新每一天生活",
-      "category": "国际政治",
-      "score": 62.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.7,
-        "credibility": 7.5,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T06:45:00+00:00",
-      "last_updated": "2026-10-10T06:45:00+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "kwongwah.com.my"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "keywords": [
-        "财案",
-        "光华",
-        "华日",
-        "日报",
-        "年创",
-        "创刊",
-        "创新",
-        "新每"
-      ],
-      "analysis": {
-        "what_happened": "据kwongwah.com.my等来源的2篇报道，当前关注的国际政治事件为“李健聪 ： 对比昌明政府选举财案 同心党影子财案直面根本问题光华日报 | 1910年创刊 创新每一天生活”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "kwongwah.com.my"
-        ],
-        "latest_progress": [
-          "10月10日 06:45 UTC，kwongwah.com.my报道：“李健聪 ： 对比昌明政府选举财案 同心党影子财案直面根本问题光华日报 | 1910年创刊 创新每一天生活”。",
-          "10月10日 06:45 UTC，kwongwah.com.my报道：“巴拿马7 . 7强震全国学校停课 运河运作正常光华日报 | 1910年创刊 创新每一天生活”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2e97422d39e9ce505116",
-          "url": "https://www.kwongwah.com.my/20261010/%E6%9D%8E%E5%81%A5%E8%81%AA%EF%BC%9A%E5%AF%B9%E6%AF%94%E6%98%8C%E6%98%8E%E6%94%BF%E5%BA%9C%E9%80%89%E4%B8%BE%E8%B4%A2%E6%A1%88-%E5%90%8C%E5%BF%83%E5%85%9A%E5%BD%B1%E5%AD%90%E8%B4%A2%E6%A1%88%E7%9B%B4/",
-          "canonical_url": "https://www.kwongwah.com.my/20261010/%E6%9D%8E%E5%81%A5%E8%81%AA%EF%BC%9A%E5%AF%B9%E6%AF%94%E6%98%8C%E6%98%8E%E6%94%BF%E5%BA%9C%E9%80%89%E4%B8%BE%E8%B4%A2%E6%A1%88-%E5%90%8C%E5%BF%83%E5%85%9A%E5%BD%B1%E5%AD%90%E8%B4%A2%E6%A1%88%E7%9B%B4",
-          "title": "李健聪 ： 对比昌明政府选举财案 同心党影子财案直面根本问题光华日报 | 1910年创刊 创新每一天生活",
-          "summary": "",
-          "source": "kwongwah.com.my",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T07:06:24.551474+00:00",
-          "language": "Chinese",
-          "region": "Malaysia",
-          "source_weight": 0.75,
-          "image_url": "https://www.kwongwah.com.my/public/static_resources/img/default_01_2019_04.jpg?q"
-        },
-        {
-          "article_id": "art_ed96b68e25768ac8ef82",
-          "url": "https://www.kwongwah.com.my/20261010/%E5%B7%B4%E6%8B%BF%E9%A9%AC7%E3%80%827%E5%BC%BA%E9%9C%87%E5%85%A8%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%81%9C%E8%AF%BE-%E8%BF%90%E6%B2%B3%E8%BF%90%E4%BD%9C%E6%AD%A3%E5%B8%B8/",
-          "canonical_url": "https://www.kwongwah.com.my/20261010/%E5%B7%B4%E6%8B%BF%E9%A9%AC7%E3%80%827%E5%BC%BA%E9%9C%87%E5%85%A8%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%81%9C%E8%AF%BE-%E8%BF%90%E6%B2%B3%E8%BF%90%E4%BD%9C%E6%AD%A3%E5%B8%B8",
-          "title": "巴拿马7 . 7强震全国学校停课 运河运作正常光华日报 | 1910年创刊 创新每一天生活",
-          "summary": "",
-          "source": "kwongwah.com.my",
-          "source_type": "gdelt",
-          "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-10T07:06:24.552155+00:00",
-          "language": "Chinese",
-          "region": "Malaysia",
-          "source_weight": 0.75,
-          "image_url": "https://www.kwongwah.com.my/wp-content/uploads/2026/10/261011cw20.jpg"
         }
       ]
     }
