@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T00:51:31.782662+00:00",
+  "generated_at": "2026-10-10T07:07:30.775905+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 140,
-    "articles_unique": 140,
+    "articles_fetched": 144,
+    "articles_unique": 144,
     "errors": [
       {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
@@ -16,70 +16,87 @@
     {
       "event_id": "evt_a5af2567c52c9171d92c",
       "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
-      "category": "军事安全",
-      "score": 91.1,
+      "category": "国际政治",
+      "score": 94.6,
       "score_breakdown": {
         "coverage": 19.5,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 21.9,
-        "credibility": 9.8,
-        "impact": 13.0,
+        "source_diversity": 18.0,
+        "region_diversity": 10.0,
+        "recency": 21.7,
+        "credibility": 9.4,
+        "impact": 11.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-09T19:29:00+00:00",
-      "last_updated": "2026-10-10T00:45:51+00:00",
-      "source_count": 4,
+      "last_updated": "2026-10-10T06:45:00+00:00",
+      "source_count": 5,
       "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
         "DW Top Stories",
-        "NPR World"
+        "NPR World",
+        "the-star.co.ke"
       ],
       "regions": [
         "Europe",
+        "Kenya",
         "Middle East",
         "North America"
       ],
       "keywords": [
-        "trump",
-        "diesel",
-        "deal",
-        "russia",
-        "prices",
         "russian",
+        "diesel",
+        "trump",
+        "deal",
         "president",
-        "pressure"
+        "putin",
+        "russia",
+        "prices"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Trump",
           "Russian",
           "Zelensky",
-          "Putin Iran",
-          "Kremlin",
-          "Russia",
-          "Iran",
+          "Putin Trump",
+          "Putin Hours",
+          "Putin",
+          "Ukraine",
           "Analysis"
         ],
         "latest_progress": [
-          "10月10日 00:45 UTC，BBC World报道：“Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin”。",
-          "10月10日 00:00 UTC，Al Jazeera报道：“Iran war live: Kremlin says Trump welcomed Russia’s effort in Iran deal”。",
-          "10月09日 22:30 UTC，BBC World报道：“Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices”。"
+          "10月10日 06:45 UTC，the-star.co.ke报道：“Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin”。",
+          "10月10日 04:38 UTC，BBC World报道：“Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin”。",
+          "10月10日 04:30 UTC，Al Jazeera报道：“Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_41b5ef0e09fcf89479b5",
+          "url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
+          "canonical_url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "summary": "",
+          "source": "the-star.co.ke",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T07:06:24.552714+00:00",
+          "language": "English",
+          "region": "Kenya",
+          "source_weight": 0.75,
+          "image_url": "https://cdn.radioafrica.digital/image/2026/10/3710205d-6b53-45cf-a166-13c4b192670a.webp"
+        },
         {
           "article_id": "art_a0a69161f2606dac851c",
           "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
@@ -88,23 +105,23 @@
           "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-10T00:45:51+00:00",
-          "fetched_at": "2026-10-10T00:51:30.137154+00:00",
+          "published_at": "2026-10-10T04:38:20+00:00",
+          "fetched_at": "2026-10-10T07:07:28.968642+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d61b/live/93d8fbd0-c41e-11f1-a175-8928617a734f.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c49/live/850032c0-c470-11f1-94f2-dbc7ff6db92b.jpg"
         },
         {
-          "article_id": "art_354ef2a77a136fbfb0de",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/10/iran-war-live-kremlin-says-trump-welcomed-russia-effort-in-iran-deal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/10/iran-war-live-kremlin-says-trump-welcomed-russia-effort-in-iran-deal?traffic_source=rss",
-          "title": "Iran war live: Kremlin says Trump welcomed Russia’s effort in Iran deal",
-          "summary": "The Kremlin says the US president welcomes Russia's involvement in efforts aimed at reaching a settlement over Iran.",
+          "article_id": "art_21220463a2255ee73d89",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/10-10-ukraine-drone-russia-oil-clip?traffic_source=rss",
+          "title": "Hours after Trump-Putin diesel deal, Ukraine strikes Russian fuel site",
+          "summary": "Ukraine bombed a Russian fuel site, hours after US President Trump and Russian President Putin announced a diesel deal.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-10T00:00:00+00:00",
-          "fetched_at": "2026-10-10T00:51:30.768173+00:00",
+          "published_at": "2026-10-10T04:30:34+00:00",
+          "fetched_at": "2026-10-10T07:07:29.884978+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -119,11 +136,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T22:30:22+00:00",
-          "fetched_at": "2026-10-10T00:51:30.137287+00:00",
+          "fetched_at": "2026-10-10T07:07:28.968747+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9075/live/94a528a0-c422-11f1-9462-0fb8e72a616b.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/200a/live/11ffab00-c472-11f1-9fee-49b2288eef07.jpg"
         },
         {
           "article_id": "art_882903f0d7d508399e0d",
@@ -134,25 +151,10 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T21:24:13+00:00",
-          "fetched_at": "2026-10-10T00:51:30.637374+00:00",
+          "fetched_at": "2026-10-10T07:07:29.645965+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_1428e35756ed2770f70d",
-          "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-          "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
-          "summary": "Russia to supply 300,000 tonnes of diesel immediately, followed by 1.5 million more, as prices soar amid the Iran war.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T19:47:33+00:00",
-          "fetched_at": "2026-10-10T00:51:30.769252+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         },
         {
@@ -164,7 +166,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-09T19:29:00+00:00",
-          "fetched_at": "2026-10-10T00:51:30.557056+00:00",
+          "fetched_at": "2026-10-10T07:07:29.443095+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -174,20 +176,20 @@
     },
     {
       "event_id": "evt_f3eec076af3b6c7f2e87",
-      "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+      "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
       "category": "军事安全",
-      "score": 83.1,
+      "score": 84.1,
       "score_breakdown": {
         "coverage": 17.9,
         "source_diversity": 10.8,
         "region_diversity": 7.5,
-        "recency": 19.1,
+        "recency": 21.7,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 3.3
       },
       "first_seen": "2026-10-09T08:23:16+00:00",
-      "last_updated": "2026-10-09T21:25:59+00:00",
+      "last_updated": "2026-10-10T06:47:10+00:00",
       "source_count": 3,
       "article_count": 5,
       "sources": [
@@ -201,32 +203,32 @@
         "North America"
       ],
       "keywords": [
-        "peace",
-        "pillay",
         "nobel",
+        "peace",
+        "prize",
         "human",
         "rights",
-        "prize",
         "navi",
+        "pillay",
         "south"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的5篇报道，当前关注的军事安全事件为“Navi Pillay, former UN human rights chief, wins Nobel Peace Prize”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的5篇报道，当前关注的军事安全事件为“'Stain on the country': Trump criticises Norway over Nobel Peace Prize”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "South African",
+          "Trump",
+          "Norway",
+          "Nobel Peace Prize",
+          "Stain",
+          "Nobel Peace Prize South",
+          "African",
           "Navi Pillay",
-          "Nobel Peace Prize Human",
-          "Nobel Peace Prize Navi",
-          "Pillay",
-          "UN",
-          "Nobel Peace Prize Watch",
-          "Who"
+          "Nobel Peace Prize Watch"
         ],
         "latest_progress": [
-          "10月09日 21:25 UTC，NPR World报道：“South African human rights lawyer Navi Pillay wins Nobel Peace Prize”。",
-          "10月09日 20:29 UTC，Al Jazeera报道：“Human rights veteran Navi Pillay wins 2026 Nobel Peace Prize”。",
-          "10月09日 17:37 UTC，BBC World报道：“Navi Pillay, former UN human rights chief, wins Nobel Peace Prize”。"
+          "10月10日 06:47 UTC，Al Jazeera报道：“Trump slams Norway for not awarding him Nobel Peace Prize”。",
+          "10月10日 04:07 UTC，BBC World报道：“'Stain on the country': Trump criticises Norway over Nobel Peace Prize”。",
+          "10月09日 21:25 UTC，NPR World报道：“South African human rights lawyer Navi Pillay wins Nobel Peace Prize”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -239,6 +241,36 @@
       },
       "articles": [
         {
+          "article_id": "art_04c61b23a20dcf7be532",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-slams-norway-for-not-awarding-him-nobel-peace-prize?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-slams-norway-for-not-awarding-him-nobel-peace-prize?traffic_source=rss",
+          "title": "Trump slams Norway for not awarding him Nobel Peace Prize",
+          "summary": "Trump slams Norway for not awarding him Nobel Peace Prize",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T06:47:10+00:00",
+          "fetched_at": "2026-10-10T07:07:29.884354+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_89a68ddadaf7f225dca9",
+          "url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_campaign=rss&at_medium=RSS",
+          "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
+          "summary": "The US president told a rally he had \"never heard of\" the winner, former International Criminal Court judge Navi Pillay.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T04:07:11+00:00",
+          "fetched_at": "2026-10-10T07:07:28.969222+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/528b/live/a76ba860-c459-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
           "article_id": "art_105a0b49ed425aa58ec7",
           "url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
           "canonical_url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
@@ -247,41 +279,11 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T21:25:59+00:00",
-          "fetched_at": "2026-10-10T00:51:30.637254+00:00",
+          "fetched_at": "2026-10-10T07:07:29.645870+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_c0cb334caa19739dd682",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/human-rights-veteran-navi-pillay-wins-2026-nobel-peace-prize?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/human-rights-veteran-navi-pillay-wins-2026-nobel-peace-prize?traffic_source=rss",
-          "title": "Human rights veteran Navi Pillay wins 2026 Nobel Peace Prize",
-          "summary": "South African jurist Navanethem Pillay has been awarded the 2026 Nobel Peace Prize for her work to promote peace.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T20:29:30+00:00",
-          "fetched_at": "2026-10-10T00:51:30.768976+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6b6953b66623cd3c4653",
-          "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_campaign=rss&at_medium=RSS",
-          "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
-          "summary": "Pillay is recognised for her \"efforts to promote peace and international law\", the Norwegian Nobel Committee says.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T17:37:10+00:00",
-          "fetched_at": "2026-10-10T00:51:30.137822+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de59/live/0e911af0-c3df-11f1-95ba-dba767ffba7e.jpg"
         },
         {
           "article_id": "art_97f4e619996db494dfcb",
@@ -292,7 +294,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T15:26:33+00:00",
-          "fetched_at": "2026-10-10T00:51:30.139946+00:00",
+          "fetched_at": "2026-10-10T07:07:28.971081+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -307,7 +309,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-09T08:23:16+00:00",
-          "fetched_at": "2026-10-10T00:51:30.637682+00:00",
+          "fetched_at": "2026-10-10T07:07:29.646187+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -316,23 +318,23 @@
       ]
     },
     {
-      "event_id": "evt_4142d9adad88f76e5436",
-      "title": "Commentator Katie Zacharia picked as new White House press secretary",
+      "event_id": "evt_1e1860cbcba4349e0ae7",
+      "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
       "category": "军事安全",
-      "score": 78.0,
+      "score": 76.2,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.5,
-        "credibility": 9.8,
+        "recency": 17.8,
+        "credibility": 9.9,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 3.7
       },
-      "first_seen": "2026-10-09T18:49:24+00:00",
-      "last_updated": "2026-10-09T23:12:00+00:00",
+      "first_seen": "2026-10-09T09:43:22+00:00",
+      "last_updated": "2026-10-10T01:59:00+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -343,29 +345,620 @@
         "Middle East"
       ],
       "keywords": [
+        "execution",
+        "firing",
+        "squad",
+        "fort",
+        "hood",
+        "trump",
+        "shooter",
+        "livestream"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Fort Hood survivor supports gunman's execution by firing squad but questions livestream”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Fort Hood",
+          "JD",
+          "Vance"
+        ],
+        "latest_progress": [
+          "10月10日 01:59 UTC，DW Top Stories报道：“Trump weighs livestream execution amid bipartisan backlash”。",
+          "10月09日 21:53 UTC，Al Jazeera报道：“Trump confirms Fort Hood shooter’s execution will be by firing squad”。",
+          "10月09日 21:50 UTC，BBC World报道：“JD Vance casts doubt on firing squad execution and says he will not watch it”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9f5bc5502a8ef0f02211",
+          "url": "https://www.dw.com/en/trump-weighs-livestream-execution-amid-bipartisan-backlash/a-79623920?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-weighs-livestream-execution-amid-bipartisan-backlash/a-79623920?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump weighs livestream execution amid bipartisan backlash",
+          "summary": "Donald Trump said he hasn't decided whether the execution of the Fort Hood shooter will be livestreamed, after the Pentagon announced it would do so. The plan has been criticized by both Republicans and Democrats.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-10T01:59:00+00:00",
+          "fetched_at": "2026-10-10T07:07:29.442928+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_31cdc3bb481c712e4949",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/trump-confirms-fort-hood-shooters-execution-will-be-by-firing-squad?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/trump-confirms-fort-hood-shooters-execution-will-be-by-firing-squad?traffic_source=rss",
+          "title": "Trump confirms Fort Hood shooter’s execution will be by firing squad",
+          "summary": "The Pentagon said the firing squad execution of Fort Hood shooter Nidal Malik Hasan will be public and livestreamed.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T21:53:01+00:00",
+          "fetched_at": "2026-10-10T07:07:29.885740+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9ce851f21fca152b1895",
+          "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_campaign=rss&at_medium=RSS",
+          "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
+          "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T21:50:47+00:00",
+          "fetched_at": "2026-10-10T07:07:28.969290+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cf5/live/cc41a870-c40d-11f1-838e-6d1d6d701264.jpg"
+        },
+        {
+          "article_id": "art_607f58817dbf0e33b4f2",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_campaign=rss&at_medium=RSS",
+          "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
+          "summary": "Alonzo Lunsford tells the BBC the punishment befits the crime but he has some doubts whether the public should be able to watch it.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T09:43:22+00:00",
+          "fetched_at": "2026-10-10T07:07:28.970743+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6ac/live/ea298500-c3e6-11f1-9a39-31b474234113.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_bbdf3ec75cb199fef5fd",
+      "title": "India deploys police and restricts transport ahead of mass protest in Delhi",
+      "category": "社会突发",
+      "score": 73.6,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.7,
+        "credibility": 9.2,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T04:07:30+00:00",
+      "last_updated": "2026-10-10T06:45:00+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "hindi.business-standard.com"
+      ],
+      "regions": [
+        "India",
+        "Middle East"
+      ],
+      "keywords": [
+        "protest",
+        "delhi",
+        "cockroach",
+        "india",
+        "janta",
+        "party",
+        "chief",
+        "election"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、hindi.business-standard.com等来源的3篇报道，当前关注的社会突发事件为“India deploys police and restricts transport ahead of mass protest in Delhi”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Delhi Protest",
+          "India",
+          "Cockroach",
+          "New Delhi",
+          "Delhi"
+        ],
+        "latest_progress": [
+          "10月10日 06:45 UTC，hindi.business-standard.com报道：“Delhi Protest : मुख्य चुनाव आयुक्त के खिलाफ विरोध से पहले पुलिस की बड़ी कार्रवाई , 1000 से ज्यादा लोग हिरासत में”。",
+          "10月10日 05:54 UTC，Al Jazeera报道：“India protest live: ‘Cockroach’ leaders detained; New Delhi in lockdown”。",
+          "10月10日 04:07 UTC，Al Jazeera报道：“India deploys police and restricts transport ahead of mass protest in Delhi”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9c4928f6c9dfa3fbee84",
+          "url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004/",
+          "canonical_url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004",
+          "title": "Delhi Protest : मुख्य चुनाव आयुक्त के खिलाफ विरोध से पहले पुलिस की बड़ी कार्रवाई , 1000 से ज्यादा लोग हिरासत में",
+          "summary": "",
+          "source": "hindi.business-standard.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T07:06:24.551515+00:00",
+          "language": "Hindi",
+          "region": "India",
+          "source_weight": 0.75,
+          "image_url": "https://hindibusinessstandard.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/Delhi-Police-1200x630.jpg"
+        },
+        {
+          "article_id": "art_26c079907e9781409e6e",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/10/india-protest-live-police-detain-cockroach-leaders-new-delhi-in-lockdown?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/10/india-protest-live-police-detain-cockroach-leaders-new-delhi-in-lockdown?traffic_source=rss",
+          "title": "India protest live: ‘Cockroach’ leaders detained; New Delhi in lockdown",
+          "summary": "Cockroach Janta ​Party founder Abhijeet Dipke and other leaders detained before ​protest to demand election chief quit.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T05:54:36+00:00",
+          "fetched_at": "2026-10-10T07:07:29.884534+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d41b7df78a15893c4c6d",
+          "url": "https://www.aljazeera.com/news/2026/10/10/india-deploys-police-and-restricts-transport-ahead-of-mass-protest-in-delhi?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/india-deploys-police-and-restricts-transport-ahead-of-mass-protest-in-delhi?traffic_source=rss",
+          "title": "India deploys police and restricts transport ahead of mass protest in Delhi",
+          "summary": "The Cockroach Janta Party wants Chief Election Commissioner Gyanesh Kumar to quit over changes to voter lists.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T04:07:30+00:00",
+          "fetched_at": "2026-10-10T07:07:29.885045+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d64091ba9c4d67e0f0fc",
+      "title": "Hurricane Isaias downgraded after making landfall in Florida",
+      "category": "社会突发",
+      "score": 68.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.8,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T02:58:00+00:00",
+      "last_updated": "2026-10-10T06:54:16+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "hurricane",
+        "isaias",
+        "landfall",
+        "florida",
+        "downgraded",
+        "makes",
+        "weather",
+        "authorities"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Hurricane Isaias downgraded after making landfall in Florida”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Hurricane Isaias",
+          "Florida Hurricane Isaias",
+          "Florida"
+        ],
+        "latest_progress": [
+          "10月10日 06:54 UTC，BBC World报道：“Hurricane Isaias downgraded after making landfall in Florida”。",
+          "10月10日 02:58 UTC，DW Top Stories报道：“Hurricane Isaias makes landfall in Florida”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_fea2b35aa5c3f52cb294",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_campaign=rss&at_medium=RSS",
+          "title": "Hurricane Isaias downgraded after making landfall in Florida",
+          "summary": "Isaias is continuing across the Southeastern US after being downgraded from a hurricane to a post-tropical cyclone.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T06:54:16+00:00",
+          "fetched_at": "2026-10-10T07:07:28.969012+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg"
+        },
+        {
+          "article_id": "art_5d7a000a1ddfe014b245",
+          "url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/hurricane-isaias-makes-landfall-in-florida/a-79624148?maca=en-rss-en-top-1022-rdf",
+          "title": "Hurricane Isaias makes landfall in Florida",
+          "summary": "US weather authorities are warning of \"life-threatening\" storm surges on the Gulf Coast due to the Category 2 hurricane. Extreme winds, rising water levels and possible tornadoes are also on the radar.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-10T02:58:00+00:00",
+          "fetched_at": "2026-10-10T07:07:29.442815+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b88fcc9c0b2cd344c05a",
+      "title": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
+      "category": "国际政治",
+      "score": 68.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.7,
+        "credibility": 7.5,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T06:45:00+00:00",
+      "last_updated": "2026-10-10T06:45:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "argentinastar.com",
+        "pakistantelegraph.com"
+      ],
+      "regions": [
+        "Argentina",
+        "Pakistan"
+      ],
+      "keywords": [
+        "finance",
+        "minister",
+        "guides",
+        "press",
+        "through",
+        "qsncc",
+        "ahead",
+        "imf"
+      ],
+      "analysis": {
+        "what_happened": "据argentinastar.com、pakistantelegraph.com等来源的2篇报道，当前关注的国际政治事件为“Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Finance Minister Guides Press",
+          "Through",
+          "QSNCC",
+          "Ahead",
+          "IMF",
+          "World Bank Group Annual",
+          "Meetings",
+          "Reaffirming Thailand Readiness"
+        ],
+        "latest_progress": [
+          "10月10日 06:45 UTC，argentinastar.com报道：“Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts”。",
+          "10月10日 06:45 UTC，pakistantelegraph.com报道：“Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_006067306e3bad7e21cb",
+          "url": "http://www.argentinastar.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
+          "canonical_url": "https://www.argentinastar.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
+          "title": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
+          "summary": "",
+          "source": "argentinastar.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T07:06:24.552874+00:00",
+          "language": "English",
+          "region": "Argentina",
+          "source_weight": 0.75,
+          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/8fa7672/2accb384-666b-4efa-9430-a5a515bcf66f/0/ANI-20261010044342-600x315.jpg"
+        },
+        {
+          "article_id": "art_7e626366d41593ff708a",
+          "url": "http://www.pakistantelegraph.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
+          "canonical_url": "https://www.pakistantelegraph.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
+          "title": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
+          "summary": "",
+          "source": "pakistantelegraph.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T07:06:24.552914+00:00",
+          "language": "English",
+          "region": "Pakistan",
+          "source_weight": 0.75,
+          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/8fa7672/2accb384-666b-4efa-9430-a5a515bcf66f/0/ANI-20261010044342-600x315.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_944b77f915a9ac4303ff",
+      "title": "Strong earthquakes shake Panama, buildings damaged",
+      "category": "国际政治",
+      "score": 67.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.7,
+        "credibility": 8.5,
+        "impact": 11.0,
+        "velocity": 2.6
+      },
+      "first_seen": "2026-10-09T19:03:00+00:00",
+      "last_updated": "2026-10-10T06:45:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "DW Top Stories",
+        "timesofoman.com"
+      ],
+      "regions": [
+        "Europe",
+        "Oman"
+      ],
+      "keywords": [
+        "strong",
+        "earthquakes",
+        "shake",
+        "panama",
+        "buildings",
+        "damaged",
+        "panama's",
+        "president"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、timesofoman.com等来源的2篇报道，当前关注的国际政治事件为“Strong earthquakes shake Panama, buildings damaged”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Strong",
+          "Panama Strong",
+          "Panama"
+        ],
+        "latest_progress": [
+          "10月10日 06:45 UTC，timesofoman.com报道：“Strong earthquakes , aftershocks shake Panama”。",
+          "10月09日 19:03 UTC，DW Top Stories报道：“Strong earthquakes shake Panama, buildings damaged”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_6dbade4c59fe827c4c1c",
+          "url": "https://timesofoman.com/article/177841-strong-earthquakes-aftershocks-shake-panama",
+          "canonical_url": "https://timesofoman.com/article/177841-strong-earthquakes-aftershocks-shake-panama",
+          "title": "Strong earthquakes , aftershocks shake Panama",
+          "summary": "",
+          "source": "timesofoman.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T07:06:24.552601+00:00",
+          "language": "English",
+          "region": "Oman",
+          "source_weight": 0.75,
+          "image_url": "https://shabiba.eu-central-1.linodeobjects.com/2026/10/1791604013-1791604013-qjrys1npqbym-700x400.webp"
+        },
+        {
+          "article_id": "art_3cdfd75e40ad950e47dc",
+          "url": "https://www.dw.com/en/strong-earthquakes-shake-panama-buildings-damaged/a-79623168?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/strong-earthquakes-shake-panama-buildings-damaged/a-79623168?maca=en-rss-en-top-1022-rdf",
+          "title": "Strong earthquakes shake Panama, buildings damaged",
+          "summary": "Panama's president has declared a \"major disaster\" after a series of tremors damaged buildings, briefly suspended flights and triggered a tsunami alert in Central and South America.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-09T19:03:00+00:00",
+          "fetched_at": "2026-10-10T07:07:29.443148+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ee94cbb5cd5be7fd6c14",
+      "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+      "category": "军事安全",
+      "score": 66.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 19.8,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 2.9
+      },
+      "first_seen": "2026-10-09T18:23:00+00:00",
+      "last_updated": "2026-10-10T04:34:55+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "uae",
+        "flydubai",
+        "co-pilot",
+        "planned",
+        "crash",
+        "airport",
+        "omani",
+        "suicide"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Flydubai",
+          "Australia",
+          "UAE",
+          "Omani Flydubai"
+        ],
+        "latest_progress": [
+          "10月10日 04:34 UTC，BBC World报道：“Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says”。",
+          "10月09日 18:23 UTC，DW Top Stories报道：“UAE: Omani Flydubai co-pilot planned suicide attack”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9b794db81f7866360831",
+          "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_campaign=rss&at_medium=RSS",
+          "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+          "summary": "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T04:34:55+00:00",
+          "fetched_at": "2026-10-10T07:07:28.968860+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png"
+        },
+        {
+          "article_id": "art_83566f9d06daf7c3fffa",
+          "url": "https://www.dw.com/en/uae-omani-flydubai-co-pilot-planned-suicide-attack/a-79621960?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/uae-omani-flydubai-co-pilot-planned-suicide-attack/a-79621960?maca=en-rss-en-top-1022-rdf",
+          "title": "UAE: Omani Flydubai co-pilot planned suicide attack",
+          "summary": "A Flydubai co-pilot planned to crash a Dubai-Tel Aviv flight into the terminal at Israel's Ben Gurion Airport, according to a UAE official.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-09T18:23:00+00:00",
+          "fetched_at": "2026-10-10T07:07:29.443200+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ce5da561994871cc8b69",
+      "title": "Commentator Katie Zacharia picked as new White House press secretary",
+      "category": "军事安全",
+      "score": 64.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 15.8,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-09T22:41:21+00:00",
+      "last_updated": "2026-10-09T23:12:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
         "trump",
         "press",
         "secretary",
+        "commentator",
         "katie",
         "zacharia",
         "white",
-        "house",
-        "commentator"
+        "house"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Commentator Katie Zacharia picked as new White House press secretary”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Commentator Katie Zacharia picked as new White House press secretary”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Trump",
           "Karoline Leavitt Commentator Katie",
           "Zacharia",
-          "White House",
-          "Katie Zacharia"
+          "White House"
         ],
         "latest_progress": [
           "10月09日 23:12 UTC，DW Top Stories报道：“Trump names new press secretary to succeed Karoline Leavitt”。",
-          "10月09日 22:41 UTC，BBC World报道：“Commentator Katie Zacharia picked as new White House press secretary”。",
-          "10月09日 18:49 UTC，Al Jazeera报道：“Katie Zacharia selected to be next White House press secretary”。"
+          "10月09日 22:41 UTC，BBC World报道：“Commentator Katie Zacharia picked as new White House press secretary”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -386,7 +979,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-09T23:12:00+00:00",
-          "fetched_at": "2026-10-10T00:51:30.556867+00:00",
+          "fetched_at": "2026-10-10T07:07:29.442984+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -401,206 +994,57 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T22:41:21+00:00",
-          "fetched_at": "2026-10-10T00:51:30.138271+00:00",
+          "fetched_at": "2026-10-10T07:07:28.969621+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b258/live/476d9530-c414-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_029a3b9280f9a40c7d46",
-          "url": "https://www.aljazeera.com/news/2026/10/9/katie-zacharia-offered-position-as-white-house-press-secretary?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/katie-zacharia-offered-position-as-white-house-press-secretary?traffic_source=rss",
-          "title": "Katie Zacharia selected to be next White House press secretary",
-          "summary": "US President Donald Trump called the conservative commentator 'a devoted fan'.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T18:49:24+00:00",
-          "fetched_at": "2026-10-10T00:51:30.769643+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_1e1860cbcba4349e0ae7",
-      "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
-      "category": "军事安全",
-      "score": 75.7,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.4,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 4.9
-      },
-      "first_seen": "2026-10-09T09:43:22+00:00",
-      "last_updated": "2026-10-09T21:53:01+00:00",
-      "source_count": 2,
-      "article_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "execution",
-        "firing",
-        "squad",
-        "fort",
-        "hood",
-        "livestream",
-        "nidal",
-        "hasan"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的4篇报道，当前关注的军事安全事件为“Fort Hood survivor supports gunman's execution by firing squad but questions livestream”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trump",
-          "Fort Hood",
-          "JD",
-          "Vance",
-          "Barbaric",
-          "US",
-          "Nidal Hasan"
-        ],
-        "latest_progress": [
-          "10月09日 21:53 UTC，Al Jazeera报道：“Trump confirms Fort Hood shooter’s execution will be by firing squad”。",
-          "10月09日 21:50 UTC，BBC World报道：“JD Vance casts doubt on firing squad execution and says he will not watch it”。",
-          "10月09日 18:30 UTC，Al Jazeera报道：“‘Barbaric’: US lawmakers condemn plan to livestream Nidal Hasan’s execution”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_31cdc3bb481c712e4949",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/trump-confirms-fort-hood-shooters-execution-will-be-by-firing-squad?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/trump-confirms-fort-hood-shooters-execution-will-be-by-firing-squad?traffic_source=rss",
-          "title": "Trump confirms Fort Hood shooter’s execution will be by firing squad",
-          "summary": "The Pentagon said the firing squad execution of Fort Hood shooter Nidal Malik Hasan will be public and livestreamed.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T21:53:01+00:00",
-          "fetched_at": "2026-10-10T00:51:30.768382+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9ce851f21fca152b1895",
-          "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_campaign=rss&at_medium=RSS",
-          "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
-          "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T21:50:47+00:00",
-          "fetched_at": "2026-10-10T00:51:30.137624+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cf5/live/cc41a870-c40d-11f1-838e-6d1d6d701264.jpg"
-        },
-        {
-          "article_id": "art_6d21850c24b8c4e9663d",
-          "url": "https://www.aljazeera.com/news/2026/10/9/barbaric-us-lawmakers-condemn-plan-to-livestream-nidal-hasans-execution?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/barbaric-us-lawmakers-condemn-plan-to-livestream-nidal-hasans-execution?traffic_source=rss",
-          "title": "‘Barbaric’: US lawmakers condemn plan to livestream Nidal Hasan’s execution",
-          "summary": "Republican and Democratic lawmakers condemn Pentagon plan to livestream Fort Hood shooter's execution by firing squad.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T18:30:58+00:00",
-          "fetched_at": "2026-10-10T00:51:30.769740+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_607f58817dbf0e33b4f2",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_campaign=rss&at_medium=RSS",
-          "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
-          "summary": "Alonzo Lunsford tells the BBC the punishment befits the crime but he has some doubts whether the public should be able to watch it.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T09:43:22+00:00",
-          "fetched_at": "2026-10-10T00:51:30.139603+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6ac/live/ea298500-c3e6-11f1-9a39-31b474234113.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2eb5b24e9c38cd041a31",
-      "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+      "event_id": "evt_abf3972b959775eb9b57",
+      "title": "李健聪 ： 对比昌明政府选举财案 同心党影子财案直面根本问题光华日报 | 1910年创刊 创新每一天生活",
       "category": "国际政治",
-      "score": 69.8,
+      "score": 62.3,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.6,
-        "credibility": 10.0,
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.7,
+        "credibility": 7.5,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-09T18:06:48+00:00",
-      "last_updated": "2026-10-09T19:32:13+00:00",
-      "source_count": 2,
-      "article_count": 3,
+      "first_seen": "2026-10-10T06:45:00+00:00",
+      "last_updated": "2026-10-10T06:45:00+00:00",
+      "source_count": 1,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "kwongwah.com.my"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Malaysia"
       ],
       "keywords": [
-        "sanctions",
-        "icc",
-        "states",
-        "against",
-        "president",
-        "international",
-        "court",
-        "several"
+        "财案",
+        "光华",
+        "华日",
+        "日报",
+        "年创",
+        "创刊",
+        "创新",
+        "新每"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的国际政治事件为“US unveils sanctions on ICC in move court condemns as 'assault on rule of law'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据kwongwah.com.my等来源的2篇报道，当前关注的国际政治事件为“李健聪 ： 对比昌明政府选举财案 同心党影子财案直面根本问题光华日报 | 1910年创刊 创新每一天生活”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "European",
-          "Canada",
-          "Japan",
-          "UN",
-          "ICC",
-          "US",
-          "President"
+          "kwongwah.com.my"
         ],
         "latest_progress": [
-          "10月09日 19:32 UTC，Al Jazeera报道：“European states, Canada, Japan and UN back ICC against US sanctions”。",
-          "10月09日 18:40 UTC，BBC World报道：“US unveils sanctions on ICC in move court condemns as 'assault on rule of law'”。",
-          "10月09日 18:06 UTC，Al Jazeera报道：“‘An attack against sovereign states’: ICC President slams US sanctions”。"
+          "10月10日 06:45 UTC，kwongwah.com.my报道：“李健聪 ： 对比昌明政府选举财案 同心党影子财案直面根本问题光华日报 | 1910年创刊 创新每一天生活”。",
+          "10月10日 06:45 UTC，kwongwah.com.my报道：“巴拿马7 . 7强震全国学校停课 运河运作正常光华日报 | 1910年创刊 创新每一天生活”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -613,481 +1057,34 @@
       },
       "articles": [
         {
-          "article_id": "art_f46aea23ac3e2cee3d71",
-          "url": "https://www.aljazeera.com/news/2026/10/9/european-states-canada-japan-and-un-back-icc-against-us-sanctions?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/european-states-canada-japan-and-un-back-icc-against-us-sanctions?traffic_source=rss",
-          "title": "European states, Canada, Japan and UN back ICC against US sanctions",
-          "summary": "Several US allies call to 'defend' and 'protect' the ICC following Washington's decision to sanction the judiciary body.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T19:32:13+00:00",
-          "fetched_at": "2026-10-10T00:51:30.769349+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "article_id": "art_2e97422d39e9ce505116",
+          "url": "https://www.kwongwah.com.my/20261010/%E6%9D%8E%E5%81%A5%E8%81%AA%EF%BC%9A%E5%AF%B9%E6%AF%94%E6%98%8C%E6%98%8E%E6%94%BF%E5%BA%9C%E9%80%89%E4%B8%BE%E8%B4%A2%E6%A1%88-%E5%90%8C%E5%BF%83%E5%85%9A%E5%BD%B1%E5%AD%90%E8%B4%A2%E6%A1%88%E7%9B%B4/",
+          "canonical_url": "https://www.kwongwah.com.my/20261010/%E6%9D%8E%E5%81%A5%E8%81%AA%EF%BC%9A%E5%AF%B9%E6%AF%94%E6%98%8C%E6%98%8E%E6%94%BF%E5%BA%9C%E9%80%89%E4%B8%BE%E8%B4%A2%E6%A1%88-%E5%90%8C%E5%BF%83%E5%85%9A%E5%BD%B1%E5%AD%90%E8%B4%A2%E6%A1%88%E7%9B%B4",
+          "title": "李健聪 ： 对比昌明政府选举财案 同心党影子财案直面根本问题光华日报 | 1910年创刊 创新每一天生活",
+          "summary": "",
+          "source": "kwongwah.com.my",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T07:06:24.551474+00:00",
+          "language": "Chinese",
+          "region": "Malaysia",
+          "source_weight": 0.75,
+          "image_url": "https://www.kwongwah.com.my/public/static_resources/img/default_01_2019_04.jpg?q"
         },
         {
-          "article_id": "art_e4ebd865b635d59eeae9",
-          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_campaign=rss&at_medium=RSS",
-          "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-          "summary": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\" with the sanctions.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T18:40:10+00:00",
-          "fetched_at": "2026-10-10T00:51:30.137396+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70c6/live/7c05c3c0-c401-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_b5d6f14a6bf76237fe32",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/an-attack-against-sovereign-states-icc-president-slams-us-sanctions?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/an-attack-against-sovereign-states-icc-president-slams-us-sanctions?traffic_source=rss",
-          "title": "‘An attack against sovereign states’: ICC President slams US sanctions",
-          "summary": "International Criminal Court President Tomoko Akane has responded to US sanctions imposed to ‘defend sovereignty’.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T18:06:48+00:00",
-          "fetched_at": "2026-10-10T00:51:30.770011+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ee94cbb5cd5be7fd6c14",
-      "title": "Flydubai co-pilot plotted ‘suicide’ attack on Israel, UAE says",
-      "category": "军事安全",
-      "score": 69.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.1,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-09T18:23:00+00:00",
-      "last_updated": "2026-10-09T20:13:24+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "uae",
-        "flydubai",
-        "co-pilot",
-        "attack",
-        "planned",
-        "suicide",
-        "omani",
-        "crash"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Flydubai co-pilot plotted ‘suicide’ attack on Israel, UAE says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Flydubai",
-          "Israel",
-          "UAE",
-          "Omani Flydubai"
-        ],
-        "latest_progress": [
-          "10月09日 20:13 UTC，Al Jazeera报道：“Flydubai co-pilot plotted ‘suicide’ attack on Israel, UAE says”。",
-          "10月09日 18:23 UTC，DW Top Stories报道：“UAE: Omani Flydubai co-pilot planned suicide attack”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_15775306198822ae9084",
-          "url": "https://www.aljazeera.com/news/2026/10/9/flydubai-co-pilot-plotted-suicide-attack-on-israel-uae-says?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/flydubai-co-pilot-plotted-suicide-attack-on-israel-uae-says?traffic_source=rss",
-          "title": "Flydubai co-pilot plotted ‘suicide’ attack on Israel, UAE says",
-          "summary": "Attorney General says suspect admitted he acted alone after preparing ‌‌psychologically ‌‌and physically for the attack.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T20:13:24+00:00",
-          "fetched_at": "2026-10-10T00:51:30.769163+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_83566f9d06daf7c3fffa",
-          "url": "https://www.dw.com/en/uae-omani-flydubai-co-pilot-planned-suicide-attack/a-79621960?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/uae-omani-flydubai-co-pilot-planned-suicide-attack/a-79621960?maca=en-rss-en-top-1022-rdf",
-          "title": "UAE: Omani Flydubai co-pilot planned suicide attack",
-          "summary": "A Flydubai co-pilot planned to crash a Dubai-Tel Aviv flight into the terminal at Israel's Ben Gurion Airport, according to a UAE official.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-09T18:23:00+00:00",
-          "fetched_at": "2026-10-10T00:51:30.557212+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e99eb035490d3a8ea0a1",
-      "title": "Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake",
-      "category": "社会突发",
-      "score": 69.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.1,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-09T19:22:56+00:00",
-      "last_updated": "2026-10-09T21:26:30+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "warnings",
-        "panama",
-        "earthquake",
-        "tsunami",
-        "issued",
-        "magnitude",
-        "quake",
-        "countries"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Powerful",
-          "Panama",
-          "Tsunami"
-        ],
-        "latest_progress": [
-          "10月09日 21:26 UTC，BBC World报道：“Powerful magnitude 7.7 earthquake hits Panama, damaging buildings”。",
-          "10月09日 19:22 UTC，Al Jazeera报道：“Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_036349f596e617870227",
-          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_campaign=rss&at_medium=RSS",
-          "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
-          "summary": "Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T21:26:30+00:00",
-          "fetched_at": "2026-10-10T00:51:30.137726+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ae5/live/091da400-c419-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_c7dd76e4eeb402de3449",
-          "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss",
-          "title": "Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake",
-          "summary": "Countries including Colombia, Ecuador, Nicaragua, Guatemala and Chile have received warnings after the quake.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T19:22:56+00:00",
-          "fetched_at": "2026-10-10T00:51:30.769439+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a9128ee928b3cd79c7ca",
-      "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
-      "category": "军事安全",
-      "score": 63.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 14.8,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-09T15:20:00+00:00",
-      "last_updated": "2026-10-09T15:24:43+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "ethiopia",
-        "eritrean",
-        "troops",
-        "regional",
-        "war",
-        "eritrea",
-        "raise",
-        "fears"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Ethiopia warns Eritrea it will defend itself after troops cross border”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ethiopia",
-          "Eritrea",
-          "Eritrean"
-        ],
-        "latest_progress": [
-          "10月09日 15:24 UTC，BBC World报道：“Ethiopia warns Eritrea it will defend itself after troops cross border”。",
-          "10月09日 15:20 UTC，DW Top Stories报道：“Eritrean troops in Ethiopia raise fears of a regional war”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_3febb6f8ea6635a659c5",
-          "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_campaign=rss&at_medium=RSS",
-          "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
-          "summary": "Truckloads of Eritrean soldiers have been seen driving into Ethiopia, which has reportedly responded with drone strikes.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T15:24:43+00:00",
-          "fetched_at": "2026-10-10T00:51:30.138183+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c0/live/d81bf860-c3d8-11f1-95ba-dba767ffba7e.jpg"
-        },
-        {
-          "article_id": "art_285f753a083ce8542473",
-          "url": "https://www.dw.com/en/eritrean-troops-in-ethiopia-raise-fears-of-a-regional-war/a-79615065?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/eritrean-troops-in-ethiopia-raise-fears-of-a-regional-war/a-79615065?maca=en-rss-en-top-1022-rdf",
-          "title": "Eritrean troops in Ethiopia raise fears of a regional war",
-          "summary": "Ethiopia and Eritrea are trading blame for confrontations in Tigray amid international calls for restraint. Their respective allies have the potential to catapult the conflict into a regional war.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-09T15:20:00+00:00",
-          "fetched_at": "2026-10-10T00:51:30.557441+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5f5edeea64bf739a8b93",
-      "title": "Israeli drone attack wounds six in Lebanon near Syria border",
-      "category": "军事安全",
-      "score": 62.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-10T00:22:52+00:00",
-      "last_updated": "2026-10-10T00:22:52+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "israeli",
-        "attack",
-        "drone",
-        "wounds",
-        "six",
-        "lebanon",
-        "near",
-        "syria"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Israeli drone attack wounds six in Lebanon near Syria border”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Israeli",
-          "Lebanon",
-          "Syria"
-        ],
-        "latest_progress": [
-          "10月10日 00:22 UTC，Al Jazeera报道：“Israeli drone attack wounds six in Lebanon near Syria border”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7a8568ebb19e7946a893",
-          "url": "https://www.aljazeera.com/news/2026/10/10/israeli-drone-attack-wounds-six-in-lebanon-near-syria-border?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/israeli-drone-attack-wounds-six-in-lebanon-near-syria-border?traffic_source=rss",
-          "title": "Israeli drone attack wounds six in Lebanon near Syria border",
-          "summary": "Five Syrians and one Lebanese wounded in latest Israeli attack, Lebanon's health authorities say.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-10T00:22:52+00:00",
-          "fetched_at": "2026-10-10T00:51:30.767934+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_131a9eb92d1f8ce502e3",
-      "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
-      "category": "军事安全",
-      "score": 62.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 14.0,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-09T13:50:25+00:00",
-      "last_updated": "2026-10-09T14:01:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "saudi",
-        "attacks",
-        "airport",
-        "three",
-        "nationals",
-        "killed",
-        "houthi",
-        "riyadh"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Three Saudi nationals killed in Houthi attacks on Riyadh airport”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Saudi",
-          "Three Saudi",
-          "Houthi",
-          "Riyadh"
-        ],
-        "latest_progress": [
-          "10月09日 14:01 UTC，DW Top Stories报道：“Saudi coalition vows 'firm' response after airport attack kills 3”。",
-          "10月09日 13:50 UTC，BBC World报道：“Three Saudi nationals killed in Houthi attacks on Riyadh airport”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6ff614f9c951e0542cfc",
-          "url": "https://www.dw.com/en/saudi-coalition-vows-firm-response-after-airport-attack-kills-3/a-79615437?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/saudi-coalition-vows-firm-response-after-airport-attack-kills-3/a-79615437?maca=en-rss-en-top-1022-rdf",
-          "title": "Saudi coalition vows 'firm' response after airport attack kills 3",
-          "summary": "Saudi Arabia and its allied forces in Yemen vowed a \"firm response\" to Houthi attacks that target civilians. The kingdom's authorities said three Saudi nationals were killed in Thursday's attack on Riyadh airport.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-09T14:01:00+00:00",
-          "fetched_at": "2026-10-10T00:51:30.557745+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_330bd6aa60e0f5b21199",
-          "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_campaign=rss&at_medium=RSS",
-          "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
-          "summary": "The missile attacks come amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T13:50:25+00:00",
-          "fetched_at": "2026-10-10T00:51:30.138630+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ac9/live/3ddaf120-c3e2-11f1-a64c-550be9e3c66b.jpg"
+          "article_id": "art_ed96b68e25768ac8ef82",
+          "url": "https://www.kwongwah.com.my/20261010/%E5%B7%B4%E6%8B%BF%E9%A9%AC7%E3%80%827%E5%BC%BA%E9%9C%87%E5%85%A8%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%81%9C%E8%AF%BE-%E8%BF%90%E6%B2%B3%E8%BF%90%E4%BD%9C%E6%AD%A3%E5%B8%B8/",
+          "canonical_url": "https://www.kwongwah.com.my/20261010/%E5%B7%B4%E6%8B%BF%E9%A9%AC7%E3%80%827%E5%BC%BA%E9%9C%87%E5%85%A8%E5%9B%BD%E5%AD%A6%E6%A0%A1%E5%81%9C%E8%AF%BE-%E8%BF%90%E6%B2%B3%E8%BF%90%E4%BD%9C%E6%AD%A3%E5%B8%B8",
+          "title": "巴拿马7 . 7强震全国学校停课 运河运作正常光华日报 | 1910年创刊 创新每一天生活",
+          "summary": "",
+          "source": "kwongwah.com.my",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-10T07:06:24.552155+00:00",
+          "language": "Chinese",
+          "region": "Malaysia",
+          "source_weight": 0.75,
+          "image_url": "https://www.kwongwah.com.my/wp-content/uploads/2026/10/261011cw20.jpg"
         }
       ]
     }
