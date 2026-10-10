@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-09T20:54:53.937463+00:00",
+  "generated_at": "2026-10-10T00:51:31.782662+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 137,
-    "articles_unique": 137,
+    "articles_fetched": 140,
+    "articles_unique": 140,
     "errors": [
       {
         "source": "GDELT: (conflict OR election OR economy OR technolog",
@@ -14,23 +14,325 @@
   },
   "events": [
     {
-      "event_id": "evt_92d8b0bf57fb20b6a048",
-      "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-      "category": "国际政治",
-      "score": 80.5,
+      "event_id": "evt_a5af2567c52c9171d92c",
+      "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+      "category": "军事安全",
+      "score": 91.1,
+      "score_breakdown": {
+        "coverage": 19.5,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.9,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-09T19:29:00+00:00",
+      "last_updated": "2026-10-10T00:45:51+00:00",
+      "source_count": 4,
+      "article_count": 6,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "trump",
+        "diesel",
+        "deal",
+        "russia",
+        "prices",
+        "russian",
+        "president",
+        "pressure"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Russian",
+          "Zelensky",
+          "Putin Iran",
+          "Kremlin",
+          "Russia",
+          "Iran",
+          "Analysis"
+        ],
+        "latest_progress": [
+          "10月10日 00:45 UTC，BBC World报道：“Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin”。",
+          "10月10日 00:00 UTC，Al Jazeera报道：“Iran war live: Kremlin says Trump welcomed Russia’s effort in Iran deal”。",
+          "10月09日 22:30 UTC，BBC World报道：“Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a0a69161f2606dac851c",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_campaign=rss&at_medium=RSS",
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T00:45:51+00:00",
+          "fetched_at": "2026-10-10T00:51:30.137154+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d61b/live/93d8fbd0-c41e-11f1-a175-8928617a734f.jpg"
+        },
+        {
+          "article_id": "art_354ef2a77a136fbfb0de",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/10/iran-war-live-kremlin-says-trump-welcomed-russia-effort-in-iran-deal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/10/iran-war-live-kremlin-says-trump-welcomed-russia-effort-in-iran-deal?traffic_source=rss",
+          "title": "Iran war live: Kremlin says Trump welcomed Russia’s effort in Iran deal",
+          "summary": "The Kremlin says the US president welcomes Russia's involvement in efforts aimed at reaching a settlement over Iran.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T00:00:00+00:00",
+          "fetched_at": "2026-10-10T00:51:30.768173+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2c8c006571f4e15d1f74",
+          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_campaign=rss&at_medium=RSS",
+          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+          "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T22:30:22+00:00",
+          "fetched_at": "2026-10-10T00:51:30.137287+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9075/live/94a528a0-c422-11f1-9462-0fb8e72a616b.jpg"
+        },
+        {
+          "article_id": "art_882903f0d7d508399e0d",
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+          "canonical_url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+          "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+          "summary": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow, to combat prices before midterms. He said he struck the deal with Russian President Vladimir Putin in a phone call.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T21:24:13+00:00",
+          "fetched_at": "2026-10-10T00:51:30.637374+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1428e35756ed2770f70d",
+          "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
+          "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
+          "summary": "Russia to supply 300,000 tonnes of diesel immediately, followed by 1.5 million more, as prices soar amid the Iran war.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T19:47:33+00:00",
+          "fetched_at": "2026-10-10T00:51:30.769252+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_aca1f6ed0b7c7745227d",
+          "url": "https://www.dw.com/en/trump-putin-agree-on-deal-to-release-russian-diesel-to-us-world-markets/a-79623364?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-putin-agree-on-deal-to-release-russian-diesel-to-us-world-markets/a-79623364?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump, Putin agree on deal to release Russian diesel to US, world markets",
+          "summary": "Russia will supply diesel to global markets in a bid to lower prices, US President Donald Trump has said. The move reverses years of pressure on the Russian economy following the invasion of Ukraine.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-09T19:29:00+00:00",
+          "fetched_at": "2026-10-10T00:51:30.557056+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f3eec076af3b6c7f2e87",
+      "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+      "category": "军事安全",
+      "score": 83.1,
       "score_breakdown": {
         "coverage": 17.9,
         "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.8,
-        "credibility": 9.9,
-        "impact": 11.0,
+        "region_diversity": 7.5,
+        "recency": 19.1,
+        "credibility": 9.8,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-09T14:53:00+00:00",
-      "last_updated": "2026-10-09T19:32:13+00:00",
+      "first_seen": "2026-10-09T08:23:16+00:00",
+      "last_updated": "2026-10-09T21:25:59+00:00",
       "source_count": 3,
       "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "peace",
+        "pillay",
+        "nobel",
+        "human",
+        "rights",
+        "prize",
+        "navi",
+        "south"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的5篇报道，当前关注的军事安全事件为“Navi Pillay, former UN human rights chief, wins Nobel Peace Prize”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "South African",
+          "Navi Pillay",
+          "Nobel Peace Prize Human",
+          "Nobel Peace Prize Navi",
+          "Pillay",
+          "UN",
+          "Nobel Peace Prize Watch",
+          "Who"
+        ],
+        "latest_progress": [
+          "10月09日 21:25 UTC，NPR World报道：“South African human rights lawyer Navi Pillay wins Nobel Peace Prize”。",
+          "10月09日 20:29 UTC，Al Jazeera报道：“Human rights veteran Navi Pillay wins 2026 Nobel Peace Prize”。",
+          "10月09日 17:37 UTC，BBC World报道：“Navi Pillay, former UN human rights chief, wins Nobel Peace Prize”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_105a0b49ed425aa58ec7",
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
+          "canonical_url": "https://www.npr.org/2026/10/09/nx-s1-5996461/south-african-human-rights-lawyer-navi-pillay-wins-nobel-peace-prize",
+          "title": "South African human rights lawyer Navi Pillay wins Nobel Peace Prize",
+          "summary": "South African human rights lawyer Navi Pillay wins the 2026 Nobel Peace Prize for her lifelong defense of human rights and international law.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T21:25:59+00:00",
+          "fetched_at": "2026-10-10T00:51:30.637254+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c0cb334caa19739dd682",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/human-rights-veteran-navi-pillay-wins-2026-nobel-peace-prize?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/human-rights-veteran-navi-pillay-wins-2026-nobel-peace-prize?traffic_source=rss",
+          "title": "Human rights veteran Navi Pillay wins 2026 Nobel Peace Prize",
+          "summary": "South African jurist Navanethem Pillay has been awarded the 2026 Nobel Peace Prize for her work to promote peace.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T20:29:30+00:00",
+          "fetched_at": "2026-10-10T00:51:30.768976+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6b6953b66623cd3c4653",
+          "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_campaign=rss&at_medium=RSS",
+          "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+          "summary": "Pillay is recognised for her \"efforts to promote peace and international law\", the Norwegian Nobel Committee says.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T17:37:10+00:00",
+          "fetched_at": "2026-10-10T00:51:30.137822+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de59/live/0e911af0-c3df-11f1-95ba-dba767ffba7e.jpg"
+        },
+        {
+          "article_id": "art_97f4e619996db494dfcb",
+          "url": "https://www.bbc.co.uk/news/videos/cq8ezdww6w0do?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cq8ezdww6w0do?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: Who is Nobel Peace Prize winner Navi Pillay?",
+          "summary": "BBC correspondent Joe Inwood explains how Pillay's childhood in South Africa led her to become a driving force in international law from Myanmar to Gaza.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T15:26:33+00:00",
+          "fetched_at": "2026-10-10T00:51:30.139946+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fad2/live/5256ec10-c3f8-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_8ff2c8283ca9066c9821",
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5994952/nobel-peace-prize",
+          "canonical_url": "https://www.npr.org/2026/10/08/nx-s1-5994952/nobel-peace-prize",
+          "title": "South African human rights lawyer Navi Pillay wins the Nobel Peace Prize",
+          "summary": "South African human rights lawyer Navi Pillay wins the 2026 Nobel Peace Prize for advancing human rights and international law.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T08:23:16+00:00",
+          "fetched_at": "2026-10-10T00:51:30.637682+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_4142d9adad88f76e5436",
+      "title": "Commentator Katie Zacharia picked as new White House press secretary",
+      "category": "军事安全",
+      "score": 78.0,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.5,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-09T18:49:24+00:00",
+      "last_updated": "2026-10-09T23:12:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -41,17 +343,250 @@
         "Middle East"
       ],
       "keywords": [
-        "sanctions",
-        "court",
-        "international",
-        "icc",
-        "criminal",
-        "against",
-        "states",
-        "announced"
+        "trump",
+        "press",
+        "secretary",
+        "katie",
+        "zacharia",
+        "white",
+        "house",
+        "commentator"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的国际政治事件为“US unveils sanctions on ICC in move court condemns as 'assault on rule of law'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Commentator Katie Zacharia picked as new White House press secretary”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Karoline Leavitt Commentator Katie",
+          "Zacharia",
+          "White House",
+          "Katie Zacharia"
+        ],
+        "latest_progress": [
+          "10月09日 23:12 UTC，DW Top Stories报道：“Trump names new press secretary to succeed Karoline Leavitt”。",
+          "10月09日 22:41 UTC，BBC World报道：“Commentator Katie Zacharia picked as new White House press secretary”。",
+          "10月09日 18:49 UTC，Al Jazeera报道：“Katie Zacharia selected to be next White House press secretary”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1343b3190c4eb95f91c9",
+          "url": "https://www.dw.com/en/trump-names-new-press-secretary-to-succeed-karoline-leavitt/a-79623824?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-names-new-press-secretary-to-succeed-karoline-leavitt/a-79623824?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump names new press secretary to succeed Karoline Leavitt",
+          "summary": "Trump has appointed Katie Zacharia to take over the White House press secretary role vacated by Karoline Leavitt. She assumes the role with Trump struggling with low approval ratings driven by the US war with Iran.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-09T23:12:00+00:00",
+          "fetched_at": "2026-10-10T00:51:30.556867+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8865cca9a5f2c0e18a46",
+          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_campaign=rss&at_medium=RSS",
+          "title": "Commentator Katie Zacharia picked as new White House press secretary",
+          "summary": "The conservative commentator currently works as a communications adviser at Trump Media & Technology Group.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T22:41:21+00:00",
+          "fetched_at": "2026-10-10T00:51:30.138271+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b258/live/476d9530-c414-11f1-9a39-31b474234113.jpg"
+        },
+        {
+          "article_id": "art_029a3b9280f9a40c7d46",
+          "url": "https://www.aljazeera.com/news/2026/10/9/katie-zacharia-offered-position-as-white-house-press-secretary?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/katie-zacharia-offered-position-as-white-house-press-secretary?traffic_source=rss",
+          "title": "Katie Zacharia selected to be next White House press secretary",
+          "summary": "US President Donald Trump called the conservative commentator 'a devoted fan'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T18:49:24+00:00",
+          "fetched_at": "2026-10-10T00:51:30.769643+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1e1860cbcba4349e0ae7",
+      "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
+      "category": "军事安全",
+      "score": 75.7,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 4.9
+      },
+      "first_seen": "2026-10-09T09:43:22+00:00",
+      "last_updated": "2026-10-09T21:53:01+00:00",
+      "source_count": 2,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "execution",
+        "firing",
+        "squad",
+        "fort",
+        "hood",
+        "livestream",
+        "nidal",
+        "hasan"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的4篇报道，当前关注的军事安全事件为“Fort Hood survivor supports gunman's execution by firing squad but questions livestream”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Fort Hood",
+          "JD",
+          "Vance",
+          "Barbaric",
+          "US",
+          "Nidal Hasan"
+        ],
+        "latest_progress": [
+          "10月09日 21:53 UTC，Al Jazeera报道：“Trump confirms Fort Hood shooter’s execution will be by firing squad”。",
+          "10月09日 21:50 UTC，BBC World报道：“JD Vance casts doubt on firing squad execution and says he will not watch it”。",
+          "10月09日 18:30 UTC，Al Jazeera报道：“‘Barbaric’: US lawmakers condemn plan to livestream Nidal Hasan’s execution”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_31cdc3bb481c712e4949",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/trump-confirms-fort-hood-shooters-execution-will-be-by-firing-squad?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/trump-confirms-fort-hood-shooters-execution-will-be-by-firing-squad?traffic_source=rss",
+          "title": "Trump confirms Fort Hood shooter’s execution will be by firing squad",
+          "summary": "The Pentagon said the firing squad execution of Fort Hood shooter Nidal Malik Hasan will be public and livestreamed.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T21:53:01+00:00",
+          "fetched_at": "2026-10-10T00:51:30.768382+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9ce851f21fca152b1895",
+          "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_campaign=rss&at_medium=RSS",
+          "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
+          "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T21:50:47+00:00",
+          "fetched_at": "2026-10-10T00:51:30.137624+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cf5/live/cc41a870-c40d-11f1-838e-6d1d6d701264.jpg"
+        },
+        {
+          "article_id": "art_6d21850c24b8c4e9663d",
+          "url": "https://www.aljazeera.com/news/2026/10/9/barbaric-us-lawmakers-condemn-plan-to-livestream-nidal-hasans-execution?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/barbaric-us-lawmakers-condemn-plan-to-livestream-nidal-hasans-execution?traffic_source=rss",
+          "title": "‘Barbaric’: US lawmakers condemn plan to livestream Nidal Hasan’s execution",
+          "summary": "Republican and Democratic lawmakers condemn Pentagon plan to livestream Fort Hood shooter's execution by firing squad.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-09T18:30:58+00:00",
+          "fetched_at": "2026-10-10T00:51:30.769740+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_607f58817dbf0e33b4f2",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_campaign=rss&at_medium=RSS",
+          "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
+          "summary": "Alonzo Lunsford tells the BBC the punishment befits the crime but he has some doubts whether the public should be able to watch it.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-09T09:43:22+00:00",
+          "fetched_at": "2026-10-10T00:51:30.139603+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6ac/live/ea298500-c3e6-11f1-9a39-31b474234113.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2eb5b24e9c38cd041a31",
+      "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+      "category": "国际政治",
+      "score": 69.8,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.6,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-09T18:06:48+00:00",
+      "last_updated": "2026-10-09T19:32:13+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "sanctions",
+        "icc",
+        "states",
+        "against",
+        "president",
+        "international",
+        "court",
+        "several"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的国际政治事件为“US unveils sanctions on ICC in move court condemns as 'assault on rule of law'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "European",
@@ -60,8 +595,7 @@
           "UN",
           "ICC",
           "US",
-          "President",
-          "Rogue"
+          "President"
         ],
         "latest_progress": [
           "10月09日 19:32 UTC，Al Jazeera报道：“European states, Canada, Japan and UN back ICC against US sanctions”。",
@@ -87,7 +621,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-09T19:32:13+00:00",
-          "fetched_at": "2026-10-09T20:54:52.720468+00:00",
+          "fetched_at": "2026-10-10T00:51:30.769349+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -102,7 +636,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T18:40:10+00:00",
-          "fetched_at": "2026-10-09T20:54:51.404676+00:00",
+          "fetched_at": "2026-10-10T00:51:30.137396+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -117,369 +651,10 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-09T18:06:48+00:00",
-          "fetched_at": "2026-10-09T20:54:52.721340+00:00",
+          "fetched_at": "2026-10-10T00:51:30.770011+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_1777b7fbde5b6884c642",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/rogue-court-us-sanctions-icc-hours-after-ex-judge-wins-nobel-prize?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/rogue-court-us-sanctions-icc-hours-after-ex-judge-wins-nobel-prize?traffic_source=rss",
-          "title": "‘Rogue court’: US sanctions ICC hours after ex-judge wins Nobel Prize",
-          "summary": "US Secretary of State Marco Rubio announced sanctions against the International Criminal Court on Friday.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T15:59:04+00:00",
-          "fetched_at": "2026-10-09T20:54:52.722396+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_42a85054dc6e402a8895",
-          "url": "https://www.dw.com/en/us-imposes-sanctions-aiming-to-dismantle-international-criminal-court/a-79618577?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-imposes-sanctions-aiming-to-dismantle-international-criminal-court/a-79618577?maca=en-rss-en-top-1022-rdf",
-          "title": "US imposes sanctions aiming to 'dismantle' International Criminal Court",
-          "summary": "The US has announced new sanctions on the International Criminal Court. It's the latest in a series of steps by the Donald Trump administration as it seeks to \"dismantle\" the intergovernmental organization.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-09T14:53:00+00:00",
-          "fetched_at": "2026-10-09T20:54:52.136106+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a5af2567c52c9171d92c",
-      "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-      "category": "军事安全",
-      "score": 79.2,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.7,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-09T19:29:00+00:00",
-      "last_updated": "2026-10-09T20:32:42+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "diesel",
-        "trump",
-        "russian",
-        "deal",
-        "russia",
-        "prices",
-        "markets",
-        "supply"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trump",
-          "Russian",
-          "Zelensky",
-          "Putin",
-          "US"
-        ],
-        "latest_progress": [
-          "10月09日 20:32 UTC，BBC World报道：“Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'”。",
-          "10月09日 19:47 UTC，Al Jazeera报道：“Trump announces Russian diesel deal amid soaring US fuel prices”。",
-          "10月09日 19:29 UTC，DW Top Stories报道：“Trump, Putin agree on deal to release Russian diesel to US, world markets”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a0a69161f2606dac851c",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_campaign=rss&at_medium=RSS",
-          "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-          "summary": "Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T20:32:42+00:00",
-          "fetched_at": "2026-10-09T20:54:51.404483+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d61b/live/93d8fbd0-c41e-11f1-a175-8928617a734f.jpg"
-        },
-        {
-          "article_id": "art_1428e35756ed2770f70d",
-          "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices?traffic_source=rss",
-          "title": "Trump announces Russian diesel deal amid soaring US fuel prices",
-          "summary": "Russia to supply 300,000 tonnes of diesel immediately, followed by 1.5 million more, as prices soar amid the Iran war.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T19:47:33+00:00",
-          "fetched_at": "2026-10-09T20:54:52.720326+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_aca1f6ed0b7c7745227d",
-          "url": "https://www.dw.com/en/trump-putin-agree-on-deal-to-release-russian-diesel-to-us-world-markets/a-79623364?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-putin-agree-on-deal-to-release-russian-diesel-to-us-world-markets/a-79623364?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump, Putin agree on deal to release Russian diesel to US, world markets",
-          "summary": "Russia will supply diesel to global markets in a bid to lower prices, US President Donald Trump has said. The move reverses years of pressure on the Russian economy following the invasion of Ukraine.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-09T19:29:00+00:00",
-          "fetched_at": "2026-10-09T20:54:52.135294+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1e1860cbcba4349e0ae7",
-      "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
-      "category": "军事安全",
-      "score": 75.0,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 4.1
-      },
-      "first_seen": "2026-10-09T09:43:22+00:00",
-      "last_updated": "2026-10-09T20:42:11+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "execution",
-        "firing",
-        "squad",
-        "livestream",
-        "fort",
-        "hood",
-        "watch",
-        "lawmakers"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Fort Hood survivor supports gunman's execution by firing squad but questions livestream”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "JD",
-          "Vance",
-          "Barbaric",
-          "US",
-          "Nidal Hasan",
-          "Fort Hood"
-        ],
-        "latest_progress": [
-          "10月09日 20:42 UTC，BBC World报道：“JD Vance casts doubt on firing squad execution and says he will not watch it”。",
-          "10月09日 18:30 UTC，Al Jazeera报道：“‘Barbaric’: US lawmakers condemn plan to livestream Nidal Hasan’s execution”。",
-          "10月09日 09:43 UTC，BBC World报道：“Fort Hood survivor supports gunman's execution by firing squad but questions livestream”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9ce851f21fca152b1895",
-          "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_campaign=rss&at_medium=RSS",
-          "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
-          "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T20:42:11+00:00",
-          "fetched_at": "2026-10-09T20:54:51.404826+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cf5/live/cc41a870-c40d-11f1-838e-6d1d6d701264.jpg"
-        },
-        {
-          "article_id": "art_6d21850c24b8c4e9663d",
-          "url": "https://www.aljazeera.com/news/2026/10/9/barbaric-us-lawmakers-condemn-plan-to-livestream-nidal-hasans-execution?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/barbaric-us-lawmakers-condemn-plan-to-livestream-nidal-hasans-execution?traffic_source=rss",
-          "title": "‘Barbaric’: US lawmakers condemn plan to livestream Nidal Hasan’s execution",
-          "summary": "Republican and Democratic lawmakers condemn Pentagon plan to livestream Fort Hood shooter's execution by firing squad.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T18:30:58+00:00",
-          "fetched_at": "2026-10-09T20:54:52.720989+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_607f58817dbf0e33b4f2",
-          "url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_campaign=rss&at_medium=RSS",
-          "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
-          "summary": "Alonzo Lunsford tells the BBC the punishment befits the crime but he has some doubts whether the public should be able to watch it.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T09:43:22+00:00",
-          "fetched_at": "2026-10-09T20:54:51.407069+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6ac/live/ea298500-c3e6-11f1-9a39-31b474234113.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2b9d1cd3699d745eb067",
-      "title": "Hurricane Isaias strengthens into Category 3 storm with US in its sights",
-      "category": "社会突发",
-      "score": 72.7,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 17.5,
-        "credibility": 9.7,
-        "impact": 11.7,
-        "velocity": 1.6
-      },
-      "first_seen": "2026-10-08T11:35:22+00:00",
-      "last_updated": "2026-10-09T15:25:27+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "hurricane",
-        "isaias",
-        "gulf",
-        "intensifies",
-        "judge",
-        "execution",
-        "evidence",
-        "preserved"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的社会突发事件为“Hurricane Isaias strengthens into Category 3 storm with US in its sights”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Hurricane Isaias",
-          "Category",
-          "US",
-          "Gulf Coast Isaias",
-          "And",
-          "Pike"
-        ],
-        "latest_progress": [
-          "10月09日 15:25 UTC，Al Jazeera报道：“Hurricane Isaias strengthens into Category 3 storm with US in its sights”。",
-          "10月09日 11:55 UTC，DW Top Stories报道：“Hurricane Isaias intensifies en route to US Gulf Coast”。",
-          "10月08日 11:35 UTC，NPR World报道：“Isaias intensifies to hurricane. And, judge orders Pike execution evidence preserved”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4fe2897eb5b9f525070e",
-          "url": "https://www.aljazeera.com/news/2026/10/9/hurricane-isaias-strengthens-into-category-3-storm-with-us-in-its-sights?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/hurricane-isaias-strengthens-into-category-3-storm-with-us-in-its-sights?traffic_source=rss",
-          "title": "Hurricane Isaias strengthens into Category 3 storm with US in its sights",
-          "summary": "The major storm is expected to make landfall along the US Gulf Coast later on Friday or early Saturday.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T15:25:27+00:00",
-          "fetched_at": "2026-10-09T20:54:52.722627+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_bca01490d74fe2a12455",
-          "url": "https://www.dw.com/en/hurricane-isaias-intensifies-en-route-to-us-gulf-coast/a-79612756?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/hurricane-isaias-intensifies-en-route-to-us-gulf-coast/a-79612756?maca=en-rss-en-top-1022-rdf",
-          "title": "Hurricane Isaias intensifies en route to US Gulf Coast",
-          "summary": "Oil and gas production in the Gulf of Mexico has already been affected by the approaching hurricane, which has strengthened so far to Category 2.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-09T11:55:00+00:00",
-          "fetched_at": "2026-10-09T20:54:52.136685+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_83275e6619b16c5f8ea2",
-          "url": "https://www.npr.org/2026/10/08/g-s1-147105/up-first-newsletter-hurricane-isaias-house-elections-christa-pike-nidal-hasan-cnn-ms-now-politico",
-          "canonical_url": "https://www.npr.org/2026/10/08/g-s1-147105/up-first-newsletter-hurricane-isaias-house-elections-christa-pike-nidal-hasan-cnn-ms-now-politico",
-          "title": "Isaias intensifies to hurricane. And, judge orders Pike execution evidence preserved",
-          "summary": "People in the Gulf are preparing for bad weather this weekend after Isaias intensified into a hurricane. And, a judge has ordered Christa Pike's failed execution evidence be preserved.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-08T11:35:22+00:00",
-          "fetched_at": "2026-10-09T20:54:52.455800+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
@@ -488,12 +663,12 @@
       "event_id": "evt_ee94cbb5cd5be7fd6c14",
       "title": "Flydubai co-pilot plotted ‘suicide’ attack on Israel, UAE says",
       "category": "军事安全",
-      "score": 72.3,
+      "score": 69.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.4,
+        "recency": 18.1,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -552,7 +727,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-09T20:13:24+00:00",
-          "fetched_at": "2026-10-09T20:54:52.720200+00:00",
+          "fetched_at": "2026-10-10T00:51:30.769163+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -567,7 +742,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-09T18:23:00+00:00",
-          "fetched_at": "2026-10-09T20:54:52.135507+00:00",
+          "fetched_at": "2026-10-10T00:51:30.557212+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -577,20 +752,20 @@
     },
     {
       "event_id": "evt_e99eb035490d3a8ea0a1",
-      "title": "Tsunami warnings across Latin America after 7.7 magnitude earthquake hits",
+      "title": "Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake",
       "category": "社会突发",
-      "score": 70.8,
+      "score": 69.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.9,
+        "recency": 19.1,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
       },
       "first_seen": "2026-10-09T19:22:56+00:00",
-      "last_updated": "2026-10-09T19:39:52+00:00",
+      "last_updated": "2026-10-09T21:26:30+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -603,26 +778,25 @@
       ],
       "keywords": [
         "warnings",
-        "tsunami",
-        "magnitude",
+        "panama",
         "earthquake",
-        "hits",
-        "countries",
-        "across",
-        "latin"
+        "tsunami",
+        "issued",
+        "magnitude",
+        "quake",
+        "countries"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Tsunami warnings across Latin America after 7.7 magnitude earthquake hits”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
           "Powerful",
           "Panama",
-          "Tsunami",
-          "Latin America"
+          "Tsunami"
         ],
         "latest_progress": [
-          "10月09日 19:39 UTC，BBC World报道：“Powerful magnitude 7.7 earthquake hits Panama, damaging buildings”。",
-          "10月09日 19:22 UTC，Al Jazeera报道：“Tsunami warnings across Latin America after 7.7 magnitude earthquake hits”。"
+          "10月09日 21:26 UTC，BBC World报道：“Powerful magnitude 7.7 earthquake hits Panama, damaging buildings”。",
+          "10月09日 19:22 UTC，Al Jazeera报道：“Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -642,8 +816,8 @@
           "summary": "Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-09T19:39:52+00:00",
-          "fetched_at": "2026-10-09T20:54:51.404958+00:00",
+          "published_at": "2026-10-09T21:26:30+00:00",
+          "fetched_at": "2026-10-10T00:51:30.137726+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -653,195 +827,15 @@
           "article_id": "art_c7dd76e4eeb402de3449",
           "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss",
-          "title": "Tsunami warnings across Latin America after 7.7 magnitude earthquake hits",
+          "title": "Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake",
           "summary": "Countries including Colombia, Ecuador, Nicaragua, Guatemala and Chile have received warnings after the quake.",
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-09T19:22:56+00:00",
-          "fetched_at": "2026-10-09T20:54:52.720607+00:00",
+          "fetched_at": "2026-10-10T00:51:30.769439+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4142d9adad88f76e5436",
-      "title": "Commentator Katie Zacharia picked as new White House press secretary",
-      "category": "科技AI",
-      "score": 69.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.2,
-        "credibility": 10.0,
-        "impact": 9.8,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-09T18:49:24+00:00",
-      "last_updated": "2026-10-09T19:58:27+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "white",
-        "house",
-        "press",
-        "secretary",
-        "katie",
-        "zacharia",
-        "commentator",
-        "offered"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的科技AI事件为“Commentator Katie Zacharia picked as new White House press secretary”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "Commentator Katie Zacharia",
-          "White House",
-          "Katie Zacharia"
-        ],
-        "latest_progress": [
-          "10月09日 19:58 UTC，BBC World报道：“Commentator Katie Zacharia picked as new White House press secretary”。",
-          "10月09日 18:49 UTC，Al Jazeera报道：“Katie Zacharia ‘offered’ position as White House press secretary”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_8865cca9a5f2c0e18a46",
-          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_campaign=rss&at_medium=RSS",
-          "title": "Commentator Katie Zacharia picked as new White House press secretary",
-          "summary": "The conservative commentator currently works as a communications adviser at Trump Media & Technology Group.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-09T19:58:27+00:00",
-          "fetched_at": "2026-10-09T20:54:51.405571+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b258/live/476d9530-c414-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_029a3b9280f9a40c7d46",
-          "url": "https://www.aljazeera.com/news/2026/10/9/katie-zacharia-offered-position-as-white-house-press-secretary?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/katie-zacharia-offered-position-as-white-house-press-secretary?traffic_source=rss",
-          "title": "Katie Zacharia ‘offered’ position as White House press secretary",
-          "summary": "The role has been vacant since former White House press secretary Karoline Leavitt left in August.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T18:49:24+00:00",
-          "fetched_at": "2026-10-09T20:54:52.720861+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_cadbbf6c7420c50b3bb8",
-      "title": "Thousands rally for anti-austerity protest in Brussels amid clashes",
-      "category": "能源资源",
-      "score": 67.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-09T15:54:00+00:00",
-      "last_updated": "2026-10-09T16:07:29+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "police",
-        "brussels",
-        "anti-austerity",
-        "rally",
-        "rioters",
-        "water",
-        "tear",
-        "gas"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Thousands rally for anti-austerity protest in Brussels amid clashes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Thousands",
-          "Brussels",
-          "Rioters"
-        ],
-        "latest_progress": [
-          "10月09日 16:07 UTC，Al Jazeera报道：“Thousands rally for anti-austerity protest in Brussels amid clashes”。",
-          "10月09日 15:54 UTC，DW Top Stories报道：“Brussels: Rioters clash with police at anti-austerity rally”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_89986429194b3d075b1c",
-          "url": "https://www.aljazeera.com/news/2026/10/9/thousands-rally-for-anti-austerity-protest-in-brussels-amid-clashes?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/9/thousands-rally-for-anti-austerity-protest-in-brussels-amid-clashes?traffic_source=rss",
-          "title": "Thousands rally for anti-austerity protest in Brussels amid clashes",
-          "summary": "Belgian police respond to 'troublemakers' on sidelines of main rally with tear gas, water cannon and baton charges.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-09T16:07:29+00:00",
-          "fetched_at": "2026-10-09T20:54:52.722165+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2a9ce5a3f778b0db3f09",
-          "url": "https://www.dw.com/en/brussels-rioters-clash-with-police-at-anti-austerity-rally/a-79620594?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brussels-rioters-clash-with-police-at-anti-austerity-rally/a-79620594?maca=en-rss-en-top-1022-rdf",
-          "title": "Brussels: Rioters clash with police at anti-austerity rally",
-          "summary": "Violent rioters, many of whom were masked, confronted police at the edge of an anti-austerity march in Brussels. Police responded with water cannons and tear gas.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-09T15:54:00+00:00",
-          "fetched_at": "2026-10-09T20:54:52.135739+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
@@ -850,12 +844,12 @@
       "event_id": "evt_a9128ee928b3cd79c7ca",
       "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
       "category": "军事安全",
-      "score": 65.9,
+      "score": 63.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 17.5,
+        "recency": 14.8,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -912,7 +906,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T15:24:43+00:00",
-          "fetched_at": "2026-10-09T20:54:51.405455+00:00",
+          "fetched_at": "2026-10-10T00:51:30.138183+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -927,7 +921,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-09T15:20:00+00:00",
-          "fetched_at": "2026-10-09T20:54:52.135833+00:00",
+          "fetched_at": "2026-10-10T00:51:30.557441+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -936,15 +930,87 @@
       ]
     },
     {
+      "event_id": "evt_5f5edeea64bf739a8b93",
+      "title": "Israeli drone attack wounds six in Lebanon near Syria border",
+      "category": "军事安全",
+      "score": 62.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-10T00:22:52+00:00",
+      "last_updated": "2026-10-10T00:22:52+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "israeli",
+        "attack",
+        "drone",
+        "wounds",
+        "six",
+        "lebanon",
+        "near",
+        "syria"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Israeli drone attack wounds six in Lebanon near Syria border”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israeli",
+          "Lebanon",
+          "Syria"
+        ],
+        "latest_progress": [
+          "10月10日 00:22 UTC，Al Jazeera报道：“Israeli drone attack wounds six in Lebanon near Syria border”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7a8568ebb19e7946a893",
+          "url": "https://www.aljazeera.com/news/2026/10/10/israeli-drone-attack-wounds-six-in-lebanon-near-syria-border?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/10/israeli-drone-attack-wounds-six-in-lebanon-near-syria-border?traffic_source=rss",
+          "title": "Israeli drone attack wounds six in Lebanon near Syria border",
+          "summary": "Five Syrians and one Lebanese wounded in latest Israeli attack, Lebanon's health authorities say.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-10T00:22:52+00:00",
+          "fetched_at": "2026-10-10T00:51:30.767934+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_131a9eb92d1f8ce502e3",
       "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
       "category": "军事安全",
-      "score": 65.0,
+      "score": 62.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 16.5,
+        "recency": 14.0,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -1002,7 +1068,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-09T14:01:00+00:00",
-          "fetched_at": "2026-10-09T20:54:52.136197+00:00",
+          "fetched_at": "2026-10-10T00:51:30.557745+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -1017,7 +1083,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-09T13:50:25+00:00",
-          "fetched_at": "2026-10-09T20:54:51.406057+00:00",
+          "fetched_at": "2026-10-10T00:51:30.138630+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
