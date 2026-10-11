@@ -1,36 +1,31 @@
 {
-  "generated_at": "2026-10-11T20:18:24.288227+00:00",
+  "generated_at": "2026-10-11T23:43:21.197609+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 132,
-    "articles_unique": 132,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 182,
+    "articles_unique": 176,
+    "errors": []
   },
   "events": [
     {
       "event_id": "evt_868bbac1dd8f0218ea29",
-      "title": "Saudi health minister visits survivors of deadly Riyadh airport attack",
+      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
       "category": "军事安全",
-      "score": 89.8,
+      "score": 93.0,
       "score_breakdown": {
-        "coverage": 19.5,
+        "coverage": 22.0,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
         "recency": 21.7,
-        "credibility": 9.7,
+        "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 4.0
+        "velocity": 4.7
       },
       "first_seen": "2026-10-10T21:32:53+00:00",
-      "last_updated": "2026-10-11T19:59:15+00:00",
+      "last_updated": "2026-10-11T23:20:46+00:00",
       "source_count": 4,
-      "article_count": 6,
+      "article_count": 8,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -46,29 +41,29 @@
         "airport",
         "riyadh",
         "saudi",
+        "strike",
         "attack",
         "killed",
-        "strike",
-        "against",
-        "arabia"
+        "houthi",
+        "deadly"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Saudi health minister visits survivors of deadly Riyadh airport attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的8篇报道，当前关注的军事安全事件为“One killed, 11 injured in second Houthi strike on Riyadh airport in two days”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Saudi",
-          "Riyadh",
+          "Pakistani",
           "Houthi",
+          "Riyadh",
           "Saudi Arabia",
           "Second",
-          "Passenger",
-          "Trump",
-          "Houthis"
+          "CCTV",
+          "Saudi",
+          "Passenger"
         ],
         "latest_progress": [
-          "10月11日 19:59 UTC，Al Jazeera报道：“Saudi health minister visits survivors of deadly Riyadh airport attack”。",
-          "10月11日 16:41 UTC，BBC World报道：“Saudi capital airport hit by second Houthi strike in two days”。",
-          "10月11日 16:24 UTC，DW Top Stories报道：“Saudi Arabia: Second strike hits Riyadh airport”。"
+          "10月11日 23:20 UTC，Al Jazeera报道：“Pakistani national killed in second Houthi strike on Riyadh airport”。",
+          "10月11日 22:59 UTC，DW Top Stories报道：“Saudi Arabia: Second strike kills at least 1 at Riyadh airport”。",
+          "10月11日 22:45 UTC，BBC World报道：“One killed, 11 injured in second Houthi strike on Riyadh airport in two days”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -81,6 +76,66 @@
       },
       "articles": [
         {
+          "article_id": "art_419ff6015426cd4c8516",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
+          "title": "Pakistani national killed in second Houthi strike on Riyadh airport",
+          "summary": "Saudi authorities say a Pakistani national was killed and several people injured in a second strike on Riyadh’s Airport.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T23:20:46+00:00",
+          "fetched_at": "2026-10-11T23:43:19.533157+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_379cdc3cb958b1f71205",
+          "url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
+          "title": "Saudi Arabia: Second strike kills at least 1 at Riyadh airport",
+          "summary": "Sunday's strike came as the King Khalid International Airport remained closed after a deadly attack on Saturday, and after a warning from Houthi rebels in Yemen that \"worse is yet to come.\" Dammam airport was also hit.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-11T22:59:00+00:00",
+          "fetched_at": "2026-10-11T23:43:19.096770+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_66bf66ff28f66072feb5",
+          "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_campaign=rss&at_medium=RSS",
+          "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+          "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-11T22:45:58+00:00",
+          "fetched_at": "2026-10-11T23:43:18.507210+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f0/live/59d06e70-c57a-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_a24af07acbf36aadc87a",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/houthi-strike-riyadh-international-airport-cctv-footage?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/houthi-strike-riyadh-international-airport-cctv-footage?traffic_source=rss",
+          "title": "CCTV shows moment of deadly Houthi strike on Riyadh airport",
+          "summary": "CCTV footage released by Al Arabiya shows the moment of a Houthi strike on Riyadh’s international airport on Saturday.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T22:24:07+00:00",
+          "fetched_at": "2026-10-11T23:43:19.533704+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_32f524870353e940904d",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/saudi-health-minister-visits-survivors-of-deadly-riyadh-airport-attack?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/saudi-health-minister-visits-survivors-of-deadly-riyadh-airport-attack?traffic_source=rss",
@@ -89,40 +144,10 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-11T19:59:15+00:00",
-          "fetched_at": "2026-10-11T20:18:23.100657+00:00",
+          "fetched_at": "2026-10-11T23:43:19.535134+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_66bf66ff28f66072feb5",
-          "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_campaign=rss&at_medium=RSS",
-          "title": "Saudi capital airport hit by second Houthi strike in two days",
-          "summary": "The Yemeni group says it carried out attacks that killed 13 people in Riyadh over the weekend and targeted two airports and oil facilities.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T16:41:37+00:00",
-          "fetched_at": "2026-10-11T20:18:21.529314+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f0/live/59d06e70-c57a-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_98e5449ae1926d452a4e",
-          "url": "https://www.dw.com/en/saudi-arabia-second-strike-hits-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/saudi-arabia-second-strike-hits-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
-          "title": "Saudi Arabia: Second strike hits Riyadh airport",
-          "summary": "Sunday's strike came as the King Khalid International Airport remained closed after a deadly attack on Saturday, and after a warning from Houthi rebels in Yemen that \"worse is yet to come.\" Dammam airport was also hit.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-11T16:24:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.612322+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         },
         {
@@ -134,7 +159,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-10T23:44:15+00:00",
-          "fetched_at": "2026-10-11T20:18:22.837934+00:00",
+          "fetched_at": "2026-10-11T23:43:19.289271+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -149,7 +174,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-10T22:07:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.613770+00:00",
+          "fetched_at": "2026-10-11T23:43:19.099126+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -164,7 +189,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-10T21:32:53+00:00",
-          "fetched_at": "2026-10-11T20:18:22.838176+00:00",
+          "fetched_at": "2026-10-11T23:43:19.289601+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -173,23 +198,23 @@
       ]
     },
     {
-      "event_id": "evt_e4e953505c4ecdb6c97b",
-      "title": "Republican senator says Trump diesel agreement with Russia may be illegal",
-      "category": "国际政治",
-      "score": 80.7,
+      "event_id": "evt_14ba9f7e5d1b2db51724",
+      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+      "category": "能源资源",
+      "score": 78.0,
       "score_breakdown": {
-        "coverage": 19.5,
+        "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.1,
-        "credibility": 9.8,
+        "recency": 20.1,
+        "credibility": 9.9,
         "impact": 11.0,
-        "velocity": 3.5
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-10T17:48:00+00:00",
-      "last_updated": "2026-10-11T19:19:50+00:00",
+      "first_seen": "2026-10-11T14:47:00+00:00",
+      "last_updated": "2026-10-11T21:36:40+00:00",
       "source_count": 3,
-      "article_count": 6,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -200,68 +225,82 @@
         "Middle East"
       ],
       "keywords": [
-        "trump",
-        "president",
-        "ukraine",
+        "energy",
         "russia",
-        "zelenskyy",
-        "volodymyr",
-        "diesel",
-        "energy"
+        "trump",
+        "ukraine",
+        "agreed",
+        "president",
+        "ceasefire",
+        "ceasefire'"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的6篇报道，当前关注的国际政治事件为“Republican senator says Trump diesel agreement with Russia may be illegal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的能源资源事件为“Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Republican",
           "Trump",
+          "Zelensky",
           "Russia",
-          "Ukraine",
-          "Germany",
-          "Zelenskyy Watch",
-          "Time",
-          "Trump Trump"
+          "What",
+          "Zelenskyy",
+          "US",
+          "Ukraine"
         ],
         "latest_progress": [
-          "10月11日 19:19 UTC，Al Jazeera报道：“Republican senator says Trump diesel agreement with Russia may be illegal”。",
-          "10月11日 15:10 UTC，Al Jazeera报道：“Trump says Ukraine and Russia agree to ‘energy ceasefire’”。",
-          "10月11日 14:47 UTC，DW Top Stories报道：“Trump claims Russia and Ukraine agreed to 'energy ceasefire'”。"
+          "10月11日 21:36 UTC，BBC World报道：“Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent”。",
+          "10月11日 20:55 UTC，BBC World报道：“Watch: What's behind Trump's energy ceasefire claim?”。",
+          "10月11日 20:28 UTC，Al Jazeera报道：“Zelenskyy welcomes US-announced energy ceasefire”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_ab5db4424246a9d5d21f",
-          "url": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal?traffic_source=rss",
-          "title": "Republican senator says Trump diesel agreement with Russia may be illegal",
-          "summary": "US President Trump's bid to bring down diesel prices by easing sanctions on Russia prompts rare Republican criticism.",
-          "source": "Al Jazeera",
+          "article_id": "art_5f1dfca691266b765bc4",
+          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_campaign=rss&at_medium=RSS",
+          "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+          "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T19:19:50+00:00",
-          "fetched_at": "2026-10-11T20:18:23.100963+00:00",
+          "published_at": "2026-10-11T21:36:40+00:00",
+          "fetched_at": "2026-10-11T23:43:18.507026+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16d8/live/4817e400-c58a-11f1-bc2e-018d645d8d21.jpg"
         },
         {
-          "article_id": "art_eb55dd5cdae64b1aec5b",
-          "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss",
-          "title": "Trump says Ukraine and Russia agree to ‘energy ceasefire’",
-          "summary": "Ukrainian President Volodymyr Zelenskyy says he was unaware of the deal, but that Ukraine would back it.",
+          "article_id": "art_1689c4f553053b6bea14",
+          "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: What's behind Trump's energy ceasefire claim?",
+          "summary": "The US president made the announcement in a social media post, which was an apparent surprise to Ukraine and Russia is yet to comment.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-11T20:55:02+00:00",
+          "fetched_at": "2026-10-11T23:43:18.510506+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a6d5/live/bfca61a0-c5b5-11f1-ad08-b9eb6b599088.jpg"
+        },
+        {
+          "article_id": "art_3840838c9f12d39220dd",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss",
+          "title": "Zelenskyy welcomes US-announced energy ceasefire",
+          "summary": "President Zelenskyy has responded to Donald Trump’s announcement that Russia and Ukraine agreed to an energy ceasefire",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-11T15:10:27+00:00",
-          "fetched_at": "2026-10-11T20:18:23.102998+00:00",
+          "published_at": "2026-10-11T20:28:46+00:00",
+          "fetched_at": "2026-10-11T23:43:19.534676+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -276,52 +315,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-11T14:47:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.612523+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_530c84df66ed0b3394aa",
-          "url": "https://www.dw.com/en/germany-rejects-trump-demand-fully-supports-zelenskyy/live-79627811?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-rejects-trump-demand-fully-supports-zelenskyy/live-79627811?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany rejects Trump demand, 'fully supports' Zelenskyy",
-          "summary": "Germany's foreign minister has said Berlin is behind Ukraine's president and will keep pressuring Russia to end its war. Meanwhile, Deutsche Bank's CEO warned that political extremism is spooking investors. More on DW.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-11T09:13:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.613015+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_38c2fa855d043d985216",
-          "url": "https://www.bbc.co.uk/news/videos/cwkg50dgpml7o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwkg50dgpml7o?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: 'Time for Ukraine to get a new president', says Trump",
-          "summary": "The US president's said President Volodymyr Zelensky \"wants to make problems for the world\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-10T19:25:03+00:00",
-          "fetched_at": "2026-10-11T20:18:21.531975+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9f8/live/c42726c0-c4de-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_3cfcf14c3dddde445c8b",
-          "url": "https://www.dw.com/en/trump-slams-zelenskyy-says-ukraine-should-elect-new-president/a-79629740?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-slams-zelenskyy-says-ukraine-should-elect-new-president/a-79629740?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump slams Zelenskyy, says Ukraine should elect new president",
-          "summary": "President Trump has criticized Volodymyr Zelenskyy for not making a deal with Russia to end the Ukraine war. Trump also warned Kyiv against targeting Russian oil refineries that will supply the US with diesel fuel.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-10T17:48:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.614029+00:00",
+          "fetched_at": "2026-10-11T23:43:19.097457+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -330,109 +324,111 @@
       ]
     },
     {
-      "event_id": "evt_b3b0effad2cd0444b18b",
-      "title": "At least five people missing as flash floods in Nepal sweep away houses",
-      "category": "社会突发",
-      "score": 71.2,
+      "event_id": "evt_58f4eb9ed8fcab3dcee7",
+      "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
+      "category": "国际政治",
+      "score": 75.4,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 7.2,
+        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 18.4,
-        "credibility": 10.0,
-        "impact": 11.7,
+        "recency": 19.8,
+        "credibility": 9.8,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T10:34:02+00:00",
-      "last_updated": "2026-10-11T16:00:48+00:00",
-      "source_count": 2,
+      "first_seen": "2026-10-11T19:41:00+00:00",
+      "last_updated": "2026-10-11T21:12:44+00:00",
+      "source_count": 3,
       "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "BBC World"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "floods",
-        "away",
-        "hit",
-        "nepal",
-        "swept",
-        "flash",
-        "buildings",
-        "central"
+        "gold",
+        "border",
+        "air",
+        "strikes",
+        "dozens",
+        "sudan",
+        "egypt",
+        "rights"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的社会突发事件为“At least five people missing as flash floods in Nepal sweep away houses”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "At",
-          "Nepal",
-          "Homes",
-          "Nepal Buildings"
+          "Dozens",
+          "Egypt",
+          "Sudan",
+          "Deadly",
+          "Air"
         ],
         "latest_progress": [
-          "10月11日 16:00 UTC，Al Jazeera报道：“At least five people missing as flash floods in Nepal sweep away houses”。",
-          "10月11日 12:03 UTC，BBC World报道：“Homes and bridges swept away as fresh floods hit Nepal”。",
-          "10月11日 10:34 UTC，BBC World报道：“Buildings swept away as flash floods hit central Nepal”。"
+          "10月11日 21:12 UTC，BBC World报道：“Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says”。",
+          "10月11日 20:44 UTC，Al Jazeera报道：“Deadly air strike kills dozens at Sudan gold mine near Egypt border”。",
+          "10月11日 19:41 UTC，DW Top Stories报道：“Air strikes kill dozens of gold miners on Sudan-Egypt border”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_15026d2e11f984fc20ae",
-          "url": "https://www.aljazeera.com/news/2026/10/11/at-least-five-people-missing-as-flash-floods-in-nepal-sweep-away-houses?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/at-least-five-people-missing-as-flash-floods-in-nepal-sweep-away-houses?traffic_source=rss",
-          "title": "At least five people missing as flash floods in Nepal sweep away houses",
-          "summary": "Authorities urge villagers to move to safer places after a river in the central part of the country bursts its banks.",
+          "article_id": "art_10a9d7dca3aeb65fbbcb",
+          "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_campaign=rss&at_medium=RSS",
+          "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
+          "summary": "Neither Egypt nor Sudan has commented on the alleged strikes on an artisanal mining camp on Saturday.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-11T21:12:44+00:00",
+          "fetched_at": "2026-10-11T23:43:18.507584+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ba0/live/1bc53450-c5b4-11f1-a838-01c3fd7e5e7d.jpg"
+        },
+        {
+          "article_id": "art_9244029c3d8cd6913aa7",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
+          "title": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
+          "summary": "An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-11T16:00:48+00:00",
-          "fetched_at": "2026-10-11T20:18:23.102411+00:00",
+          "published_at": "2026-10-11T20:44:17+00:00",
+          "fetched_at": "2026-10-11T23:43:19.534344+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_dfaaf91a0396e756fa82",
-          "url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_campaign=rss&at_medium=RSS",
-          "title": "Homes and bridges swept away as fresh floods hit Nepal",
-          "summary": "Nepal is still trying to recover from catastrophic floods that hit less than two months ago, leaving thousands dead and missing.",
-          "source": "BBC World",
+          "article_id": "art_056056d4eedb52a2c748",
+          "url": "https://www.dw.com/en/air-strikes-kill-dozens-of-gold-miners-on-sudan-egypt-border/a-79634889?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/air-strikes-kill-dozens-of-gold-miners-on-sudan-egypt-border/a-79634889?maca=en-rss-en-top-1022-rdf",
+          "title": "Air strikes kill dozens of gold miners on Sudan-Egypt border",
+          "summary": "A Sudan-based rights group said 72 people were killed in a remote, disputed area known for illegal gold mining.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T12:03:52+00:00",
-          "fetched_at": "2026-10-11T20:18:21.529788+00:00",
+          "published_at": "2026-10-11T19:41:00+00:00",
+          "fetched_at": "2026-10-11T23:43:19.097051+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf2/live/9cbf47b0-c56b-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_69f7a16a315a5e5a4e0a",
-          "url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_campaign=rss&at_medium=RSS",
-          "title": "Buildings swept away as flash floods hit central Nepal",
-          "summary": "A flash flood at the Budhi Gandaki River has swept away several buildings and bridges, two months after catastrophic floods hit the country.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T10:34:02+00:00",
-          "fetched_at": "2026-10-11T20:18:21.531766+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f39a/live/5ededcd0-c552-11f1-a64c-550be9e3c66b.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
@@ -440,12 +436,12 @@
       "event_id": "evt_28f1892b8daff7ed4d57",
       "title": "Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on",
       "category": "社会突发",
-      "score": 70.0,
+      "score": 68.0,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 15.1,
+        "recency": 13.1,
         "credibility": 9.2,
         "impact": 11.7,
         "velocity": 2.1
@@ -507,7 +503,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-11T11:11:42+00:00",
-          "fetched_at": "2026-10-11T20:18:21.530629+00:00",
+          "fetched_at": "2026-10-11T23:43:18.508984+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -522,7 +518,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-11T05:28:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.613287+00:00",
+          "fetched_at": "2026-10-11T23:43:19.098502+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -537,7 +533,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-10T14:13:13+00:00",
-          "fetched_at": "2026-10-11T20:18:21.531873+00:00",
+          "fetched_at": "2026-10-11T23:43:18.510802+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -552,7 +548,7 @@
           "source": "hindi.business-standard.com",
           "source_type": "gdelt",
           "published_at": "2026-10-10T06:45:00+00:00",
-          "fetched_at": "2026-10-11T20:17:14.373964+00:00",
+          "fetched_at": "2026-10-11T23:43:07.907126+00:00",
           "language": "Hindi",
           "region": "India",
           "source_weight": 0.75,
@@ -564,12 +560,12 @@
       "event_id": "evt_34c84a15fe5d1b5d329e",
       "title": "Poland stabbings driven by online glorification of violence, Tusk says",
       "category": "国际政治",
-      "score": 69.0,
+      "score": 66.4,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 19.5,
+        "recency": 16.9,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -629,7 +625,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-11T17:27:24+00:00",
-          "fetched_at": "2026-10-11T20:18:21.529653+00:00",
+          "fetched_at": "2026-10-11T23:43:18.507376+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -644,7 +640,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-11T15:18:52+00:00",
-          "fetched_at": "2026-10-11T20:18:21.529914+00:00",
+          "fetched_at": "2026-10-11T23:43:18.508212+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -659,7 +655,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-11T10:48:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.612834+00:00",
+          "fetched_at": "2026-10-11T23:43:19.097852+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -668,21 +664,21 @@
       ]
     },
     {
-      "event_id": "evt_1a8639142a05164d3533",
-      "title": "Ethiopia, Eritrea ramp up rhetoric: Are they inching towards war?",
-      "category": "军事安全",
-      "score": 64.5,
+      "event_id": "evt_e074272179dec08c3131",
+      "title": "Pakistan suspends Imran Khan’s party-led provincial government",
+      "category": "国际政治",
+      "score": 65.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.0,
+        "recency": 19.1,
         "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 1.5
+        "impact": 11.0,
+        "velocity": 2.8
       },
-      "first_seen": "2026-10-10T18:32:00+00:00",
-      "last_updated": "2026-10-11T14:09:12+00:00",
+      "first_seen": "2026-10-11T09:37:00+00:00",
+      "last_updated": "2026-10-11T20:21:13+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -694,27 +690,113 @@
         "Middle East"
       ],
       "keywords": [
-        "eritrea",
-        "ethiopia",
-        "tigray",
-        "urges",
-        "deterrence",
-        "measures",
-        "against",
-        "officially"
+        "pakistan",
+        "khan",
+        "government",
+        "president",
+        "province",
+        "emergency",
+        "suspended",
+        "provincial"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Ethiopia, Eritrea ramp up rhetoric: Are they inching towards war?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Pakistan suspends Imran Khan’s party-led provincial government”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Ethiopia",
-          "Eritrea",
-          "Are",
-          "UN"
+          "Pakistan",
+          "Imran Khan",
+          "President",
+          "Khan"
         ],
         "latest_progress": [
-          "10月11日 14:09 UTC，Al Jazeera报道：“Ethiopia, Eritrea ramp up rhetoric: Are they inching towards war?”。",
-          "10月10日 18:32 UTC，DW Top Stories报道：“Eritrea urges UN deterrence measures against Ethiopia”。"
+          "10月11日 20:21 UTC，Al Jazeera报道：“Pakistan suspends Imran Khan’s party-led provincial government”。",
+          "10月11日 09:37 UTC，DW Top Stories报道：“Pakistan: President puts Khan stronghold province under emergency rule”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0d2f315335d0a3fc5339",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistan-suspends-imran-khans-party-led-provincial-government?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistan-suspends-imran-khans-party-led-provincial-government?traffic_source=rss",
+          "title": "Pakistan suspends Imran Khan’s party-led provincial government",
+          "summary": "Pakistan has suspended Khyber Pakhtunkhwa's PTI-led government after declaring a state of emergency in the province.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T20:21:13+00:00",
+          "fetched_at": "2026-10-11T23:43:19.534978+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_dd57d59b1c543e1a2967",
+          "url": "https://www.dw.com/en/pakistan-president-puts-khan-stronghold-province-under-emergency-rule/a-79632530?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/pakistan-president-puts-khan-stronghold-province-under-emergency-rule/a-79632530?maca=en-rss-en-top-1022-rdf",
+          "title": "Pakistan: President puts Khan stronghold province under emergency rule",
+          "summary": "President Asif Ali Zardari has effectively suspended the provincial government in Khyber Pakhtunkhwa. The northwestern state is an epicenter of support for former PM Imran Khan and run by his PTI party.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-11T09:37:00+00:00",
+          "fetched_at": "2026-10-11T23:43:19.097975+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7e5b19198f9d5c109081",
+      "title": "US Homeland Security secretary sees no ‘risk’ from livestreamed execution",
+      "category": "军事安全",
+      "score": 62.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-11T23:17:05+00:00",
+      "last_updated": "2026-10-11T23:17:05+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "execution",
+        "homeland",
+        "security",
+        "secretary",
+        "sees",
+        "risk",
+        "livestreamed",
+        "decision"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“US Homeland Security secretary sees no ‘risk’ from livestreamed execution”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "US",
+          "Homeland Security"
+        ],
+        "latest_progress": [
+          "10月11日 23:17 UTC，Al Jazeera报道：“US Homeland Security secretary sees no ‘risk’ from livestreamed execution”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -727,33 +809,18 @@
       },
       "articles": [
         {
-          "article_id": "art_82e6e17db4e19d020ea7",
-          "url": "https://www.aljazeera.com/news/2026/10/11/ethiopia-eritrea-ramp-up-rhetoric-are-they-inching-towards-war?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/ethiopia-eritrea-ramp-up-rhetoric-are-they-inching-towards-war?traffic_source=rss",
-          "title": "Ethiopia, Eritrea ramp up rhetoric: Are they inching towards war?",
-          "summary": "Allegations of Eritrean troop incursions into Tigray deepen the rift with Ethiopia, threatening fragile peace in the region.",
+          "article_id": "art_1a3fba5b970a07c3ab6b",
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-homeland-security-secretary-sees-no-risk-from-livestreamed-execution?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/us-homeland-security-secretary-sees-no-risk-from-livestreamed-execution?traffic_source=rss",
+          "title": "US Homeland Security secretary sees no ‘risk’ from livestreamed execution",
+          "summary": "Decision to livestream Nidal Hasan execution has led to harsh criticism and warnings that it could encourage violence.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-11T14:09:12+00:00",
-          "fetched_at": "2026-10-11T20:18:23.103445+00:00",
+          "published_at": "2026-10-11T23:17:05+00:00",
+          "fetched_at": "2026-10-11T23:43:19.533342+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c9cf14e5408333619505",
-          "url": "https://www.dw.com/en/eritrea-urges-un-deterrence-measures-against-ethiopia/a-79629670?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/eritrea-urges-un-deterrence-measures-against-ethiopia/a-79629670?maca=en-rss-en-top-1022-rdf",
-          "title": "Eritrea urges UN deterrence measures against Ethiopia",
-          "summary": "Eritrea has officially requested UN Security Council assistance over the conflict in Tigray. Both Eritrea and Ethiopia accuse each other of fueling regional instability.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-10T18:32:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.613944+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
@@ -762,12 +829,12 @@
       "event_id": "evt_15e641f218f1a6a64381",
       "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
       "category": "产业供应链",
-      "score": 63.9,
+      "score": 61.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.0,
+        "recency": 15.6,
         "credibility": 9.8,
         "impact": 10.4,
         "velocity": 5.0
@@ -824,7 +891,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-11T15:32:23+00:00",
-          "fetched_at": "2026-10-11T20:18:21.530151+00:00",
+          "fetched_at": "2026-10-11T23:43:18.508362+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -839,7 +906,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-11T11:35:00+00:00",
-          "fetched_at": "2026-10-11T20:18:22.612742+00:00",
+          "fetched_at": "2026-10-11T23:43:19.097729+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -848,216 +915,145 @@
       ]
     },
     {
-      "event_id": "evt_7bf5d5ad23230faa6bc9",
-      "title": "War and high debt to dominate IMF-World Bank meetings in Bangkok",
+      "event_id": "evt_81dc845c6c3b80b7b84f",
+      "title": "Two killed near Israeli-occupied area in south Lebanon",
       "category": "军事安全",
-      "score": 61.7,
+      "score": 60.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.5,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-11T20:46:45+00:00",
+      "last_updated": "2026-10-11T20:46:45+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "lebanon",
+        "two",
+        "killed",
+        "near",
+        "israeli-occupied",
+        "area",
+        "south",
+        "despite"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Two killed near Israeli-occupied area in south Lebanon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israeli",
+          "Lebanon"
+        ],
+        "latest_progress": [
+          "10月11日 20:46 UTC，Al Jazeera报道：“Two killed near Israeli-occupied area in south Lebanon”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cebac0f442218416c7ef",
+          "url": "https://www.aljazeera.com/news/2026/10/11/two-killed-near-israeli-occupied-area-in-south-lebanon?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/two-killed-near-israeli-occupied-area-in-south-lebanon?traffic_source=rss",
+          "title": "Two killed near Israeli-occupied area in south Lebanon",
+          "summary": "Despite ceasefire reached between Israel and Lebanon in June, Israeli attacks continue.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T20:46:45+00:00",
+          "fetched_at": "2026-10-11T23:43:19.534185+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_194f524bb0683f872e26",
+      "title": "UK's Burnham accuses Russia of meddling in Brexit vote",
+      "category": "国际政治",
+      "score": 59.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
         "recency": 20.7,
-        "credibility": 10.0,
-        "impact": 13.0,
+        "credibility": 9.5,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T18:47:57+00:00",
-      "last_updated": "2026-10-11T18:47:57+00:00",
+      "first_seen": "2026-10-11T22:18:00+00:00",
+      "last_updated": "2026-10-11T22:18:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "Al Jazeera"
+        "DW Top Stories"
       ],
       "regions": [
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "war",
-        "dominate",
-        "high",
-        "debt",
-        "imf-world",
-        "bank",
-        "meetings",
-        "bangkok"
+        "uk's",
+        "burnham",
+        "accuses",
+        "russia",
+        "meddling",
+        "brexit",
+        "vote",
+        "prime"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“War and high debt to dominate IMF-World Bank meetings in Bangkok”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“UK's Burnham accuses Russia of meddling in Brexit vote”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "War",
-          "IMF",
-          "World Bank",
-          "Bangkok"
+          "UK",
+          "Burnham",
+          "Russia",
+          "Brexit"
         ],
         "latest_progress": [
-          "10月11日 18:47 UTC，Al Jazeera报道：“War and high debt to dominate IMF-World Bank meetings in Bangkok”。"
+          "10月11日 22:18 UTC，DW Top Stories报道：“UK's Burnham accuses Russia of meddling in Brexit vote”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_2f022ea15f1969bfb068",
-          "url": "https://www.aljazeera.com/news/2026/10/11/war-and-high-debt-to-dominate-imf-world-bank-meetings-in-bangkok?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/war-and-high-debt-to-dominate-imf-world-bank-meetings-in-bangkok?traffic_source=rss",
-          "title": "War and high debt to dominate IMF-World Bank meetings in Bangkok",
-          "summary": "The US-Israel war on Iran and its inflationary impact will dominate the agenda.",
-          "source": "Al Jazeera",
+          "article_id": "art_e9855ab35837cf9ee10f",
+          "url": "https://www.dw.com/en/uk-s-burnham-accuses-russia-of-meddling-in-brexit-vote/a-79635264?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/uk-s-burnham-accuses-russia-of-meddling-in-brexit-vote/a-79635264?maca=en-rss-en-top-1022-rdf",
+          "title": "UK's Burnham accuses Russia of meddling in Brexit vote",
+          "summary": "The UK prime minister called for voters in Europe to be made fully aware of Russia's attempts to influence politics.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T18:47:57+00:00",
-          "fetched_at": "2026-10-11T20:18:23.101091+00:00",
+          "published_at": "2026-10-11T22:18:00+00:00",
+          "fetched_at": "2026-10-11T23:43:19.096915+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a61fd3a602049dbe81c7",
-      "title": "Mexican president urges residents to shelter as Hurricane Simon approaches",
-      "category": "社会突发",
-      "score": 61.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-11T19:31:36+00:00",
-      "last_updated": "2026-10-11T19:31:36+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "mexican",
-        "president",
-        "urges",
-        "residents",
-        "shelter",
-        "hurricane",
-        "simon",
-        "approaches"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Mexican president urges residents to shelter as Hurricane Simon approaches”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Mexican",
-          "Hurricane Simon"
-        ],
-        "latest_progress": [
-          "10月11日 19:31 UTC，Al Jazeera报道：“Mexican president urges residents to shelter as Hurricane Simon approaches”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4eae258b715cdac8b043",
-          "url": "https://www.aljazeera.com/news/2026/10/11/mexican-president-urges-residents-to-shelter-as-hurricane-simon-approaches?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/mexican-president-urges-residents-to-shelter-as-hurricane-simon-approaches?traffic_source=rss",
-          "title": "Mexican president urges residents to shelter as Hurricane Simon approaches",
-          "summary": "The Mexican community of Cabo Corrientes faces the risk of a direct hit as the Category 4 storm churns off Jalisco.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T19:31:36+00:00",
-          "fetched_at": "2026-10-11T20:18:23.100817+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b048f8eaeea4de9dce33",
-      "title": "Is the Yemen war entering a new phase?",
-      "category": "军事安全",
-      "score": 60.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-11T17:30:55+00:00",
-      "last_updated": "2026-10-11T17:30:55+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "yemen",
-        "war",
-        "entering",
-        "phase",
-        "saudi",
-        "arabia",
-        "accused",
-        "houthis"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Is the Yemen war entering a new phase?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Is",
-          "Yemen"
-        ],
-        "latest_progress": [
-          "10月11日 17:30 UTC，Al Jazeera报道：“Is the Yemen war entering a new phase?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e238147174a4c69f9f9c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
-          "title": "Is the Yemen war entering a new phase?",
-          "summary": "Saudi Arabia has accused Yemen’s Houthis of killing 12 people and injuring 300 in Saturday's attack on King Khalid Inter",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T17:30:55+00:00",
-          "fetched_at": "2026-10-11T20:18:23.101840+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
