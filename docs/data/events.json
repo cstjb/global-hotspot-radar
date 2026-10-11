@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-10-11T15:42:07.036896+00:00",
+  "generated_at": "2026-10-11T20:18:24.288227+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 93,
-    "articles_unique": 93,
+    "articles_fetched": 132,
+    "articles_unique": 132,
     "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
       {
         "source": "GDELT: (geopolitics OR security OR supply chain OR a",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
@@ -19,22 +15,22 @@
   "events": [
     {
       "event_id": "evt_868bbac1dd8f0218ea29",
-      "title": "Saudi Arabia vows response over Houthi ‘war crime’ attack on Riyadh airport",
+      "title": "Saudi health minister visits survivors of deadly Riyadh airport attack",
       "category": "军事安全",
-      "score": 93.5,
+      "score": 89.8,
       "score_breakdown": {
-        "coverage": 22.0,
+        "coverage": 19.5,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 21.9,
-        "credibility": 9.8,
+        "recency": 21.7,
+        "credibility": 9.7,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 4.0
       },
       "first_seen": "2026-10-10T21:32:53+00:00",
-      "last_updated": "2026-10-11T15:32:32+00:00",
+      "last_updated": "2026-10-11T19:59:15+00:00",
       "source_count": 4,
-      "article_count": 8,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -47,32 +43,32 @@
         "North America"
       ],
       "keywords": [
-        "saudi",
         "airport",
-        "attack",
         "riyadh",
-        "houthi",
-        "houthis",
+        "saudi",
+        "attack",
         "killed",
-        "injured"
+        "strike",
+        "against",
+        "arabia"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的8篇报道，当前关注的军事安全事件为“Saudi Arabia vows response over Houthi ‘war crime’ attack on Riyadh airport”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Saudi health minister visits survivors of deadly Riyadh airport attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Saudi",
           "Riyadh",
-          "Why",
           "Houthi",
           "Saudi Arabia",
-          "Yemen",
-          "Houthis",
-          "Saudi",
-          "What"
+          "Second",
+          "Passenger",
+          "Trump",
+          "Houthis"
         ],
         "latest_progress": [
-          "10月11日 15:32 UTC，BBC World报道：“Riyadh airport attack another dangerous moment in already tense conflict”。",
-          "10月11日 14:25 UTC，Al Jazeera报道：“Why are Houthi missiles breaking through Saudi Arabia’s air defences?”。",
-          "10月11日 12:28 UTC，Al Jazeera报道：“Saudi Arabia vows response over Houthi ‘war crime’ attack on Riyadh airport”。"
+          "10月11日 19:59 UTC，Al Jazeera报道：“Saudi health minister visits survivors of deadly Riyadh airport attack”。",
+          "10月11日 16:41 UTC，BBC World报道：“Saudi capital airport hit by second Houthi strike in two days”。",
+          "10月11日 16:24 UTC，DW Top Stories报道：“Saudi Arabia: Second strike hits Riyadh airport”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -85,75 +81,45 @@
       },
       "articles": [
         {
-          "article_id": "art_553a923707b558580d86",
-          "url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_campaign=rss&at_medium=RSS",
-          "title": "Riyadh airport attack another dangerous moment in already tense conflict",
-          "summary": "The Houthis have stepped up their attacks on Saudi Arabian soil, and while the physical damage can be quickly repaired, its reputation for stability is taking a battering.",
+          "article_id": "art_32f524870353e940904d",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/saudi-health-minister-visits-survivors-of-deadly-riyadh-airport-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/saudi-health-minister-visits-survivors-of-deadly-riyadh-airport-attack?traffic_source=rss",
+          "title": "Saudi health minister visits survivors of deadly Riyadh airport attack",
+          "summary": "Saudi Arabia’s health minister Fahad Aljalajel has paid a visit to survivors of Saturday’s deadly attack.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T19:59:15+00:00",
+          "fetched_at": "2026-10-11T20:18:23.100657+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_66bf66ff28f66072feb5",
+          "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_campaign=rss&at_medium=RSS",
+          "title": "Saudi capital airport hit by second Houthi strike in two days",
+          "summary": "The Yemeni group says it carried out attacks that killed 13 people in Riyadh over the weekend and targeted two airports and oil facilities.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T15:32:32+00:00",
-          "fetched_at": "2026-10-11T15:42:05.683303+00:00",
+          "published_at": "2026-10-11T16:41:37+00:00",
+          "fetched_at": "2026-10-11T20:18:21.529314+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c45/live/701466b0-c565-11f1-bd33-db1f7eaf2b30.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f0/live/59d06e70-c57a-11f1-a64c-550be9e3c66b.jpg"
         },
         {
-          "article_id": "art_a81dcb8e14a9ac6d09e4",
-          "url": "https://www.aljazeera.com/news/2026/10/11/why-are-houthi-missiles-breaking-through-saudi-arabias-air-defences?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/why-are-houthi-missiles-breaking-through-saudi-arabias-air-defences?traffic_source=rss",
-          "title": "Why are Houthi missiles breaking through Saudi Arabia’s air defences?",
-          "summary": "Repeated Houthi attacks on Saudi Arabia's King Khalid Airport reveal the limitations of even high-tech air defences.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T14:25:03+00:00",
-          "fetched_at": "2026-10-11T15:42:06.066902+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_56b4436c854e7115081a",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/saudi-arabia-vows-response-over-houthi-war-crime-attack-on-riyadh-airport?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/saudi-arabia-vows-response-over-houthi-war-crime-attack-on-riyadh-airport?traffic_source=rss",
-          "title": "Saudi Arabia vows response over Houthi ‘war crime’ attack on Riyadh airport",
-          "summary": "A Houthi attack on Riyadh airport killed at least 12 people and injured more than 300.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T12:28:11+00:00",
-          "fetched_at": "2026-10-11T15:42:06.068401+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_928081d8e4c2a664e723",
-          "url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know?traffic_source=rss",
-          "title": "Yemen fighting expands as Houthis attack Saudi airport: What to know",
-          "summary": "Saudi coalition blames Houthi group for the missile attack on the main international airport in Riyadh.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T10:45:15+00:00",
-          "fetched_at": "2026-10-11T15:42:06.069785+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f8988f9e94c8f7427ca2",
-          "url": "https://www.dw.com/en/yemen-s-houthis-warn-passengers-not-to-use-saudi-airports/a-79632306?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/yemen-s-houthis-warn-passengers-not-to-use-saudi-airports/a-79632306?maca=en-rss-en-top-1022-rdf",
-          "title": "Yemen's Houthis warn passengers not to use Saudi airports",
-          "summary": "The warning from the Iran-backed rebels comes a day after a missile attack on Riyadh airport killed 12 people and injured more than 300. The airport will remain closed until at least Sunday night.",
+          "article_id": "art_98e5449ae1926d452a4e",
+          "url": "https://www.dw.com/en/saudi-arabia-second-strike-hits-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/saudi-arabia-second-strike-hits-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
+          "title": "Saudi Arabia: Second strike hits Riyadh airport",
+          "summary": "Sunday's strike came as the King Khalid International Airport remained closed after a deadly attack on Saturday, and after a warning from Houthi rebels in Yemen that \"worse is yet to come.\" Dammam airport was also hit.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T09:35:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.892514+00:00",
+          "published_at": "2026-10-11T16:24:00+00:00",
+          "fetched_at": "2026-10-11T20:18:22.612322+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -163,12 +129,12 @@
           "article_id": "art_ad5e0a42b626f436046a",
           "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
           "canonical_url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
-          "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
-          "summary": "Saudi authorities say the latest attack on the international airport in the capital, Riyadh, has killed 12 people and injured over 300. Their statement says the dead on Saturday included four Saudi citizens as well as two Bangladeshi nationals, a Palestinian, a U.S. citizen, an Egyptian, a Jordanian, a Syrian and a Sudanese. It said some of those injured were in critical condition. The attack — the latest of several in the past week on King Khalid International Airport — is expected to increase Saudi pressure on allies including the United States to provide military support for the kingdom.",
+          "title": "Passenger terminal at Riyadh airport is struck again, a day after 12 were killed",
+          "summary": "A projectile struck a passenger terminal at the international airport in Riyadh on Sunday, a day after a missile hit the same terminal and killed 12 people, officials said.",
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-10T23:44:15+00:00",
-          "fetched_at": "2026-10-11T15:42:05.945303+00:00",
+          "fetched_at": "2026-10-11T20:18:22.837934+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -183,7 +149,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-10T22:07:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.893795+00:00",
+          "fetched_at": "2026-10-11T20:18:22.613770+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -198,7 +164,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-10T21:32:53+00:00",
-          "fetched_at": "2026-10-11T15:42:05.945609+00:00",
+          "fetched_at": "2026-10-11T20:18:22.838176+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -208,22 +174,22 @@
     },
     {
       "event_id": "evt_e4e953505c4ecdb6c97b",
-      "title": "Watch: 'Time for Ukraine to get a new president', says Trump",
+      "title": "Republican senator says Trump diesel agreement with Russia may be illegal",
       "category": "国际政治",
-      "score": 79.5,
+      "score": 80.7,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 19.5,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 9.7,
+        "recency": 21.1,
+        "credibility": 9.8,
         "impact": 11.0,
         "velocity": 3.5
       },
       "first_seen": "2026-10-10T17:48:00+00:00",
-      "last_updated": "2026-10-11T15:10:27+00:00",
+      "last_updated": "2026-10-11T19:19:50+00:00",
       "source_count": 3,
-      "article_count": 5,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -237,29 +203,29 @@
         "trump",
         "president",
         "ukraine",
-        "zelenskyy",
         "russia",
+        "zelenskyy",
         "volodymyr",
-        "energy",
-        "end"
+        "diesel",
+        "energy"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的国际政治事件为“Watch: 'Time for Ukraine to get a new president', says Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的6篇报道，当前关注的国际政治事件为“Republican senator says Trump diesel agreement with Russia may be illegal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Republican",
           "Trump",
-          "Ukraine",
           "Russia",
-          "Ukraine Germany",
+          "Ukraine",
+          "Germany",
           "Zelenskyy Watch",
           "Time",
-          "Trump Trump",
-          "Zelenskyy"
+          "Trump Trump"
         ],
         "latest_progress": [
-          "10月11日 15:10 UTC，Al Jazeera报道：“Trump says Ukraine, Russia agree to ‘energy ceasefire’”。",
-          "10月11日 14:47 UTC，DW Top Stories报道：“Trump announces 'energy ceasefire' between Russia and Ukraine”。",
-          "10月11日 09:13 UTC，DW Top Stories报道：“Germany rejects Trump demand, 'fully supports' Zelenskyy”。"
+          "10月11日 19:19 UTC，Al Jazeera报道：“Republican senator says Trump diesel agreement with Russia may be illegal”。",
+          "10月11日 15:10 UTC，Al Jazeera报道：“Trump says Ukraine and Russia agree to ‘energy ceasefire’”。",
+          "10月11日 14:47 UTC，DW Top Stories报道：“Trump claims Russia and Ukraine agreed to 'energy ceasefire'”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -272,30 +238,45 @@
       },
       "articles": [
         {
-          "article_id": "art_eb55dd5cdae64b1aec5b",
-          "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss",
-          "title": "Trump says Ukraine, Russia agree to ‘energy ceasefire’",
-          "summary": "Ukrainian President Volodymyr Zelenskyy had pushed for a 60-day full ceasefire.",
+          "article_id": "art_ab5db4424246a9d5d21f",
+          "url": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/republican-senator-says-trump-diesel-agreement-with-russia-may-be-illegal?traffic_source=rss",
+          "title": "Republican senator says Trump diesel agreement with Russia may be illegal",
+          "summary": "US President Trump's bid to bring down diesel prices by easing sanctions on Russia prompts rare Republican criticism.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-11T15:10:27+00:00",
-          "fetched_at": "2026-10-11T15:42:06.066408+00:00",
+          "published_at": "2026-10-11T19:19:50+00:00",
+          "fetched_at": "2026-10-11T20:18:23.100963+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_7f979ea21a19d1e5942f",
-          "url": "https://www.dw.com/en/trump-announces-energy-ceasefire-between-russia-and-ukraine/a-79634509?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-announces-energy-ceasefire-between-russia-and-ukraine/a-79634509?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump announces 'energy ceasefire' between Russia and Ukraine",
+          "article_id": "art_eb55dd5cdae64b1aec5b",
+          "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss",
+          "title": "Trump says Ukraine and Russia agree to ‘energy ceasefire’",
+          "summary": "Ukrainian President Volodymyr Zelenskyy says he was unaware of the deal, but that Ukraine would back it.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T15:10:27+00:00",
+          "fetched_at": "2026-10-11T20:18:23.102998+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_98df510281f7c923ddc9",
+          "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump claims Russia and Ukraine agreed to 'energy ceasefire'",
           "summary": "US President Donald Trump says both sides have agreed to stop targeting oil refineries, power plants and other energy infrastructure immediately.",
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-11T14:47:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.891829+00:00",
+          "fetched_at": "2026-10-11T20:18:22.612523+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -310,7 +291,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-11T09:13:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.892636+00:00",
+          "fetched_at": "2026-10-11T20:18:22.613015+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -325,7 +306,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-10T19:25:03+00:00",
-          "fetched_at": "2026-10-11T15:42:05.685111+00:00",
+          "fetched_at": "2026-10-11T20:18:21.531975+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -340,7 +321,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-10T17:48:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.894197+00:00",
+          "fetched_at": "2026-10-11T20:18:22.614029+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -349,197 +330,336 @@
       ]
     },
     {
-      "event_id": "evt_8b4981890fe08f25c15b",
-      "title": "At least 109 dead, over 100 missing as migrant boat capsizes off Djibouti",
-      "category": "产业供应链",
-      "score": 76.8,
+      "event_id": "evt_b3b0effad2cd0444b18b",
+      "title": "At least five people missing as flash floods in Nepal sweep away houses",
+      "category": "社会突发",
+      "score": 71.2,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 10.8,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.9,
-        "credibility": 9.8,
-        "impact": 10.4,
+        "recency": 18.4,
+        "credibility": 10.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T11:34:40+00:00",
-      "last_updated": "2026-10-11T15:32:23+00:00",
-      "source_count": 3,
+      "first_seen": "2026-10-11T10:34:02+00:00",
+      "last_updated": "2026-10-11T16:00:48+00:00",
+      "source_count": 2,
       "article_count": 3,
       "sources": [
         "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "floods",
+        "away",
+        "hit",
+        "nepal",
+        "swept",
+        "flash",
+        "buildings",
+        "central"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的社会突发事件为“At least five people missing as flash floods in Nepal sweep away houses”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "At",
+          "Nepal",
+          "Homes",
+          "Nepal Buildings"
+        ],
+        "latest_progress": [
+          "10月11日 16:00 UTC，Al Jazeera报道：“At least five people missing as flash floods in Nepal sweep away houses”。",
+          "10月11日 12:03 UTC，BBC World报道：“Homes and bridges swept away as fresh floods hit Nepal”。",
+          "10月11日 10:34 UTC，BBC World报道：“Buildings swept away as flash floods hit central Nepal”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_15026d2e11f984fc20ae",
+          "url": "https://www.aljazeera.com/news/2026/10/11/at-least-five-people-missing-as-flash-floods-in-nepal-sweep-away-houses?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/at-least-five-people-missing-as-flash-floods-in-nepal-sweep-away-houses?traffic_source=rss",
+          "title": "At least five people missing as flash floods in Nepal sweep away houses",
+          "summary": "Authorities urge villagers to move to safer places after a river in the central part of the country bursts its banks.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T16:00:48+00:00",
+          "fetched_at": "2026-10-11T20:18:23.102411+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_dfaaf91a0396e756fa82",
+          "url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_campaign=rss&at_medium=RSS",
+          "title": "Homes and bridges swept away as fresh floods hit Nepal",
+          "summary": "Nepal is still trying to recover from catastrophic floods that hit less than two months ago, leaving thousands dead and missing.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-11T12:03:52+00:00",
+          "fetched_at": "2026-10-11T20:18:21.529788+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf2/live/9cbf47b0-c56b-11f1-9a39-31b474234113.jpg"
+        },
+        {
+          "article_id": "art_69f7a16a315a5e5a4e0a",
+          "url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_campaign=rss&at_medium=RSS",
+          "title": "Buildings swept away as flash floods hit central Nepal",
+          "summary": "A flash flood at the Budhi Gandaki River has swept away several buildings and bridges, two months after catastrophic floods hit the country.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-11T10:34:02+00:00",
+          "fetched_at": "2026-10-11T20:18:21.531766+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f39a/live/5ededcd0-c552-11f1-a64c-550be9e3c66b.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_28f1892b8daff7ed4d57",
+      "title": "Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on",
+      "category": "社会突发",
+      "score": 70.0,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 15.1,
+        "credibility": 9.2,
+        "impact": 11.7,
+        "velocity": 2.1
+      },
+      "first_seen": "2026-10-10T06:45:00+00:00",
+      "last_updated": "2026-10-11T11:11:42+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "hindi.business-standard.com"
+      ],
+      "regions": [
+        "Europe",
+        "India"
+      ],
+      "keywords": [
+        "delhi",
+        "protest",
+        "cockroach'",
+        "leaders",
+        "fight",
+        "hundreds",
+        "detained",
+        "india's"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、hindi.business-standard.com等来源的4篇报道，当前关注的社会突发事件为“Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Delhi",
+          "India",
+          "Cockroach",
+          "Delhi Why",
+          "Delhi Delhi Protest"
+        ],
+        "latest_progress": [
+          "10月11日 11:11 UTC，BBC World报道：“Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on”。",
+          "10月11日 05:28 UTC，DW Top Stories报道：“India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi”。",
+          "10月10日 14:13 UTC，BBC World报道：“Why have hundreds of 'cockroach' protesters been detained in Delhi”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d2ac5135f7a4316aaa1d",
+          "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_campaign=rss&at_medium=RSS",
+          "title": "Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on",
+          "summary": "Hundreds of people who came out on the streets despite the police's restrictions were detained on Sunday.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-11T11:11:42+00:00",
+          "fetched_at": "2026-10-11T20:18:21.530629+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e56a/live/17da0620-c561-11f1-9cae-455625013d45.jpg"
+        },
+        {
+          "article_id": "art_174aff048f3cc99f014e",
+          "url": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-top-1022-rdf",
+          "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi",
+          "summary": "Leaders of the youth-led protest movement demanding India's election commissioner step down say the \"fight has just begun\" after they were released from detention following a large demonstration in Delhi. More on DW.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-11T05:28:00+00:00",
+          "fetched_at": "2026-10-11T20:18:22.613287+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_767122f4f88de9c3990e",
+          "url": "https://www.bbc.co.uk/news/videos/cqwy7p2y20gxo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cqwy7p2y20gxo?at_campaign=rss&at_medium=RSS",
+          "title": "Why have hundreds of 'cockroach' protesters been detained in Delhi",
+          "summary": "Thousands of security personnel were deployed in Delhi ahead of the Gen-Z led Cockroach Janta Party protest on Saturday calling for electoral reforms.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-10T14:13:13+00:00",
+          "fetched_at": "2026-10-11T20:18:21.531873+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb93/live/333ba0b0-c4b0-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_9c4928f6c9dfa3fbee84",
+          "url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004/",
+          "canonical_url": "https://hindi.business-standard.com/india-news/delhi-tightens-security-ahead-of-gyanesh-kumar-protest-detains-1000-id-559004",
+          "title": "Delhi Protest : मुख्य चुनाव आयुक्त के खिलाफ विरोध से पहले पुलिस की बड़ी कार्रवाई , 1000 से ज्यादा लोग हिरासत में",
+          "summary": "",
+          "source": "hindi.business-standard.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-10T06:45:00+00:00",
+          "fetched_at": "2026-10-11T20:17:14.373964+00:00",
+          "language": "Hindi",
+          "region": "India",
+          "source_weight": 0.75,
+          "image_url": "https://hindibusinessstandard.imagibyte.sortdcdn.net/wp-content/uploads/2026/10/Delhi-Police-1200x630.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_34c84a15fe5d1b5d329e",
+      "title": "Poland stabbings driven by online glorification of violence, Tusk says",
+      "category": "国际政治",
+      "score": 69.0,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 19.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-11T10:48:00+00:00",
+      "last_updated": "2026-10-11T17:27:24+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
         "BBC World",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "boat",
-        "djibouti",
-        "people",
-        "least",
-        "dead",
-        "missing",
-        "migrant",
-        "capsizes"
+        "tusk",
+        "poland",
+        "donald",
+        "man",
+        "plot",
+        "minister",
+        "police",
+        "received"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的产业供应链事件为“At least 109 dead, over 100 missing as migrant boat capsizes off Djibouti”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Poland stabbings driven by online glorification of violence, Tusk says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Children",
-          "Djibouti",
-          "UN",
-          "At"
+          "Poland",
+          "PM",
+          "Tusk Poland",
+          "Tusk",
+          "Donald Tusk"
         ],
         "latest_progress": [
-          "10月11日 15:32 UTC，BBC World报道：“Children among 139 dead after boat capsizes off Djibouti, UN says”。",
-          "10月11日 11:35 UTC，DW Top Stories报道：“A migrant boat sank off the coast of Djibouti with the UN reporting over 200 people dead or missing”。",
-          "10月11日 11:34 UTC，Al Jazeera报道：“At least 109 dead, over 100 missing as migrant boat capsizes off Djibouti”。"
+          "10月11日 17:27 UTC，BBC World报道：“Poland detains man suspected of planning assassination of PM Tusk”。",
+          "10月11日 15:18 UTC，BBC World报道：“Poland stabbings driven by online glorification of violence, Tusk says”。",
+          "10月11日 10:48 UTC，DW Top Stories报道：“Poland arrests man over plot to kill PM Donald Tusk”。"
         ],
-        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
-        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "港口和工厂运行率",
-          "交货周期与运价",
-          "企业订单及库存"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_0bdfbc3a0f7c71a339e5",
-          "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_campaign=rss&at_medium=RSS",
-          "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
-          "summary": "The boat was travelling from Djibouti to Yemen with 305 people on board, when it capsized near the port town of Obock on Thursday night.",
+          "article_id": "art_e9e4447217fc00e61b3e",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_campaign=rss&at_medium=RSS",
+          "title": "Poland detains man suspected of planning assassination of PM Tusk",
+          "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T15:32:23+00:00",
-          "fetched_at": "2026-10-11T15:42:05.680483+00:00",
+          "published_at": "2026-10-11T17:27:24+00:00",
+          "fetched_at": "2026-10-11T20:18:21.529653+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a58/live/88e5f7c0-c589-11f1-a64c-550be9e3c66b.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/187d/live/a4be0650-c592-11f1-9d5a-23156cc094cf.jpg"
         },
         {
-          "article_id": "art_8aade7306f93fef9d2ab",
-          "url": "https://www.dw.com/en/a-migrant-boat-sank-off-the-coast-of-djibouti-with-the-un-reporting-over-200-people-dead-or-missing/a-79633644?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/a-migrant-boat-sank-off-the-coast-of-djibouti-with-the-un-reporting-over-200-people-dead-or-missing/a-79633644?maca=en-rss-en-top-1022-rdf",
-          "title": "A migrant boat sank off the coast of Djibouti with the UN reporting over 200 people dead or missing",
-          "summary": "The UN migration agency has reported that at least 139 people were killed and 84 remain missing after a migrant boat sank overnight on its way to Yemen. At least 80 Ethiopians survived the incident but 15 children died.",
-          "source": "DW Top Stories",
+          "article_id": "art_a1f77ad2312855ea3935",
+          "url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_campaign=rss&at_medium=RSS",
+          "title": "Poland stabbings driven by online glorification of violence, Tusk says",
+          "summary": "The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T11:35:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.892099+00:00",
+          "published_at": "2026-10-11T15:18:52+00:00",
+          "fetched_at": "2026-10-11T20:18:21.529914+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5288/live/10c1e1e0-c585-11f1-80f2-5bd1e5df7ada.jpg"
         },
         {
-          "article_id": "art_c0858cacbc9dcce49a4b",
-          "url": "https://www.aljazeera.com/news/2026/10/11/at-least-109-dead-over-100-missing-as-migrant-boat-capsizes-off-djibouti?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/at-least-109-dead-over-100-missing-as-migrant-boat-capsizes-off-djibouti?traffic_source=rss",
-          "title": "At least 109 dead, over 100 missing as migrant boat capsizes off Djibouti",
-          "summary": "Search and rescue operations conducted after vessel carrying more than 300 people capsizes near Guhere.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T11:34:40+00:00",
-          "fetched_at": "2026-10-11T15:42:06.069325+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b31feceb17a1eb77a337",
-      "title": "Polish police probe alleged plot to assassinate PM Tusk, defence minister",
-      "category": "军事安全",
-      "score": 69.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.0,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-11T10:48:00+00:00",
-      "last_updated": "2026-10-11T12:09:54+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "meeting",
-        "police",
-        "poland",
-        "possible",
-        "attack",
-        "minister",
-        "emergency",
-        "information"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Polish police probe alleged plot to assassinate PM Tusk, defence minister”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Polish",
-          "PM",
-          "Tusk",
-          "Poland"
-        ],
-        "latest_progress": [
-          "10月11日 12:09 UTC，Al Jazeera报道：“Polish police probe alleged plot to assassinate PM Tusk, defence minister”。",
-          "10月11日 10:48 UTC，DW Top Stories报道：“Poland on alert amid possible attack on PM, defense minister”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_da8c668b93c59040db29",
-          "url": "https://www.aljazeera.com/news/2026/10/11/poland-police-probe-alleged-plot-to-assassinate-pm-tusk-defence-minister?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/poland-police-probe-alleged-plot-to-assassinate-pm-tusk-defence-minister?traffic_source=rss",
-          "title": "Polish police probe alleged plot to assassinate PM Tusk, defence minister",
-          "summary": "Security officials hold emergency meeting after police receive information about potential attack.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T12:09:54+00:00",
-          "fetched_at": "2026-10-11T15:42:06.068843+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c3a82693179b486f76ab",
-          "url": "https://www.dw.com/en/poland-on-alert-amid-possible-attack-on-pm-defense-minister/a-79633128?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/poland-on-alert-amid-possible-attack-on-pm-defense-minister/a-79633128?maca=en-rss-en-top-1022-rdf",
-          "title": "Poland on alert amid possible attack on PM, defense minister",
-          "summary": "Poland was holding an emergency meeting after police received information about a possible assassination plot against PM Donald Tusk. The meeting comes amid a wave of violence at Polish schools this week.",
+          "article_id": "art_9f5d97b227321471637d",
+          "url": "https://www.dw.com/en/poland-arrests-man-over-plot-to-kill-pm-donald-tusk/a-79633128?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/poland-arrests-man-over-plot-to-kill-pm-donald-tusk/a-79633128?maca=en-rss-en-top-1022-rdf",
+          "title": "Poland arrests man over plot to kill PM Donald Tusk",
+          "summary": "Prime Minister Donald Tusk confirmed the arrest hours after police received information about a possible assassination plot. Poland is still reeling from a wave of school violence this week.",
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-11T10:48:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.892254+00:00",
+          "fetched_at": "2026-10-11T20:18:22.612834+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -551,12 +671,12 @@
       "event_id": "evt_1a8639142a05164d3533",
       "title": "Ethiopia, Eritrea ramp up rhetoric: Are they inching towards war?",
       "category": "军事安全",
-      "score": 68.1,
+      "score": 64.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.6,
+        "recency": 17.0,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 1.5
@@ -615,7 +735,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-11T14:09:12+00:00",
-          "fetched_at": "2026-10-11T15:42:06.067060+00:00",
+          "fetched_at": "2026-10-11T20:18:23.103445+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -630,7 +750,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-10T18:32:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.894056+00:00",
+          "fetched_at": "2026-10-11T20:18:22.613944+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -639,21 +759,21 @@
       ]
     },
     {
-      "event_id": "evt_bef36b9a71fc2433a162",
-      "title": "Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on",
-      "category": "社会突发",
-      "score": 65.4,
+      "event_id": "evt_15e641f218f1a6a64381",
+      "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
+      "category": "产业供应链",
+      "score": 63.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.2,
+        "recency": 18.0,
         "credibility": 9.8,
-        "impact": 11.7,
+        "impact": 10.4,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T05:28:00+00:00",
-      "last_updated": "2026-10-11T11:11:42+00:00",
+      "first_seen": "2026-10-11T11:35:00+00:00",
+      "last_updated": "2026-10-11T15:32:23+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -664,62 +784,62 @@
         "Europe"
       ],
       "keywords": [
-        "leaders",
-        "fight",
-        "delhi",
-        "india's",
-        "cockroach'",
-        "movement",
-        "say",
-        "just"
+        "boat",
+        "djibouti",
+        "people",
+        "migrant",
+        "sank",
+        "off",
+        "dead",
+        "missing"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的产业供应链事件为“Children among 139 dead after boat capsizes off Djibouti, UN says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
         "participants": [
-          "Delhi",
-          "India",
-          "Cockroach"
+          "Children",
+          "Djibouti",
+          "UN"
         ],
         "latest_progress": [
-          "10月11日 11:11 UTC，BBC World报道：“Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on”。",
-          "10月11日 05:28 UTC，DW Top Stories报道：“India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi”。"
+          "10月11日 15:32 UTC，BBC World报道：“Children among 139 dead after boat capsizes off Djibouti, UN says”。",
+          "10月11日 11:35 UTC，DW Top Stories报道：“A migrant boat sank off the coast of Djibouti with the UN reporting over 200 people dead or missing”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
+        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "港口和工厂运行率",
+          "交货周期与运价",
+          "企业订单及库存"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_d2ac5135f7a4316aaa1d",
-          "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_campaign=rss&at_medium=RSS",
-          "title": "Delhi sees more protests as freed 'cockroach' group's leaders vow to fight on",
-          "summary": "Hundreds of people who came out on the streets despite the police's restrictions were detained on Sunday.",
+          "article_id": "art_0bdfbc3a0f7c71a339e5",
+          "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_campaign=rss&at_medium=RSS",
+          "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
+          "summary": "The boat was travelling from Djibouti to Yemen with 305 people on board, when it capsized near the port town of Obock on Thursday night.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T11:11:42+00:00",
-          "fetched_at": "2026-10-11T15:42:05.681113+00:00",
+          "published_at": "2026-10-11T15:32:23+00:00",
+          "fetched_at": "2026-10-11T20:18:21.530151+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e56a/live/17da0620-c561-11f1-9cae-455625013d45.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b0b/live/ba857dc0-c58c-11f1-a64c-550be9e3c66b.jpg"
         },
         {
-          "article_id": "art_174aff048f3cc99f014e",
-          "url": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/india-s-cockroach-movement-leaders-say-the-fight-has-just-begun-after-a-large-protest-in-delhi/live-79631190?maca=en-rss-en-top-1022-rdf",
-          "title": "India's 'Cockroach' movement leaders say 'the fight has just begun' after a large protest in Delhi",
-          "summary": "Leaders of the youth-led protest movement demanding India's election commissioner step down say the \"fight has just begun\" after they were released from detention following a large demonstration in Delhi. More on DW.",
+          "article_id": "art_8aade7306f93fef9d2ab",
+          "url": "https://www.dw.com/en/a-migrant-boat-sank-off-the-coast-of-djibouti-with-the-un-reporting-over-200-people-dead-or-missing/a-79633644?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/a-migrant-boat-sank-off-the-coast-of-djibouti-with-the-un-reporting-over-200-people-dead-or-missing/a-79633644?maca=en-rss-en-top-1022-rdf",
+          "title": "A migrant boat sank off the coast of Djibouti with the UN reporting over 200 people dead or missing",
+          "summary": "The UN migration agency has reported that at least 139 people were killed and 84 remain missing after a migrant boat sank overnight on its way to Yemen. At least 80 Ethiopians survived the incident but 15 children died.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T05:28:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.893138+00:00",
+          "published_at": "2026-10-11T11:35:00+00:00",
+          "fetched_at": "2026-10-11T20:18:22.612742+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -728,252 +848,21 @@
       ]
     },
     {
-      "event_id": "evt_b3b0effad2cd0444b18b",
-      "title": "Homes and bridges swept away as fresh floods hit Nepal",
-      "category": "社会突发",
-      "score": 62.7,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.9,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-11T10:34:02+00:00",
-      "last_updated": "2026-10-11T12:03:52+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "floods",
-        "hit",
-        "swept",
-        "away",
-        "nepal",
-        "buildings",
-        "flash",
-        "bridges"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的社会突发事件为“Homes and bridges swept away as fresh floods hit Nepal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Homes",
-          "Nepal Buildings",
-          "Nepal"
-        ],
-        "latest_progress": [
-          "10月11日 12:03 UTC，BBC World报道：“Homes and bridges swept away as fresh floods hit Nepal”。",
-          "10月11日 10:34 UTC，BBC World报道：“Buildings swept away as flash floods hit central Nepal”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_dfaaf91a0396e756fa82",
-          "url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_campaign=rss&at_medium=RSS",
-          "title": "Homes and bridges swept away as fresh floods hit Nepal",
-          "summary": "Nepal is still trying to recover from catastrophic floods that hit less than two months ago, leaving thousands dead and missing.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T12:03:52+00:00",
-          "fetched_at": "2026-10-11T15:42:05.680318+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf2/live/9cbf47b0-c56b-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_69f7a16a315a5e5a4e0a",
-          "url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_campaign=rss&at_medium=RSS",
-          "title": "Buildings swept away as flash floods hit central Nepal",
-          "summary": "A flash flood at the Budhi Gandaki River has swept away several buildings and bridges, two months after catastrophic floods hit the country.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T10:34:02+00:00",
-          "fetched_at": "2026-10-11T15:42:05.684825+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f39a/live/5ededcd0-c552-11f1-a64c-550be9e3c66b.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_bddc423497113e2fee43",
-      "title": "German 'lawfare': When lawsuits become a political weapon",
+      "event_id": "evt_7bf5d5ad23230faa6bc9",
+      "title": "War and high debt to dominate IMF-World Bank meetings in Bangkok",
       "category": "军事安全",
-      "score": 62.1,
+      "score": 61.7,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-11T15:14:00+00:00",
-      "last_updated": "2026-10-11T15:14:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "german",
-        "lawfare'",
-        "lawsuits",
-        "become",
-        "political",
-        "weapon",
-        "left",
-        "party"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“German 'lawfare': When lawsuits become a political weapon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "German",
-          "When"
-        ],
-        "latest_progress": [
-          "10月11日 15:14 UTC，DW Top Stories报道：“German 'lawfare': When lawsuits become a political weapon”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_825c53e9e39b56315725",
-          "url": "https://www.dw.com/en/german-lawfare-when-lawsuits-become-a-political-weapon/a-79615817?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/german-lawfare-when-lawsuits-become-a-political-weapon/a-79615817?maca=en-rss-en-top-1022-rdf",
-          "title": "German 'lawfare': When lawsuits become a political weapon",
-          "summary": "The Left Party is suing two government ministers for accusing them of antisemitism, while Chancellor Friedrich Merz has been sued several times by various parties. Is German politics descending into \"lawfare?\"",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-11T15:14:00+00:00",
-          "fetched_at": "2026-10-11T15:42:05.891681+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_94a4fb4461f7dae97ba6",
-      "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
-      "category": "军事安全",
-      "score": 62.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.0,
+        "recency": 20.7,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T14:38:10+00:00",
-      "last_updated": "2026-10-11T14:38:10+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "ukraine",
-        "yandex",
-        "third",
-        "russian",
-        "tech",
-        "giant",
-        "strikes",
-        "data"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Ukraine strikes Yandex data centre in third attack on Russian tech giant”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ukraine",
-          "Yandex",
-          "Russian"
-        ],
-        "latest_progress": [
-          "10月11日 14:38 UTC，BBC World报道：“Ukraine strikes Yandex data centre in third attack on Russian tech giant”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_08a54a743514af6fc4ad",
-          "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_campaign=rss&at_medium=RSS",
-          "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
-          "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T14:38:10+00:00",
-          "fetched_at": "2026-10-11T15:42:05.679919+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92b1/live/fca86430-c56c-11f1-a64c-550be9e3c66b.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_752692b03ebc24a85555",
-      "title": "Oval Office spat to public rebukes: A timeline of Trump-Zelenskyy ties",
-      "category": "军事安全",
-      "score": 62.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-11T14:34:15+00:00",
-      "last_updated": "2026-10-11T14:34:15+00:00",
+      "first_seen": "2026-10-11T18:47:57+00:00",
+      "last_updated": "2026-10-11T18:47:57+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -983,25 +872,26 @@
         "Middle East"
       ],
       "keywords": [
-        "oval",
-        "office",
-        "spat",
-        "public",
-        "rebukes",
-        "timeline",
-        "trump-zelenskyy",
-        "ties"
+        "war",
+        "dominate",
+        "high",
+        "debt",
+        "imf-world",
+        "bank",
+        "meetings",
+        "bangkok"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Oval Office spat to public rebukes: A timeline of Trump-Zelenskyy ties”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“War and high debt to dominate IMF-World Bank meetings in Bangkok”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Oval Office",
-          "Trump",
-          "Zelenskyy"
+          "War",
+          "IMF",
+          "World Bank",
+          "Bangkok"
         ],
         "latest_progress": [
-          "10月11日 14:34 UTC，Al Jazeera报道：“Oval Office spat to public rebukes: A timeline of Trump-Zelenskyy ties”。"
+          "10月11日 18:47 UTC，Al Jazeera报道：“War and high debt to dominate IMF-World Bank meetings in Bangkok”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1014,15 +904,157 @@
       },
       "articles": [
         {
-          "article_id": "art_2fe1044d39f4ac73ced6",
-          "url": "https://www.aljazeera.com/news/2026/10/11/oval-office-spat-to-public-rebukes-a-timeline-of-trump-zelenskyy-ties?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/oval-office-spat-to-public-rebukes-a-timeline-of-trump-zelenskyy-ties?traffic_source=rss",
-          "title": "Oval Office spat to public rebukes: A timeline of Trump-Zelenskyy ties",
-          "summary": "Trump has long criticised US military support for Ukraine and has lambasted Zelenskyy since his first term.",
+          "article_id": "art_2f022ea15f1969bfb068",
+          "url": "https://www.aljazeera.com/news/2026/10/11/war-and-high-debt-to-dominate-imf-world-bank-meetings-in-bangkok?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/war-and-high-debt-to-dominate-imf-world-bank-meetings-in-bangkok?traffic_source=rss",
+          "title": "War and high debt to dominate IMF-World Bank meetings in Bangkok",
+          "summary": "The US-Israel war on Iran and its inflationary impact will dominate the agenda.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-11T14:34:15+00:00",
-          "fetched_at": "2026-10-11T15:42:06.066736+00:00",
+          "published_at": "2026-10-11T18:47:57+00:00",
+          "fetched_at": "2026-10-11T20:18:23.101091+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a61fd3a602049dbe81c7",
+      "title": "Mexican president urges residents to shelter as Hurricane Simon approaches",
+      "category": "社会突发",
+      "score": 61.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-11T19:31:36+00:00",
+      "last_updated": "2026-10-11T19:31:36+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "mexican",
+        "president",
+        "urges",
+        "residents",
+        "shelter",
+        "hurricane",
+        "simon",
+        "approaches"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Mexican president urges residents to shelter as Hurricane Simon approaches”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Mexican",
+          "Hurricane Simon"
+        ],
+        "latest_progress": [
+          "10月11日 19:31 UTC，Al Jazeera报道：“Mexican president urges residents to shelter as Hurricane Simon approaches”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4eae258b715cdac8b043",
+          "url": "https://www.aljazeera.com/news/2026/10/11/mexican-president-urges-residents-to-shelter-as-hurricane-simon-approaches?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/mexican-president-urges-residents-to-shelter-as-hurricane-simon-approaches?traffic_source=rss",
+          "title": "Mexican president urges residents to shelter as Hurricane Simon approaches",
+          "summary": "The Mexican community of Cabo Corrientes faces the risk of a direct hit as the Category 4 storm churns off Jalisco.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T19:31:36+00:00",
+          "fetched_at": "2026-10-11T20:18:23.100817+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b048f8eaeea4de9dce33",
+      "title": "Is the Yemen war entering a new phase?",
+      "category": "军事安全",
+      "score": 60.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-11T17:30:55+00:00",
+      "last_updated": "2026-10-11T17:30:55+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "yemen",
+        "war",
+        "entering",
+        "phase",
+        "saudi",
+        "arabia",
+        "accused",
+        "houthis"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Is the Yemen war entering a new phase?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Is",
+          "Yemen"
+        ],
+        "latest_progress": [
+          "10月11日 17:30 UTC，Al Jazeera报道：“Is the Yemen war entering a new phase?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e238147174a4c69f9f9c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
+          "title": "Is the Yemen war entering a new phase?",
+          "summary": "Saudi Arabia has accused Yemen’s Houthis of killing 12 people and injuring 300 in Saturday's attack on King Khalid Inter",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-11T17:30:55+00:00",
+          "fetched_at": "2026-10-11T20:18:23.101840+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
