@@ -1,67 +1,73 @@
 {
-  "generated_at": "2026-10-12T05:57:00.500640+00:00",
+  "generated_at": "2026-10-12T15:24:11.975533+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 181,
-    "articles_unique": 175,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 82,
+    "articles_unique": 82,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_0d794b23a50e18ab844b",
-      "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
+      "event_id": "evt_70d6bcdd5657c4119254",
+      "title": "Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’",
       "category": "军事安全",
-      "score": 84.5,
+      "score": 81.2,
       "score_breakdown": {
-        "coverage": 22.0,
+        "coverage": 16.1,
         "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 18.8,
-        "credibility": 9.9,
+        "region_diversity": 7.5,
+        "recency": 19.0,
+        "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T15:32:32+00:00",
-      "last_updated": "2026-10-12T02:11:21+00:00",
+      "first_seen": "2026-10-12T06:41:57+00:00",
+      "last_updated": "2026-10-12T11:54:00+00:00",
       "source_count": 3,
-      "article_count": 8,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "airport",
-        "riyadh",
-        "strike",
-        "houthi",
-        "moment",
-        "saudi",
-        "shows",
-        "second"
+        "energy",
+        "trump",
+        "ukraine",
+        "ceasefire",
+        "russia",
+        "announced",
+        "ceasefire'",
+        "reported"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的8篇报道，当前关注的军事安全事件为“One killed, 11 injured in second Houthi strike on Riyadh airport in two days”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Saudi Arabia",
-          "Riyadh",
-          "Iran",
-          "Tehran",
-          "US",
-          "Pakistani",
-          "Houthi",
-          "Second"
+          "Ukraine",
+          "Russia",
+          "Donald Trump",
+          "Energy",
+          "What",
+          "Trump",
+          "Russian",
+          "Zelenskyy"
         ],
         "latest_progress": [
-          "10月12日 02:11 UTC，Al Jazeera报道：“Saudi Arabia says 1 dead, 11 injured in latest attack on Riyadh airport”。",
-          "10月12日 00:00 UTC，Al Jazeera报道：“Iran war live: Riyadh airport hit again; Tehran says US reply ‘inadequate’”。",
-          "10月11日 23:20 UTC，Al Jazeera报道：“Pakistani national killed in second Houthi strike on Riyadh airport”。"
+          "10月12日 11:54 UTC，DW Top Stories报道：“Ukraine says Russia launched strikes hours after Donald Trump announced an 'energy ceasefire'”。",
+          "10月12日 11:30 UTC，Al Jazeera报道：“‘Energy ceasefire’: What’s behind Trump’s love-hate ties to Russian oil?”。",
+          "10月12日 10:35 UTC，Al Jazeera报道：“Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -74,145 +80,85 @@
       },
       "articles": [
         {
-          "article_id": "art_cf70f99a523c05c4acd0",
-          "url": "https://www.aljazeera.com/news/2026/10/12/saudi-arabia-says-1-dead-11-injured-in-latest-attack-on-riyadh-airport?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/saudi-arabia-says-1-dead-11-injured-in-latest-attack-on-riyadh-airport?traffic_source=rss",
-          "title": "Saudi Arabia says 1 dead, 11 injured in latest attack on Riyadh airport",
-          "summary": "Sunday's strike on King Khalid International airport kills a Pakistani national.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-12T02:11:21+00:00",
-          "fetched_at": "2026-10-12T05:56:58.803723+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_84ca2293c5e3de7b4a73",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/12/iran-war-live-riyadh-airport-hit-again-tehran-says-us-reply-inadequate?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/12/iran-war-live-riyadh-airport-hit-again-tehran-says-us-reply-inadequate?traffic_source=rss",
-          "title": "Iran war live: Riyadh airport hit again; Tehran says US reply ‘inadequate’",
-          "summary": "Iran says US has accepted some of its peace terms but calls the reply 'inadequate', as Riyadh airport is hit again.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.804727+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_419ff6015426cd4c8516",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
-          "title": "Pakistani national killed in second Houthi strike on Riyadh airport",
-          "summary": "Saudi authorities say a Pakistani national was killed and several people injured in a second strike on Riyadh’s Airport.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T23:20:46+00:00",
-          "fetched_at": "2026-10-12T05:56:58.804884+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_379cdc3cb958b1f71205",
-          "url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
-          "title": "Saudi Arabia: Second strike kills at least 1 at Riyadh airport",
-          "summary": "Sunday's strike came as the King Khalid International Airport remained closed after a deadly attack on Saturday, and after a warning from Houthi rebels in Yemen that \"worse is yet to come.\" Dammam airport was also hit.",
+          "article_id": "art_79ac16485ef8832b286c",
+          "url": "https://www.dw.com/en/ukraine-says-russia-launched-strikes-hours-after-donald-trump-announced-an-energy-ceasefire/a-79640911?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-says-russia-launched-strikes-hours-after-donald-trump-announced-an-energy-ceasefire/a-79640911?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine says Russia launched strikes hours after Donald Trump announced an 'energy ceasefire'",
+          "summary": "Less than 24 hours after Donald Trump announced an \"energy ceasefire,\" Ukraine reported Russian strikes on the northeastern city of Kharkiv. The Kremlin says it would only consider a one-day ceasefire for an election.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T22:59:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.645035+00:00",
+          "published_at": "2026-10-12T11:54:00+00:00",
+          "fetched_at": "2026-10-12T15:24:10.670339+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_6081aaa03639e675fbf4",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/footage-shows-moment-russian-strike-hits-ukrainian-grocery-store?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/footage-shows-moment-russian-strike-hits-ukrainian-grocery-store?traffic_source=rss",
-          "title": "Footage shows moment Russian strike hits Ukrainian grocery store",
-          "summary": "CCTV footage shows the moment of a Russian strike on a residential street in Kharkiv, Ukraine.",
+          "article_id": "art_657fb2777d516312f3b1",
+          "url": "https://www.aljazeera.com/news/2026/10/12/energy-ceasefire-whats-behind-trumps-love-hate-ties-to-russian-oil?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/energy-ceasefire-whats-behind-trumps-love-hate-ties-to-russian-oil?traffic_source=rss",
+          "title": "‘Energy ceasefire’: What’s behind Trump’s love-hate ties to Russian oil?",
+          "summary": "Trump's energy truce sparks criticism over aiding Russia's war finances amid diesel shortages and rising consumer costs.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-11T22:49:23+00:00",
-          "fetched_at": "2026-10-12T05:56:58.805220+00:00",
+          "published_at": "2026-10-12T11:30:54+00:00",
+          "fetched_at": "2026-10-12T15:24:11.034961+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_66bf66ff28f66072feb5",
-          "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_campaign=rss&at_medium=RSS",
-          "title": "One killed, 11 injured in second Houthi strike on Riyadh airport in two days",
-          "summary": "The Saudi capital has been hit by multiple attacks from the Iran-backed Yemeni group over the weekend.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T22:45:58+00:00",
-          "fetched_at": "2026-10-12T05:56:58.430520+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f0/live/59d06e70-c57a-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_a24af07acbf36aadc87a",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/houthi-strike-riyadh-international-airport-cctv-footage?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/houthi-strike-riyadh-international-airport-cctv-footage?traffic_source=rss",
-          "title": "CCTV shows moment of deadly Houthi strike on Riyadh airport",
-          "summary": "CCTV footage released by Al Arabiya shows the moment of a Houthi strike on Riyadh’s international airport on Saturday.",
+          "article_id": "art_7b6591be3243896f9191",
+          "url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss",
+          "title": "Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’",
+          "summary": "The EU also announced that it officially added almost 1,600 new sanctions on Russia's military industrial complex.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-11T22:24:07+00:00",
-          "fetched_at": "2026-10-12T05:56:58.805373+00:00",
+          "published_at": "2026-10-12T10:35:51+00:00",
+          "fetched_at": "2026-10-12T15:24:11.035310+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_553a923707b558580d86",
-          "url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_campaign=rss&at_medium=RSS",
-          "title": "Riyadh airport attacks another dangerous moment in already tense conflict",
-          "summary": "While the physical damage from Houthi attacks can be quickly repaired, the Saudi reputation for stability is taking a battering.",
-          "source": "BBC World",
+          "article_id": "art_22f03c5a6379e664d4f0",
+          "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+          "canonical_url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+          "title": "Trump says Russia and Ukraine agree to an 'energy ceasefire'",
+          "summary": "President Trump said Sunday that Russia and Ukraine had agreed to an \"energy ceasefire,\" but he offered no details on it and Kyiv reported attacks by Moscow on energy sites after his statement.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-11T15:32:32+00:00",
-          "fetched_at": "2026-10-12T05:56:58.432724+00:00",
+          "published_at": "2026-10-12T06:41:57+00:00",
+          "fetched_at": "2026-10-12T15:24:10.802294+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c45/live/701466b0-c565-11f1-bd33-db1f7eaf2b30.jpg"
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_58f4eb9ed8fcab3dcee7",
-      "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
+      "event_id": "evt_56354d01e5e061471605",
+      "title": "Indian opposition defies lockdown, marches to demand election chief sacking",
       "category": "国际政治",
-      "score": 73.7,
+      "score": 77.5,
       "score_breakdown": {
-        "coverage": 16.1,
+        "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 15.9,
-        "credibility": 9.9,
+        "recency": 21.9,
+        "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T19:41:00+00:00",
-      "last_updated": "2026-10-11T22:08:26+00:00",
+      "first_seen": "2026-10-12T08:55:46+00:00",
+      "last_updated": "2026-10-12T15:19:17+00:00",
       "source_count": 3,
-      "article_count": 4,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -223,32 +169,29 @@
         "Middle East"
       ],
       "keywords": [
-        "gold",
-        "air",
-        "border",
-        "sudan",
-        "egypt",
-        "strikes",
-        "dozens",
-        "rights"
+        "opposition",
+        "election",
+        "supreme",
+        "court",
+        "march",
+        "demand",
+        "chief",
+        "parties"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Indian opposition defies lockdown, marches to demand election chief sacking”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "At",
-          "Sudanese",
-          "Rights",
-          "Dozens",
-          "Egypt",
-          "Sudan",
-          "Deadly",
-          "Air"
+          "Thousands",
+          "Indian Supreme Court",
+          "India",
+          "Opposition",
+          "Supreme Court Indian"
         ],
         "latest_progress": [
-          "10月11日 22:08 UTC，Al Jazeera报道：“At least 72 Sudanese miners killed in air strike: Rights monitor”。",
-          "10月11日 21:12 UTC，BBC World报道：“Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says”。",
-          "10月11日 20:44 UTC，Al Jazeera报道：“Deadly air strike kills dozens at Sudan gold mine near Egypt border”。"
+          "10月12日 15:19 UTC，BBC World报道：“Thousands march to Indian Supreme Court to demand election chief resign”。",
+          "10月12日 09:38 UTC，DW Top Stories报道：“India news: Opposition parties march to Supreme Court”。",
+          "10月12日 08:55 UTC，Al Jazeera报道：“Indian opposition defies lockdown, marches to demand election chief sacking”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -261,83 +204,68 @@
       },
       "articles": [
         {
-          "article_id": "art_5d1f28a6094d4dc1f558",
-          "url": "https://www.aljazeera.com/news/2026/10/11/at-least-72-sudanese-miners-killed-in-air-strike-rights-monitor?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/11/at-least-72-sudanese-miners-killed-in-air-strike-rights-monitor?traffic_source=rss",
-          "title": "At least 72 Sudanese miners killed in air strike: Rights monitor",
-          "summary": "Emergency Lawyers blames Egypt for the deadly attack in northern Sudan.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T22:08:26+00:00",
-          "fetched_at": "2026-10-12T05:56:58.805522+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_10a9d7dca3aeb65fbbcb",
-          "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_campaign=rss&at_medium=RSS",
-          "title": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
-          "summary": "Neither Egypt nor Sudan has commented on the alleged strikes on an artisanal mining camp on Saturday.",
+          "article_id": "art_8b9a5f0cbec225ec5058",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_campaign=rss&at_medium=RSS",
+          "title": "Thousands march to Indian Supreme Court to demand election chief resign",
+          "summary": "The march follows a chaotic weekend in Delhi which saw thousands of protesters detained by police.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T21:12:44+00:00",
-          "fetched_at": "2026-10-12T05:56:58.431054+00:00",
+          "published_at": "2026-10-12T15:19:17+00:00",
+          "fetched_at": "2026-10-12T15:24:10.031568+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ba0/live/1bc53450-c5b4-11f1-a838-01c3fd7e5e7d.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1774/live/1fce2710-c630-11f1-9a39-31b474234113.jpg"
         },
         {
-          "article_id": "art_9244029c3d8cd6913aa7",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
-          "title": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
-          "summary": "An air strike hit a gold mine near Sudan’s border with Egypt, killing at least 72 people and injuring more than 50.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-11T20:44:17+00:00",
-          "fetched_at": "2026-10-12T05:56:58.806180+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_056056d4eedb52a2c748",
-          "url": "https://www.dw.com/en/air-strikes-kill-dozens-of-gold-miners-on-sudan-egypt-border/a-79634889?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/air-strikes-kill-dozens-of-gold-miners-on-sudan-egypt-border/a-79634889?maca=en-rss-en-top-1022-rdf",
-          "title": "Air strikes kill dozens of gold miners on Sudan-Egypt border",
-          "summary": "A Sudan-based rights group said 72 people were killed in a remote, disputed area known for illegal gold mining.",
+          "article_id": "art_32bbe10dad2025c6885f",
+          "url": "https://www.dw.com/en/india-news-opposition-parties-march-to-supreme-court/live-79638649?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-news-opposition-parties-march-to-supreme-court/live-79638649?maca=en-rss-en-top-1022-rdf",
+          "title": "India news: Opposition parties march to Supreme Court",
+          "summary": "Intensifying their demand for Chief Election Commissioner Gyanesh Kumar's resignation, opposition parties are holding a march to the Supreme Court. Follow DW for more.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T19:41:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.645291+00:00",
+          "published_at": "2026-10-12T09:38:00+00:00",
+          "fetched_at": "2026-10-12T15:24:10.670722+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ff669e25d96d05ded1ce",
+          "url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/10/12/delhi-braces-for-more-protests-against-election-chief-amid-crackdown?traffic_source=rss",
+          "title": "Indian opposition defies lockdown, marches to demand election chief sacking",
+          "summary": "Opposition parties joined by student groups have petitioned the Supreme Court, seeking the election chief's ouster.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-12T08:55:46+00:00",
+          "fetched_at": "2026-10-12T15:24:11.035872+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_14ba9f7e5d1b2db51724",
-      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-      "category": "能源资源",
-      "score": 73.4,
+      "event_id": "evt_0d794b23a50e18ab844b",
+      "title": "Riyadh airport attacks another dangerous moment in already tense conflict",
+      "category": "国际政治",
+      "score": 76.6,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 15.5,
+        "recency": 21.1,
         "credibility": 9.9,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 2.6
       },
-      "first_seen": "2026-10-11T14:47:00+00:00",
-      "last_updated": "2026-10-11T21:36:40+00:00",
+      "first_seen": "2026-10-11T15:32:32+00:00",
+      "last_updated": "2026-10-12T14:23:20+00:00",
       "source_count": 3,
       "article_count": 4,
       "sources": [
@@ -350,120 +278,121 @@
         "Middle East"
       ],
       "keywords": [
-        "energy",
-        "russia",
-        "trump",
-        "ukraine",
-        "agreed",
-        "president",
-        "donald",
-        "ceasefire"
+        "saudi",
+        "attacks",
+        "houthi",
+        "airport",
+        "conflict",
+        "airports",
+        "riyadh",
+        "another"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的能源资源事件为“Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Riyadh airport attacks another dangerous moment in already tense conflict”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Trump",
-          "Zelensky",
-          "Russia",
-          "What",
-          "Zelenskyy",
-          "US",
-          "Ukraine"
+          "Why",
+          "Houthis",
+          "Saudi",
+          "Houthi",
+          "Saudi Arabia",
+          "Deadly Houthi",
+          "Riyadh",
+          "Middle East"
         ],
         "latest_progress": [
-          "10月11日 21:36 UTC，BBC World报道：“Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent”。",
-          "10月11日 20:55 UTC，BBC World报道：“Watch: What's behind Trump's energy ceasefire claim?”。",
-          "10月11日 20:28 UTC，Al Jazeera报道：“Zelenskyy welcomes US-announced energy ceasefire”。"
+          "10月12日 14:23 UTC，Al Jazeera报道：“Why are the Houthis striking Saudi airports?”。",
+          "10月12日 14:00 UTC，BBC World报道：“Saudi minister vows 'serious response' to Houthi attacks on airports”。",
+          "10月12日 10:41 UTC，DW Top Stories报道：“Saudi Arabia: Deadly Houthi strikes on Riyadh airport fuel fears of wider Middle East conflict”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_5f1dfca691266b765bc4",
-          "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_campaign=rss&at_medium=RSS",
-          "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-          "summary": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T21:36:40+00:00",
-          "fetched_at": "2026-10-12T05:56:58.430157+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16d8/live/4817e400-c58a-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_1689c4f553053b6bea14",
-          "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: What's behind Trump's energy ceasefire claim?",
-          "summary": "The US president made the announcement in a social media post, which was an apparent surprise to Ukraine and Russia is yet to comment.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T20:55:02+00:00",
-          "fetched_at": "2026-10-12T05:56:58.433487+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a6d5/live/bfca61a0-c5b5-11f1-ad08-b9eb6b599088.jpg"
-        },
-        {
-          "article_id": "art_3840838c9f12d39220dd",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss",
-          "title": "Zelenskyy welcomes US-announced energy ceasefire",
-          "summary": "President Zelenskyy has responded to Donald Trump’s announcement that Russia and Ukraine agreed to an energy ceasefire",
+          "article_id": "art_cc1748fd6dedd2e455ab",
+          "url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/why-are-the-houthis-striking-saudi-airports?traffic_source=rss",
+          "title": "Why are the Houthis striking Saudi airports?",
+          "summary": "The attacks mark the deadliest assault on Saudi soil in more than a decade.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-11T20:28:46+00:00",
-          "fetched_at": "2026-10-12T05:56:58.806480+00:00",
+          "published_at": "2026-10-12T14:23:20+00:00",
+          "fetched_at": "2026-10-12T15:24:11.033252+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_98df510281f7c923ddc9",
-          "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump claims Russia and Ukraine agreed to 'energy ceasefire'",
-          "summary": "US President Donald Trump says both sides have agreed to stop targeting oil refineries, power plants and other energy infrastructure immediately.",
+          "article_id": "art_79b6a3e2b58f98d01bcf",
+          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_campaign=rss&at_medium=RSS",
+          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+          "summary": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-12T14:00:03+00:00",
+          "fetched_at": "2026-10-12T15:24:10.030664+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b82e/live/50a18f00-c629-11f1-a509-ab6554d795a2.jpg"
+        },
+        {
+          "article_id": "art_0d01e02f55cd7d77f3f3",
+          "url": "https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277?maca=en-rss-en-top-1022-rdf",
+          "title": "Saudi Arabia: Deadly Houthi strikes on Riyadh airport fuel fears of wider Middle East conflict",
+          "summary": "Deadly Houthi attacks on Saudi airports have disrupted flights and raised fears of a wider regional conflict, as the US considers military action.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T14:47:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.645663+00:00",
+          "published_at": "2026-10-12T10:41:00+00:00",
+          "fetched_at": "2026-10-12T15:24:10.670532+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
+        },
+        {
+          "article_id": "art_553a923707b558580d86",
+          "url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_campaign=rss&at_medium=RSS",
+          "title": "Riyadh airport attacks another dangerous moment in already tense conflict",
+          "summary": "While the physical damage from Houthi attacks can be quickly repaired, the Saudi reputation for stability is taking a battering.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-11T15:32:32+00:00",
+          "fetched_at": "2026-10-12T15:24:10.033012+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c45/live/701466b0-c565-11f1-bd33-db1f7eaf2b30.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_15e641f218f1a6a64381",
-      "title": "At least 139 dead as migrant boat from Djibouti to Yemen capsizes",
-      "category": "产业供应链",
-      "score": 72.4,
+      "event_id": "evt_2eca3f3a582840882012",
+      "title": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
+      "category": "军事安全",
+      "score": 74.7,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 19.6,
+        "recency": 18.5,
         "credibility": 9.8,
-        "impact": 10.4,
-        "velocity": 2.9
+        "impact": 13.0,
+        "velocity": 3.7
       },
-      "first_seen": "2026-10-11T11:35:00+00:00",
-      "last_updated": "2026-10-12T03:09:11+00:00",
+      "first_seen": "2026-10-11T22:59:00+00:00",
+      "last_updated": "2026-10-12T11:17:02+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
@@ -476,80 +405,80 @@
         "Middle East"
       ],
       "keywords": [
-        "boat",
-        "migrant",
-        "djibouti",
-        "least",
-        "people",
-        "dead",
-        "missing",
-        "yemen"
+        "airport",
+        "strike",
+        "riyadh",
+        "saudi",
+        "arabia",
+        "houthi",
+        "hit",
+        "shows"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的产业供应链事件为“At least 139 dead as migrant boat from Djibouti to Yemen capsizes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Watch: CCTV shows people take cover as missile hits Riyadh airport”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "At",
-          "Djibouti",
-          "Yemen",
-          "Children",
-          "UN"
+          "Saudi Arabia",
+          "Houthi",
+          "Riyadh",
+          "CCTV",
+          "Second"
         ],
         "latest_progress": [
-          "10月12日 03:09 UTC，Al Jazeera报道：“At least 139 dead as migrant boat from Djibouti to Yemen capsizes”。",
-          "10月11日 15:32 UTC，BBC World报道：“Children among 139 dead after boat capsizes off Djibouti, UN says”。",
-          "10月11日 11:35 UTC，DW Top Stories报道：“A migrant boat sank off the coast of Djibouti with the UN reporting over 200 people dead or missing”。"
+          "10月12日 11:17 UTC，Al Jazeera报道：“Saudi Arabia vows resilience as Houthi strikes hit Riyadh airport”。",
+          "10月12日 09:38 UTC，BBC World报道：“Watch: CCTV shows people take cover as missile hits Riyadh airport”。",
+          "10月11日 22:59 UTC，DW Top Stories报道：“Saudi Arabia: Second strike kills at least 1 at Riyadh airport”。"
         ],
-        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
-        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "港口和工厂运行率",
-          "交货周期与运价",
-          "企业订单及库存"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_4693c27ef7ef4230a7c4",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/at-least-139-dead-as-migrant-boat-from-djibouti-to-yemen-capsizes?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/at-least-139-dead-as-migrant-boat-from-djibouti-to-yemen-capsizes?traffic_source=rss",
-          "title": "At least 139 dead as migrant boat from Djibouti to Yemen capsizes",
-          "summary": "At least 139 migrants, including 15 children, have died and 84 remain missing after a migrant boat capsized.",
+          "article_id": "art_ace2ade4e7a965295f3c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/saudi-arabia-vows-resilience-as-houthi-strikes-hit-riyadh-airport?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/saudi-arabia-vows-resilience-as-houthi-strikes-hit-riyadh-airport?traffic_source=rss",
+          "title": "Saudi Arabia vows resilience as Houthi strikes hit Riyadh airport",
+          "summary": "New footage shows a Houthi strike on Riyadh’s airport as Saudi Arabia reaffirms its resilience.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-12T03:09:11+00:00",
-          "fetched_at": "2026-10-12T05:56:58.803560+00:00",
+          "published_at": "2026-10-12T11:17:02+00:00",
+          "fetched_at": "2026-10-12T15:24:11.035192+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_0bdfbc3a0f7c71a339e5",
-          "url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwy7lxx60dg5o?at_campaign=rss&at_medium=RSS",
-          "title": "Children among 139 dead after boat capsizes off Djibouti, UN says",
-          "summary": "The boat was travelling from Djibouti to Yemen with 305 people on board, when it capsized near the port town of Obock on Thursday night.",
+          "article_id": "art_f273beb8e52c11abc912",
+          "url": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
+          "summary": "Footage from inside the airport shows the moment the strike hit on Saturday.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T15:32:23+00:00",
-          "fetched_at": "2026-10-12T05:56:58.431815+00:00",
+          "published_at": "2026-10-12T09:38:03+00:00",
+          "fetched_at": "2026-10-12T15:24:10.033358+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b0b/live/ba857dc0-c58c-11f1-a64c-550be9e3c66b.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/317e/live/50e05140-c61f-11f1-8c89-b96b8469b965.jpg"
         },
         {
-          "article_id": "art_8aade7306f93fef9d2ab",
-          "url": "https://www.dw.com/en/a-migrant-boat-sank-off-the-coast-of-djibouti-with-the-un-reporting-over-200-people-dead-or-missing/a-79633644?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/a-migrant-boat-sank-off-the-coast-of-djibouti-with-the-un-reporting-over-200-people-dead-or-missing/a-79633644?maca=en-rss-en-top-1022-rdf",
-          "title": "A migrant boat sank off the coast of Djibouti with the UN reporting over 200 people dead or missing",
-          "summary": "The UN migration agency has reported that at least 139 people were killed and 84 remain missing after a migrant boat sank overnight on its way to Yemen. At least 80 Ethiopians survived the incident but 15 children died.",
+          "article_id": "art_379cdc3cb958b1f71205",
+          "url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/saudi-arabia-second-strike-kills-at-least-1-at-riyadh-airport/a-79632306?maca=en-rss-en-top-1022-rdf",
+          "title": "Saudi Arabia: Second strike kills at least 1 at Riyadh airport",
+          "summary": "Sunday's strike came as the King Khalid International Airport remained closed after a deadly attack on Saturday, and after a warning from Houthi rebels in Yemen that \"worse is yet to come.\" Dammam airport was also hit.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T11:35:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.645944+00:00",
+          "published_at": "2026-10-11T22:59:00+00:00",
+          "fetched_at": "2026-10-12T15:24:10.671821+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -558,157 +487,235 @@
       ]
     },
     {
-      "event_id": "evt_b3b0effad2cd0444b18b",
-      "title": "Homes and bridges swept away as fresh floods hit Nepal",
-      "category": "社会突发",
-      "score": 71.7,
+      "event_id": "evt_cee5a9d9f464550e1688",
+      "title": "Trump thinks Ukraine needs a new president. Who could replace Zelenskyy?",
+      "category": "国际政治",
+      "score": 68.5,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 2.4
+        "recency": 19.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-11T10:34:02+00:00",
-      "last_updated": "2026-10-12T05:26:47+00:00",
+      "first_seen": "2026-10-12T11:29:56+00:00",
+      "last_updated": "2026-10-12T12:30:09+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World"
+        "NPR World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "away",
-        "floods",
-        "nepal",
-        "swept",
-        "hit",
-        "flash",
-        "bridges",
-        "buildings"
+        "trump",
+        "antitrust",
+        "networks",
+        "ukraine",
+        "needs",
+        "leader",
+        "president",
+        "doj"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的社会突发事件为“Homes and bridges swept away as fresh floods hit Nepal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的国际政治事件为“Trump thinks Ukraine needs a new president. Who could replace Zelenskyy?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Homes",
-          "Nepal Bridge",
-          "Nepal Buildings",
-          "Nepal"
+          "Trump",
+          "Ukraine",
+          "Who",
+          "Zelenskyy",
+          "DOJ",
+          "TV",
+          "And"
         ],
         "latest_progress": [
-          "10月12日 05:26 UTC，BBC World报道：“Homes and bridges swept away as fresh floods hit Nepal”。",
-          "10月12日 01:24 UTC，Al Jazeera报道：“Bridge washed away by torrent of water in Nepal”。",
-          "10月11日 10:34 UTC，BBC World报道：“Buildings swept away as flash floods hit central Nepal”。"
+          "10月12日 12:30 UTC，Al Jazeera报道：“Trump thinks Ukraine needs a new president. Who could replace Zelenskyy?”。",
+          "10月12日 11:29 UTC，NPR World报道：“DOJ launches antitrust probe of TV networks. And, Trump says Ukraine needs new leader”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_dfaaf91a0396e756fa82",
-          "url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_campaign=rss&at_medium=RSS",
-          "title": "Homes and bridges swept away as fresh floods hit Nepal",
-          "summary": "Nepal is still trying to recover from catastrophic floods that hit less than two months ago, leaving thousands dead and missing.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-12T05:26:47+00:00",
-          "fetched_at": "2026-10-12T05:56:58.431667+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cf2/live/9cbf47b0-c56b-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_ecf4658d1b2976efbe84",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/11-10-clip-nepal-bridgewashesaway-np?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/11-10-clip-nepal-bridgewashesaway-np?traffic_source=rss",
-          "title": "Bridge washed away by torrent of water in Nepal",
-          "summary": "Flash floods along Nepal’s Budhi Gandaki River swept away homes and bridges, forcing residents to flee to higher ground.",
+          "article_id": "art_8a9ba7245dac864c49b4",
+          "url": "https://www.aljazeera.com/news/2026/10/12/trump-thinks-ukraine-needs-a-new-president-who-could-replace-zelenskyy?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/trump-thinks-ukraine-needs-a-new-president-who-could-replace-zelenskyy?traffic_source=rss",
+          "title": "Trump thinks Ukraine needs a new president. Who could replace Zelenskyy?",
+          "summary": "Popular former general Zaluzhnyi leads potential challengers, alongside intelligence chief Budanov and reformer Fedorov.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-12T01:24:26+00:00",
-          "fetched_at": "2026-10-12T05:56:58.803882+00:00",
+          "published_at": "2026-10-12T12:30:09+00:00",
+          "fetched_at": "2026-10-12T15:24:11.034384+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_69f7a16a315a5e5a4e0a",
-          "url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwzrdnljedx0o?at_campaign=rss&at_medium=RSS",
-          "title": "Buildings swept away as flash floods hit central Nepal",
-          "summary": "A flash flood at the Budhi Gandaki River has swept away several buildings and bridges, two months after catastrophic floods hit the country.",
+          "article_id": "art_7668a2c12d45b92ce52d",
+          "url": "https://www.npr.org/2026/10/12/g-s1-147772/up-first-newsletter-trump-ukraine-russia-antitrust-investigation-hurricane-isaias-saudi-airport",
+          "canonical_url": "https://www.npr.org/2026/10/12/g-s1-147772/up-first-newsletter-trump-ukraine-russia-antitrust-investigation-hurricane-isaias-saudi-airport",
+          "title": "DOJ launches antitrust probe of TV networks. And, Trump says Ukraine needs new leader",
+          "summary": "The Justice Department is investigating several TV networks for possible antitrust violations. And, President Trump pressures Ukrainians to elect a new leader.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-12T11:29:56+00:00",
+          "fetched_at": "2026-10-12T15:24:10.802154+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_820e46af778c78ecdc50",
+      "title": "Immigration agents search Congresswoman Ilhan Omar's home",
+      "category": "国际政治",
+      "score": 68.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.8,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-12T15:02:41+00:00",
+      "last_updated": "2026-10-12T15:12:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "omar",
+        "trump",
+        "agents",
+        "search",
+        "congresswoman",
+        "ilhan",
+        "home",
+        "outspoken"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Immigration agents search Congresswoman Ilhan Omar's home”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "US",
+          "Trump",
+          "Omar Immigration",
+          "Congresswoman Ilhan Omar"
+        ],
+        "latest_progress": [
+          "10月12日 15:12 UTC，DW Top Stories报道：“US federal agents search home of Trump critic Omar”。",
+          "10月12日 15:02 UTC，BBC World报道：“Immigration agents search Congresswoman Ilhan Omar's home”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_97905b86cc3be33b1529",
+          "url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-omar/a-79643360?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-omar/a-79643360?maca=en-rss-en-top-1022-rdf",
+          "title": "US federal agents search home of Trump critic Omar",
+          "summary": "Justice Department officials said the Washington residence of Democratic Congresswoman Ilhan Omar, an outspoken opponent of President Trump, was raided as \"part of an ongoing federal investigation.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-12T15:12:00+00:00",
+          "fetched_at": "2026-10-12T15:24:10.669773+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_885d3ec067179e127110",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_campaign=rss&at_medium=RSS",
+          "title": "Immigration agents search Congresswoman Ilhan Omar's home",
+          "summary": "Omar was first elected to Congress in 2018, and is an outspoken critic of President Donald Trump.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T10:34:02+00:00",
-          "fetched_at": "2026-10-12T05:56:58.433635+00:00",
+          "published_at": "2026-10-12T15:02:41+00:00",
+          "fetched_at": "2026-10-12T15:24:10.030965+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f39a/live/5ededcd0-c552-11f1-a64c-550be9e3c66b.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bdbc/live/255fca30-c63f-11f1-abff-0d918239b2e3.jpg"
         }
       ]
     },
     {
       "event_id": "evt_e668608d7103bd2fb5eb",
-      "title": "North Korea fires multiple ballistic missiles towards the sea",
+      "title": "Can South Korea and Ukraine resolve their diplomatic spat over North Korean POWs?",
       "category": "军事安全",
-      "score": 70.9,
+      "score": 62.7,
       "score_breakdown": {
         "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
         "recency": 20.0,
-        "credibility": 9.8,
+        "credibility": 9.5,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 3.1
       },
       "first_seen": "2026-10-12T03:24:00+00:00",
-      "last_updated": "2026-10-12T03:37:12+00:00",
-      "source_count": 2,
+      "last_updated": "2026-10-12T13:10:00+00:00",
+      "source_count": 1,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "missile",
-        "launch",
+        "south",
         "north",
         "korea",
+        "launch",
         "hypersonic",
-        "south",
-        "korea's",
-        "fires"
+        "test",
+        "missile",
+        "korea's"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“North Korea fires multiple ballistic missiles towards the sea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Can South Korea and Ukraine resolve their diplomatic spat over North Korean POWs?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Can South Korea",
+          "Ukraine",
+          "North Korean",
           "North Korea",
           "Seoul"
         ],
         "latest_progress": [
-          "10月12日 03:37 UTC，Al Jazeera报道：“North Korea fires multiple ballistic missiles towards the sea”。",
+          "10月12日 13:10 UTC，DW Top Stories报道：“Can South Korea and Ukraine resolve their diplomatic spat over North Korean POWs?”。",
           "10月12日 03:24 UTC，DW Top Stories报道：“North Korea fires missiles after Seoul's hypersonic test”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -722,18 +729,18 @@
       },
       "articles": [
         {
-          "article_id": "art_3ddfb5c99ed6bd0928d5",
-          "url": "https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss",
-          "title": "North Korea fires multiple ballistic missiles towards the sea",
-          "summary": "Latest missile launch appears to be a show of force since South Korea's hypersonic missile test-fire, Seoul says.",
-          "source": "Al Jazeera",
+          "article_id": "art_0c5a9621b7748963d69a",
+          "url": "https://www.dw.com/en/can-south-korea-and-ukraine-resolve-their-diplomatic-spat-over-north-korean-pows/a-79641352?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/can-south-korea-and-ukraine-resolve-their-diplomatic-spat-over-north-korean-pows/a-79641352?maca=en-rss-en-top-1022-rdf",
+          "title": "Can South Korea and Ukraine resolve their diplomatic spat over North Korean POWs?",
+          "summary": "Seoul and Kyiv are trading accusations after the transfer of two North Korean POWs to South Korea. The South insists the move was to be kept secret as it seeks to avoid antagonizing Pyongyang.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-12T03:37:12+00:00",
-          "fetched_at": "2026-10-12T05:56:58.803402+00:00",
+          "published_at": "2026-10-12T13:10:00+00:00",
+          "fetched_at": "2026-10-12T15:24:10.670139+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
@@ -745,7 +752,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-12T03:24:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.644868+00:00",
+          "fetched_at": "2026-10-12T15:24:10.671721+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -754,395 +761,215 @@
       ]
     },
     {
-      "event_id": "evt_194f524bb0683f872e26",
-      "title": "UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote",
-      "category": "国际政治",
-      "score": 67.1,
+      "event_id": "evt_e553e6a0dc15a71a35e1",
+      "title": "Fridges in French supermarkets hit by cyber attack",
+      "category": "军事安全",
+      "score": 62.2,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.1,
-        "credibility": 9.8,
-        "impact": 11.0,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.2,
+        "credibility": 10.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T22:18:00+00:00",
-      "last_updated": "2026-10-12T01:12:35+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-12T14:30:09+00:00",
+      "last_updated": "2026-10-12T14:30:09+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "vote",
-        "burnham",
-        "russia",
-        "brexit",
-        "prime",
-        "minister",
-        "russia's",
-        "uk's"
+        "fridges",
+        "french",
+        "supermarkets",
+        "hit",
+        "cyber",
+        "attack",
+        "hundreds",
+        "stores"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Fridges in French supermarkets hit by cyber attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "UK",
-          "PM",
-          "Andy Burnham",
-          "Russia",
-          "Brexit",
-          "Burnham"
+          "Fridges",
+          "French"
         ],
         "latest_progress": [
-          "10月12日 01:12 UTC，Al Jazeera报道：“UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote”。",
-          "10月11日 22:18 UTC，DW Top Stories报道：“UK's Burnham accuses Russia of meddling in Brexit vote”。"
+          "10月12日 14:30 UTC，BBC World报道：“Fridges in French supermarkets hit by cyber attack”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_6a1e922486bab2330566",
-          "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-says-it-is-clear-russia-interfered-in-2016-brexit-vote?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-says-it-is-clear-russia-interfered-in-2016-brexit-vote?traffic_source=rss",
-          "title": "UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote",
-          "summary": "Claim marks the first time a UK prime minister has publicly acknowledged Russia's interference in the vote to leave EU.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-12T01:12:35+00:00",
-          "fetched_at": "2026-10-12T05:56:58.804082+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e9855ab35837cf9ee10f",
-          "url": "https://www.dw.com/en/uk-s-burnham-accuses-russia-of-meddling-in-brexit-vote/a-79635264?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/uk-s-burnham-accuses-russia-of-meddling-in-brexit-vote/a-79635264?maca=en-rss-en-top-1022-rdf",
-          "title": "UK's Burnham accuses Russia of meddling in Brexit vote",
-          "summary": "The UK prime minister called for voters in Europe to be made fully aware of Russia's attempts to influence politics.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-11T22:18:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.645164+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1b62de84d17398d7bd0d",
-      "title": "Trump faces growing backlash over plans to import diesel from Russia",
-      "category": "国际政治",
-      "score": 64.7,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.7,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 1.3
-      },
-      "first_seen": "2026-10-10T11:40:53+00:00",
-      "last_updated": "2026-10-11T23:18:45+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "diesel",
-        "deal",
-        "russia",
-        "tout",
-        "ease",
-        "sanctions",
-        "reopen",
-        "fuel"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的国际政治事件为“Trump faces growing backlash over plans to import diesel from Russia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Trump",
-          "Russia Ukrainian",
-          "MP",
-          "Russia"
-        ],
-        "latest_progress": [
-          "10月11日 23:18 UTC，BBC World报道：“Trump faces growing backlash over plans to import diesel from Russia”。",
-          "10月11日 21:16 UTC，NPR World报道：“Ukrainian MP calls U.S.-Russia diesel deal a 'betrayal'”。",
-          "10月10日 11:40 UTC，NPR World报道：“U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d550d52d6e87f1e067b7",
-          "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_campaign=rss&at_medium=RSS",
-          "title": "Trump faces growing backlash over plans to import diesel from Russia",
-          "summary": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
+          "article_id": "art_5cde95432af4bc910583",
+          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_campaign=rss&at_medium=RSS",
+          "title": "Fridges in French supermarkets hit by cyber attack",
+          "summary": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-11T23:18:45+00:00",
-          "fetched_at": "2026-10-12T05:56:58.430353+00:00",
+          "published_at": "2026-10-12T14:30:09+00:00",
+          "fetched_at": "2026-10-12T15:24:10.031097+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c44f/live/e68c78a0-c5c9-11f1-9042-5f0794d5e895.jpg"
-        },
-        {
-          "article_id": "art_522a2c9bd0354994e384",
-          "url": "https://www.npr.org/2026/10/11/nx-s1-5997466/ukrainian-mp-calls-u-s-russia-diesel-deal-a-betrayal",
-          "canonical_url": "https://www.npr.org/2026/10/11/nx-s1-5997466/ukrainian-mp-calls-u-s-russia-diesel-deal-a-betrayal",
-          "title": "Ukrainian MP calls U.S.-Russia diesel deal a 'betrayal'",
-          "summary": "NPR's Joel Rose speaks with Ukrainian Minister of Parliament, Oleksandr Merezhko, about the U.S.'s diesel deal with Russia will impact Ukraine.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T21:16:10+00:00",
-          "fetched_at": "2026-10-12T05:56:58.697262+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_d0d0d77c67fa1101eec9",
-          "url": "https://www.npr.org/2026/10/10/nx-s1-5996938/u-s-and-russia-tout-diesel-deal-to-ease-sanctions-and-reopen-fuel-flows",
-          "canonical_url": "https://www.npr.org/2026/10/10/nx-s1-5996938/u-s-and-russia-tout-diesel-deal-to-ease-sanctions-and-reopen-fuel-flows",
-          "title": "U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows",
-          "summary": "Moscow and Washington tout a diesel deal to ease sanctions and reopen fuel flows, but few details leave questions on price impacts and U.S. policy, sparking anger from Ukraine and allies.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-10T11:40:53+00:00",
-          "fetched_at": "2026-10-12T05:56:58.698335+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfaf/live/a3ced500-c63a-11f1-b99d-0127a94fa1d0.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_03e6ac0692bd72ee5cbd",
-      "title": "Hurricane Isaias leaves trail of destruction across the US Gulf Coast",
-      "category": "社会突发",
-      "score": 63.3,
+      "event_id": "evt_c95cc8d62beded486613",
+      "title": "Iran-Saudi talks on Yemen’s Houthis: What’s in it for Tehran?",
+      "category": "军事安全",
+      "score": 62.2,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.4,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 1.2
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-10T23:09:00+00:00",
-      "last_updated": "2026-10-12T00:21:46+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-12T14:27:49+00:00",
+      "last_updated": "2026-10-12T14:27:49+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "storm",
-        "isaias",
-        "leaves",
-        "florida",
-        "across",
-        "alabama",
-        "dead",
-        "moves"
+        "yemen",
+        "tehran",
+        "iran-saudi",
+        "talks",
+        "houthis",
+        "seeks",
+        "dialogue",
+        "conflict"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Hurricane Isaias leaves trail of destruction across the US Gulf Coast”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran-Saudi talks on Yemen’s Houthis: What’s in it for Tehran?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Hurricane Isaias",
-          "US",
-          "Gulf Coast Storm Isaias"
+          "Iran",
+          "Saudi",
+          "Yemen",
+          "Houthis",
+          "What",
+          "Tehran"
         ],
         "latest_progress": [
-          "10月12日 00:21 UTC，Al Jazeera报道：“Hurricane Isaias leaves trail of destruction across the US Gulf Coast”。",
-          "10月10日 23:09 UTC，DW Top Stories报道：“Storm Isaias leaves 4 dead as it moves across southern US”。"
+          "10月12日 14:27 UTC，Al Jazeera报道：“Iran-Saudi talks on Yemen’s Houthis: What’s in it for Tehran?”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_2693eff41801a5c5d682",
-          "url": "https://www.aljazeera.com/gallery/2026/10/12/hurricane-isaias-leaves-trail-of-destruction-across-the-us-gulf-coast?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/gallery/2026/10/12/hurricane-isaias-leaves-trail-of-destruction-across-the-us-gulf-coast?traffic_source=rss",
-          "title": "Hurricane Isaias leaves trail of destruction across the US Gulf Coast",
-          "summary": "Crews rally for massive cleanup effort in Florida and Alabama as Isaias leaves hundreds of thousands in the dark.",
+          "article_id": "art_689b3c4543836cb1b9b0",
+          "url": "https://www.aljazeera.com/news/2026/10/12/iran-saudi-talks-on-yemens-houthis-whats-in-it-for-tehran?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/iran-saudi-talks-on-yemens-houthis-whats-in-it-for-tehran?traffic_source=rss",
+          "title": "Iran-Saudi talks on Yemen’s Houthis: What’s in it for Tehran?",
+          "summary": "Tehran seeks dialogue in Yemen conflict, warning a military solution risks complicating the volatile regional situation.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-12T00:21:46+00:00",
-          "fetched_at": "2026-10-12T05:56:58.804402+00:00",
+          "published_at": "2026-10-12T14:27:49+00:00",
+          "fetched_at": "2026-10-12T15:24:11.032973+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_cbf7851a5bb9b691521d",
-          "url": "https://www.dw.com/en/storm-isaias-leaves-4-dead-as-it-moves-across-southern-us/a-79630125?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/storm-isaias-leaves-4-dead-as-it-moves-across-southern-us/a-79630125?maca=en-rss-en-top-1022-rdf",
-          "title": "Storm Isaias leaves 4 dead as it moves across southern US",
-          "summary": "The storm, which is now a post-tropical cyclone, had made landfall near Destin, Florida on Friday evening. The storm brings heavy rainfall and powerful winds and has caused mass power outages in Florida and Alabama.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-10T23:09:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.647119+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_34c84a15fe5d1b5d329e",
-      "title": "Poland stabbings driven by online glorification of violence, Tusk says",
-      "category": "国际政治",
-      "score": 62.5,
+      "event_id": "evt_7cdad0169eff7323dbd0",
+      "title": "Starlink India launch: Why Elon Musk is still waiting",
+      "category": "军事安全",
+      "score": 61.8,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 13.1,
-        "credibility": 9.8,
-        "impact": 11.0,
+        "recency": 21.2,
+        "credibility": 9.5,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-11T10:48:00+00:00",
-      "last_updated": "2026-10-11T17:27:24+00:00",
-      "source_count": 2,
-      "article_count": 3,
+      "first_seen": "2026-10-12T14:33:00+00:00",
+      "last_updated": "2026-10-12T14:33:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "tusk",
-        "poland",
-        "donald",
-        "man",
-        "plot",
-        "minister",
-        "police",
-        "received"
+        "starlink",
+        "india",
+        "launch",
+        "elon",
+        "musk",
+        "still",
+        "waiting",
+        "despite"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Poland stabbings driven by online glorification of violence, Tusk says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Starlink India launch: Why Elon Musk is still waiting”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Poland",
-          "PM",
-          "Tusk Poland",
-          "Tusk",
-          "Donald Tusk"
+          "Starlink India",
+          "Why Elon Musk"
         ],
         "latest_progress": [
-          "10月11日 17:27 UTC，BBC World报道：“Poland detains man suspected of planning assassination of PM Tusk”。",
-          "10月11日 15:18 UTC，BBC World报道：“Poland stabbings driven by online glorification of violence, Tusk says”。",
-          "10月11日 10:48 UTC，DW Top Stories报道：“Poland arrests man over plot to kill PM Donald Tusk”。"
+          "10月12日 14:33 UTC，DW Top Stories报道：“Starlink India launch: Why Elon Musk is still waiting”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e9e4447217fc00e61b3e",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_campaign=rss&at_medium=RSS",
-          "title": "Poland detains man suspected of planning assassination of PM Tusk",
-          "summary": "Police received credible information about possible attacks against Donald Tusk and his defence minister.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T17:27:24+00:00",
-          "fetched_at": "2026-10-12T05:56:58.430843+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/187d/live/a4be0650-c592-11f1-9d5a-23156cc094cf.jpg"
-        },
-        {
-          "article_id": "art_a1f77ad2312855ea3935",
-          "url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_campaign=rss&at_medium=RSS",
-          "title": "Poland stabbings driven by online glorification of violence, Tusk says",
-          "summary": "The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T15:18:52+00:00",
-          "fetched_at": "2026-10-12T05:56:58.431519+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5288/live/10c1e1e0-c585-11f1-80f2-5bd1e5df7ada.jpg"
-        },
-        {
-          "article_id": "art_9f5d97b227321471637d",
-          "url": "https://www.dw.com/en/poland-arrests-man-over-plot-to-kill-pm-donald-tusk/a-79633128?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/poland-arrests-man-over-plot-to-kill-pm-donald-tusk/a-79633128?maca=en-rss-en-top-1022-rdf",
-          "title": "Poland arrests man over plot to kill PM Donald Tusk",
-          "summary": "Prime Minister Donald Tusk confirmed the arrest hours after police received information about a possible assassination plot. Poland is still reeling from a wave of school violence this week.",
+          "article_id": "art_584fdbda7b8cf6cd4494",
+          "url": "https://www.dw.com/en/starlink-india-launch-why-elon-musk-is-still-waiting/a-79643043?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/starlink-india-launch-why-elon-musk-is-still-waiting/a-79643043?maca=en-rss-en-top-1022-rdf",
+          "title": "Starlink India launch: Why Elon Musk is still waiting",
+          "summary": "Despite securing key approvals, the Starlink satellite internet service remains in regulatory limbo, raising questions about security clearances, competition and India’s investment climate.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-11T10:48:00+00:00",
-          "fetched_at": "2026-10-12T05:56:58.646078+00:00",
+          "published_at": "2026-10-12T14:33:00+00:00",
+          "fetched_at": "2026-10-12T15:24:10.670032+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
