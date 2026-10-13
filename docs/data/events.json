@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-10-13T19:18:21.852755+00:00",
+  "generated_at": "2026-10-13T23:20:30.840064+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 82,
-    "articles_unique": 82,
+    "articles_fetched": 79,
+    "articles_unique": 79,
     "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
       {
         "source": "GDELT: (geopolitics OR security OR supply chain OR a",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
@@ -14,151 +18,23 @@
   },
   "events": [
     {
-      "event_id": "evt_57a2c9786550d192a952",
-      "title": "Trump says Putin and Zelenskyy both want to end Russia’s war on Ukraine",
-      "category": "军事安全",
-      "score": 81.3,
+      "event_id": "evt_a8ecff47020196dca6f4",
+      "title": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
+      "category": "社会突发",
+      "score": 78.3,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 21.6,
-        "credibility": 9.6,
-        "impact": 13.0,
-        "velocity": 2.7
-      },
-      "first_seen": "2026-10-12T20:42:49+00:00",
-      "last_updated": "2026-10-13T18:51:55+00:00",
-      "source_count": 3,
-      "article_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "ukraine",
-        "russia",
-        "trump",
-        "zelenskyy",
-        "both",
-        "drones",
-        "ukrainian",
-        "home"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Trump says Putin and Zelenskyy both want to end Russia’s war on Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Zelenskyy",
-          "NPR",
-          "Ukraine",
-          "Russia",
-          "US",
-          "What",
-          "Trump",
-          "Putin"
-        ],
-        "latest_progress": [
-          "10月13日 18:51 UTC，NPR World报道：“Zelenskyy tells NPR Ukraine wants peace but will hit Russia until it follows ceasefire”。",
-          "10月13日 18:51 UTC，DW Top Stories报道：“Ukraine and the US: What's next after Trump’s diesel deal with Russia?”。",
-          "10月13日 18:16 UTC，Al Jazeera报道：“Trump says Putin and Zelenskyy both want to end Russia’s war on Ukraine”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1cf9843ea2aec1475133",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war",
-          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-6000051/ukraine-zelenskyy-npr-interview-russia-war",
-          "title": "Zelenskyy tells NPR Ukraine wants peace but will hit Russia until it follows ceasefire",
-          "summary": "In an interview with NPR, Ukrainian President Volodymyr Zelenskyy said he was informed the U.S. warned it could cut off access to U.S. weapons and intelligence, but that it hasn't happened yet.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T18:51:55+00:00",
-          "fetched_at": "2026-10-13T19:18:20.833933+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_160cb08278d2a8ec8a80",
-          "url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine and the US: What's next after Trump’s diesel deal with Russia?",
-          "summary": "Donald Trump plans to allow the purchase of Russian diesel, drawing criticism at home and abroad. What is behind the US president’s decision and what should Ukraine do next? DW spoke with experts.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-13T18:51:00+00:00",
-          "fetched_at": "2026-10-13T19:18:20.767614+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8c27e8f1ed5089a8047c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/trump-says-putin-and-zelenskyy-both-want-to-end-russias-war-on-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/trump-says-putin-and-zelenskyy-both-want-to-end-russias-war-on-ukraine?traffic_source=rss",
-          "title": "Trump says Putin and Zelenskyy both want to end Russia’s war on Ukraine",
-          "summary": "Trump says Putin and Zelenskyy both want to end Russia’s war on Ukraine",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T18:16:44+00:00",
-          "fetched_at": "2026-10-13T19:18:20.968542+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_01f256c0a0f49ae99308",
-          "url": "https://www.npr.org/2026/10/12/nx-s1-5984940/both-russia-and-ukraine-are-using-ai-powered-drones-on-the-battlefield",
-          "canonical_url": "https://www.npr.org/2026/10/12/nx-s1-5984940/both-russia-and-ukraine-are-using-ai-powered-drones-on-the-battlefield",
-          "title": "Both Russia and Ukraine are using AI-powered drones on the battlefield",
-          "summary": "A Ukrainian company that got rich making smartphone-controlled cameras to watch pets at home now outfits first-person-view drones with an image recognition system powered by artificial intelligence.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-12T20:42:49+00:00",
-          "fetched_at": "2026-10-13T19:18:20.835217+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_972769ca889dcb5a4a3f",
-      "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
-      "category": "国际政治",
-      "score": 77.5,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.9,
-        "credibility": 9.8,
-        "impact": 11.0,
+        "recency": 19.8,
+        "credibility": 9.9,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-13T15:37:32+00:00",
-      "last_updated": "2026-10-13T19:13:58+00:00",
+      "first_seen": "2026-10-13T18:44:11+00:00",
+      "last_updated": "2026-10-13T20:46:22+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -169,17 +45,353 @@
         "Middle East"
       ],
       "keywords": [
-        "ambassador",
-        "allegations",
-        "greece",
-        "kimberly",
-        "guilfoyle",
-        "trump",
-        "resigns",
-        "misconduct"
+        "tupac",
+        "shakur",
+        "davis",
+        "sentenced",
+        "years",
+        "murder",
+        "duane",
+        "killing"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的社会突发事件为“Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Tupac Shakur",
+          "Ex",
+          "Former",
+          "Duane Davis",
+          "Who",
+          "Tupac"
+        ],
+        "latest_progress": [
+          "10月13日 20:46 UTC，Al Jazeera报道：“Tupac Shakur killer sentenced to 40 years in prison”。",
+          "10月13日 19:51 UTC，BBC World报道：“Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder”。",
+          "10月13日 19:40 UTC，DW Top Stories报道：“Tupac Shakur murder trial: Former gang leader Duane Davis sentenced to 40 years”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_5e1531038b05274af939",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/tupac-shakur-killer-sentenced-to-40-years-in-prison?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/tupac-shakur-killer-sentenced-to-40-years-in-prison?traffic_source=rss",
+          "title": "Tupac Shakur killer sentenced to 40 years in prison",
+          "summary": "Duane ‘Keffe D’ Davis was sentenced to 40 years to life in prison over the 1996 murder of rap icon Tupac Shakur.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-13T20:46:22+00:00",
+          "fetched_at": "2026-10-13T23:20:29.989519+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_953f688990f5ecbebeb9",
+          "url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_campaign=rss&at_medium=RSS",
+          "title": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
+          "summary": "Davis was found guilty last month over his role in the late rap superstar's death in a drive-by shooting in 1996.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T19:51:14+00:00",
+          "fetched_at": "2026-10-13T23:20:28.998840+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37f6/live/8c0f8020-c73b-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_f7f8e4b9be49c8795f9b",
+          "url": "https://www.dw.com/en/tupac-shakur-murder-trial-former-gang-leader-duane-davis-sentenced-to-40-years/a-79655189?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/tupac-shakur-murder-trial-former-gang-leader-duane-davis-sentenced-to-40-years/a-79655189?maca=en-rss-en-top-1022-rdf",
+          "title": "Tupac Shakur murder trial: Former gang leader Duane Davis sentenced to 40 years",
+          "summary": "Former Los Angeles gang leader Duane \"Keffe D\" Davis was found guilty of ordering the killing of hip-hop icon Tupac Shakur",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T19:40:00+00:00",
+          "fetched_at": "2026-10-13T23:20:29.719490+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1fe093ad220b7775ea5c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/who-killed-tupac?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/who-killed-tupac?traffic_source=rss",
+          "title": "Who killed Tupac?",
+          "summary": "For decades, Tupac Shakur’s murder remained unsolved. Now, Duane Davis has been sentenced 40 years for his killing.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-13T18:44:11+00:00",
+          "fetched_at": "2026-10-13T23:20:29.991229+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_47e575a41dc515e374d5",
+      "title": "Ukraine and the US: What's next after Trump's diesel deal with Russia?",
+      "category": "国际政治",
+      "score": 73.1,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.2,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-13T08:44:19+00:00",
+      "last_updated": "2026-10-13T20:03:37+00:00",
+      "source_count": 2,
+      "article_count": 4,
+      "sources": [
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "diesel",
+        "deal",
+        "trump's",
+        "president",
+        "russia",
+        "ukraine",
+        "europe",
+        "allies"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Ukraine and the US: What's next after Trump's diesel deal with Russia?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Russia",
+          "Ukraine",
+          "Poland",
+          "Starlink",
+          "Trump",
+          "US",
+          "What",
+          "Putin"
+        ],
+        "latest_progress": [
+          "10月13日 20:03 UTC，NPR World报道：“How will a diesel deal with Russia impact the U.S. market?”。",
+          "10月13日 18:52 UTC，DW Top Stories报道：“Ukraine allies in Poland after Starlink sabotage, Trump diesel deal”。",
+          "10月13日 18:51 UTC，DW Top Stories报道：“Ukraine and the US: What's next after Trump's diesel deal with Russia?”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_be4cd9cc470b5d1b852b",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
+          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
+          "title": "How will a diesel deal with Russia impact the U.S. market?",
+          "summary": "The price of diesel hit an all-time high in the U.S. in September. Can President Trump's deal for Russia to release more diesel onto the market bring the price down?",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T20:03:37+00:00",
+          "fetched_at": "2026-10-13T23:20:29.814336+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_46209f13e5b445017960",
+          "url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal",
+          "summary": "Germany's Johann Wadephul said hybrid plots like the Starlink fire showed Europe was \"in Russia's crosshairs.\" The UK's Ed Miliband said Trump's Russian diesel deal led to a \"very difficult few days\" diplomatically.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T18:52:00+00:00",
+          "fetched_at": "2026-10-13T23:20:29.719745+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_160cb08278d2a8ec8a80",
+          "url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine and the US: What's next after Trump's diesel deal with Russia?",
+          "summary": "Donald Trump plans to allow the purchase of Russian diesel, drawing criticism at home and abroad. What is behind the US president’s decision and what should Ukraine do next? DW spoke with experts.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T18:51:00+00:00",
+          "fetched_at": "2026-10-13T23:20:29.719905+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3676589bf471e3244bef",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "title": "Trump's diesel deal with Putin angers Europe",
+          "summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T08:44:19+00:00",
+          "fetched_at": "2026-10-13T23:20:29.814985+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c4164b1c8f100eb5e94c",
+      "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+      "category": "科技AI",
+      "score": 65.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.6,
+        "credibility": 9.8,
+        "impact": 9.8,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-13T21:24:00+00:00",
+      "last_updated": "2026-10-13T21:42:49+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "device",
+        "openai",
+        "planting",
+        "listening",
+        "saudi",
+        "conference",
+        "room",
+        "employee"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的科技AI事件为“Saudi man charged with planting 'sophisticated' recording device in OpenAI office”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "Saudi"
+        ],
+        "latest_progress": [
+          "10月13日 21:42 UTC，BBC World报道：“Saudi man charged with planting 'sophisticated' recording device in OpenAI office”。",
+          "10月13日 21:24 UTC，DW Top Stories报道：“OpenAI says employee caught planting listening device”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f9979bbcccfb33859982",
+          "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_campaign=rss&at_medium=RSS",
+          "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+          "summary": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T21:42:49+00:00",
+          "fetched_at": "2026-10-13T23:20:28.998315+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/194/cpsprodpb/59c9/live/4ad4e9c0-c74e-11f1-a64c-550be9e3c66b.png"
+        },
+        {
+          "article_id": "art_dec5586240f1d0d05a82",
+          "url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-top-1022-rdf",
+          "title": "OpenAI says employee caught planting listening device",
+          "summary": "A Saudi national employed by the artificial intelligence lab has been arrested after a listening device was planted in a company conference room.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T21:24:00+00:00",
+          "fetched_at": "2026-10-13T23:20:29.719214+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2ce4b6f6bf70ae613265",
+      "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+      "category": "国际政治",
+      "score": 65.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 18.7,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-13T16:08:00+00:00",
+      "last_updated": "2026-10-13T19:23:28+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "ambassador",
+        "kimberly",
+        "greece",
+        "allegations",
+        "guilfoyle",
+        "trump",
+        "said",
+        "guilfoye"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Trump",
@@ -189,9 +401,8 @@
           "Kimberly Guilfoye"
         ],
         "latest_progress": [
-          "10月13日 19:13 UTC，BBC World报道：“Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations”。",
-          "10月13日 16:08 UTC，DW Top Stories报道：“Kimberly Guilfoye: US ambassador to Greece resigns amid misconduct allegations”。",
-          "10月13日 15:37 UTC，Al Jazeera报道：“US ambassador to Greece resigns amid misconduct allegations”。"
+          "10月13日 19:23 UTC，BBC World报道：“Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations”。",
+          "10月13日 16:08 UTC，DW Top Stories报道：“Kimberly Guilfoye: US ambassador to Greece resigns amid misconduct allegations”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -208,15 +419,15 @@
           "url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_campaign=rss&at_medium=RSS",
           "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
-          "summary": "Guilfoyle the allegations of improper conduct are \"false\" and being ambassador was the \"honour of a lifetime\".",
+          "summary": "Guilfoyle said the allegations of improper conduct were false and that being ambassador was the \"honour of a lifetime\".",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-13T19:13:58+00:00",
-          "fetched_at": "2026-10-13T19:18:19.514050+00:00",
+          "published_at": "2026-10-13T19:23:28+00:00",
+          "fetched_at": "2026-10-13T23:20:28.999159+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c676/live/5f6d4d50-c717-11f1-a82f-35874a3aae81.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f6d/live/ecd9e6d0-c73a-11f1-a64c-550be9e3c66b.jpg"
         },
         {
           "article_id": "art_841a80f3adb2ee5230bc",
@@ -227,77 +438,60 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-13T16:08:00+00:00",
-          "fetched_at": "2026-10-13T19:18:20.768158+00:00",
+          "fetched_at": "2026-10-13T23:20:29.720397+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f837ad74bf5ea4ded32e",
-          "url": "https://www.aljazeera.com/news/2026/10/13/trumps-ambassador-to-greece-asked-to-resign-amid-misconduct-allegations?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/trumps-ambassador-to-greece-asked-to-resign-amid-misconduct-allegations?traffic_source=rss",
-          "title": "US ambassador to Greece resigns amid misconduct allegations",
-          "summary": "Kimberly Guilfoyle denies allegations that she offered access to Trump administration officials in exchange for money.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T15:37:32+00:00",
-          "fetched_at": "2026-10-13T19:18:20.970745+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_15997990b3a3a73ef924",
-      "title": "UK spy chief says Iran is stepping up targeting of military bases",
+      "event_id": "evt_1069a4cdab50cbe8b88d",
+      "title": "Is Zelensky right to say data centre strikes have taken down Russian bots?",
       "category": "军事安全",
-      "score": 70.5,
+      "score": 64.5,
       "score_breakdown": {
         "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.3,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
         "credibility": 10.0,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 3.4
       },
-      "first_seen": "2026-10-13T15:52:15+00:00",
-      "last_updated": "2026-10-13T16:06:56+00:00",
-      "source_count": 2,
+      "first_seen": "2026-10-13T13:27:31+00:00",
+      "last_updated": "2026-10-13T22:14:33+00:00",
+      "source_count": 1,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
         "BBC World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "chief",
-        "mi5",
-        "threats",
-        "iran",
-        "operations",
-        "warns",
-        "russia",
-        "sir"
+        "strikes",
+        "russian",
+        "zelensky",
+        "say",
+        "right",
+        "data",
+        "centre",
+        "taken"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“UK spy chief says Iran is stepping up targeting of military bases”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的2篇报道，当前关注的军事安全事件为“Is Zelensky right to say data centre strikes have taken down Russian bots?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "UK",
-          "Iran",
-          "Russia",
-          "AI"
+          "Russian",
+          "Kyiv",
+          "Zelensky",
+          "Is Zelensky"
         ],
         "latest_progress": [
-          "10月13日 16:06 UTC，Al Jazeera报道：“UK spy chief says Iran is stepping up targeting of military bases”。",
-          "10月13日 15:52 UTC，BBC World报道：“MI5 chief warns of threats to UK from Russia, Iran and AI”。"
+          "10月13日 22:14 UTC，BBC World报道：“Russian strikes hit key power plant in Kyiv, Zelensky says”。",
+          "10月13日 13:27 UTC，BBC World报道：“Is Zelensky right to say data centre strikes have taken down Russian bots?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -310,219 +504,34 @@
       },
       "articles": [
         {
-          "article_id": "art_b67ff9e0da17bd142cfa",
-          "url": "https://www.aljazeera.com/news/2026/10/13/uk-spy-chief-says-iran-is-stepping-up-targeting-of-military-bases?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/uk-spy-chief-says-iran-is-stepping-up-targeting-of-military-bases?traffic_source=rss",
-          "title": "UK spy chief says Iran is stepping up targeting of military bases",
-          "summary": "MI5 chief says 50 arrests were made in past year to disrupt Iran-led operations.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T16:06:56+00:00",
-          "fetched_at": "2026-10-13T19:18:20.970447+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_bcde95e8b46a3eea156f",
-          "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_campaign=rss&at_medium=RSS",
-          "title": "MI5 chief warns of threats to UK from Russia, Iran and AI",
-          "summary": "Sir Ken McCallum says operations to tackle terrorism and state threats are now roughly of an \"equal scale\".",
+          "article_id": "art_a21e4aa268b6a4c90541",
+          "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_campaign=rss&at_medium=RSS",
+          "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+          "summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-13T15:52:15+00:00",
-          "fetched_at": "2026-10-13T19:18:19.513204+00:00",
+          "published_at": "2026-10-13T22:14:33+00:00",
+          "fetched_at": "2026-10-13T23:20:28.999308+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7572/live/20ee0d90-c702-11f1-9a39-31b474234113.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_f5d016696889f4e45195",
-      "title": "Why Trump’s ‘energy ceasefire’ upset Europe",
-      "category": "军事安全",
-      "score": 68.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.9,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 1.5
-      },
-      "first_seen": "2026-10-12T21:43:48+00:00",
-      "last_updated": "2026-10-13T18:07:05+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "trump",
-        "ceasefire",
-        "russia",
-        "ukraine",
-        "energy",
-        "europe",
-        "announced",
-        "partial"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“Why Trump’s ‘energy ceasefire’ upset Europe”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Why Trump",
-          "Europe Trump",
-          "Russia",
-          "Ukraine",
-          "Did"
-        ],
-        "latest_progress": [
-          "10月13日 18:07 UTC，Al Jazeera报道：“Why Trump’s ‘energy ceasefire’ upset Europe”。",
-          "10月12日 21:43 UTC，NPR World报道：“Trump announced a partial Russia-Ukraine ceasefire. Did either country know about it?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4b9929348b0ebdaedda4",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/why-trumps-energy-ceasefire-upset-europe?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/why-trumps-energy-ceasefire-upset-europe?traffic_source=rss",
-          "title": "Why Trump’s ‘energy ceasefire’ upset Europe",
-          "summary": "The US and Europe can’t agree on how to end Russia’s war on Ukraine.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T18:07:05+00:00",
-          "fetched_at": "2026-10-13T19:18:20.969023+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10cd/live/79669050-c74d-11f1-a64c-550be9e3c66b.jpg"
         },
         {
-          "article_id": "art_6512c066421b26a34810",
-          "url": "https://www.npr.org/2026/10/12/nx-s1-5998808/trump-announced-a-partial-russia-ukraine-ceasefire-did-either-country-know-about-it",
-          "canonical_url": "https://www.npr.org/2026/10/12/nx-s1-5998808/trump-announced-a-partial-russia-ukraine-ceasefire-did-either-country-know-about-it",
-          "title": "Trump announced a partial Russia-Ukraine ceasefire. Did either country know about it?",
-          "summary": "Ukraine's leader says Russia is continuing to attack Ukraine and is ignoring an \"energy ceasefire\" declared by President Trump.",
-          "source": "NPR World",
+          "article_id": "art_5feddeb4cdd16a7a1250",
+          "url": "https://www.bbc.co.uk/news/articles/c9y7l0pm8jkko?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c9y7l0pm8jkko?at_campaign=rss&at_medium=RSS",
+          "title": "Is Zelensky right to say data centre strikes have taken down Russian bots?",
+          "summary": "Experts say there is no evidence that Russian trolls have been affected by Ukraine’s Yandex attacks.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-12T21:43:48+00:00",
-          "fetched_at": "2026-10-13T19:18:20.834887+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_47e575a41dc515e374d5",
-      "title": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal",
-      "category": "国际政治",
-      "score": 68.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.6,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 3.0
-      },
-      "first_seen": "2026-10-13T08:44:19+00:00",
-      "last_updated": "2026-10-13T18:52:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "diesel",
-        "deal",
-        "trump's",
-        "europe",
-        "president",
-        "allies",
-        "starlink",
-        "said"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的国际政治事件为“Ukraine allies in Poland after Starlink sabotage, Trump diesel deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Ukraine",
-          "Poland",
-          "Starlink",
-          "Trump",
-          "Putin",
-          "Europe"
-        ],
-        "latest_progress": [
-          "10月13日 18:52 UTC，DW Top Stories报道：“Ukraine allies in Poland after Starlink sabotage, Trump diesel deal”。",
-          "10月13日 08:44 UTC，NPR World报道：“Trump's diesel deal with Putin angers Europe”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_46209f13e5b445017960",
-          "url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal",
-          "summary": "Germany's Johann Wadephul said hybrid plots like the Starlink fire showed Europe was \"in Russia's crosshairs.\" The UK's Ed Miliband said Trump's Russian diesel deal led to a \"very difficult few days\" diplomatically.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-13T18:52:00+00:00",
-          "fetched_at": "2026-10-13T19:18:20.767456+00:00",
+          "published_at": "2026-10-13T13:27:31+00:00",
+          "fetched_at": "2026-10-13T23:20:29.000846+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3676589bf471e3244bef",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-          "title": "Trump's diesel deal with Putin angers Europe",
-          "summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T08:44:19+00:00",
-          "fetched_at": "2026-10-13T19:18:20.834440+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f908/live/67b69200-c708-11f1-bc2e-018d645d8d21.png"
         }
       ]
     },
@@ -530,12 +539,12 @@
       "event_id": "evt_96b134524678770e2e17",
       "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
       "category": "军事安全",
-      "score": 66.7,
+      "score": 63.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.3,
+        "recency": 15.5,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -595,7 +604,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-13T14:51:59+00:00",
-          "fetched_at": "2026-10-13T19:18:19.514830+00:00",
+          "fetched_at": "2026-10-13T23:20:29.000082+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -610,7 +619,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-13T10:15:00+00:00",
-          "fetched_at": "2026-10-13T19:18:20.769417+00:00",
+          "fetched_at": "2026-10-13T23:20:29.721652+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -619,99 +628,9 @@
       ]
     },
     {
-      "event_id": "evt_598c2200d4a123c97aa7",
-      "title": "Ex-president named leader of new DR Congo rebel coalition",
-      "category": "国际政治",
-      "score": 65.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 19.0,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-13T13:40:45+00:00",
-      "last_updated": "2026-10-13T15:46:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "congo",
-        "kabila",
-        "m23",
-        "coalition",
-        "joseph",
-        "president",
-        "ex-president",
-        "named"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Ex-president named leader of new DR Congo rebel coalition”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "DR",
-          "Congo",
-          "Kabila",
-          "Ex"
-        ],
-        "latest_progress": [
-          "10月13日 15:46 UTC，DW Top Stories报道：“DR Congo: Kabila’s move towards M23 raises questions over peace”。",
-          "10月13日 13:40 UTC，BBC World报道：“Ex-president named leader of new DR Congo rebel coalition”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c20af2abbb878cef033e",
-          "url": "https://www.dw.com/en/dr-congo-kabila-s-move-towards-m23-raises-questions-over-peace/a-79652262?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/dr-congo-kabila-s-move-towards-m23-raises-questions-over-peace/a-79652262?maca=en-rss-en-top-1022-rdf",
-          "title": "DR Congo: Kabila’s move towards M23 raises questions over peace",
-          "summary": "Former DR Congo President Joseph Kabila has joined a new political-military front that brings together the Rwandan-backed AFC/M23 coalition. Analysts say it could reshape opposition to President Felix Tshisekedi.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-13T15:46:00+00:00",
-          "fetched_at": "2026-10-13T19:18:20.768412+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_507b21d0c1fc6bb2f531",
-          "url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo?at_campaign=rss&at_medium=RSS",
-          "title": "Ex-president named leader of new DR Congo rebel coalition",
-          "summary": "Joseph Kabila had previously denied having links to the M23 rebels, which control much of eastern DR Congo.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T13:40:45+00:00",
-          "fetched_at": "2026-10-13T19:18:19.515603+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88a7/live/427486f0-c6d6-11f1-a5d8-e9a78c0fd632.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2638c9132ebc60eefb2d",
-      "title": "Presidential hopeful Melenchon joins France school protest march",
-      "category": "社会突发",
+      "event_id": "evt_2a1923e8b74a4090735a",
+      "title": "Man City vs PSG: Champions League – teams, predictions, line ups",
+      "category": "经济金融",
       "score": 60.8,
       "score_breakdown": {
         "coverage": 6.9,
@@ -722,8 +641,8 @@
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-13T18:16:44+00:00",
-      "last_updated": "2026-10-13T18:16:44+00:00",
+      "first_seen": "2026-10-13T22:17:26+00:00",
+      "last_updated": "2026-10-13T22:17:26+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -733,46 +652,46 @@
         "Middle East"
       ],
       "keywords": [
-        "presidential",
-        "hopeful",
-        "melenchon",
-        "france",
-        "school",
-        "joins",
-        "protest",
-        "march"
+        "man",
+        "city",
+        "psg",
+        "league",
+        "champions",
+        "teams",
+        "predictions",
+        "line"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Presidential hopeful Melenchon joins France school protest march”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的经济金融事件为“Man City vs PSG: Champions League – teams, predictions, line ups”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Presidential",
-          "Melenchon",
-          "France"
+          "Man City",
+          "PSG",
+          "Champions League"
         ],
         "latest_progress": [
-          "10月13日 18:16 UTC，Al Jazeera报道：“Presidential hopeful Melenchon joins France school protest march”。"
+          "10月13日 22:17 UTC，Al Jazeera报道：“Man City vs PSG: Champions League – teams, predictions, line ups”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_768580771b6003840a83",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/presidential-hopeful-melenchon-joins-france-school-protest-march?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/presidential-hopeful-melenchon-joins-france-school-protest-march?traffic_source=rss",
-          "title": "Presidential hopeful Melenchon joins France school protest march",
-          "summary": "Left-wing presidential hopeful Jean-Luc Melenchon has given his support to school protests in France",
+          "article_id": "art_31cc9279f5055123198b",
+          "url": "https://www.aljazeera.com/sports/2026/10/13/manchester-city-psg-champions-league-haaland-torres-predictions-teams?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/sports/2026/10/13/manchester-city-psg-champions-league-haaland-torres-predictions-teams?traffic_source=rss",
+          "title": "Man City vs PSG: Champions League – teams, predictions, line ups",
+          "summary": "Man City host PSG in their first UCL match since being found guilty of serious Premier League financial breaches.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T18:16:44+00:00",
-          "fetched_at": "2026-10-13T19:18:20.968379+00:00",
+          "published_at": "2026-10-13T22:17:26+00:00",
+          "fetched_at": "2026-10-13T23:20:29.988253+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -781,48 +700,50 @@
       ]
     },
     {
-      "event_id": "evt_54e507892cbc7c508aac",
-      "title": "Iran seeking 'harder targets' for attacks abroad, UK warns",
+      "event_id": "evt_9ead73f8e52388603192",
+      "title": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
       "category": "军事安全",
-      "score": 60.8,
+      "score": 60.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.3,
-        "credibility": 9.5,
+        "recency": 19.6,
+        "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-13T17:23:00+00:00",
-      "last_updated": "2026-10-13T17:23:00+00:00",
+      "first_seen": "2026-10-13T20:33:10+00:00",
+      "last_updated": "2026-10-13T20:33:10+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "iran",
-        "seeking",
-        "harder",
-        "targets'",
-        "attacks",
-        "abroad",
-        "warns",
-        "warning"
+        "funeral",
+        "egyptian",
+        "flight",
+        "attendant",
+        "killed",
+        "houthi",
+        "attack",
+        "riyadh"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Iran seeking 'harder targets' for attacks abroad, UK warns”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iran",
-          "UK"
+          "Funeral",
+          "Egyptian",
+          "Houthi",
+          "Riyadh"
         ],
         "latest_progress": [
-          "10月13日 17:23 UTC，DW Top Stories报道：“Iran seeking 'harder targets' for attacks abroad, UK warns”。"
+          "10月13日 20:33 UTC，Al Jazeera报道：“Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -835,38 +756,109 @@
       },
       "articles": [
         {
-          "article_id": "art_98154069dc6334059497",
-          "url": "https://www.dw.com/en/iran-seeking-harder-targets-for-attacks-abroad-uk-warns/a-79654454?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/iran-seeking-harder-targets-for-attacks-abroad-uk-warns/a-79654454?maca=en-rss-en-top-1022-rdf",
-          "title": "Iran seeking 'harder targets' for attacks abroad, UK warns",
-          "summary": "The warning from the head of the UK's domestic security agency comes after PM Burnham said an attempted plot at an air force base hosting US bombers was \"almost certainly\" coordinated in Tehran.",
-          "source": "DW Top Stories",
+          "article_id": "art_6079e0310a451a48256e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/funeral-for-egyptian-flight-attendant-killed-in-houthi-attack-on-riyadh?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/funeral-for-egyptian-flight-attendant-killed-in-houthi-attack-on-riyadh?traffic_source=rss",
+          "title": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
+          "summary": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T17:23:00+00:00",
-          "fetched_at": "2026-10-13T19:18:20.767751+00:00",
+          "published_at": "2026-10-13T20:33:10+00:00",
+          "fetched_at": "2026-10-13T23:20:29.989664+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_09d268de34cc50b8ef42",
-      "title": "China sentences three people to death for running Myanmar scam centres",
-      "category": "社会突发",
-      "score": 60.3,
+      "event_id": "evt_5be916be33284dc7c590",
+      "title": "Why the lonely in China are hiring 'temporary children'",
+      "category": "经济金融",
+      "score": 60.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.6,
+        "recency": 20.8,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-13T17:41:16+00:00",
-      "last_updated": "2026-10-13T17:41:16+00:00",
+      "first_seen": "2026-10-13T22:00:20+00:00",
+      "last_updated": "2026-10-13T22:00:20+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "china",
+        "hiring",
+        "lonely",
+        "temporary",
+        "children'",
+        "industry",
+        "being",
+        "dubbed"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的经济金融事件为“Why the lonely in China are hiring 'temporary children'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "Why",
+          "China"
+        ],
+        "latest_progress": [
+          "10月13日 22:00 UTC，BBC World报道：“Why the lonely in China are hiring 'temporary children'”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_937df06f0af75627cc6b",
+          "url": "https://www.bbc.co.uk/news/videos/cm8xkxn8lqkeo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cm8xkxn8lqkeo?at_campaign=rss&at_medium=RSS",
+          "title": "Why the lonely in China are hiring 'temporary children'",
+          "summary": "A new industry being dubbed the “loneliness economy” has emerged in China, with people hiring themselves out as companions to help the elderly.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T22:00:20+00:00",
+          "fetched_at": "2026-10-13T23:20:29.001145+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a9d/live/c0c4d690-be07-11f1-babe-4199b0e7ccea.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_504cb9fa277891005551",
+      "title": "Albanian police fire tear gas at protesters as Education Ministry attacked",
+      "category": "能源资源",
+      "score": 60.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-13T22:33:50+00:00",
+      "last_updated": "2026-10-13T22:33:50+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -876,45 +868,45 @@
         "Middle East"
       ],
       "keywords": [
-        "china",
-        "sentences",
-        "three",
-        "people",
-        "death",
-        "running",
-        "myanmar",
-        "scam"
+        "protesters",
+        "albanian",
+        "police",
+        "fire",
+        "tear",
+        "gas",
+        "education",
+        "ministry"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“China sentences three people to death for running Myanmar scam centres”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“Albanian police fire tear gas at protesters as Education Ministry attacked”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "China",
-          "Myanmar"
+          "Albanian",
+          "Education Ministry"
         ],
         "latest_progress": [
-          "10月13日 17:41 UTC，Al Jazeera报道：“China sentences three people to death for running Myanmar scam centres”。"
+          "10月13日 22:33 UTC，Al Jazeera报道：“Albanian police fire tear gas at protesters as Education Ministry attacked”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_1e589c8a6fb6678795e3",
-          "url": "https://www.aljazeera.com/news/2026/10/13/china-sentences-three-people-to-death-for-running-myanmar-scam-centres?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/china-sentences-three-people-to-death-for-running-myanmar-scam-centres?traffic_source=rss",
-          "title": "China sentences three people to death for running Myanmar scam centres",
-          "summary": "Dozens more were imprisoned for their involvement in telecommunications fraud, trafficking, prostitution and murder.",
+          "article_id": "art_192a99efdf495e219fc7",
+          "url": "https://www.aljazeera.com/news/2026/10/13/albanian-police-fire-tear-gas-at-protesters-as-education-ministry-attacked?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/albanian-police-fire-tear-gas-at-protesters-as-education-ministry-attacked?traffic_source=rss",
+          "title": "Albanian police fire tear gas at protesters as Education Ministry attacked",
+          "summary": "At least 23 protesters have been arrested in demonstrations in the capital.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T17:41:16+00:00",
-          "fetched_at": "2026-10-13T19:18:20.969369+00:00",
+          "published_at": "2026-10-13T22:33:50+00:00",
+          "fetched_at": "2026-10-13T23:20:29.988095+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
