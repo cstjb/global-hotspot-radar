@@ -1,59 +1,588 @@
 {
-  "generated_at": "2026-10-13T03:34:58.864965+00:00",
+  "generated_at": "2026-10-13T11:48:21.004487+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 86,
-    "articles_unique": 86,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 96,
+    "articles_unique": 96,
+    "errors": [
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_70d6bcdd5657c4119254",
-      "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
-      "category": "能源资源",
-      "score": 90.2,
+      "event_id": "evt_e8490a64e20807cb8476",
+      "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+      "category": "军事安全",
+      "score": 78.7,
       "score_breakdown": {
-        "coverage": 20.8,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 21.6,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.2,
         "credibility": 9.8,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-12T06:41:57+00:00",
-      "last_updated": "2026-10-13T03:11:19+00:00",
-      "source_count": 4,
-      "article_count": 7,
+      "first_seen": "2026-10-13T07:36:38+00:00",
+      "last_updated": "2026-10-13T10:57:17+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "drone",
+        "bulgaria",
+        "attack",
+        "ship",
+        "black",
+        "sea",
+        "ships",
+        "sinks"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Bulgaria",
+          "Russian",
+          "Black Sea",
+          "Russia",
+          "Ukraine",
+          "Eastern Europe Drone",
+          "PM"
+        ],
+        "latest_progress": [
+          "10月13日 10:57 UTC，BBC World报道：“Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack”。",
+          "10月13日 10:15 UTC，DW Top Stories报道：“Bulgaria condemns Black Sea drone attacks as Russia's war in Ukraine spills over into Eastern Europe”。",
+          "10月13日 07:36 UTC，Al Jazeera报道：“Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_39bf45a2460a40d9dca1",
+          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_campaign=rss&at_medium=RSS",
+          "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+          "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T10:57:17+00:00",
+          "fetched_at": "2026-10-13T11:48:19.841170+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c339/live/811bb020-c6e2-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_6d1691a5c0f1125ef21a",
+          "url": "https://www.dw.com/en/bulgaria-condemns-black-sea-drone-attacks-as-russia-s-war-in-ukraine-spills-over-into-eastern-europe/a-79648001?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/bulgaria-condemns-black-sea-drone-attacks-as-russia-s-war-in-ukraine-spills-over-into-eastern-europe/a-79648001?maca=en-rss-en-top-1022-rdf",
+          "title": "Bulgaria condemns Black Sea drone attacks as Russia's war in Ukraine spills over into Eastern Europe",
+          "summary": "Bulgaria has seen the second spate of drone attacks on merchant ships off its coast in the past week. Russia has been accused of repeatedly targeting civilian cargo ships in the area.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T10:15:00+00:00",
+          "fetched_at": "2026-10-13T11:48:20.091907+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_aeddf1ca59995bf5d093",
+          "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says?traffic_source=rss",
+          "title": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says",
+          "summary": "Two ships were hit in the attack, including the Ukrainian-owned Chelsea 3, which sustained damage.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-13T07:36:38+00:00",
+          "fetched_at": "2026-10-13T11:48:20.388644+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_52654d3d2e841c7a9fa6",
+      "title": "Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest",
+      "category": "社会突发",
+      "score": 76.2,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 19.3,
+        "credibility": 9.9,
+        "impact": 11.7,
+        "velocity": 3.5
+      },
+      "first_seen": "2026-10-12T15:19:17+00:00",
+      "last_updated": "2026-10-13T08:36:27+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "protest",
+        "thousands",
+        "delhi",
+        "detained",
+        "march",
+        "election",
+        "india",
+        "leaders"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的社会突发事件为“Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Police",
+          "India",
+          "New Delhi",
+          "Delhi",
+          "Thousands",
+          "Indian Supreme Court"
+        ],
+        "latest_progress": [
+          "10月13日 08:36 UTC，Al Jazeera报道：“Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest”。",
+          "10月13日 07:31 UTC，BBC World报道：“India 'cockroach' leaders detained after entering barricaded protest site”。",
+          "10月13日 06:16 UTC，DW Top Stories报道：“India opposition to huddle over tea after thousands march in their Delhi protest”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_dddc96addfd527cb6abd",
+          "url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest?traffic_source=rss",
+          "title": "Police detain leaders of India’s ‘cockroach’ movement at New Delhi protest",
+          "summary": "Cockroach Janta Party volunteers detained after entering a popular protest site authorities had declared off-limits.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-13T08:36:27+00:00",
+          "fetched_at": "2026-10-13T11:48:20.388310+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b44d52b3a65c110212cc",
+          "url": "https://www.bbc.co.uk/news/articles/cqz0v11n2vj5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqz0v11n2vj5o?at_campaign=rss&at_medium=RSS",
+          "title": "India 'cockroach' leaders detained after entering barricaded protest site",
+          "summary": "Protesters climbed over barricades in central Delhi to demand the election chief resign over revised voter lists.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T07:31:10+00:00",
+          "fetched_at": "2026-10-13T11:48:19.841457+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d729/live/cad81e00-c6d9-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_ef9caf4fbaecce5e65bc",
+          "url": "https://www.dw.com/en/india-opposition-to-huddle-over-tea-after-thousands-march-in-their-delhi-protest/live-79646819?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-opposition-to-huddle-over-tea-after-thousands-march-in-their-delhi-protest/live-79646819?maca=en-rss-en-top-1022-rdf",
+          "title": "India opposition to huddle over tea after thousands march in their Delhi protest",
+          "summary": "Congress' Rahul Gandhi will reportedly host oppositon MPs for tea after rallying thousands in Monday's election protest. The 'Cockroach' movement says its leaders have been detained during a flash protest. Follow DW.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T06:16:00+00:00",
+          "fetched_at": "2026-10-13T11:48:20.092238+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8b9a5f0cbec225ec5058",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_campaign=rss&at_medium=RSS",
+          "title": "Thousands march to Indian Supreme Court to demand election chief resign",
+          "summary": "The march follows a chaotic weekend in Delhi which saw thousands of protesters detained by police.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-12T15:19:17+00:00",
+          "fetched_at": "2026-10-13T11:48:19.842247+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1774/live/1fce2710-c630-11f1-9a39-31b474234113.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_af1b13f0d5b0a483f416",
+      "title": "Immigration agents search congresswoman Ilhan Omar's home",
+      "category": "国际政治",
+      "score": 74.0,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.4,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 2.3
+      },
+      "first_seen": "2026-10-12T15:12:00+00:00",
+      "last_updated": "2026-10-13T11:08:14+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
         "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "ilhan",
+        "federal",
+        "agents",
+        "search",
+        "home",
+        "trump",
+        "omar",
+        "said"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Immigration agents search congresswoman Ilhan Omar's home”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Government",
+          "Trump",
+          "And",
+          "Ilhan Omar",
+          "Immigration",
+          "US"
+        ],
+        "latest_progress": [
+          "10月13日 11:08 UTC，NPR World报道：“Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home”。",
+          "10月13日 10:37 UTC，BBC World报道：“Immigration agents search congresswoman Ilhan Omar's home”。",
+          "10月12日 15:12 UTC，DW Top Stories报道：“US federal agents search home of Trump critic Ilhan Omar”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0d3f55735fa5fab29a36",
+          "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+          "canonical_url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+          "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+          "summary": "The government is using millions of taxpayers' dollars on pro-Trump ads, even after the president said this would not happen. And, federal agents search Rep. Ilhan Omar's D.C. home.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T11:08:14+00:00",
+          "fetched_at": "2026-10-13T11:48:20.278255+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_885d3ec067179e127110",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_campaign=rss&at_medium=RSS",
+          "title": "Immigration agents search congresswoman Ilhan Omar's home",
+          "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T10:37:39+00:00",
+          "fetched_at": "2026-10-13T11:48:19.841735+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc45/live/01c4d970-c64f-11f1-b47f-e3f9cf703bc3.png"
+        },
+        {
+          "article_id": "art_3c43f59c6e55bc3835fe",
+          "url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-ilhan-omar/a-79643360?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-ilhan-omar/a-79643360?maca=en-rss-en-top-1022-rdf",
+          "title": "US federal agents search home of Trump critic Ilhan Omar",
+          "summary": "Justice Department officials said the Washington residence of Democratic Congresswoman Ilhan Omar, an outspoken opponent of President Trump, was raided as \"part of an ongoing federal investigation.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-12T15:12:00+00:00",
+          "fetched_at": "2026-10-13T11:48:20.092772+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f9c94f8606b8c3181679",
+      "title": "Former DR Congo President Kabila joins M23 rebels in a new coalition",
+      "category": "国际政治",
+      "score": 70.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-13T08:50:49+00:00",
+      "last_updated": "2026-10-13T11:23:55+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "congo",
+        "president",
+        "kabila",
+        "m23",
+        "rebels",
+        "coalition",
+        "former",
+        "joins"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Former DR Congo President Kabila joins M23 rebels in a new coalition”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Ex",
+          "DR",
+          "Congo",
+          "Former",
+          "Congo President Kabila"
+        ],
+        "latest_progress": [
+          "10月13日 11:23 UTC，BBC World报道：“Ex-president named leader of new DR Congo rebel coalition”。",
+          "10月13日 08:50 UTC，Al Jazeera报道：“Former DR Congo President Kabila joins M23 rebels in a new coalition”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_507b21d0c1fc6bb2f531",
+          "url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c8y56re7ldqyo?at_campaign=rss&at_medium=RSS",
+          "title": "Ex-president named leader of new DR Congo rebel coalition",
+          "summary": "Joseph Kabila had previously denied having links to the M23 rebels, which control much of eastern DR Congo.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T11:23:55+00:00",
+          "fetched_at": "2026-10-13T11:48:19.841307+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88a7/live/427486f0-c6d6-11f1-a5d8-e9a78c0fd632.jpg"
+        },
+        {
+          "article_id": "art_07c5f507ff76179c6c35",
+          "url": "https://www.aljazeera.com/news/2026/10/13/former-dr-congo-president-kabila-joins-m23-rebels-in-a-new-coalition?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/former-dr-congo-president-kabila-joins-m23-rebels-in-a-new-coalition?traffic_source=rss",
+          "title": "Former DR Congo President Kabila joins M23 rebels in a new coalition",
+          "summary": "Alliance raises fears of more fighting and confrontation with President Tshisekedi's government.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-13T08:50:49+00:00",
+          "fetched_at": "2026-10-13T11:48:20.388182+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_dadba450a10efbd8e1d9",
+      "title": "One dead and several hurt after rollercoaster incident at Six Flags",
+      "category": "社会突发",
+      "score": 70.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.8,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-13T09:56:59+00:00",
+      "last_updated": "2026-10-13T10:28:07+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "rollercoaster",
+        "incident",
+        "one",
+        "several",
+        "georgia",
+        "six",
+        "flags",
+        "park"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“One dead and several hurt after rollercoaster incident at Six Flags”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Six Flags One",
+          "Georgia"
+        ],
+        "latest_progress": [
+          "10月13日 10:28 UTC，BBC World报道：“One dead and several hurt after rollercoaster incident at Six Flags”。",
+          "10月13日 09:56 UTC，Al Jazeera报道：“One killed, several injured in Georgia rollercoaster ‘incident’”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d66181e6a5b0d0ac9a4e",
+          "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_campaign=rss&at_medium=RSS",
+          "title": "One dead and several hurt after rollercoaster incident at Six Flags",
+          "summary": "Aerial footage at the park after the incident shows a stuck rollercoaster with riders being helped off.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T10:28:07+00:00",
+          "fetched_at": "2026-10-13T11:48:19.841024+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb02/live/12f052c0-c6c6-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_f0e76f502f194d7fa41b",
+          "url": "https://www.aljazeera.com/news/2026/10/13/one-dead-after-roller-coaster-incident-in-george-us?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/one-dead-after-roller-coaster-incident-in-george-us?traffic_source=rss",
+          "title": "One killed, several injured in Georgia rollercoaster ‘incident’",
+          "summary": "Six Flags temporarily closes nine similar rollercoasters after a fatal accident at its Georgia amusement park.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-13T09:56:59+00:00",
+          "fetched_at": "2026-10-13T11:48:20.387793+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_28e5ffb42f3eada58916",
+      "title": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+      "category": "能源资源",
+      "score": 66.5,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 12.2,
+        "credibility": 9.9,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-12T15:51:30+00:00",
+      "last_updated": "2026-10-12T21:43:48+00:00",
+      "source_count": 2,
+      "article_count": 4,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
         "North America"
       ],
       "keywords": [
         "energy",
-        "ukraine",
         "ceasefire",
+        "ukraine",
         "russia",
         "trump",
-        "infrastructure",
-        "strikes",
-        "announced"
+        "trump's",
+        "ukraine's",
+        "zelensky"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的能源资源事件为“Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、NPR World等来源的4篇报道，当前关注的能源资源事件为“Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
+          "Trump",
           "Russia",
           "Ukraine",
-          "Trump",
           "Did",
           "Six Ukrainian",
           "Zelensky",
@@ -61,9 +590,9 @@
           "What"
         ],
         "latest_progress": [
-          "10月13日 03:11 UTC，Al Jazeera报道：“Russia and Ukraine trade strikes amid doubt over ‘energy ceasefire’”。",
           "10月12日 21:43 UTC，NPR World报道：“Trump announced a partial Russia-Ukraine ceasefire. Did either country know about it?”。",
-          "10月12日 21:20 UTC，BBC World报道：“Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says”。"
+          "10月12日 21:20 UTC，BBC World报道：“Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says”。",
+          "10月12日 20:17 UTC，BBC World报道：“Why Moscow is staying tight-lipped on Trump's energy ceasefire”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
         "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
@@ -76,21 +605,6 @@
       },
       "articles": [
         {
-          "article_id": "art_69949191b14bc670d30d",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/russia-and-ukraine-trade-strikes-amid-doubt-over-energy?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/russia-and-ukraine-trade-strikes-amid-doubt-over-energy?traffic_source=rss",
-          "title": "Russia and Ukraine trade strikes amid doubt over ‘energy ceasefire’",
-          "summary": "Ukraine's president says Russian attacks on Ukraine’s energy infrastructure are continuing despite 'energy ceasefire'.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T03:11:19+00:00",
-          "fetched_at": "2026-10-13T03:34:57.968252+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
           "article_id": "art_6512c066421b26a34810",
           "url": "https://www.npr.org/2026/10/12/nx-s1-5998808/trump-announced-a-partial-russia-ukraine-ceasefire-did-either-country-know-about-it",
           "canonical_url": "https://www.npr.org/2026/10/12/nx-s1-5998808/trump-announced-a-partial-russia-ukraine-ceasefire-did-either-country-know-about-it",
@@ -99,7 +613,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-12T21:43:48+00:00",
-          "fetched_at": "2026-10-13T03:34:57.828299+00:00",
+          "fetched_at": "2026-10-13T11:48:20.278631+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -114,7 +628,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-12T21:20:51+00:00",
-          "fetched_at": "2026-10-13T03:34:56.797285+00:00",
+          "fetched_at": "2026-10-13T11:48:19.841372+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -129,7 +643,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-12T20:17:37+00:00",
-          "fetched_at": "2026-10-13T03:34:56.797524+00:00",
+          "fetched_at": "2026-10-13T11:48:19.842843+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -144,656 +658,33 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-12T15:51:30+00:00",
-          "fetched_at": "2026-10-13T03:34:56.801518+00:00",
+          "fetched_at": "2026-10-13T11:48:19.843285+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2677/live/9aef3f90-c650-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_79ac16485ef8832b286c",
-          "url": "https://www.dw.com/en/ukraine-says-russia-launched-strikes-hours-after-donald-trump-announced-an-energy-ceasefire/a-79640911?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-says-russia-launched-strikes-hours-after-donald-trump-announced-an-energy-ceasefire/a-79640911?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine says Russia launched strikes hours after Donald Trump announced an 'energy ceasefire'",
-          "summary": "Less than 24 hours after Donald Trump announced an \"energy ceasefire,\" Ukraine reported Russian strikes in Kyiv, Kharkiv and Donetsk. The Kremlin says it would only consider a one-day ceasefire for an election.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-12T11:54:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.507525+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_22f03c5a6379e664d4f0",
-          "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
-          "canonical_url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
-          "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
-          "summary": "Trump said he had brokered a cease-fire to protect energy infrastructure in Russia and Ukraine. But Ukrainian officials say bombs kept falling overnight on gas facilities, wounding 33 people.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-12T06:41:57+00:00",
-          "fetched_at": "2026-10-13T03:34:57.829134+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_300a75293e38de9814d9",
-      "title": "‘Unprecedented’ cyberattack hits French supermarkets, causing food losses",
-      "category": "军事安全",
-      "score": 81.3,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 9.9,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-12T18:15:00+00:00",
-      "last_updated": "2026-10-13T03:01:53+00:00",
-      "source_count": 3,
-      "article_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "french",
-        "supermarkets",
-        "cyberattack",
-        "food",
-        "hundreds",
-        "refrigeration",
-        "systems",
-        "hit"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“‘Unprecedented’ cyberattack hits French supermarkets, causing food losses”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Cyberattack",
-          "French",
-          "Unprecedented",
-          "Fridges",
-          "Hundreds"
-        ],
-        "latest_progress": [
-          "10月13日 03:01 UTC，Al Jazeera报道：“Cyberattack on French supermarkets causes fires, millions in losses”。",
-          "10月13日 02:37 UTC，Al Jazeera报道：“‘Unprecedented’ cyberattack hits French supermarkets, causing food losses”。",
-          "10月12日 18:31 UTC，BBC World报道：“Fridges in French supermarkets hit by cyber attack”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9b5150315af60c6eb7bf",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/12-10-sv-france-supermarket-fridges-targeted?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/12-10-sv-france-supermarket-fridges-targeted?traffic_source=rss",
-          "title": "Cyberattack on French supermarkets causes fires, millions in losses",
-          "summary": "A cyberattack targeting supermarket refrigeration systems has left shelves empty across France.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T03:01:53+00:00",
-          "fetched_at": "2026-10-13T03:34:57.968433+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a1f849e5530f1b82546d",
-          "url": "https://www.aljazeera.com/news/2026/10/13/unprecedented-cyberattack-hits-french-supermarkets-causing-food-losses?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/unprecedented-cyberattack-hits-french-supermarkets-causing-food-losses?traffic_source=rss",
-          "title": "‘Unprecedented’ cyberattack hits French supermarkets, causing food losses",
-          "summary": "Hackers raise temperatures in supermarket fridges, sparking fires and spoiling food in 'large-scale' cyberattack.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T02:37:10+00:00",
-          "fetched_at": "2026-10-13T03:34:57.968643+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5cde95432af4bc910583",
-          "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_campaign=rss&at_medium=RSS",
-          "title": "Fridges in French supermarkets hit by cyber attack",
-          "summary": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-12T18:31:32+00:00",
-          "fetched_at": "2026-10-13T03:34:56.798529+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfaf/live/a3ced500-c63a-11f1-b99d-0127a94fa1d0.jpg"
-        },
-        {
-          "article_id": "art_a6b4e1155ed15432a71e",
-          "url": "https://www.dw.com/en/hundreds-of-french-supermarkets-hit-by-a-cyberattack-that-defrosted-refrigeration-systems/a-79646097?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/hundreds-of-french-supermarkets-hit-by-a-cyberattack-that-defrosted-refrigeration-systems/a-79646097?maca=en-rss-en-top-1022-rdf",
-          "title": "Hundreds of French supermarkets hit by a cyberattack that defrosted refrigeration systems",
-          "summary": "Hundreds of French supermarkets saw their refrigeration systems defrosted, spoiling tons of frozen food. The unprecedented attack has raised serious questions about food security across Europe.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-12T18:15:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.506165+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0d794b23a50e18ab844b",
-      "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-      "category": "军事安全",
-      "score": 80.9,
-      "score_breakdown": {
-        "coverage": 19.5,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.1,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 2.7
-      },
-      "first_seen": "2026-10-11T15:32:32+00:00",
-      "last_updated": "2026-10-13T01:26:02+00:00",
-      "source_count": 3,
-      "article_count": 6,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "riyadh",
-        "airport",
-        "saudi",
-        "attacks",
-        "houthi",
-        "houthis",
-        "arabia",
-        "another"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的6篇报道，当前关注的军事安全事件为“Houthi missile attack targets Saudi capital Riyadh for third day in a row”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Saudi",
-          "Houthi",
-          "Iran",
-          "Trump",
-          "Houthis",
-          "Riyadh",
-          "Fact",
-          "Viral"
-        ],
-        "latest_progress": [
-          "10月13日 01:26 UTC，BBC World报道：“Saudi minister vows 'serious response' to Houthi attacks on airports”。",
-          "10月13日 00:00 UTC，Al Jazeera报道：“Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted”。",
-          "10月12日 23:54 UTC，Al Jazeera报道：“Houthi missile attack targets Saudi capital Riyadh for third day in a row”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_79b6a3e2b58f98d01bcf",
-          "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_campaign=rss&at_medium=RSS",
-          "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-          "summary": "It comes after the armed group hit Riyadh's international airport and another facility, killing 13 people, in a significant escalation.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T01:26:02+00:00",
-          "fetched_at": "2026-10-13T03:34:56.797873+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b82e/live/50a18f00-c629-11f1-a509-ab6554d795a2.jpg"
-        },
-        {
-          "article_id": "art_a5f1cb7e7d152acd74fb",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss",
-          "title": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
-          "summary": "US President Trump condemns Yemen's Houthis over escalating attacks, as Saudi Arabia halts flights at Riyadh airport.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T00:00:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.968998+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c3329d127902a5de79fc",
-          "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss",
-          "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-          "summary": "Saudi Arabia claims it downed a ballistic missile fired at Riyadh, as the Houthis say they targeted King Khalid airport.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-12T23:54:05+00:00",
-          "fetched_at": "2026-10-13T03:34:57.969158+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_92ef177c0e01c39ed8dd",
-          "url": "https://www.dw.com/en/fact-check-viral-videos-falsely-linked-to-riyadh-airport-attacks/a-79643037?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/fact-check-viral-videos-falsely-linked-to-riyadh-airport-attacks/a-79643037?maca=en-rss-en-top-1022-rdf",
-          "title": "Fact check: Viral videos falsely linked to Riyadh airport attacks",
-          "summary": "Many videos claiming to show an attack on Riyadh's King Khalid International Airport have gone viral online. DW Fact check analyzes some of the most-shared footage and finds evidence it was created using AI.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-12T17:19:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.506466+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0d01e02f55cd7d77f3f3",
-          "url": "https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/saudi-arabia-deadly-houthi-strikes-on-riyadh-airport-fuel-fears-of-wider-middle-east-conflict/live-79639277?maca=en-rss-en-top-1022-rdf",
-          "title": "Saudi Arabia: Deadly Houthi strikes on Riyadh airport fuel fears of wider Middle East conflict",
-          "summary": "Riyadh airport will remain closed at least until the weekend amid deadly strikes by Yemen-based Houthis. The US has said it is weighing joining Saudi military operations. More on DW.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-12T10:41:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.507776+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_553a923707b558580d86",
-          "url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_campaign=rss&at_medium=RSS",
-          "title": "Riyadh airport attacks another dangerous moment in already tense conflict",
-          "summary": "While the physical damage from Houthi attacks can be quickly repaired, the Saudi reputation for stability is taking a battering.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T15:32:32+00:00",
-          "fetched_at": "2026-10-13T03:34:56.801343+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c45/live/701466b0-c565-11f1-bd33-db1f7eaf2b30.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_af1b13f0d5b0a483f416",
-      "title": "Immigration agents search congresswoman Ilhan Omar's home",
+      "event_id": "evt_6d0d1e7e05611e78eb84",
+      "title": "Germany news: Merz says Trump's Russia diesel deal 'out of question' for Europe",
       "category": "国际政治",
-      "score": 73.1,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.5,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-12T15:12:00+00:00",
-      "last_updated": "2026-10-12T22:05:31+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "ilhan",
-        "omar",
-        "home",
-        "agents",
-        "search",
-        "trump",
-        "federal",
-        "critic"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Immigration agents search congresswoman Ilhan Omar's home”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Immigration",
-          "Ilhan Omar",
-          "US",
-          "Rep",
-          "Trump"
-        ],
-        "latest_progress": [
-          "10月12日 22:05 UTC，BBC World报道：“Immigration agents search congresswoman Ilhan Omar's home”。",
-          "10月12日 19:37 UTC，Al Jazeera报道：“US Rep. Ilhan Omar’s home searched by immigration agents”。",
-          "10月12日 15:12 UTC，DW Top Stories报道：“US federal agents search home of Trump critic Ilhan Omar”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_885d3ec067179e127110",
-          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_campaign=rss&at_medium=RSS",
-          "title": "Immigration agents search congresswoman Ilhan Omar's home",
-          "summary": "Omar, an outspoken Trump critic, said the search was \"an attempt to target political enemies\" and she \"will not be silenced\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-12T22:05:31+00:00",
-          "fetched_at": "2026-10-13T03:34:56.798347+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc45/live/01c4d970-c64f-11f1-b47f-e3f9cf703bc3.png"
-        },
-        {
-          "article_id": "art_4c10bea3f4f10cedf82a",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/us-rep-ilhan-omars-home-searched-by-immigration-agents?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/us-rep-ilhan-omars-home-searched-by-immigration-agents?traffic_source=rss",
-          "title": "US Rep. Ilhan Omar’s home searched by immigration agents",
-          "summary": "Minnesota Representative Ilhan Omar’s home has been searched as part of an undisclosed ‘criminal investigation’.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-12T19:37:11+00:00",
-          "fetched_at": "2026-10-13T03:34:57.971485+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3c43f59c6e55bc3835fe",
-          "url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-ilhan-omar/a-79643360?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-federal-agents-search-home-of-trump-critic-ilhan-omar/a-79643360?maca=en-rss-en-top-1022-rdf",
-          "title": "US federal agents search home of Trump critic Ilhan Omar",
-          "summary": "Justice Department officials said the Washington residence of Democratic Congresswoman Ilhan Omar, an outspoken opponent of President Trump, was raided as \"part of an ongoing federal investigation.\"",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-12T15:12:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.506860+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7a70aba49efb0630c2eb",
-      "title": "Thousands march to Indian Supreme Court to demand election chief resign",
-      "category": "国际政治",
-      "score": 69.0,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 13.6,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-12T09:38:00+00:00",
-      "last_updated": "2026-10-12T16:01:54+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "march",
-        "opposition",
-        "parties",
-        "court",
-        "supreme",
-        "demand",
-        "chief",
-        "election"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Thousands march to Indian Supreme Court to demand election chief resign”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "India",
-          "Thousands",
-          "Indian Supreme Court",
-          "Opposition",
-          "Supreme Court"
-        ],
-        "latest_progress": [
-          "10月12日 16:01 UTC，NPR World报道：“India's opposition parties march to top court as protests over voter lists escalate”。",
-          "10月12日 15:19 UTC，BBC World报道：“Thousands march to Indian Supreme Court to demand election chief resign”。",
-          "10月12日 09:38 UTC，DW Top Stories报道：“India news: Opposition parties march to Supreme Court”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_caef46f177037f13a08f",
-          "url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests",
-          "canonical_url": "https://www.npr.org/2026/10/12/nx-s1-5998831/india-opposition-protests",
-          "title": "India's opposition parties march to top court as protests over voter lists escalate",
-          "summary": "Opposition parties say revisions to the list of eligible voters favor Prime Minister Narendra Modi's party. Authorities have removed more than 130 million names from the voter roll.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-12T16:01:54+00:00",
-          "fetched_at": "2026-10-13T03:34:57.828822+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8b9a5f0cbec225ec5058",
-          "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_campaign=rss&at_medium=RSS",
-          "title": "Thousands march to Indian Supreme Court to demand election chief resign",
-          "summary": "The march follows a chaotic weekend in Delhi which saw thousands of protesters detained by police.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-12T15:19:17+00:00",
-          "fetched_at": "2026-10-13T03:34:56.799315+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1774/live/1fce2710-c630-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_32bbe10dad2025c6885f",
-          "url": "https://www.dw.com/en/india-news-opposition-parties-march-to-supreme-court/live-79638649?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/india-news-opposition-parties-march-to-supreme-court/live-79638649?maca=en-rss-en-top-1022-rdf",
-          "title": "India news: Opposition parties march to Supreme Court",
-          "summary": "Intensifying their demand for Chief Election Commissioner Gyanesh Kumar's resignation, opposition parties are holding a march to the Supreme Court. Follow DW for more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-12T09:38:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.508017+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e1fd7f8583e13fbcab63",
-      "title": "Poland says two Turks arrested over Russia-linked Starlink station fire",
-      "category": "国际政治",
-      "score": 67.0,
+      "score": 64.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 9.8,
+        "recency": 19.4,
+        "credibility": 9.5,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 1.8
       },
-      "first_seen": "2026-10-12T18:05:00+00:00",
-      "last_updated": "2026-10-12T22:44:00+00:00",
+      "first_seen": "2026-10-12T16:01:00+00:00",
+      "last_updated": "2026-10-13T08:44:19+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "germany",
-        "starlink",
-        "station",
-        "fire",
-        "poland",
-        "arrests",
-        "turkish",
-        "citizens"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Poland says two Turks arrested over Russia-linked Starlink station fire”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Poland",
-          "Turks",
-          "Russia",
-          "Starlink",
-          "Turkish",
-          "Germany"
-        ],
-        "latest_progress": [
-          "10月12日 22:44 UTC，Al Jazeera报道：“Poland says two Turks arrested over Russia-linked Starlink station fire”。",
-          "10月12日 18:05 UTC，DW Top Stories报道：“Poland reports arrests of 2 Turkish citizens in Germany in connection with Starlink station fire last month”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ba28b2cef394448cf7a8",
-          "url": "https://www.aljazeera.com/news/2026/10/12/poland-says-two-turks-arrested-over-russia-linked-starlink-station-fire?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/poland-says-two-turks-arrested-over-russia-linked-starlink-station-fire?traffic_source=rss",
-          "title": "Poland says two Turks arrested over Russia-linked Starlink station fire",
-          "summary": "Warsaw says the 2 suspects held in Germany will face sabotage charges.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-12T22:44:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.969659+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_10e26de413fd3fdb437e",
-          "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-top-1022-rdf",
-          "title": "Poland reports arrests of 2 Turkish citizens in Germany in connection with Starlink station fire last month",
-          "summary": "Polish authorities have reported the arrests of two Turkish citizens in Germany in connection with alleged sabotage of a Starlink station last month. Prime Minister Donald Tusk called the fire an act of \"hybrid warfare.\"",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-12T18:05:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.506313+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7b8c7ecafdc6aa35facf",
-      "title": "Trump faces growing backlash over plans to import diesel from Russia",
-      "category": "国际政治",
-      "score": 66.4,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 13.6,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 2.4
-      },
-      "first_seen": "2026-10-11T21:16:10+00:00",
-      "last_updated": "2026-10-12T16:01:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
@@ -802,31 +693,29 @@
         "North America"
       ],
       "keywords": [
-        "russia",
+        "trump's",
         "diesel",
         "deal",
-        "ukrainian",
+        "russia",
         "germany",
         "merz",
-        "trump's",
-        "out"
+        "out",
+        "europe"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Trump faces growing backlash over plans to import diesel from Russia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的国际政治事件为“Germany news: Merz says Trump's Russia diesel deal 'out of question' for Europe”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Germany",
-          "Merz",
           "Trump",
+          "Putin",
+          "Europe Germany",
+          "Merz",
           "Russia",
-          "Europe Trump",
-          "Russia Ukrainian",
-          "MP"
+          "Europe"
         ],
         "latest_progress": [
-          "10月12日 16:01 UTC，DW Top Stories报道：“Germany news: Merz says Trump's Russia diesel deal 'out of question' for Europe”。",
-          "10月11日 23:18 UTC，BBC World报道：“Trump faces growing backlash over plans to import diesel from Russia”。",
-          "10月11日 21:16 UTC，NPR World报道：“Ukrainian MP calls U.S.-Russia diesel deal a 'betrayal'”。"
+          "10月13日 08:44 UTC，NPR World报道：“Trump's diesel deal with Putin angers Europe”。",
+          "10月12日 16:01 UTC，DW Top Stories报道：“Germany news: Merz says Trump's Russia diesel deal 'out of question' for Europe”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -838,6 +727,21 @@
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_3676589bf471e3244bef",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "title": "Trump's diesel deal with Putin angers Europe",
+          "summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T08:44:19+00:00",
+          "fetched_at": "2026-10-13T11:48:20.278415+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
         {
           "article_id": "art_197648ea96debeda9fb0",
           "url": "https://www.dw.com/en/germany-news-merz-says-trump-s-russia-diesel-deal-out-of-question-for-europe/live-79636427?maca=en-rss-en-top-1022-rdf",
@@ -847,152 +751,30 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-12T16:01:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.506737+00:00",
+          "fetched_at": "2026-10-13T11:48:20.092721+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_d550d52d6e87f1e067b7",
-          "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_campaign=rss&at_medium=RSS",
-          "title": "Trump faces growing backlash over plans to import diesel from Russia",
-          "summary": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T23:18:45+00:00",
-          "fetched_at": "2026-10-13T03:34:56.799164+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c44f/live/e68c78a0-c5c9-11f1-9042-5f0794d5e895.jpg"
-        },
-        {
-          "article_id": "art_522a2c9bd0354994e384",
-          "url": "https://www.npr.org/2026/10/11/nx-s1-5997466/ukrainian-mp-calls-u-s-russia-diesel-deal-a-betrayal",
-          "canonical_url": "https://www.npr.org/2026/10/11/nx-s1-5997466/ukrainian-mp-calls-u-s-russia-diesel-deal-a-betrayal",
-          "title": "Ukrainian MP calls U.S.-Russia diesel deal a 'betrayal'",
-          "summary": "NPR's Joel Rose speaks with Ukrainian Minister of Parliament, Oleksandr Merezhko, about the U.S.'s diesel deal with Russia will impact Ukraine.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-11T21:16:10+00:00",
-          "fetched_at": "2026-10-13T03:34:57.829612+00:00",
-          "language": "en",
-          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_16a8da0b6f31e7222009",
-      "title": "UK PM says RAF base incidents ‘likely coordinated’ by Iran",
-      "category": "国际政治",
-      "score": 64.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 15.4,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-12T18:24:42+00:00",
-      "last_updated": "2026-10-12T19:02:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "raf",
-        "iran",
-        "fairford",
-        "incidents",
-        "likely",
-        "coordinated",
-        "prime",
-        "minister"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“UK PM says RAF base incidents ‘likely coordinated’ by Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "UK",
-          "Iran",
-          "RAF",
-          "Fairford",
-          "PM"
-        ],
-        "latest_progress": [
-          "10月12日 19:02 UTC，DW Top Stories报道：“UK: Iran 'highly likely' to be behind RAF Fairford incident”。",
-          "10月12日 18:24 UTC，Al Jazeera报道：“UK PM says RAF base incidents ‘likely coordinated’ by Iran”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e63739b99e48273443da",
-          "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-top-1022-rdf",
-          "title": "UK: Iran 'highly likely' to be behind RAF Fairford incident",
-          "summary": "Prime Minister Andy Burnham told parliament there were \"strong indications\" of Iranian involvement. The government summoned Iran's ambassador. The scare at RAF Fairford led to the withdrawal of USAF B-1 heavy bombers.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-12T19:02:00+00:00",
-          "fetched_at": "2026-10-13T03:34:57.506031+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_fe28d6108b71d801c4c8",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/uk-pm-says-raf-base-incidents-likely-coordinated-by-iran?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/uk-pm-says-raf-base-incidents-likely-coordinated-by-iran?traffic_source=rss",
-          "title": "UK PM says RAF base incidents ‘likely coordinated’ by Iran",
-          "summary": "UK Prime Minister Andy Burnham says the incidents at RAF Fairford and RAF Molesworth were likely coordinated by Iran.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-12T18:24:42+00:00",
-          "fetched_at": "2026-10-13T03:34:57.972257+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_235d05d1c02d8f57b179",
-      "title": "Ethiopia’s Tigray war: Where do the UAE and Saudi Arabia stand?",
+      "event_id": "evt_5943c4272e5b81a277b5",
+      "title": "Israel’s military raids NGO offices in Ramallah",
       "category": "军事安全",
-      "score": 61.4,
+      "score": 62.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.4,
+        "recency": 21.2,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-13T01:46:25+00:00",
-      "last_updated": "2026-10-13T01:46:25+00:00",
+      "first_seen": "2026-10-13T10:53:16+00:00",
+      "last_updated": "2026-10-13T10:53:16+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -1002,27 +784,95 @@
         "Middle East"
       ],
       "keywords": [
-        "ethiopia",
-        "tigray",
-        "uae",
-        "saudi",
-        "arabia",
+        "ramallah",
+        "israel",
+        "military",
+        "raids",
+        "ngo",
+        "offices",
+        "jazeera",
+        "nida"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Israel’s military raids NGO offices in Ramallah”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israel",
+          "NGO",
+          "Ramallah"
+        ],
+        "latest_progress": [
+          "10月13日 10:53 UTC，Al Jazeera报道：“Israel’s military raids NGO offices in Ramallah”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b0c41ba54be2aee8e959",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/israels-military-raids-ngo-offices-in-ramallah?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/israels-military-raids-ngo-offices-in-ramallah?traffic_source=rss",
+          "title": "Israel’s military raids NGO offices in Ramallah",
+          "summary": "Al Jazeera’s Nida Ibrahim reports from Ramallah in the occupied West Bank where Israeli forces raided several NGOs.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-13T10:53:16+00:00",
+          "fetched_at": "2026-10-13T11:48:20.387505+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e559a6b8657340e22337",
+      "title": "The escalation in Yemen is a turning point",
+      "category": "军事安全",
+      "score": 60.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-13T08:42:55+00:00",
+      "last_updated": "2026-10-13T08:42:55+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "escalation",
+        "yemen",
+        "turning",
+        "point",
+        "risk",
+        "region-wide",
         "war",
-        "stand",
-        "conflict"
+        "increasing"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Ethiopia’s Tigray war: Where do the UAE and Saudi Arabia stand?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“The escalation in Yemen is a turning point”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Ethiopia",
-          "Tigray",
-          "Where",
-          "UAE",
-          "Saudi Arabia"
+          "Yemen"
         ],
         "latest_progress": [
-          "10月13日 01:46 UTC，Al Jazeera报道：“Ethiopia’s Tigray war: Where do the UAE and Saudi Arabia stand?”。"
+          "10月13日 08:42 UTC，Al Jazeera报道：“The escalation in Yemen is a turning point”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1035,15 +885,15 @@
       },
       "articles": [
         {
-          "article_id": "art_be806ba5af4aaa5612c8",
-          "url": "https://www.aljazeera.com/news/2026/10/13/ethiopias-tigray-war-where-do-the-uae-and-saudi-arabia-stand?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/ethiopias-tigray-war-where-do-the-uae-and-saudi-arabia-stand?traffic_source=rss",
-          "title": "Ethiopia’s Tigray war: Where do the UAE and Saudi Arabia stand?",
-          "summary": "The Tigray conflict puts the UAE’s backing of Ethiopia and Saudi Arabia’s diplomatic role under scrutiny.",
+          "article_id": "art_4f9acc2ffe2778ca86aa",
+          "url": "https://www.aljazeera.com/opinions/2026/10/13/the-escalation-in-yemen-is-a-turning-point?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/opinions/2026/10/13/the-escalation-in-yemen-is-a-turning-point?traffic_source=rss",
+          "title": "The escalation in Yemen is a turning point",
+          "summary": "The risk of a region-wide war is increasing, but if cooler heads prevail, a peaceful arrangement can still be reached.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T01:46:25+00:00",
-          "fetched_at": "2026-10-13T03:34:57.968823+00:00",
+          "published_at": "2026-10-13T08:42:55+00:00",
+          "fetched_at": "2026-10-13T11:48:20.388247+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -1052,21 +902,21 @@
       ]
     },
     {
-      "event_id": "evt_f6729e5e4ff9f55c317f",
-      "title": "US archbishop says Catholics in army should not participate in firing squad",
+      "event_id": "evt_2c0b5a174f1212821d9d",
+      "title": "Ronaldo scores, waves Saudi scarf in Al-Nassr’s win after security delay",
       "category": "军事安全",
-      "score": 59.3,
+      "score": 60.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 18.2,
+        "recency": 19.1,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-12T23:05:16+00:00",
-      "last_updated": "2026-10-12T23:05:16+00:00",
+      "first_seen": "2026-10-13T08:27:37+00:00",
+      "last_updated": "2026-10-13T08:27:37+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -1076,24 +926,26 @@
         "Middle East"
       ],
       "keywords": [
-        "archbishop",
-        "catholics",
-        "army",
-        "should",
-        "not",
-        "participate",
-        "firing",
-        "squad"
+        "security",
+        "ronaldo",
+        "scores",
+        "waves",
+        "saudi",
+        "scarf",
+        "al-nassr",
+        "win"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“US archbishop says Catholics in army should not participate in firing squad”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Ronaldo scores, waves Saudi scarf in Al-Nassr’s win after security delay”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "US",
-          "Catholics"
+          "Ronaldo",
+          "Saudi",
+          "Al",
+          "Nassr"
         ],
         "latest_progress": [
-          "10月12日 23:05 UTC，Al Jazeera报道：“US archbishop says Catholics in army should not participate in firing squad”。"
+          "10月13日 08:27 UTC，Al Jazeera报道：“Ronaldo scores, waves Saudi scarf in Al-Nassr’s win after security delay”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1106,15 +958,15 @@
       },
       "articles": [
         {
-          "article_id": "art_f6812c397142157e482f",
-          "url": "https://www.aljazeera.com/news/2026/10/12/us-archbishop-says-catholics-in-army-should-not-participate-in-firing-squad?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/12/us-archbishop-says-catholics-in-army-should-not-participate-in-firing-squad?traffic_source=rss",
-          "title": "US archbishop says Catholics in army should not participate in firing squad",
-          "summary": "Archbishop Timothy Broglio says US plan to livestream Fort Hood attacker's execution is contrary to church teachings.",
+          "article_id": "art_e054cc4984271e3c5b66",
+          "url": "https://www.aljazeera.com/sports/2026/10/13/ronaldo-scores-waves-saudi-scarf-in-al-nassrs-win-after-security-delay?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/sports/2026/10/13/ronaldo-scores-waves-saudi-scarf-in-al-nassrs-win-after-security-delay?traffic_source=rss",
+          "title": "Ronaldo scores, waves Saudi scarf in Al-Nassr’s win after security delay",
+          "summary": "Al-Nassr's AFC Champions League game in Riyadh was delayed for one hour due to a security warning amid Houthi attacks.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-12T23:05:16+00:00",
-          "fetched_at": "2026-10-13T03:34:57.969502+00:00",
+          "published_at": "2026-10-13T08:27:37+00:00",
+          "fetched_at": "2026-10-13T11:48:20.388376+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
