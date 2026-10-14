@@ -1,256 +1,36 @@
 {
-  "generated_at": "2026-10-14T10:13:06.227776+00:00",
+  "generated_at": "2026-10-14T15:10:08.805470+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 80,
-    "articles_unique": 80,
+    "articles_fetched": 84,
+    "articles_unique": 84,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_2ce4b6f6bf70ae613265",
-      "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
-      "category": "国际政治",
-      "score": 74.1,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.1,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 2.6
-      },
-      "first_seen": "2026-10-13T16:08:00+00:00",
-      "last_updated": "2026-10-14T09:09:39+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "ambassador",
-        "kimberly",
-        "greece",
-        "allegations",
-        "guilfoyle",
-        "improper",
-        "conduct",
-        "resigns"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Trump",
-          "Greece",
-          "Kimberly Guilfoyle",
-          "US",
-          "Kimberly Guilfoye"
-        ],
-        "latest_progress": [
-          "10月14日 09:09 UTC，NPR World报道：“Trump's ambassador to Greece, Kimberly Guilfoyle, resigns after allegations of improper conduct”。",
-          "10月13日 19:23 UTC，BBC World报道：“Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations”。",
-          "10月13日 16:08 UTC，DW Top Stories报道：“Kimberly Guilfoye: US ambassador to Greece resigns amid misconduct allegations”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_bc40ccc70a17852944ff",
-          "url": "https://www.npr.org/2026/10/14/g-s1-148027/trump-ambassador-greece-resignation",
-          "canonical_url": "https://www.npr.org/2026/10/14/g-s1-148027/trump-ambassador-greece-resignation",
-          "title": "Trump's ambassador to Greece, Kimberly Guilfoyle, resigns after allegations of improper conduct",
-          "summary": "The White House publicly asked for U.S. Ambassador to Greece Kimberly Guilfoyle's resignation on Tuesday as she faced mounting accusations of improper conduct.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-14T09:09:39+00:00",
-          "fetched_at": "2026-10-14T10:13:05.438036+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_572bad98263fdaa9de55",
-          "url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_campaign=rss&at_medium=RSS",
-          "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
-          "summary": "Guilfoyle said the allegations of improper conduct were false and that being ambassador was the \"honour of a lifetime\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T19:23:28+00:00",
-          "fetched_at": "2026-10-14T10:13:04.720631+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f6d/live/ecd9e6d0-c73a-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_841a80f3adb2ee5230bc",
-          "url": "https://www.dw.com/en/kimberly-guilfoye-us-ambassador-to-greece-resigns-amid-misconduct-allegations/a-79652952?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/kimberly-guilfoye-us-ambassador-to-greece-resigns-amid-misconduct-allegations/a-79652952?maca=en-rss-en-top-1022-rdf",
-          "title": "Kimberly Guilfoye: US ambassador to Greece resigns amid misconduct allegations",
-          "summary": "Kimberly Guilfoyle has resigned as US ambassador to Greece. President Trump previously said he was unhappy with her amid reports of a bribery scandal and ethics violations.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-13T16:08:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.276913+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d8e49d7cd34247676a37",
-      "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
-      "category": "能源资源",
-      "score": 72.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.2,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-14T00:50:00+00:00",
-      "last_updated": "2026-10-14T04:20:17+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "missiles",
-        "saudi",
-        "intercepted",
-        "arabia",
-        "coalition",
-        "riyadh",
-        "houthis",
-        "saudi-led"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Missiles",
-          "Riyadh",
-          "Saudi",
-          "Yemen",
-          "Houthi",
-          "Saudi Arabia",
-          "Houthis"
-        ],
-        "latest_progress": [
-          "10月14日 04:20 UTC，BBC World报道：“Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot”。",
-          "10月14日 03:09 UTC，Al Jazeera报道：“Houthi missiles intercepted over Saudi Arabia as battles intensify”。",
-          "10月14日 00:50 UTC，DW Top Stories报道：“Houthis launch fresh wave of missiles across Saudi Arabia”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4526a1364c7120a60a66",
-          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_campaign=rss&at_medium=RSS",
-          "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
-          "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-14T04:20:17+00:00",
-          "fetched_at": "2026-10-14T10:13:04.720560+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_44c65b7ad7992e52e5d2",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
-          "title": "Houthi missiles intercepted over Saudi Arabia as battles intensify",
-          "summary": "Saudi Arabia says it intercepted missiles targeting Riyadh and Dhahran, with falling debris injuring people.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-14T03:09:46+00:00",
-          "fetched_at": "2026-10-14T10:13:05.628789+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ac1abac296adb7f0de69",
-          "url": "https://www.dw.com/en/houthis-launch-fresh-wave-of-missiles-across-saudi-arabia/live-79655805?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/houthis-launch-fresh-wave-of-missiles-across-saudi-arabia/live-79655805?maca=en-rss-en-top-1022-rdf",
-          "title": "Houthis launch fresh wave of missiles across Saudi Arabia",
-          "summary": "Both the Houthis and the Saudi-led coalition carried out strikes targeting energy infrastructure. Four people were injured as a result of debris of intercepted missiles in Riyadh. DW has the latest.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-14T00:50:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.276281+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_c4164b1c8f100eb5e94c",
-      "title": "Saudi employee charged with planting recording device in OpenAI office",
+      "title": "Saudi national charged with planting a listening device at OpenAI offices",
       "category": "科技AI",
-      "score": 71.4,
+      "score": 76.6,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 17.2,
-        "credibility": 9.8,
+        "recency": 21.5,
+        "credibility": 9.9,
         "impact": 9.8,
-        "velocity": 5.0
+        "velocity": 3.5
       },
       "first_seen": "2026-10-13T21:24:00+00:00",
-      "last_updated": "2026-10-14T04:16:13+00:00",
+      "last_updated": "2026-10-14T14:39:29+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -263,23 +43,24 @@
       "keywords": [
         "device",
         "openai",
+        "saudi",
+        "employee",
         "planting",
         "listening",
-        "employee",
-        "saudi",
         "arrested",
-        "conference"
+        "national"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的科技AI事件为“Saudi employee charged with planting recording device in OpenAI office”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的科技AI事件为“Saudi national charged with planting a listening device at OpenAI offices”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Saudi"
+          "Saudi",
+          "What"
         ],
         "latest_progress": [
-          "10月14日 04:16 UTC，Al Jazeera报道：“Saudi-born engineer for OpenAI arrested for planting listening bug”。",
-          "10月13日 21:42 UTC，BBC World报道：“Saudi employee charged with planting recording device in OpenAI office”。",
-          "10月13日 21:24 UTC，DW Top Stories报道：“OpenAI says employee caught planting listening device”。"
+          "10月14日 14:39 UTC，Al Jazeera报道：“Saudi national charged with planting a listening device at OpenAI offices”。",
+          "10月14日 13:18 UTC，Al Jazeera报道：“What we know about OpenAI engineer arrested over office spying”。",
+          "10月13日 21:42 UTC，BBC World报道：“Saudi employee charged with planting recording device in OpenAI office”。"
         ],
         "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
         "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
@@ -292,15 +73,30 @@
       },
       "articles": [
         {
-          "article_id": "art_5a74a6e15a171262bbcc",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
-          "title": "Saudi-born engineer for OpenAI arrested for planting listening bug",
-          "summary": "OpenAI says it discovered a hidden recording device in one of its offices, wrapped in toilet paper behind a television.",
+          "article_id": "art_bca564c10cb39fa6ac49",
+          "url": "https://www.aljazeera.com/news/2026/10/14/saudi-national-charged-with-planting-a-listening-device-at-openai-offices?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/14/saudi-national-charged-with-planting-a-listening-device-at-openai-offices?traffic_source=rss",
+          "title": "Saudi national charged with planting a listening device at OpenAI offices",
+          "summary": "US FBI said Abdulrahman Alfozan was engineer at the tech giant from June 2025.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-14T04:16:13+00:00",
-          "fetched_at": "2026-10-14T10:13:05.628587+00:00",
+          "published_at": "2026-10-14T14:39:29+00:00",
+          "fetched_at": "2026-10-14T15:10:07.919452+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b4bd9218c7d49a9ac7bd",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/what-we-know-about-openai-engineer-arrested-over-office-spying?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/what-we-know-about-openai-engineer-arrested-over-office-spying?traffic_source=rss",
+          "title": "What we know about OpenAI engineer arrested over office spying",
+          "summary": "Saudi OpenAI employee was arrested over allegations he planted a hidden device to record sensitive company conversations",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-14T13:18:02+00:00",
+          "fetched_at": "2026-10-14T15:10:07.920301+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -315,7 +111,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-13T21:42:49+00:00",
-          "fetched_at": "2026-10-14T10:13:04.720338+00:00",
+          "fetched_at": "2026-10-14T15:10:06.874075+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -330,7 +126,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-13T21:24:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.276395+00:00",
+          "fetched_at": "2026-10-14T15:10:07.471407+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -339,111 +135,253 @@
       ]
     },
     {
-      "event_id": "evt_c043b3c92a8c8989adec",
-      "title": "Trump says oil, gas and mineral exploration to begin in Greenland",
-      "category": "能源资源",
-      "score": 70.8,
+      "event_id": "evt_08ed0a4670eaa0f1a35d",
+      "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+      "category": "国际政治",
+      "score": 76.1,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 19.8,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.6
+      },
+      "first_seen": "2026-10-13T19:50:00+00:00",
+      "last_updated": "2026-10-14T12:37:33+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "lung",
+        "pope",
+        "surgery",
+        "leo",
+        "cancer",
+        "vatican",
+        "had",
+        "diagnosed"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Pope diagnosed with lung cancer but had successful surgery, Vatican says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "What",
+          "Pope",
+          "Zelenskyy",
+          "NPR",
+          "And",
+          "Pope Leo",
+          "Vatican"
+        ],
+        "latest_progress": [
+          "10月14日 12:37 UTC，BBC World报道：“What we know about the Pope's lung cancer diagnosis”。",
+          "10月14日 11:38 UTC，NPR World报道：“Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer”。",
+          "10月14日 11:17 UTC，BBC World报道：“Pope diagnosed with lung cancer but had successful surgery, Vatican says”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_725e63f909f2ae74f762",
+          "url": "https://www.bbc.co.uk/news/videos/cwyvrmp9qgrgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwyvrmp9qgrgo?at_campaign=rss&at_medium=RSS",
+          "title": "What we know about the Pope's lung cancer diagnosis",
+          "summary": "The Pope is recovering in hospital after a successful surgery to remove part of his right lung.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T12:37:33+00:00",
+          "fetched_at": "2026-10-14T15:10:06.875645+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3145/live/67da1f80-c7cc-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_680b12d06bc24d6575f8",
+          "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
+          "canonical_url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
+          "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
+          "summary": "Ukrainian President Volodymyr Zelenskyy has a sit-down interview with NPR as Russia's full-scale invasion nears the 5-year mark. And, Pope Leo XIV has been diagnosed with lung cancer.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T11:38:51+00:00",
+          "fetched_at": "2026-10-14T15:10:07.781447+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_da70fb6c8d817b037061",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_campaign=rss&at_medium=RSS",
+          "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+          "summary": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T11:17:51+00:00",
+          "fetched_at": "2026-10-14T15:10:06.873541+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2a0/live/ccd96d30-c792-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_9222d37e6c0c06579b11",
+          "url": "https://www.dw.com/en/vatican-confirms-pope-leo-underwent-surgery-for-lung-cancer/a-79647264?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/vatican-confirms-pope-leo-underwent-surgery-for-lung-cancer/a-79647264?maca=en-rss-en-top-1022-rdf",
+          "title": "Vatican confirms Pope Leo underwent surgery for lung cancer",
+          "summary": "The pope has had part of his lung removed and is recovering after surgery. Leo has been unusually candid for a pontiff about his health issues, disclosing the surgery to thousands of people in St. Peter's Square.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T19:50:00+00:00",
+          "fetched_at": "2026-10-14T15:10:07.471489+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2a97d2efee4f3ca22201",
+      "title": "Russia’s arrest of Japanese journalist: Why are tensions rising?",
+      "category": "军事安全",
+      "score": 74.5,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T08:00:03+00:00",
+      "last_updated": "2026-10-14T13:22:46+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "japanese",
+        "journalist",
+        "russia",
+        "spying",
+        "arrests",
+        "defence",
+        "capabilities",
+        "suspicion"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Russia’s arrest of Japanese journalist: Why are tensions rising?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russia",
+          "Japanese",
+          "Why"
+        ],
+        "latest_progress": [
+          "10月14日 13:22 UTC，Al Jazeera报道：“Russia arrests Japanese journalist on suspicion of ‘espionage’”。",
+          "10月14日 10:46 UTC，Al Jazeera报道：“Russia’s arrest of Japanese journalist: Why are tensions rising?”。",
+          "10月14日 08:00 UTC，BBC World报道：“Russia arrests Japanese journalist on spying charges”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ddc68ef3695af492b684",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/russia-arrests-japanese-journalist-on-suspicion-of?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/russia-arrests-japanese-journalist-on-suspicion-of?traffic_source=rss",
+          "title": "Russia arrests Japanese journalist on suspicion of ‘espionage’",
+          "summary": "A Japanese journalist has been detained in Russia on suspicion of spying for Japanese intelligence.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-14T13:22:46+00:00",
+          "fetched_at": "2026-10-14T15:10:07.920203+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_55d41e75eb5b6dfa2435",
+          "url": "https://www.aljazeera.com/news/2026/10/14/russias-arrest-of-japanese-journalist-why-are-tensions-rising?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/14/russias-arrest-of-japanese-journalist-why-are-tensions-rising?traffic_source=rss",
+          "title": "Russia’s arrest of Japanese journalist: Why are tensions rising?",
+          "summary": "Japanese journalist Imai Yuki arrested on Sakhalin for allegedly spying on Russian defence capabilities, says the FSB.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-14T10:46:55+00:00",
+          "fetched_at": "2026-10-14T15:10:07.921463+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c698a7f89e31b42db5c9",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_campaign=rss&at_medium=RSS",
+          "title": "Russia arrests Japanese journalist on spying charges",
+          "summary": "The Hokkaido Shimbun journalist is accused of collecting information on Moscow's defence capabilities for Tokyo.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T08:00:03+00:00",
+          "fetched_at": "2026-10-14T15:10:06.874760+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c43/live/65eee660-c781-11f1-b999-873e5cdc91d4.png"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_519e1a238e8b01c822d6",
+      "title": "Albanian students clash with police as they protest over education and jobs",
+      "category": "社会突发",
+      "score": 71.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
         "recency": 21.8,
         "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-14T08:08:42+00:00",
-      "last_updated": "2026-10-14T10:00:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "greenland",
-        "oil",
-        "trump",
-        "gas",
-        "mineral",
-        "exploration",
-        "president",
-        "deal"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Trump says oil, gas and mineral exploration to begin in Greenland”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Trump",
-          "Greenland Trump",
-          "Greenland"
-        ],
-        "latest_progress": [
-          "10月14日 10:00 UTC，DW Top Stories报道：“Trump announces plans for major oil, gas and mineral exploration in Greenland”。",
-          "10月14日 08:08 UTC，Al Jazeera报道：“Trump says oil, gas and mineral exploration to begin in Greenland”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6750f3929e6f806fb2d3",
-          "url": "https://www.dw.com/en/trump-announces-plans-for-major-oil-gas-and-mineral-exploration-in-greenland/a-79656889?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-announces-plans-for-major-oil-gas-and-mineral-exploration-in-greenland/a-79656889?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump announces plans for major oil, gas and mineral exploration in Greenland",
-          "summary": "The US president has claimed Greenland holds vast and easily accessible oil reserves without providing evidence or details. His announcement follows a deal expanding the US military presence on the Arctic island.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-14T10:00:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.275690+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_1e3e5e1b8b828f1a4d05",
-          "url": "https://www.aljazeera.com/news/2026/10/14/trump-says-oil-gas-and-mineral-exploration-to-begin-in-greenland?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/14/trump-says-oil-gas-and-mineral-exploration-to-begin-in-greenland?traffic_source=rss",
-          "title": "Trump says oil, gas and mineral exploration to begin in Greenland",
-          "summary": "The US president also praises the security advantages of last month's deal with Denmark and Greenland.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-14T08:08:42+00:00",
-          "fetched_at": "2026-10-14T10:13:05.627429+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_99e69859047c2890fa08",
-      "title": "India’s ‘Cockroach’ leaders jailed after entering ‘banned’ protest site",
-      "category": "社会突发",
-      "score": 70.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.8,
-        "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-14T05:08:00+00:00",
-      "last_updated": "2026-10-14T08:51:36+00:00",
+      "first_seen": "2026-10-14T10:14:17+00:00",
+      "last_updated": "2026-10-14T14:56:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -455,25 +393,27 @@
         "Middle East"
       ],
       "keywords": [
-        "leaders",
+        "albanian",
+        "students",
+        "police",
         "protest",
-        "india",
-        "cockroach",
-        "site",
-        "india's",
-        "five",
-        "days"
+        "education",
+        "clash",
+        "they",
+        "jobs"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“India’s ‘Cockroach’ leaders jailed after entering ‘banned’ protest site”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Albanian students clash with police as they protest over education and jobs”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "India",
-          "Cockroach"
+          "Albania",
+          "Fire",
+          "Education Ministry",
+          "Albanian"
         ],
         "latest_progress": [
-          "10月14日 08:51 UTC，Al Jazeera报道：“India’s ‘Cockroach’ leaders jailed after entering ‘banned’ protest site”。",
-          "10月14日 05:08 UTC，DW Top Stories报道：“India news: 'Cockroach' leaders sent to judicial custody amid protest crackdown”。"
+          "10月14日 14:56 UTC，DW Top Stories报道：“Albania: Fire at Education Ministry as students protest”。",
+          "10月14日 10:14 UTC，Al Jazeera报道：“Albanian students clash with police as they protest over education and jobs”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -486,53 +426,252 @@
       },
       "articles": [
         {
-          "article_id": "art_75188e4838f5e41ae6b4",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/indias-cockroach-leaders-jailed-after-entering-banned-protest-site?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/indias-cockroach-leaders-jailed-after-entering-banned-protest-site?traffic_source=rss",
-          "title": "India’s ‘Cockroach’ leaders jailed after entering ‘banned’ protest site",
-          "summary": "Two Cockroach Janta Party leaders have been jailed for five days after entering a banned protest site in India's Delhi.",
+          "article_id": "art_b187d902beb0f85f412f",
+          "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-top-1022-rdf",
+          "title": "Albania: Fire at Education Ministry as students protest",
+          "summary": "Riot police deployed in the Albanian capital Tirana on the second day of student protests. The sudden outbreak seemed at least somewhat reminiscent of the widespread demos in France courting international attention.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-14T14:56:00+00:00",
+          "fetched_at": "2026-10-14T15:10:07.469775+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_60554d40d2b2f4ce47d2",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/albanian-students-clash-with-police-as-they-protest-over-education-and-jobs?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/albanian-students-clash-with-police-as-they-protest-over-education-and-jobs?traffic_source=rss",
+          "title": "Albanian students clash with police as they protest over education and jobs",
+          "summary": "Albanian students clash with police as they protest education costs, poor university conditions and bleak job prospects.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-14T08:51:36+00:00",
-          "fetched_at": "2026-10-14T10:13:05.627203+00:00",
+          "published_at": "2026-10-14T10:14:17+00:00",
+          "fetched_at": "2026-10-14T15:10:07.921564+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2cfb5fb693d60a30f259",
+      "title": "Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot",
+      "category": "军事安全",
+      "score": 70.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T11:39:06+00:00",
+      "last_updated": "2026-10-14T12:26:13+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "houthi",
+        "saudi-led",
+        "coalition",
+        "missile",
+        "saudi",
+        "intercepts",
+        "launched",
+        "towards"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Houthi",
+          "Aramco",
+          "Saudi",
+          "Yemen",
+          "Riyadh"
+        ],
+        "latest_progress": [
+          "10月14日 12:26 UTC，BBC World报道：“Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot”。",
+          "10月14日 11:39 UTC，Al Jazeera报道：“Saudi-led coalition intercepts Houthi missile launched towards Riyadh”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
-          "article_id": "art_9d02d857e9a66eb4a75e",
-          "url": "https://www.dw.com/en/india-news-cockroach-leaders-sent-to-judicial-custody-amid-protest-crackdown/live-79656344?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/india-news-cockroach-leaders-sent-to-judicial-custody-amid-protest-crackdown/live-79656344?maca=en-rss-en-top-1022-rdf",
-          "title": "India news: 'Cockroach' leaders sent to judicial custody amid protest crackdown",
-          "summary": "Three of India's Cockroach movement leaders will spend five days in jail over charges of trespassing into what was until recently a designated protest site. In other news, Marco Rubio is set to visit India. DW has more.",
-          "source": "DW Top Stories",
+          "article_id": "art_4526a1364c7120a60a66",
+          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_campaign=rss&at_medium=RSS",
+          "title": "Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot",
+          "summary": "The Saudi energy ministry says the Houthi attack caused a \"limited fire\" at Aramco's headquarters complex in Dhahran.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-14T05:08:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.276167+00:00",
+          "published_at": "2026-10-14T12:26:13+00:00",
+          "fetched_at": "2026-10-14T15:10:06.874859+00:00",
           "language": "en",
           "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_f3296f2a1f61248db3ce",
+          "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh?traffic_source=rss",
+          "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+          "summary": "Saudi civil defence authority says danger passed after it issued alerts via its national early warning platform.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-14T11:39:06+00:00",
+          "fetched_at": "2026-10-14T15:10:07.920988+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_47e575a41dc515e374d5",
+      "title": "Trump's diesel deal with Russia is unlikely to significantly lower global fuel prices despite expectations of rapid relief",
+      "category": "国际政治",
+      "score": 69.3,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.2,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 1.5
+      },
+      "first_seen": "2026-10-13T08:44:19+00:00",
+      "last_updated": "2026-10-14T14:15:00+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "diesel",
+        "deal",
+        "trump's",
+        "russia",
+        "president",
+        "market",
+        "price",
+        "high"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Trump's diesel deal with Russia is unlikely to significantly lower global fuel prices despite expectations of rapid relief”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Trump",
+          "Russia",
+          "Putin",
+          "Europe"
+        ],
+        "latest_progress": [
+          "10月14日 14:15 UTC，DW Top Stories报道：“Trump's diesel deal with Russia is unlikely to significantly lower global fuel prices despite expectations of rapid relief”。",
+          "10月13日 20:03 UTC，NPR World报道：“How will a diesel deal with Russia impact the U.S. market?”。",
+          "10月13日 08:44 UTC，NPR World报道：“Trump's diesel deal with Putin angers Europe”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_39963ff5d03b912a1a81",
+          "url": "https://www.dw.com/en/trump-s-diesel-deal-with-russia-is-unlikely-to-significantly-lower-global-fuel-prices-despite-expectations-of-rapid-relief/a-79659601?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-s-diesel-deal-with-russia-is-unlikely-to-significantly-lower-global-fuel-prices-despite-expectations-of-rapid-relief/a-79659601?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump's diesel deal with Russia is unlikely to significantly lower global fuel prices despite expectations of rapid relief",
+          "summary": "As the world's largest diesel exporter, the US benefits from high prices. At home, however, consumers are feeling the strain of rising living costs. Why Donald Trump's deal with Russia is unlikely to change that.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-14T14:15:00+00:00",
+          "fetched_at": "2026-10-14T15:10:07.470105+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_be4cd9cc470b5d1b852b",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
+          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
+          "title": "How will a diesel deal with Russia impact the U.S. market?",
+          "summary": "The price of diesel hit an all-time high in the U.S. in September. Can President Trump's deal for Russia to release more diesel onto the market bring the price down?",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T20:03:37+00:00",
+          "fetched_at": "2026-10-14T15:10:07.781869+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3676589bf471e3244bef",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "title": "Trump's diesel deal with Putin angers Europe",
+          "summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T08:44:19+00:00",
+          "fetched_at": "2026-10-14T15:10:07.782255+00:00",
+          "language": "en",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_2a71f1b63f5822bd937e",
-      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "category": "能源资源",
-      "score": 67.9,
+      "event_id": "evt_6ec46fbb4ee53fce64cc",
+      "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+      "category": "军事安全",
+      "score": 68.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 21.4,
+        "recency": 20.3,
         "credibility": 9.8,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-14T06:51:00+00:00",
-      "last_updated": "2026-10-14T09:32:54+00:00",
+      "first_seen": "2026-10-14T11:07:00+00:00",
+      "last_updated": "2026-10-14T13:11:17+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -543,14 +682,195 @@
         "Europe"
       ],
       "keywords": [
-        "germany",
-        "trial",
-        "pipelines",
+        "ukraine",
+        "starlink",
+        "musk's",
+        "spacex",
+        "kyiv's",
+        "system",
+        "drones",
+        "russian"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Starlink",
+          "Ukraine",
+          "Zelensky",
+          "Musk",
+          "Kyiv"
+        ],
+        "latest_progress": [
+          "10月14日 13:11 UTC，BBC World报道：“Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says”。",
+          "10月14日 11:07 UTC，DW Top Stories报道：“Ukraine says Musk's SpaceX limits Kyiv's Starlink access”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_13daef767ce5f96ab98c",
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_campaign=rss&at_medium=RSS",
+          "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+          "summary": "Elon Musk's system allows Kyiv to protect Ukrainian skies and effectively guide drones to Russian targets.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T13:11:17+00:00",
+          "fetched_at": "2026-10-14T15:10:06.873268+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0ee/live/d48bf4b0-c7c6-11f1-9a39-31b474234113.jpg"
+        },
+        {
+          "article_id": "art_bd9d9e80fcdbeddb4991",
+          "url": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine says Musk's SpaceX limits Kyiv's Starlink access",
+          "summary": "Ukraine accused SpaceX of restricting use of its Starlink system, impacting Kyiv's ability to control its drones as Russian attacks continue unabated.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-14T11:07:00+00:00",
+          "fetched_at": "2026-10-14T15:10:07.470519+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_069b3e47932f4d4ed663",
+      "title": "Trump plans for ‘massive’ resource exploration in Greenland",
+      "category": "能源资源",
+      "score": 67.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T10:00:00+00:00",
+      "last_updated": "2026-10-14T11:05:07+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "greenland",
+        "trump",
+        "oil",
+        "exploration",
+        "announces",
+        "plans",
+        "gas",
+        "mineral"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Trump plans for ‘massive’ resource exploration in Greenland”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Trump",
+          "Greenland Trump",
+          "Greenland"
+        ],
+        "latest_progress": [
+          "10月14日 11:05 UTC，Al Jazeera报道：“Trump plans for ‘massive’ resource exploration in Greenland”。",
+          "10月14日 10:00 UTC，DW Top Stories报道：“Trump announces plans for major oil, gas and mineral exploration in Greenland”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_88d13540853da0f380dc",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/trump-plans-for-massive-resource-exploration-in-greenland?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/trump-plans-for-massive-resource-exploration-in-greenland?traffic_source=rss",
+          "title": "Trump plans for ‘massive’ resource exploration in Greenland",
+          "summary": "US President Donald Trump announces a plan on Truth Social for oil, gas and mineral exploration in Greenland.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-14T11:05:07+00:00",
+          "fetched_at": "2026-10-14T15:10:07.921176+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6750f3929e6f806fb2d3",
+          "url": "https://www.dw.com/en/trump-announces-plans-for-major-oil-gas-and-mineral-exploration-in-greenland/a-79656889?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-announces-plans-for-major-oil-gas-and-mineral-exploration-in-greenland/a-79656889?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump announces plans for major oil, gas and mineral exploration in Greenland",
+          "summary": "The US president has claimed Greenland holds vast and easily accessible oil reserves without providing evidence or details. His announcement follows a deal expanding the US military presence on the Arctic island.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-14T10:00:00+00:00",
+          "fetched_at": "2026-10-14T15:10:07.470681+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f22cb256c851d4a433e3",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "category": "能源资源",
+      "score": 67.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.7,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T11:40:00+00:00",
+      "last_updated": "2026-10-14T13:41:51+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
         "nord",
         "stream",
+        "germany",
         "ukrainian",
-        "major",
-        "gas"
+        "accused",
+        "pipelines",
+        "puts",
+        "trial"
       ],
       "analysis": {
         "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
@@ -561,8 +881,8 @@
           "Nord Stream"
         ],
         "latest_progress": [
-          "10月14日 09:32 UTC，BBC World报道：“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。",
-          "10月14日 06:51 UTC，DW Top Stories报道：“Germany news: Nord Stream sabotage suspect's trial opens”。"
+          "10月14日 13:41 UTC，BBC World报道：“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。",
+          "10月14日 11:40 UTC，DW Top Stories报道：“Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
         "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
@@ -579,26 +899,26 @@
           "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_campaign=rss&at_medium=RSS",
           "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-          "summary": "Four years after the attacks, Serhii K is in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+          "summary": "Four years after the attacks, Serhii Kuznetsov appears in court accused of a plot to destroy Russia's gas pipelines to Germany.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-14T09:32:54+00:00",
-          "fetched_at": "2026-10-14T10:13:04.720257+00:00",
+          "published_at": "2026-10-14T13:41:51+00:00",
+          "fetched_at": "2026-10-14T15:10:06.873650+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8583/live/42414480-c72f-11f1-bc2e-018d645d8d21.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b7/live/66289890-c7c4-11f1-993a-152cbb068da1.jpg"
         },
         {
-          "article_id": "art_e3e33b4d260881f8485d",
-          "url": "https://www.dw.com/en/germany-news-nord-stream-sabotage-suspect-s-trial-opens/live-79656436?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-news-nord-stream-sabotage-suspect-s-trial-opens/live-79656436?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany news: Nord Stream sabotage suspect's trial opens",
-          "summary": "A Ukrainian man is going on trial in Hamburg in the case of a 2022 attack on major gas pipelines. At the same time, Chancellor Merz is expected to give a major policy statement. DW has more.",
+          "article_id": "art_6d55300e596f9cb5eecd",
+          "url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
+          "title": "Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial",
+          "summary": "A Ukrainian citizen faces court in Hamburg, accused of attacking the Nord Stream gas pipelines in 2022. It raises questions about Kyiv's possible role in the explosions. German support for Ukraine is also under scrutiny.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-14T06:51:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.276048+00:00",
+          "published_at": "2026-10-14T11:40:00+00:00",
+          "fetched_at": "2026-10-14T15:10:07.470441+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -607,237 +927,21 @@
       ]
     },
     {
-      "event_id": "evt_e3ec05ff4106290ae43e",
-      "title": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
-      "category": "社会突发",
-      "score": 66.2,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 21.9,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 2.1
-      },
-      "first_seen": "2026-10-13T19:40:00+00:00",
-      "last_updated": "2026-10-14T10:08:26+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "tupac",
-        "davis",
-        "shakur",
-        "murder",
-        "former",
-        "gang",
-        "leader",
-        "duane"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Ex",
-          "Tupac Shakur",
-          "Former",
-          "Duane Davis"
-        ],
-        "latest_progress": [
-          "10月14日 10:08 UTC，BBC World报道：“Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder”。",
-          "10月13日 19:40 UTC，DW Top Stories报道：“Tupac Shakur murder trial: Former gang leader Duane Davis sentenced to 40 years”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_953f688990f5ecbebeb9",
-          "url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_campaign=rss&at_medium=RSS",
-          "title": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
-          "summary": "Davis was found guilty last month over his role in the late rap superstar's death in a drive-by shooting in 1996.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-14T10:08:26+00:00",
-          "fetched_at": "2026-10-14T10:13:04.720701+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37f6/live/8c0f8020-c73b-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_f7f8e4b9be49c8795f9b",
-          "url": "https://www.dw.com/en/tupac-shakur-murder-trial-former-gang-leader-duane-davis-sentenced-to-40-years/a-79655189?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/tupac-shakur-murder-trial-former-gang-leader-duane-davis-sentenced-to-40-years/a-79655189?maca=en-rss-en-top-1022-rdf",
-          "title": "Tupac Shakur murder trial: Former gang leader Duane Davis sentenced to 40 years",
-          "summary": "Former Los Angeles gang leader Duane \"Keffe D\" Davis was found guilty of ordering the killing of hip-hop icon Tupac Shakur.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-13T19:40:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.276509+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_47e575a41dc515e374d5",
-      "title": "Ukraine and the US: What's next after Trump's diesel deal with Russia?",
+      "event_id": "evt_1c897fb6b3147788c417",
+      "title": "Colombia opens embassy in Jerusalem and restores free trade with Israel",
       "category": "国际政治",
-      "score": 66.1,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 12.2,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-13T08:44:19+00:00",
-      "last_updated": "2026-10-13T20:03:37+00:00",
-      "source_count": 2,
-      "article_count": 4,
-      "sources": [
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "diesel",
-        "deal",
-        "trump's",
-        "russia",
-        "president",
-        "ukraine",
-        "europe",
-        "allies"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Ukraine and the US: What's next after Trump's diesel deal with Russia?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Russia",
-          "Ukraine",
-          "Poland",
-          "Starlink",
-          "Trump",
-          "US",
-          "What",
-          "Putin"
-        ],
-        "latest_progress": [
-          "10月13日 20:03 UTC，NPR World报道：“How will a diesel deal with Russia impact the U.S. market?”。",
-          "10月13日 18:52 UTC，DW Top Stories报道：“Ukraine allies in Poland after Starlink sabotage, Trump diesel deal”。",
-          "10月13日 18:51 UTC，DW Top Stories报道：“Ukraine and the US: What's next after Trump's diesel deal with Russia?”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_be4cd9cc470b5d1b852b",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
-          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
-          "title": "How will a diesel deal with Russia impact the U.S. market?",
-          "summary": "The price of diesel hit an all-time high in the U.S. in September. Can President Trump's deal for Russia to release more diesel onto the market bring the price down?",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T20:03:37+00:00",
-          "fetched_at": "2026-10-14T10:13:05.438114+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_46209f13e5b445017960",
-          "url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine allies in Poland after Starlink sabotage, Trump diesel deal",
-          "summary": "Germany's Johann Wadephul said hybrid plots like the Starlink fire showed Europe was \"in Russia's crosshairs.\" The UK's Ed Miliband said Trump's Russian diesel deal led to a \"very difficult few days\" diplomatically.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-13T18:52:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.276623+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_160cb08278d2a8ec8a80",
-          "url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine and the US: What's next after Trump's diesel deal with Russia?",
-          "summary": "Donald Trump plans to allow the purchase of Russian diesel, drawing criticism at home and abroad. What is behind the US president's decision and what should Ukraine do next? DW spoke with experts.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-13T18:51:00+00:00",
-          "fetched_at": "2026-10-14T10:13:05.276678+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3676589bf471e3244bef",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-          "title": "Trump's diesel deal with Putin angers Europe",
-          "summary": "President Trump's diesel deal with Russia sparks European fury, as Ukraine's President Zelenskyy questions Washington's motives and allies vow to keep pressure on Moscow.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T08:44:19+00:00",
-          "fetched_at": "2026-10-14T10:13:05.438395+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d986df66a84b7b81c54a",
-      "title": "‘Like we don’t exist’: Palestinians in West Bank denied say in Israel vote",
-      "category": "国际政治",
-      "score": 62.9,
+      "score": 64.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.8,
+        "recency": 21.1,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-14T07:05:31+00:00",
-      "last_updated": "2026-10-14T07:41:20+00:00",
+      "first_seen": "2026-10-14T12:28:06+00:00",
+      "last_updated": "2026-10-14T14:08:45+00:00",
       "source_count": 1,
       "article_count": 2,
       "sources": [
@@ -847,27 +951,27 @@
         "Middle East"
       ],
       "keywords": [
-        "palestinians",
-        "west",
-        "bank",
-        "say",
+        "colombia",
+        "embassy",
+        "jerusalem",
         "israel",
-        "vote",
-        "occupied",
-        "little"
+        "opens",
+        "restores",
+        "free",
+        "trade"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“‘Like we don’t exist’: Palestinians in West Bank denied say in Israel vote”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Colombia opens embassy in Jerusalem and restores free trade with Israel”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Palestinians",
+          "Colombia",
           "Israel",
-          "Like",
-          "West Bank"
+          "Jerusalem Colombia",
+          "Jerusalem"
         ],
         "latest_progress": [
-          "10月14日 07:41 UTC，Al Jazeera报道：“Palestinians say Israel’s democracy ‘is a joke’”。",
-          "10月14日 07:05 UTC，Al Jazeera报道：“‘Like we don’t exist’: Palestinians in West Bank denied say in Israel vote”。"
+          "10月14日 14:08 UTC，Al Jazeera报道：“Colombia inaugurates embassy to Israel in Jerusalem”。",
+          "10月14日 12:28 UTC，Al Jazeera报道：“Colombia opens embassy in Jerusalem and restores free trade with Israel”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -880,102 +984,30 @@
       },
       "articles": [
         {
-          "article_id": "art_c2f2f94bffe8942c2b02",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/palestinians-say-israels-democracy-is-a?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/palestinians-say-israels-democracy-is-a?traffic_source=rss",
-          "title": "Palestinians say Israel’s democracy ‘is a joke’",
-          "summary": "As Israelis prepare to vote, Palestinians in the occupied West Bank say they have little hope of change.",
+          "article_id": "art_9bc7111ff86bb9278062",
+          "url": "https://www.aljazeera.com/news/2026/10/14/colombia-inaugurates-embassy-to-israel-in-jerusalem?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/14/colombia-inaugurates-embassy-to-israel-in-jerusalem?traffic_source=rss",
+          "title": "Colombia inaugurates embassy to Israel in Jerusalem",
+          "summary": "Palestinian officials slam move by Colombian government that marked major shift after ex-president had cut Israel ties.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-14T07:41:20+00:00",
-          "fetched_at": "2026-10-14T10:13:05.627573+00:00",
+          "published_at": "2026-10-14T14:08:45+00:00",
+          "fetched_at": "2026-10-14T15:10:07.919796+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_64f1390516267b3f0daf",
-          "url": "https://www.aljazeera.com/features/2026/10/14/like-we-dont-exist-palestinians-in-west-bank-denied-say-in-israel-vote?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/features/2026/10/14/like-we-dont-exist-palestinians-in-west-bank-denied-say-in-israel-vote?traffic_source=rss",
-          "title": "‘Like we don’t exist’: Palestinians in West Bank denied say in Israel vote",
-          "summary": "Palestinians in the occupied West Bank see little prospect Israel’s election will change their lives under occupation.",
+          "article_id": "art_1eb3573d9c72de5690a0",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/colombia-opens-embassy-in-jerusalem-and-restores-free-trade-with-israel?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/colombia-opens-embassy-in-jerusalem-and-restores-free-trade-with-israel?traffic_source=rss",
+          "title": "Colombia opens embassy in Jerusalem and restores free trade with Israel",
+          "summary": "Colombia has opened an embassy in West Jerusalem under new far-right President Abelardo de la Espriella.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-14T07:05:31+00:00",
-          "fetched_at": "2026-10-14T10:13:05.628016+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7422a12ac06f3ef54aa4",
-      "title": "Girl rescued from flaming apartment after Israeli attack on Gaza",
-      "category": "军事安全",
-      "score": 62.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-14T09:40:20+00:00",
-      "last_updated": "2026-10-14T09:40:20+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "girl",
-        "apartment",
-        "israeli",
-        "attack",
-        "gaza",
-        "rescued",
-        "flaming",
-        "civilians"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Girl rescued from flaming apartment after Israeli attack on Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Girl",
-          "Israeli",
-          "Gaza"
-        ],
-        "latest_progress": [
-          "10月14日 09:40 UTC，Al Jazeera报道：“Girl rescued from flaming apartment after Israeli attack on Gaza”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_3561ee001a6447dfcca2",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/girl-rescued-from-flaming-apartment-after-israeli-attack-on-gaza?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/girl-rescued-from-flaming-apartment-after-israeli-attack-on-gaza?traffic_source=rss",
-          "title": "Girl rescued from flaming apartment after Israeli attack on Gaza",
-          "summary": "Civilians rushed to rescue a girl trapped in a burning apartment after an Israeli attack struck a building in Gaza City.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-14T09:40:20+00:00",
-          "fetched_at": "2026-10-14T10:13:05.627015+00:00",
+          "published_at": "2026-10-14T12:28:06+00:00",
+          "fetched_at": "2026-10-14T15:10:07.920690+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
