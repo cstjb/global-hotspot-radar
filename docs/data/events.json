@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-10-13T23:20:30.840064+00:00",
+  "generated_at": "2026-10-14T04:54:07.794662+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
     "articles_fetched": 79,
     "articles_unique": 79,
     "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
       {
         "source": "GDELT: (geopolitics OR security OR supply chain OR a",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
@@ -18,21 +14,21 @@
   },
   "events": [
     {
-      "event_id": "evt_a8ecff47020196dca6f4",
-      "title": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
-      "category": "社会突发",
-      "score": 78.3,
+      "event_id": "evt_c4164b1c8f100eb5e94c",
+      "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+      "category": "科技AI",
+      "score": 78.0,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 19.8,
+        "recency": 21.4,
         "credibility": 9.9,
-        "impact": 11.7,
+        "impact": 9.8,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-13T18:44:11+00:00",
-      "last_updated": "2026-10-13T20:46:22+00:00",
+      "first_seen": "2026-10-13T21:24:00+00:00",
+      "last_updated": "2026-10-14T04:16:13+00:00",
       "source_count": 3,
       "article_count": 4,
       "sources": [
@@ -45,28 +41,364 @@
         "Middle East"
       ],
       "keywords": [
-        "tupac",
-        "shakur",
-        "davis",
-        "sentenced",
-        "years",
-        "murder",
-        "duane",
-        "killing"
+        "device",
+        "openai",
+        "planting",
+        "listening",
+        "saudi",
+        "arrested",
+        "room",
+        "charged"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的社会突发事件为“Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的科技AI事件为“Saudi man charged with planting 'sophisticated' recording device in OpenAI office”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Tupac Shakur",
-          "Ex",
-          "Former",
-          "Duane Davis",
-          "Who",
-          "Tupac"
+          "Saudi"
         ],
         "latest_progress": [
-          "10月13日 20:46 UTC，Al Jazeera报道：“Tupac Shakur killer sentenced to 40 years in prison”。",
+          "10月14日 04:16 UTC，Al Jazeera报道：“Saudi-born engineer for OpenAI arrested for planting listening bug”。",
+          "10月13日 23:55 UTC，Al Jazeera报道：“OpenAI engineer charged after listening device found in meeting room”。",
+          "10月13日 21:42 UTC，BBC World报道：“Saudi man charged with planting 'sophisticated' recording device in OpenAI office”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_5a74a6e15a171262bbcc",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
+          "title": "Saudi-born engineer for OpenAI arrested for planting listening bug",
+          "summary": "OpenAI says it discovered a hidden recording device in one of its offices, wrapped in toilet paper behind a television.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-14T04:16:13+00:00",
+          "fetched_at": "2026-10-14T04:54:07.279920+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2241e335a959dd9a92c3",
+          "url": "https://www.aljazeera.com/news/2026/10/13/openai-engineer-charged-after-listening-device-found-in-meeting-room?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/openai-engineer-charged-after-listening-device-found-in-meeting-room?traffic_source=rss",
+          "title": "OpenAI engineer charged after listening device found in meeting room",
+          "summary": "US authorities say a Saudi national was arrested and charged after allegedly planting a concealed surveillance device.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-13T23:55:33+00:00",
+          "fetched_at": "2026-10-14T04:54:07.280891+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f9979bbcccfb33859982",
+          "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_campaign=rss&at_medium=RSS",
+          "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+          "summary": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T21:42:49+00:00",
+          "fetched_at": "2026-10-14T04:54:06.231936+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/194/cpsprodpb/59c9/live/4ad4e9c0-c74e-11f1-a64c-550be9e3c66b.png"
+        },
+        {
+          "article_id": "art_dec5586240f1d0d05a82",
+          "url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-top-1022-rdf",
+          "title": "OpenAI says employee caught planting listening device",
+          "summary": "A Saudi national employed by the artificial intelligence lab has been arrested after a listening device was planted in a company conference room.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T21:24:00+00:00",
+          "fetched_at": "2026-10-14T04:54:06.795373+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d8e49d7cd34247676a37",
+      "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+      "category": "能源资源",
+      "score": 77.1,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T00:50:00+00:00",
+      "last_updated": "2026-10-14T04:20:17+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "missiles",
+        "saudi",
+        "intercepted",
+        "arabia",
+        "coalition",
+        "riyadh",
+        "houthis",
+        "saudi-led"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Missiles",
+          "Riyadh",
+          "Saudi",
+          "Yemen",
+          "Houthi",
+          "Saudi Arabia",
+          "Houthis"
+        ],
+        "latest_progress": [
+          "10月14日 04:20 UTC，BBC World报道：“Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot”。",
+          "10月14日 03:09 UTC，Al Jazeera报道：“Houthi missiles intercepted over Saudi Arabia as battles intensify”。",
+          "10月14日 00:50 UTC，DW Top Stories报道：“Houthis launch fresh wave of missiles across Saudi Arabia”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4526a1364c7120a60a66",
+          "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_campaign=rss&at_medium=RSS",
+          "title": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
+          "summary": "The Saudi-led coalition fighting in Yemen struck a fuel depot near the Houthi-controlled capital, Sanaa.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T04:20:17+00:00",
+          "fetched_at": "2026-10-14T04:54:06.232164+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eff9/live/16b445b0-c720-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
+          "article_id": "art_44c65b7ad7992e52e5d2",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
+          "title": "Houthi missiles intercepted over Saudi Arabia as battles intensify",
+          "summary": "Saudi Arabia says it intercepted missiles targeting Riyadh and Dhahran, with falling debris injuring people.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-14T03:09:46+00:00",
+          "fetched_at": "2026-10-14T04:54:07.280128+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ac1abac296adb7f0de69",
+          "url": "https://www.dw.com/en/houthis-launch-fresh-wave-of-missiles-across-saudi-arabia/live-79655805?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/houthis-launch-fresh-wave-of-missiles-across-saudi-arabia/live-79655805?maca=en-rss-en-top-1022-rdf",
+          "title": "Houthis launch fresh wave of missiles across Saudi Arabia",
+          "summary": "Both the Houthis and the Saudi-led coalition carried out strikes targeting energy infrastructure. Four people were injured as a result of debris of intercepted missiles in Riyadh. DW has the latest.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-14T00:50:00+00:00",
+          "fetched_at": "2026-10-14T04:54:06.795251+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f22cb256c851d4a433e3",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "category": "能源资源",
+      "score": 74.1,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.4,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.1
+      },
+      "first_seen": "2026-10-13T12:40:00+00:00",
+      "last_updated": "2026-10-14T03:06:42+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "nord",
+        "stream",
+        "germany",
+        "ukrainian",
+        "trial",
+        "accused",
+        "pipelines",
+        "puts"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Ukrainian",
+          "Germany",
+          "Nord Stream"
+        ],
+        "latest_progress": [
+          "10月14日 03:06 UTC，Al Jazeera报道：“Ukrainian ex-officer goes on trial in Germany over Nord Stream blasts”。",
+          "10月13日 23:42 UTC，BBC World报道：“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。",
+          "10月13日 12:40 UTC，DW Top Stories报道：“Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a2bfe6c842eaa39f7790",
+          "url": "https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts?traffic_source=rss",
+          "title": "Ukrainian ex-officer goes on trial in Germany over Nord Stream blasts",
+          "summary": "The trial is expected to run into February and could test Germany's political stance on Ukraine.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-14T03:06:42+00:00",
+          "fetched_at": "2026-10-14T04:54:07.280195+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_80f6245aed01ed79e598",
+          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_campaign=rss&at_medium=RSS",
+          "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+          "summary": "Four years after the attacks, Serhii K will appear in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-13T23:42:22+00:00",
+          "fetched_at": "2026-10-14T04:54:06.232019+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8583/live/42414480-c72f-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_6d55300e596f9cb5eecd",
+          "url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
+          "title": "Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial",
+          "summary": "A Ukrainian citizen faces court in Hamburg, accused of attacking the Nord Stream gas pipelines in 2022. It raises questions about Kyiv's possible role in the explosions. German support for Ukraine is also under scrutiny.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-13T12:40:00+00:00",
+          "fetched_at": "2026-10-14T04:54:06.796121+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e3ec05ff4106290ae43e",
+      "title": "Ex-gang leader gets 40 years to life for rapper Tupac Shakur’s 1996 murder",
+      "category": "社会突发",
+      "score": 73.9,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 17.7,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-13T19:40:00+00:00",
+      "last_updated": "2026-10-13T23:42:57+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "tupac",
+        "davis",
+        "shakur",
+        "murder",
+        "leader",
+        "duane",
+        "years",
+        "former"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“Ex-gang leader gets 40 years to life for rapper Tupac Shakur’s 1996 murder”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Ex",
+          "Tupac Shakur",
+          "Former",
+          "Duane Davis"
+        ],
+        "latest_progress": [
+          "10月13日 23:42 UTC，Al Jazeera报道：“Ex-gang leader gets 40 years to life for rapper Tupac Shakur’s 1996 murder”。",
           "10月13日 19:51 UTC，BBC World报道：“Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder”。",
           "10月13日 19:40 UTC，DW Top Stories报道：“Tupac Shakur murder trial: Former gang leader Duane Davis sentenced to 40 years”。"
         ],
@@ -81,15 +413,15 @@
       },
       "articles": [
         {
-          "article_id": "art_5e1531038b05274af939",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/tupac-shakur-killer-sentenced-to-40-years-in-prison?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/tupac-shakur-killer-sentenced-to-40-years-in-prison?traffic_source=rss",
-          "title": "Tupac Shakur killer sentenced to 40 years in prison",
-          "summary": "Duane ‘Keffe D’ Davis was sentenced to 40 years to life in prison over the 1996 murder of rap icon Tupac Shakur.",
+          "article_id": "art_fdda58793f43c70eb8eb",
+          "url": "https://www.aljazeera.com/news/2026/10/13/ex-gang-leader-gets-40-years-to-life-for-rapper-tupac-shakurs-1996-murder?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/ex-gang-leader-gets-40-years-to-life-for-rapper-tupac-shakurs-1996-murder?traffic_source=rss",
+          "title": "Ex-gang leader gets 40 years to life for rapper Tupac Shakur’s 1996 murder",
+          "summary": "A 30-year hunt for justice ends with the sentencing of Duane 'Keffe D' Davis, who has written about Shakur's shooting.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T20:46:22+00:00",
-          "fetched_at": "2026-10-13T23:20:29.989519+00:00",
+          "published_at": "2026-10-13T23:42:57+00:00",
+          "fetched_at": "2026-10-14T04:54:07.280970+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -104,7 +436,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-13T19:51:14+00:00",
-          "fetched_at": "2026-10-13T23:20:28.998840+00:00",
+          "fetched_at": "2026-10-14T04:54:06.232430+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -119,22 +451,97 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-13T19:40:00+00:00",
-          "fetched_at": "2026-10-13T23:20:29.719490+00:00",
+          "fetched_at": "2026-10-14T04:54:06.795482+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_4a97b1fd9aff9f8cb229",
+      "title": "Kyiv hit by Russian ballistic missiles for second day with no warning",
+      "category": "军事安全",
+      "score": 72.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.7,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T02:45:40+00:00",
+      "last_updated": "2026-10-14T04:36:06+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "kyiv",
+        "russian",
+        "ballistic",
+        "warning",
+        "hit",
+        "missiles",
+        "second",
+        "day"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Kyiv hit by Russian ballistic missiles for second day with no warning”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russian",
+          "Kyiv",
+          "Zelensky"
+        ],
+        "latest_progress": [
+          "10月14日 04:36 UTC，BBC World报道：“Russian strikes hit key power plant in Kyiv, Zelensky says”。",
+          "10月14日 02:45 UTC，Al Jazeera报道：“Kyiv hit by Russian ballistic missiles for second day with no warning”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a21e4aa268b6a4c90541",
+          "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_campaign=rss&at_medium=RSS",
+          "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+          "summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T04:36:06+00:00",
+          "fetched_at": "2026-10-14T04:54:06.232366+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10cd/live/79669050-c74d-11f1-a64c-550be9e3c66b.jpg"
         },
         {
-          "article_id": "art_1fe093ad220b7775ea5c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/who-killed-tupac?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/who-killed-tupac?traffic_source=rss",
-          "title": "Who killed Tupac?",
-          "summary": "For decades, Tupac Shakur’s murder remained unsolved. Now, Duane Davis has been sentenced 40 years for his killing.",
+          "article_id": "art_65c0153e35cb84702982",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/kyiv-russian-ballistic-missile-strikes-no-advance-warning?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/kyiv-russian-ballistic-missile-strikes-no-advance-warning?traffic_source=rss",
+          "title": "Kyiv hit by Russian ballistic missiles for second day with no warning",
+          "summary": "Russian ballistic missiles struck Kyiv for a second consecutive day without advance warning.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T18:44:11+00:00",
-          "fetched_at": "2026-10-13T23:20:29.991229+00:00",
+          "published_at": "2026-10-14T02:45:40+00:00",
+          "fetched_at": "2026-10-14T04:54:07.280327+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -146,12 +553,12 @@
       "event_id": "evt_47e575a41dc515e374d5",
       "title": "Ukraine and the US: What's next after Trump's diesel deal with Russia?",
       "category": "国际政治",
-      "score": 73.1,
+      "score": 69.1,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.2,
+        "recency": 15.2,
         "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
@@ -215,7 +622,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-13T20:03:37+00:00",
-          "fetched_at": "2026-10-13T23:20:29.814336+00:00",
+          "fetched_at": "2026-10-14T04:54:07.104334+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -230,7 +637,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-13T18:52:00+00:00",
-          "fetched_at": "2026-10-13T23:20:29.719745+00:00",
+          "fetched_at": "2026-10-14T04:54:06.795586+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -245,7 +652,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-13T18:51:00+00:00",
-          "fetched_at": "2026-10-13T23:20:29.719905+00:00",
+          "fetched_at": "2026-10-14T04:54:06.795641+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -260,7 +667,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-13T08:44:19+00:00",
-          "fetched_at": "2026-10-13T23:20:29.814985+00:00",
+          "fetched_at": "2026-10-14T04:54:07.104623+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -269,85 +676,90 @@
       ]
     },
     {
-      "event_id": "evt_c4164b1c8f100eb5e94c",
-      "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-      "category": "科技AI",
-      "score": 65.8,
+      "event_id": "evt_98e0a973a584c59b3419",
+      "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+      "category": "军事安全",
+      "score": 67.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 20.6,
+        "region_diversity": 5.0,
+        "recency": 17.9,
         "credibility": 9.8,
-        "impact": 9.8,
-        "velocity": 5.0
+        "impact": 13.0,
+        "velocity": 3.8
       },
-      "first_seen": "2026-10-13T21:24:00+00:00",
-      "last_updated": "2026-10-13T21:42:49+00:00",
+      "first_seen": "2026-10-13T16:11:00+00:00",
+      "last_updated": "2026-10-14T00:00:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "BBC World",
+        "Al Jazeera",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe"
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
-        "device",
-        "openai",
-        "planting",
-        "listening",
+        "houthi",
         "saudi",
-        "conference",
-        "room",
-        "employee"
+        "military",
+        "against",
+        "attacks",
+        "saudi-led",
+        "yemen",
+        "coalition"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的科技AI事件为“Saudi man charged with planting 'sophisticated' recording device in OpenAI office”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Saudi"
+          "Iran",
+          "Saudi",
+          "Houthi",
+          "Aramco",
+          "Saudi Arabia"
         ],
         "latest_progress": [
-          "10月13日 21:42 UTC，BBC World报道：“Saudi man charged with planting 'sophisticated' recording device in OpenAI office”。",
-          "10月13日 21:24 UTC，DW Top Stories报道：“OpenAI says employee caught planting listening device”。"
+          "10月14日 00:00 UTC，Al Jazeera报道：“Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east”。",
+          "10月13日 16:11 UTC，DW Top Stories报道：“Saudi Arabia's military struggle against Houthi attacks”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_f9979bbcccfb33859982",
-          "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_campaign=rss&at_medium=RSS",
-          "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-          "summary": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
-          "source": "BBC World",
+          "article_id": "art_09a2d2eb7bddf0f4327a",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
+          "title": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+          "summary": "A Saudi Aramco building has been hit in Dhahran, following Saudi-led coalition strikes on Houthi 'vital assets' in Yemen",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T21:42:49+00:00",
-          "fetched_at": "2026-10-13T23:20:28.998315+00:00",
+          "published_at": "2026-10-14T00:00:00+00:00",
+          "fetched_at": "2026-10-14T04:54:07.280828+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/194/cpsprodpb/59c9/live/4ad4e9c0-c74e-11f1-a64c-550be9e3c66b.png"
+          "image_url": null
         },
         {
-          "article_id": "art_dec5586240f1d0d05a82",
-          "url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-top-1022-rdf",
-          "title": "OpenAI says employee caught planting listening device",
-          "summary": "A Saudi national employed by the artificial intelligence lab has been arrested after a listening device was planted in a company conference room.",
+          "article_id": "art_f812e519b369f8cb6ef8",
+          "url": "https://www.dw.com/en/saudi-arabia-s-military-struggle-against-houthi-attacks/a-79650857?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/saudi-arabia-s-military-struggle-against-houthi-attacks/a-79650857?maca=en-rss-en-top-1022-rdf",
+          "title": "Saudi Arabia's military struggle against Houthi attacks",
+          "summary": "Houthi attacks on airports and energy facilities are putting Saudi Arabia under pressure. Could a Saudi-led international military offensive succeed against the Iran-aligned Houthi militia in Yemen?",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-13T21:24:00+00:00",
-          "fetched_at": "2026-10-13T23:20:29.719214+00:00",
+          "published_at": "2026-10-13T16:11:00+00:00",
+          "fetched_at": "2026-10-14T04:54:06.795744+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -356,53 +768,52 @@
       ]
     },
     {
-      "event_id": "evt_2ce4b6f6bf70ae613265",
-      "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
+      "event_id": "evt_2ff6c75c1714e806bfd2",
+      "title": "Violence in Pakistan over emergency rule in Imran Khan stronghold",
       "category": "国际政治",
-      "score": 65.2,
+      "score": 65.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 18.7,
+        "region_diversity": 5.0,
+        "recency": 19.4,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 2.0
       },
-      "first_seen": "2026-10-13T16:08:00+00:00",
-      "last_updated": "2026-10-13T19:23:28+00:00",
+      "first_seen": "2026-10-13T10:51:33+00:00",
+      "last_updated": "2026-10-14T01:56:23+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "BBC World",
-        "DW Top Stories"
+        "Al Jazeera",
+        "NPR World"
       ],
       "regions": [
-        "Europe"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "ambassador",
-        "kimberly",
-        "greece",
-        "allegations",
-        "guilfoyle",
-        "trump",
-        "said",
-        "guilfoye"
+        "pakistan",
+        "emergency",
+        "rule",
+        "former",
+        "prime",
+        "stronghold",
+        "province",
+        "imran"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的国际政治事件为“Violence in Pakistan over emergency rule in Imran Khan stronghold”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Trump",
-          "Kimberly Guilfoyle",
-          "US",
-          "Greece",
-          "Kimberly Guilfoye"
+          "Violence",
+          "Pakistan",
+          "Imran Khan"
         ],
         "latest_progress": [
-          "10月13日 19:23 UTC，BBC World报道：“Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations”。",
-          "10月13日 16:08 UTC，DW Top Stories报道：“Kimberly Guilfoye: US ambassador to Greece resigns amid misconduct allegations”。"
+          "10月14日 01:56 UTC，Al Jazeera报道：“Violence in Pakistan over emergency rule in Imran Khan stronghold”。",
+          "10月13日 10:51 UTC，NPR World报道：“Pakistan imposes emergency rule in former prime minister's stronghold”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -415,450 +826,124 @@
       },
       "articles": [
         {
-          "article_id": "art_572bad98263fdaa9de55",
-          "url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr5ynplvpg7lo?at_campaign=rss&at_medium=RSS",
-          "title": "Trump ousts Kimberly Guilfoyle as US ambassador to Greece after corruption allegations",
-          "summary": "Guilfoyle said the allegations of improper conduct were false and that being ambassador was the \"honour of a lifetime\".",
-          "source": "BBC World",
+          "article_id": "art_5d87fc1538d8007ad79d",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/pakistan-khyber-pakhtunkhwa-protests-emergency-rule?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/pakistan-khyber-pakhtunkhwa-protests-emergency-rule?traffic_source=rss",
+          "title": "Violence in Pakistan over emergency rule in Imran Khan stronghold",
+          "summary": "Protesters in Pakistan’s Khyber Pakhtunkhwa province clashed with police over emergency and governor’s rule.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T19:23:28+00:00",
-          "fetched_at": "2026-10-13T23:20:28.999159+00:00",
+          "published_at": "2026-10-14T01:56:23+00:00",
+          "fetched_at": "2026-10-14T04:54:07.280391+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f6d/live/ecd9e6d0-c73a-11f1-a64c-550be9e3c66b.jpg"
+          "image_url": null
         },
         {
-          "article_id": "art_841a80f3adb2ee5230bc",
-          "url": "https://www.dw.com/en/kimberly-guilfoye-us-ambassador-to-greece-resigns-amid-misconduct-allegations/a-79652952?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/kimberly-guilfoye-us-ambassador-to-greece-resigns-amid-misconduct-allegations/a-79652952?maca=en-rss-en-top-1022-rdf",
-          "title": "Kimberly Guilfoye: US ambassador to Greece resigns amid misconduct allegations",
-          "summary": "Kimberly Guilfoyle has resigned as US ambassador to Greece. President Trump previously said he was unhappy with her amid reports of a bribery scandal and ethics violations.",
-          "source": "DW Top Stories",
+          "article_id": "art_34aa8522a584b6ce12bb",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold",
+          "canonical_url": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold",
+          "title": "Pakistan imposes emergency rule in former prime minister's stronghold",
+          "summary": "Pakistan has imposed emergency rule in the province governed by the political party of imprisoned former prime minister Imran Khan.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-13T16:08:00+00:00",
-          "fetched_at": "2026-10-13T23:20:29.720397+00:00",
+          "published_at": "2026-10-13T10:51:33+00:00",
+          "fetched_at": "2026-10-14T04:54:07.104560+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_1069a4cdab50cbe8b88d",
-      "title": "Is Zelensky right to say data centre strikes have taken down Russian bots?",
+      "event_id": "evt_2a97d2efee4f3ca22201",
+      "title": "Russia arrests Japanese journalist on alleged espionage",
       "category": "军事安全",
-      "score": 64.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 3.4
-      },
-      "first_seen": "2026-10-13T13:27:31+00:00",
-      "last_updated": "2026-10-13T22:14:33+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "strikes",
-        "russian",
-        "zelensky",
-        "say",
-        "right",
-        "data",
-        "centre",
-        "taken"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的军事安全事件为“Is Zelensky right to say data centre strikes have taken down Russian bots?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russian",
-          "Kyiv",
-          "Zelensky",
-          "Is Zelensky"
-        ],
-        "latest_progress": [
-          "10月13日 22:14 UTC，BBC World报道：“Russian strikes hit key power plant in Kyiv, Zelensky says”。",
-          "10月13日 13:27 UTC，BBC World报道：“Is Zelensky right to say data centre strikes have taken down Russian bots?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a21e4aa268b6a4c90541",
-          "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_campaign=rss&at_medium=RSS",
-          "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
-          "summary": "The Ukrainian president says the ballistic missile strikes came with \"no early warning from our partners\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T22:14:33+00:00",
-          "fetched_at": "2026-10-13T23:20:28.999308+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10cd/live/79669050-c74d-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_5feddeb4cdd16a7a1250",
-          "url": "https://www.bbc.co.uk/news/articles/c9y7l0pm8jkko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c9y7l0pm8jkko?at_campaign=rss&at_medium=RSS",
-          "title": "Is Zelensky right to say data centre strikes have taken down Russian bots?",
-          "summary": "Experts say there is no evidence that Russian trolls have been affected by Ukraine’s Yandex attacks.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T13:27:31+00:00",
-          "fetched_at": "2026-10-13T23:20:29.000846+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f908/live/67b69200-c708-11f1-bc2e-018d645d8d21.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_96b134524678770e2e17",
-      "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
-      "category": "军事安全",
-      "score": 63.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.5,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-13T10:15:00+00:00",
-      "last_updated": "2026-10-13T14:51:59+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "bulgaria",
-        "drone",
-        "black",
-        "sea",
-        "attacks",
-        "merchant",
-        "ships",
-        "ship"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Bulgaria",
-          "Russian",
-          "Black Sea",
-          "Russia",
-          "Ukraine",
-          "Eastern Europe"
-        ],
-        "latest_progress": [
-          "10月13日 14:51 UTC，BBC World报道：“Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack”。",
-          "10月13日 10:15 UTC，DW Top Stories报道：“Bulgaria condemns Black Sea drone attacks as Russia's war in Ukraine spills over into Eastern Europe”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_39bf45a2460a40d9dca1",
-          "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_campaign=rss&at_medium=RSS",
-          "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
-          "summary": "Six crew members are rescued but 10 are missing after a merchant ship was sunk overnight, Bulgaria says.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T14:51:59+00:00",
-          "fetched_at": "2026-10-13T23:20:29.000082+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3983/live/6a522470-c708-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_6d1691a5c0f1125ef21a",
-          "url": "https://www.dw.com/en/bulgaria-condemns-black-sea-drone-attacks-as-russia-s-war-in-ukraine-spills-over-into-eastern-europe/a-79648001?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/bulgaria-condemns-black-sea-drone-attacks-as-russia-s-war-in-ukraine-spills-over-into-eastern-europe/a-79648001?maca=en-rss-en-top-1022-rdf",
-          "title": "Bulgaria condemns Black Sea drone attacks as Russia's war in Ukraine spills over into Eastern Europe",
-          "summary": "Bulgaria has seen the second spate of drone attacks on merchant ships off its coast in the past week. Russia has been accused of repeatedly targeting civilian cargo ships in the area.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-13T10:15:00+00:00",
-          "fetched_at": "2026-10-13T23:20:29.721652+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2a1923e8b74a4090735a",
-      "title": "Man City vs PSG: Champions League – teams, predictions, line ups",
-      "category": "经济金融",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-13T22:17:26+00:00",
-      "last_updated": "2026-10-13T22:17:26+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "man",
-        "city",
-        "psg",
-        "league",
-        "champions",
-        "teams",
-        "predictions",
-        "line"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的经济金融事件为“Man City vs PSG: Champions League – teams, predictions, line ups”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Man City",
-          "PSG",
-          "Champions League"
-        ],
-        "latest_progress": [
-          "10月13日 22:17 UTC，Al Jazeera报道：“Man City vs PSG: Champions League – teams, predictions, line ups”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_31cc9279f5055123198b",
-          "url": "https://www.aljazeera.com/sports/2026/10/13/manchester-city-psg-champions-league-haaland-torres-predictions-teams?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/13/manchester-city-psg-champions-league-haaland-torres-predictions-teams?traffic_source=rss",
-          "title": "Man City vs PSG: Champions League – teams, predictions, line ups",
-          "summary": "Man City host PSG in their first UCL match since being found guilty of serious Premier League financial breaches.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T22:17:26+00:00",
-          "fetched_at": "2026-10-13T23:20:29.988253+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_9ead73f8e52388603192",
-      "title": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
-      "category": "军事安全",
-      "score": 60.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-13T20:33:10+00:00",
-      "last_updated": "2026-10-13T20:33:10+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "funeral",
-        "egyptian",
-        "flight",
-        "attendant",
-        "killed",
-        "houthi",
-        "attack",
-        "riyadh"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Funeral",
-          "Egyptian",
-          "Houthi",
-          "Riyadh"
-        ],
-        "latest_progress": [
-          "10月13日 20:33 UTC，Al Jazeera报道：“Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6079e0310a451a48256e",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/funeral-for-egyptian-flight-attendant-killed-in-houthi-attack-on-riyadh?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/funeral-for-egyptian-flight-attendant-killed-in-houthi-attack-on-riyadh?traffic_source=rss",
-          "title": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
-          "summary": "Funeral for Egyptian flight attendant killed in Houthi attack on Riyadh",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-13T20:33:10+00:00",
-          "fetched_at": "2026-10-13T23:20:29.989664+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5be916be33284dc7c590",
-      "title": "Why the lonely in China are hiring 'temporary children'",
-      "category": "经济金融",
-      "score": 60.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.8,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-13T22:00:20+00:00",
-      "last_updated": "2026-10-13T22:00:20+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "china",
-        "hiring",
-        "lonely",
-        "temporary",
-        "children'",
-        "industry",
-        "being",
-        "dubbed"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的经济金融事件为“Why the lonely in China are hiring 'temporary children'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Why",
-          "China"
-        ],
-        "latest_progress": [
-          "10月13日 22:00 UTC，BBC World报道：“Why the lonely in China are hiring 'temporary children'”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_937df06f0af75627cc6b",
-          "url": "https://www.bbc.co.uk/news/videos/cm8xkxn8lqkeo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cm8xkxn8lqkeo?at_campaign=rss&at_medium=RSS",
-          "title": "Why the lonely in China are hiring 'temporary children'",
-          "summary": "A new industry being dubbed the “loneliness economy” has emerged in China, with people hiring themselves out as companions to help the elderly.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-13T22:00:20+00:00",
-          "fetched_at": "2026-10-13T23:20:29.001145+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a9d/live/c0c4d690-be07-11f1-babe-4199b0e7ccea.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_504cb9fa277891005551",
-      "title": "Albanian police fire tear gas at protesters as Education Ministry attacked",
-      "category": "能源资源",
-      "score": 60.4,
+      "score": 62.4,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
         "recency": 21.3,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-13T22:33:50+00:00",
-      "last_updated": "2026-10-13T22:33:50+00:00",
+      "first_seen": "2026-10-14T04:10:49+00:00",
+      "last_updated": "2026-10-14T04:10:49+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "journalist",
+        "russia",
+        "arrests",
+        "japanese",
+        "alleged",
+        "espionage",
+        "hokkaido",
+        "shimbun"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Russia arrests Japanese journalist on alleged espionage”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russia",
+          "Japanese"
+        ],
+        "latest_progress": [
+          "10月14日 04:10 UTC，BBC World报道：“Russia arrests Japanese journalist on alleged espionage”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c698a7f89e31b42db5c9",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_campaign=rss&at_medium=RSS",
+          "title": "Russia arrests Japanese journalist on alleged espionage",
+          "summary": "The Hokkaido Shimbun journalist is accused of collecting information on Moscow's defence capabilities for Tokyo.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T04:10:49+00:00",
+          "fetched_at": "2026-10-14T04:54:06.232621+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c43/live/65eee660-c781-11f1-b999-873e5cdc91d4.png"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5b40276c3230bdf9e743",
+      "title": "UN official says ‘window of opportunity’ for peace in DR Congo",
+      "category": "军事安全",
+      "score": 62.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T03:57:24+00:00",
+      "last_updated": "2026-10-14T03:57:24+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -868,45 +953,46 @@
         "Middle East"
       ],
       "keywords": [
-        "protesters",
-        "albanian",
-        "police",
-        "fire",
-        "tear",
-        "gas",
-        "education",
-        "ministry"
+        "official",
+        "window",
+        "opportunity",
+        "peace",
+        "congo",
+        "envoy",
+        "lauds",
+        "progress"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“Albanian police fire tear gas at protesters as Education Ministry attacked”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“UN official says ‘window of opportunity’ for peace in DR Congo”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Albanian",
-          "Education Ministry"
+          "UN",
+          "DR",
+          "Congo"
         ],
         "latest_progress": [
-          "10月13日 22:33 UTC，Al Jazeera报道：“Albanian police fire tear gas at protesters as Education Ministry attacked”。"
+          "10月14日 03:57 UTC，Al Jazeera报道：“UN official says ‘window of opportunity’ for peace in DR Congo”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_192a99efdf495e219fc7",
-          "url": "https://www.aljazeera.com/news/2026/10/13/albanian-police-fire-tear-gas-at-protesters-as-education-ministry-attacked?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/13/albanian-police-fire-tear-gas-at-protesters-as-education-ministry-attacked?traffic_source=rss",
-          "title": "Albanian police fire tear gas at protesters as Education Ministry attacked",
-          "summary": "At least 23 protesters have been arrested in demonstrations in the capital.",
+          "article_id": "art_6938f889ffd23e6d7a1d",
+          "url": "https://www.aljazeera.com/news/2026/10/14/un-official-says-window-of-opportunity-for-peace-in-dr-congo?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/14/un-official-says-window-of-opportunity-for-peace-in-dr-congo?traffic_source=rss",
+          "title": "UN official says ‘window of opportunity’ for peace in DR Congo",
+          "summary": "The envoy lauds the progress in diplomatic efforts despite the worsening security and humanitarian situation.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-13T22:33:50+00:00",
-          "fetched_at": "2026-10-13T23:20:29.988095+00:00",
+          "published_at": "2026-10-14T03:57:24+00:00",
+          "fetched_at": "2026-10-14T04:54:07.279993+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
