@@ -1,254 +1,39 @@
 {
-  "generated_at": "2026-10-15T18:19:07.938438+00:00",
+  "generated_at": "2026-10-15T22:18:46.463042+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 132,
-    "articles_unique": 131,
+    "articles_fetched": 136,
+    "articles_unique": 136,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_9f15b33b9a67e51674f7",
-      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-      "category": "军事安全",
-      "score": 79.0,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-15T14:27:35+00:00",
-      "last_updated": "2026-10-15T17:47:22+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "execution",
-        "trump",
-        "fort",
-        "hood",
-        "not",
-        "nidal",
-        "hasan",
-        "shooter"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Trump calls off livestream of Fort Hood attacker's execution by firing squad”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trump",
-          "Fort Hood",
-          "US"
-        ],
-        "latest_progress": [
-          "10月15日 17:47 UTC，BBC World报道：“Trump calls off livestream of Fort Hood attacker's execution by firing squad”。",
-          "10月15日 15:36 UTC，DW Top Stories报道：“Trump says execution of Fort Hood shooter will not be livestreamed”。",
-          "10月15日 14:27 UTC，Al Jazeera报道：“Trump says Fort Hood US shooter execution will not be livestreamed”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7e413e35639744e41b30",
-          "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_campaign=rss&at_medium=RSS",
-          "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-          "summary": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution in over 60 years.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T17:47:22+00:00",
-          "fetched_at": "2026-10-15T18:19:05.404536+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81e4/live/8ba6bbd0-c8b2-11f1-ba4a-9b4af5820384.jpg"
-        },
-        {
-          "article_id": "art_9e79b0e3434fea1162a3",
-          "url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump says execution of Fort Hood shooter will not be livestreamed",
-          "summary": "Trump said the execution of Nidal Malik Hasan can be viewed in person by families of the victims if they wish. The decision comes after bipartisan backlash regarding the Pentagon's plans to livestream the execution.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-15T15:36:00+00:00",
-          "fetched_at": "2026-10-15T18:19:06.131471+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0debf87207f126fccf4e",
-          "url": "https://www.aljazeera.com/news/2026/10/15/trump-says-fort-hood-shooter-execution-will-not-be-livestreamed?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/15/trump-says-fort-hood-shooter-execution-will-not-be-livestreamed?traffic_source=rss",
-          "title": "Trump says Fort Hood US shooter execution will not be livestreamed",
-          "summary": "US president reverses Pentagon's plan to publicly stream execution of Nidal Malik Hasan after outcry.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-15T14:27:35+00:00",
-          "fetched_at": "2026-10-15T18:19:06.385166+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_51553655857020c342eb",
-      "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-      "category": "能源资源",
-      "score": 76.2,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.7,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-15T13:29:38+00:00",
-      "last_updated": "2026-10-15T16:50:18+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "russia",
-        "ukraine",
-        "accuses",
-        "accused",
-        "ukrainian",
-        "drone",
-        "swedish",
-        "russian"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Russia",
-          "Ukraine",
-          "Zelensky",
-          "Swedish",
-          "US"
-        ],
-        "latest_progress": [
-          "10月15日 16:50 UTC，BBC World报道：“Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume”。",
-          "10月15日 15:27 UTC，DW Top Stories报道：“Russia arrests Swedish national, claims he's Ukraine fighter”。",
-          "10月15日 13:29 UTC，Al Jazeera报道：“Russia accuses Ukraine of contradicting US brokered deal”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_968022bf57c756057e10",
-          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_campaign=rss&at_medium=RSS",
-          "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-          "summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T16:50:18+00:00",
-          "fetched_at": "2026-10-15T18:19:05.404728+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b54/live/4c6fe8b0-c899-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_32c160491965af7e3a31",
-          "url": "https://www.dw.com/en/russia-arrests-swedish-national-claims-he-s-ukraine-fighter/a-79671942?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russia-arrests-swedish-national-claims-he-s-ukraine-fighter/a-79671942?maca=en-rss-en-top-1022-rdf",
-          "title": "Russia arrests Swedish national, claims he's Ukraine fighter",
-          "summary": "Russian intelligence agents have arrested a Swedish man they say led a Ukrainian drone unit. He was detained at Russia's western border and is accused of planning acts of terrorism and sabotage.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-15T15:27:00+00:00",
-          "fetched_at": "2026-10-15T18:19:06.131606+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7c8e4c4b7429a52f9efc",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/russia-accuses-ukraine-of-contradicting-us-brokered-deal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/russia-accuses-ukraine-of-contradicting-us-brokered-deal?traffic_source=rss",
-          "title": "Russia accuses Ukraine of contradicting US brokered deal",
-          "summary": "Russia has accused Ukraine of going against US peace efforts, after an overnight Ukrainian drone strike.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-15T13:29:38+00:00",
-          "fetched_at": "2026-10-15T18:19:06.386002+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_bf0c99cb26029472a9b7",
-      "title": "Houthis target Yemen’s presidential palace in Aden with missiles",
+      "title": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
       "category": "军事安全",
-      "score": 72.4,
+      "score": 75.7,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.5,
+        "recency": 18.2,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-15T16:50:42+00:00",
       "last_updated": "2026-10-15T17:44:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -256,28 +41,32 @@
         "Middle East"
       ],
       "keywords": [
-        "houthis",
-        "target",
-        "yemen",
         "palace",
-        "aden",
-        "government",
+        "houthi",
+        "attack",
+        "minister",
+        "yemen",
         "presidential",
-        "missiles"
+        "aden",
+        "houthis"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Houthis target Yemen’s presidential palace in Aden with missiles”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Houthi missile attack on Yemeni presidential palace kills two, minister says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Middle East",
           "Houthis",
           "Yemen",
-          "Aden Houthis",
+          "Aden Houthi",
+          "Yemeni",
+          "At",
+          "Houthi",
           "Aden"
         ],
         "latest_progress": [
           "10月15日 17:44 UTC，DW Top Stories报道：“Middle East updates: Houthis target Yemen government palace in Aden”。",
-          "10月15日 16:50 UTC，Al Jazeera报道：“Houthis target Yemen’s presidential palace in Aden with missiles”。"
+          "10月15日 17:18 UTC，BBC World报道：“Houthi missile attack on Yemeni presidential palace kills two, minister says”。",
+          "10月15日 16:50 UTC，Al Jazeera报道：“At least 5 killed in Houthi attack on Yemen’s presidential palace in Aden”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -298,157 +87,64 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-15T17:44:00+00:00",
-          "fetched_at": "2026-10-15T18:19:06.131147+00:00",
+          "fetched_at": "2026-10-15T22:18:44.741045+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
         {
+          "article_id": "art_0092f54ec9ba29fc17e9",
+          "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_campaign=rss&at_medium=RSS",
+          "title": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+          "summary": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-15T17:18:49+00:00",
+          "fetched_at": "2026-10-15T22:18:44.518077+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16df/live/2fc36f20-c8bc-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
           "article_id": "art_ae8b99b5316dc797ca36",
           "url": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss",
-          "title": "Houthis target Yemen’s presidential palace in Aden with missiles",
+          "title": "At least 5 killed in Houthi attack on Yemen’s presidential palace in Aden",
           "summary": "Saudi-led coalition accuses Houthis of obtaining missile parts from regional states.",
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-15T16:50:42+00:00",
-          "fetched_at": "2026-10-15T18:19:06.382875+00:00",
+          "fetched_at": "2026-10-15T22:18:44.882561+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6d32c0c3d7ee24dde9fa",
-      "title": "What is Starshield, and who limited Ukraine’s access to it?",
-      "category": "军事安全",
-      "score": 71.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 9.7,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-15T08:46:05+00:00",
-      "last_updated": "2026-10-15T13:32:16+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "starshield",
-        "access",
-        "ukraine",
-        "rep",
-        "mike",
-        "quigley",
-        "reports",
-        "restricted"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的3篇报道，当前关注的军事安全事件为“What is Starshield, and who limited Ukraine’s access to it?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "What",
-          "Starshield",
-          "Ukraine",
-          "Rep",
-          "Mike Quigley",
-          "Ill"
-        ],
-        "latest_progress": [
-          "10月15日 13:32 UTC，Al Jazeera报道：“What is Starshield, and who limited Ukraine’s access to it?”。",
-          "10月15日 08:46 UTC，NPR World报道：“Ukraine says its Starshield access is back”。",
-          "10月15日 08:46 UTC，NPR World报道：“Rep. Mike Quigley, D-Ill., on reports Ukraine's Starshield access was restricted”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_64555463570998b89cf5",
-          "url": "https://www.aljazeera.com/news/2026/10/15/what-is-starshield-and-who-limited-ukraines-access-to-it?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/15/what-is-starshield-and-who-limited-ukraines-access-to-it?traffic_source=rss",
-          "title": "What is Starshield, and who limited Ukraine’s access to it?",
-          "summary": "Ukraine relies on Starshield, the military-grade version of Elon Musk's Starlink satellite service, to fight Russia.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-15T13:32:16+00:00",
-          "fetched_at": "2026-10-15T18:19:06.385850+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_42120e918c8d3ee4c890",
-          "url": "https://www.npr.org/2026/10/15/nx-s1-6002949/ukraine-says-its-starshield-access-is-back",
-          "canonical_url": "https://www.npr.org/2026/10/15/nx-s1-6002949/ukraine-says-its-starshield-access-is-back",
-          "title": "Ukraine says its Starshield access is back",
-          "summary": "Ukraine says its access to SpaceX's Starshield has been restored. It's the system the country uses for its offensive drone attacks on Russia.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T08:46:09+00:00",
-          "fetched_at": "2026-10-15T18:19:06.261919+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_92760926b9f77a06a6d5",
-          "url": "https://www.npr.org/2026/10/15/nx-s1-6001653/rep-mike-quigley-d-ill-on-reports-ukraines-starshield-access-was-restricted",
-          "canonical_url": "https://www.npr.org/2026/10/15/nx-s1-6001653/rep-mike-quigley-d-ill-on-reports-ukraines-starshield-access-was-restricted",
-          "title": "Rep. Mike Quigley, D-Ill., on reports Ukraine's Starshield access was restricted",
-          "summary": "NPR's Michel Martin speaks with Democratic Rep. Mike Quigley of Illinois about reports that SpaceX temporarily restricted access to its Starshield in Ukraine, affecting the country's war efforts.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T08:46:05+00:00",
-          "fetched_at": "2026-10-15T18:19:06.262070+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
       "event_id": "evt_cccb3db95d1760183d2d",
-      "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+      "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
       "category": "能源资源",
-      "score": 67.8,
+      "score": 72.9,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 19.0,
-        "credibility": 9.5,
+        "recency": 17.5,
+        "credibility": 9.7,
         "impact": 11.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-15T10:05:58+00:00",
-      "last_updated": "2026-10-15T14:51:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "last_updated": "2026-10-15T16:50:18+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
+        "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
@@ -460,21 +156,24 @@
         "ukraine",
         "attacks",
         "russian",
-        "zelenskyy",
-        "resumes",
         "refineries",
-        "brief",
-        "truce"
+        "president",
+        "zelenskyy",
+        "energy",
+        "resumes"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的能源资源事件为“Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的能源资源事件为“Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
+          "Russia",
           "Ukraine",
+          "Zelensky",
           "Russian",
           "Zelenskyy"
         ],
         "latest_progress": [
+          "10月15日 16:50 UTC，BBC World报道：“Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume”。",
           "10月15日 14:51 UTC，DW Top Stories报道：“Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'”。",
           "10月15日 10:05 UTC，NPR World报道：“Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce”。"
         ],
@@ -489,15 +188,30 @@
       },
       "articles": [
         {
+          "article_id": "art_968022bf57c756057e10",
+          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_campaign=rss&at_medium=RSS",
+          "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+          "summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-15T16:50:18+00:00",
+          "fetched_at": "2026-10-15T22:18:44.517595+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b54/live/4c6fe8b0-c899-11f1-a64c-550be9e3c66b.jpg"
+        },
+        {
           "article_id": "art_7c2dbf4accab78392555",
           "url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-top-1022-rdf",
           "canonical_url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-top-1022-rdf",
           "title": "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
-          "summary": "Volodymyr Zelenskyy has announced that Ukraine is resuming attacks on Russian energy sites. It came after Moscow summarily ignored a claim by US President Donald Trump that an \"energy ceasefire\" had been agreed.",
+          "summary": "Volodymyr Zelenskyy has said Ukraine will again attack Russian energy sites, as Moscow has ignored a claim by US President Trump that an \"energy ceasefire\" had been agreed. Russia reported two attacks on refineries.",
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-15T14:51:00+00:00",
-          "fetched_at": "2026-10-15T18:19:06.131738+00:00",
+          "fetched_at": "2026-10-15T22:18:44.741568+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -512,7 +226,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-15T10:05:58+00:00",
-          "fetched_at": "2026-10-15T18:19:06.261599+00:00",
+          "fetched_at": "2026-10-15T22:18:44.801990+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -521,51 +235,139 @@
       ]
     },
     {
-      "event_id": "evt_c97c7fae98aaf56b2c39",
-      "title": "霍尔木兹海峡袭击事件 达战争以来最高水平 | 国际",
-      "category": "军事安全",
-      "score": 67.3,
+      "event_id": "evt_5ada816768b1caaa51e5",
+      "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+      "category": "社会突发",
+      "score": 68.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.6,
-        "credibility": 7.5,
-        "impact": 13.0,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 9.8,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-15T11:45:00+00:00",
-      "last_updated": "2026-10-15T14:15:00+00:00",
+      "first_seen": "2026-10-15T20:42:00+00:00",
+      "last_updated": "2026-10-15T21:12:14+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "orientaldaily.com.my",
-        "zaobao.com.sg"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
-        "Malaysia",
-        "Singapore"
+        "Europe"
       ],
       "keywords": [
-        "霍尔",
-        "尔木",
-        "木兹",
-        "兹海",
-        "海峡",
-        "峡袭",
-        "袭击",
-        "击事"
+        "train",
+        "channel",
+        "tunnel",
+        "bus",
+        "injuring",
+        "people",
+        "two",
+        "severely"
       ],
       "analysis": {
-        "what_happened": "据orientaldaily.com.my、zaobao.com.sg等来源的2篇报道，当前关注的军事安全事件为“霍尔木兹海峡袭击事件 达战争以来最高水平 | 国际”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Bus hits train stopped on French side of Channel Tunnel, with 19 injured”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "orientaldaily.com.my",
-          "zaobao.com.sg"
+          "Bus",
+          "French",
+          "Channel Tunnel"
         ],
         "latest_progress": [
-          "10月15日 14:15 UTC，zaobao.com.sg报道：“霍尔木兹海峡袭击增多 ： 新加坡船遇袭沉没”。",
-          "10月15日 11:45 UTC，orientaldaily.com.my报道：“霍尔木兹海峡袭击事件 达战争以来最高水平 | 国际”。"
+          "10月15日 21:12 UTC，BBC World报道：“Bus hits train stopped on French side of Channel Tunnel, with 19 injured”。",
+          "10月15日 20:42 UTC，DW Top Stories报道：“Bus, train collide, injuring 19 at Channel Tunnel terminal”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a83f48c2626a210f27d5",
+          "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_campaign=rss&at_medium=RSS",
+          "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+          "summary": "Two people were severely injured and evacuated by helicopter but no one's life appeared to be in danger, officials said.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-15T21:12:14+00:00",
+          "fetched_at": "2026-10-15T22:18:44.517180+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c978/live/dfe9a6d0-c8df-11f1-9a39-31b474234113.png"
+        },
+        {
+          "article_id": "art_6972ecb0cd3aeedb6ccb",
+          "url": "https://www.dw.com/en/bus-train-collide-injuring-19-at-channel-tunnel-terminal/a-79674671?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/bus-train-collide-injuring-19-at-channel-tunnel-terminal/a-79674671?maca=en-rss-en-top-1022-rdf",
+          "title": "Bus, train collide, injuring 19 at Channel Tunnel terminal",
+          "summary": "A minibus carrying truck drivers collided with a freight train near the Channel Tunnel entrance in France, injuring 19 people, two of them severely. Authorities launched an inquiry into what caused the accident.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-15T20:42:00+00:00",
+          "fetched_at": "2026-10-15T22:18:44.740607+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_26e86c96814458bd00d4",
+      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+      "category": "军事安全",
+      "score": 66.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 18.2,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-15T15:36:00+00:00",
+      "last_updated": "2026-10-15T17:47:22+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "execution",
+        "trump",
+        "fort",
+        "hood",
+        "not",
+        "said",
+        "nidal",
+        "hasan"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Trump calls off livestream of Fort Hood attacker's execution by firing squad”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Fort Hood"
+        ],
+        "latest_progress": [
+          "10月15日 17:47 UTC，BBC World报道：“Trump calls off livestream of Fort Hood attacker's execution by firing squad”。",
+          "10月15日 15:36 UTC，DW Top Stories报道：“Trump says execution of Fort Hood shooter will not be livestreamed”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -578,34 +380,291 @@
       },
       "articles": [
         {
-          "article_id": "art_10596b6365bd5bdf732f",
-          "url": "https://www.zaobao.com.sg/news/world/story20261015-9842585",
-          "canonical_url": "https://www.zaobao.com.sg/news/world/story20261015-9842585",
-          "title": "霍尔木兹海峡袭击增多 ： 新加坡船遇袭沉没",
-          "summary": "",
-          "source": "zaobao.com.sg",
-          "source_type": "gdelt",
-          "published_at": "2026-10-15T14:15:00+00:00",
-          "fetched_at": "2026-10-15T18:17:54.753418+00:00",
-          "language": "Chinese",
-          "region": "Singapore",
-          "source_weight": 0.75,
-          "image_url": "https://cassette.sphdigital.com.sg/image/zaobao/3a7a4415acf0ecbd395dd882a4fea237e07bee7cbd6a33a8515a9286f8afaace"
+          "article_id": "art_7e413e35639744e41b30",
+          "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_campaign=rss&at_medium=RSS",
+          "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
+          "summary": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution in over 60 years.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-15T17:47:22+00:00",
+          "fetched_at": "2026-10-15T22:18:44.517382+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81e4/live/8ba6bbd0-c8b2-11f1-ba4a-9b4af5820384.jpg"
         },
         {
-          "article_id": "art_b1d51b6ae3aeb0bf39d8",
-          "url": "https://www.orientaldaily.com.my/news/international/2026/10/15/855469",
-          "canonical_url": "https://www.orientaldaily.com.my/news/international/2026/10/15/855469",
-          "title": "霍尔木兹海峡袭击事件 达战争以来最高水平 | 国际",
+          "article_id": "art_9e79b0e3434fea1162a3",
+          "url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump says execution of Fort Hood shooter will not be livestreamed",
+          "summary": "Trump said the execution of Nidal Malik Hasan can be viewed in person by families of the victims if they wish. The decision comes after bipartisan backlash regarding the Pentagon's plans to livestream the execution.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-15T15:36:00+00:00",
+          "fetched_at": "2026-10-15T22:18:44.741298+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c0460f2b11866fa96cce",
+      "title": "OMP y Eastman muestran cómo acelerar la toma de decisiones en Gartner Supply Chain Planning Summit 2026",
+      "category": "产业供应链",
+      "score": 63.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.6,
+        "credibility": 7.5,
+        "impact": 10.4,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-15T12:30:00+00:00",
+      "last_updated": "2026-10-15T17:00:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "europapress.es",
+        "vanguardngr.com"
+      ],
+      "regions": [
+        "Nigeria",
+        "Spain"
+      ],
+      "keywords": [
+        "planning",
+        "supply",
+        "chain",
+        "meet",
+        "nigeria",
+        "shalom",
+        "alugwe",
+        "advancing"
+      ],
+      "analysis": {
+        "what_happened": "据europapress.es、vanguardngr.com等来源的2篇报道，当前关注的产业供应链事件为“OMP y Eastman muestran cómo acelerar la toma de decisiones en Gartner Supply Chain Planning Summit 2026”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
+        "participants": [
+          "OMP",
+          "Eastman",
+          "Gartner Supply Chain Planning",
+          "Summit",
+          "Meet Nigeria Shalom Alugwe",
+          "US"
+        ],
+        "latest_progress": [
+          "10月15日 17:00 UTC，europapress.es报道：“OMP y Eastman muestran cómo acelerar la toma de decisiones en Gartner Supply Chain Planning Summit 2026”。",
+          "10月15日 12:30 UTC，vanguardngr.com报道：“Meet Nigeria Shalom Alugwe advancing predictive planning , supply chain innovation in US”。"
+        ],
+        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
+        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
+        "watch_indicators": [
+          "港口和工厂运行率",
+          "交货周期与运价",
+          "企业订单及库存"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7fbd3596724691a5907c",
+          "url": "https://www.europapress.es/comunicados/internacional-00907/noticia-comunicado-omp-eastman-muestran-acelerar-toma-decisiones-gartner-supply-chain-planning-summit-2026-20261015164941.html",
+          "canonical_url": "https://www.europapress.es/comunicados/internacional-00907/noticia-comunicado-omp-eastman-muestran-acelerar-toma-decisiones-gartner-supply-chain-planning-summit-2026-20261015164941.html",
+          "title": "OMP y Eastman muestran cómo acelerar la toma de decisiones en Gartner Supply Chain Planning Summit 2026",
           "summary": "",
-          "source": "orientaldaily.com.my",
+          "source": "europapress.es",
           "source_type": "gdelt",
-          "published_at": "2026-10-15T11:45:00+00:00",
-          "fetched_at": "2026-10-15T18:17:54.749787+00:00",
-          "language": "Chinese",
-          "region": "Malaysia",
+          "published_at": "2026-10-15T17:00:00+00:00",
+          "fetched_at": "2026-10-15T22:18:44.414339+00:00",
+          "language": "Spanish",
+          "region": "Spain",
           "source_weight": 0.75,
-          "image_url": "https://www.orientaldaily.com.my/storage/resize_cache/images/uploads/news-cover/2026/OCT_2026/20261015/middle_east.jpg/c79c701c6a005e3ee651179032c9654d.jpg"
+          "image_url": "https://img.europapress.es/fotoweb/fotonoticia_20261015164941_1200.jpg"
+        },
+        {
+          "article_id": "art_0e5d7538e8fcb70b4d93",
+          "url": "https://www.vanguardngr.com/2026/10/meet-nigerias-shalom-alugwe-advancing-predictive-planning-supply-chain-innovation-in-us/",
+          "canonical_url": "https://www.vanguardngr.com/2026/10/meet-nigerias-shalom-alugwe-advancing-predictive-planning-supply-chain-innovation-in-us",
+          "title": "Meet Nigeria Shalom Alugwe advancing predictive planning , supply chain innovation in US",
+          "summary": "",
+          "source": "vanguardngr.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-15T12:30:00+00:00",
+          "fetched_at": "2026-10-15T22:18:44.412078+00:00",
+          "language": "English",
+          "region": "Nigeria",
+          "source_weight": 0.75,
+          "image_url": "https://cdn.vanguardngr.com/wp-content/uploads/2026/10/ricz.jpeg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_97f2f1b3649009d789cb",
+      "title": "ARKBRIDGE Outlines Jonathan Morelli Picks and Shovels AI Infrastructure Investment Strategy | Company Announcement",
+      "category": "科技AI",
+      "score": 62.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 16.6,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-15T14:15:00+00:00",
+      "last_updated": "2026-10-15T15:30:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "investegate.co.uk",
+        "manilatimes.net"
+      ],
+      "regions": [
+        "Philippines",
+        "United Kingdom"
+      ],
+      "keywords": [
+        "arkbridge",
+        "outlines",
+        "jonathan",
+        "morelli",
+        "picks",
+        "shovels",
+        "infrastructure",
+        "investment"
+      ],
+      "analysis": {
+        "what_happened": "据investegate.co.uk、manilatimes.net等来源的2篇报道，当前关注的科技AI事件为“ARKBRIDGE Outlines Jonathan Morelli Picks and Shovels AI Infrastructure Investment Strategy | Company Announcement”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "ARKBRIDGE",
+          "Outlines Jonathan Morelli Picks",
+          "Shovels",
+          "AI",
+          "Infrastructure Investment Strategy",
+          "Company Announcement"
+        ],
+        "latest_progress": [
+          "10月15日 15:30 UTC，manilatimes.net报道：“ARKBRIDGE Outlines Jonathan Morelli Picks and Shovels AI Infrastructure Investment Strategy”。",
+          "10月15日 14:15 UTC，investegate.co.uk报道：“ARKBRIDGE Outlines Jonathan Morelli Picks and Shovels AI Infrastructure Investment Strategy | Company Announcement”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_31c4761522d0e500d2a0",
+          "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/arkbridge-outlines-jonathan-morellis-picks-and-shovels-ai-infrastructure-investment-strategy/2446827",
+          "canonical_url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/arkbridge-outlines-jonathan-morellis-picks-and-shovels-ai-infrastructure-investment-strategy/2446827",
+          "title": "ARKBRIDGE Outlines Jonathan Morelli Picks and Shovels AI Infrastructure Investment Strategy",
+          "summary": "",
+          "source": "manilatimes.net",
+          "source_type": "gdelt",
+          "published_at": "2026-10-15T15:30:00+00:00",
+          "fetched_at": "2026-10-15T22:18:44.411239+00:00",
+          "language": "English",
+          "region": "Philippines",
+          "source_weight": 0.75,
+          "image_url": "https://manilatimes.net/manilatimes/uploads/images/2026/10/15/1262131.jpg"
+        },
+        {
+          "article_id": "art_de4c476b06ca953426ea",
+          "url": "https://www.investegate.co.uk/announcement/fnw/financewire-news--fnews/arkbridge-outlines-jonathan-morelli-s-pi-/9825561",
+          "canonical_url": "https://www.investegate.co.uk/announcement/fnw/financewire-news--fnews/arkbridge-outlines-jonathan-morelli-s-pi-/9825561",
+          "title": "ARKBRIDGE Outlines Jonathan Morelli Picks and Shovels AI Infrastructure Investment Strategy | Company Announcement",
+          "summary": "",
+          "source": "investegate.co.uk",
+          "source_type": "gdelt",
+          "published_at": "2026-10-15T14:15:00+00:00",
+          "fetched_at": "2026-10-15T22:18:44.411021+00:00",
+          "language": "English",
+          "region": "United Kingdom",
+          "source_weight": 0.75,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0d0624798d2f19b2c6a2",
+      "title": "Letters with 'suspicious substances' sent to US senators and election offices",
+      "category": "国际政治",
+      "score": 60.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.5,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-15T21:42:26+00:00",
+      "last_updated": "2026-10-15T21:42:26+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "letters",
+        "suspicious",
+        "substances'",
+        "sent",
+        "senators",
+        "election",
+        "offices",
+        "number"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Letters with 'suspicious substances' sent to US senators and election offices”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Letters",
+          "US"
+        ],
+        "latest_progress": [
+          "10月15日 21:42 UTC，BBC World报道：“Letters with 'suspicious substances' sent to US senators and election offices”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3f585148fbfea09c7d69",
+          "url": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_campaign=rss&at_medium=RSS",
+          "title": "Letters with 'suspicious substances' sent to US senators and election offices",
+          "summary": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-15T21:42:26+00:00",
+          "fetched_at": "2026-10-15T22:18:44.518872+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9974/live/7783af20-c8c4-11f1-95b2-9f12d414946d.jpg"
         }
       ]
     },
@@ -613,12 +672,12 @@
       "event_id": "evt_d7b2d7bc266cb207804c",
       "title": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
       "category": "军事安全",
-      "score": 62.3,
+      "score": 59.1,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.3,
+        "recency": 18.0,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -674,7 +733,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-15T17:31:37+00:00",
-          "fetched_at": "2026-10-15T18:19:05.408123+00:00",
+          "fetched_at": "2026-10-15T22:18:44.521470+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -683,21 +742,21 @@
       ]
     },
     {
-      "event_id": "evt_e3793aebe240ab05b963",
-      "title": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
-      "category": "军事安全",
-      "score": 61.3,
+      "event_id": "evt_ba1b641d6046bc7ac7b5",
+      "title": "Robots dance the ‘Macarena’ at Japan tech expo",
+      "category": "科技AI",
+      "score": 58.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.2,
+        "recency": 20.8,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 9.8,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-15T16:19:08+00:00",
-      "last_updated": "2026-10-15T16:19:08+00:00",
+      "first_seen": "2026-10-15T21:00:01+00:00",
+      "last_updated": "2026-10-15T21:00:01+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -707,47 +766,46 @@
         "Middle East"
       ],
       "keywords": [
-        "jerusalem",
-        "daily",
-        "ultra-orthodox",
-        "jews",
-        "storm",
-        "israeli",
-        "army",
-        "base"
+        "robots",
+        "macarena",
+        "japan",
+        "dance",
+        "tech",
+        "expo",
+        "humanoid",
+        "seen"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的科技AI事件为“Robots dance the ‘Macarena’ at Japan tech expo”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Jerusalem Daily",
-          "Ultra",
-          "Orthodox Jews",
-          "Israeli"
+          "Robots",
+          "Macarena",
+          "Japan"
         ],
         "latest_progress": [
-          "10月15日 16:19 UTC，Al Jazeera报道：“Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base”。"
+          "10月15日 21:00 UTC，Al Jazeera报道：“Robots dance the ‘Macarena’ at Japan tech expo”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_96af43b86a04cc528a92",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/jerusalem-daily-ultra-orthodox-jews-storm-israeli-army-base?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/jerusalem-daily-ultra-orthodox-jews-storm-israeli-army-base?traffic_source=rss",
-          "title": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
-          "summary": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
+          "article_id": "art_26bd3f5c9f420b657f75",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/robots-dance-the-macarena-at-japan-tech-expo?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/robots-dance-the-macarena-at-japan-tech-expo?traffic_source=rss",
+          "title": "Robots dance the ‘Macarena’ at Japan tech expo",
+          "summary": "Humanoid robots were seen performing the “Macarena” at the annual CEATEC technology exhibition in Chiba, Japan.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-15T16:19:08+00:00",
-          "fetched_at": "2026-10-15T18:19:06.383855+00:00",
+          "published_at": "2026-10-15T21:00:01+00:00",
+          "fetched_at": "2026-10-15T22:18:44.880109+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -756,163 +814,72 @@
       ]
     },
     {
-      "event_id": "evt_7b4b2e7cfa144336977a",
-      "title": "Police raid the major pro-opposition Halk TV channel in Turkey",
-      "category": "军事安全",
-      "score": 61.2,
+      "event_id": "evt_b40fc00bfcb2d9e30731",
+      "title": "全球媒体聚焦｜越南媒体 ： 中国正加快建立全链条循环经济体系",
+      "category": "经济金融",
+      "score": 58.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.7,
-        "credibility": 9.5,
-        "impact": 13.0,
+        "recency": 21.3,
+        "credibility": 7.5,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-15T16:48:00+00:00",
-      "last_updated": "2026-10-15T16:48:00+00:00",
+      "first_seen": "2026-10-15T21:30:00+00:00",
+      "last_updated": "2026-10-15T21:30:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "DW Top Stories"
+        "baijiahao.baidu.com"
       ],
       "regions": [
-        "Europe"
+        "China"
       ],
       "keywords": [
-        "police",
-        "pro-opposition",
-        "istanbul",
-        "raid",
-        "major",
-        "halk",
-        "channel",
-        "turkey"
+        "媒体",
+        "全球",
+        "球媒",
+        "体聚",
+        "聚焦",
+        "越南",
+        "南媒",
+        "中国"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Police raid the major pro-opposition Halk TV channel in Turkey”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据baijiahao.baidu.com等来源的1篇报道，当前关注的经济金融事件为“全球媒体聚焦｜越南媒体 ： 中国正加快建立全链条循环经济体系”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Police",
-          "Halk",
-          "TV",
-          "Turkey"
+          "baijiahao.baidu.com"
         ],
         "latest_progress": [
-          "10月15日 16:48 UTC，DW Top Stories报道：“Police raid the major pro-opposition Halk TV channel in Turkey”。"
+          "10月15日 21:30 UTC，baijiahao.baidu.com报道：“全球媒体聚焦｜越南媒体 ： 中国正加快建立全链条循环经济体系”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_ae27ab7bb7e74afa8c83",
-          "url": "https://www.dw.com/en/police-raid-the-major-pro-opposition-halk-tv-channel-in-turkey/a-79671673?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/police-raid-the-major-pro-opposition-halk-tv-channel-in-turkey/a-79671673?maca=en-rss-en-top-1022-rdf",
-          "title": "Police raid the major pro-opposition Halk TV channel in Turkey",
-          "summary": "Turkish police raided the Istanbul headquarters of an important pro-opposition television station on Wednesdazy, the day that jailed Istanbul Mayor Ekrem Imamoglu was set to start his defense against corruption charges.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-15T16:48:00+00:00",
-          "fetched_at": "2026-10-15T18:19:06.131327+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "article_id": "art_657f5e5c790a4ef2d326",
+          "url": "https://baijiahao.baidu.com/s?id=1879124136671595578",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879124136671595578",
+          "title": "全球媒体聚焦｜越南媒体 ： 中国正加快建立全链条循环经济体系",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-15T21:30:00+00:00",
+          "fetched_at": "2026-10-15T22:18:44.414163+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c698976819c8f8915989",
-      "title": "North Korea and China open new bridge after 12-year delay",
-      "category": "国际政治",
-      "score": 60.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 14.4,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-15T06:24:45+00:00",
-      "last_updated": "2026-10-15T08:12:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "china",
-        "north",
-        "korea",
-        "bridge",
-        "open",
-        "year",
-        "delay",
-        "between"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“North Korea and China open new bridge after 12-year delay”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "North Korea",
-          "China"
-        ],
-        "latest_progress": [
-          "10月15日 08:12 UTC，DW Top Stories报道：“North Korea, China open border bridge after 12-year delay”。",
-          "10月15日 06:24 UTC，BBC World报道：“North Korea and China open new bridge after 12-year delay”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_edb9ba300918c186a73c",
-          "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-top-1022-rdf",
-          "title": "North Korea, China open border bridge after 12-year delay",
-          "summary": "Twelve years after it was constructed, the New Yalu River Bridge between China and North Korea is finally operational. It is the latest sign of warming ties between the two nations.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-15T08:12:00+00:00",
-          "fetched_at": "2026-10-15T18:19:06.133845+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_06dd1b81938e53a36f30",
-          "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_campaign=rss&at_medium=RSS",
-          "title": "North Korea and China open new bridge after 12-year delay",
-          "summary": "China is the North's largest trading partner and a lifeline against the sanctions Pyongyang faces.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T06:24:45+00:00",
-          "fetched_at": "2026-10-15T18:19:05.406476+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/481d/live/54fdb770-c83d-11f1-9346-f78c578493f4.jpg"
         }
       ]
     }
