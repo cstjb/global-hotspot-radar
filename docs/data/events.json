@@ -1,153 +1,25 @@
 {
-  "generated_at": "2026-10-14T23:14:47.111544+00:00",
+  "generated_at": "2026-10-15T01:30:56.163501+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
+    "status": "success",
     "articles_fetched": 84,
     "articles_unique": 84,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_f22cb256c851d4a433e3",
-      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "category": "能源资源",
-      "score": 75.4,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.7,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-14T11:40:00+00:00",
-      "last_updated": "2026-10-14T18:00:44+00:00",
-      "source_count": 3,
-      "article_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "germany",
-        "nord",
-        "stream",
-        "ukrainian",
-        "trial",
-        "accused",
-        "pipelines",
-        "gas"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的能源资源事件为“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Ukrainian",
-          "Russia",
-          "Nord Stream",
-          "Germany"
-        ],
-        "latest_progress": [
-          "10月14日 18:00 UTC，Al Jazeera报道：“How six Ukrainian divers could have blown up Russia’s $20bn pipelines”。",
-          "10月14日 18:00 UTC，DW Top Stories报道：“Nord Stream trial opens in Germany, defense seeks dismissal”。",
-          "10月14日 13:41 UTC，BBC World报道：“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9e7ae85671b41c74520a",
-          "url": "https://www.aljazeera.com/video/2026/10/14/aje-onl-pp-nord-stream-141125?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/2026/10/14/aje-onl-pp-nord-stream-141125?traffic_source=rss",
-          "title": "How six Ukrainian divers could have blown up Russia’s $20bn pipelines",
-          "summary": "A Ukrainian military officer is on trial in Germany over an act of sabotage that remained unsolved for years.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-14T18:00:44+00:00",
-          "fetched_at": "2026-10-14T23:14:46.543486+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_33504eede0fd50dba20c",
-          "url": "https://www.dw.com/en/nord-stream-trial-opens-in-germany-defense-seeks-dismissal/a-79662942?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/nord-stream-trial-opens-in-germany-defense-seeks-dismissal/a-79662942?maca=en-rss-en-top-1022-rdf",
-          "title": "Nord Stream trial opens in Germany, defense seeks dismissal",
-          "summary": "Serhii Kuznietsov is accused of attacking civilian infrastructure in the 2022 sabotage of the Russian gas pipeline to Germany. His lawyers called Nord Stream a military target, and said their client is sworn to secrecy.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-14T18:00:00+00:00",
-          "fetched_at": "2026-10-14T23:14:45.990127+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_80f6245aed01ed79e598",
-          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_campaign=rss&at_medium=RSS",
-          "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-          "summary": "Four years after the attacks, Serhii Kuznetsov appears in court accused of a plot to destroy Russia's gas pipelines to Germany.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-14T13:41:51+00:00",
-          "fetched_at": "2026-10-14T23:14:45.254316+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b7/live/66289890-c7c4-11f1-993a-152cbb068da1.jpg"
-        },
-        {
-          "article_id": "art_6d55300e596f9cb5eecd",
-          "url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
-          "title": "Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial",
-          "summary": "A Ukrainian citizen faces court in Hamburg, accused of attacking the Nord Stream gas pipelines in 2022. It raises questions about Kyiv's possible role in the explosions. German support for Ukraine is also under scrutiny.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-14T11:40:00+00:00",
-          "fetched_at": "2026-10-14T23:14:45.990912+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_6ec46fbb4ee53fce64cc",
-      "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
-      "category": "军事安全",
-      "score": 71.4,
+      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "category": "国际政治",
+      "score": 67.6,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.0,
+        "recency": 18.2,
         "credibility": 9.8,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-14T18:28:00+00:00",
@@ -164,35 +36,35 @@
       "keywords": [
         "ukraine",
         "starlink",
-        "limits",
-        "access",
         "spacex",
+        "limits",
         "kyiv's",
+        "access",
         "musk",
         "internet"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Musk says any limits on Ukraine's Starlink access down to US, not his firm”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Musk says US government may be behind slowdown of Ukraine drone speeds”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Musk",
-          "Ukraine",
-          "Starlink",
           "US",
+          "Ukraine",
           "Why",
+          "Starlink",
           "Kyiv"
         ],
         "latest_progress": [
-          "10月14日 20:55 UTC，BBC World报道：“Musk says any limits on Ukraine's Starlink access down to US, not his firm”。",
+          "10月14日 20:55 UTC，BBC World报道：“Musk says US government may be behind slowdown of Ukraine drone speeds”。",
           "10月14日 19:52 UTC，BBC World报道：“Why is Starlink internet so important on the battlefield in Ukraine?”。",
           "10月14日 18:28 UTC，DW Top Stories报道：“Ukraine says Musk's SpaceX limits Kyiv's Starlink access”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
@@ -201,12 +73,12 @@
           "article_id": "art_f563e4a921c40e6d40f2",
           "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_campaign=rss&at_medium=RSS",
-          "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
+          "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
           "summary": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-14T20:55:24+00:00",
-          "fetched_at": "2026-10-14T23:14:45.253943+00:00",
+          "fetched_at": "2026-10-15T01:30:54.395830+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -221,7 +93,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-14T19:52:04+00:00",
-          "fetched_at": "2026-10-14T23:14:45.255109+00:00",
+          "fetched_at": "2026-10-15T01:30:54.397734+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -236,7 +108,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-14T18:28:00+00:00",
-          "fetched_at": "2026-10-14T23:14:45.990040+00:00",
+          "fetched_at": "2026-10-15T01:30:54.900218+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -248,12 +120,12 @@
       "event_id": "evt_47e575a41dc515e374d5",
       "title": "Trump's diesel deal with Russia is unlikely to significantly lower global fuel prices despite expectations of rapid relief",
       "category": "国际政治",
-      "score": 68.3,
+      "score": 66.7,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.6,
+        "recency": 16.0,
         "credibility": 9.5,
         "impact": 11.0,
         "velocity": 1.8
@@ -316,7 +188,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-14T17:55:00+00:00",
-          "fetched_at": "2026-10-14T23:14:45.990198+00:00",
+          "fetched_at": "2026-10-15T01:30:54.900440+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -331,7 +203,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-14T14:15:00+00:00",
-          "fetched_at": "2026-10-14T23:14:45.990679+00:00",
+          "fetched_at": "2026-10-15T01:30:54.901227+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -346,7 +218,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-13T20:03:37+00:00",
-          "fetched_at": "2026-10-14T23:14:46.342994+00:00",
+          "fetched_at": "2026-10-15T01:30:55.082267+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -361,7 +233,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-13T08:44:19+00:00",
-          "fetched_at": "2026-10-14T23:14:46.343259+00:00",
+          "fetched_at": "2026-10-15T01:30:55.082718+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -373,12 +245,12 @@
       "event_id": "evt_069b3e47932f4d4ed663",
       "title": "Denmark pushes back as Trump touts Greenland oil and mineral deals",
       "category": "能源资源",
-      "score": 68.1,
+      "score": 66.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.8,
+        "recency": 19.9,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 2.3
@@ -436,7 +308,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-14T23:03:10+00:00",
-          "fetched_at": "2026-10-14T23:14:46.541759+00:00",
+          "fetched_at": "2026-10-15T01:30:55.323488+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -451,7 +323,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-14T10:00:00+00:00",
-          "fetched_at": "2026-10-14T23:14:45.991022+00:00",
+          "fetched_at": "2026-10-15T01:30:54.901773+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -460,15 +332,193 @@
       ]
     },
     {
+      "event_id": "evt_f22cb256c851d4a433e3",
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "category": "能源资源",
+      "score": 65.4,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 16.1,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T11:40:00+00:00",
+      "last_updated": "2026-10-14T18:00:00+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "nord",
+        "stream",
+        "germany",
+        "accused",
+        "ukrainian",
+        "trial",
+        "gas",
+        "pipelines"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Nord Stream",
+          "Germany",
+          "Ukrainian"
+        ],
+        "latest_progress": [
+          "10月14日 18:00 UTC，DW Top Stories报道：“Nord Stream trial opens in Germany, defense seeks dismissal”。",
+          "10月14日 13:41 UTC，BBC World报道：“Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines”。",
+          "10月14日 11:40 UTC，DW Top Stories报道：“Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_33504eede0fd50dba20c",
+          "url": "https://www.dw.com/en/nord-stream-trial-opens-in-germany-defense-seeks-dismissal/a-79662942?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/nord-stream-trial-opens-in-germany-defense-seeks-dismissal/a-79662942?maca=en-rss-en-top-1022-rdf",
+          "title": "Nord Stream trial opens in Germany, defense seeks dismissal",
+          "summary": "Serhii Kuznietsov is accused of attacking civilian infrastructure in the 2022 sabotage of the Russian gas pipeline to Germany. His lawyers called Nord Stream a military target, and said their client is sworn to secrecy.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-14T18:00:00+00:00",
+          "fetched_at": "2026-10-15T01:30:54.900333+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_80f6245aed01ed79e598",
+          "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_campaign=rss&at_medium=RSS",
+          "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+          "summary": "Four years after the attacks, Serhii Kuznetsov appears in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-14T13:41:51+00:00",
+          "fetched_at": "2026-10-15T01:30:54.396455+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b7/live/66289890-c7c4-11f1-993a-152cbb068da1.jpg"
+        },
+        {
+          "article_id": "art_6d55300e596f9cb5eecd",
+          "url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-top-1022-rdf",
+          "title": "Nord Stream: Germany puts suspected Ukrainian pipeline saboteur on trial",
+          "summary": "A Ukrainian citizen faces court in Hamburg, accused of attacking the Nord Stream gas pipelines in 2022. It raises questions about Kyiv's possible role in the explosions. German support for Ukraine is also under scrutiny.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-14T11:40:00+00:00",
+          "fetched_at": "2026-10-15T01:30:54.901595+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_038325582a6ad105f34e",
+      "title": "Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz",
+      "category": "军事安全",
+      "score": 61.7,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.7,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-15T00:00:00+00:00",
+      "last_updated": "2026-10-15T00:00:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "iran",
+        "war",
+        "vows",
+        "fight",
+        "until",
+        "ships",
+        "sink",
+        "hormuz"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "Tehran",
+          "US",
+          "Hormuz"
+        ],
+        "latest_progress": [
+          "10月15日 00:00 UTC，Al Jazeera报道：“Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cb3ee08c9640d4aeee73",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
+          "title": "Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz",
+          "summary": "Iran says it does not seek an endless war, but vows to fight until the US accepts its demands as ships sink in Hormuz.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-15T00:00:00+00:00",
+          "fetched_at": "2026-10-15T01:30:55.323229+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_6be0eb2432af6bf99b52",
       "title": "Burnham says he wants to 'repair bridges' between Ukraine and US",
       "category": "国际政治",
-      "score": 62.9,
+      "score": 61.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.8,
+        "recency": 18.0,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
@@ -525,7 +575,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-14T20:41:03+00:00",
-          "fetched_at": "2026-10-14T23:14:45.255691+00:00",
+          "fetched_at": "2026-10-15T01:30:54.398648+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -540,7 +590,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-14T15:56:57+00:00",
-          "fetched_at": "2026-10-14T23:14:45.255039+00:00",
+          "fetched_at": "2026-10-15T01:30:54.397618+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -549,15 +599,157 @@
       ]
     },
     {
-      "event_id": "evt_7b9356b4995e776a6775",
-      "title": "ICE pushes back on report suggesting body cameras that automatically record",
-      "category": "国际政治",
-      "score": 60.8,
+      "event_id": "evt_854f74cdc616dd9c1443",
+      "title": "North Korea says it tested cruise missiles to be launched from sub",
+      "category": "军事安全",
+      "score": 60.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.7,
+        "recency": 20.3,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-14T23:37:00+00:00",
+      "last_updated": "2026-10-14T23:37:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "north",
+        "cruise",
+        "missiles",
+        "launched",
+        "korea",
+        "tested",
+        "sub",
+        "korean"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“North Korea says it tested cruise missiles to be launched from sub”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "North Korea"
+        ],
+        "latest_progress": [
+          "10月14日 23:37 UTC，DW Top Stories报道：“North Korea says it tested cruise missiles to be launched from sub”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c1a666429b2d5712c2c2",
+          "url": "https://www.dw.com/en/north-korea-says-it-tested-cruise-missiles-to-be-launched-from-sub/a-79664436?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/north-korea-says-it-tested-cruise-missiles-to-be-launched-from-sub/a-79664436?maca=en-rss-en-top-1022-rdf",
+          "title": "North Korea says it tested cruise missiles to be launched from sub",
+          "summary": "North Korean state media said the military test-fired cruise missiles designed to be launched from submarines. Pyongyang has ramped up weapons launches in recent weeks.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-14T23:37:00+00:00",
+          "fetched_at": "2026-10-15T01:30:54.900062+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_092dcf4fe6f1bc1526c4",
+      "title": "Costa Rica opens mega-prison as Bukele model embraced across Latin America",
+      "category": "国际政治",
+      "score": 60.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-15T00:24:03+00:00",
+      "last_updated": "2026-10-15T00:24:03+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "mega-prison",
+        "embraced",
+        "costa",
+        "rica",
+        "opens",
+        "bukele",
+        "model",
+        "across"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Costa Rica opens mega-prison as Bukele model embraced across Latin America”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Costa Rica",
+          "Bukele",
+          "Latin America"
+        ],
+        "latest_progress": [
+          "10月15日 00:24 UTC，Al Jazeera报道：“Costa Rica opens mega-prison as Bukele model embraced across Latin America”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_072c8bb29ca1399f8f90",
+          "url": "https://www.aljazeera.com/news/2026/10/15/costa-rica-opens-mega-prison-as-bukele-model-embraced-across-latin-america?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/15/costa-rica-opens-mega-prison-as-bukele-model-embraced-across-latin-america?traffic_source=rss",
+          "title": "Costa Rica opens mega-prison as Bukele model embraced across Latin America",
+          "summary": "President Laura Fernandez says mega-prison is part of 'tough-on-crime model' embraced by her government.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-15T00:24:03+00:00",
+          "fetched_at": "2026-10-15T01:30:55.322897+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7b9356b4995e776a6775",
+      "title": "ICE rejects recommendation for body cameras that automatically record",
+      "category": "国际政治",
+      "score": 58.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.8,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
@@ -573,23 +765,23 @@
         "Middle East"
       ],
       "keywords": [
-        "report",
+        "rejects",
         "body",
         "ice",
-        "pushes",
-        "back",
-        "suggesting",
+        "recommendation",
         "cameras",
-        "automatically"
+        "automatically",
+        "record",
+        "immigration"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“ICE pushes back on report suggesting body cameras that automatically record”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“ICE rejects recommendation for body cameras that automatically record”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "ICE"
         ],
         "latest_progress": [
-          "10月14日 22:57 UTC，Al Jazeera报道：“ICE pushes back on report suggesting body cameras that automatically record”。"
+          "10月14日 22:57 UTC，Al Jazeera报道：“ICE rejects recommendation for body cameras that automatically record”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -605,12 +797,12 @@
           "article_id": "art_cc4979d1ba7a2a3e8dc0",
           "url": "https://www.aljazeera.com/news/2026/10/14/ice-pushes-back-on-report-suggesting-body-cameras-that-automatically-record?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/14/ice-pushes-back-on-report-suggesting-body-cameras-that-automatically-record?traffic_source=rss",
-          "title": "ICE pushes back on report suggesting body cameras that automatically record",
+          "title": "ICE rejects recommendation for body cameras that automatically record",
           "summary": "The immigration agency rejects a report from a government watchdog recommending improvements to its body camera policy.",
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-14T22:57:13+00:00",
-          "fetched_at": "2026-10-14T23:14:46.541852+00:00",
+          "fetched_at": "2026-10-15T01:30:55.323612+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -620,14 +812,14 @@
     },
     {
       "event_id": "evt_7b90b45931aac3801fb6",
-      "title": "Student protesters attack government buildings in Tirana",
+      "title": "Student protesters attack government buildings in Albania",
       "category": "军事安全",
-      "score": 60.6,
+      "score": 58.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.6,
+        "recency": 17.8,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -648,19 +840,19 @@
         "protesters",
         "attack",
         "government",
-        "tirana",
-        "thousands",
-        "students"
+        "albania",
+        "set",
+        "alight"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Student protesters attack government buildings in Tirana”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Student protesters attack government buildings in Albania”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Student",
-          "Tirana"
+          "Albania"
         ],
         "latest_progress": [
-          "10月14日 20:29 UTC，BBC World报道：“Student protesters attack government buildings in Tirana”。"
+          "10月14日 20:29 UTC，BBC World报道：“Student protesters attack government buildings in Albania”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -676,228 +868,16 @@
           "article_id": "art_13f84b7be29a80551693",
           "url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cq80zk5k2ep4o?at_campaign=rss&at_medium=RSS",
-          "title": "Student protesters attack government buildings in Tirana",
-          "summary": "Thousands of students in Albania are calling for better university conditions and job prospects, but buildings have been set on fire in the unrest.",
+          "title": "Student protesters attack government buildings in Albania",
+          "summary": "Buildings were set alight on the second day of demonstrations from thousands of students who want better university conditions and job prospects.",
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-14T20:29:05+00:00",
-          "fetched_at": "2026-10-14T23:14:45.254067+00:00",
+          "fetched_at": "2026-10-15T01:30:54.396015+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4571/live/704a3630-c7f6-11f1-9a39-31b474234113.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_288c93667a453abbdcd1",
-      "title": "Russia attack hits Kyiv after reported intelligence lapse",
-      "category": "军事安全",
-      "score": 60.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.4,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-14T20:14:57+00:00",
-      "last_updated": "2026-10-14T20:14:57+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "russia",
-        "attack",
-        "hits",
-        "kyiv",
-        "reported",
-        "intelligence",
-        "lapse"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Russia attack hits Kyiv after reported intelligence lapse”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russia",
-          "Kyiv"
-        ],
-        "latest_progress": [
-          "10月14日 20:14 UTC，Al Jazeera报道：“Russia attack hits Kyiv after reported intelligence lapse”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ecc5d7c1147aace24b74",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/russia-attack-hits-kyiv-after-reported-intelligence-lapse?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/russia-attack-hits-kyiv-after-reported-intelligence-lapse?traffic_source=rss",
-          "title": "Russia attack hits Kyiv after reported intelligence lapse",
-          "summary": "Russia attack hits Kyiv after reported intelligence lapse",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-14T20:14:57+00:00",
-          "fetched_at": "2026-10-14T23:14:46.542793+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c7dfa3c7dc848c7ea71f",
-      "title": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
-      "category": "国际政治",
-      "score": 60.4,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-14T22:31:10+00:00",
-      "last_updated": "2026-10-14T22:31:10+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "state",
-        "australia's",
-        "first-ever",
-        "michelin",
-        "stars",
-        "restaurants",
-        "one",
-        "all"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Australia's first-ever Michelin stars go to 11 restaurants in one state”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Australia",
-          "Michelin"
-        ],
-        "latest_progress": [
-          "10月14日 22:31 UTC，BBC World报道：“Australia's first-ever Michelin stars go to 11 restaurants in one state”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_8ff549133b3fdf5cf30f",
-          "url": "https://www.bbc.co.uk/news/articles/crje5we583qwo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crje5we583qwo?at_campaign=rss&at_medium=RSS",
-          "title": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
-          "summary": "All of the spots are in South Australia, reportedly because the state government paid for incognito inspectors to visit.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-14T22:31:10+00:00",
-          "fetched_at": "2026-10-14T23:14:45.254389+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ece/live/b0d12ad0-c821-11f1-9464-85dab4665525.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c3cb4febe16746959a35",
-      "title": "Colombia opposition groups launch protest against de la Espriella’s cuts",
-      "category": "社会突发",
-      "score": 60.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.5,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-14T21:35:27+00:00",
-      "last_updated": "2026-10-14T21:35:27+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "against",
-        "colombia",
-        "opposition",
-        "groups",
-        "launch",
-        "protest",
-        "espriella",
-        "cuts"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Colombia opposition groups launch protest against de la Espriella’s cuts”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Colombia",
-          "Espriella"
-        ],
-        "latest_progress": [
-          "10月14日 21:35 UTC，Al Jazeera报道：“Colombia opposition groups launch protest against de la Espriella’s cuts”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_390742869d3717bef7b0",
-          "url": "https://www.aljazeera.com/news/2026/10/14/colombia-opposition-groups-launch-protest-against-de-la-espriellas-cuts?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/14/colombia-opposition-groups-launch-protest-against-de-la-espriellas-cuts?traffic_source=rss",
-          "title": "Colombia opposition groups launch protest against de la Espriella’s cuts",
-          "summary": "Former President Gustavo Petro joined thousands of demonstrators in Bogota in march against austerity, Israel ties.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-14T21:35:27+00:00",
-          "fetched_at": "2026-10-14T23:14:46.542079+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         }
       ]
     }
