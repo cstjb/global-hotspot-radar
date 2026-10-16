@@ -1,45 +1,38 @@
 {
-  "generated_at": "2026-10-16T19:59:18.968886+00:00",
+  "generated_at": "2026-10-16T22:52:00.173205+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 142,
-    "articles_unique": 142,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 192,
+    "articles_unique": 191,
+    "errors": []
   },
   "events": [
     {
       "event_id": "evt_c4663c8e78979e2c7414",
       "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
       "category": "军事安全",
-      "score": 89.2,
+      "score": 78.8,
       "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 21.6,
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 19.1,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-16T11:40:41+00:00",
       "last_updated": "2026-10-16T19:32:00+00:00",
-      "source_count": 4,
-      "article_count": 5,
+      "source_count": 3,
+      "article_count": 4,
       "sources": [
-        "Al Jazeera",
         "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East",
         "North America"
       ],
       "keywords": [
@@ -49,19 +42,17 @@
         "bank",
         "palestinians",
         "attack",
-        "olive",
-        "harvest"
+        "harvest",
+        "journalist"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "West Bank",
           "US",
           "Israeli",
-          "Palestinians",
-          "Jerusalem Daily",
-          "Palestinian"
+          "Palestinians"
         ],
         "latest_progress": [
           "10月16日 19:32 UTC，DW Top Stories报道：“West Bank: US journalist injured by Israeli settlers”。",
@@ -87,7 +78,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T19:32:00+00:00",
-          "fetched_at": "2026-10-16T19:59:17.155623+00:00",
+          "fetched_at": "2026-10-16T22:51:57.853805+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -102,7 +93,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-16T15:57:27+00:00",
-          "fetched_at": "2026-10-16T19:59:17.334325+00:00",
+          "fetched_at": "2026-10-16T22:51:58.092160+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -117,26 +108,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T14:31:04+00:00",
-          "fetched_at": "2026-10-16T19:59:16.739160+00:00",
+          "fetched_at": "2026-10-16T22:51:57.179639+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc2e/live/1a3bde40-c96f-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_6aa12c9af108349d8d0d",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/jerusalem-daily-israeli-settlers-burn-palestinian-olive-groves?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/jerusalem-daily-israeli-settlers-burn-palestinian-olive-groves?traffic_source=rss",
-          "title": "Jerusalem Daily: Israeli settlers burn Palestinian olive groves",
-          "summary": "Israeli settlers carry out violent pogroms on Palestinian olive groves in the towns of Abu Falah and Turmus Ayya.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T13:52:48+00:00",
-          "fetched_at": "2026-10-16T19:59:17.510894+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         },
         {
           "article_id": "art_f6ce3db82aaaa17bbece",
@@ -147,7 +123,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T11:40:41+00:00",
-          "fetched_at": "2026-10-16T19:59:16.742905+00:00",
+          "fetched_at": "2026-10-16T22:51:57.184812+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -159,12 +135,12 @@
       "event_id": "evt_e3bce793694c223b9d77",
       "title": "Watch: Will Ukraine get the support needed as tensions with US rise?",
       "category": "国际政治",
-      "score": 75.5,
+      "score": 73.2,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 19.9,
+        "recency": 17.6,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -228,7 +204,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T17:34:00+00:00",
-          "fetched_at": "2026-10-16T19:59:17.155956+00:00",
+          "fetched_at": "2026-10-16T22:51:57.854219+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -243,7 +219,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T16:02:13+00:00",
-          "fetched_at": "2026-10-16T19:59:17.509951+00:00",
+          "fetched_at": "2026-10-16T22:51:58.210115+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -258,7 +234,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T15:45:10+00:00",
-          "fetched_at": "2026-10-16T19:59:16.742589+00:00",
+          "fetched_at": "2026-10-16T22:51:57.184350+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -270,12 +246,12 @@
       "event_id": "evt_f98f15d426a6acb53335",
       "title": "Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal",
       "category": "国际政治",
-      "score": 73.7,
+      "score": 71.2,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.7,
+        "recency": 19.3,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -338,7 +314,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T19:42:00+00:00",
-          "fetched_at": "2026-10-16T19:59:17.155486+00:00",
+          "fetched_at": "2026-10-16T22:51:57.853648+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -353,7 +329,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T17:59:48+00:00",
-          "fetched_at": "2026-10-16T19:59:17.508582+00:00",
+          "fetched_at": "2026-10-16T22:51:58.208369+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -368,7 +344,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T17:28:41+00:00",
-          "fetched_at": "2026-10-16T19:59:17.508840+00:00",
+          "fetched_at": "2026-10-16T22:51:58.208684+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -380,12 +356,12 @@
       "event_id": "evt_2b2e54f411038dc44746",
       "title": "Kenya records third Ebola case, linked to first patient who died",
       "category": "社会突发",
-      "score": 69.4,
+      "score": 67.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.1,
+        "recency": 18.7,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 3.6
@@ -442,7 +418,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T18:57:40+00:00",
-          "fetched_at": "2026-10-16T19:59:17.508172+00:00",
+          "fetched_at": "2026-10-16T22:51:58.207894+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -457,7 +433,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T10:41:00+00:00",
-          "fetched_at": "2026-10-16T19:59:17.157011+00:00",
+          "fetched_at": "2026-10-16T22:51:57.855664+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -469,12 +445,12 @@
       "event_id": "evt_79a7b4591482440b7297",
       "title": "Indian protest leaders detained ahead of flag march in New Delhi",
       "category": "社会突发",
-      "score": 68.7,
+      "score": 66.6,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.8,
+        "recency": 16.7,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
@@ -531,7 +507,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T16:16:13+00:00",
-          "fetched_at": "2026-10-16T19:59:17.509720+00:00",
+          "fetched_at": "2026-10-16T22:51:58.209806+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -546,7 +522,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T11:44:31+00:00",
-          "fetched_at": "2026-10-16T19:59:16.739584+00:00",
+          "fetched_at": "2026-10-16T22:51:57.180150+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -555,105 +531,15 @@
       ]
     },
     {
-      "event_id": "evt_cde0482ad2110db535a9",
-      "title": "Ethiopia announces instalment of interim government in Tigray",
-      "category": "国际政治",
-      "score": 67.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.9,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T13:54:06+00:00",
-      "last_updated": "2026-10-16T16:19:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "tigray",
-        "abiy",
-        "interim",
-        "government",
-        "ahmed",
-        "elections",
-        "within",
-        "months"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Ethiopia announces instalment of interim government in Tigray”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Ethiopia",
-          "Abiy Ahmed",
-          "Tigray"
-        ],
-        "latest_progress": [
-          "10月16日 16:19 UTC，DW Top Stories报道：“Ethiopia's Abiy Ahmed appoints interim Tigray government”。",
-          "10月16日 13:54 UTC，Al Jazeera报道：“Ethiopia announces instalment of interim government in Tigray”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_76982bb04638deefbc51",
-          "url": "https://www.dw.com/en/ethiopia-s-abiy-ahmed-appoints-interim-tigray-government/a-79683519?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ethiopia-s-abiy-ahmed-appoints-interim-tigray-government/a-79683519?maca=en-rss-en-top-1022-rdf",
-          "title": "Ethiopia's Abiy Ahmed appoints interim Tigray government",
-          "summary": "Abiy Ahmed's office said there would be elections held in Tigray within 6 months. The move comes after an escalation in fighting between federal forces and a rebel alliance.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-16T16:19:00+00:00",
-          "fetched_at": "2026-10-16T19:59:17.156069+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_092cec3eef3096db41c4",
-          "url": "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray?traffic_source=rss",
-          "title": "Ethiopia announces instalment of interim government in Tigray",
-          "summary": "After military pushed back TPLF uprising, PM Abiy Ahmed promises free elections within six months.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T13:54:06+00:00",
-          "fetched_at": "2026-10-16T19:59:17.510789+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_576fa19e9c7a85777048",
       "title": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
       "category": "国际政治",
-      "score": 62.7,
+      "score": 60.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.1,
+        "recency": 17.8,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 1.2
@@ -712,7 +598,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T17:46:00+00:00",
-          "fetched_at": "2026-10-16T19:59:17.155853+00:00",
+          "fetched_at": "2026-10-16T22:51:57.854090+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -727,7 +613,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-15T16:15:06+00:00",
-          "fetched_at": "2026-10-16T19:59:16.741299+00:00",
+          "fetched_at": "2026-10-16T22:51:57.182498+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -736,15 +622,160 @@
       ]
     },
     {
-      "event_id": "evt_a469a11393d5631dbbd0",
-      "title": "UK PM adviser’s wife expresses ‘support’ for Palestine Action",
-      "category": "军事安全",
-      "score": 61.7,
+      "event_id": "evt_d00cb9ed4f91e0c34a6d",
+      "title": "Yemen’s government says Houthis fired two missiles at Aden airport",
+      "category": "国际政治",
+      "score": 60.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.6,
+        "recency": 21.2,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T21:56:07+00:00",
+      "last_updated": "2026-10-16T21:56:07+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "yemen",
+        "government",
+        "houthis",
+        "fired",
+        "two",
+        "missiles",
+        "aden",
+        "airport"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Yemen’s government says Houthis fired two missiles at Aden airport”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Yemen",
+          "Houthis",
+          "Aden"
+        ],
+        "latest_progress": [
+          "10月16日 21:56 UTC，Al Jazeera报道：“Yemen’s government says Houthis fired two missiles at Aden airport”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ee6800e4dc8e4cfb4562",
+          "url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
+          "title": "Yemen’s government says Houthis fired two missiles at Aden airport",
+          "summary": "Attack comes as Yemeni gov't forces claim advances in Marib and say they 'neutralised' 430 Houthi fighters in 24 hours.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T21:56:07+00:00",
+          "fetched_at": "2026-10-16T22:51:58.206131+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e6aa5cbf8b8e48c2ff4d",
+      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+      "category": "国际政治",
+      "score": 59.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.5,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T21:08:50+00:00",
+      "last_updated": "2026-10-16T21:08:50+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "say",
+        "meta",
+        "employees",
+        "lula",
+        "accounts",
+        "restricted",
+        "brazil",
+        "election"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Meta employees say Lula’s accounts restricted in Brazil election: Report”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Meta",
+          "Lula",
+          "Brazil",
+          "Report"
+        ],
+        "latest_progress": [
+          "10月16日 21:08 UTC，Al Jazeera报道：“Meta employees say Lula’s accounts restricted in Brazil election: Report”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_953ead3546c442a0c9f9",
+          "url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
+          "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
+          "summary": "The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro's profile and his WhatsApp channel.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T21:08:50+00:00",
+          "fetched_at": "2026-10-16T22:51:58.206312+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a469a11393d5631dbbd0",
+      "title": "UK PM adviser’s wife expresses ‘support’ for Palestine Action",
+      "category": "军事安全",
+      "score": 59.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.3,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -799,7 +830,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T18:26:08+00:00",
-          "fetched_at": "2026-10-16T19:59:17.508323+00:00",
+          "fetched_at": "2026-10-16T22:51:58.208059+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -811,12 +842,12 @@
       "event_id": "evt_3aa8c858c0282a448fdb",
       "title": "How Iran messaging highlights cost of war ahead of US midterm elections",
       "category": "军事安全",
-      "score": 61.6,
+      "score": 59.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.6,
+        "recency": 18.2,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -870,97 +901,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T18:21:43+00:00",
-          "fetched_at": "2026-10-16T19:59:17.508452+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_423fd5e1f029c93ac817",
-      "title": "Qatar announces ‘massive’ solar plant project in Lebanon",
-      "category": "国际政治",
-      "score": 60.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.4,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T14:01:08+00:00",
-      "last_updated": "2026-10-16T14:19:36+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "qatar",
-        "lebanon",
-        "minister",
-        "israeli",
-        "prime",
-        "calls",
-        "withdrawal",
-        "foreign"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Qatar announces ‘massive’ solar plant project in Lebanon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Qatar",
-          "Lebanon Qatar",
-          "FM",
-          "Israeli",
-          "Lebanon"
-        ],
-        "latest_progress": [
-          "10月16日 14:19 UTC，Al Jazeera报道：“Qatar announces ‘massive’ solar plant project in Lebanon”。",
-          "10月16日 14:01 UTC，Al Jazeera报道：“Qatar FM calls for Israeli withdrawal from Lebanon”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a46fb33ff69de8a7fc30",
-          "url": "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/qatar-announces-massive-solar-plant-project-in-lebanon?traffic_source=rss",
-          "title": "Qatar announces ‘massive’ solar plant project in Lebanon",
-          "summary": "Sheikh Mohammed also discussed Israeli 'violations' in Lebanese territory with Prime Minister Nawaf Salam.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T14:19:36+00:00",
-          "fetched_at": "2026-10-16T19:59:17.510339+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f3ff6e5e53cab7f33d93",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/qatar-fm-calls-for-israeli-withdrawal-from-lebanon?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/qatar-fm-calls-for-israeli-withdrawal-from-lebanon?traffic_source=rss",
-          "title": "Qatar FM calls for Israeli withdrawal from Lebanon",
-          "summary": "Qatar’s prime minister and minister of foreign affairs has reaffirmed his country’s support for Lebanon.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T14:01:08+00:00",
-          "fetched_at": "2026-10-16T19:59:17.510567+00:00",
+          "fetched_at": "2026-10-16T22:51:58.208211+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
