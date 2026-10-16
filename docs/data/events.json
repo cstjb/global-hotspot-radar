@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T16:39:44.436074+00:00",
+  "generated_at": "2026-10-16T19:59:18.968886+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
     "articles_fetched": 142,
-    "articles_unique": 141,
+    "articles_unique": 142,
     "errors": [
       {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
@@ -17,23 +17,24 @@
       "event_id": "evt_c4663c8e78979e2c7414",
       "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
       "category": "军事安全",
-      "score": 87.1,
+      "score": 89.2,
       "score_breakdown": {
-        "coverage": 19.5,
-        "source_diversity": 10.8,
+        "coverage": 17.9,
+        "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 21.4,
-        "credibility": 9.9,
+        "recency": 21.6,
+        "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-16T11:40:41+00:00",
-      "last_updated": "2026-10-16T15:57:27+00:00",
-      "source_count": 3,
-      "article_count": 6,
+      "last_updated": "2026-10-16T19:32:00+00:00",
+      "source_count": 4,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
         "BBC World",
+        "DW Top Stories",
         "NPR World"
       ],
       "regions": [
@@ -44,30 +45,28 @@
       "keywords": [
         "settlers",
         "israeli",
-        "palestinians",
         "west",
         "bank",
-        "olive",
+        "palestinians",
         "attack",
+        "olive",
         "harvest"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的6篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Israeli",
-          "Palestinians",
           "West Bank",
           "US",
+          "Israeli",
+          "Palestinians",
           "Jerusalem Daily",
-          "Palestinian",
-          "What",
-          "West Bank Israeli"
+          "Palestinian"
         ],
         "latest_progress": [
+          "10月16日 19:32 UTC，DW Top Stories报道：“West Bank: US journalist injured by Israeli settlers”。",
           "10月16日 15:57 UTC，NPR World报道：“Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks”。",
-          "10月16日 14:31 UTC，BBC World报道：“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。",
-          "10月16日 13:52 UTC，Al Jazeera报道：“Jerusalem Daily: Israeli settlers burn Palestinian olive groves”。"
+          "10月16日 14:31 UTC，BBC World报道：“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -80,6 +79,21 @@
       },
       "articles": [
         {
+          "article_id": "art_0260946cb8777be69db6",
+          "url": "https://www.dw.com/en/west-bank-us-journalist-injured-by-israeli-settlers/a-79684181?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/west-bank-us-journalist-injured-by-israeli-settlers/a-79684181?maca=en-rss-en-top-1022-rdf",
+          "title": "West Bank: US journalist injured by Israeli settlers",
+          "summary": "Washington Post journalist Heidi Levine said she was beaten by Israeli settlers in the occupied West Bank. Reporters Without Borders slammed the attack as \"brazen violence.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-16T19:32:00+00:00",
+          "fetched_at": "2026-10-16T19:59:17.155623+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
           "article_id": "art_8b69f39273552a281c84",
           "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
           "canonical_url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
@@ -88,7 +102,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-16T15:57:27+00:00",
-          "fetched_at": "2026-10-16T16:39:42.642785+00:00",
+          "fetched_at": "2026-10-16T19:59:17.334325+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -103,7 +117,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T14:31:04+00:00",
-          "fetched_at": "2026-10-16T16:39:41.560409+00:00",
+          "fetched_at": "2026-10-16T19:59:16.739160+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -118,37 +132,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T13:52:48+00:00",
-          "fetched_at": "2026-10-16T16:39:42.804769+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_b3c55876a31ec01c7bfe",
-          "url": "https://www.aljazeera.com/news/2026/10/16/palestinians-us-journalist-attacked-in-west-bank-pogrom-what-we-know?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/palestinians-us-journalist-attacked-in-west-bank-pogrom-what-we-know?traffic_source=rss",
-          "title": "Palestinians, US journalist attacked in West Bank pogrom: What we know",
-          "summary": "Israeli settlers attacked Palestinians harvesting olives and severely beat Washington Post photojournalist Heidi Levine.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T13:26:47+00:00",
-          "fetched_at": "2026-10-16T16:39:42.804929+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f7f842d9028025be373e",
-          "url": "https://www.aljazeera.com/news/2026/10/16/israeli-settlers-continue-progrom-amid-olive-harvest-in-occupied-west-bank?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/israeli-settlers-continue-progrom-amid-olive-harvest-in-occupied-west-bank?traffic_source=rss",
-          "title": "Israeli settlers continue pogrom amid olive harvest in occupied West Bank",
-          "summary": "At least two people, including Washington Post journalist, injured as settlers armed with clubs and guns attack.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T13:04:32+00:00",
-          "fetched_at": "2026-10-16T16:39:42.805406+00:00",
+          "fetched_at": "2026-10-16T19:59:17.510894+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -163,7 +147,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T11:40:41+00:00",
-          "fetched_at": "2026-10-16T16:39:41.565525+00:00",
+          "fetched_at": "2026-10-16T19:59:16.742905+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -172,15 +156,414 @@
       ]
     },
     {
-      "event_id": "evt_cde0482ad2110db535a9",
-      "title": "Ethiopia announces instalment of interim government in Tigray",
+      "event_id": "evt_e3bce793694c223b9d77",
+      "title": "Watch: Will Ukraine get the support needed as tensions with US rise?",
       "category": "国际政治",
-      "score": 70.7,
+      "score": 75.5,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 19.9,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T15:45:10+00:00",
+      "last_updated": "2026-10-16T17:34:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "support",
+        "leaders",
+        "ukraine's",
+        "zelenskyy",
+        "ukraine",
+        "russia",
+        "watch",
+        "get"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Watch: Will Ukraine get the support needed as tensions with US rise?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "At",
+          "EU",
+          "Ukraine",
+          "Zelenskyy",
+          "Trump",
+          "Will Ukraine",
+          "US"
+        ],
+        "latest_progress": [
+          "10月16日 17:34 UTC，DW Top Stories报道：“At summit, EU leaders pledge support for Ukraine's Zelenskyy”。",
+          "10月16日 16:02 UTC，Al Jazeera报道：“EU rallies in support of Ukraine amid Trump standoff”。",
+          "10月16日 15:45 UTC，BBC World报道：“Watch: Will Ukraine get the support needed as tensions with US rise?”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f1ff53e72d282528d55e",
+          "url": "https://www.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraine-s-zelenskyy/a-79678808?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraine-s-zelenskyy/a-79678808?maca=en-rss-en-top-1022-rdf",
+          "title": "At summit, EU leaders pledge support for Ukraine's Zelenskyy",
+          "summary": "President Zelenskyy has received words of encouragement from EU leaders, who pledged support for Ukraine's self-defense against Russia. This comes as winter approaches and the US seems to be withdrawing support.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-16T17:34:00+00:00",
+          "fetched_at": "2026-10-16T19:59:17.155956+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c8528cded436215a02f1",
+          "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff?traffic_source=rss",
+          "title": "EU rallies in support of Ukraine amid Trump standoff",
+          "summary": "Ukraine's Volodymyr Zelenskyy asks EU leaders for extra $79bn to help fight Russia next year.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T16:02:13+00:00",
+          "fetched_at": "2026-10-16T19:59:17.509951+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0b436119c2d09df2c3c2",
+          "url": "https://www.bbc.co.uk/news/videos/cm2ke1v8e4geo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cm2ke1v8e4geo?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: Will Ukraine get the support needed as tensions with US rise?",
+          "summary": "Zelensky thanked the \"real leaders\" ahead of a meeting with the EU in Brussels.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-16T15:45:10+00:00",
+          "fetched_at": "2026-10-16T19:59:16.742589+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d887/live/549b5300-c978-11f1-9a39-31b474234113.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f98f15d426a6acb53335",
+      "title": "Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal",
+      "category": "国际政治",
+      "score": 73.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.7,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T17:28:41+00:00",
+      "last_updated": "2026-10-16T19:42:00+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "ukraine",
+        "trump",
+        "russia",
+        "president",
+        "summit",
+        "occupied",
+        "donetsk",
+        "putin"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Ukrainian President Zelenskyy",
+          "EU",
+          "Donald Trump Ukraine",
+          "Trump",
+          "Putin",
+          "Ukraine",
+          "Donetsk"
+        ],
+        "latest_progress": [
+          "10月16日 19:42 UTC，DW Top Stories报道：“Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump”。",
+          "10月16日 17:59 UTC，Al Jazeera报道：“Ukraine president targets Trump, Putin at EU summit”。",
+          "10月16日 17:28 UTC，Al Jazeera报道：“Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f76de0354432f3ee8d77",
+          "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+          "summary": "EU leaders reaffirmed support for Ukraine at the Brussels summit. But souring relations with the US over Russia and Starlink and a big hole in the budget will make for a difficult winter for Ukraine.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-16T19:42:00+00:00",
+          "fetched_at": "2026-10-16T19:59:17.155486+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8a701d600131a3846253",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/ukraine-president-targets-trump-putin-at-eu-summit?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/ukraine-president-targets-trump-putin-at-eu-summit?traffic_source=rss",
+          "title": "Ukraine president targets Trump, Putin at EU summit",
+          "summary": "President Zelenskyy warned Russia’s ambitions extend beyond eastern Ukraine, saying its drone attack threaten NATO.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T17:59:48+00:00",
+          "fetched_at": "2026-10-16T19:59:17.508582+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3a9e91255d2332b70865",
+          "url": "https://www.aljazeera.com/news/2026/10/16/ukraine-repels-russian-forces-as-us-support-wavers-energy-strikes-escalate?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/ukraine-repels-russian-forces-as-us-support-wavers-energy-strikes-escalate?traffic_source=rss",
+          "title": "Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal",
+          "summary": "Ukraine’s 'Operation Vivaldi' reclaimed more occupied territory in Donetsk during a week when Trump sided with Russia.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T17:28:41+00:00",
+          "fetched_at": "2026-10-16T19:59:17.508840+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2b2e54f411038dc44746",
+      "title": "Kenya records third Ebola case, linked to first patient who died",
+      "category": "社会突发",
+      "score": 69.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.7,
+        "recency": 21.1,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 3.6
+      },
+      "first_seen": "2026-10-16T10:41:00+00:00",
+      "last_updated": "2026-10-16T18:57:40+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "kenya",
+        "ebola",
+        "first",
+        "health",
+        "patient",
+        "prepared",
+        "outbreak",
+        "two"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Kenya records third Ebola case, linked to first patient who died”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Kenya",
+          "Ebola"
+        ],
+        "latest_progress": [
+          "10月16日 18:57 UTC，Al Jazeera报道：“Kenya records third Ebola case, linked to first patient who died”。",
+          "10月16日 10:41 UTC，DW Top Stories报道：“How prepared is Kenya for an Ebola outbreak?”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2d8532e663cbdf1f574f",
+          "url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case?traffic_source=rss",
+          "title": "Kenya records third Ebola case, linked to first patient who died",
+          "summary": "Nairobi says 65-year-old female patient in quarantine with Bundibugyo strain; no signs of community transmission.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T18:57:40+00:00",
+          "fetched_at": "2026-10-16T19:59:17.508172+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_288ada9d0fa36335b768",
+          "url": "https://www.dw.com/en/how-prepared-is-kenya-for-an-ebola-outbreak/a-79668144?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/how-prepared-is-kenya-for-an-ebola-outbreak/a-79668144?maca=en-rss-en-top-1022-rdf",
+          "title": "How prepared is Kenya for an Ebola outbreak?",
+          "summary": "The first two confirmed Ebola cases in Kenya have raised urgent questions about the country's public health preparedness and border controls. But the Health Ministry says there is no need for panic.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-16T10:41:00+00:00",
+          "fetched_at": "2026-10-16T19:59:17.157011+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_79a7b4591482440b7297",
+      "title": "Indian protest leaders detained ahead of flag march in New Delhi",
+      "category": "社会突发",
+      "score": 68.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.8,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T11:44:31+00:00",
+      "last_updated": "2026-10-16T16:16:13+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "detained",
+        "ahead",
+        "protest",
+        "india's",
+        "party",
+        "founder",
+        "delhi",
+        "leaders"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Indian protest leaders detained ahead of flag march in New Delhi”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Indian",
+          "New Delhi India"
+        ],
+        "latest_progress": [
+          "10月16日 16:16 UTC，Al Jazeera报道：“Indian protest leaders detained ahead of flag march in New Delhi”。",
+          "10月16日 11:44 UTC，BBC World报道：“India's 'cockroach' party founder detained ahead of protest”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1abf44c75f6c572d2c18",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/indian-protest-leaders-detained-ahead-of-flag-march-in-new-delhi?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/indian-protest-leaders-detained-ahead-of-flag-march-in-new-delhi?traffic_source=rss",
+          "title": "Indian protest leaders detained ahead of flag march in New Delhi",
+          "summary": "India's Cockroach Janta Party founder Abhijeet Dipke and student leader Neha Bora were detained ahead of a flag march.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T16:16:13+00:00",
+          "fetched_at": "2026-10-16T19:59:17.509720+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1e4412ea5b2fc4da767e",
+          "url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_campaign=rss&at_medium=RSS",
+          "title": "India's 'cockroach' party founder detained ahead of protest",
+          "summary": "The youth-led movement had called for a Delhi protest after mass detentions last week and the jailing of two leaders.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-16T11:44:31+00:00",
+          "fetched_at": "2026-10-16T19:59:16.739584+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc0b/live/9877b0a0-c955-11f1-8879-9d9deeb686e1.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_cde0482ad2110db535a9",
+      "title": "Ethiopia announces instalment of interim government in Tigray",
+      "category": "国际政治",
+      "score": 67.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.9,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -238,7 +621,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T16:19:00+00:00",
-          "fetched_at": "2026-10-16T16:39:42.311894+00:00",
+          "fetched_at": "2026-10-16T19:59:17.156069+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -253,7 +636,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T13:54:06+00:00",
-          "fetched_at": "2026-10-16T16:39:42.804601+00:00",
+          "fetched_at": "2026-10-16T19:59:17.510789+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -262,163 +645,53 @@
       ]
     },
     {
-      "event_id": "evt_864535e1241804b44764",
-      "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
-      "category": "能源资源",
-      "score": 70.5,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.4,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 1.9
-      },
-      "first_seen": "2026-10-15T16:50:18+00:00",
-      "last_updated": "2026-10-16T15:59:30+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "ukraine",
-        "zelensky",
-        "strikes",
-        "russia",
-        "ukraine's",
-        "president",
-        "trump",
-        "accuses"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的能源资源事件为“Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Zelensky",
-          "Ukraine",
-          "Trump",
-          "Poland",
-          "Russia",
-          "Ukraine Russia"
-        ],
-        "latest_progress": [
-          "10月16日 15:59 UTC，BBC World报道：“Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'”。",
-          "10月16日 10:56 UTC，Al Jazeera报道：“Poland scrambles fighter jets as Russia strikes western Ukraine”。",
-          "10月15日 16:50 UTC，BBC World报道：“Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_259425547755633e0f84",
-          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_campaign=rss&at_medium=RSS",
-          "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
-          "summary": "EU leaders rally around Ukraine's president after new criticism from Donald Trump, who says Zelensky is \"more difficult to work with than Putin\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-16T15:59:30+00:00",
-          "fetched_at": "2026-10-16T16:39:41.560605+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3fdf/live/b08eef30-c975-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_61b45730a1df5a370dd5",
-          "url": "https://www.aljazeera.com/news/2026/10/16/poland-scrambles-fighter-jets-as-russia-strikes-western-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/poland-scrambles-fighter-jets-as-russia-strikes-western-ukraine?traffic_source=rss",
-          "title": "Poland scrambles fighter jets as Russia strikes western Ukraine",
-          "summary": "Countries along NATO’s eastern flank growing increasingly concerned about the risk of escalation of the war in Ukraine.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T10:56:20+00:00",
-          "fetched_at": "2026-10-16T16:39:42.807206+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_968022bf57c756057e10",
-          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_campaign=rss&at_medium=RSS",
-          "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-          "summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T16:50:18+00:00",
-          "fetched_at": "2026-10-16T16:39:41.562682+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b54/live/4c6fe8b0-c899-11f1-a64c-550be9e3c66b.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d6a47570277587a6c010",
-      "title": "EU rallies in support of Ukraine amid Trump standoff",
+      "event_id": "evt_576fa19e9c7a85777048",
+      "title": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
       "category": "国际政治",
-      "score": 70.4,
+      "score": 62.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.4,
+        "region_diversity": 2.5,
+        "recency": 20.1,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 1.2
       },
-      "first_seen": "2026-10-16T13:17:00+00:00",
-      "last_updated": "2026-10-16T16:02:13+00:00",
+      "first_seen": "2026-10-15T16:15:06+00:00",
+      "last_updated": "2026-10-16T17:46:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "support",
-        "leaders",
-        "ukraine's",
-        "zelenskyy",
-        "russia",
-        "summit",
-        "pledge",
-        "president"
+        "protests",
+        "schools",
+        "azerbaijan",
+        "rules",
+        "ban",
+        "rare",
+        "wearing",
+        "hijabs"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“EU rallies in support of Ukraine amid Trump standoff”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“School headscarf ban sparks rare protests in Azerbaijan and row with Turkey”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "EU",
-          "Ukraine",
-          "Trump",
-          "At",
-          "Zelenskyy"
+          "Hijab",
+          "Azerbaijan",
+          "What",
+          "School",
+          "Turkey"
         ],
         "latest_progress": [
-          "10月16日 16:02 UTC，Al Jazeera报道：“EU rallies in support of Ukraine amid Trump standoff”。",
-          "10月16日 13:17 UTC，DW Top Stories报道：“At summit, EU leaders pledge support for Ukraine's Zelenskyy”。"
+          "10月16日 17:46 UTC，DW Top Stories报道：“Hijab ban at schools in Azerbaijan: What's behind the rare wave of protests?”。",
+          "10月15日 16:15 UTC，BBC World报道：“School headscarf ban sparks rare protests in Azerbaijan and row with Turkey”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -431,123 +704,177 @@
       },
       "articles": [
         {
-          "article_id": "art_c8528cded436215a02f1",
-          "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff?traffic_source=rss",
-          "title": "EU rallies in support of Ukraine amid Trump standoff",
-          "summary": "Ukraine's Volodymyr Zelenskyy asks EU leaders for extra $79bn to help fight Russia next year.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T16:02:13+00:00",
-          "fetched_at": "2026-10-16T16:39:42.803099+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f1ff53e72d282528d55e",
-          "url": "https://www.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraine-s-zelenskyy/a-79678808?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraine-s-zelenskyy/a-79678808?maca=en-rss-en-top-1022-rdf",
-          "title": "At summit, EU leaders pledge support for Ukraine's Zelenskyy",
-          "summary": "President Zelenskyy has received words of encouragement from EU leaders, who pledged support for Ukraine's self-defense against Russia. This comes as winter approaches and the US seems to be withdrawing support.",
+          "article_id": "art_a87f5fec1767624af989",
+          "url": "https://www.dw.com/en/hijab-ban-at-schools-in-azerbaijan-what-s-behind-the-rare-wave-of-protests/a-79683716?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/hijab-ban-at-schools-in-azerbaijan-what-s-behind-the-rare-wave-of-protests/a-79683716?maca=en-rss-en-top-1022-rdf",
+          "title": "Hijab ban at schools in Azerbaijan: What's behind the rare wave of protests?",
+          "summary": "Girls wearing headscarves have been turned away from schools in Azerbaijan, triggering unusual protests involving children. The government rules do not mention hijabs. Why are schools enforcing unwritten rules?",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-16T13:17:00+00:00",
-          "fetched_at": "2026-10-16T16:39:42.312971+00:00",
+          "published_at": "2026-10-16T17:46:00+00:00",
+          "fetched_at": "2026-10-16T19:59:17.155853+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
+        },
+        {
+          "article_id": "art_53c9de6897b8749a8661",
+          "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_campaign=rss&at_medium=RSS",
+          "title": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
+          "summary": "Protests have taken place over the rules which have seen pupils wearing hijabs turned away from schools.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-15T16:15:06+00:00",
+          "fetched_at": "2026-10-16T19:59:16.741299+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7927/live/925e7820-c8b0-11f1-9c75-6ff1271de385.png"
         }
       ]
     },
     {
-      "event_id": "evt_79a7b4591482440b7297",
-      "title": "India police detain ‘Cockroach’ party founder ahead of protest",
-      "category": "社会突发",
-      "score": 68.7,
+      "event_id": "evt_a469a11393d5631dbbd0",
+      "title": "UK PM adviser’s wife expresses ‘support’ for Palestine Action",
+      "category": "军事安全",
+      "score": 61.7,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.8,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.6,
         "credibility": 10.0,
-        "impact": 11.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-16T11:44:31+00:00",
-      "last_updated": "2026-10-16T12:55:54+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-16T18:26:08+00:00",
+      "last_updated": "2026-10-16T18:26:08+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "protest",
-        "party",
-        "founder",
-        "ahead",
-        "detained",
+        "adviser",
+        "wife",
+        "expresses",
+        "support",
+        "palestine",
+        "action",
         "police",
-        "cockroach",
-        "india's"
+        "reviewing"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“India police detain ‘Cockroach’ party founder ahead of protest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“UK PM adviser’s wife expresses ‘support’ for Palestine Action”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "India",
-          "Cockroach"
+          "UK",
+          "PM",
+          "Palestine Action"
         ],
         "latest_progress": [
-          "10月16日 12:55 UTC，Al Jazeera报道：“India police detain ‘Cockroach’ party founder ahead of protest”。",
-          "10月16日 11:44 UTC，BBC World报道：“India's 'cockroach' party founder detained ahead of protest”。"
+          "10月16日 18:26 UTC，Al Jazeera报道：“UK PM adviser’s wife expresses ‘support’ for Palestine Action”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_2ebf357ddf4f5e051fec",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/india-police-detain-cockroach-party-founder-ahead-of-protest?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/india-police-detain-cockroach-party-founder-ahead-of-protest?traffic_source=rss",
-          "title": "India police detain ‘Cockroach’ party founder ahead of protest",
-          "summary": "Indian police detained Cockroach Janta Party founder Abhijeet Dipke ahead of a protest.",
+          "article_id": "art_3d3470ce0d9d41677751",
+          "url": "https://www.aljazeera.com/news/2026/10/16/uk-pm-advisers-wife-expresses-support-for-palestine-action?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/uk-pm-advisers-wife-expresses-support-for-palestine-action?traffic_source=rss",
+          "title": "UK PM adviser’s wife expresses ‘support’ for Palestine Action",
+          "summary": "Police reviewing social media post by writer Sarah Helm, wife of Burnham's National Security Adviser Jonathan Powell.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-16T12:55:54+00:00",
-          "fetched_at": "2026-10-16T16:39:42.805759+00:00",
+          "published_at": "2026-10-16T18:26:08+00:00",
+          "fetched_at": "2026-10-16T19:59:17.508323+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3aa8c858c0282a448fdb",
+      "title": "How Iran messaging highlights cost of war ahead of US midterm elections",
+      "category": "军事安全",
+      "score": 61.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T18:21:43+00:00",
+      "last_updated": "2026-10-16T18:21:43+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "iran",
+        "messaging",
+        "highlights",
+        "cost",
+        "war",
+        "ahead",
+        "midterm",
+        "elections"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“How Iran messaging highlights cost of war ahead of US midterm elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "How Iran",
+          "US"
+        ],
+        "latest_progress": [
+          "10月16日 18:21 UTC，Al Jazeera报道：“How Iran messaging highlights cost of war ahead of US midterm elections”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
-          "article_id": "art_1e4412ea5b2fc4da767e",
-          "url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_campaign=rss&at_medium=RSS",
-          "title": "India's 'cockroach' party founder detained ahead of protest",
-          "summary": "The youth-led movement had called for a Delhi protest after mass detentions last week and the jailing of two leaders.",
-          "source": "BBC World",
+          "article_id": "art_c82017ce7fbd09cd3ddf",
+          "url": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections?traffic_source=rss",
+          "title": "How Iran messaging highlights cost of war ahead of US midterm elections",
+          "summary": "Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-16T11:44:31+00:00",
-          "fetched_at": "2026-10-16T16:39:41.560928+00:00",
+          "published_at": "2026-10-16T18:21:43+00:00",
+          "fetched_at": "2026-10-16T19:59:17.508452+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc0b/live/9877b0a0-c955-11f1-8879-9d9deeb686e1.jpg"
+          "image_url": null
         }
       ]
     },
@@ -555,12 +882,12 @@
       "event_id": "evt_423fd5e1f029c93ac817",
       "title": "Qatar announces ‘massive’ solar plant project in Lebanon",
       "category": "国际政治",
-      "score": 63.1,
+      "score": 60.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.0,
+        "recency": 17.4,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
@@ -618,7 +945,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T14:19:36+00:00",
-          "fetched_at": "2026-10-16T16:39:42.803860+00:00",
+          "fetched_at": "2026-10-16T19:59:17.510339+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -633,313 +960,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T14:01:08+00:00",
-          "fetched_at": "2026-10-16T16:39:42.804239+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_363f394f1a3f8d981231",
-      "title": "US senators call for investigation into Ukraine's Starlink restrictions",
-      "category": "军事安全",
-      "score": 61.2,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 1.1
-      },
-      "first_seen": "2026-10-15T11:25:19+00:00",
-      "last_updated": "2026-10-16T14:19:50+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "starlink",
-        "internet",
-        "ukraine",
-        "battlefield",
-        "important",
-        "backbone",
-        "military",
-        "communications"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的军事安全事件为“US senators call for investigation into Ukraine's Starlink restrictions”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US",
-          "Ukraine",
-          "Starlink",
-          "Why"
-        ],
-        "latest_progress": [
-          "10月16日 14:19 UTC，BBC World报道：“US senators call for investigation into Ukraine's Starlink restrictions”。",
-          "10月15日 11:25 UTC，BBC World报道：“Why is Starlink internet so important on the battlefield in Ukraine?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_fba85a514f66bf4d2efd",
-          "url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_campaign=rss&at_medium=RSS",
-          "title": "US senators call for investigation into Ukraine's Starlink restrictions",
-          "summary": "Ukraine says temporary speed limits to the Starlink internet network disrupted its battlefield missions.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-16T14:19:50+00:00",
-          "fetched_at": "2026-10-16T16:39:41.561081+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36aa/live/cac07320-c951-11f1-8879-9d9deeb686e1.jpg"
-        },
-        {
-          "article_id": "art_3bea97b40e92316027c5",
-          "url": "https://www.bbc.co.uk/news/articles/cqkgk4zg54reo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqkgk4zg54reo?at_campaign=rss&at_medium=RSS",
-          "title": "Why is Starlink internet so important on the battlefield in Ukraine?",
-          "summary": "It is the \"backbone of military communications in Ukraine\" that provides vital high-speed internet to forces across the country.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T11:25:19+00:00",
-          "fetched_at": "2026-10-16T16:39:41.564610+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ce9/live/0d443230-c809-11f1-aff0-65f8bbf884f7.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_23d1f1ed5547f84a89f6",
-      "title": "How Israeli firm’s ‘zero-click’ malware attack poses global security risk",
-      "category": "军事安全",
-      "score": 60.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.9,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T14:12:13+00:00",
-      "last_updated": "2026-10-16T14:12:13+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "zero-click",
-        "israeli",
-        "firm",
-        "malware",
-        "attack",
-        "poses",
-        "global",
-        "security"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“How Israeli firm’s ‘zero-click’ malware attack poses global security risk”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "How Israeli"
-        ],
-        "latest_progress": [
-          "10月16日 14:12 UTC，Al Jazeera报道：“How Israeli firm’s ‘zero-click’ malware attack poses global security risk”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5a21d868c5b7cb557250",
-          "url": "https://www.aljazeera.com/news/2026/10/16/how-israeli-firms-zero-click-malware-attack-poses-global-security-risk?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/how-israeli-firms-zero-click-malware-attack-poses-global-security-risk?traffic_source=rss",
-          "title": "How Israeli firm’s ‘zero-click’ malware attack poses global security risk",
-          "summary": "A new ‘zero-click’ hack uses ads to target victims without any action needed on their part.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T14:12:13+00:00",
-          "fetched_at": "2026-10-16T16:39:42.804057+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_fde734cd99f700247df7",
-      "title": "Inside Ukrainian offensive pushing Russia back on front line where Starlink plays a key role",
-      "category": "国际政治",
-      "score": 60.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T16:00:30+00:00",
-      "last_updated": "2026-10-16T16:00:30+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "inside",
-        "ukrainian",
-        "offensive",
-        "pushing",
-        "russia",
-        "back",
-        "front",
-        "line"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Inside Ukrainian offensive pushing Russia back on front line where Starlink plays a key role”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Inside Ukrainian",
-          "Russia",
-          "Starlink"
-        ],
-        "latest_progress": [
-          "10月16日 16:00 UTC，BBC World报道：“Inside Ukrainian offensive pushing Russia back on front line where Starlink plays a key role”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6c0435813026d5d4c7a8",
-          "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_campaign=rss&at_medium=RSS",
-          "title": "Inside Ukrainian offensive pushing Russia back on front line where Starlink plays a key role",
-          "summary": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-16T16:00:30+00:00",
-          "fetched_at": "2026-10-16T16:39:41.560220+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e40/live/404f3fb0-c978-11f1-80fc-ab418b149008.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_55cb2907181749232a58",
-      "title": "Pro-Nazi chants before Hajduk Split-Ajax UEFA Europa League match slammed",
-      "category": "军事安全",
-      "score": 59.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.7,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T12:42:30+00:00",
-      "last_updated": "2026-10-16T12:42:30+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "chants",
-        "hajduk",
-        "uefa",
-        "europa",
-        "league",
-        "pro-nazi",
-        "before",
-        "split-ajax"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Pro-Nazi chants before Hajduk Split-Ajax UEFA Europa League match slammed”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Pro",
-          "Nazi",
-          "Hajduk Split",
-          "Ajax",
-          "UEFA",
-          "Europa League"
-        ],
-        "latest_progress": [
-          "10月16日 12:42 UTC，Al Jazeera报道：“Pro-Nazi chants before Hajduk Split-Ajax UEFA Europa League match slammed”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c9d8ec78e4c7c7331874",
-          "url": "https://www.aljazeera.com/sports/2026/10/16/pro-nazi-chants-ahead-of-ajax-match-slammed-by-croatia-leaders?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/16/pro-nazi-chants-ahead-of-ajax-match-slammed-by-croatia-leaders?traffic_source=rss",
-          "title": "Pro-Nazi chants before Hajduk Split-Ajax UEFA Europa League match slammed",
-          "summary": "Croatia's Hajduk Split hosted Ajax on Thursday, but chants for pre-World War II regime precede UEFA Europa League game.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T12:42:30+00:00",
-          "fetched_at": "2026-10-16T16:39:42.805916+00:00",
+          "fetched_at": "2026-10-16T19:59:17.510567+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
