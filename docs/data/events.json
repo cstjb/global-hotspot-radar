@@ -1,635 +1,193 @@
 {
-  "generated_at": "2026-10-16T05:53:37.643778+00:00",
+  "generated_at": "2026-10-16T11:24:15.076719+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 90,
-    "articles_unique": 90,
+    "articles_fetched": 143,
+    "articles_unique": 142,
     "errors": [
       {
         "source": "GDELT: (conflict OR election OR economy OR technolog",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_cccb3db95d1760183d2d",
-      "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-      "category": "能源资源",
-      "score": 68.2,
+      "event_id": "evt_981832c722fb8f058d80",
+      "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
+      "category": "军事安全",
+      "score": 80.8,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 12.8,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 5.0
+        "recency": 21.3,
+        "credibility": 9.9,
+        "impact": 13.0,
+        "velocity": 4.8
       },
-      "first_seen": "2026-10-15T10:05:58+00:00",
-      "last_updated": "2026-10-15T16:50:18+00:00",
+      "first_seen": "2026-10-15T21:59:00+00:00",
+      "last_updated": "2026-10-16T10:36:50+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
+        "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "North America"
+        "Middle East"
+      ],
+      "keywords": [
+        "school",
+        "oregon",
+        "teacher",
+        "killed",
+        "shooting",
+        "bend",
+        "children",
+        "elementary"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Children",
+          "US",
+          "It",
+          "How Oregon",
+          "Bystander",
+          "Oregon Oregon",
+          "Gunman"
+        ],
+        "latest_progress": [
+          "10月16日 10:36 UTC，BBC World报道：“Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander”。",
+          "10月16日 08:27 UTC，BBC World报道：“'It's really hard to believe' - How Oregon primary school shooting unfolded”。",
+          "10月16日 05:00 UTC，Al Jazeera报道：“Bystander guns down suspected primary school shooter in Oregon”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7f0754bf83b50c56d70a",
+          "url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_campaign=rss&at_medium=RSS",
+          "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
+          "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-16T10:36:50+00:00",
+          "fetched_at": "2026-10-16T11:24:12.520173+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff29/live/cc0232d0-c90d-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_07d304f49232d2ef1080",
+          "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_campaign=rss&at_medium=RSS",
+          "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+          "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-16T08:27:16+00:00",
+          "fetched_at": "2026-10-16T11:24:12.520406+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d2/live/c1615dd0-c901-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_9f3efe07137ad5d54b79",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/bystander-guns-down-suspected-primary-school-shooter-in-oregon?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/bystander-guns-down-suspected-primary-school-shooter-in-oregon?traffic_source=rss",
+          "title": "Bystander guns down suspected primary school shooter in Oregon",
+          "summary": "Three children and a teacher were killed in a shooting at Silver Rail Elementary School in Bend, Oregon.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T05:00:25+00:00",
+          "fetched_at": "2026-10-16T11:24:13.494956+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_58afca495d6f5ac61c80",
+          "url": "https://www.dw.com/en/oregon-school-shooting-gunman-kills-3-students-and-teacher-before-being-shot-dead-by-community-member/a-79674849?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/oregon-school-shooting-gunman-kills-3-students-and-teacher-before-being-shot-dead-by-community-member/a-79674849?maca=en-rss-en-top-1022-rdf",
+          "title": "Oregon school shooting: Gunman kills 3 students and teacher before being shot dead by community member",
+          "summary": "A 16-year-old gunman opened fire at an elementary school in Bend, Oregon, killing three children and a teacher. Two others were wounded. A community member pursued and killed the suspected shooter, authorities said.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-15T21:59:00+00:00",
+          "fetched_at": "2026-10-16T11:24:13.076286+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_82c1955732da6c2c2cdf",
+      "title": "Poland scrambles fighter jets as Russia strikes western Ukraine",
+      "category": "军事安全",
+      "score": 69.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.6,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 1.5
+      },
+      "first_seen": "2026-10-15T15:27:00+00:00",
+      "last_updated": "2026-10-16T10:56:20+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
         "ukraine",
-        "attacks",
-        "russian",
-        "refineries",
-        "president",
-        "zelenskyy",
-        "energy",
-        "resumes"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的能源资源事件为“Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Russia",
-          "Ukraine",
-          "Zelensky",
-          "Russian",
-          "Zelenskyy"
-        ],
-        "latest_progress": [
-          "10月15日 16:50 UTC，BBC World报道：“Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume”。",
-          "10月15日 14:51 UTC，DW Top Stories报道：“Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'”。",
-          "10月15日 10:05 UTC，NPR World报道：“Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_968022bf57c756057e10",
-          "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_campaign=rss&at_medium=RSS",
-          "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
-          "summary": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T16:50:18+00:00",
-          "fetched_at": "2026-10-16T05:53:35.338137+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b54/live/4c6fe8b0-c899-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_7c2dbf4accab78392555",
-          "url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
-          "summary": "Volodymyr Zelenskyy has said Ukraine will again attack Russian energy sites, as Moscow has ignored a claim by US President Trump that an \"energy ceasefire\" had been agreed. Russia reported two attacks on refineries.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-15T14:51:00+00:00",
-          "fetched_at": "2026-10-16T05:53:36.030185+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_35c98404ebb900f4182a",
-          "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
-          "canonical_url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
-          "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
-          "summary": "Ukrainian drones attacked a refinery in Russia's Ryazan region early Thursday, hours after Ukrainian President Volodymyr Zelenskyy said that a brief truce spurned by Moscow was over.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T10:05:58+00:00",
-          "fetched_at": "2026-10-16T05:53:36.288457+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5ada816768b1caaa51e5",
-      "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
-      "category": "社会突发",
-      "score": 63.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 16.2,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-15T20:42:00+00:00",
-      "last_updated": "2026-10-15T22:37:21+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "train",
-        "channel",
-        "tunnel",
-        "bus",
-        "injuring",
-        "people",
-        "two",
-        "collide"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Bus hits train stopped on French side of Channel Tunnel, with 19 injured”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Bus",
-          "French",
-          "Channel Tunnel"
-        ],
-        "latest_progress": [
-          "10月15日 22:37 UTC，BBC World报道：“Bus hits train stopped on French side of Channel Tunnel, with 19 injured”。",
-          "10月15日 20:42 UTC，DW Top Stories报道：“Bus, train collide, injuring 19 at Channel Tunnel terminal”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a83f48c2626a210f27d5",
-          "url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_campaign=rss&at_medium=RSS",
-          "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
-          "summary": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T22:37:21+00:00",
-          "fetched_at": "2026-10-16T05:53:35.338236+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4526/live/ca62a180-c8ea-11f1-8e7c-9b1d04b5a9dd.png"
-        },
-        {
-          "article_id": "art_6972ecb0cd3aeedb6ccb",
-          "url": "https://www.dw.com/en/bus-train-collide-injuring-19-at-channel-tunnel-terminal/a-79674671?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/bus-train-collide-injuring-19-at-channel-tunnel-terminal/a-79674671?maca=en-rss-en-top-1022-rdf",
-          "title": "Bus, train collide, injuring 19 at Channel Tunnel terminal",
-          "summary": "A minibus carrying truck drivers collided with a freight train near the Channel Tunnel entrance in France, injuring 19 people, two of them severely. Authorities launched an inquiry into what caused the accident.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-15T20:42:00+00:00",
-          "fetched_at": "2026-10-16T05:53:36.029637+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_63d8f98cbde599d3dfc1",
-      "title": "Starlink: How Elon Musk's company influences geopolitics",
-      "category": "军事安全",
-      "score": 62.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 22.0,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T05:51:00+00:00",
-      "last_updated": "2026-10-16T05:51:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "starlink",
-        "elon",
-        "musk's",
-        "regions",
-        "company",
-        "influences",
-        "geopolitics",
-        "designed"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Starlink: How Elon Musk's company influences geopolitics”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Starlink",
-          "How Elon Musk"
-        ],
-        "latest_progress": [
-          "10月16日 05:51 UTC，DW Top Stories报道：“Starlink: How Elon Musk's company influences geopolitics”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_cf22070c6dd57f3c1a05",
-          "url": "https://www.dw.com/en/starlink-how-elon-musk-s-company-influences-geopolitics/a-75963477?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/starlink-how-elon-musk-s-company-influences-geopolitics/a-75963477?maca=en-rss-en-top-1022-rdf",
-          "title": "Starlink: How Elon Musk's company influences geopolitics",
-          "summary": "Designed to bring internet access to remote regions, Elon Musk's Starlink has become vital in crisis regions and war zones. But Ukraine also shows the risks of depending on the service.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-16T05:51:00+00:00",
-          "fetched_at": "2026-10-16T05:53:36.029347+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6a58fb3913083094a3c6",
-      "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-      "category": "军事安全",
-      "score": 62.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T05:00:17+00:00",
-      "last_updated": "2026-10-16T05:00:17+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "ship",
-        "attack",
-        "reports",
-        "near",
-        "hormuz",
-        "reach",
-        "record",
-        "high"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Ship attack reports near Hormuz reach record high as oil exports slow”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ship",
-          "Hormuz"
-        ],
-        "latest_progress": [
-          "10月16日 05:00 UTC，BBC World报道：“Ship attack reports near Hormuz reach record high as oil exports slow”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_489a3f9e28616b27463c",
-          "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_campaign=rss&at_medium=RSS",
-          "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-          "summary": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-16T05:00:17+00:00",
-          "fetched_at": "2026-10-16T05:53:35.337923+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/139a/live/0f24b0c0-c8b3-11f1-bc2e-018d645d8d21.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_26e86c96814458bd00d4",
-      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-      "category": "军事安全",
-      "score": 61.7,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 13.3,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-15T15:36:00+00:00",
-      "last_updated": "2026-10-15T17:47:22+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "execution",
-        "trump",
-        "fort",
-        "hood",
-        "not",
-        "said",
-        "nidal",
-        "hasan"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Trump calls off livestream of Fort Hood attacker's execution by firing squad”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trump",
-          "Fort Hood"
-        ],
-        "latest_progress": [
-          "10月15日 17:47 UTC，BBC World报道：“Trump calls off livestream of Fort Hood attacker's execution by firing squad”。",
-          "10月15日 15:36 UTC，DW Top Stories报道：“Trump says execution of Fort Hood shooter will not be livestreamed”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7e413e35639744e41b30",
-          "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_campaign=rss&at_medium=RSS",
-          "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-          "summary": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution in over 60 years.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-15T17:47:22+00:00",
-          "fetched_at": "2026-10-16T05:53:35.338035+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81e4/live/8ba6bbd0-c8b2-11f1-ba4a-9b4af5820384.jpg"
-        },
-        {
-          "article_id": "art_9e79b0e3434fea1162a3",
-          "url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-says-execution-of-fort-hood-shooter-will-not-be-livestreamed/a-79672036?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump says execution of Fort Hood shooter will not be livestreamed",
-          "summary": "Trump said the execution of Nidal Malik Hasan can be viewed in person by families of the victims if they wish. The decision comes after bipartisan backlash regarding the Pentagon's plans to livestream the execution.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-15T15:36:00+00:00",
-          "fetched_at": "2026-10-16T05:53:36.030042+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6b4eee3896b0da67e9d9",
-      "title": "They fled Russia, but the West sent them back",
-      "category": "国际政治",
-      "score": 60.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T04:57:28+00:00",
-      "last_updated": "2026-10-16T04:57:28+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "they",
         "russia",
-        "fled",
-        "west",
-        "sent",
-        "them",
-        "back",
-        "past"
+        "swedish",
+        "fighter",
+        "western",
+        "arrests",
+        "national",
+        "claims"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“They fled Russia, but the West sent them back”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "They",
-          "Russia",
-          "West"
-        ],
-        "latest_progress": [
-          "10月16日 04:57 UTC，BBC World报道：“They fled Russia, but the West sent them back”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1771d69e13d9a7fc17b8",
-          "url": "https://www.bbc.co.uk/news/articles/c6x23qpzjklwo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6x23qpzjklwo?at_campaign=rss&at_medium=RSS",
-          "title": "They fled Russia, but the West sent them back",
-          "summary": "Over the past year there has been a stark rise in anti-government activists deported to Russia from the EU and US where they were seeking refuge.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-16T04:57:28+00:00",
-          "fetched_at": "2026-10-16T05:53:35.339966+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/68cd/live/7b2ba620-c890-11f1-b0a4-81e564f1cfaa.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_3726e2de1570ddfc1db0",
-      "title": "Infantino apologises amid calls for him to quit as FIFA president",
-      "category": "国际政治",
-      "score": 60.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.0,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T04:45:24+00:00",
-      "last_updated": "2026-10-16T04:45:24+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "infantino",
-        "fifa",
-        "apologises",
-        "calls",
-        "him",
-        "quit",
-        "president",
-        "spoke"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Infantino apologises amid calls for him to quit as FIFA president”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Infantino",
-          "FIFA"
-        ],
-        "latest_progress": [
-          "10月16日 04:45 UTC，Al Jazeera报道：“Infantino apologises amid calls for him to quit as FIFA president”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_983b47d08aa50cd09ed9",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/infantino-apologises-amid-calls-for-him-to-quit-as-fifa-president?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/infantino-apologises-amid-calls-for-him-to-quit-as-fifa-president?traffic_source=rss",
-          "title": "Infantino apologises amid calls for him to quit as FIFA president",
-          "summary": "Infantino spoke at FIFA’s long-awaited executive board meeting in Zurich.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T04:45:24+00:00",
-          "fetched_at": "2026-10-16T05:53:36.429976+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_9a52c404213fbd1c304e",
-      "title": "Myanmar’s coup leader-turned-president wins back neighbours despite war",
-      "category": "军事安全",
-      "score": 59.4,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.4,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T01:34:47+00:00",
-      "last_updated": "2026-10-16T01:34:47+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "myanmar",
-        "coup",
-        "leader-turned-president",
-        "wins",
-        "back",
-        "neighbours",
-        "despite",
-        "war"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Myanmar’s coup leader-turned-president wins back neighbours despite war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Poland scrambles fighter jets as Russia strikes western Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Myanmar"
+          "Poland",
+          "Russia",
+          "Ukraine Russia",
+          "Swedish",
+          "Ukraine"
         ],
         "latest_progress": [
-          "10月16日 01:34 UTC，Al Jazeera报道：“Myanmar’s coup leader-turned-president wins back neighbours despite war”。"
+          "10月16日 10:56 UTC，Al Jazeera报道：“Poland scrambles fighter jets as Russia strikes western Ukraine”。",
+          "10月15日 15:27 UTC，DW Top Stories报道：“Russia arrests Swedish national, claims he's Ukraine fighter”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -642,91 +200,123 @@
       },
       "articles": [
         {
-          "article_id": "art_d6bf32d12fb47f044b9a",
-          "url": "https://www.aljazeera.com/news/2026/10/16/as-war-rages-myanmars-coup-leader-turned-president-wins-back-neighbours?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/as-war-rages-myanmars-coup-leader-turned-president-wins-back-neighbours?traffic_source=rss",
-          "title": "Myanmar’s coup leader-turned-president wins back neighbours despite war",
-          "summary": "ASEAN leaders are embracing Min Aung Hlaing, but critics warn it emboldens a military still bombing civilians.",
+          "article_id": "art_61b45730a1df5a370dd5",
+          "url": "https://www.aljazeera.com/news/2026/10/16/poland-scrambles-fighter-jets-as-russia-strikes-western-ukraine?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/poland-scrambles-fighter-jets-as-russia-strikes-western-ukraine?traffic_source=rss",
+          "title": "Poland scrambles fighter jets as Russia strikes western Ukraine",
+          "summary": "Countries along NATO’s eastern flank growing increasingly concerned about the risk of escalation of the war in Ukraine.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-16T01:34:47+00:00",
-          "fetched_at": "2026-10-16T05:53:36.430569+00:00",
+          "published_at": "2026-10-16T10:56:20+00:00",
+          "fetched_at": "2026-10-16T11:24:13.491743+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_32c160491965af7e3a31",
+          "url": "https://www.dw.com/en/russia-arrests-swedish-national-claims-he-s-ukraine-fighter/a-79671942?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/russia-arrests-swedish-national-claims-he-s-ukraine-fighter/a-79671942?maca=en-rss-en-top-1022-rdf",
+          "title": "Russia arrests Swedish national, claims he's Ukraine fighter",
+          "summary": "Russian intelligence agents have arrested a Swedish man they say led a Ukrainian drone unit. He was detained at Russia's western border and is accused of planning acts of terrorism and sabotage.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-15T15:27:00+00:00",
+          "fetched_at": "2026-10-16T11:24:13.077134+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_99c15e66dcd87eae0d77",
-      "title": "Carney says US trying to break Canada amid vote for Alberta independence referendum",
-      "category": "能源资源",
-      "score": 59.3,
+      "event_id": "evt_1eaa9bdeec8a75b7b312",
+      "title": "China tells Israel to stop 'forced establishment' of West Bank settlements",
+      "category": "国际政治",
+      "score": 69.0,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.7,
-        "credibility": 9.5,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.7,
+        "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-16T04:24:00+00:00",
-      "last_updated": "2026-10-16T04:24:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-10-16T02:56:21+00:00",
+      "last_updated": "2026-10-16T08:45:54+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "DW Top Stories"
+        "Al Jazeera",
+        "BBC World"
       ],
       "regions": [
-        "Europe"
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
-        "carney",
-        "trying",
-        "vote",
-        "alberta",
-        "province",
-        "break",
-        "canada",
-        "independence"
+        "china",
+        "tells",
+        "israel",
+        "stop",
+        "forced",
+        "west",
+        "bank",
+        "settlements"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的能源资源事件为“Carney says US trying to break Canada amid vote for Alberta independence referendum”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“China tells Israel to stop 'forced establishment' of West Bank settlements”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Carney",
-          "US",
-          "Canada",
-          "Alberta"
+          "China",
+          "Israel",
+          "West Bank"
         ],
         "latest_progress": [
-          "10月16日 04:24 UTC，DW Top Stories报道：“Carney says US trying to break Canada amid vote for Alberta independence referendum”。"
+          "10月16日 08:45 UTC，BBC World报道：“China tells Israel to stop 'forced establishment' of West Bank settlements”。",
+          "10月16日 02:56 UTC，Al Jazeera报道：“China tells Israel to stop ‘forced establishment’ of West Bank settlements”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_ea90981681bd42ed512e",
-          "url": "https://www.dw.com/en/carney-says-us-trying-to-break-canada-amid-vote-for-alberta-independence-referendum/a-79675652?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/carney-says-us-trying-to-break-canada-amid-vote-for-alberta-independence-referendum/a-79675652?maca=en-rss-en-top-1022-rdf",
-          "title": "Carney says US trying to break Canada amid vote for Alberta independence referendum",
-          "summary": "The oil-rich province of Alberta will vote to decide if it wants to remain a Canadian province or start the legal process toward separation. Carney warned that the US was trying the divide-and-rule tactic.",
-          "source": "DW Top Stories",
+          "article_id": "art_168f3b8f9850a9f61767",
+          "url": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_campaign=rss&at_medium=RSS",
+          "title": "China tells Israel to stop 'forced establishment' of West Bank settlements",
+          "summary": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-16T04:24:00+00:00",
-          "fetched_at": "2026-10-16T05:53:36.029461+00:00",
+          "published_at": "2026-10-16T08:45:54+00:00",
+          "fetched_at": "2026-10-16T11:24:12.520896+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e303/live/46a76390-c939-11f1-bcc7-a3638a736ce9.jpg"
+        },
+        {
+          "article_id": "art_5d61e4299dd3665f6427",
+          "url": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements?traffic_source=rss",
+          "title": "China tells Israel to stop ‘forced establishment’ of West Bank settlements",
+          "summary": "'The Palestinian question is the greatest historical injustice of this century,' China's foreign minister said.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T02:56:21+00:00",
+          "fetched_at": "2026-10-16T11:24:13.495296+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
@@ -734,57 +324,77 @@
     {
       "event_id": "evt_6dc9d5a55d000e576e2a",
       "title": "Argentine students protest on campus over Milei’s austerity",
-      "category": "社会突发",
-      "score": 58.6,
+      "category": "国际政治",
+      "score": 68.4,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.9,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.3,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 4.1
       },
       "first_seen": "2026-10-16T02:11:33+00:00",
-      "last_updated": "2026-10-16T02:11:33+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "last_updated": "2026-10-16T09:26:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera"
+        "Al Jazeera",
+        "DW Top Stories"
       ],
       "regions": [
+        "Europe",
         "Middle East"
       ],
       "keywords": [
+        "milei's",
         "argentine",
         "students",
-        "protest",
-        "campus",
-        "milei",
         "austerity",
-        "judge",
-        "fines"
+        "universities",
+        "protests",
+        "president",
+        "protest"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Argentine students protest on campus over Milei’s austerity”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Argentine students protest on campus over Milei’s austerity”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Clashes",
           "Argentine",
+          "President Milei",
           "Milei"
         ],
         "latest_progress": [
+          "10月16日 09:26 UTC，DW Top Stories报道：“Clashes erupt at Argentine student protests against President Milei's austerity policies”。",
           "10月16日 02:11 UTC，Al Jazeera报道：“Argentine students protest on campus over Milei’s austerity”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_3b5dd4064fcad602ef0d",
+          "url": "https://www.dw.com/en/clashes-erupt-at-argentine-student-protests-against-president-milei-s-austerity-policies/a-79676861?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/clashes-erupt-at-argentine-student-protests-against-president-milei-s-austerity-policies/a-79676861?maca=en-rss-en-top-1022-rdf",
+          "title": "Clashes erupt at Argentine student protests against President Milei's austerity policies",
+          "summary": "Demonstrators clashed with police as President Javier Milei's decision not to release funding for universities brought students and employees to the streets. Protesters say the country's future is at stake.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-16T09:26:00+00:00",
+          "fetched_at": "2026-10-16T11:24:13.075059+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
         {
           "article_id": "art_6b4772a7d4cf551ed933",
           "url": "https://www.aljazeera.com/news/2026/10/16/argentine-students-protest-on-campus-over-mileis-austerity?traffic_source=rss",
@@ -794,11 +404,440 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T02:11:33+00:00",
-          "fetched_at": "2026-10-16T05:53:36.430287+00:00",
+          "fetched_at": "2026-10-16T11:24:13.495608+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c1ad449d801d18b77411",
+      "title": "Trump rules out using a nuclear bomb on Iran: Why that matters",
+      "category": "军事安全",
+      "score": 62.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T10:21:12+00:00",
+      "last_updated": "2026-10-16T10:21:12+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "nuclear",
+        "trump",
+        "rules",
+        "out",
+        "using",
+        "bomb",
+        "iran",
+        "matters"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Trump rules out using a nuclear bomb on Iran: Why that matters”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Iran",
+          "Why"
+        ],
+        "latest_progress": [
+          "10月16日 10:21 UTC，Al Jazeera报道：“Trump rules out using a nuclear bomb on Iran: Why that matters”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cab347b385271e96ed83",
+          "url": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters?traffic_source=rss",
+          "title": "Trump rules out using a nuclear bomb on Iran: Why that matters",
+          "summary": "It is the first time the president has addressed nuclear weapons, but he didn't deny US could use 'mother of all bombs'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T10:21:12+00:00",
+          "fetched_at": "2026-10-16T11:24:13.492300+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8b071d9df305c84bcdd2",
+      "title": "UN warns nearly 1 million in Gaza face flood risks as winter approaches",
+      "category": "社会突发",
+      "score": 60.7,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.9,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T10:12:34+00:00",
+      "last_updated": "2026-10-16T10:12:34+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "nearly",
+        "million",
+        "face",
+        "risks",
+        "winter",
+        "approaches",
+        "warns",
+        "gaza"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“UN warns nearly 1 million in Gaza face flood risks as winter approaches”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "UN",
+          "Gaza"
+        ],
+        "latest_progress": [
+          "10月16日 10:12 UTC，Al Jazeera报道：“UN warns nearly 1 million in Gaza face flood risks as winter approaches”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_35b1282e874b2416489c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/un-warns-nearly-1-million-in-gaza-face-flood-risks-as-winter-approaches?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/un-warns-nearly-1-million-in-gaza-face-flood-risks-as-winter-approaches?traffic_source=rss",
+          "title": "UN warns nearly 1 million in Gaza face flood risks as winter approaches",
+          "summary": "The UN is warning that nearly one million displaced Palestinians face flooding risks as winter approaches.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T10:12:34+00:00",
+          "fetched_at": "2026-10-16T11:24:13.492469+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2b2e54f411038dc44746",
+      "title": "How prepared is Kenya for an Ebola outbreak?",
+      "category": "社会突发",
+      "score": 60.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 9.5,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T10:41:00+00:00",
+      "last_updated": "2026-10-16T10:41:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "kenya",
+        "ebola",
+        "health",
+        "prepared",
+        "outbreak",
+        "first",
+        "two",
+        "confirmed"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的社会突发事件为“How prepared is Kenya for an Ebola outbreak?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Kenya",
+          "Ebola"
+        ],
+        "latest_progress": [
+          "10月16日 10:41 UTC，DW Top Stories报道：“How prepared is Kenya for an Ebola outbreak?”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_288ada9d0fa36335b768",
+          "url": "https://www.dw.com/en/how-prepared-is-kenya-for-an-ebola-outbreak/a-79668144?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/how-prepared-is-kenya-for-an-ebola-outbreak/a-79668144?maca=en-rss-en-top-1022-rdf",
+          "title": "How prepared is Kenya for an Ebola outbreak?",
+          "summary": "The first two confirmed Ebola cases in Kenya have raised urgent questions about the country's public health preparedness and border controls. But the health ministry says there is no need for panic.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-16T10:41:00+00:00",
+          "fetched_at": "2026-10-16T11:24:13.074658+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_98808bf446e57bd94f4f",
+      "title": "Norway wealth fund urged to ease nuclear arms ban after Gaza investment row",
+      "category": "军事安全",
+      "score": 60.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T08:36:13+00:00",
+      "last_updated": "2026-10-16T08:36:13+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "wealth",
+        "fund",
+        "norway",
+        "urged",
+        "ease",
+        "nuclear",
+        "arms",
+        "ban"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Norway wealth fund urged to ease nuclear arms ban after Gaza investment row”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Norway",
+          "Gaza"
+        ],
+        "latest_progress": [
+          "10月16日 08:36 UTC，Al Jazeera报道：“Norway wealth fund urged to ease nuclear arms ban after Gaza investment row”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ca5c6f20e56d5bce2e3c",
+          "url": "https://www.aljazeera.com/news/2026/10/16/norway-wealth-fund-urged-to-ease-nuclear-arms-ban-after-gaza-investment-row?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/norway-wealth-fund-urged-to-ease-nuclear-arms-ban-after-gaza-investment-row?traffic_source=rss",
+          "title": "Norway wealth fund urged to ease nuclear arms ban after Gaza investment row",
+          "summary": "The review called for Norway's sovereign wealth fund to lift ethical risk limitations on its investments.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T08:36:13+00:00",
+          "fetched_at": "2026-10-16T11:24:13.493423+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_efa8ab1ca80e7f7a03e9",
+      "title": "German lawmakers back monthly state pension contributions for children, with families able to add more",
+      "category": "国际政治",
+      "score": 60.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.8,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T11:11:00+00:00",
+      "last_updated": "2026-10-16T11:11:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "children",
+        "german",
+        "lawmakers",
+        "back",
+        "monthly",
+        "state",
+        "pension",
+        "contributions"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“German lawmakers back monthly state pension contributions for children, with families able to add more”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "German"
+        ],
+        "latest_progress": [
+          "10月16日 11:11 UTC，DW Top Stories报道：“German lawmakers back monthly state pension contributions for children, with families able to add more”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a7ddb50dc652c655bf60",
+          "url": "https://www.dw.com/en/german-lawmakers-back-monthly-state-pension-contributions-for-children-with-families-able-to-add-more/live-79678671?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/german-lawmakers-back-monthly-state-pension-contributions-for-children-with-families-able-to-add-more/live-79678671?maca=en-rss-en-top-1022-rdf",
+          "title": "German lawmakers back monthly state pension contributions for children, with families able to add more",
+          "summary": "Germany's parliament has backed a plan to help children save for retirement from the age of six. Meanwhile, Jewish students report death threats after they confronted a far-right lawmaker. DW has the latest.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-16T11:11:00+00:00",
+          "fetched_at": "2026-10-16T11:24:13.074510+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8788f89561de4fe3f299",
+      "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
+      "category": "国际政治",
+      "score": 60.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T10:37:47+00:00",
+      "last_updated": "2026-10-16T10:37:47+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "zelensky",
+        "rallies",
+        "support",
+        "trump",
+        "ukraine",
+        "leader",
+        "more",
+        "difficult"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Zelensky",
+          "EU",
+          "Trump",
+          "Ukraine",
+          "Putin"
+        ],
+        "latest_progress": [
+          "10月16日 10:37 UTC，BBC World报道：“Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_259425547755633e0f84",
+          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_campaign=rss&at_medium=RSS",
+          "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
+          "summary": "The US president launches a new wave of blistering criticism at Volodymyr Zelensky ahead of a meeting of EU leaders in Brussels.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-16T10:37:47+00:00",
+          "fetched_at": "2026-10-16T11:24:12.520740+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1db4/live/981316b0-c93a-11f1-8c38-abe947e72d6d.jpg"
         }
       ]
     }
