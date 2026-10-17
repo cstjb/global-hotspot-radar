@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-10-17T11:38:43.097678+00:00",
+  "generated_at": "2026-10-17T15:35:32.463931+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 79,
-    "articles_unique": 79,
+    "articles_fetched": 129,
+    "articles_unique": 128,
     "errors": [
       {
         "source": "GDELT: (conflict OR election OR economy OR technolog",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
@@ -21,20 +17,20 @@
       "event_id": "evt_c4663c8e78979e2c7414",
       "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
       "category": "军事安全",
-      "score": 86.4,
+      "score": 87.4,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 19.5,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 20.4,
+        "recency": 19.6,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 3.4
+        "velocity": 3.6
       },
       "first_seen": "2026-10-16T11:40:41+00:00",
-      "last_updated": "2026-10-17T09:47:55+00:00",
+      "last_updated": "2026-10-17T12:48:03+00:00",
       "source_count": 4,
-      "article_count": 5,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -57,20 +53,21 @@
         "journalist"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Child",
+          "Palestinians",
+          "West Bank",
           "As Israel",
           "PA",
-          "West Bank",
           "US",
-          "Israeli",
-          "Palestinians"
+          "Israeli"
         ],
         "latest_progress": [
+          "10月17日 12:48 UTC，Al Jazeera报道：“Child, four women among Palestinians injured in West Bank pogroms”。",
           "10月17日 09:47 UTC，Al Jazeera报道：“As Israel blocks PA funding, the West Bank’s healthcare system is failing”。",
-          "10月16日 19:32 UTC，DW Top Stories报道：“West Bank: US journalist injured by Israeli settlers”。",
-          "10月16日 15:57 UTC，NPR World报道：“Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks”。"
+          "10月16日 19:32 UTC，DW Top Stories报道：“West Bank: US journalist injured by Israeli settlers”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -83,6 +80,21 @@
       },
       "articles": [
         {
+          "article_id": "art_4e7fbd2db9fa27e500c0",
+          "url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
+          "title": "Child, four women among Palestinians injured in West Bank pogroms",
+          "summary": "Attacks follow a religious edict by a prominent far-right rabbi permitting the seizure of Palestinian olives.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T12:48:03+00:00",
+          "fetched_at": "2026-10-17T15:35:31.148512+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_9c31b55b884c7e8ca543",
           "url": "https://www.aljazeera.com/news/2026/10/17/as-israel-blocks-pa-funding-the-west-banks-healthcare-system-is-failing?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/17/as-israel-blocks-pa-funding-the-west-banks-healthcare-system-is-failing?traffic_source=rss",
@@ -91,7 +103,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-17T09:47:55+00:00",
-          "fetched_at": "2026-10-17T11:38:42.413790+00:00",
+          "fetched_at": "2026-10-17T15:35:31.150399+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -106,7 +118,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T19:32:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.269950+00:00",
+          "fetched_at": "2026-10-17T15:35:30.809465+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -121,7 +133,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-16T15:57:27+00:00",
-          "fetched_at": "2026-10-17T11:38:42.336239+00:00",
+          "fetched_at": "2026-10-17T15:35:31.050395+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -136,7 +148,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T14:31:04+00:00",
-          "fetched_at": "2026-10-17T11:38:41.569116+00:00",
+          "fetched_at": "2026-10-17T15:35:30.425752+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -151,7 +163,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T11:40:41+00:00",
-          "fetched_at": "2026-10-17T11:38:41.570233+00:00",
+          "fetched_at": "2026-10-17T15:35:30.427251+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -160,179 +172,60 @@
       ]
     },
     {
-      "event_id": "evt_7d7a20f8ec90e04b2ad4",
-      "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-      "category": "军事安全",
-      "score": 77.7,
+      "event_id": "evt_461ab1a61135085e1dd0",
+      "title": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
+      "category": "能源资源",
+      "score": 84.7,
       "score_breakdown": {
         "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.5,
-        "credibility": 9.9,
-        "impact": 13.0,
-        "velocity": 2.4
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.0,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 4.9
       },
-      "first_seen": "2026-10-16T08:27:16+00:00",
-      "last_updated": "2026-10-17T09:58:17+00:00",
-      "source_count": 3,
+      "first_seen": "2026-10-17T02:09:00+00:00",
+      "last_updated": "2026-10-17T14:25:10+00:00",
+      "source_count": 4,
       "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "school",
-        "oregon",
-        "police",
-        "say",
-        "shooting",
-        "three",
-        "teacher",
-        "suspect"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Oregon",
-          "Police",
-          "It",
-          "How Oregon"
-        ],
-        "latest_progress": [
-          "10月17日 09:58 UTC，BBC World报道：“Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'”。",
-          "10月17日 08:04 UTC，Al Jazeera报道：“Oregon school shooter was former special-needs student, police say”。",
-          "10月17日 06:04 UTC，DW Top Stories报道：“Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2454a8161ac1fa579379",
-          "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_campaign=rss&at_medium=RSS",
-          "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-          "summary": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-17T09:58:17+00:00",
-          "fetched_at": "2026-10-17T11:38:41.568262+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c80/live/72894110-c9b4-11f1-9409-01a8c77950d7.jpg"
-        },
-        {
-          "article_id": "art_71f9b67803df134e023b",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss",
-          "title": "Oregon school shooter was former special-needs student, police say",
-          "summary": "Oregon school shooter was former special-needs student, police say",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T08:04:35+00:00",
-          "fetched_at": "2026-10-17T11:38:42.414322+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2d4c894a3055f87b8b9a",
-          "url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-top-1022-rdf",
-          "title": "Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing",
-          "summary": "US police have praised the actions of three people who cut short a deadly shooting at a school in the state of Oregon. Three children and a teacher were killed in the attack, carried out by a former pupil at the school.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-17T06:04:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.269664+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_07d304f49232d2ef1080",
-          "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_campaign=rss&at_medium=RSS",
-          "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-          "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-16T08:27:16+00:00",
-          "fetched_at": "2026-10-17T11:38:41.570151+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d2/live/c1615dd0-c901-11f1-bc2e-018d645d8d21.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_461ab1a61135085e1dd0",
-      "title": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
-      "category": "能源资源",
-      "score": 77.1,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.6,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T02:09:00+00:00",
-      "last_updated": "2026-10-17T11:10:22+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
         "russia",
         "sanctions",
         "trump",
-        "president",
         "national",
-        "waiver",
         "congress",
-        "moscow"
+        "puts",
+        "hold",
+        "president"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的能源资源事件为“Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Trump",
+          "Zelenskyy",
+          "US",
           "Russia",
+          "Trump",
+          "Zelensky",
           "Europe",
-          "Moscow",
-          "Zelensky"
+          "Moscow"
         ],
         "latest_progress": [
-          "10月17日 11:10 UTC，Al Jazeera报道：“Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?”。",
-          "10月17日 09:42 UTC，BBC World报道：“Trump waives several Russia sanctions as row with Zelensky intensifies”。",
-          "10月17日 02:09 UTC，DW Top Stories报道：“Trump puts new Russia sanctions on hold”。"
+          "10月17日 14:25 UTC，NPR World报道：“Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold”。",
+          "10月17日 11:56 UTC，BBC World报道：“Trump waives several Russia sanctions as row with Zelensky intensifies”。",
+          "10月17日 11:10 UTC，Al Jazeera报道：“Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
         "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
@@ -345,18 +238,18 @@
       },
       "articles": [
         {
-          "article_id": "art_5d43d2cfd37fa1b0a545",
-          "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
-          "title": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
-          "summary": "Analysts say Russia will benefit most from US sanctions waiver.",
-          "source": "Al Jazeera",
+          "article_id": "art_88a7f0e55fd07da20ec4",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia",
+          "canonical_url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia",
+          "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+          "summary": "Zelenskyy described the move as unfortunate, adding it would encourage Russia to continue its assault. Trump told Congress that the pause was in the national interest but gave no further details.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-17T11:10:22+00:00",
-          "fetched_at": "2026-10-17T11:38:42.413374+00:00",
+          "published_at": "2026-10-17T14:25:10+00:00",
+          "fetched_at": "2026-10-17T15:35:31.049896+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "North America",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
@@ -367,12 +260,27 @@
           "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-17T09:42:13+00:00",
-          "fetched_at": "2026-10-17T11:38:41.568117+00:00",
+          "published_at": "2026-10-17T11:56:06+00:00",
+          "fetched_at": "2026-10-17T15:35:30.423962+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg"
+        },
+        {
+          "article_id": "art_5d43d2cfd37fa1b0a545",
+          "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
+          "title": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
+          "summary": "Analysts say Russia will benefit most from US sanctions waiver.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T11:10:22+00:00",
+          "fetched_at": "2026-10-17T15:35:31.149752+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         },
         {
           "article_id": "art_5fb8f5be58e41d5dfc76",
@@ -383,7 +291,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T02:09:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.269739+00:00",
+          "fetched_at": "2026-10-17T15:35:30.809069+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -392,23 +300,23 @@
       ]
     },
     {
-      "event_id": "evt_aded447a20ade2a5f6ec",
-      "title": "Nationwide protests spread across France as ‘yellow vests’ set to join",
+      "event_id": "evt_4c58c32aecdc03a3616f",
+      "title": "Protesters clash with police during nationwide demonstrations in France",
       "category": "经济金融",
-      "score": 71.4,
+      "score": 73.0,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.7,
+        "recency": 20.4,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
       },
       "first_seen": "2026-10-17T08:02:00+00:00",
-      "last_updated": "2026-10-17T11:21:32+00:00",
+      "last_updated": "2026-10-17T13:44:42+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "DW Top Stories"
@@ -420,23 +328,26 @@
       "keywords": [
         "france",
         "nationwide",
+        "police",
+        "protesters",
         "protests",
-        "yellow",
-        "braces",
         "students",
-        "trade",
-        "unionists"
+        "clash",
+        "yellow"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的经济金融事件为“Nationwide protests spread across France as ‘yellow vests’ set to join”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的经济金融事件为“Protesters clash with police during nationwide demonstrations in France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Nationwide",
-          "France"
+          "Protesters",
+          "France France",
+          "France",
+          "Police"
         ],
         "latest_progress": [
-          "10月17日 11:21 UTC，Al Jazeera报道：“Nationwide protests spread across France as ‘yellow vests’ set to join”。",
-          "10月17日 08:02 UTC，DW Top Stories报道：“France braces for nationwide protests”。"
+          "10月17日 13:44 UTC，Al Jazeera报道：“Protesters clash with police during nationwide demonstrations in France”。",
+          "10月17日 12:18 UTC，Al Jazeera报道：“France tackles new wave of nationwide protests”。",
+          "10月17日 08:02 UTC，DW Top Stories报道：“France: Police and protesters clash in nationwide protests”。"
         ],
         "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
         "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
@@ -449,30 +360,45 @@
       },
       "articles": [
         {
-          "article_id": "art_5355168c9aa521ce2447",
-          "url": "https://www.aljazeera.com/news/2026/10/17/france-braces-for-nationwide-protests-with-yellow-vest-members-set-to-join?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/france-braces-for-nationwide-protests-with-yellow-vest-members-set-to-join?traffic_source=rss",
-          "title": "Nationwide protests spread across France as ‘yellow vests’ set to join",
-          "summary": "Demonstrations began in mid-September at schools and have expanded, tapping into wider grievances.",
+          "article_id": "art_b404ee78e6d266144d66",
+          "url": "https://www.aljazeera.com/news/2026/10/17/france-wave-of-nationwide-protests?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/france-wave-of-nationwide-protests?traffic_source=rss",
+          "title": "Protesters clash with police during nationwide demonstrations in France",
+          "summary": "Thousands rally in Paris and other cities for demonstrations set to unite students, teachers, unions and 'yellow vests'.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T11:21:32+00:00",
-          "fetched_at": "2026-10-17T11:38:42.413271+00:00",
+          "published_at": "2026-10-17T13:44:42+00:00",
+          "fetched_at": "2026-10-17T15:35:31.148170+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_6e8fc83106f9aa9c3366",
-          "url": "https://www.dw.com/en/france-braces-for-nationwide-protests/a-79685584?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-braces-for-nationwide-protests/a-79685584?maca=en-rss-en-top-1022-rdf",
-          "title": "France braces for nationwide protests",
-          "summary": "Students, trade unionists and Yellow Vest activists are taking to French streets to protest high prices and inequality. Authorities say they fear the rallies could turn violent.",
+          "article_id": "art_5aca8b8ea97f539d72f1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/france-tackles-new-wave-of-nationwide-protests?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/france-tackles-new-wave-of-nationwide-protests?traffic_source=rss",
+          "title": "France tackles new wave of nationwide protests",
+          "summary": "France is tackling nationwide protests, as students, unions, and activists rally against high prices and inequality.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T12:18:55+00:00",
+          "fetched_at": "2026-10-17T15:35:31.148962+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7d8b16eff7d97babb982",
+          "url": "https://www.dw.com/en/france-police-and-protesters-clash-in-nationwide-protests/a-79685584?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-police-and-protesters-clash-in-nationwide-protests/a-79685584?maca=en-rss-en-top-1022-rdf",
+          "title": "France: Police and protesters clash in nationwide protests",
+          "summary": "Students, trade unionists and Yellow Vest activists are taking to French streets to protest high prices and inequality. Police and protesters have already clashed in Paris and Marseille.",
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T08:02:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.269411+00:00",
+          "fetched_at": "2026-10-17T15:35:30.808695+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -481,15 +407,177 @@
       ]
     },
     {
+      "event_id": "evt_aaf01fc9682d6db0df9f",
+      "title": "A thousand slogans echoed here - but it could be the end for iconic Delhi protest site",
+      "category": "社会突发",
+      "score": 66.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.0,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 2.6
+      },
+      "first_seen": "2026-10-17T00:41:58+00:00",
+      "last_updated": "2026-10-17T12:07:15+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "delhi",
+        "protest",
+        "site",
+        "women",
+        "against",
+        "police",
+        "brutality",
+        "thousand"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“A thousand slogans echoed here - but it could be the end for iconic Delhi protest site”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Women",
+          "New Delhi",
+          "Delhi"
+        ],
+        "latest_progress": [
+          "10月17日 12:07 UTC，Al Jazeera报道：“Women protest in New Delhi against police brutality”。",
+          "10月17日 00:41 UTC，BBC World报道：“A thousand slogans echoed here - but it could be the end for iconic Delhi protest site”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a9d5c4ee4b10d4b608db",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
+          "title": "Women protest in New Delhi against police brutality",
+          "summary": "Women protest in New Delhi against police brutality",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T12:07:15+00:00",
+          "fetched_at": "2026-10-17T15:35:31.149282+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8e44fe5ad5b29e64a1f5",
+          "url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o?at_campaign=rss&at_medium=RSS",
+          "title": "A thousand slogans echoed here - but it could be the end for iconic Delhi protest site",
+          "summary": "Jantar Mantar, an 18th Century site almost synonymous with demonstrations in Delhi, has been denotified as a protest site.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-17T00:41:58+00:00",
+          "fetched_at": "2026-10-17T15:35:30.426191+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae0a/live/7e914b00-c96f-11f1-80fc-ab418b149008.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3a93aa3192270efcfe15",
+      "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+      "category": "军事安全",
+      "score": 61.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T14:00:24+00:00",
+      "last_updated": "2026-10-17T14:00:24+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "saudi",
+        "arabia",
+        "egypt",
+        "sisi",
+        "seeks",
+        "authorisation",
+        "defence",
+        "assistance"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Egypt",
+          "Sisi",
+          "Saudi Arabia"
+        ],
+        "latest_progress": [
+          "10月17日 14:00 UTC，Al Jazeera报道：“Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c284af9b8db53787f3e2",
+          "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
+          "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+          "summary": "Egyptian president pledges 'any measure' to help defend Saudi Arabia 'if it is requested of us'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T14:00:24+00:00",
+          "fetched_at": "2026-10-17T15:35:31.147850+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_d6a47570277587a6c010",
       "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
       "category": "国际政治",
-      "score": 65.0,
+      "score": 61.6,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.9,
+        "recency": 18.6,
         "credibility": 9.5,
         "impact": 11.0,
         "velocity": 2.5
@@ -549,7 +637,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T11:34:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.269126+00:00",
+          "fetched_at": "2026-10-17T15:35:30.808297+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -564,7 +652,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T19:42:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.269883+00:00",
+          "fetched_at": "2026-10-17T15:35:30.809341+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -579,7 +667,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T17:34:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.270161+00:00",
+          "fetched_at": "2026-10-17T15:35:30.809828+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -588,350 +676,294 @@
       ]
     },
     {
-      "event_id": "evt_23cb31d633fef7b1dd9c",
-      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
-      "category": "国际政治",
-      "score": 61.6,
+      "event_id": "evt_5dc4ca9f6ee804c45de1",
+      "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
+      "category": "社会突发",
+      "score": 61.2,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 15.1,
-        "credibility": 9.8,
-        "impact": 11.0,
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-16T22:30:00+00:00",
-      "last_updated": "2026-10-17T02:33:09+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-17T14:57:24+00:00",
+      "last_updated": "2026-10-17T14:57:24+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "BBC World",
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "against",
+        "thousands",
+        "rally",
+        "biggest",
+        "protest",
+        "years",
+        "tunisia",
+        "saied"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Thousands rally for biggest protest in years against Tunisia’s Saied”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Thousands",
+          "Tunisia",
+          "Saied"
+        ],
+        "latest_progress": [
+          "10月17日 14:57 UTC，Al Jazeera报道：“Thousands rally for biggest protest in years against Tunisia’s Saied”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f7d18d0083a1efc06c61",
+          "url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
+          "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
+          "summary": "Unions, opposition groups unite to demonstrate against poor living conditions and restrictions on political freedoms.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T14:57:24+00:00",
+          "fetched_at": "2026-10-17T15:35:31.147139+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_eced68fdb37d51634d6c",
+      "title": "2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网",
+      "category": "科技AI",
+      "score": 60.8,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 2.5,
+        "recency": 14.4,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 2.0
+      },
+      "first_seen": "2026-10-16T06:30:00+00:00",
+      "last_updated": "2026-10-17T05:30:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "baijiahao.baidu.com",
+        "hea.china.com",
+        "zjnews.zjol.com.cn"
+      ],
+      "regions": [
+        "China"
+      ],
+      "keywords": [
+        "智能",
+        "亮相",
+        "温州",
+        "作业",
+        "人工",
+        "工智",
+        "能产",
+        "产业"
+      ],
+      "analysis": {
+        "what_happened": "据baijiahao.baidu.com、hea.china.com、zjnews.zjol.com.cn等来源的3篇报道，当前关注的科技AI事件为“2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "AI"
+        ],
+        "latest_progress": [
+          "10月17日 05:30 UTC，zjnews.zjol.com.cn报道：“具身智能 温州队 亮相 AI 黑科技 盛宴开席”。",
+          "10月17日 03:00 UTC，hea.china.com报道：“2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网”。",
+          "10月16日 06:30 UTC，baijiahao.baidu.com报道：“济南能源集团 作业宝 App亮相2026人工智能产业大会 ， 作业有 数 安全有 宝”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4e6050b4cddd914276e0",
+          "url": "https://zjnews.zjol.com.cn/zjnews/202610/t20261017_31971017.shtml",
+          "canonical_url": "https://zjnews.zjol.com.cn/zjnews/202610/t20261017_31971017.shtml",
+          "title": "具身智能 温州队 亮相 AI 黑科技 盛宴开席",
+          "summary": "",
+          "source": "zjnews.zjol.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T05:30:00+00:00",
+          "fetched_at": "2026-10-17T15:35:30.347925+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_38dc7596445d7dab163e",
+          "url": "https://hea.china.com/articles/20261017/202610171966275.html",
+          "canonical_url": "https://hea.china.com/articles/20261017/202610171966275.html",
+          "title": "2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网",
+          "summary": "",
+          "source": "hea.china.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T03:00:00+00:00",
+          "fetched_at": "2026-10-17T15:35:30.348394+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8bc3ed64eb047a7ca7aa",
+          "url": "https://baijiahao.baidu.com/s?id=1879184660663679078",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879184660663679078",
+          "title": "济南能源集团 作业宝 App亮相2026人工智能产业大会 ， 作业有 数 安全有 宝",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-16T06:30:00+00:00",
+          "fetched_at": "2026-10-17T15:35:30.348771+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6f60182c28b3df19e880",
+      "title": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
+      "category": "社会突发",
+      "score": 60.7,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T14:28:07+00:00",
+      "last_updated": "2026-10-17T14:28:07+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "trudy",
+        "hurricane",
+        "makes",
+        "way",
+        "towards",
+        "mexico",
+        "threatening",
+        "heavy"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Hurricane Trudy makes its way towards Mexico, threatening heavy rain”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Hurricane Trudy",
+          "Mexico"
+        ],
+        "latest_progress": [
+          "10月17日 14:28 UTC，Al Jazeera报道：“Hurricane Trudy makes its way towards Mexico, threatening heavy rain”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d32951e5b429540f256b",
+          "url": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss",
+          "title": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
+          "summary": "Trudy is the latest in successive storms that have hit Mexico's Pacific coast this year.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T14:28:07+00:00",
+          "fetched_at": "2026-10-17T15:35:31.147517+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a2790c192ad5d166881b",
+      "title": "China's influence in the gaming industry is growing",
+      "category": "经济金融",
+      "score": 60.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 9.5,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T14:49:00+00:00",
+      "last_updated": "2026-10-17T14:49:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
         "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "amazon",
-        "deforestation",
-        "brazil",
-        "lowest",
-        "rainforest",
-        "nearly",
-        "years",
-        "figures"
+        "gaming",
+        "china",
+        "china's",
+        "influence",
+        "industry",
+        "growing",
+        "home",
+        "more"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Brazil sees record fall in Amazon deforestation as key election looms”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Brazil",
-          "Amazon"
-        ],
-        "latest_progress": [
-          "10月17日 02:33 UTC，BBC World报道：“Brazil sees record fall in Amazon deforestation as key election looms”。",
-          "10月16日 22:30 UTC，DW Top Stories报道：“Brazil: Amazon deforestation lowest in nearly 40 years”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_8d7f855af91fca38000d",
-          "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_campaign=rss&at_medium=RSS",
-          "title": "Brazil sees record fall in Amazon deforestation as key election looms",
-          "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-17T02:33:09+00:00",
-          "fetched_at": "2026-10-17T11:38:41.568524+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43ab/live/8511edf0-c9be-11f1-ae9f-bf0ab88aba90.jpg"
-        },
-        {
-          "article_id": "art_569556260da7fff0d797",
-          "url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil: Amazon deforestation lowest in nearly 40 years",
-          "summary": "The latest figures show that 3,335 square kilometers of the Amazon rainforest were cleared in the year ending in July, the lowest level since 1988. The drop has been described as an \"historic achievement.\"",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-16T22:30:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.269812+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2ba8754483a18a34c2c1",
-      "title": "Sudan’s army claims dozens of RSF fighters killed in Nyala attack",
-      "category": "军事安全",
-      "score": 61.4,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.3,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T09:44:47+00:00",
-      "last_updated": "2026-10-17T09:44:47+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "army",
-        "attack",
-        "sudan",
-        "claims",
-        "dozens",
-        "rsf",
-        "fighters",
-        "killed"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Sudan’s army claims dozens of RSF fighters killed in Nyala attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Sudan",
-          "RSF",
-          "Nyala"
-        ],
-        "latest_progress": [
-          "10月17日 09:44 UTC，Al Jazeera报道：“Sudan’s army claims dozens of RSF fighters killed in Nyala attack”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_979963d18369508a92cb",
-          "url": "https://www.aljazeera.com/news/2026/10/17/2550?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/2550?traffic_source=rss",
-          "title": "Sudan’s army claims dozens of RSF fighters killed in Nyala attack",
-          "summary": "Rapid Support Forces accuse army of killing 30 civilians in attack on Nyala's busy livestock market.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T09:44:47+00:00",
-          "fetched_at": "2026-10-17T11:38:42.413887+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b6bd496b5cfa0c9b7773",
-      "title": "IMF urges support for poorer nations facing high inflation, war spillovers",
-      "category": "军事安全",
-      "score": 61.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T09:31:47+00:00",
-      "last_updated": "2026-10-17T09:31:47+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "imf",
-        "urges",
-        "support",
-        "poorer",
-        "nations",
-        "facing",
-        "high",
-        "inflation"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“IMF urges support for poorer nations facing high inflation, war spillovers”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "IMF"
-        ],
-        "latest_progress": [
-          "10月17日 09:31 UTC，Al Jazeera报道：“IMF urges support for poorer nations facing high inflation, war spillovers”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_891ee89885e73103292e",
-          "url": "https://www.aljazeera.com/economy/2026/10/17/war-spillovers-debt-threaten-low-income-nations-imf-chief-warns?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/17/war-spillovers-debt-threaten-low-income-nations-imf-chief-warns?traffic_source=rss",
-          "title": "IMF urges support for poorer nations facing high inflation, war spillovers",
-          "summary": "Low-income countries spend up to 14 percent of their revenue on debt repayments, IMF chief says.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T09:31:47+00:00",
-          "fetched_at": "2026-10-17T11:38:42.413979+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6523ececf5dd2b1c9681",
-      "title": "Solar power booms in Philippines as war on Iran spikes energy costs",
-      "category": "能源资源",
-      "score": 59.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.7,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T10:12:01+00:00",
-      "last_updated": "2026-10-17T10:12:01+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "solar",
-        "power",
-        "booms",
-        "philippines",
-        "war",
-        "iran",
-        "spikes",
-        "energy"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“Solar power booms in Philippines as war on Iran spikes energy costs”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Solar",
-          "Philippines",
-          "Iran"
-        ],
-        "latest_progress": [
-          "10月17日 10:12 UTC，Al Jazeera报道：“Solar power booms in Philippines as war on Iran spikes energy costs”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9af5ec741d9da98e388e",
-          "url": "https://www.aljazeera.com/news/2026/10/17/solar-power-booms-in-philippines-as-war-on-iran-spikes-energy-costs?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/solar-power-booms-in-philippines-as-war-on-iran-spikes-energy-costs?traffic_source=rss",
-          "title": "Solar power booms in Philippines as war on Iran spikes energy costs",
-          "summary": "With Southeast Asia's largest electricity bills rising even higher, Filipinos invest in rooftop panels.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T10:12:01+00:00",
-          "fetched_at": "2026-10-17T11:38:42.413595+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6c3d9a362848d5b01bd0",
-      "title": "Sidewalk sleepers: They have nowhere else to stay while a loved one is in the hospital",
-      "category": "经济金融",
-      "score": 58.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.7,
-        "credibility": 9.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T09:00:00+00:00",
-      "last_updated": "2026-10-17T09:00:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "NPR World"
-      ],
-      "regions": [
-        "North America"
-      ],
-      "keywords": [
-        "sidewalk",
-        "sleepers",
-        "they",
-        "nowhere",
-        "else",
-        "stay",
-        "while",
-        "loved"
-      ],
-      "analysis": {
-        "what_happened": "据NPR World等来源的1篇报道，当前关注的经济金融事件为“Sidewalk sleepers: They have nowhere else to stay while a loved one is in the hospital”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的经济金融事件为“China's influence in the gaming industry is growing”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Sidewalk",
-          "They"
+          "China"
         ],
         "latest_progress": [
-          "10月17日 09:00 UTC，NPR World报道：“Sidewalk sleepers: They have nowhere else to stay while a loved one is in the hospital”。"
+          "10月17日 14:49 UTC，DW Top Stories报道：“China's influence in the gaming industry is growing”。"
         ],
         "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
         "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
@@ -944,17 +976,17 @@
       },
       "articles": [
         {
-          "article_id": "art_4f29123e45323e2befed",
-          "url": "https://www.npr.org/2026/10/17/g-s1-147874/hospital-diagnosis-patients-india-sidewalk",
-          "canonical_url": "https://www.npr.org/2026/10/17/g-s1-147874/hospital-diagnosis-patients-india-sidewalk",
-          "title": "Sidewalk sleepers: They have nowhere else to stay while a loved one is in the hospital",
-          "summary": "Patients travel miles to be treated at public hospitals in Delhi. Those in need get financial aid for their care. But for overnight accommodations, families are often on their own — and on the street.",
-          "source": "NPR World",
+          "article_id": "art_3ed78ead1c2b79f64158",
+          "url": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-top-1022-rdf",
+          "title": "China's influence in the gaming industry is growing",
+          "summary": "Home to more than 700 million gamers, China is the world's largest gaming market — but it's also one of the most tightly regulated. The effects reach far beyond China, impacting players around the world.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-17T09:00:00+00:00",
-          "fetched_at": "2026-10-17T11:38:42.336134+00:00",
+          "published_at": "2026-10-17T14:49:00+00:00",
+          "fetched_at": "2026-10-17T15:35:30.807873+00:00",
           "language": "en",
-          "region": "North America",
+          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
