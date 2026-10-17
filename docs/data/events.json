@@ -1,32 +1,407 @@
 {
-  "generated_at": "2026-10-17T01:21:08.131404+00:00",
+  "generated_at": "2026-10-17T06:57:45.469030+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 89,
-    "articles_unique": 89,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 188,
+    "articles_unique": 187,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_c4663c8e78979e2c7414",
-      "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
-      "category": "军事安全",
-      "score": 76.9,
+      "event_id": "evt_461ab1a61135085e1dd0",
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "category": "国际政治",
+      "score": 79.6,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 17.3,
+        "recency": 21.7,
+        "credibility": 9.9,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T02:09:00+00:00",
+      "last_updated": "2026-10-17T06:39:40+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "sanctions",
+        "russia",
+        "trump",
+        "president",
+        "puts",
+        "hold",
+        "national",
+        "congress"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Trump waives several Russia sanctions as row with Zelensky intensifies”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Trump",
+          "Russia",
+          "Zelensky",
+          "Zelenskyy"
+        ],
+        "latest_progress": [
+          "10月17日 06:39 UTC，BBC World报道：“Trump waives several Russia sanctions as row with Zelensky intensifies”。",
+          "10月17日 04:58 UTC，Al Jazeera报道：“Trump waives Russia sanctions as rift with Zelenskyy widens”。",
+          "10月17日 04:45 UTC，Al Jazeera报道：“Trump puts on hold new Russia sanctions he signed into law”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_03275f83b4248134c8f6",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_campaign=rss&at_medium=RSS",
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-17T06:39:40+00:00",
+          "fetched_at": "2026-10-17T06:57:42.670825+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg"
+        },
+        {
+          "article_id": "art_d45b26dbb3fbd4a8baf4",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
+          "title": "Trump waives Russia sanctions as rift with Zelenskyy widens",
+          "summary": "US President Donald Trump has waived more sanctions on Russia in a bid to ease energy prices.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T04:58:32+00:00",
+          "fetched_at": "2026-10-17T06:57:43.580066+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8eafef662a0761fd664c",
+          "url": "https://www.aljazeera.com/news/2026/10/17/trump-puts-on-hold-new-russia-sanctions-he-signed-into-law?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/trump-puts-on-hold-new-russia-sanctions-he-signed-into-law?traffic_source=rss",
+          "title": "Trump puts on hold new Russia sanctions he signed into law",
+          "summary": "US president's executive order comes two days before sanctions deadline and a week after diesel deal with Putin.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T04:45:03+00:00",
+          "fetched_at": "2026-10-17T06:57:43.580204+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5fb8f5be58e41d5dfc76",
+          "url": "https://www.dw.com/en/trump-puts-new-russia-sanctions-on-hold/a-79685002?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-puts-new-russia-sanctions-on-hold/a-79685002?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump puts new Russia sanctions on hold",
+          "summary": "The US president cited national interests for his decision to sign a waiver on sanctions Congress voted to place on Russia.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-17T02:09:00+00:00",
+          "fetched_at": "2026-10-17T06:57:43.191405+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_25f580d661f7e2354046",
+      "title": "Kết luận Hội nghị lần thứ tư Ban Chấp hành Đảng khóa XIV về tình hình phát triển kinh tế - xã hội , thực hiện ngân sách nhà nước năm 2026 , kế hoạch năm 2027",
+      "category": "科技AI",
+      "score": 76.5,
+      "score_breakdown": {
+        "coverage": 19.5,
+        "source_diversity": 14.4,
+        "region_diversity": 2.5,
+        "recency": 20.5,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 2.4
+      },
+      "first_seen": "2026-10-15T15:45:00+00:00",
+      "last_updated": "2026-10-17T05:15:00+00:00",
+      "source_count": 4,
+      "article_count": 6,
+      "sources": [
+        "baochinhphu.vn",
+        "baomoi.com",
+        "kienthuc.net.vn",
+        "vietstock.vn"
+      ],
+      "regions": [
+        "Vietnam"
+      ],
+      "keywords": [
+        "kinh",
+        "imf",
+        "ngh",
+        "ban",
+        "xiv",
+        "tri",
+        "ang",
+        "phi"
+      ],
+      "analysis": {
+        "what_happened": "据baochinhphu.vn、baomoi.com、kienthuc.net.vn、vietstock.vn等来源的6篇报道，当前关注的科技AI事件为“Kết luận Hội nghị lần thứ tư Ban Chấp hành Đảng khóa XIV về tình hình phát triển kinh tế - xã hội , thực hiện ngân sách nhà nước năm 2026 , kế hoạch năm 2027”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "Minh",
+          "XVI",
+          "IMF",
+          "Ban",
+          "XIV",
+          "AI"
+        ],
+        "latest_progress": [
+          "10月17日 05:15 UTC，kienthuc.net.vn报道：“Giữ vững ổn định kinh tế vĩ mô , tạo nền tảng vững chắc để tăng tốc , bứt phá”。",
+          "10月17日 03:00 UTC，baochinhphu.vn报道：“Toàn văn Báo cáo kinh tế - xã hội do Thủ tướng Lê Minh Hưng trình bày tại Kỳ họp thứ 2 , Quốc hội khóa XVI”。",
+          "10月16日 04:30 UTC，baomoi.com报道：“Năm 2027 phấn đấu tăng trưởng kinh tế từ 10 % trở lên”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_5cf8b6d730dc3a9d5bc0",
+          "url": "https://kienthuc.net.vn/giu-vung-on-dinh-kinh-te-vi-mo-tao-nen-tang-vung-chac-de-tang-toc-but-pha-post1639469.html",
+          "canonical_url": "https://kienthuc.net.vn/giu-vung-on-dinh-kinh-te-vi-mo-tao-nen-tang-vung-chac-de-tang-toc-but-pha-post1639469.html",
+          "title": "Giữ vững ổn định kinh tế vĩ mô , tạo nền tảng vững chắc để tăng tốc , bứt phá",
+          "summary": "",
+          "source": "kienthuc.net.vn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T05:15:00+00:00",
+          "fetched_at": "2026-10-17T06:57:06.225494+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://cdn.kienthuc.net.vn/images/Q7VCE_QXpzTfer-7B4OtOlPiW-DL5E3jA8UDvE7_xCXdf0_pRU11VrqYh7EKCO0iQmyNAAAtDN5WpjfxwcgzoTaoy7qgSe88LvRVifW-Qdq4kGIsJKl5tuHRYuHEoXxfVScrC2joErx2NJ9yCQdeUb1d9dopi5slABjndtu3BjluqtYAx-nUmOQ8St-DaMjICIlH6E-AJ11dwfw5fTlNxg/202610170858025919-1792202428637-6578006162479096613-g7574298250520479089-0e4fbc78a6ff3ba0f5b3eecf6ce7bc83.jpg.webp"
+        },
+        {
+          "article_id": "art_b0aac812807557ef586c",
+          "url": "https://baochinhphu.vn/toan-van-bao-cao-kinh-te-xa-hoi-do-thu-tuong-le-minh-hung-trinh-bay-tai-ky-hop-thu-2-quoc-hoi-khoa-xvi-102261017082403958.htm",
+          "canonical_url": "https://baochinhphu.vn/toan-van-bao-cao-kinh-te-xa-hoi-do-thu-tuong-le-minh-hung-trinh-bay-tai-ky-hop-thu-2-quoc-hoi-khoa-xvi-102261017082403958.htm",
+          "title": "Toàn văn Báo cáo kinh tế - xã hội do Thủ tướng Lê Minh Hưng trình bày tại Kỳ họp thứ 2 , Quốc hội khóa XVI",
+          "summary": "",
+          "source": "baochinhphu.vn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T03:00:00+00:00",
+          "fetched_at": "2026-10-17T06:57:06.227651+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://bcp2.cdnchinhphu.vn/zoom/1200_630/334894974524682240/2026/10/17/base64-17922025613691201324406.png"
+        },
+        {
+          "article_id": "art_462c173859a858448a2c",
+          "url": "https://baomoi.com/nam-2027-phan-dau-tang-truong-kinh-te-tu-10-tro-len-c56281628.epi",
+          "canonical_url": "https://baomoi.com/nam-2027-phan-dau-tang-truong-kinh-te-tu-10-tro-len-c56281628.epi",
+          "title": "Năm 2027 phấn đấu tăng trưởng kinh tế từ 10 % trở lên",
+          "summary": "",
+          "source": "baomoi.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-16T04:30:00+00:00",
+          "fetched_at": "2026-10-17T06:57:06.228377+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://baomoi-photo-fbcrawler.bmcdn.me/w1200_r16x9/2026_10_16_94_56281628/9cdaea30447bad25f46a.jpg"
+        },
+        {
+          "article_id": "art_e6ba2f5965b1baae7725",
+          "url": "https://baomoi.com/imf-canh-bao-kinh-te-chau-a-dang-cham-lai-loi-suat-trai-phieu-tang-la-rui-ro-lon-c56281054.epi",
+          "canonical_url": "https://baomoi.com/imf-canh-bao-kinh-te-chau-a-dang-cham-lai-loi-suat-trai-phieu-tang-la-rui-ro-lon-c56281054.epi",
+          "title": "IMF cảnh báo kinh tế châu Á đang chậm lại , lợi suất trái phiếu tăng là rủi ro lớn",
+          "summary": "",
+          "source": "baomoi.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-16T03:30:00+00:00",
+          "fetched_at": "2026-10-17T06:57:06.227578+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://baomoi-photo-fbcrawler.bmcdn.me/w1200_r16x9/2026_10_16_3_56281054/99c3a4200a6be335ba7a.jpg"
+        },
+        {
+          "article_id": "art_4f9ca78e0bdbea762f12",
+          "url": "https://baomoi.com/ket-luan-hoi-nghi-lan-thu-tu-ban-chap-hanh-dang-khoa-xiv-ve-tinh-hinh-phat-trien-kinh-te-xa-hoi-thuc-hien-ngan-sach-nha-nuoc-nam-2026-ke-hoach-nam-2027-c56280354.epi",
+          "canonical_url": "https://baomoi.com/ket-luan-hoi-nghi-lan-thu-tu-ban-chap-hanh-dang-khoa-xiv-ve-tinh-hinh-phat-trien-kinh-te-xa-hoi-thuc-hien-ngan-sach-nha-nuoc-nam-2026-ke-hoach-nam-2027-c56280354.epi",
+          "title": "Kết luận Hội nghị lần thứ tư Ban Chấp hành Đảng khóa XIV về tình hình phát triển kinh tế - xã hội , thực hiện ngân sách nhà nước năm 2026 , kế hoạch năm 2027",
+          "summary": "",
+          "source": "baomoi.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-16T02:00:00+00:00",
+          "fetched_at": "2026-10-17T06:57:06.228183+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://baomoi-photo-fbcrawler.bmcdn.me/w1200_r16x9/2026_10_16_14_56280354/e66a9b71363adf64862b.jpg"
+        },
+        {
+          "article_id": "art_63a5ac558bc97902bf39",
+          "url": "https://vietstock.vn/2026/10/imf-canh-bao-cu-soc-nang-luong-va-rui-ro-ai-de-doa-kinh-te-chau-a-775-1502601.htm",
+          "canonical_url": "https://vietstock.vn/2026/10/imf-canh-bao-cu-soc-nang-luong-va-rui-ro-ai-de-doa-kinh-te-chau-a-775-1502601.htm",
+          "title": "IMF cảnh báo cú sốc năng lượng và rủi ro AI đe dọa kinh tế châu Á",
+          "summary": "",
+          "source": "vietstock.vn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-15T15:45:00+00:00",
+          "fetched_at": "2026-10-17T06:57:06.226548+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://image.vietstock.vn/2026/10/15/imf-canh-bao-kinh-te-chau-a_1316678.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_23cb31d633fef7b1dd9c",
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "category": "国际政治",
+      "score": 74.1,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 18.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-16T22:30:00+00:00",
+      "last_updated": "2026-10-17T02:49:21+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "amazon",
+        "deforestation",
+        "brazil",
+        "lowest",
+        "show",
+        "rainforest",
+        "year",
+        "level"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Brazil sees record fall in Amazon deforestation as key election looms”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Brazil",
+          "Amazon"
+        ],
+        "latest_progress": [
+          "10月17日 02:49 UTC，Al Jazeera报道：“Brazil’s Amazon deforestation hits lowest level on record”。",
+          "10月17日 02:33 UTC，BBC World报道：“Brazil sees record fall in Amazon deforestation as key election looms”。",
+          "10月16日 22:30 UTC，DW Top Stories报道：“Brazil: Amazon deforestation lowest in nearly 40 years”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b793bc2d60c87cbe59e8",
+          "url": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record?traffic_source=rss",
+          "title": "Brazil’s Amazon deforestation hits lowest level on record",
+          "summary": "Data show a 42 percent drop in forest clearance from a year earlier, giving Lula a boost before the election run-off.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T02:49:21+00:00",
+          "fetched_at": "2026-10-17T06:57:43.580676+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8d7f855af91fca38000d",
+          "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_campaign=rss&at_medium=RSS",
+          "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+          "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-17T02:33:09+00:00",
+          "fetched_at": "2026-10-17T06:57:42.670649+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43ab/live/8511edf0-c9be-11f1-ae9f-bf0ab88aba90.jpg"
+        },
+        {
+          "article_id": "art_569556260da7fff0d797",
+          "url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-top-1022-rdf",
+          "title": "Brazil: Amazon deforestation lowest in nearly 40 years",
+          "summary": "The latest figures show that 3,335 square kilometers of the Amazon rainforest were cleared in the year ending in July, the lowest level since 1988. The drop has been described as an \"historic achievement.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-16T22:30:00+00:00",
+          "fetched_at": "2026-10-17T06:57:43.191510+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c4663c8e78979e2c7414",
+      "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+      "category": "军事安全",
+      "score": 73.3,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 13.7,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -87,7 +462,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T19:32:00+00:00",
-          "fetched_at": "2026-10-17T01:21:06.702541+00:00",
+          "fetched_at": "2026-10-17T06:57:43.191710+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -102,7 +477,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-16T15:57:27+00:00",
-          "fetched_at": "2026-10-17T01:21:06.932651+00:00",
+          "fetched_at": "2026-10-17T06:57:43.381834+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -117,7 +492,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T14:31:04+00:00",
-          "fetched_at": "2026-10-17T01:21:06.022663+00:00",
+          "fetched_at": "2026-10-17T06:57:42.671382+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -132,7 +507,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T11:40:41+00:00",
-          "fetched_at": "2026-10-17T01:21:06.027146+00:00",
+          "fetched_at": "2026-10-17T06:57:42.674262+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -141,321 +516,245 @@
       ]
     },
     {
-      "event_id": "evt_f98f15d426a6acb53335",
-      "title": "Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal",
-      "category": "国际政治",
-      "score": 69.3,
+      "event_id": "evt_eced68fdb37d51634d6c",
+      "title": "2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网",
+      "category": "科技AI",
+      "score": 67.1,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.4,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
+        "source_diversity": 10.8,
+        "region_diversity": 2.5,
+        "recency": 20.7,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 2.0
       },
-      "first_seen": "2026-10-16T17:28:41+00:00",
-      "last_updated": "2026-10-16T19:42:00+00:00",
-      "source_count": 2,
+      "first_seen": "2026-10-16T06:30:00+00:00",
+      "last_updated": "2026-10-17T05:30:00+00:00",
+      "source_count": 3,
       "article_count": 3,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "baijiahao.baidu.com",
+        "hea.china.com",
+        "zjnews.zjol.com.cn"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "China"
       ],
       "keywords": [
-        "ukraine",
-        "trump",
-        "russia",
-        "president",
-        "summit",
-        "occupied",
-        "donetsk",
-        "putin"
+        "智能",
+        "亮相",
+        "温州",
+        "作业",
+        "人工",
+        "工智",
+        "能产",
+        "产业"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据baijiahao.baidu.com、hea.china.com、zjnews.zjol.com.cn等来源的3篇报道，当前关注的科技AI事件为“2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Ukrainian President Zelenskyy",
-          "EU",
-          "Donald Trump Ukraine",
-          "Trump",
-          "Putin",
-          "Ukraine",
-          "Donetsk"
+          "AI"
         ],
         "latest_progress": [
-          "10月16日 19:42 UTC，DW Top Stories报道：“Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump”。",
-          "10月16日 17:59 UTC，Al Jazeera报道：“Ukraine president targets Trump, Putin at EU summit”。",
-          "10月16日 17:28 UTC，Al Jazeera报道：“Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal”。"
+          "10月17日 05:30 UTC，zjnews.zjol.com.cn报道：“具身智能 温州队 亮相 AI 黑科技 盛宴开席”。",
+          "10月17日 03:00 UTC，hea.china.com报道：“2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网”。",
+          "10月16日 06:30 UTC，baijiahao.baidu.com报道：“济南能源集团 作业宝 App亮相2026人工智能产业大会 ， 作业有 数 安全有 宝”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_f76de0354432f3ee8d77",
-          "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
-          "summary": "EU leaders reaffirmed support for Ukraine at the Brussels summit. But souring relations with the US over Russia and Starlink and a big hole in the budget will make for a difficult winter for Ukraine.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-16T19:42:00+00:00",
-          "fetched_at": "2026-10-17T01:21:06.702407+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "article_id": "art_4e6050b4cddd914276e0",
+          "url": "https://zjnews.zjol.com.cn/zjnews/202610/t20261017_31971017.shtml",
+          "canonical_url": "https://zjnews.zjol.com.cn/zjnews/202610/t20261017_31971017.shtml",
+          "title": "具身智能 温州队 亮相 AI 黑科技 盛宴开席",
+          "summary": "",
+          "source": "zjnews.zjol.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T05:30:00+00:00",
+          "fetched_at": "2026-10-17T06:57:42.325938+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         },
         {
-          "article_id": "art_8a701d600131a3846253",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/ukraine-president-targets-trump-putin-at-eu-summit?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/ukraine-president-targets-trump-putin-at-eu-summit?traffic_source=rss",
-          "title": "Ukraine president targets Trump, Putin at EU summit",
-          "summary": "President Zelenskyy warned Russia’s ambitions extend beyond eastern Ukraine, saying its drone attack threaten NATO.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T17:59:48+00:00",
-          "fetched_at": "2026-10-17T01:21:07.152864+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "article_id": "art_38dc7596445d7dab163e",
+          "url": "https://hea.china.com/articles/20261017/202610171966275.html",
+          "canonical_url": "https://hea.china.com/articles/20261017/202610171966275.html",
+          "title": "2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网",
+          "summary": "",
+          "source": "hea.china.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T03:00:00+00:00",
+          "fetched_at": "2026-10-17T06:57:42.326266+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         },
         {
-          "article_id": "art_3a9e91255d2332b70865",
-          "url": "https://www.aljazeera.com/news/2026/10/16/ukraine-repels-russian-forces-as-us-support-wavers-energy-strikes-escalate?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/ukraine-repels-russian-forces-as-us-support-wavers-energy-strikes-escalate?traffic_source=rss",
-          "title": "Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal",
-          "summary": "Ukraine’s 'Operation Vivaldi' reclaimed more occupied territory in Donetsk during a week when Trump sided with Russia.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T17:28:41+00:00",
-          "fetched_at": "2026-10-17T01:21:07.153164+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "article_id": "art_8bc3ed64eb047a7ca7aa",
+          "url": "https://baijiahao.baidu.com/s?id=1879184660663679078",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879184660663679078",
+          "title": "济南能源集团 作业宝 App亮相2026人工智能产业大会 ， 作业有 数 安全有 宝",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-16T06:30:00+00:00",
+          "fetched_at": "2026-10-17T06:57:42.326513+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_2b2e54f411038dc44746",
-      "title": "Kenya records third Ebola case, linked to first patient who died",
-      "category": "社会突发",
-      "score": 65.1,
+      "event_id": "evt_7d7a20f8ec90e04b2ad4",
+      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+      "category": "军事安全",
+      "score": 66.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.9,
+        "region_diversity": 2.5,
+        "recency": 21.2,
         "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 3.6
+        "impact": 13.0,
+        "velocity": 1.4
       },
-      "first_seen": "2026-10-16T10:41:00+00:00",
-      "last_updated": "2026-10-16T18:57:40+00:00",
+      "first_seen": "2026-10-16T08:27:16+00:00",
+      "last_updated": "2026-10-17T06:04:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "kenya",
-        "ebola",
-        "first",
-        "health",
-        "patient",
-        "prepared",
-        "outbreak",
-        "two"
+        "school",
+        "oregon",
+        "shooting",
+        "three",
+        "police",
+        "children",
+        "teacher",
+        "killed"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Kenya records third Ebola case, linked to first patient who died”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“'It's really hard to believe' - How Oregon primary school shooting unfolded”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Kenya",
-          "Ebola"
+          "Oregon",
+          "Police",
+          "It",
+          "How Oregon"
         ],
         "latest_progress": [
-          "10月16日 18:57 UTC，Al Jazeera报道：“Kenya records third Ebola case, linked to first patient who died”。",
-          "10月16日 10:41 UTC，DW Top Stories报道：“How prepared is Kenya for an Ebola outbreak?”。"
+          "10月17日 06:04 UTC，DW Top Stories报道：“Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing”。",
+          "10月16日 08:27 UTC，BBC World报道：“'It's really hard to believe' - How Oregon primary school shooting unfolded”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_2d8532e663cbdf1f574f",
-          "url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case?traffic_source=rss",
-          "title": "Kenya records third Ebola case, linked to first patient who died",
-          "summary": "Nairobi says 65-year-old female patient in quarantine with Bundibugyo strain; no signs of community transmission.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T18:57:40+00:00",
-          "fetched_at": "2026-10-17T01:21:07.152387+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_288ada9d0fa36335b768",
-          "url": "https://www.dw.com/en/how-prepared-is-kenya-for-an-ebola-outbreak/a-79668144?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/how-prepared-is-kenya-for-an-ebola-outbreak/a-79668144?maca=en-rss-en-top-1022-rdf",
-          "title": "How prepared is Kenya for an Ebola outbreak?",
-          "summary": "The first two confirmed Ebola cases in Kenya have raised urgent questions about the country's public health preparedness and border controls. But the Health Ministry says there is no need for panic.",
+          "article_id": "art_2d4c894a3055f87b8b9a",
+          "url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-top-1022-rdf",
+          "title": "Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing",
+          "summary": "US police have praised the actions of three people who cut short a deadly shooting at a school in the state of Oregon. Three children and a teacher were killed in the attack, carried out by a former pupil at the school.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-16T10:41:00+00:00",
-          "fetched_at": "2026-10-17T01:21:06.704316+00:00",
+          "published_at": "2026-10-17T06:04:00+00:00",
+          "fetched_at": "2026-10-17T06:57:43.191297+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c82990ff6114c16557a0",
-      "title": "Iran war live: Trump claims US Navy blockade stops Iranian ships in Hormuz",
-      "category": "军事安全",
-      "score": 61.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T00:00:00+00:00",
-      "last_updated": "2026-10-17T00:00:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "trump",
-        "navy",
-        "blockade",
-        "iranian",
-        "ships",
-        "hormuz",
-        "iran",
-        "war"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Trump claims US Navy blockade stops Iranian ships in Hormuz”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Iran",
-          "Trump",
-          "US",
-          "Navy",
-          "Iranian",
-          "Hormuz"
-        ],
-        "latest_progress": [
-          "10月17日 00:00 UTC，Al Jazeera报道：“Iran war live: Trump claims US Navy blockade stops Iranian ships in Hormuz”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
+        },
         {
-          "article_id": "art_8097ffa7eb1b9c1fdc27",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss",
-          "title": "Iran war live: Trump claims US Navy blockade stops Iranian ships in Hormuz",
-          "summary": "Trump says the US Navy blockade has stopped all Iranian ships from crossing the Strait of Hormuz.",
-          "source": "Al Jazeera",
+          "article_id": "art_07d304f49232d2ef1080",
+          "url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwe8r29mjd05o?at_campaign=rss&at_medium=RSS",
+          "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
+          "summary": "Three children aged 5, 8 and 11 and a teacher were killed after a 16-year-old suspect opened fire in the city of Bend, local police say.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-17T00:00:00+00:00",
-          "fetched_at": "2026-10-17T01:21:07.149797+00:00",
+          "published_at": "2026-10-16T08:27:16+00:00",
+          "fetched_at": "2026-10-17T06:57:42.674150+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28d2/live/c1615dd0-c901-11f1-bc2e-018d645d8d21.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_aaf01fc9682d6db0df9f",
-      "title": "A thousand slogans echoed here - but it could be the end for iconic Delhi protest site",
+      "event_id": "evt_79a7b4591482440b7297",
+      "title": "India's 'cockroach' party founder detained ahead of protest",
       "category": "社会突发",
-      "score": 61.2,
+      "score": 65.2,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 2.5,
         "recency": 21.4,
-        "credibility": 10.0,
+        "credibility": 9.8,
         "impact": 11.7,
-        "velocity": 5.0
+        "velocity": 1.6
       },
-      "first_seen": "2026-10-17T00:41:58+00:00",
-      "last_updated": "2026-10-17T00:41:58+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-10-16T11:44:31+00:00",
+      "last_updated": "2026-10-17T06:21:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "BBC World"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "site",
-        "delhi",
+        "dipke",
+        "cockroach'",
+        "party",
+        "founder",
+        "detained",
+        "ahead",
         "protest",
-        "thousand",
-        "slogans",
-        "echoed",
-        "here",
-        "could"
+        "delhi"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的社会突发事件为“A thousand slogans echoed here - but it could be the end for iconic Delhi protest site”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“India's 'cockroach' party founder detained ahead of protest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Delhi"
+          "India",
+          "Cockroach",
+          "Abhijeet Dipke"
         ],
         "latest_progress": [
-          "10月17日 00:41 UTC，BBC World报道：“A thousand slogans echoed here - but it could be the end for iconic Delhi protest site”。"
+          "10月17日 06:21 UTC，DW Top Stories报道：“India news: 'Cockroach' party founder Abhijeet Dipke under preventive arrest”。",
+          "10月16日 11:44 UTC，BBC World报道：“India's 'cockroach' party founder detained ahead of protest”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -468,162 +767,34 @@
       },
       "articles": [
         {
-          "article_id": "art_8e44fe5ad5b29e64a1f5",
-          "url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o?at_campaign=rss&at_medium=RSS",
-          "title": "A thousand slogans echoed here - but it could be the end for iconic Delhi protest site",
-          "summary": "Jantar Mantar, an 18th Century site almost synonymous with demonstrations in Delhi, has been denotified as a protest site.",
-          "source": "BBC World",
+          "article_id": "art_a85878ccd9aec88eaac8",
+          "url": "https://www.dw.com/en/india-news-cockroach-party-founder-abhijeet-dipke-under-preventive-arrest/live-79685143?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-news-cockroach-party-founder-abhijeet-dipke-under-preventive-arrest/live-79685143?maca=en-rss-en-top-1022-rdf",
+          "title": "India news: 'Cockroach' party founder Abhijeet Dipke under preventive arrest",
+          "summary": "CJP's Abhijeet Dipke is due to appear before a Special Executive Magistrate later in the day. Dipke was detained ahead of a demonstration in New Delhi on Friday. DW has more.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-17T00:41:58+00:00",
-          "fetched_at": "2026-10-17T01:21:06.026112+00:00",
+          "published_at": "2026-10-17T06:21:00+00:00",
+          "fetched_at": "2026-10-17T06:57:43.191024+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae0a/live/7e914b00-c96f-11f1-80fc-ab418b149008.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0a3d9c60b4e517707738",
-      "title": "Trial of German steakhouse heiress that sparked a huge spy scandal",
-      "category": "军事安全",
-      "score": 61.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T23:07:18+00:00",
-      "last_updated": "2026-10-16T23:07:18+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "trial",
-        "german",
-        "steakhouse",
-        "heiress",
-        "sparked",
-        "huge",
-        "spy",
-        "scandal"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Trial of German steakhouse heiress that sparked a huge spy scandal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trial",
-          "German"
-        ],
-        "latest_progress": [
-          "10月16日 23:07 UTC，BBC World报道：“Trial of German steakhouse heiress that sparked a huge spy scandal”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_0a66316b4669e45ca37c",
-          "url": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_campaign=rss&at_medium=RSS",
-          "title": "Trial of German steakhouse heiress that sparked a huge spy scandal",
-          "summary": "For 15 months, a high-security courtroom in Hamburg has been hearing the case of Christina Block, accused of ordering the abduction of her children.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-16T23:07:18+00:00",
-          "fetched_at": "2026-10-17T01:21:06.023168+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f50/live/e57d8d50-c8c1-11f1-bdfb-e3788aeae9ec.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7c608acc10fd0081db77",
-      "title": "Italy probes Israel’s Katz over abuse, sexual assault of flotilla activists",
-      "category": "军事安全",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-16T22:48:54+00:00",
-      "last_updated": "2026-10-16T22:48:54+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "abuse",
-        "activists",
-        "italy",
-        "probes",
-        "israel",
-        "katz",
-        "sexual",
-        "assault"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Italy probes Israel’s Katz over abuse, sexual assault of flotilla activists”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Italy",
-          "Israel",
-          "Katz"
-        ],
-        "latest_progress": [
-          "10月16日 22:48 UTC，Al Jazeera报道：“Italy probes Israel’s Katz over abuse, sexual assault of flotilla activists”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1b3cc6f937df14213704",
-          "url": "https://www.aljazeera.com/news/2026/10/16/italy-probes-israels-katz-over-abuse-sexual-assault-of-flotilla-activists?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/italy-probes-israels-katz-over-abuse-sexual-assault-of-flotilla-activists?traffic_source=rss",
-          "title": "Italy probes Israel’s Katz over abuse, sexual assault of flotilla activists",
-          "summary": "Rome prosecutors also name 12 senior military, police and prison officials over alleged abuse of detained activists.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-16T22:48:54+00:00",
-          "fetched_at": "2026-10-17T01:21:07.150455+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "source_weight": 0.95,
           "image_url": null
+        },
+        {
+          "article_id": "art_1e4412ea5b2fc4da767e",
+          "url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_campaign=rss&at_medium=RSS",
+          "title": "India's 'cockroach' party founder detained ahead of protest",
+          "summary": "The youth-led movement had called for a Delhi protest after mass detentions last week and the jailing of two leaders.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-16T11:44:31+00:00",
+          "fetched_at": "2026-10-17T06:57:42.672071+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc0b/live/9877b0a0-c955-11f1-8879-9d9deeb686e1.jpg"
         }
       ]
     },
@@ -631,20 +802,20 @@
       "event_id": "evt_01929e60daddfd0c5b75",
       "title": "Albanian PM blames ‘foreign hands’ for unrest as student protests intensify",
       "category": "社会突发",
-      "score": 60.1,
+      "score": 63.5,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.3,
+        "recency": 19.7,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
       },
       "first_seen": "2026-10-16T23:27:01+00:00",
-      "last_updated": "2026-10-16T23:27:01+00:00",
+      "last_updated": "2026-10-17T04:21:18+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "sources": [
         "Al Jazeera"
       ],
@@ -652,23 +823,25 @@
         "Middle East"
       ],
       "keywords": [
-        "albanian",
-        "blames",
         "foreign",
         "hands",
+        "protests",
+        "albanian",
+        "blames",
         "unrest",
         "student",
-        "protests",
         "intensify"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Albanian PM blames ‘foreign hands’ for unrest as student protests intensify”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的社会突发事件为“Albanian PM blames ‘foreign hands’ for unrest as student protests intensify”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Albanian",
-          "PM"
+          "Albania",
+          "PM",
+          "Albanian"
         ],
         "latest_progress": [
+          "10月17日 04:21 UTC，Al Jazeera报道：“Albania’s PM blames ‘foreign hands’ for protests”。",
           "10月16日 23:27 UTC，Al Jazeera报道：“Albanian PM blames ‘foreign hands’ for unrest as student protests intensify”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
@@ -682,6 +855,21 @@
       },
       "articles": [
         {
+          "article_id": "art_6d037f9d52f2d4ab1842",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/albanias-pm-blames-foreign-hands-for-protests?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/albanias-pm-blames-foreign-hands-for-protests?traffic_source=rss",
+          "title": "Albania’s PM blames ‘foreign hands’ for protests",
+          "summary": "Albanian PM Edi Rama claimed ‘foreign hands’ are driving protests that have rocked the country for months.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T04:21:18+00:00",
+          "fetched_at": "2026-10-17T06:57:43.580328+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_1797673a65dcacdc2e73",
           "url": "https://www.aljazeera.com/news/2026/10/16/albanian-pm-blames-foreign-hands-for-unrest-as-student-protests-intensify?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/16/albanian-pm-blames-foreign-hands-for-unrest-as-student-protests-intensify?traffic_source=rss",
@@ -690,7 +878,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-16T23:27:01+00:00",
-          "fetched_at": "2026-10-17T01:21:07.150132+00:00",
+          "fetched_at": "2026-10-17T06:57:43.581371+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -699,23 +887,23 @@
       ]
     },
     {
-      "event_id": "evt_3f19be58b82f114d595b",
-      "title": "Trump mocks Middle Eastern names with ‘Mohammed’ joke",
+      "event_id": "evt_d00cb9ed4f91e0c34a6d",
+      "title": "Can Yemen’s government forces sustain their offensive against the Houthis?",
       "category": "国际政治",
-      "score": 59.8,
+      "score": 63.3,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.7,
+        "recency": 21.8,
         "credibility": 10.0,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 3.4
       },
-      "first_seen": "2026-10-16T23:55:57+00:00",
-      "last_updated": "2026-10-16T23:55:57+00:00",
+      "first_seen": "2026-10-16T21:56:07+00:00",
+      "last_updated": "2026-10-17T06:41:34+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "sources": [
         "Al Jazeera"
       ],
@@ -723,25 +911,27 @@
         "Middle East"
       ],
       "keywords": [
-        "trump",
-        "middle",
-        "mohammed",
-        "mocks",
-        "eastern",
-        "names",
-        "joke",
-        "you"
+        "government",
+        "forces",
+        "yemen",
+        "houthis",
+        "houthi",
+        "fired",
+        "two",
+        "missiles"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Trump mocks Middle Eastern names with ‘Mohammed’ joke”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Can Yemen’s government forces sustain their offensive against the Houthis?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Trump",
-          "Middle Eastern",
-          "Mohammed"
+          "Can Yemen",
+          "Houthis",
+          "Yemen",
+          "Aden"
         ],
         "latest_progress": [
-          "10月16日 23:55 UTC，Al Jazeera报道：“Trump mocks Middle Eastern names with ‘Mohammed’ joke”。"
+          "10月17日 06:41 UTC，Al Jazeera报道：“Can Yemen’s government forces sustain their offensive against the Houthis?”。",
+          "10月16日 21:56 UTC，Al Jazeera报道：“Yemen’s government says Houthis fired two missiles at Aden airport”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -754,15 +944,30 @@
       },
       "articles": [
         {
-          "article_id": "art_cb75a67e7d8891504754",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/trump-mocks-middle-eastern-names-with-mohammed-joke?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/trump-mocks-middle-eastern-names-with-mohammed-joke?traffic_source=rss",
-          "title": "Trump mocks Middle Eastern names with ‘Mohammed’ joke",
-          "summary": "“If you’re in doubt about somebody’s name from the Middle East, just say ‘Mohammed,’” says US President Donald Trump.",
+          "article_id": "art_4134d63ea7dbf3e26490",
+          "url": "https://www.aljazeera.com/news-analysis/2026/10/17/can-yemens-government-forces-sustain-their-offensive-against-the-houthis?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news-analysis/2026/10/17/can-yemens-government-forces-sustain-their-offensive-against-the-houthis?traffic_source=rss",
+          "title": "Can Yemen’s government forces sustain their offensive against the Houthis?",
+          "summary": "Houthi missile strikes threaten key supply routes on Yemen's Red Sea coast, intensifying pressure on government forces.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-16T23:55:57+00:00",
-          "fetched_at": "2026-10-17T01:21:07.149970+00:00",
+          "published_at": "2026-10-17T06:41:34+00:00",
+          "fetched_at": "2026-10-17T06:57:43.579095+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ee6800e4dc8e4cfb4562",
+          "url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
+          "title": "Yemen’s government says Houthis fired two missiles at Aden airport",
+          "summary": "Attack comes as Yemeni gov't forces claim advances in Marib and say they 'neutralised' 430 Houthi fighters in 24 hours.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-16T21:56:07+00:00",
+          "fetched_at": "2026-10-17T06:57:43.581839+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -771,75 +976,90 @@
       ]
     },
     {
-      "event_id": "evt_ed36a3a56789194e3f02",
-      "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
-      "category": "国际政治",
-      "score": 59.8,
+      "event_id": "evt_1d5439e071b717beff31",
+      "title": "深化拓展 人工智能+ ， 国常会最新部署|余晓晖|智能体|网络安全",
+      "category": "科技AI",
+      "score": 62.4,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.7,
-        "credibility": 10.0,
-        "impact": 11.0,
+        "recency": 19.4,
+        "credibility": 7.5,
+        "impact": 9.8,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-16T23:54:35+00:00",
-      "last_updated": "2026-10-16T23:54:35+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-10-17T03:00:00+00:00",
+      "last_updated": "2026-10-17T04:00:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "BBC World"
+        "163.com",
+        "finance.eastmoney.com"
       ],
       "regions": [
-        "Europe"
+        "China"
       ],
       "keywords": [
-        "minister",
-        "tells",
-        "bbc",
-        "trump",
-        "completely",
-        "wrong'",
-        "restrict",
-        "support"
+        "智能",
+        "深化",
+        "化拓",
+        "拓展",
+        "人工",
+        "工智",
+        "国常",
+        "常会"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据163.com、finance.eastmoney.com等来源的2篇报道，当前关注的科技AI事件为“深化拓展 人工智能+ ， 国常会最新部署|余晓晖|智能体|网络安全”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Trump",
-          "Ukraine",
-          "Italian",
-          "BBC"
+          "163.com",
+          "finance.eastmoney.com"
         ],
         "latest_progress": [
-          "10月16日 23:54 UTC，BBC World报道：“Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC”。"
+          "10月17日 04:00 UTC，finance.eastmoney.com报道：“深化拓展 人工智能+ 国常会最新部署 _ 东方财富网”。",
+          "10月17日 03:00 UTC，163.com报道：“深化拓展 人工智能+ ， 国常会最新部署|余晓晖|智能体|网络安全”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_1c114017a32ee55bd4e5",
-          "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_campaign=rss&at_medium=RSS",
-          "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
-          "summary": "Defence Minister Guido Crosetto tells the BBC the US risks prolonging Russia's full-scale invasion rather than helping to end it.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-16T23:54:35+00:00",
-          "fetched_at": "2026-10-17T01:21:06.023016+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddb/live/6a9aa9b0-c97a-11f1-a64c-550be9e3c66b.png"
+          "article_id": "art_a5832adb079f9c8c91d8",
+          "url": "https://finance.eastmoney.com/a/202610173899018611.html",
+          "canonical_url": "https://finance.eastmoney.com/a/202610173899018611.html",
+          "title": "深化拓展 人工智能+ 国常会最新部署 _ 东方财富网",
+          "summary": "",
+          "source": "finance.eastmoney.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T04:00:00+00:00",
+          "fetched_at": "2026-10-17T06:57:42.324647+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d55d6b03d1cceef61dba",
+          "url": "https://www.163.com/dy/article/L9EFVPDF0519DDQ2.html",
+          "canonical_url": "https://www.163.com/dy/article/L9EFVPDF0519DDQ2.html",
+          "title": "深化拓展 人工智能+ ， 国常会最新部署|余晓晖|智能体|网络安全",
+          "summary": "",
+          "source": "163.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T03:00:00+00:00",
+          "fetched_at": "2026-10-17T06:57:42.324518+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
         }
       ]
     }
