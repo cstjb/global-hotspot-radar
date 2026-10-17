@@ -1,36 +1,31 @@
 {
-  "generated_at": "2026-10-17T15:35:32.463931+00:00",
+  "generated_at": "2026-10-17T18:31:07.930606+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 129,
-    "articles_unique": 128,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 179,
+    "articles_unique": 178,
+    "errors": []
   },
   "events": [
     {
       "event_id": "evt_c4663c8e78979e2c7414",
       "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
       "category": "军事安全",
-      "score": 87.4,
+      "score": 90.0,
       "score_breakdown": {
-        "coverage": 19.5,
+        "coverage": 20.8,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 19.6,
+        "recency": 20.9,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 3.6
+        "velocity": 3.5
       },
       "first_seen": "2026-10-16T11:40:41+00:00",
-      "last_updated": "2026-10-17T12:48:03+00:00",
+      "last_updated": "2026-10-17T17:18:50+00:00",
       "source_count": 4,
-      "article_count": 6,
+      "article_count": 7,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -43,31 +38,32 @@
         "North America"
       ],
       "keywords": [
+        "israeli",
+        "settlers",
         "west",
         "bank",
-        "settlers",
-        "israeli",
-        "palestinians",
         "attack",
+        "palestinians",
         "harvest",
-        "journalist"
+        "olive"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Child",
-          "Palestinians",
+          "Jerusalem Daily",
+          "Israeli",
           "West Bank",
-          "As Israel",
-          "PA",
+          "EU",
+          "French",
+          "European",
           "US",
-          "Israeli"
+          "Palestinians"
         ],
         "latest_progress": [
-          "10月17日 12:48 UTC，Al Jazeera报道：“Child, four women among Palestinians injured in West Bank pogroms”。",
-          "10月17日 09:47 UTC，Al Jazeera报道：“As Israel blocks PA funding, the West Bank’s healthcare system is failing”。",
-          "10月16日 19:32 UTC，DW Top Stories报道：“West Bank: US journalist injured by Israeli settlers”。"
+          "10月17日 17:18 UTC，Al Jazeera报道：“Jerusalem Daily: Israeli settlers attack farmers and journalists”。",
+          "10月17日 16:29 UTC，DW Top Stories报道：“West Bank: Israeli settlers attack EU diplomats, French mayor”。",
+          "10月17日 12:48 UTC，Al Jazeera报道：“Israeli settlers attack European diplomats during West Bank olive harvest”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -80,30 +76,45 @@
       },
       "articles": [
         {
-          "article_id": "art_4e7fbd2db9fa27e500c0",
-          "url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
-          "title": "Child, four women among Palestinians injured in West Bank pogroms",
-          "summary": "Attacks follow a religious edict by a prominent far-right rabbi permitting the seizure of Palestinian olives.",
+          "article_id": "art_cd8cc64d1791bd7c168e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/aje-onl-nf_yt-dnrbltn-261017-salehm-jerusalem_daily-171026?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/aje-onl-nf_yt-dnrbltn-261017-salehm-jerusalem_daily-171026?traffic_source=rss",
+          "title": "Jerusalem Daily: Israeli settlers attack farmers and journalists",
+          "summary": "After Israeli settlers beat and severely wounded Palestinian farmers, settler violence continues.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T12:48:03+00:00",
-          "fetched_at": "2026-10-17T15:35:31.148512+00:00",
+          "published_at": "2026-10-17T17:18:50+00:00",
+          "fetched_at": "2026-10-17T18:31:06.102822+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_9c31b55b884c7e8ca543",
-          "url": "https://www.aljazeera.com/news/2026/10/17/as-israel-blocks-pa-funding-the-west-banks-healthcare-system-is-failing?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/as-israel-blocks-pa-funding-the-west-banks-healthcare-system-is-failing?traffic_source=rss",
-          "title": "As Israel blocks PA funding, the West Bank’s healthcare system is failing",
-          "summary": "Hospitals across the occupied West Bank have been hit by a funding shortage.",
+          "article_id": "art_fcb66bb257f7114a6d67",
+          "url": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats-french-mayor/a-79688819?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats-french-mayor/a-79688819?maca=en-rss-en-top-1022-rdf",
+          "title": "West Bank: Israeli settlers attack EU diplomats, French mayor",
+          "summary": "A group of Israeli settlers attacked vehicles carrying European diplomats in the West Bank. Belgium has condemned the attack.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-17T16:29:00+00:00",
+          "fetched_at": "2026-10-17T18:31:05.392023+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_4e7fbd2db9fa27e500c0",
+          "url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
+          "title": "Israeli settlers attack European diplomats during West Bank olive harvest",
+          "summary": "Four Palestinian women and a child are among those injured in separate ongoing Israeli assaults and pogroms.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T09:47:55+00:00",
-          "fetched_at": "2026-10-17T15:35:31.150399+00:00",
+          "published_at": "2026-10-17T12:48:03+00:00",
+          "fetched_at": "2026-10-17T18:31:06.105540+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -118,7 +129,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T19:32:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.809465+00:00",
+          "fetched_at": "2026-10-17T18:31:05.393863+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -133,7 +144,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-16T15:57:27+00:00",
-          "fetched_at": "2026-10-17T15:35:31.050395+00:00",
+          "fetched_at": "2026-10-17T18:31:05.868598+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -148,7 +159,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T14:31:04+00:00",
-          "fetched_at": "2026-10-17T15:35:30.425752+00:00",
+          "fetched_at": "2026-10-17T18:31:05.068602+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -163,7 +174,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T11:40:41+00:00",
-          "fetched_at": "2026-10-17T15:35:30.427251+00:00",
+          "fetched_at": "2026-10-17T18:31:05.070155+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -173,9 +184,9 @@
     },
     {
       "event_id": "evt_461ab1a61135085e1dd0",
-      "title": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
-      "category": "能源资源",
-      "score": 84.7,
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "category": "国际政治",
+      "score": 83.7,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 14.4,
@@ -183,10 +194,10 @@
         "recency": 21.0,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 4.9
+        "velocity": 3.9
       },
       "first_seen": "2026-10-17T02:09:00+00:00",
-      "last_updated": "2026-10-17T14:25:10+00:00",
+      "last_updated": "2026-10-17T17:24:07+00:00",
       "source_count": 4,
       "article_count": 4,
       "sources": [
@@ -201,9 +212,9 @@
         "North America"
       ],
       "keywords": [
+        "trump",
         "russia",
         "sanctions",
-        "trump",
         "national",
         "congress",
         "puts",
@@ -211,32 +222,45 @@
         "president"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的能源资源事件为“Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Trump waives several Russia sanctions as row with Zelensky intensifies”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Trump",
+          "Russia",
           "Zelenskyy",
           "US",
-          "Russia",
-          "Trump",
-          "Zelensky",
-          "Europe",
-          "Moscow"
+          "Zelensky"
         ],
         "latest_progress": [
+          "10月17日 17:24 UTC，Al Jazeera报道：“Trump faces bipartisan backlash over Russia sanctions waiver”。",
           "10月17日 14:25 UTC，NPR World报道：“Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold”。",
-          "10月17日 11:56 UTC，BBC World报道：“Trump waives several Russia sanctions as row with Zelensky intensifies”。",
-          "10月17日 11:10 UTC，Al Jazeera报道：“Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?”。"
+          "10月17日 11:56 UTC，BBC World报道：“Trump waives several Russia sanctions as row with Zelensky intensifies”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_53a6e91173857133f581",
+          "url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
+          "title": "Trump faces bipartisan backlash over Russia sanctions waiver",
+          "summary": "Republicans and Democrats condemn Trump’s decision to suspend sanctions, saying it undermines support for Ukraine.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T17:24:07+00:00",
+          "fetched_at": "2026-10-17T18:31:06.102633+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
         {
           "article_id": "art_88a7f0e55fd07da20ec4",
           "url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia",
@@ -246,7 +270,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-17T14:25:10+00:00",
-          "fetched_at": "2026-10-17T15:35:31.049896+00:00",
+          "fetched_at": "2026-10-17T18:31:05.868129+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -261,26 +285,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-17T11:56:06+00:00",
-          "fetched_at": "2026-10-17T15:35:30.423962+00:00",
+          "fetched_at": "2026-10-17T18:31:05.066838+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg"
-        },
-        {
-          "article_id": "art_5d43d2cfd37fa1b0a545",
-          "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
-          "title": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
-          "summary": "Analysts say Russia will benefit most from US sanctions waiver.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T11:10:22+00:00",
-          "fetched_at": "2026-10-17T15:35:31.149752+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         },
         {
           "article_id": "art_5fb8f5be58e41d5dfc76",
@@ -291,7 +300,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T02:09:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.809069+00:00",
+          "fetched_at": "2026-10-17T18:31:05.393461+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -301,77 +310,94 @@
     },
     {
       "event_id": "evt_4c58c32aecdc03a3616f",
-      "title": "Protesters clash with police during nationwide demonstrations in France",
-      "category": "经济金融",
-      "score": 73.0,
+      "title": "Buildings and cars set on fire as cost of living protests rock France",
+      "category": "社会突发",
+      "score": 80.7,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.4,
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 19.8,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
       },
       "first_seen": "2026-10-17T08:02:00+00:00",
-      "last_updated": "2026-10-17T13:44:42+00:00",
-      "source_count": 2,
-      "article_count": 3,
+      "last_updated": "2026-10-17T16:00:40+00:00",
+      "source_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
         "france",
-        "nationwide",
-        "police",
         "protesters",
         "protests",
         "students",
-        "clash",
-        "yellow"
+        "nationwide",
+        "police",
+        "activists",
+        "protest"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的经济金融事件为“Protesters clash with police during nationwide demonstrations in France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的社会突发事件为“Buildings and cars set on fire as cost of living protests rock France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Protesters",
-          "France France",
+          "Buildings",
+          "France Scuffles",
           "France",
           "Police"
         ],
         "latest_progress": [
-          "10月17日 13:44 UTC，Al Jazeera报道：“Protesters clash with police during nationwide demonstrations in France”。",
-          "10月17日 12:18 UTC，Al Jazeera报道：“France tackles new wave of nationwide protests”。",
-          "10月17日 08:02 UTC，DW Top Stories报道：“France: Police and protesters clash in nationwide protests”。"
+          "10月17日 16:00 UTC，Al Jazeera报道：“Buildings and cars set on fire as cost of living protests rock France”。",
+          "10月17日 15:57 UTC，NPR World报道：“Scuffles and fires break out as protesters rally across France, joining students”。",
+          "10月17日 12:18 UTC，Al Jazeera报道：“France tackles new wave of nationwide protests”。"
         ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_b404ee78e6d266144d66",
-          "url": "https://www.aljazeera.com/news/2026/10/17/france-wave-of-nationwide-protests?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/france-wave-of-nationwide-protests?traffic_source=rss",
-          "title": "Protesters clash with police during nationwide demonstrations in France",
-          "summary": "Thousands rally in Paris and other cities for demonstrations set to unite students, teachers, unions and 'yellow vests'.",
+          "article_id": "art_fe087ce78b40101a0f06",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
+          "title": "Buildings and cars set on fire as cost of living protests rock France",
+          "summary": "Protesters have set fire to cars and buildings in France as demonstrations escalate.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T13:44:42+00:00",
-          "fetched_at": "2026-10-17T15:35:31.148170+00:00",
+          "published_at": "2026-10-17T16:00:40+00:00",
+          "fetched_at": "2026-10-17T18:31:06.103621+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_bc0a3e3e3becf0957b40",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "canonical_url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "title": "Scuffles and fires break out as protesters rally across France, joining students",
+          "summary": "Demonstrators across France converged with students Saturday to protest rising living costs, as the country's fiscal crisis deepens.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-17T15:57:40+00:00",
+          "fetched_at": "2026-10-17T18:31:05.867795+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
@@ -383,7 +409,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-17T12:18:55+00:00",
-          "fetched_at": "2026-10-17T15:35:31.148962+00:00",
+          "fetched_at": "2026-10-17T18:31:06.106017+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -398,7 +424,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T08:02:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.808695+00:00",
+          "fetched_at": "2026-10-17T18:31:05.393088+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -407,98 +433,116 @@
       ]
     },
     {
-      "event_id": "evt_aaf01fc9682d6db0df9f",
-      "title": "A thousand slogans echoed here - but it could be the end for iconic Delhi protest site",
-      "category": "社会突发",
-      "score": 66.6,
+      "event_id": "evt_3a93aa3192270efcfe15",
+      "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+      "category": "国际政治",
+      "score": 73.3,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.0,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 2.6
+        "recency": 21.4,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-17T00:41:58+00:00",
-      "last_updated": "2026-10-17T12:07:15+00:00",
+      "first_seen": "2026-10-17T14:00:24+00:00",
+      "last_updated": "2026-10-17T17:49:00+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "delhi",
-        "protest",
-        "site",
-        "women",
-        "against",
-        "police",
-        "brutality",
-        "thousand"
+        "saudi",
+        "arabia",
+        "defend",
+        "egyptian",
+        "president",
+        "houthi",
+        "attacks",
+        "egypt"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“A thousand slogans echoed here - but it could be the end for iconic Delhi protest site”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Women",
-          "New Delhi",
-          "Delhi"
+          "Egypt",
+          "Ssisi",
+          "Saudi Arabia",
+          "Sisi",
+          "Houthi"
         ],
         "latest_progress": [
-          "10月17日 12:07 UTC，Al Jazeera报道：“Women protest in New Delhi against police brutality”。",
-          "10月17日 00:41 UTC，BBC World报道：“A thousand slogans echoed here - but it could be the end for iconic Delhi protest site”。"
+          "10月17日 17:49 UTC，DW Top Stories报道：“Egypt's Ssisi says he'll defend Saudi Arabia, if asked”。",
+          "10月17日 16:49 UTC，Al Jazeera报道：“Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks”。",
+          "10月17日 14:00 UTC，Al Jazeera报道：“Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_a9d5c4ee4b10d4b608db",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/women-protest-in-new-delhi-against-police-brutality?traffic_source=rss",
-          "title": "Women protest in New Delhi against police brutality",
-          "summary": "Women protest in New Delhi against police brutality",
+          "article_id": "art_505946c1703064adcdbe",
+          "url": "https://www.dw.com/en/egypt-s-ssisi-says-he-ll-defend-saudi-arabia-if-asked/a-79689105?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/egypt-s-ssisi-says-he-ll-defend-saudi-arabia-if-asked/a-79689105?maca=en-rss-en-top-1022-rdf",
+          "title": "Egypt's Ssisi says he'll defend Saudi Arabia, if asked",
+          "summary": "The Egyptian president said his country was ready to defend Saudi Arabia \"if requested.\" The comments come amid escalating Houthi attacks.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-17T17:49:00+00:00",
+          "fetched_at": "2026-10-17T18:31:05.391887+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1bb745c6dc5a8ad34caa",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/10-17-egypt-saudi-houths-clip?traffic_source=rss",
+          "title": "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
+          "summary": "Egyptian President Abdel Fattah el-Sisi has vowed to take 'any measure' to defend Saudi Arabia amid Houthi attacks.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T12:07:15+00:00",
-          "fetched_at": "2026-10-17T15:35:31.149282+00:00",
+          "published_at": "2026-10-17T16:49:07+00:00",
+          "fetched_at": "2026-10-17T18:31:06.103307+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_8e44fe5ad5b29e64a1f5",
-          "url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o?at_campaign=rss&at_medium=RSS",
-          "title": "A thousand slogans echoed here - but it could be the end for iconic Delhi protest site",
-          "summary": "Jantar Mantar, an 18th Century site almost synonymous with demonstrations in Delhi, has been denotified as a protest site.",
-          "source": "BBC World",
+          "article_id": "art_c284af9b8db53787f3e2",
+          "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
+          "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+          "summary": "Egyptian president pledges 'any measure' to help defend Saudi Arabia 'if it is requested of us'.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T00:41:58+00:00",
-          "fetched_at": "2026-10-17T15:35:30.426191+00:00",
+          "published_at": "2026-10-17T14:00:24+00:00",
+          "fetched_at": "2026-10-17T18:31:06.104934+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae0a/live/7e914b00-c96f-11f1-80fc-ab418b149008.jpg"
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_3a93aa3192270efcfe15",
-      "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+      "event_id": "evt_6e67c6e15ff9c4d6797d",
+      "title": "Why are Latin American countries building closer ties with Israel?",
       "category": "军事安全",
       "score": 61.6,
       "score_breakdown": {
@@ -510,8 +554,8 @@
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-17T14:00:24+00:00",
-      "last_updated": "2026-10-17T14:00:24+00:00",
+      "first_seen": "2026-10-17T16:54:44+00:00",
+      "last_updated": "2026-10-17T16:54:44+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -521,25 +565,25 @@
         "Middle East"
       ],
       "keywords": [
-        "saudi",
-        "arabia",
-        "egypt",
-        "sisi",
-        "seeks",
-        "authorisation",
-        "defence",
-        "assistance"
+        "latin",
+        "american",
+        "israel",
+        "countries",
+        "building",
+        "closer",
+        "ties",
+        "wave"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why are Latin American countries building closer ties with Israel?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Egypt",
-          "Sisi",
-          "Saudi Arabia"
+          "Why",
+          "Latin American",
+          "Israel"
         ],
         "latest_progress": [
-          "10月17日 14:00 UTC，Al Jazeera报道：“Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia”。"
+          "10月17日 16:54 UTC，Al Jazeera报道：“Why are Latin American countries building closer ties with Israel?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -552,15 +596,15 @@
       },
       "articles": [
         {
-          "article_id": "art_c284af9b8db53787f3e2",
-          "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
-          "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
-          "summary": "Egyptian president pledges 'any measure' to help defend Saudi Arabia 'if it is requested of us'.",
+          "article_id": "art_e74692236f5889362e79",
+          "url": "https://www.aljazeera.com/news/2026/10/17/why-are-latin-american-countries-building-closer-ties-with-israel?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/why-are-latin-american-countries-building-closer-ties-with-israel?traffic_source=rss",
+          "title": "Why are Latin American countries building closer ties with Israel?",
+          "summary": "A wave of new Latin American leaders reverses measures meant to isolate Israel after its genocidal war on Gaza.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T14:00:24+00:00",
-          "fetched_at": "2026-10-17T15:35:31.147850+00:00",
+          "published_at": "2026-10-17T16:54:44+00:00",
+          "fetched_at": "2026-10-17T18:31:06.103140+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -572,12 +616,12 @@
       "event_id": "evt_d6a47570277587a6c010",
       "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
       "category": "国际政治",
-      "score": 61.6,
+      "score": 59.5,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 18.6,
+        "recency": 16.5,
         "credibility": 9.5,
         "impact": 11.0,
         "velocity": 2.5
@@ -637,7 +681,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T11:34:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.808297+00:00",
+          "fetched_at": "2026-10-17T18:31:05.392697+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -652,7 +696,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T19:42:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.809341+00:00",
+          "fetched_at": "2026-10-17T18:31:05.393736+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -667,7 +711,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T17:34:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.809828+00:00",
+          "fetched_at": "2026-10-17T18:31:05.394229+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -676,87 +720,15 @@
       ]
     },
     {
-      "event_id": "evt_5dc4ca9f6ee804c45de1",
-      "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
-      "category": "社会突发",
-      "score": 61.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T14:57:24+00:00",
-      "last_updated": "2026-10-17T14:57:24+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "against",
-        "thousands",
-        "rally",
-        "biggest",
-        "protest",
-        "years",
-        "tunisia",
-        "saied"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Thousands rally for biggest protest in years against Tunisia’s Saied”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Thousands",
-          "Tunisia",
-          "Saied"
-        ],
-        "latest_progress": [
-          "10月17日 14:57 UTC，Al Jazeera报道：“Thousands rally for biggest protest in years against Tunisia’s Saied”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f7d18d0083a1efc06c61",
-          "url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
-          "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
-          "summary": "Unions, opposition groups unite to demonstrate against poor living conditions and restrictions on political freedoms.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T14:57:24+00:00",
-          "fetched_at": "2026-10-17T15:35:31.147139+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_eced68fdb37d51634d6c",
       "title": "2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网",
       "category": "科技AI",
-      "score": 60.8,
+      "score": 59.2,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 2.5,
-        "recency": 14.4,
+        "recency": 12.8,
         "credibility": 7.5,
         "impact": 9.8,
         "velocity": 2.0
@@ -813,7 +785,7 @@
           "source": "zjnews.zjol.com.cn",
           "source_type": "gdelt",
           "published_at": "2026-10-17T05:30:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.347925+00:00",
+          "fetched_at": "2026-10-17T18:31:04.859667+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -828,7 +800,7 @@
           "source": "hea.china.com",
           "source_type": "gdelt",
           "published_at": "2026-10-17T03:00:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.348394+00:00",
+          "fetched_at": "2026-10-17T18:31:04.860115+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -843,7 +815,7 @@
           "source": "baijiahao.baidu.com",
           "source_type": "gdelt",
           "published_at": "2026-10-16T06:30:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.348771+00:00",
+          "fetched_at": "2026-10-17T18:31:04.860472+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -852,15 +824,157 @@
       ]
     },
     {
-      "event_id": "evt_6f60182c28b3df19e880",
-      "title": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
-      "category": "社会突发",
-      "score": 60.7,
+      "event_id": "evt_e6621366d3d5745bd127",
+      "title": "Bill Gates inicia la construcción de un reactor nuclear : dará energía a 400 . 000 hogares",
+      "category": "军事安全",
+      "score": 58.8,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.0,
+        "recency": 20.2,
+        "credibility": 7.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T16:30:00+00:00",
+      "last_updated": "2026-10-17T16:30:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "infobae.com"
+      ],
+      "regions": [
+        "Argentina"
+      ],
+      "keywords": [
+        "bill",
+        "gates",
+        "inicia",
+        "construcci",
+        "reactor",
+        "nuclear",
+        "dar",
+        "energ"
+      ],
+      "analysis": {
+        "what_happened": "据infobae.com等来源的1篇报道，当前关注的军事安全事件为“Bill Gates inicia la construcción de un reactor nuclear : dará energía a 400 . 000 hogares”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Bill Gates"
+        ],
+        "latest_progress": [
+          "10月17日 16:30 UTC，infobae.com报道：“Bill Gates inicia la construcción de un reactor nuclear : dará energía a 400 . 000 hogares”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f8ed7464cf6f258ef7a0",
+          "url": "https://www.infobae.com/tecno/2026/10/17/bill-gates-inicia-la-construccion-de-un-reactor-nuclear-dara-energia-a-400000-hogares/",
+          "canonical_url": "https://www.infobae.com/tecno/2026/10/17/bill-gates-inicia-la-construccion-de-un-reactor-nuclear-dara-energia-a-400000-hogares",
+          "title": "Bill Gates inicia la construcción de un reactor nuclear : dará energía a 400 . 000 hogares",
+          "summary": "",
+          "source": "infobae.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-17T16:30:00+00:00",
+          "fetched_at": "2026-10-17T18:31:04.859206+00:00",
+          "language": "Spanish",
+          "region": "Argentina",
+          "source_weight": 0.75,
+          "image_url": "https://www.infobae.com/resizer/v2/46OURQ2XUJGNVPHSJP2J2XVYZY.jpg?auth=a7a7bbe82d2e26b312dfe00af0914f9b144a217fca7741123c25ba88745a5cc2&smart=true&quality=85"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5dc4ca9f6ee804c45de1",
+      "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
+      "category": "社会突发",
+      "score": 58.7,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.0,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T14:57:24+00:00",
+      "last_updated": "2026-10-17T14:57:24+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "against",
+        "thousands",
+        "rally",
+        "biggest",
+        "protest",
+        "years",
+        "tunisia",
+        "saied"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Thousands rally for biggest protest in years against Tunisia’s Saied”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Thousands",
+          "Tunisia",
+          "Saied"
+        ],
+        "latest_progress": [
+          "10月17日 14:57 UTC，Al Jazeera报道：“Thousands rally for biggest protest in years against Tunisia’s Saied”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f7d18d0083a1efc06c61",
+          "url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
+          "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
+          "summary": "Unions, opposition groups unite to demonstrate against poor living conditions and restrictions on political freedoms.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T14:57:24+00:00",
+          "fetched_at": "2026-10-17T18:31:06.104289+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6f60182c28b3df19e880",
+      "title": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
+      "category": "社会突发",
+      "score": 58.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.6,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
@@ -914,80 +1028,10 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-17T14:28:07+00:00",
-          "fetched_at": "2026-10-17T15:35:31.147517+00:00",
+          "fetched_at": "2026-10-17T18:31:06.104590+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a2790c192ad5d166881b",
-      "title": "China's influence in the gaming industry is growing",
-      "category": "经济金融",
-      "score": 60.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 9.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T14:49:00+00:00",
-      "last_updated": "2026-10-17T14:49:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "gaming",
-        "china",
-        "china's",
-        "influence",
-        "industry",
-        "growing",
-        "home",
-        "more"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的经济金融事件为“China's influence in the gaming industry is growing”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "China"
-        ],
-        "latest_progress": [
-          "10月17日 14:49 UTC，DW Top Stories报道：“China's influence in the gaming industry is growing”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_3ed78ead1c2b79f64158",
-          "url": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-top-1022-rdf",
-          "title": "China's influence in the gaming industry is growing",
-          "summary": "Home to more than 700 million gamers, China is the world's largest gaming market — but it's also one of the most tightly regulated. The effects reach far beyond China, impacting players around the world.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-17T14:49:00+00:00",
-          "fetched_at": "2026-10-17T15:35:30.807873+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
