@@ -1,29 +1,34 @@
 {
-  "generated_at": "2026-10-17T18:31:07.930606+00:00",
+  "generated_at": "2026-10-17T21:29:22.679375+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 179,
-    "articles_unique": 178,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 133,
+    "articles_unique": 132,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
       "event_id": "evt_c4663c8e78979e2c7414",
       "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
       "category": "军事安全",
-      "score": 90.0,
+      "score": 88.4,
       "score_breakdown": {
         "coverage": 20.8,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 20.9,
+        "recency": 19.5,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 3.5
+        "velocity": 3.4
       },
       "first_seen": "2026-10-16T11:40:41+00:00",
-      "last_updated": "2026-10-17T17:18:50+00:00",
+      "last_updated": "2026-10-17T18:38:57+00:00",
       "source_count": 4,
       "article_count": 7,
       "sources": [
@@ -45,25 +50,25 @@
         "attack",
         "palestinians",
         "harvest",
-        "olive"
+        "farmers"
       ],
       "analysis": {
         "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的军事安全事件为“Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Jerusalem Daily",
+          "European",
           "Israeli",
+          "West Bank Jerusalem Daily",
           "West Bank",
           "EU",
           "French",
-          "European",
           "US",
           "Palestinians"
         ],
         "latest_progress": [
+          "10月17日 18:38 UTC，BBC World报道：“European diplomats attacked by Israeli settlers in West Bank”。",
           "10月17日 17:18 UTC，Al Jazeera报道：“Jerusalem Daily: Israeli settlers attack farmers and journalists”。",
-          "10月17日 16:29 UTC，DW Top Stories报道：“West Bank: Israeli settlers attack EU diplomats, French mayor”。",
-          "10月17日 12:48 UTC，Al Jazeera报道：“Israeli settlers attack European diplomats during West Bank olive harvest”。"
+          "10月17日 16:29 UTC，DW Top Stories报道：“West Bank: Israeli settlers attack EU diplomats, French mayor”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -76,6 +81,21 @@
       },
       "articles": [
         {
+          "article_id": "art_95126f6d896a90b30cc5",
+          "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_campaign=rss&at_medium=RSS",
+          "title": "European diplomats attacked by Israeli settlers in West Bank",
+          "summary": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-17T18:38:57+00:00",
+          "fetched_at": "2026-10-17T21:29:20.348328+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15c7/live/4f318350-ca52-11f1-852c-2b93a8fc4799.jpg"
+        },
+        {
           "article_id": "art_cd8cc64d1791bd7c168e",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/aje-onl-nf_yt-dnrbltn-261017-salehm-jerusalem_daily-171026?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/aje-onl-nf_yt-dnrbltn-261017-salehm-jerusalem_daily-171026?traffic_source=rss",
@@ -84,7 +104,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-17T17:18:50+00:00",
-          "fetched_at": "2026-10-17T18:31:06.102822+00:00",
+          "fetched_at": "2026-10-17T21:29:21.350695+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -99,25 +119,10 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T16:29:00+00:00",
-          "fetched_at": "2026-10-17T18:31:05.392023+00:00",
+          "fetched_at": "2026-10-17T21:29:20.927551+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4e7fbd2db9fa27e500c0",
-          "url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
-          "title": "Israeli settlers attack European diplomats during West Bank olive harvest",
-          "summary": "Four Palestinian women and a child are among those injured in separate ongoing Israeli assaults and pogroms.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T12:48:03+00:00",
-          "fetched_at": "2026-10-17T18:31:06.105540+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         },
         {
@@ -129,7 +134,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-16T19:32:00+00:00",
-          "fetched_at": "2026-10-17T18:31:05.393863+00:00",
+          "fetched_at": "2026-10-17T21:29:20.929337+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -144,7 +149,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-16T15:57:27+00:00",
-          "fetched_at": "2026-10-17T18:31:05.868598+00:00",
+          "fetched_at": "2026-10-17T21:29:21.226869+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -159,7 +164,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T14:31:04+00:00",
-          "fetched_at": "2026-10-17T18:31:05.068602+00:00",
+          "fetched_at": "2026-10-17T21:29:20.350571+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -174,7 +179,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-16T11:40:41+00:00",
-          "fetched_at": "2026-10-17T18:31:05.070155+00:00",
+          "fetched_at": "2026-10-17T21:29:20.352361+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -186,18 +191,18 @@
       "event_id": "evt_461ab1a61135085e1dd0",
       "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
       "category": "国际政治",
-      "score": 83.7,
+      "score": 82.4,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 21.0,
+        "recency": 20.1,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 3.9
+        "velocity": 3.5
       },
       "first_seen": "2026-10-17T02:09:00+00:00",
-      "last_updated": "2026-10-17T17:24:07+00:00",
+      "last_updated": "2026-10-17T19:19:19+00:00",
       "source_count": 4,
       "article_count": 4,
       "sources": [
@@ -227,14 +232,14 @@
         "participants": [
           "Trump",
           "Russia",
+          "Zelensky",
           "Zelenskyy",
-          "US",
-          "Zelensky"
+          "US"
         ],
         "latest_progress": [
+          "10月17日 19:19 UTC，BBC World报道：“Trump waives several Russia sanctions as row with Zelensky intensifies”。",
           "10月17日 17:24 UTC，Al Jazeera报道：“Trump faces bipartisan backlash over Russia sanctions waiver”。",
-          "10月17日 14:25 UTC，NPR World报道：“Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold”。",
-          "10月17日 11:56 UTC，BBC World报道：“Trump waives several Russia sanctions as row with Zelensky intensifies”。"
+          "10月17日 14:25 UTC，NPR World报道：“Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -247,6 +252,21 @@
       },
       "articles": [
         {
+          "article_id": "art_03275f83b4248134c8f6",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_campaign=rss&at_medium=RSS",
+          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+          "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-17T19:19:19+00:00",
+          "fetched_at": "2026-10-17T21:29:20.348134+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg"
+        },
+        {
           "article_id": "art_53a6e91173857133f581",
           "url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
@@ -255,7 +275,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-17T17:24:07+00:00",
-          "fetched_at": "2026-10-17T18:31:06.102633+00:00",
+          "fetched_at": "2026-10-17T21:29:21.350549+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -270,26 +290,11 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-17T14:25:10+00:00",
-          "fetched_at": "2026-10-17T18:31:05.868129+00:00",
+          "fetched_at": "2026-10-17T21:29:21.226405+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_03275f83b4248134c8f6",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_campaign=rss&at_medium=RSS",
-          "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-          "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-17T11:56:06+00:00",
-          "fetched_at": "2026-10-17T18:31:05.066838+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg"
         },
         {
           "article_id": "art_5fb8f5be58e41d5dfc76",
@@ -300,7 +305,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T02:09:00+00:00",
-          "fetched_at": "2026-10-17T18:31:05.393461+00:00",
+          "fetched_at": "2026-10-17T21:29:20.928950+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -309,147 +314,113 @@
       ]
     },
     {
-      "event_id": "evt_4c58c32aecdc03a3616f",
-      "title": "Buildings and cars set on fire as cost of living protests rock France",
-      "category": "社会突发",
-      "score": 80.7,
+      "event_id": "evt_d81c515c917324124e34",
+      "title": "Protesters allege police brutality as violent clashes rage on in Albania",
+      "category": "国际政治",
+      "score": 70.7,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 19.8,
-        "credibility": 9.8,
-        "impact": 11.7,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.5,
+        "credibility": 10.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-17T08:02:00+00:00",
-      "last_updated": "2026-10-17T16:00:40+00:00",
-      "source_count": 3,
-      "article_count": 4,
+      "first_seen": "2026-10-17T20:40:38+00:00",
+      "last_updated": "2026-10-17T20:53:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories",
-        "NPR World"
+        "BBC World"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "france",
-        "protesters",
-        "protests",
-        "students",
-        "nationwide",
         "police",
-        "activists",
-        "protest"
+        "protesters",
+        "violent",
+        "clashes",
+        "albania",
+        "brutality",
+        "riot",
+        "allege"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的社会突发事件为“Buildings and cars set on fire as cost of living protests rock France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Protesters allege police brutality as violent clashes rage on in Albania”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Buildings",
-          "France Scuffles",
-          "France",
-          "Police"
+          "Anti",
+          "Albania Protesters",
+          "Albania"
         ],
         "latest_progress": [
-          "10月17日 16:00 UTC，Al Jazeera报道：“Buildings and cars set on fire as cost of living protests rock France”。",
-          "10月17日 15:57 UTC，NPR World报道：“Scuffles and fires break out as protesters rally across France, joining students”。",
-          "10月17日 12:18 UTC，Al Jazeera报道：“France tackles new wave of nationwide protests”。"
+          "10月17日 20:53 UTC，BBC World报道：“Anti-government protesters battle with police in Albania”。",
+          "10月17日 20:40 UTC，Al Jazeera报道：“Protesters allege police brutality as violent clashes rage on in Albania”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_fe087ce78b40101a0f06",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
-          "title": "Buildings and cars set on fire as cost of living protests rock France",
-          "summary": "Protesters have set fire to cars and buildings in France as demonstrations escalate.",
-          "source": "Al Jazeera",
+          "article_id": "art_98f71e81886e08e08afe",
+          "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_campaign=rss&at_medium=RSS",
+          "title": "Anti-government protesters battle with police in Albania",
+          "summary": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-17T16:00:40+00:00",
-          "fetched_at": "2026-10-17T18:31:06.103621+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_bc0a3e3e3becf0957b40",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-          "canonical_url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
-          "title": "Scuffles and fires break out as protesters rally across France, joining students",
-          "summary": "Demonstrators across France converged with students Saturday to protest rising living costs, as the country's fiscal crisis deepens.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-17T15:57:40+00:00",
-          "fetched_at": "2026-10-17T18:31:05.867795+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5aca8b8ea97f539d72f1",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/france-tackles-new-wave-of-nationwide-protests?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/france-tackles-new-wave-of-nationwide-protests?traffic_source=rss",
-          "title": "France tackles new wave of nationwide protests",
-          "summary": "France is tackling nationwide protests, as students, unions, and activists rally against high prices and inequality.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T12:18:55+00:00",
-          "fetched_at": "2026-10-17T18:31:06.106017+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7d8b16eff7d97babb982",
-          "url": "https://www.dw.com/en/france-police-and-protesters-clash-in-nationwide-protests/a-79685584?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-police-and-protesters-clash-in-nationwide-protests/a-79685584?maca=en-rss-en-top-1022-rdf",
-          "title": "France: Police and protesters clash in nationwide protests",
-          "summary": "Students, trade unionists and Yellow Vest activists are taking to French streets to protest high prices and inequality. Police and protesters have already clashed in Paris and Marseille.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-17T08:02:00+00:00",
-          "fetched_at": "2026-10-17T18:31:05.393088+00:00",
+          "published_at": "2026-10-17T20:53:00+00:00",
+          "fetched_at": "2026-10-17T21:29:20.348505+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b85/live/bbc9c4f0-ca6b-11f1-b2e2-233efb1fd43c.jpg"
+        },
+        {
+          "article_id": "art_2bd5fa36ff76d721c9c6",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/protesters-allege-police-brutality-as-violent-clashes-rage-on-in-albania?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/protesters-allege-police-brutality-as-violent-clashes-rage-on-in-albania?traffic_source=rss",
+          "title": "Protesters allege police brutality as violent clashes rage on in Albania",
+          "summary": "Protesters in Albania accuse riot police of brutality as clashes turn violent outside the Education Ministry.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T20:40:38+00:00",
+          "fetched_at": "2026-10-17T21:29:21.348749+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_3a93aa3192270efcfe15",
-      "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+      "event_id": "evt_269376b8df84ac31f1f0",
+      "title": "Ilhan Omar’s lawyers demand the return of property seized in house raid",
       "category": "国际政治",
-      "score": 73.3,
+      "score": 69.1,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.4,
+        "recency": 20.1,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-17T14:00:24+00:00",
-      "last_updated": "2026-10-17T17:49:00+00:00",
+      "first_seen": "2026-10-17T15:20:27+00:00",
+      "last_updated": "2026-10-17T19:17:00+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
         "DW Top Stories"
@@ -459,17 +430,108 @@
         "Middle East"
       ],
       "keywords": [
-        "saudi",
-        "arabia",
-        "defend",
-        "egyptian",
-        "president",
-        "houthi",
-        "attacks",
-        "egypt"
+        "omar",
+        "ilhan",
+        "congress",
+        "donald",
+        "trump",
+        "lawyers",
+        "demand",
+        "return"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Ilhan Omar’s lawyers demand the return of property seized in house raid”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Ilhan Omar",
+          "US",
+          "Democrat",
+          "Donald Trump Ilhan Omar"
+        ],
+        "latest_progress": [
+          "10月17日 19:17 UTC，DW Top Stories报道：“Ilhan Omar: The US Democrat targeted by Donald Trump”。",
+          "10月17日 15:20 UTC，Al Jazeera报道：“Ilhan Omar’s lawyers demand the return of property seized in house raid”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_df3f0f6ddce2d336baed",
+          "url": "https://www.dw.com/en/ilhan-omar-the-us-democrat-targeted-by-donald-trump/a-79688445?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ilhan-omar-the-us-democrat-targeted-by-donald-trump/a-79688445?maca=en-rss-en-top-1022-rdf",
+          "title": "Ilhan Omar: The US Democrat targeted by Donald Trump",
+          "summary": "Donald Trump has described her as \"garbage\" and a \"criminal\" who does nothing but \"bitch.\" Congress member Ilhan Omar has long been the target of angry verbal attacks from the US president. But why her?",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-17T19:17:00+00:00",
+          "fetched_at": "2026-10-17T21:29:20.927141+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b072ac7a3d2c4cfe8161",
+          "url": "https://www.aljazeera.com/news/2026/10/17/ilhan-omars-lawyers-demand-the-return-of-property-seized-in-house-raid?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/ilhan-omars-lawyers-demand-the-return-of-property-seized-in-house-raid?traffic_source=rss",
+          "title": "Ilhan Omar’s lawyers demand the return of property seized in house raid",
+          "summary": "Omar’s legal team says the search violated safeguards designed to protect constitutional rights of members of Congress.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T15:20:27+00:00",
+          "fetched_at": "2026-10-17T21:29:21.351974+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7c499b247247520207e6",
+      "title": "Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks",
+      "category": "国际政治",
+      "score": 67.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.9,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T16:49:07+00:00",
+      "last_updated": "2026-10-17T17:49:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "defend",
+        "saudi",
+        "arabia",
+        "houthi",
+        "attacks",
+        "el-sisi",
+        "egyptian",
+        "president"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Egypt",
@@ -480,8 +542,7 @@
         ],
         "latest_progress": [
           "10月17日 17:49 UTC，DW Top Stories报道：“Egypt's Ssisi says he'll defend Saudi Arabia, if asked”。",
-          "10月17日 16:49 UTC，Al Jazeera报道：“Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks”。",
-          "10月17日 14:00 UTC，Al Jazeera报道：“Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia”。"
+          "10月17日 16:49 UTC，Al Jazeera报道：“Egypt’s el-Sisi vows to defend Saudi Arabia from Houthi attacks”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -502,7 +563,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-17T17:49:00+00:00",
-          "fetched_at": "2026-10-17T18:31:05.391887+00:00",
+          "fetched_at": "2026-10-17T21:29:20.927424+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -517,22 +578,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-17T16:49:07+00:00",
-          "fetched_at": "2026-10-17T18:31:06.103307+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c284af9b8db53787f3e2",
-          "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss",
-          "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
-          "summary": "Egyptian president pledges 'any measure' to help defend Saudi Arabia 'if it is requested of us'.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T14:00:24+00:00",
-          "fetched_at": "2026-10-17T18:31:06.104934+00:00",
+          "fetched_at": "2026-10-17T21:29:21.351195+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -541,21 +587,111 @@
       ]
     },
     {
-      "event_id": "evt_6e67c6e15ff9c4d6797d",
-      "title": "Why are Latin American countries building closer ties with Israel?",
+      "event_id": "evt_87ef8cd4ce817235d8a6",
+      "title": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
+      "category": "社会突发",
+      "score": 65.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.5,
+        "credibility": 9.5,
+        "impact": 11.7,
+        "velocity": 3.8
+      },
+      "first_seen": "2026-10-17T08:02:00+00:00",
+      "last_updated": "2026-10-17T15:57:40+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "france",
+        "students",
+        "protesters",
+        "police",
+        "rising",
+        "out",
+        "protest",
+        "across"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的社会突发事件为“France: Protesters clash with police in nationwide protests, amid rising social polarization”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Scuffles",
+          "France",
+          "Protesters"
+        ],
+        "latest_progress": [
+          "10月17日 15:57 UTC，NPR World报道：“Scuffles and fires break out as protesters rally across France, joining students”。",
+          "10月17日 08:02 UTC，DW Top Stories报道：“France: Protesters clash with police in nationwide protests, amid rising social polarization”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_bc0a3e3e3becf0957b40",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "canonical_url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+          "title": "Scuffles and fires break out as protesters rally across France, joining students",
+          "summary": "Demonstrators across France converged with students Saturday to protest rising living costs, as the country's fiscal crisis deepens.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-17T15:57:40+00:00",
+          "fetched_at": "2026-10-17T21:29:21.226099+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_58ce05794a2e5d6d8220",
+          "url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-top-1022-rdf",
+          "title": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
+          "summary": "Unrest broke out in parts of France as students, trade unionists and Yellow Vest activists took to the streets to protest high prices and inequality. Police arrested hundreds amid chaotic scenes in French cities.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-17T08:02:00+00:00",
+          "fetched_at": "2026-10-17T21:29:20.928575+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_397799f9b88278251db4",
+      "title": "Will the EU come to Ukraine’s rescue in war against Russia?",
       "category": "军事安全",
-      "score": 61.6,
+      "score": 60.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.6,
+        "recency": 19.9,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-17T16:54:44+00:00",
-      "last_updated": "2026-10-17T16:54:44+00:00",
+      "first_seen": "2026-10-17T19:03:49+00:00",
+      "last_updated": "2026-10-17T19:03:49+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -565,25 +701,26 @@
         "Middle East"
       ],
       "keywords": [
-        "latin",
-        "american",
-        "israel",
-        "countries",
-        "building",
-        "closer",
-        "ties",
-        "wave"
+        "come",
+        "ukraine",
+        "rescue",
+        "war",
+        "against",
+        "russia",
+        "support",
+        "risk"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why are Latin American countries building closer ties with Israel?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Will the EU come to Ukraine’s rescue in war against Russia?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Why",
-          "Latin American",
-          "Israel"
+          "Will",
+          "EU",
+          "Ukraine",
+          "Russia"
         ],
         "latest_progress": [
-          "10月17日 16:54 UTC，Al Jazeera报道：“Why are Latin American countries building closer ties with Israel?”。"
+          "10月17日 19:03 UTC，Al Jazeera报道：“Will the EU come to Ukraine’s rescue in war against Russia?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -596,15 +733,15 @@
       },
       "articles": [
         {
-          "article_id": "art_e74692236f5889362e79",
-          "url": "https://www.aljazeera.com/news/2026/10/17/why-are-latin-american-countries-building-closer-ties-with-israel?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/why-are-latin-american-countries-building-closer-ties-with-israel?traffic_source=rss",
-          "title": "Why are Latin American countries building closer ties with Israel?",
-          "summary": "A wave of new Latin American leaders reverses measures meant to isolate Israel after its genocidal war on Gaza.",
+          "article_id": "art_99b770c4ae14648b6c26",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/17/will-the-eu-come-to-ukraines-rescue-in-war-against-russia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/17/will-the-eu-come-to-ukraines-rescue-in-war-against-russia?traffic_source=rss",
+          "title": "Will the EU come to Ukraine’s rescue in war against Russia?",
+          "summary": "US support at risk as Trump-Zelenskyy relations nosedive.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T16:54:44+00:00",
-          "fetched_at": "2026-10-17T18:31:06.103140+00:00",
+          "published_at": "2026-10-17T19:03:49+00:00",
+          "fetched_at": "2026-10-17T21:29:21.349724+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -613,54 +750,192 @@
       ]
     },
     {
-      "event_id": "evt_d6a47570277587a6c010",
-      "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
-      "category": "国际政治",
-      "score": 59.5,
+      "event_id": "evt_c461cd521574e2d96cb2",
+      "title": "Iranian TV airs video said to show tanker explosion in Hormuz",
+      "category": "社会突发",
+      "score": 60.5,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 16.5,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 2.5
+        "recency": 20.7,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-16T17:34:00+00:00",
-      "last_updated": "2026-10-17T11:34:00+00:00",
+      "first_seen": "2026-10-17T20:02:22+00:00",
+      "last_updated": "2026-10-17T20:02:22+00:00",
       "source_count": 1,
-      "article_count": 3,
+      "article_count": 1,
       "sources": [
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "zelenskyy",
-        "support",
-        "russia",
-        "winter",
-        "summit",
-        "leaders",
-        "president",
-        "ukraine"
+        "iranian",
+        "show",
+        "tanker",
+        "hormuz",
+        "airs",
+        "video",
+        "said",
+        "explosion"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Iranian TV airs video said to show tanker explosion in Hormuz”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Russia",
-          "Ukraine",
-          "Zelenskyy Ukrainian President Zelenskyy",
-          "EU",
-          "Donald Trump At",
-          "Zelenskyy"
+          "Iranian",
+          "TV",
+          "Hormuz"
         ],
         "latest_progress": [
-          "10月17日 11:34 UTC，DW Top Stories报道：“Russia wants blackout in Ukraine as winter comes — Zelenskyy”。",
-          "10月16日 19:42 UTC，DW Top Stories报道：“Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump”。",
-          "10月16日 17:34 UTC，DW Top Stories报道：“At summit, EU leaders pledge support for Ukraine's Zelenskyy”。"
+          "10月17日 20:02 UTC，Al Jazeera报道：“Iranian TV airs video said to show tanker explosion in Hormuz”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_84764984881eea62829e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss",
+          "title": "Iranian TV airs video said to show tanker explosion in Hormuz",
+          "summary": "Iranian state TV aired footage claiming to show an oil tanker exploding after striking a naval mine in Hormuz",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T20:02:22+00:00",
+          "fetched_at": "2026-10-17T21:29:21.349085+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_35e382dd628074a511b4",
+      "title": "Israeli drone attacks kill six Palestinians across Gaza despite ‘ceasefire’",
+      "category": "军事安全",
+      "score": 60.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T18:26:59+00:00",
+      "last_updated": "2026-10-17T18:26:59+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "attacks",
+        "israeli",
+        "drone",
+        "kill",
+        "six",
+        "palestinians",
+        "across",
+        "gaza"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Israeli drone attacks kill six Palestinians across Gaza despite ‘ceasefire’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israeli",
+          "Palestinians",
+          "Gaza"
+        ],
+        "latest_progress": [
+          "10月17日 18:26 UTC，Al Jazeera报道：“Israeli drone attacks kill six Palestinians across Gaza despite ‘ceasefire’”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9c22ae26576eaf8b38ff",
+          "url": "https://www.aljazeera.com/news/2026/10/17/israeli-drone-attacks-kill-six-palestinians-across-gaza-despite-ceasefire?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/israeli-drone-attacks-kill-six-palestinians-across-gaza-despite-ceasefire?traffic_source=rss",
+          "title": "Israeli drone attacks kill six Palestinians across Gaza despite ‘ceasefire’",
+          "summary": "Attacks hit several areas as UNICEF reports more than 340 children killed since 'ceasefire' began a year ago.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-17T18:26:59+00:00",
+          "fetched_at": "2026-10-17T21:29:21.350059+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_742ffb2c174eb8d147b0",
+      "title": "Albanian police fire rubber bullets as protests against Rama escalate",
+      "category": "国际政治",
+      "score": 59.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-17T19:26:13+00:00",
+      "last_updated": "2026-10-17T19:26:13+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "albanian",
+        "police",
+        "fire",
+        "rubber",
+        "bullets",
+        "protests",
+        "against",
+        "rama"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Albanian police fire rubber bullets as protests against Rama escalate”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Albanian",
+          "Rama"
+        ],
+        "latest_progress": [
+          "10月17日 19:26 UTC，Al Jazeera报道：“Albanian police fire rubber bullets as protests against Rama escalate”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -673,362 +948,15 @@
       },
       "articles": [
         {
-          "article_id": "art_593c010dda33d8f28d2f",
-          "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-top-1022-rdf",
-          "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
-          "summary": "Ukrainian President Zelenskyy says Russia is trying to cut electricity and heating to civilians ahead of winter. He also called the US president's waiver of new sanctions on Moscow a boost for Vladimir Putin.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-17T11:34:00+00:00",
-          "fetched_at": "2026-10-17T18:31:05.392697+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f76de0354432f3ee8d77",
-          "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
-          "summary": "EU leaders reaffirmed support for Ukraine at the Brussels summit. But souring relations with the US over Russia and Starlink and a big hole in the budget will make for a difficult winter for Ukraine.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-16T19:42:00+00:00",
-          "fetched_at": "2026-10-17T18:31:05.393736+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f1ff53e72d282528d55e",
-          "url": "https://www.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraine-s-zelenskyy/a-79678808?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraine-s-zelenskyy/a-79678808?maca=en-rss-en-top-1022-rdf",
-          "title": "At summit, EU leaders pledge support for Ukraine's Zelenskyy",
-          "summary": "President Zelenskyy has received words of encouragement from EU leaders, who pledged support for Ukraine's self-defense against Russia. This comes as winter approaches and the US seems to be withdrawing support.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-16T17:34:00+00:00",
-          "fetched_at": "2026-10-17T18:31:05.394229+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_eced68fdb37d51634d6c",
-      "title": "2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网",
-      "category": "科技AI",
-      "score": 59.2,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 2.5,
-        "recency": 12.8,
-        "credibility": 7.5,
-        "impact": 9.8,
-        "velocity": 2.0
-      },
-      "first_seen": "2026-10-16T06:30:00+00:00",
-      "last_updated": "2026-10-17T05:30:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "baijiahao.baidu.com",
-        "hea.china.com",
-        "zjnews.zjol.com.cn"
-      ],
-      "regions": [
-        "China"
-      ],
-      "keywords": [
-        "智能",
-        "亮相",
-        "温州",
-        "作业",
-        "人工",
-        "工智",
-        "能产",
-        "产业"
-      ],
-      "analysis": {
-        "what_happened": "据baijiahao.baidu.com、hea.china.com、zjnews.zjol.com.cn等来源的3篇报道，当前关注的科技AI事件为“2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "AI"
-        ],
-        "latest_progress": [
-          "10月17日 05:30 UTC，zjnews.zjol.com.cn报道：“具身智能 温州队 亮相 AI 黑科技 盛宴开席”。",
-          "10月17日 03:00 UTC，hea.china.com报道：“2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网”。",
-          "10月16日 06:30 UTC，baijiahao.baidu.com报道：“济南能源集团 作业宝 App亮相2026人工智能产业大会 ， 作业有 数 安全有 宝”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4e6050b4cddd914276e0",
-          "url": "https://zjnews.zjol.com.cn/zjnews/202610/t20261017_31971017.shtml",
-          "canonical_url": "https://zjnews.zjol.com.cn/zjnews/202610/t20261017_31971017.shtml",
-          "title": "具身智能 温州队 亮相 AI 黑科技 盛宴开席",
-          "summary": "",
-          "source": "zjnews.zjol.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-17T05:30:00+00:00",
-          "fetched_at": "2026-10-17T18:31:04.859667+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_38dc7596445d7dab163e",
-          "url": "https://hea.china.com/articles/20261017/202610171966275.html",
-          "canonical_url": "https://hea.china.com/articles/20261017/202610171966275.html",
-          "title": "2026温州人工智能产业博览会10月17日开幕 ! 具身智能 温州队 亮相 ， AI 黑科技 盛宴开席 !_ 中华网",
-          "summary": "",
-          "source": "hea.china.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-17T03:00:00+00:00",
-          "fetched_at": "2026-10-17T18:31:04.860115+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8bc3ed64eb047a7ca7aa",
-          "url": "https://baijiahao.baidu.com/s?id=1879184660663679078",
-          "canonical_url": "https://baijiahao.baidu.com/s?id=1879184660663679078",
-          "title": "济南能源集团 作业宝 App亮相2026人工智能产业大会 ， 作业有 数 安全有 宝",
-          "summary": "",
-          "source": "baijiahao.baidu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-16T06:30:00+00:00",
-          "fetched_at": "2026-10-17T18:31:04.860472+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e6621366d3d5745bd127",
-      "title": "Bill Gates inicia la construcción de un reactor nuclear : dará energía a 400 . 000 hogares",
-      "category": "军事安全",
-      "score": 58.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.2,
-        "credibility": 7.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T16:30:00+00:00",
-      "last_updated": "2026-10-17T16:30:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "infobae.com"
-      ],
-      "regions": [
-        "Argentina"
-      ],
-      "keywords": [
-        "bill",
-        "gates",
-        "inicia",
-        "construcci",
-        "reactor",
-        "nuclear",
-        "dar",
-        "energ"
-      ],
-      "analysis": {
-        "what_happened": "据infobae.com等来源的1篇报道，当前关注的军事安全事件为“Bill Gates inicia la construcción de un reactor nuclear : dará energía a 400 . 000 hogares”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Bill Gates"
-        ],
-        "latest_progress": [
-          "10月17日 16:30 UTC，infobae.com报道：“Bill Gates inicia la construcción de un reactor nuclear : dará energía a 400 . 000 hogares”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f8ed7464cf6f258ef7a0",
-          "url": "https://www.infobae.com/tecno/2026/10/17/bill-gates-inicia-la-construccion-de-un-reactor-nuclear-dara-energia-a-400000-hogares/",
-          "canonical_url": "https://www.infobae.com/tecno/2026/10/17/bill-gates-inicia-la-construccion-de-un-reactor-nuclear-dara-energia-a-400000-hogares",
-          "title": "Bill Gates inicia la construcción de un reactor nuclear : dará energía a 400 . 000 hogares",
-          "summary": "",
-          "source": "infobae.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-17T16:30:00+00:00",
-          "fetched_at": "2026-10-17T18:31:04.859206+00:00",
-          "language": "Spanish",
-          "region": "Argentina",
-          "source_weight": 0.75,
-          "image_url": "https://www.infobae.com/resizer/v2/46OURQ2XUJGNVPHSJP2J2XVYZY.jpg?auth=a7a7bbe82d2e26b312dfe00af0914f9b144a217fca7741123c25ba88745a5cc2&smart=true&quality=85"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5dc4ca9f6ee804c45de1",
-      "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
-      "category": "社会突发",
-      "score": 58.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.0,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T14:57:24+00:00",
-      "last_updated": "2026-10-17T14:57:24+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "against",
-        "thousands",
-        "rally",
-        "biggest",
-        "protest",
-        "years",
-        "tunisia",
-        "saied"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Thousands rally for biggest protest in years against Tunisia’s Saied”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Thousands",
-          "Tunisia",
-          "Saied"
-        ],
-        "latest_progress": [
-          "10月17日 14:57 UTC，Al Jazeera报道：“Thousands rally for biggest protest in years against Tunisia’s Saied”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f7d18d0083a1efc06c61",
-          "url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss",
-          "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
-          "summary": "Unions, opposition groups unite to demonstrate against poor living conditions and restrictions on political freedoms.",
+          "article_id": "art_3b2e63ea776540059588",
+          "url": "https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate?traffic_source=rss",
+          "title": "Albanian police fire rubber bullets as protests against Rama escalate",
+          "summary": "Five days of clashes rock Tirana as students join a wider movement demanding Prime Minister Edi Rama's resignation.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-17T14:57:24+00:00",
-          "fetched_at": "2026-10-17T18:31:06.104289+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6f60182c28b3df19e880",
-      "title": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
-      "category": "社会突发",
-      "score": 58.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.6,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-17T14:28:07+00:00",
-      "last_updated": "2026-10-17T14:28:07+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "trudy",
-        "hurricane",
-        "makes",
-        "way",
-        "towards",
-        "mexico",
-        "threatening",
-        "heavy"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Hurricane Trudy makes its way towards Mexico, threatening heavy rain”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Hurricane Trudy",
-          "Mexico"
-        ],
-        "latest_progress": [
-          "10月17日 14:28 UTC，Al Jazeera报道：“Hurricane Trudy makes its way towards Mexico, threatening heavy rain”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d32951e5b429540f256b",
-          "url": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss",
-          "title": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
-          "summary": "Trudy is the latest in successive storms that have hit Mexico's Pacific coast this year.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-17T14:28:07+00:00",
-          "fetched_at": "2026-10-17T18:31:06.104590+00:00",
+          "published_at": "2026-10-17T19:26:13+00:00",
+          "fetched_at": "2026-10-17T21:29:21.349405+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
