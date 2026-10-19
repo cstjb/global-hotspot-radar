@@ -1,404 +1,119 @@
 {
-  "generated_at": "2026-10-19T19:57:08.680321+00:00",
+  "generated_at": "2026-10-19T23:41:54.951754+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 183,
-    "articles_unique": 182,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 134,
+    "articles_unique": 133,
+    "errors": [
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_9319c61dd945ee27ec55",
-      "title": "贯穿商贸全链条 科技兴商 深度融合 《 关于加快推进科技兴商的意见 》 发布 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网",
-      "category": "科技AI",
-      "score": 83.0,
+      "event_id": "evt_a551706b5a225cafd9f6",
+      "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+      "category": "社会突发",
+      "score": 75.5,
       "score_breakdown": {
-        "coverage": 22.0,
-        "source_diversity": 18.0,
-        "region_diversity": 2.5,
-        "recency": 18.3,
-        "credibility": 7.5,
-        "impact": 9.8,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 19.3,
+        "credibility": 9.8,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-19T04:00:00+00:00",
-      "last_updated": "2026-10-19T15:30:00+00:00",
-      "source_count": 13,
-      "article_count": 13,
-      "sources": [
-        "163.com",
-        "baijiahao.baidu.com",
-        "businessstudies.qianlong.com",
-        "finance.sina.com.cn",
-        "legaldaily.com.cn",
-        "news.china.com",
-        "news.cn",
-        "news.cyol.com",
-        "news.fznews.com.cn",
-        "news.hexun.com",
-        "news.iqilu.com",
-        "stdaily.com",
-        "yicai.com"
-      ],
-      "regions": [
-        "China"
-      ],
-      "keywords": [
-        "科技",
-        "技兴",
-        "兴商",
-        "部门",
-        "推进",
-        "进科",
-        "加快",
-        "快推"
-      ],
-      "analysis": {
-        "what_happened": "据163.com、baijiahao.baidu.com、businessstudies.qianlong.com、finance.sina.com.cn等来源的13篇报道，当前关注的科技AI事件为“贯穿商贸全链条 科技兴商 深度融合 《 关于加快推进科技兴商的意见 》 发布 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "163.com",
-          "baijiahao.baidu.com",
-          "businessstudies.qianlong.com",
-          "finance.sina.com.cn",
-          "legaldaily.com.cn"
-        ],
-        "latest_progress": [
-          "10月19日 15:30 UTC，legaldaily.com.cn报道：“商务部等9部门印发 《 关于加快推进科技兴商的意见 》”。",
-          "10月19日 12:30 UTC，businessstudies.qianlong.com报道：“新商学政策｜如何加快推进科技兴商 ？ 商务部等9部门意见发布”。",
-          "10月19日 12:15 UTC，yicai.com报道：“9部门首提 科技兴商 ， 18条举措重塑商贸全链条”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4bddc3c1ce8fe76cfb23",
-          "url": "http://www.legaldaily.com.cn/index_article/content/2026-10/19/content_9474922.html",
-          "canonical_url": "https://www.legaldaily.com.cn/index_article/content/2026-10/19/content_9474922.html",
-          "title": "商务部等9部门印发 《 关于加快推进科技兴商的意见 》",
-          "summary": "",
-          "source": "legaldaily.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T15:30:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.111563+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4aef9ddced1d49137bab",
-          "url": "https://businessstudies.qianlong.com/2026/1019/8740239.shtml",
-          "canonical_url": "https://businessstudies.qianlong.com/2026/1019/8740239.shtml",
-          "title": "新商学政策｜如何加快推进科技兴商 ？ 商务部等9部门意见发布",
-          "summary": "",
-          "source": "businessstudies.qianlong.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T12:30:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.110994+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9a92d8020df1e126700b",
-          "url": "https://www.yicai.com/news/103399438.html",
-          "canonical_url": "https://www.yicai.com/news/103399438.html",
-          "title": "9部门首提 科技兴商 ， 18条举措重塑商贸全链条",
-          "summary": "",
-          "source": "yicai.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T12:15:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.111046+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6ba254312aae3b70cdaf",
-          "url": "https://news.iqilu.com/china/gedi/2026/1019/5953630.shtml",
-          "canonical_url": "https://news.iqilu.com/china/gedi/2026/1019/5953630.shtml",
-          "title": "贯穿商贸全链条 科技兴商 深度融合 《 关于加快推进科技兴商的意见 》 发布 _ 大陆 _ 国内新闻 _ 新闻 _ 齐鲁网",
-          "summary": "",
-          "source": "news.iqilu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T11:15:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.111202+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8efa8210ed5d0ec37b64",
-          "url": "https://www.163.com/dy/article/L9KDVTU105129QAF.html",
-          "canonical_url": "https://www.163.com/dy/article/L9KDVTU105129QAF.html",
-          "title": "九部门发文首提 科技兴商 ！ AI与机器人加速走进真实消费|物流|魏巍|人工智能",
-          "summary": "",
-          "source": "163.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T10:45:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.111163+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2ba862bf512b627f4b09",
-          "url": "https://news.hexun.com/2026-10-19/225136307.html",
-          "canonical_url": "https://news.hexun.com/2026-10-19/225136307.html",
-          "title": "利好 ！ 推进科技兴商 ， 9部门联合印发 - 新闻频道 - 和讯网",
-          "summary": "",
-          "source": "news.hexun.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T08:45:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.110864+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_363e7c121fe8ad2089ac",
-          "url": "https://baijiahao.baidu.com/s?id=1879444716941778201",
-          "canonical_url": "https://baijiahao.baidu.com/s?id=1879444716941778201",
-          "title": "加快推进科技兴商 商务部等9部门发布18条举措",
-          "summary": "",
-          "source": "baijiahao.baidu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T08:30:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.110548+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0b284e5475d123ce1753",
-          "url": "http://news.cyol.com/gb/news/articles/2026-10/19/content_OVoKxnTWy0.html",
-          "canonical_url": "https://news.cyol.com/gb/news/articles/2026-10/19/content_OVoKxnTWy0.html",
-          "title": "商务部等9部门发布关于加快推进科技兴商的意见",
-          "summary": "",
-          "source": "news.cyol.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T08:15:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.110636+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_d0f8de166f745c1dfd0f",
-          "url": "https://finance.sina.com.cn/tech/roll/2026-10-19/doc-inivtynr6875136.shtml",
-          "canonical_url": "https://finance.sina.com.cn/tech/roll/2026-10-19/doc-inivtynr6875136.shtml",
-          "title": "商务部等9部门发文 加快推进科技兴商",
-          "summary": "",
-          "source": "finance.sina.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T07:45:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.110494+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_becae6e503da96572504",
-          "url": "https://news.china.com/domestic/945/20261019/49802528.html",
-          "canonical_url": "https://news.china.com/domestic/945/20261019/49802528.html",
-          "title": "加快推进科技兴商 商务部等9部门发布18条举措 _ 新闻频道 _ 中华网",
-          "summary": "",
-          "source": "news.china.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T07:00:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.111279+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ed7cb64aa535a6c55833",
-          "url": "https://news.fznews.com.cn/gngj/20261019/d0F0T6F422.shtml",
-          "canonical_url": "https://news.fznews.com.cn/gngj/20261019/d0F0T6F422.shtml",
-          "title": "加快推进科技兴商 ， 商务部等9部门发布18条重要意见 _ 天下 _ 新闻频道 _ 福州新闻网",
-          "summary": "",
-          "source": "news.fznews.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T05:15:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.111087+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9e152528b278ab3c749c",
-          "url": "https://www.news.cn/politics/20261019/bf2bcbe0ba2d453e8b310e25fcec3bc2/c.html",
-          "canonical_url": "https://www.news.cn/politics/20261019/bf2bcbe0ba2d453e8b310e25fcec3bc2/c.html",
-          "title": "商务部等9部门关于加快推进科技兴商的意见 - 新华网",
-          "summary": "",
-          "source": "news.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T04:30:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.110903+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5df3d72882e1b77db8fe",
-          "url": "https://www.stdaily.com/web/gdxw/2026-10/19/content_598576.html",
-          "canonical_url": "https://www.stdaily.com/web/gdxw/2026-10/19/content_598576.html",
-          "title": "商务部等9部门发布关于加快推进科技兴商的意见",
-          "summary": "",
-          "source": "stdaily.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T04:00:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.110677+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_93bd715d3580ec824c06",
-      "title": "Funding shortages force World Food Programme to cut aid to Gaza",
-      "category": "军事安全",
-      "score": 82.7,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 18.8,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.1
-      },
-      "first_seen": "2026-10-18T21:00:08+00:00",
-      "last_updated": "2026-10-19T16:06:57+00:00",
-      "source_count": 4,
-      "article_count": 4,
+      "first_seen": "2026-10-19T15:49:00+00:00",
+      "last_updated": "2026-10-19T20:31:21+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "food",
-        "gaza",
-        "aid",
-        "programme",
-        "shortages",
-        "funding",
-        "million",
-        "people"
+        "cult",
+        "leader",
+        "guilty",
+        "children",
+        "kenya",
+        "starve",
+        "paul",
+        "mackenzie"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Funding shortages force World Food Programme to cut aid to Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“Kenya cult leader who told parents to starve children guilty of 191 murders”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Gaza",
-          "WFP",
-          "UN",
-          "Palestinians",
-          "Gaza Funding",
-          "World Food Programme",
-          "Life"
+          "Kenya",
+          "Cult"
         ],
         "latest_progress": [
-          "10月19日 16:06 UTC，Al Jazeera报道：“Gaza faces worsening hunger as WFP announces food aid cuts”。",
-          "10月19日 11:41 UTC，DW Top Stories报道：“UN food program cuts aid to 500,000 Palestinians in Gaza”。",
-          "10月19日 06:00 UTC，BBC World报道：“Funding shortages force World Food Programme to cut aid to Gaza”。"
+          "10月19日 20:31 UTC，Al Jazeera报道：“Kenya convicts cult leader over the murder of 190 children”。",
+          "10月19日 17:18 UTC，BBC World报道：“Kenya cult leader who told parents to starve children guilty of 191 murders”。",
+          "10月19日 15:49 UTC，DW Top Stories报道：“Kenya: Cult leader guilty of murdering 190 children, 1 adult”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_1b7da67211f45a6fcf5e",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/gaza-faces-worsening-hunger-as-wfp-announces-food-aid-cuts?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/gaza-faces-worsening-hunger-as-wfp-announces-food-aid-cuts?traffic_source=rss",
-          "title": "Gaza faces worsening hunger as WFP announces food aid cuts",
-          "summary": "The World Food Programme has announced that funding shortages will force it to suspend food assistance in Gaza",
+          "article_id": "art_498bb97a55abc7ddb530",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/kenya-convicts-cult-leader-over-the-murder-of-190-children?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/kenya-convicts-cult-leader-over-the-murder-of-190-children?traffic_source=rss",
+          "title": "Kenya convicts cult leader over the murder of 190 children",
+          "summary": "The leader of a Kenyan cult who instructed followers to starve themselves to death to reach heaven has been found guilty",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-19T16:06:57+00:00",
-          "fetched_at": "2026-10-19T19:57:07.468842+00:00",
+          "published_at": "2026-10-19T20:31:21+00:00",
+          "fetched_at": "2026-10-19T23:41:53.978308+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_542b6b26a0b0a0845ee4",
-          "url": "https://www.dw.com/en/un-food-program-cuts-aid-to-500-000-palestinians-in-gaza/a-79699408?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/un-food-program-cuts-aid-to-500-000-palestinians-in-gaza/a-79699408?maca=en-rss-en-top-1022-rdf",
-          "title": "UN food program cuts aid to 500,000 Palestinians in Gaza",
-          "summary": "Amid funding shortages, the World Food Program has said it is being forced to reduce necessary aid. Over two-thirds of Palestinians in Gaza are facing acute hunger, according to the agency.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-19T11:41:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.888858+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4855f40e2f381a3bf687",
-          "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_campaign=rss&at_medium=RSS",
-          "title": "Funding shortages force World Food Programme to cut aid to Gaza",
-          "summary": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
+          "article_id": "art_c2bda09283e817013e05",
+          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_campaign=rss&at_medium=RSS",
+          "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+          "summary": "Self-proclaimed pastor Paul Mackenzie was found guilty of 191 murder charges - all but one of them children.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-19T06:00:18+00:00",
-          "fetched_at": "2026-10-19T19:57:06.312532+00:00",
+          "published_at": "2026-10-19T17:18:04+00:00",
+          "fetched_at": "2026-10-19T23:41:52.880063+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d07e/live/02bf88b0-cbd7-11f1-bc2e-018d645d8d21.jpg"
         },
         {
-          "article_id": "art_06dd15dd8d787f9452f7",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
-          "canonical_url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
-          "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
-          "summary": "The UN's World Food Programme says 1.4 million people in Gaza are suffering acute food shortages and that funding gaps are forcing cutbacks in critical aid, despite the U.S. brokered Hamas-Israel ceasefire.",
-          "source": "NPR World",
+          "article_id": "art_43f089f7a8ca1196841e",
+          "url": "https://www.dw.com/en/kenya-cult-leader-guilty-of-murdering-190-children-1-adult/a-79706279?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/kenya-cult-leader-guilty-of-murdering-190-children-1-adult/a-79706279?maca=en-rss-en-top-1022-rdf",
+          "title": "Kenya: Cult leader guilty of murdering 190 children, 1 adult",
+          "summary": "Preacher Paul Mackenzie was accused of encouraging his followers to starve themselves to death. He ran a Christian doomsday cult called the Good News International Church that claimed the end of the world was imminent.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-18T21:00:08+00:00",
-          "fetched_at": "2026-10-19T19:57:07.309164+00:00",
+          "published_at": "2026-10-19T15:49:00+00:00",
+          "fetched_at": "2026-10-19T23:41:53.454234+00:00",
           "language": "en",
-          "region": "North America",
+          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
@@ -408,20 +123,20 @@
       "event_id": "evt_68d9100becd674e186ad",
       "title": "Warning signs over threats to Australian politicians were rising before MP hit by car",
       "category": "军事安全",
-      "score": 78.8,
+      "score": 73.7,
       "score_breakdown": {
-        "coverage": 16.1,
+        "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 19.1,
-        "credibility": 9.8,
+        "recency": 16.3,
+        "credibility": 9.7,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-19T10:06:00+00:00",
       "last_updated": "2026-10-19T16:32:47+00:00",
       "source_count": 3,
-      "article_count": 4,
+      "article_count": 3,
       "sources": [
         "BBC World",
         "DW Top Stories",
@@ -433,16 +148,16 @@
       ],
       "keywords": [
         "car",
-        "attack",
         "australian",
+        "attack",
+        "lawmaker",
         "prime",
         "minister",
         "apparent",
-        "independent",
-        "lawmaker"
+        "helen"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Warning signs over threats to Australian politicians were rising before MP hit by car”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“Warning signs over threats to Australian politicians were rising before MP hit by car”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Warning",
@@ -451,8 +166,8 @@
         ],
         "latest_progress": [
           "10月19日 16:32 UTC，BBC World报道：“Warning signs over threats to Australian politicians were rising before MP hit by car”。",
-          "10月19日 14:09 UTC，BBC World报道：“Australian MP critically injured after being hit by car in apparent attack”。",
-          "10月19日 11:38 UTC，NPR World报道：“Australian prime minister says lawmaker critically injured by car is 'no accident'”。"
+          "10月19日 11:38 UTC，NPR World报道：“Australian prime minister says lawmaker critically injured by car is 'no accident'”。",
+          "10月19日 10:06 UTC，DW Top Stories报道：“Australian MP seriously hurt in suspected car attack”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -469,30 +184,15 @@
           "url": "https://www.bbc.co.uk/news/articles/cq398rk4p3exo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cq398rk4p3exo?at_campaign=rss&at_medium=RSS",
           "title": "Warning signs over threats to Australian politicians were rising before MP hit by car",
-          "summary": "The apparent attack on MP Helen Haines suggests the worst fears of politicians and public figures appear to have been realised.",
+          "summary": "In the apparent attack on MP Helen Haines, the worst fears of politicians and public figures appear to have been realised.",
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-19T16:32:47+00:00",
-          "fetched_at": "2026-10-19T19:57:06.312388+00:00",
+          "fetched_at": "2026-10-19T23:41:52.881212+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5abf/live/997b5110-cbde-11f1-b139-f77a8b036d06.jpg"
-        },
-        {
-          "article_id": "art_c108be2db80d8cfee337",
-          "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_campaign=rss&at_medium=RSS",
-          "title": "Australian MP critically injured after being hit by car in apparent attack",
-          "summary": "The independent politician is in hospital after what the prime minister says may have been a deliberate attack.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-19T14:09:54+00:00",
-          "fetched_at": "2026-10-19T19:57:06.311009+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c1d/live/efe61500-cbd2-11f1-9a39-31b474234113.jpg"
         },
         {
           "article_id": "art_2a0deb6236661875e2c6",
@@ -503,7 +203,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-19T11:38:43+00:00",
-          "fetched_at": "2026-10-19T19:57:07.308637+00:00",
+          "fetched_at": "2026-10-19T23:41:53.850510+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -518,7 +218,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-19T10:06:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.889087+00:00",
+          "fetched_at": "2026-10-19T23:41:53.454834+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -527,167 +227,157 @@
       ]
     },
     {
-      "event_id": "evt_92ca56e03058ac142552",
-      "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?",
-      "category": "军事安全",
-      "score": 76.6,
+      "event_id": "evt_881bd3efabbe5cf6b608",
+      "title": "Alberta voters decide whether to take a step toward separating from Canada",
+      "category": "能源资源",
+      "score": 70.8,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 19.7,
-        "credibility": 8.3,
-        "impact": 13.0,
-        "velocity": 3.4
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.9,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 3.3
       },
-      "first_seen": "2026-10-19T04:00:00+00:00",
-      "last_updated": "2026-10-19T17:16:22+00:00",
-      "source_count": 3,
+      "first_seen": "2026-10-19T08:45:01+00:00",
+      "last_updated": "2026-10-19T22:29:57+00:00",
+      "source_count": 2,
       "article_count": 3,
       "sources": [
-        "Al Jazeera",
-        "baomoi.com",
-        "liputan6.com"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
-        "Indonesia",
-        "Middle East",
-        "Vietnam"
+        "Europe",
+        "North America"
       ],
       "keywords": [
-        "trump",
-        "israel",
-        "netanyahu",
-        "chi",
-        "binh",
-        "dukung",
-        "terpilih",
-        "kembali"
+        "alberta",
+        "canada",
+        "voters",
+        "oil-rich",
+        "province",
+        "toward",
+        "referendum",
+        "future"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、baomoi.com、liputan6.com等来源的3篇报道，当前关注的军事安全事件为“Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据DW Top Stories、NPR World等来源的3篇报道，当前关注的能源资源事件为“Alberta voters decide whether to take a step toward separating from Canada”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Trump",
-          "Netanyahu",
-          "Is",
-          "US",
-          "Iran",
-          "Israel",
-          "Trump Dukung Netanyahu Terpilih",
-          "Kembali"
+          "Alberta",
+          "Canada Canada",
+          "Canada"
         ],
         "latest_progress": [
-          "10月19日 17:16 UTC，Al Jazeera报道：“Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?”。",
-          "10月19日 13:30 UTC，liputan6.com报道：“Trump Dukung Netanyahu Terpilih Kembali sebagai PM Israel”。",
-          "10月19日 04:00 UTC，baomoi.com报道：“Tổng thống Mỹ Trump gọi Thủ tướng Israel là chiến binh vĩ đại”。"
+          "10月19日 22:29 UTC，NPR World报道：“Alberta voters decide whether to take a step toward separating from Canada”。",
+          "10月19日 15:09 UTC，DW Top Stories报道：“Canada: Alberta votes on holding independence referendum”。",
+          "10月19日 08:45 UTC，NPR World报道：“Alberta voters weigh future in Canada”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_009089a1b3e06772d502",
-          "url": "https://www.aljazeera.com/news/2026/10/19/trump-backs-netanyahu-is-the-us-planning-a-new-iran-attack-with-israel?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/trump-backs-netanyahu-is-the-us-planning-a-new-iran-attack-with-israel?traffic_source=rss",
-          "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?",
-          "summary": "Trump’s endorsement comes after he previously shied away from fully backing Netanyahu’s election campaign.",
-          "source": "Al Jazeera",
+          "article_id": "art_be1fed70e2e73576008c",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
+          "canonical_url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
+          "title": "Alberta voters decide whether to take a step toward separating from Canada",
+          "summary": "In Canada, the oil-rich province of Alberta votes in a referendum that could set it on a path toward separation, as Prime Minister Mark Carney warns of threats to Canadian unity.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-19T17:16:22+00:00",
-          "fetched_at": "2026-10-19T19:57:07.468561+00:00",
+          "published_at": "2026-10-19T22:29:57+00:00",
+          "fetched_at": "2026-10-19T23:41:53.850416+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "North America",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_63d2aca5db14a1a05940",
-          "url": "https://www.liputan6.com/global/read/8316067/trump-dukung-netanyahu-terpilih-kembali-sebagai-pm-israel",
-          "canonical_url": "https://www.liputan6.com/global/read/8316067/trump-dukung-netanyahu-terpilih-kembali-sebagai-pm-israel",
-          "title": "Trump Dukung Netanyahu Terpilih Kembali sebagai PM Israel",
-          "summary": "",
-          "source": "liputan6.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T13:30:00+00:00",
-          "fetched_at": "2026-10-19T19:56:51.449864+00:00",
-          "language": "Indonesian",
-          "region": "Indonesia",
-          "source_weight": 0.75,
-          "image_url": "https://cdn1-production-images-kly.akamaized.net/aDQZ48Z5vHOOiMCVYObEiLmkXNg=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/5379852/original/002696600_1760398920-Untitled.jpg"
+          "article_id": "art_4d14c05624bc1c4dbd60",
+          "url": "https://www.dw.com/en/canada-alberta-votes-on-holding-independence-referendum/a-79700283?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/canada-alberta-votes-on-holding-independence-referendum/a-79700283?maca=en-rss-en-top-1022-rdf",
+          "title": "Canada: Alberta votes on holding independence referendum",
+          "summary": "Canada's oil-rich western province of Alberta is not deemed likely to vote in favor of a real breakaway plebiscite. Nevertheless the separatist movement hopes to gain leverage over Mark Carney's government.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-19T15:09:00+00:00",
+          "fetched_at": "2026-10-19T23:41:53.454300+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
-          "article_id": "art_f11332660218bac4092c",
-          "url": "https://baomoi.com/tong-thong-my-trump-goi-thu-tuong-israel-la-chien-binh-vi-dai-c56300979.epi",
-          "canonical_url": "https://baomoi.com/tong-thong-my-trump-goi-thu-tuong-israel-la-chien-binh-vi-dai-c56300979.epi",
-          "title": "Tổng thống Mỹ Trump gọi Thủ tướng Israel là chiến binh vĩ đại",
-          "summary": "",
-          "source": "baomoi.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T04:00:00+00:00",
-          "fetched_at": "2026-10-19T19:56:51.450964+00:00",
-          "language": "Vietnamese",
-          "region": "Vietnam",
-          "source_weight": 0.75,
-          "image_url": "https://baomoi-photo-fbcrawler.bmcdn.me/w1200_r16x9/2026_10_19_20_56300979/48a10558aa13434d1a02.jpg"
+          "article_id": "art_776413eed7455b92c9cf",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6004877/alberta-referendum-canada-vote",
+          "canonical_url": "https://www.npr.org/2026/10/18/nx-s1-6004877/alberta-referendum-canada-vote",
+          "title": "Alberta voters weigh future in Canada",
+          "summary": "On Monday voters in the oil-rich Canadian province of Alberta are deciding whether to take the first step toward a future referendum on independence.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T08:45:01+00:00",
+          "fetched_at": "2026-10-19T23:41:53.850797+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_effe65c879fca95c8d01",
-      "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+      "event_id": "evt_3f543291154ed2414848",
+      "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
       "category": "社会突发",
-      "score": 75.9,
+      "score": 69.4,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.7,
-        "credibility": 9.8,
+        "recency": 19.5,
+        "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-19T15:34:22+00:00",
-      "last_updated": "2026-10-19T17:18:04+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-10-19T20:00:43+00:00",
+      "last_updated": "2026-10-19T20:49:39+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "cult",
-        "leader",
-        "paul",
-        "mackenzie",
-        "starve",
-        "guilty",
-        "children",
-        "murdering"
+        "drone",
+        "soldier",
+        "carried",
+        "out",
+        "first",
+        "wounded",
+        "front",
+        "line"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“Kenya cult leader who told parents to starve children guilty of 191 murders”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Ukraine says it carried out first drone airlift of wounded soldier from front line”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Kenya",
-          "Cult",
-          "Kenyan"
+          "Injured Ukrainian",
+          "Ukraine"
         ],
         "latest_progress": [
-          "10月19日 17:18 UTC，BBC World报道：“Kenya cult leader who told parents to starve children guilty of 191 murders”。",
-          "10月19日 15:49 UTC，DW Top Stories报道：“Kenya: Cult leader guilty of murdering 190 children, 1 adult”。",
-          "10月19日 15:34 UTC，Al Jazeera报道：“Kenyan court convicts starvation cult leader of murdering 191 people”。"
+          "10月19日 20:49 UTC，Al Jazeera报道：“Injured Ukrainian soldier rescued in first-ever drone evacuation mission”。",
+          "10月19日 20:00 UTC，BBC World报道：“Ukraine says it carried out first drone airlift of wounded soldier from front line”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -700,45 +390,120 @@
       },
       "articles": [
         {
-          "article_id": "art_c2bda09283e817013e05",
-          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_campaign=rss&at_medium=RSS",
-          "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
-          "summary": "Self-proclaimed pastor Paul Mackenzie was found guilty of 191 murder charges - all but one of them children.",
-          "source": "BBC World",
+          "article_id": "art_c7bfee64a5d477c78965",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/aje-onl-nf_ukrainian-soldier-rescued-in-drone-evacuation-191026?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/aje-onl-nf_ukrainian-soldier-rescued-in-drone-evacuation-191026?traffic_source=rss",
+          "title": "Injured Ukrainian soldier rescued in first-ever drone evacuation mission",
+          "summary": "The Ukrainian army says it has carried out the world’s first drone evacuation of a wounded soldier from the front line.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-19T17:18:04+00:00",
-          "fetched_at": "2026-10-19T19:57:06.311211+00:00",
+          "published_at": "2026-10-19T20:49:39+00:00",
+          "fetched_at": "2026-10-19T23:41:53.978237+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d07e/live/02bf88b0-cbd7-11f1-bc2e-018d645d8d21.jpg"
-        },
-        {
-          "article_id": "art_43f089f7a8ca1196841e",
-          "url": "https://www.dw.com/en/kenya-cult-leader-guilty-of-murdering-190-children-1-adult/a-79706279?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/kenya-cult-leader-guilty-of-murdering-190-children-1-adult/a-79706279?maca=en-rss-en-top-1022-rdf",
-          "title": "Kenya: Cult leader guilty of murdering 190 children, 1 adult",
-          "summary": "Preacher Paul Mackenzie was accused of encouraging his followers to starve themselves to death. He ran a Christian doomsday cult called the Good News International Church that claimed the end of the world was imminent.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-19T15:49:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.888500+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_497264cd2f3f8e2a10cd",
-          "url": "https://www.aljazeera.com/news/2026/10/19/kenyan-court-convicts-starvation-cult-leader-for-murder-of-191-people?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/kenyan-court-convicts-starvation-cult-leader-for-murder-of-191-people?traffic_source=rss",
-          "title": "Kenyan court convicts starvation cult leader of murdering 191 people",
-          "summary": "Doomsday sect leader Paul ⁠⁠Mackenzie had denied ordering the victims to starve so they could 'meet Jesus'.",
+          "article_id": "art_3f5ce770f3c132818fe8",
+          "url": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_campaign=rss&at_medium=RSS",
+          "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
+          "summary": "The serviceman was surrounded by landmines and enemy drones so a ground rescue was not possible, Ukraine's military says.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T20:00:43+00:00",
+          "fetched_at": "2026-10-19T23:41:52.881631+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ffd/live/9535d5d0-cbf7-11f1-9a39-31b474234113.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1c98c2b78996ebfc99ee",
+      "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+      "category": "国际政治",
+      "score": 69.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.8,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-19T18:23:55+00:00",
+      "last_updated": "2026-10-19T21:12:30+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "saudi",
+        "ex-openai",
+        "accused",
+        "planting",
+        "device",
+        "employee",
+        "backing",
+        "prosecutor"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Ex-OpenAI worker accused of planting device had Saudi support, says court filing”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Ex",
+          "Saudi",
+          "Prosecutor"
+        ],
+        "latest_progress": [
+          "10月19日 21:12 UTC，BBC World报道：“Ex-OpenAI worker accused of planting device had Saudi support, says court filing”。",
+          "10月19日 18:23 UTC，Al Jazeera报道：“Ex-OpenAI employee accused of planting device has Saudi backing: Prosecutor”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cd08dfefa2526987ebb3",
+          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_campaign=rss&at_medium=RSS",
+          "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+          "summary": "The Saudi government did not immediately respond to BBC requests for comment.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T21:12:30+00:00",
+          "fetched_at": "2026-10-19T23:41:52.880302+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad18/live/95af9980-cbd2-11f1-aba9-2bb2608f11d9.png"
+        },
+        {
+          "article_id": "art_8ccb84f276bbd2d37546",
+          "url": "https://www.aljazeera.com/economy/2026/10/19/ex-openai-employee-accused-of-planting-device-has-saudi-backing-prosecutor?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/19/ex-openai-employee-accused-of-planting-device-has-saudi-backing-prosecutor?traffic_source=rss",
+          "title": "Ex-OpenAI employee accused of planting device has Saudi backing: Prosecutor",
+          "summary": "US federal prosecutors allege the defendant was in frequent contact with unnamed member of royal family.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-19T15:34:22+00:00",
-          "fetched_at": "2026-10-19T19:57:07.468983+00:00",
+          "published_at": "2026-10-19T18:23:55+00:00",
+          "fetched_at": "2026-10-19T23:41:53.978887+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -747,15 +512,125 @@
       ]
     },
     {
+      "event_id": "evt_93bd715d3580ec824c06",
+      "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+      "category": "军事安全",
+      "score": 68.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 13.3,
+        "credibility": 9.7,
+        "impact": 13.0,
+        "velocity": 3.1
+      },
+      "first_seen": "2026-10-18T21:00:08+00:00",
+      "last_updated": "2026-10-19T11:41:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "food",
+        "gaza",
+        "aid",
+        "programme",
+        "million",
+        "shortages",
+        "funding",
+        "people"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“Funding shortages force World Food Programme to cut aid to Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "UN",
+          "Palestinians",
+          "Gaza Funding",
+          "World Food Programme",
+          "Gaza",
+          "Life"
+        ],
+        "latest_progress": [
+          "10月19日 11:41 UTC，DW Top Stories报道：“UN food program cuts aid to 500,000 Palestinians in Gaza”。",
+          "10月19日 06:00 UTC，BBC World报道：“Funding shortages force World Food Programme to cut aid to Gaza”。",
+          "10月18日 21:00 UTC，NPR World报道：“'Life is absolutely brutal in Gaza,' says World Food Programme head”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_542b6b26a0b0a0845ee4",
+          "url": "https://www.dw.com/en/un-food-program-cuts-aid-to-500-000-palestinians-in-gaza/a-79699408?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/un-food-program-cuts-aid-to-500-000-palestinians-in-gaza/a-79699408?maca=en-rss-en-top-1022-rdf",
+          "title": "UN food program cuts aid to 500,000 Palestinians in Gaza",
+          "summary": "Amid funding shortages, the World Food Program has said it is being forced to reduce necessary aid. Over two-thirds of Palestinians in Gaza are facing acute hunger, according to the agency.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-19T11:41:00+00:00",
+          "fetched_at": "2026-10-19T23:41:53.454600+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_4855f40e2f381a3bf687",
+          "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_campaign=rss&at_medium=RSS",
+          "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+          "summary": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T06:00:18+00:00",
+          "fetched_at": "2026-10-19T23:41:52.881494+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg"
+        },
+        {
+          "article_id": "art_06dd15dd8d787f9452f7",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+          "canonical_url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+          "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+          "summary": "The UN's World Food Programme says 1.4 million people in Gaza are suffering acute food shortages and that funding gaps are forcing cutbacks in critical aid, despite the U.S. brokered Hamas-Israel ceasefire.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-18T21:00:08+00:00",
+          "fetched_at": "2026-10-19T23:41:53.851026+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_9d5719ec69c868b432ba",
       "title": "Mauritius lifts curfew imposed amid wave of violent protests",
       "category": "军事安全",
-      "score": 71.0,
+      "score": 68.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.3,
+        "recency": 17.4,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 4.5
@@ -812,7 +687,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-19T18:04:14+00:00",
-          "fetched_at": "2026-10-19T19:57:07.468069+00:00",
+          "fetched_at": "2026-10-19T23:41:53.979105+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -827,7 +702,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-19T11:23:36+00:00",
-          "fetched_at": "2026-10-19T19:57:06.312030+00:00",
+          "fetched_at": "2026-10-19T23:41:52.880922+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -836,52 +711,53 @@
       ]
     },
     {
-      "event_id": "evt_372ab13700253d9be3cb",
-      "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
+      "event_id": "evt_2a824457045f11324120",
+      "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
       "category": "国际政治",
-      "score": 69.9,
+      "score": 66.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.6,
-        "credibility": 10.0,
+        "region_diversity": 2.5,
+        "recency": 19.9,
+        "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-19T16:22:12+00:00",
-      "last_updated": "2026-10-19T18:23:55+00:00",
+      "first_seen": "2026-10-19T19:57:00+00:00",
+      "last_updated": "2026-10-19T21:14:53+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "saudi",
-        "ex-openai",
-        "accused",
-        "planting",
-        "device",
-        "worker",
-        "had",
-        "support"
+        "cities",
+        "france",
+        "curfews",
+        "paris",
+        "imposed",
+        "parts",
+        "rioting",
+        "partial"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Ex-OpenAI worker accused of planting device had Saudi support says court filing”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Curfew imposed in parts of central Paris and other cities after rioting across France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Ex",
-          "Saudi",
-          "Prosecutor Ex"
+          "Curfew",
+          "Paris",
+          "France France",
+          "Partial",
+          "Nice"
         ],
         "latest_progress": [
-          "10月19日 18:23 UTC，Al Jazeera报道：“Ex-OpenAI employee accused of planting device has Saudi backing: Prosecutor”。",
-          "10月19日 16:22 UTC，BBC World报道：“Ex-OpenAI worker accused of planting device had Saudi support says court filing”。"
+          "10月19日 21:14 UTC，BBC World报道：“Curfew imposed in parts of central Paris and other cities after rioting across France”。",
+          "10月19日 19:57 UTC，DW Top Stories报道：“France: Partial curfews issued in Paris, Nice after unrest”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -894,34 +770,34 @@
       },
       "articles": [
         {
-          "article_id": "art_8ccb84f276bbd2d37546",
-          "url": "https://www.aljazeera.com/economy/2026/10/19/ex-openai-employee-accused-of-planting-device-has-saudi-backing-prosecutor?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/19/ex-openai-employee-accused-of-planting-device-has-saudi-backing-prosecutor?traffic_source=rss",
-          "title": "Ex-OpenAI employee accused of planting device has Saudi backing: Prosecutor",
-          "summary": "US federal prosecutors allege the defendant was in frequent contact with unnamed member of royal family.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-19T18:23:55+00:00",
-          "fetched_at": "2026-10-19T19:57:07.467847+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_cd08dfefa2526987ebb3",
-          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_campaign=rss&at_medium=RSS",
-          "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
-          "summary": "The Saudi government did not immediately respond to BBC requests for comment.",
+          "article_id": "art_279267bc875b66704fee",
+          "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_campaign=rss&at_medium=RSS",
+          "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+          "summary": "It comes after the country's interior minister admits that police \"lost control\" in some cities.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-19T16:22:12+00:00",
-          "fetched_at": "2026-10-19T19:57:06.311292+00:00",
+          "published_at": "2026-10-19T21:14:53+00:00",
+          "fetched_at": "2026-10-19T23:41:52.879860+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad18/live/95af9980-cbd2-11f1-aba9-2bb2608f11d9.png"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d92/live/581e2ba0-cbfe-11f1-a0c1-e5a096ec3cfb.jpg"
+        },
+        {
+          "article_id": "art_67c4f74775dc8a64a93a",
+          "url": "https://www.dw.com/en/france-partial-curfews-issued-in-paris-nice-after-unrest/live-79707186?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-partial-curfews-issued-in-paris-nice-after-unrest/live-79707186?maca=en-rss-en-top-1022-rdf",
+          "title": "France: Partial curfews issued in Paris, Nice after unrest",
+          "summary": "French authorities imposed curfews in parts of several cities on Monday night after cost-of-living and anti-government protests descended into rioting and looting over the weekend. DW has the latest.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-19T19:57:00+00:00",
+          "fetched_at": "2026-10-19T23:41:53.454012+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
@@ -929,12 +805,12 @@
       "event_id": "evt_dae78ad27eb15f5e3c7f",
       "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
       "category": "军事安全",
-      "score": 67.4,
+      "score": 64.6,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.9,
+        "recency": 16.2,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -990,7 +866,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-19T16:20:51+00:00",
-          "fetched_at": "2026-10-19T19:57:06.311519+00:00",
+          "fetched_at": "2026-10-19T23:41:52.880444+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -1005,7 +881,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-19T14:39:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.888678+00:00",
+          "fetched_at": "2026-10-19T23:41:53.454423+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -1014,181 +890,72 @@
       ]
     },
     {
-      "event_id": "evt_881bd3efabbe5cf6b608",
-      "title": "Canada: Alberta votes on holding independence referendum",
-      "category": "能源资源",
-      "score": 66.4,
+      "event_id": "evt_15dc0988927fe66cb8f2",
+      "title": "Egyptian parliament delays vote on military support for Saudi Arabia",
+      "category": "军事安全",
+      "score": 61.3,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 4.7
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-19T08:45:01+00:00",
-      "last_updated": "2026-10-19T15:09:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-19T21:46:00+00:00",
+      "last_updated": "2026-10-19T21:46:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "DW Top Stories",
-        "NPR World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "alberta",
-        "voters",
-        "future",
-        "canada",
-        "oil-rich",
-        "province",
-        "referendum",
-        "independence"
+        "egyptian",
+        "parliament",
+        "delays",
+        "vote",
+        "military",
+        "support",
+        "saudi",
+        "arabia"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的能源资源事件为“Canada: Alberta votes on holding independence referendum”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Egyptian parliament delays vote on military support for Saudi Arabia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Canada",
-          "Alberta"
+          "Egyptian",
+          "Saudi Arabia"
         ],
         "latest_progress": [
-          "10月19日 15:09 UTC，DW Top Stories报道：“Canada: Alberta votes on holding independence referendum”。",
-          "10月19日 08:45 UTC，NPR World报道：“Alberta voters weigh future in Canada”。"
+          "10月19日 21:46 UTC，Al Jazeera报道：“Egyptian parliament delays vote on military support for Saudi Arabia”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_4d14c05624bc1c4dbd60",
-          "url": "https://www.dw.com/en/canada-alberta-votes-on-holding-independence-referendum/a-79700283?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/canada-alberta-votes-on-holding-independence-referendum/a-79700283?maca=en-rss-en-top-1022-rdf",
-          "title": "Canada: Alberta votes on holding independence referendum",
-          "summary": "Canada's oil-rich western province of Alberta is not deemed likely to vote in favor of a real breakaway plebiscite. Nevertheless the separatist movement hopes to gain leverage over Mark Carney's government.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-19T15:09:00+00:00",
-          "fetched_at": "2026-10-19T19:57:06.888561+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_776413eed7455b92c9cf",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6004877/alberta-referendum-canada-vote",
-          "canonical_url": "https://www.npr.org/2026/10/18/nx-s1-6004877/alberta-referendum-canada-vote",
-          "title": "Alberta voters weigh future in Canada",
-          "summary": "On Monday voters in the oil-rich Canadian province of Alberta are deciding whether to take the first step toward a future referendum on independence.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-19T08:45:01+00:00",
-          "fetched_at": "2026-10-19T19:57:07.308959+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_6652325c8595e83aba4f",
-      "title": "Trump endorses Netanyhu ahead of elections",
-      "category": "国际政治",
-      "score": 65.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.6,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.9
-      },
-      "first_seen": "2026-10-19T05:35:39+00:00",
-      "last_updated": "2026-10-19T15:54:25+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "trump",
-        "endorses",
-        "netanyahu",
-        "prime",
-        "minister",
-        "ahead",
-        "embattled",
-        "israeli"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的国际政治事件为“Trump endorses Netanyhu ahead of elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Trump",
-          "Netanyhu",
-          "Israeli Prime Minister Benjamin",
-          "Netanyahu"
-        ],
-        "latest_progress": [
-          "10月19日 15:54 UTC，Al Jazeera报道：“Trump endorses Netanyhu ahead of elections”。",
-          "10月19日 05:35 UTC，NPR World报道：“Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_494bd2aa05163916d5d3",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/jerusalem-daily-settlers-attack-eu-diplomats?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/jerusalem-daily-settlers-attack-eu-diplomats?traffic_source=rss",
-          "title": "Trump endorses Netanyhu ahead of elections",
-          "summary": "Trump endorses Netanyahu ahead of Israel’s election, Ben-Gvir faces student protesters.",
+          "article_id": "art_976b17a5b83db1a9394e",
+          "url": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss",
+          "title": "Egyptian parliament delays vote on military support for Saudi Arabia",
+          "summary": "Lawmakers adjourn session as opposition party tells members to abstain over unclear commitment.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-19T15:54:25+00:00",
-          "fetched_at": "2026-10-19T19:57:07.468910+00:00",
+          "published_at": "2026-10-19T21:46:00+00:00",
+          "fetched_at": "2026-10-19T23:41:53.977854+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_b8c02027076695227848",
-          "url": "https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu",
-          "canonical_url": "https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu",
-          "title": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection",
-          "summary": "Trump said in a post on social media that Netanyahu \"has been a Great Warrior Prime Minister, and an even greater Partner for Peace in combatting the Islamic Republic of Iran.\"",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-19T05:35:39+00:00",
-          "fetched_at": "2026-10-19T19:57:07.309030+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
