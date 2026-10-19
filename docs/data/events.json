@@ -1,29 +1,34 @@
 {
-  "generated_at": "2026-10-19T06:17:16.150568+00:00",
+  "generated_at": "2026-10-19T13:27:13.673033+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 185,
-    "articles_unique": 184,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 131,
+    "articles_unique": 130,
+    "errors": [
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_22d012465e396b9ffdb1",
-      "title": "Major fire at Canada military base leaves four dead, dozens injured",
+      "event_id": "evt_93bd715d3580ec824c06",
+      "title": "WFP cuts aid to ‌500,000 Palestinians in Gaza amid funding shortages",
       "category": "军事安全",
-      "score": 83.2,
+      "score": 85.3,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 19.3,
+        "recency": 20.4,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 3.1
+        "velocity": 4.1
       },
-      "first_seen": "2026-10-18T07:56:08+00:00",
-      "last_updated": "2026-10-19T03:07:16+00:00",
+      "first_seen": "2026-10-18T21:00:08+00:00",
+      "last_updated": "2026-10-19T11:41:00+00:00",
       "source_count": 4,
       "article_count": 4,
       "sources": [
@@ -38,31 +43,31 @@
         "North America"
       ],
       "keywords": [
-        "military",
-        "fire",
-        "base",
-        "carney",
-        "canada",
-        "alberta",
-        "prime",
-        "minister"
+        "food",
+        "gaza",
+        "shortages",
+        "funding",
+        "aid",
+        "programme",
+        "million",
+        "agency"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Major fire at Canada military base leaves four dead, dozens injured”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“WFP cuts aid to ‌500,000 Palestinians in Gaza amid funding shortages”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Fast",
-          "Canada",
-          "Fire",
-          "Alberta",
-          "Base",
-          "Major",
-          "Carney"
+          "UN",
+          "Palestinians",
+          "Gaza",
+          "WFP",
+          "Funding",
+          "World Food Programme",
+          "Life"
         ],
         "latest_progress": [
-          "10月19日 03:07 UTC，Al Jazeera报道：“Fast-moving grass fire caused Canada’s military base tragedy”。",
-          "10月18日 23:43 UTC，DW Top Stories报道：“Canada: Fire at Alberta military Base kills four, leaves 19 in critical condition”。",
-          "10月18日 23:06 UTC，BBC World报道：“Major fire at Canada military base leaves four dead, dozens injured”。"
+          "10月19日 11:41 UTC，DW Top Stories报道：“UN food program cuts aid to 500,000 Palestinians in Gaza”。",
+          "10月19日 10:08 UTC，Al Jazeera报道：“WFP cuts aid to ‌500,000 Palestinians in Gaza amid funding shortages”。",
+          "10月19日 06:00 UTC，BBC World报道：“Funding shortages force World Food Programme to cut aid to Gaza”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -75,15 +80,263 @@
       },
       "articles": [
         {
-          "article_id": "art_d13fc3fc3702dec1104f",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/fast-moving-grass-fire-caused-canadas-military-base-tragedy?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/fast-moving-grass-fire-caused-canadas-military-base-tragedy?traffic_source=rss",
-          "title": "Fast-moving grass fire caused Canada’s military base tragedy",
-          "summary": "Fast-moving grass fire caused Canada’s military base tragedy",
+          "article_id": "art_542b6b26a0b0a0845ee4",
+          "url": "https://www.dw.com/en/un-food-program-cuts-aid-to-500-000-palestinians-in-gaza/a-79699408?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/un-food-program-cuts-aid-to-500-000-palestinians-in-gaza/a-79699408?maca=en-rss-en-top-1022-rdf",
+          "title": "UN food program cuts aid to 500,000 Palestinians in Gaza",
+          "summary": "Amid funding shortages, the World Food Program has said it is being forced to reduce necessary aid. Over two-thirds of Palestinians in Gaza are facing acute hunger, according to the agency.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-19T11:41:00+00:00",
+          "fetched_at": "2026-10-19T13:27:11.840573+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1c1e5c52ad80dacdeb71",
+          "url": "https://www.aljazeera.com/news/2026/10/19/wfp-cuts-aid-to-500000-palestinians-in-gaza-amid-funding-shortages?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/wfp-cuts-aid-to-500000-palestinians-in-gaza-amid-funding-shortages?traffic_source=rss",
+          "title": "WFP cuts aid to ‌500,000 Palestinians in Gaza amid funding shortages",
+          "summary": "The UN agency says funding shortages threaten to reverse 'modest and fragile' progress on food security.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-19T03:07:16+00:00",
-          "fetched_at": "2026-10-19T06:17:14.225194+00:00",
+          "published_at": "2026-10-19T10:08:06+00:00",
+          "fetched_at": "2026-10-19T13:27:12.327397+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_4855f40e2f381a3bf687",
+          "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_campaign=rss&at_medium=RSS",
+          "title": "Funding shortages force World Food Programme to cut aid to Gaza",
+          "summary": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T06:00:18+00:00",
+          "fetched_at": "2026-10-19T13:27:11.062559+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg"
+        },
+        {
+          "article_id": "art_06dd15dd8d787f9452f7",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+          "canonical_url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
+          "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+          "summary": "The UN's World Food Programme says 1.4 million people in Gaza are suffering acute food shortages and that funding gaps are forcing cutbacks in critical aid, despite the U.S. brokered Hamas-Israel ceasefire.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-18T21:00:08+00:00",
+          "fetched_at": "2026-10-19T13:27:12.183144+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_68d9100becd674e186ad",
+      "title": "Australian MP Helen Haines critically injured in ‘deliberate’ car ramming",
+      "category": "国际政治",
+      "score": 78.3,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 20.4,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-19T10:06:00+00:00",
+      "last_updated": "2026-10-19T11:38:43+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "car",
+        "australian",
+        "lawmaker",
+        "prime",
+        "minister",
+        "attack",
+        "critically",
+        "deliberate"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Australian MP Helen Haines critically injured in ‘deliberate’ car ramming”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Australian",
+          "MP",
+          "Helen Haines"
+        ],
+        "latest_progress": [
+          "10月19日 11:38 UTC，NPR World报道：“Australian prime minister says lawmaker critically injured by car is 'no accident'”。",
+          "10月19日 10:35 UTC，Al Jazeera报道：“Australian MP Helen Haines critically injured in ‘deliberate’ car ramming”。",
+          "10月19日 10:06 UTC，DW Top Stories报道：“Australian MP seriously hurt in suspected car attack”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2a0deb6236661875e2c6",
+          "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
+          "canonical_url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured",
+          "title": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
+          "summary": "A car hit an Australian federal independent lawmaker on Monday, critically injuring her in an apparent deliberate attack, Prime Minister Anthony Albanese said. The driver was arrested.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T11:38:43+00:00",
+          "fetched_at": "2026-10-19T13:27:12.182070+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1f40efdc34f2b405e1a5",
+          "url": "https://www.aljazeera.com/news/2026/10/19/australian-mp-helen-haines-critically-injured-in-deliberate-car-ramming?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/australian-mp-helen-haines-critically-injured-in-deliberate-car-ramming?traffic_source=rss",
+          "title": "Australian MP Helen Haines critically injured in ‘deliberate’ car ramming",
+          "summary": "Lawmaker was struck by a car outside her office in what Prime Minister ⁠Anthony Albanese called a 'deliberate act'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-19T10:35:48+00:00",
+          "fetched_at": "2026-10-19T13:27:12.326974+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6c2ed61af4a7329da1af",
+          "url": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/australian-mp-seriously-hurt-in-suspected-car-attack/a-79697660?maca=en-rss-en-top-1022-rdf",
+          "title": "Australian MP seriously hurt in suspected car attack",
+          "summary": "Helen Haines, an independent federal lawmaker, has been struck by a car in what Australia's prime minister has called an apparent attack.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-19T10:06:00+00:00",
+          "fetched_at": "2026-10-19T13:27:11.841085+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7ffeae051ae4eda14b13",
+      "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+      "category": "军事安全",
+      "score": 75.8,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 18.8,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 4.5
+      },
+      "first_seen": "2026-10-18T23:43:00+00:00",
+      "last_updated": "2026-10-19T09:40:44+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "fire",
+        "military",
+        "base",
+        "four",
+        "canadian",
+        "canada",
+        "alberta",
+        "critical"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Deadly",
+          "Canada",
+          "Canadian",
+          "Fire",
+          "Alberta",
+          "Base"
+        ],
+        "latest_progress": [
+          "10月19日 09:40 UTC，BBC World报道：“Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'”。",
+          "10月19日 09:12 UTC，Al Jazeera报道：“How a grass fire at a Canadian military base killed four soldiers”。",
+          "10月18日 23:43 UTC，DW Top Stories报道：“Canada: Fire at Alberta military Base kills four, leaves 19 in critical condition”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e0b0014cc58e8c07210a",
+          "url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckj0ly6qnp1lo?at_campaign=rss&at_medium=RSS",
+          "title": "Deadly fire at Canada military base moved a kilometre 'in 30 to 60 seconds'",
+          "summary": "The blaze that killed four men and injured dozens of others spread with alarming speed, accounts suggest.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T09:40:44+00:00",
+          "fetched_at": "2026-10-19T13:27:11.063445+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ede/live/03f0b480-cbbd-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_1f06eed124f24260c7c5",
+          "url": "https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/how-a-grass-fire-at-a-canadian-military-base-killed-four-soldiers?traffic_source=rss",
+          "title": "How a grass fire at a Canadian military base killed four soldiers",
+          "summary": "Cause of grass fire remains unknown as PM Carney calls it one of the worst peacetime tragedies for Canadian military.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-19T09:12:31+00:00",
+          "fetched_at": "2026-10-19T13:27:12.327870+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -98,97 +351,404 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-18T23:43:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.832960+00:00",
+          "fetched_at": "2026-10-19T13:27:11.842490+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4518ba6be41a63409a5e",
-          "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_campaign=rss&at_medium=RSS",
-          "title": "Major fire at Canada military base leaves four dead, dozens injured",
-          "summary": "Prime Minister Carney said military and emergency crews fought the flames throughout the night in \"some of the worst conditions imaginable\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-18T23:06:09+00:00",
-          "fetched_at": "2026-10-19T06:17:13.543651+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e891/live/86ce21f0-cb34-11f1-9a39-31b474234113.jpg"
-        },
-        {
-          "article_id": "art_f94315dbe024672b91d8",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
-          "canonical_url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
-          "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
-          "summary": "Canadian Prime Minister Mark Carney described the incident as one of the worst peacetime tragedies for Canada's military on domestic soil.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-18T07:56:08+00:00",
-          "fetched_at": "2026-10-19T06:17:14.099118+00:00",
-          "language": "en",
-          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_27d04cfaa5b231accd5e",
-      "title": "US President Donald Trump endorses Netanyahu for Israeli election",
+      "event_id": "evt_cf63854884a6ae028004",
+      "title": "France’s Macron declines minister’s resignation after violent protests",
       "category": "国际政治",
-      "score": 78.6,
+      "score": 66.8,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 21.4,
-        "credibility": 9.7,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.8,
+        "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 4.3
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-19T05:53:00+00:00",
+      "last_updated": "2026-10-19T08:25:27+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "interior",
+        "resignation",
+        "minister",
+        "protests",
+        "macron",
+        "france",
+        "france's",
+        "police"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“France’s Macron declines minister’s resignation after violent protests”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "France",
+          "Macron",
+          "Emmanuel Macron"
+        ],
+        "latest_progress": [
+          "10月19日 08:25 UTC，Al Jazeera报道：“France’s Macron declines minister’s resignation after violent protests”。",
+          "10月19日 05:53 UTC，DW Top Stories报道：“Emmanuel Macron slams 'failures' over protest unrest in France but refuses his interior minister's resignation”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_03a2d734e0264c807898",
+          "url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests?traffic_source=rss",
+          "title": "France’s Macron declines minister’s resignation after violent protests",
+          "summary": "Interior Minister Laurent Nunez acknowledges that police 'lost control' during weekend protests.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-19T08:25:27+00:00",
+          "fetched_at": "2026-10-19T13:27:12.328539+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_31ce527e7e26f4ac5564",
+          "url": "https://www.dw.com/en/emmanuel-macron-slams-failures-over-protest-unrest-in-france-but-refuses-his-interior-minister-s-resignation/a-79695496?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/emmanuel-macron-slams-failures-over-protest-unrest-in-france-but-refuses-his-interior-minister-s-resignation/a-79695496?maca=en-rss-en-top-1022-rdf",
+          "title": "Emmanuel Macron slams 'failures' over protest unrest in France but refuses his interior minister's resignation",
+          "summary": "France's president has refused the resignation of his interior minister, who says police \"lost control\" during protests that turned violent at the weekend. France's PM has called for limited curfews around the country.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-19T05:53:00+00:00",
+          "fetched_at": "2026-10-19T13:27:11.841967+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1e3e1c1b7bc7740990a8",
+      "title": "Meloni calls emergency meeting after weekend of violent clashes",
+      "category": "国际政治",
+      "score": 63.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 1.9
+      },
+      "first_seen": "2026-10-18T19:47:00+00:00",
+      "last_updated": "2026-10-19T11:23:36+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "calls",
+        "violent",
+        "clashes",
+        "edi",
+        "rama",
+        "albania's",
+        "prime",
+        "minister"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Meloni calls emergency meeting after weekend of violent clashes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Meloni",
+          "Albania",
+          "Prime Minister Edi Rama"
+        ],
+        "latest_progress": [
+          "10月19日 11:23 UTC，BBC World报道：“Meloni calls emergency meeting after weekend of violent clashes”。",
+          "10月18日 19:47 UTC，DW Top Stories报道：“Albania's Prime Minister Edi Rama ignores calls to resign amid violent clashes”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3617a029927642324587",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_campaign=rss&at_medium=RSS",
+          "title": "Meloni calls emergency meeting after weekend of violent clashes",
+          "summary": "More than 200 people were detained during two days of rioting in the city, Italian media reports.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T11:23:36+00:00",
+          "fetched_at": "2026-10-19T13:27:11.063091+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16d1/live/3cdb5c00-cba4-11f1-9ee2-f74dfb8e54e5.jpg"
+        },
+        {
+          "article_id": "art_27547e20af3314d6b72b",
+          "url": "https://www.dw.com/en/albania-s-prime-minister-edi-rama-ignores-calls-to-resign-amid-violent-clashes/a-79693789?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/albania-s-prime-minister-edi-rama-ignores-calls-to-resign-amid-violent-clashes/a-79693789?maca=en-rss-en-top-1022-rdf",
+          "title": "Albania's Prime Minister Edi Rama ignores calls to resign amid violent clashes",
+          "summary": "Anti-government protesters continued calls for Edi Rama to step down as violent clashes between demonstrators and police persisted.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-18T19:47:00+00:00",
+          "fetched_at": "2026-10-19T13:27:11.842731+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_85c849597a3d9744eacf",
+      "title": "Bomb threat forces Israel to Austria flight into emergency landing",
+      "category": "国际政治",
+      "score": 63.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 16.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-19T03:22:00+00:00",
+      "last_updated": "2026-10-19T06:29:55+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "flight",
+        "emergency",
+        "landing",
+        "bomb",
+        "threat",
+        "austrian",
+        "airlines",
+        "tel"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Bomb threat forces Israel to Austria flight into emergency landing”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Bomb",
+          "Israel",
+          "Austria",
+          "Austrian Airlines",
+          "Tel Aviv"
+        ],
+        "latest_progress": [
+          "10月19日 06:29 UTC，BBC World报道：“Bomb threat forces Israel to Austria flight into emergency landing”。",
+          "10月19日 03:22 UTC，DW Top Stories报道：“Austrian Airlines flight from Tel Aviv makes emergency landing after bomb threat”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_993232fae805f6389aec",
+          "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_campaign=rss&at_medium=RSS",
+          "title": "Bomb threat forces Israel to Austria flight into emergency landing",
+          "summary": "The Airbus jet landed safely in Bulgaria and all passengers and crew aboard were unharmed, officials said.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-19T06:29:55+00:00",
+          "fetched_at": "2026-10-19T13:27:11.064039+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/874b/live/3d27e8a0-cb94-11f1-93a7-b36f3083f4d3.jpg"
+        },
+        {
+          "article_id": "art_0da52f13649562e201e7",
+          "url": "https://www.dw.com/en/austrian-airlines-flight-from-tel-aviv-makes-emergency-landing-after-bomb-threat/a-79695070?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/austrian-airlines-flight-from-tel-aviv-makes-emergency-landing-after-bomb-threat/a-79695070?maca=en-rss-en-top-1022-rdf",
+          "title": "Austrian Airlines flight from Tel Aviv makes emergency landing after bomb threat",
+          "summary": "An Austrian Airlines flight from Tel Aviv to Vienna made an emergency landing in Bulgaria after a bomb threat was reported near the Bulgarian-Romanian border. A MiG-29 fighter jet escorted the plane.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-19T03:22:00+00:00",
+          "fetched_at": "2026-10-19T13:27:11.842205+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_bec2c28cdf6b9772c10e",
+      "title": "At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa",
+      "category": "军事安全",
+      "score": 62.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.5,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-19T12:51:46+00:00",
+      "last_updated": "2026-10-19T12:51:46+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "camp",
+        "least",
+        "killed",
+        "houthi",
+        "attack",
+        "military",
+        "yemen",
+        "shabwa"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "At",
+          "Houthi",
+          "Yemen",
+          "Shabwa"
+        ],
+        "latest_progress": [
+          "10月19日 12:51 UTC，Al Jazeera报道：“At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d9d6fa02c0fe75795a4f",
+          "url": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa?traffic_source=rss",
+          "title": "At least 18 killed in Houthi attack on military camp in Yemen’s Shabwa",
+          "summary": "Houthis launch ballistic missiles at camp in southern governorate during training exercise, gov't forces spokesman says.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-19T12:51:46+00:00",
+          "fetched_at": "2026-10-19T13:27:12.325518+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_27d04cfaa5b231accd5e",
+      "title": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection",
+      "category": "国际政治",
+      "score": 62.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 15.9,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 2.9
       },
       "first_seen": "2026-10-18T19:06:00+00:00",
       "last_updated": "2026-10-19T05:35:39+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera",
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East",
         "North America"
       ],
       "keywords": [
         "netanyahu",
         "trump",
-        "endorses",
-        "president",
         "prime",
         "minister",
-        "israeli",
-        "elections"
+        "endorses",
+        "elections",
+        "said",
+        "israel"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“US President Donald Trump endorses Netanyahu for Israeli election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的国际政治事件为“Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Trump",
           "Israeli Prime Minister Benjamin",
           "Netanyahu",
-          "US",
-          "President Donald Trump",
-          "Israeli",
           "Israel"
         ],
         "latest_progress": [
           "10月19日 05:35 UTC，NPR World报道：“Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection”。",
-          "10月19日 05:10 UTC，Al Jazeera报道：“US President Donald Trump endorses Netanyahu for Israeli election”。",
           "10月18日 19:06 UTC，DW Top Stories报道：“Israel: Trump endorses Netanyahu ahead of elections”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
@@ -210,25 +770,10 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-19T05:35:39+00:00",
-          "fetched_at": "2026-10-19T06:17:14.098304+00:00",
+          "fetched_at": "2026-10-19T13:27:12.182863+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8d46a29d996831d34306",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/us-president-donald-trump-endorses-netanyahu-for-israeli-election?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/us-president-donald-trump-endorses-netanyahu-for-israeli-election?traffic_source=rss",
-          "title": "US President Donald Trump endorses Netanyahu for Israeli election",
-          "summary": "US President Donald Trump endorses Netanyahu for Israeli election",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-19T05:10:37+00:00",
-          "fetched_at": "2026-10-19T06:17:14.224140+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         },
         {
@@ -240,7 +785,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-18T19:06:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.833332+00:00",
+          "fetched_at": "2026-10-19T13:27:11.842856+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -249,793 +794,137 @@
       ]
     },
     {
-      "event_id": "evt_9a50a9c2d9d83d9a04c0",
-      "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+      "event_id": "evt_8f5d48ab6efe7755cee7",
+      "title": "Al Jazeera investigation challenges Israeli account of Heidi Levine attack",
       "category": "军事安全",
-      "score": 76.8,
+      "score": 62.2,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.3,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-18T23:20:15+00:00",
-      "last_updated": "2026-10-19T03:10:05+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "sanctions",
-        "zelenskyy",
-        "trump",
-        "russia",
-        "president",
-        "defends",
-        "accuses",
-        "ukrainian"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Trump says suspension of Russia sanctions is to keep peace negotiations going”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trump",
-          "Russian",
-          "Zelenskyy Trump",
-          "Russia",
-          "Zelenskyy"
-        ],
-        "latest_progress": [
-          "10月19日 03:10 UTC，Al Jazeera报道：“Trump defends Russian sanctions relief, lashes out at Zelenskyy”。",
-          "10月19日 00:26 UTC，DW Top Stories报道：“Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war'”。",
-          "10月18日 23:20 UTC，BBC World报道：“Trump says suspension of Russia sanctions is to keep peace negotiations going”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_76bdc565ae3950433a22",
-          "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss",
-          "title": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
-          "summary": "US president accuses Ukrainian leader of not wanting to end the war, as Zelenskyy speaks with Washington envoys.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-19T03:10:05+00:00",
-          "fetched_at": "2026-10-19T06:17:14.225039+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9ce28cff667207c7f53d",
-          "url": "https://www.dw.com/en/trump-defends-russia-sanctions-waivers-accuses-zelenskyy-of-prolonging-war/a-79694674?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-defends-russia-sanctions-waivers-accuses-zelenskyy-of-prolonging-war/a-79694674?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump defends Russia sanctions waivers, accuses Zelenskyy of 'prolonging war'",
-          "summary": "The US president again accused his Ukrainian counterpart Volodymyr Zelenskyy of not wanting to end the war. The remarks come amid renewed tensions over US policy toward Moscow, including waiving some sanctions.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-19T00:26:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.832830+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_527b3301000a7a72183d",
-          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_campaign=rss&at_medium=RSS",
-          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-          "summary": "The US president blocked numerous sanctions on Russia two days before they were due to take effect.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-18T23:20:15+00:00",
-          "fetched_at": "2026-10-19T06:17:13.543973+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4644/live/461bcc30-cb38-11f1-8a27-2de4c72fadc2.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2b464a1a52f04216c4de",
-      "title": "Flight from Israel makes emergency landing in Bulgaria after bomb threat",
-      "category": "国际政治",
-      "score": 75.0,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.5,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-18T23:58:05+00:00",
-      "last_updated": "2026-10-19T03:22:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "flight",
-        "bomb",
-        "threat",
-        "emergency",
-        "landing",
-        "bulgaria",
-        "austrian",
-        "airlines"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Flight from Israel makes emergency landing in Bulgaria after bomb threat”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Austrian Airlines",
-          "Tel Aviv",
-          "Bomb",
-          "Israel",
-          "Austria",
-          "Flight",
-          "Bulgaria"
-        ],
-        "latest_progress": [
-          "10月19日 03:22 UTC，DW Top Stories报道：“Austrian Airlines flight from Tel Aviv makes emergency landing after bomb threat”。",
-          "10月19日 02:41 UTC，BBC World报道：“Bomb threat forces Israel to Austria flight into emergency landing”。",
-          "10月18日 23:58 UTC，Al Jazeera报道：“Flight from Israel makes emergency landing in Bulgaria after bomb threat”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_0da52f13649562e201e7",
-          "url": "https://www.dw.com/en/austrian-airlines-flight-from-tel-aviv-makes-emergency-landing-after-bomb-threat/a-79695070?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/austrian-airlines-flight-from-tel-aviv-makes-emergency-landing-after-bomb-threat/a-79695070?maca=en-rss-en-top-1022-rdf",
-          "title": "Austrian Airlines flight from Tel Aviv makes emergency landing after bomb threat",
-          "summary": "An Austrian Airlines flight from Tel Aviv to Vienna made an emergency landing in Bulgaria after a bomb threat was reported near the Bulgarian-Romanian border. A MiG-29 fighter jet escorted the plane.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-19T03:22:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.832699+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_993232fae805f6389aec",
-          "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_campaign=rss&at_medium=RSS",
-          "title": "Bomb threat forces Israel to Austria flight into emergency landing",
-          "summary": "The Airbus jet landed safely in Bulgaria and all passengers and crew aboard were unharmed, officials said.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-19T02:41:50+00:00",
-          "fetched_at": "2026-10-19T06:17:13.544428+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f91d/live/31ebfb00-cb5a-11f1-97b1-010e9e08360f.jpg"
-        },
-        {
-          "article_id": "art_5ad81415407fb014d225",
-          "url": "https://www.aljazeera.com/news/2026/10/18/flight-from-israel-makes-emergency-landing-in-bulgaria-after-bomb-threat?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/18/flight-from-israel-makes-emergency-landing-in-bulgaria-after-bomb-threat?traffic_source=rss",
-          "title": "Flight from Israel makes emergency landing in Bulgaria after bomb threat",
-          "summary": "Crew of Austrian Airlines flight OS82 decides to land in Sofia after receiving bomb threat, Bulgarian authorities say.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-18T23:58:05+00:00",
-          "fetched_at": "2026-10-19T06:17:14.226022+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2598a010b7de2adb5e52",
-      "title": "‘Anger and shame’: Macron denounces France’s nationwide rioting, looting",
-      "category": "国际政治",
-      "score": 73.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.6,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 4.7
-      },
-      "first_seen": "2026-10-18T20:19:22+00:00",
-      "last_updated": "2026-10-19T05:53:00+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "macron",
-        "president",
-        "france",
-        "nationwide",
-        "looting",
-        "emmanuel",
-        "anger",
-        "shame"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“‘Anger and shame’: Macron denounces France’s nationwide rioting, looting”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "France",
-          "Emmanuel Macron",
-          "Macron",
-          "Anger"
-        ],
-        "latest_progress": [
-          "10月19日 05:53 UTC，DW Top Stories报道：“France: Emmanuel Macron slams 'failures' over protest unrest”。",
-          "10月18日 21:10 UTC，Al Jazeera报道：“Macron condemns violence after riots lead to looting and mass arrests”。",
-          "10月18日 20:19 UTC，Al Jazeera报道：“‘Anger and shame’: Macron denounces France’s nationwide rioting, looting”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4187c6fcb083adcf4958",
-          "url": "https://www.dw.com/en/france-emmanuel-macron-slams-failures-over-protest-unrest/a-79695496?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-emmanuel-macron-slams-failures-over-protest-unrest/a-79695496?maca=en-rss-en-top-1022-rdf",
-          "title": "France: Emmanuel Macron slams 'failures' over protest unrest",
-          "summary": "But France's president has refused his interior minister Laurent Nunez's resignation after nationwide protests turned violent over the weekend.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-19T05:53:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.832396+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_664fb5066dce9554cce8",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests?traffic_source=rss",
-          "title": "Macron condemns violence after riots lead to looting and mass arrests",
-          "summary": "French President Emmanuel Macron says protesters who attacked government buildings need to pay for their crimes.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-18T21:10:47+00:00",
-          "fetched_at": "2026-10-19T06:17:14.226660+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_d16b8e6d823fdc484414",
-          "url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting?traffic_source=rss",
-          "title": "‘Anger and shame’: Macron denounces France’s nationwide rioting, looting",
-          "summary": "President Macron promises to increase security, but stops short of announcing a state of emergency or curfew.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-18T20:19:22+00:00",
-          "fetched_at": "2026-10-19T06:17:14.226969+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_93bd715d3580ec824c06",
-      "title": "Funding shortages force World Food Programme to cut aid to Gaza",
-      "category": "军事安全",
-      "score": 71.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.7,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.3
-      },
-      "first_seen": "2026-10-18T21:00:08+00:00",
-      "last_updated": "2026-10-19T06:00:18+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "food",
-        "gaza",
-        "programme",
-        "million",
-        "people",
-        "shortages",
-        "funding",
-        "aid"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的军事安全事件为“Funding shortages force World Food Programme to cut aid to Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Funding",
-          "World Food Programme",
-          "Gaza",
-          "Life"
-        ],
-        "latest_progress": [
-          "10月19日 06:00 UTC，BBC World报道：“Funding shortages force World Food Programme to cut aid to Gaza”。",
-          "10月18日 21:00 UTC，NPR World报道：“'Life is absolutely brutal in Gaza,' says World Food Programme head”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4855f40e2f381a3bf687",
-          "url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm79plrvpl4vo?at_campaign=rss&at_medium=RSS",
-          "title": "Funding shortages force World Food Programme to cut aid to Gaza",
-          "summary": "The number of people helped by the UN agency in the Palestinian territory will drop by about a third - from 1.6 million to 1.1 million.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-19T06:00:18+00:00",
-          "fetched_at": "2026-10-19T06:17:13.543453+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a2c/live/e6934370-cb7c-11f1-8d42-dd1c1e8413a3.jpg"
-        },
-        {
-          "article_id": "art_06dd15dd8d787f9452f7",
-          "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
-          "canonical_url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head",
-          "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
-          "summary": "The UN's World Food Programme says 1.4 million people in Gaza are suffering acute food shortages and that funding gaps are forcing cutbacks in critical aid, despite the U.S. brokered Hamas-Israel ceasefire.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-18T21:00:08+00:00",
-          "fetched_at": "2026-10-19T06:17:14.098665+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e7be0978a94fbb2ceecf",
-      "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
-      "category": "军事安全",
-      "score": 70.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.7,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-18T22:22:51+00:00",
-      "last_updated": "2026-10-19T03:40:52+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "town",
-        "hall",
-        "residents",
-        "limoges",
-        "shock",
-        "historic",
-        "french",
-        "set"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“'Very upsetting': Residents in shock after historic French town hall set alight”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "It",
-          "Limoges",
-          "Very",
-          "Residents",
-          "French"
-        ],
-        "latest_progress": [
-          "10月19日 03:40 UTC，Al Jazeera报道：“‘It broke my heart’: Limoges residents reel after town hall fire”。",
-          "10月18日 22:22 UTC，BBC World报道：“'Very upsetting': Residents in shock after historic French town hall set alight”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_961bb1c80b069cb27ddb",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/it-broke-my-heart-limoges-residents-reel-after-town-hall-fire?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/it-broke-my-heart-limoges-residents-reel-after-town-hall-fire?traffic_source=rss",
-          "title": "‘It broke my heart’: Limoges residents reel after town hall fire",
-          "summary": "Residents in Limoges, France, are expressing shock and anger after protests saw their 140-year-old town hall set ablaze.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-19T03:40:52+00:00",
-          "fetched_at": "2026-10-19T06:17:14.224709+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_def6c5bc9e65314c824a",
-          "url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo?at_campaign=rss&at_medium=RSS",
-          "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
-          "summary": "A historic town hall in the French city of Limoges has been damaged in an apparent arson attack following a day of nationwide protests",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-18T22:22:51+00:00",
-          "fetched_at": "2026-10-19T06:17:13.545997+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/185e/live/26c3d1c0-cb47-11f1-bc2e-018d645d8d21.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e71463e6eef246b188bb",
-      "title": "Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate",
-      "category": "国际政治",
-      "score": 70.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.8,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-19T04:27:00+00:00",
-      "last_updated": "2026-10-19T06:01:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "debate",
-        "lula",
-        "bolsonaro",
-        "brazil",
-        "first",
-        "presidential",
-        "president",
-        "before"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Brazil",
-          "Lula",
-          "Bolsonaro"
-        ],
-        "latest_progress": [
-          "10月19日 06:01 UTC，DW Top Stories报道：“Brazil: Lula, Bolsonaro clash in heated presidential debate”。",
-          "10月19日 04:27 UTC，Al Jazeera报道：“Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c7743a55174d8d0a92c6",
-          "url": "https://www.dw.com/en/brazil-lula-bolsonaro-clash-in-heated-presidential-debate/a-79695420?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-lula-bolsonaro-clash-in-heated-presidential-debate/a-79695420?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil: Lula, Bolsonaro clash in heated presidential debate",
-          "summary": "The candidates traded barbs, including over Bolsonaro's ties to US President Donald Trump in their first debate, days before the October 25 election runoff.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-19T06:01:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.832249+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_98e9f3ac55769e8baf6f",
-          "url": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss",
-          "title": "Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate",
-          "summary": "Brazil's president and his opponent lob a barrage of attacks on each other in debate a week before the October 25 vote.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-19T04:27:00+00:00",
-          "fetched_at": "2026-10-19T06:17:14.224539+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_9319c61dd945ee27ec55",
-      "title": "加快推进科技兴商 ， 商务部等9部门发布18条重要意见 _ 天下 _ 新闻频道 _ 福州新闻网",
-      "category": "科技AI",
-      "score": 70.5,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
         "recency": 21.1,
-        "credibility": 7.5,
-        "impact": 9.8,
+        "credibility": 10.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-19T04:00:00+00:00",
-      "last_updated": "2026-10-19T05:15:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-10-19T12:28:27+00:00",
+      "last_updated": "2026-10-19T12:28:27+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "news.cn",
-        "news.fznews.com.cn",
-        "stdaily.com"
+        "Al Jazeera"
       ],
       "regions": [
-        "China"
+        "Middle East"
       ],
       "keywords": [
-        "商务",
-        "务部",
-        "部等",
-        "部门",
-        "加快",
-        "快推",
-        "推进",
-        "进科"
+        "israeli",
+        "jazeera",
+        "investigation",
+        "challenges",
+        "account",
+        "heidi",
+        "levine",
+        "attack"
       ],
       "analysis": {
-        "what_happened": "据news.cn、news.fznews.com.cn、stdaily.com等来源的3篇报道，当前关注的科技AI事件为“加快推进科技兴商 ， 商务部等9部门发布18条重要意见 _ 天下 _ 新闻频道 _ 福州新闻网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Al Jazeera investigation challenges Israeli account of Heidi Levine attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "news.cn",
-          "news.fznews.com.cn",
-          "stdaily.com"
+          "Al Jazeera",
+          "Israeli",
+          "Heidi Levine"
         ],
         "latest_progress": [
-          "10月19日 05:15 UTC，news.fznews.com.cn报道：“加快推进科技兴商 ， 商务部等9部门发布18条重要意见 _ 天下 _ 新闻频道 _ 福州新闻网”。",
-          "10月19日 04:30 UTC，news.cn报道：“商务部等9部门关于加快推进科技兴商的意见 - 新华网”。",
-          "10月19日 04:00 UTC，stdaily.com报道：“商务部等9部门发布关于加快推进科技兴商的意见”。"
+          "10月19日 12:28 UTC，Al Jazeera报道：“Al Jazeera investigation challenges Israeli account of Heidi Levine attack”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_ed7cb64aa535a6c55833",
-          "url": "https://news.fznews.com.cn/gngj/20261019/d0F0T6F422.shtml",
-          "canonical_url": "https://news.fznews.com.cn/gngj/20261019/d0F0T6F422.shtml",
-          "title": "加快推进科技兴商 ， 商务部等9部门发布18条重要意见 _ 天下 _ 新闻频道 _ 福州新闻网",
-          "summary": "",
-          "source": "news.fznews.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T05:15:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.464023+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9e152528b278ab3c749c",
-          "url": "https://www.news.cn/politics/20261019/bf2bcbe0ba2d453e8b310e25fcec3bc2/c.html",
-          "canonical_url": "https://www.news.cn/politics/20261019/bf2bcbe0ba2d453e8b310e25fcec3bc2/c.html",
-          "title": "商务部等9部门关于加快推进科技兴商的意见 - 新华网",
-          "summary": "",
-          "source": "news.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T04:30:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.463846+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5df3d72882e1b77db8fe",
-          "url": "https://www.stdaily.com/web/gdxw/2026-10/19/content_598576.html",
-          "canonical_url": "https://www.stdaily.com/web/gdxw/2026-10/19/content_598576.html",
-          "title": "商务部等9部门发布关于加快推进科技兴商的意见",
-          "summary": "",
-          "source": "stdaily.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T04:00:00+00:00",
-          "fetched_at": "2026-10-19T06:17:13.463552+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
+          "article_id": "art_ba6bc8b0665772991d03",
+          "url": "https://www.aljazeera.com/features/2026/10/19/al-jazeera-investigation-challenges-israeli-account-of-heidi-levine-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/10/19/al-jazeera-investigation-challenges-israeli-account-of-heidi-levine-attack?traffic_source=rss",
+          "title": "Al Jazeera investigation challenges Israeli account of Heidi Levine attack",
+          "summary": "Analysis of map coordinates and timelines raises doubts over official Israeli accounts of West Bank settler pogrom.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-19T12:28:27+00:00",
+          "fetched_at": "2026-10-19T13:27:12.325851+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_96a06a45a6bcbbbb0e3c",
-      "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-      "category": "科技AI",
-      "score": 68.4,
+      "event_id": "evt_df2ce519ee25c06a4aa8",
+      "title": "Qatar to unveil regional defence partnership",
+      "category": "军事安全",
+      "score": 61.6,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.4,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.6,
         "credibility": 10.0,
-        "impact": 9.8,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-19T03:23:54+00:00",
-      "last_updated": "2026-10-19T04:30:59+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-19T11:51:01+00:00",
+      "last_updated": "2026-10-19T11:51:01+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "anthropic",
-        "shares",
-        "public",
-        "benefit",
-        "fund",
-        "giant",
-        "commits",
-        "claude"
+        "qatar",
+        "unveil",
+        "regional",
+        "defence",
+        "partnership"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的科技AI事件为“Anthropic says it will commit 5% of its shares to 'public benefit fund'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Qatar to unveil regional defence partnership”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Anthropic",
-          "AI"
+          "Qatar"
         ],
         "latest_progress": [
-          "10月19日 04:30 UTC，BBC World报道：“Anthropic says it will commit 5% of its shares to 'public benefit fund'”。",
-          "10月19日 03:23 UTC，Al Jazeera报道：“AI giant Anthropic commits 5% of shares to ‘public benefit’ fund”。"
+          "10月19日 11:51 UTC，Al Jazeera报道：“Qatar to unveil regional defence partnership”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_21dcee5b6e3beaea5e8b",
-          "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_campaign=rss&at_medium=RSS",
-          "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-          "summary": "The announcement comes as Anthropic lays the ground for a blockbuster stock market listing.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-19T04:30:59+00:00",
-          "fetched_at": "2026-10-19T06:17:13.544754+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87fa/live/537946d0-cb5d-11f1-a1ba-9502012907ad.jpg"
-        },
-        {
-          "article_id": "art_30ebf418d83cc7166329",
-          "url": "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund?traffic_source=rss",
-          "title": "AI giant Anthropic commits 5% of shares to ‘public benefit’ fund",
-          "summary": "Claude creator says fund could be used for donations to NGOs and 'direct distributions to specific populations'.",
+          "article_id": "art_eba31038d81ccd21a4f7",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/qatar-to-unveil-regional-defence-partnership?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/qatar-to-unveil-regional-defence-partnership?traffic_source=rss",
+          "title": "Qatar to unveil regional defence partnership",
+          "summary": "Qatar to unveil regional defence partnership",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-19T03:23:54+00:00",
-          "fetched_at": "2026-10-19T06:17:14.224880+00:00",
+          "published_at": "2026-10-19T11:51:01+00:00",
+          "fetched_at": "2026-10-19T13:27:12.326004+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
