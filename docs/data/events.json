@@ -1,176 +1,147 @@
 {
-  "generated_at": "2026-10-21T07:39:37.980862+00:00",
+  "generated_at": "2026-10-21T13:47:55.125243+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 141,
-    "articles_unique": 141,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 193,
+    "articles_unique": 193,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_37d5b7ef23d050f5ce1a",
-      "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
-      "category": "科技AI",
-      "score": 79.4,
+      "event_id": "evt_ce10fb366990dabd61df",
+      "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
+      "category": "军事安全",
+      "score": 78.9,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 13.9,
         "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.1,
-        "credibility": 9.9,
-        "impact": 9.8,
+        "region_diversity": 7.5,
+        "recency": 19.1,
+        "credibility": 9.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-21T01:19:22+00:00",
-      "last_updated": "2026-10-21T06:36:39+00:00",
+      "first_seen": "2026-10-21T01:23:00+00:00",
+      "last_updated": "2026-10-21T10:22:35+00:00",
       "source_count": 3,
-      "article_count": 5,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "musk",
-        "spacex",
-        "tesla",
-        "merger",
-        "elon",
-        "would",
-        "confirms",
-        "exploring"
+        "saudi",
+        "arabia",
+        "houthi",
+        "jets",
+        "military",
+        "attacks",
+        "support",
+        "kingdom"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的科技AI事件为“Elon Musk says SpaceX and Tesla exploring largest merger in history”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“WW1 to Houthis: British jets for Saudi Arabia build on long military bond”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Why",
-          "Elon Musk",
-          "Tesla",
-          "Musk"
+          "Houthis",
+          "British",
+          "Saudi Arabia",
+          "Davos",
+          "Desert",
+          "Yemen",
+          "Houthi",
+          "UK"
         ],
         "latest_progress": [
-          "10月21日 06:36 UTC，BBC World报道：“Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?”。",
-          "10月21日 05:53 UTC，DW Top Stories报道：“Musk says SpaceX-Tesla merger 'good idea' as companies explore union”。",
-          "10月21日 05:48 UTC，BBC World报道：“Elon Musk confirms talks to merge Tesla and SpaceX”。"
+          "10月21日 10:22 UTC，Al Jazeera报道：“WW1 to Houthis: British jets for Saudi Arabia build on long military bond”。",
+          "10月21日 08:40 UTC，NPR World报道：“Saudi Arabia cancels 'Davos in the Desert' due to Yemen's Houthi strikes”。",
+          "10月21日 01:23 UTC，DW Top Stories报道：“UK fighter jets to protect Saudi Arabia from Houthi attacks”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_66ade08be181d2e7a878",
-          "url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_campaign=rss&at_medium=RSS",
-          "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
-          "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
-          "source": "BBC World",
+          "article_id": "art_b0eeb64b36d2f3ee430f",
+          "url": "https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond?traffic_source=rss",
+          "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
+          "summary": "UK's deployment of jets to defend Saudi Arabia is the latest chapter in a relationship older than the kingdom itself.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-21T06:36:39+00:00",
-          "fetched_at": "2026-10-21T07:39:35.992525+00:00",
+          "published_at": "2026-10-21T10:22:35+00:00",
+          "fetched_at": "2026-10-21T13:47:53.071680+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b71f/live/c95f8940-cce3-11f1-94ca-a129a5a527a6.jpg"
+          "image_url": null
         },
         {
-          "article_id": "art_6915425fa491df4b3e24",
-          "url": "https://www.dw.com/en/musk-says-spacex-tesla-merger-good-idea-as-companies-explore-union/a-79719220?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/musk-says-spacex-tesla-merger-good-idea-as-companies-explore-union/a-79719220?maca=en-rss-en-top-1022-rdf",
-          "title": "Musk says SpaceX-Tesla merger 'good idea' as companies explore union",
-          "summary": "Musk confirmed the long standing speculation of a possible merger between Tesla and SpaceX but warned that it would be premature to assume it is happening for sure.",
-          "source": "DW Top Stories",
+          "article_id": "art_06199d4aa8cae372fdbf",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009545/saudi-arabia-cancels-davos-in-the-desert-due-to-air-strikes",
+          "canonical_url": "https://www.npr.org/2026/10/21/nx-s1-6009545/saudi-arabia-cancels-davos-in-the-desert-due-to-air-strikes",
+          "title": "Saudi Arabia cancels 'Davos in the Desert' due to Yemen's Houthi strikes",
+          "summary": "Britain offers military support as Saudi cancels renowned 'Davos in desert\" investor meeting due to strikes from Houthi forces in Yemen.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-21T05:53:00+00:00",
-          "fetched_at": "2026-10-21T07:39:36.278557+00:00",
+          "published_at": "2026-10-21T08:40:51+00:00",
+          "fetched_at": "2026-10-21T13:47:52.950139+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_68f8a324164846cffdca",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_campaign=rss&at_medium=RSS",
-          "title": "Elon Musk confirms talks to merge Tesla and SpaceX",
-          "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-          "source": "BBC World",
+          "article_id": "art_b4dc252e953280466b0d",
+          "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-top-1022-rdf",
+          "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+          "summary": "The UK is sending military support to Saudi Arabia as Iran-aligned Houthi rebels launch repeated attacks on the kingdom.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-21T05:48:46+00:00",
-          "fetched_at": "2026-10-21T07:39:35.989903+00:00",
+          "published_at": "2026-10-21T01:23:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.810847+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/819f/live/f7b5d9b0-ccd0-11f1-b06b-25a52a186d15.png"
-        },
-        {
-          "article_id": "art_6661e051ab9f33e924b2",
-          "url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss",
-          "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
-          "summary": "Tech mogul says tie-up has a 'lot of merit', given firms' complementary work on AI.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-21T03:51:39+00:00",
-          "fetched_at": "2026-10-21T07:39:36.665160+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e8e89513302e7780a140",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/musk-confirms-spacex-and-tesla-exploring-merger?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/musk-confirms-spacex-and-tesla-exploring-merger?traffic_source=rss",
-          "title": "Musk confirms SpaceX and Tesla exploring merger",
-          "summary": "Elon Musk says SpaceX and Tesla are considering a merger that would form a $3.5 trillion mega company.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-21T01:19:22+00:00",
-          "fetched_at": "2026-10-21T07:39:36.665735+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_554cdc2c6d99261440e1",
+      "event_id": "evt_66298caa1d1df10d0e33",
       "title": "特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网",
       "category": "经济金融",
-      "score": 78.3,
+      "score": 78.8,
       "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 14.4,
+        "coverage": 19.5,
+        "source_diversity": 18.0,
         "region_diversity": 2.5,
-        "recency": 20.1,
+        "recency": 15.6,
         "credibility": 7.5,
         "impact": 11.7,
         "velocity": 4.1
       },
-      "first_seen": "2026-10-20T11:15:00+00:00",
+      "first_seen": "2026-10-20T07:30:00+00:00",
       "last_updated": "2026-10-21T05:30:00+00:00",
-      "source_count": 4,
-      "article_count": 5,
+      "source_count": 5,
+      "article_count": 6,
       "sources": [
         "baijiahao.baidu.com",
+        "china.com.cn",
         "news.china.com.cn",
         "news.cn",
         "oeeee.com"
@@ -180,19 +151,20 @@
       ],
       "keywords": [
         "中国",
+        "国经",
+        "经济",
+        "三季",
+        "季报",
         "创新",
         "新驱",
-        "驱动",
-        "开放",
-        "放赋",
-        "赋能",
-        "海外"
+        "驱动"
       ],
       "analysis": {
-        "what_happened": "据baijiahao.baidu.com、news.china.com.cn、news.cn、oeeee.com等来源的5篇报道，当前关注的经济金融事件为“特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据baijiahao.baidu.com、china.com.cn、news.china.com.cn、news.cn等来源的6篇报道，当前关注的经济金融事件为“特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
           "baijiahao.baidu.com",
+          "china.com.cn",
           "news.china.com.cn",
           "news.cn",
           "oeeee.com"
@@ -221,7 +193,7 @@
           "source": "oeeee.com",
           "source_type": "gdelt",
           "published_at": "2026-10-21T05:30:00+00:00",
-          "fetched_at": "2026-10-21T07:38:47.100617+00:00",
+          "fetched_at": "2026-10-21T13:47:47.781432+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -236,7 +208,7 @@
           "source": "news.china.com.cn",
           "source_type": "gdelt",
           "published_at": "2026-10-20T23:45:00+00:00",
-          "fetched_at": "2026-10-21T07:38:47.100549+00:00",
+          "fetched_at": "2026-10-21T13:47:47.781339+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -251,7 +223,7 @@
           "source": "baijiahao.baidu.com",
           "source_type": "gdelt",
           "published_at": "2026-10-20T21:30:00+00:00",
-          "fetched_at": "2026-10-21T07:38:47.099304+00:00",
+          "fetched_at": "2026-10-21T13:47:47.779741+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -266,7 +238,7 @@
           "source": "baijiahao.baidu.com",
           "source_type": "gdelt",
           "published_at": "2026-10-20T16:45:00+00:00",
-          "fetched_at": "2026-10-21T07:38:47.100480+00:00",
+          "fetched_at": "2026-10-21T13:47:47.781232+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -281,7 +253,22 @@
           "source": "news.cn",
           "source_type": "gdelt",
           "published_at": "2026-10-20T11:15:00+00:00",
-          "fetched_at": "2026-10-21T07:38:47.099602+00:00",
+          "fetched_at": "2026-10-21T13:47:47.780022+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7e9b6f58c32b59a46e3e",
+          "url": "http://www.china.com.cn/opinion2020/2026-10/20/content_118740642.shtml",
+          "canonical_url": "https://www.china.com.cn/opinion2020/2026-10/20/content_118740642.shtml",
+          "title": "中国经济三季报向动荡世界传递信心",
+          "summary": "",
+          "source": "china.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T07:30:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.113572+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -290,21 +277,472 @@
       ]
     },
     {
+      "event_id": "evt_7471dbb1f9d1cd8a01f3",
+      "title": "Attack on Australian MP Haines: How threats against legislators have soared",
+      "category": "军事安全",
+      "score": 78.1,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 18.3,
+        "credibility": 9.9,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T07:56:30+00:00",
+      "last_updated": "2026-10-21T09:24:47+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "australian",
+        "attack",
+        "both",
+        "legs",
+        "court",
+        "haines",
+        "loses",
+        "helen"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Attack on Australian MP Haines: How threats against legislators have soared”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Attack",
+          "Australian",
+          "MP",
+          "Haines",
+          "Helen Haines"
+        ],
+        "latest_progress": [
+          "10月21日 09:24 UTC，Al Jazeera报道：“Attack on Australian MP Haines: How threats against legislators have soared”。",
+          "10月21日 08:34 UTC，Al Jazeera报道：“Australian MP loses both legs in vehicle attack as suspect appears in court”。",
+          "10月21日 08:16 UTC，DW Top Stories报道：“Australian MP Helen Haines loses both legs after car attack as suspect appears in court”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_aa5b8c51bfe4f59a8888",
+          "url": "https://www.aljazeera.com/news/2026/10/21/attack-on-australian-mp-haines-how-threats-against-legislators-have-soared?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/attack-on-australian-mp-haines-how-threats-against-legislators-have-soared?traffic_source=rss",
+          "title": "Attack on Australian MP Haines: How threats against legislators have soared",
+          "summary": "Abuse, threats against Australian lawmakers are rising in a country where political violence has historically been rare.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T09:24:47+00:00",
+          "fetched_at": "2026-10-21T13:47:53.072149+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c15acd50d92ece7d7ca5",
+          "url": "https://www.aljazeera.com/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court?traffic_source=rss",
+          "title": "Australian MP loses both legs in vehicle attack as suspect appears in court",
+          "summary": "Independent lawmaker Helen Haines is in stable condition, her husband says, as suspect charged with three offences.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T08:34:37+00:00",
+          "fetched_at": "2026-10-21T13:47:53.072480+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b4e63f185e88bf22f594",
+          "url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/australian-mp-helen-haines-loses-both-legs-after-car-attack-as-suspect-appears-in-court/a-79697660?maca=en-rss-en-top-1022-rdf",
+          "title": "Australian MP Helen Haines loses both legs after car attack as suspect appears in court",
+          "summary": "Doctors have amputated both of Helen Haines legs after the Australian lawmaker was hit in an apparent deliberate attack. The suspected driver involved in the attack has appeared in court.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-21T08:16:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.810044+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_36064f397b58c2330ba1",
+          "url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckwyqdqxw6d0o?at_campaign=rss&at_medium=RSS",
+          "title": "Australian MP loses both legs after alleged car attack, husband says",
+          "summary": "Her alleged attacker, 43-year-old Brendan Nugent, faces multiple charges and appeared in court for the first time on Wednesday.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T07:56:30+00:00",
+          "fetched_at": "2026-10-21T13:47:52.519254+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16b5/live/2cbe53a0-cd29-11f1-a64c-550be9e3c66b.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e38a7df041af2f957d44",
+      "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+      "category": "国际政治",
+      "score": 76.3,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.9,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T09:42:00+00:00",
+      "last_updated": "2026-10-21T12:32:01+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "stephen",
+        "hubbard",
+        "putin",
+        "russia",
+        "american",
+        "talks",
+        "russian",
+        "president"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "US",
+          "Stephen Hubbard",
+          "Russia",
+          "Trump",
+          "Putin Russia",
+          "American Stephen Hubbard",
+          "Witkoff"
+        ],
+        "latest_progress": [
+          "10月21日 12:32 UTC，BBC World报道：“US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin”。",
+          "10月21日 10:20 UTC，NPR World报道：“Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request”。",
+          "10月21日 09:42 UTC，DW Top Stories报道：“Russia frees jailed American Stephen Hubbard during Witkoff talks”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cd52661628ef310694d4",
+          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_campaign=rss&at_medium=RSS",
+          "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+          "summary": "The 74-year-old former teacher, who was captured, has been released without any \"swap\" required, Trump says.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T12:32:01+00:00",
+          "fetched_at": "2026-10-21T13:47:52.519064+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a22e/live/83914ac0-8497-11ef-bf4c-1f355eb87d3c.jpg"
+        },
+        {
+          "article_id": "art_20c7749d186d0027df13",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
+          "canonical_url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
+          "title": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
+          "summary": "Russian President Vladimir Putin says he has freed an American, Stephen Hubbard, from a Russian prison following a request from President Trump.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T10:20:50+00:00",
+          "fetched_at": "2026-10-21T13:47:52.949848+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c142dd82f47c589e45e3",
+          "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-top-1022-rdf",
+          "title": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
+          "summary": "Russian President Vladimir Putin met with US special envoy Steve Witkoff in St. Petersburg for talks about a Ukraine peace deal. During the talks, Putin announced that jailed American Stephen Hubbard had been released.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-21T09:42:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.809654+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_cf5d858fb6e715717d04",
+      "title": "Nigeria confirms Ebola case linked to East Africa",
+      "category": "社会突发",
+      "score": 74.6,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.0,
+        "credibility": 9.7,
+        "impact": 11.7,
+        "velocity": 2.6
+      },
+      "first_seen": "2026-10-20T19:08:00+00:00",
+      "last_updated": "2026-10-21T12:39:34+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "case",
+        "nigeria",
+        "ebola",
+        "abuja",
+        "first",
+        "outbreak",
+        "patient",
+        "woman"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的社会突发事件为“Nigeria confirms Ebola case linked to East Africa”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Nigeria",
+          "Ebola",
+          "East Africa Nigeria",
+          "Abuja",
+          "Uganda"
+        ],
+        "latest_progress": [
+          "10月21日 12:39 UTC，BBC World报道：“Nigeria confirms Ebola case linked to East Africa”。",
+          "10月20日 20:19 UTC，NPR World报道：“Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive”。",
+          "10月20日 19:08 UTC，DW Top Stories报道：“Nigeria records its first Ebola case, in capital Abuja”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0531cd82c597a1c994a7",
+          "url": "https://www.bbc.co.uk/news/articles/cm2l4xw7xpjgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm2l4xw7xpjgo?at_campaign=rss&at_medium=RSS",
+          "title": "Nigeria confirms Ebola case linked to East Africa",
+          "summary": "The female patient, who sources have told the BBC is not Nigerian, is in isolation and in an Abuja hospital.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T12:39:34+00:00",
+          "fetched_at": "2026-10-21T13:47:52.520226+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20ac/live/3b3288b0-cd3e-11f1-bc2e-018d645d8d21.png"
+        },
+        {
+          "article_id": "art_599a5ad58410d6e5d9ba",
+          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+          "canonical_url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+          "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
+          "summary": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-20T20:19:16+00:00",
+          "fetched_at": "2026-10-21T13:47:52.950749+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7ad855b85f3c3d41a519",
+          "url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-top-1022-rdf",
+          "title": "Nigeria records its first Ebola case, in capital Abuja",
+          "summary": "Nigeria has reported its first known case of Ebola during Africa's latest outbreak originating in the DRC. Health Minister Muhammad Ali Pate said the patient was a woman who had recently flown to Abuja from Uganda.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-20T19:08:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.811364+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_83eab1dccb37d3816e77",
+      "title": "UK approves development of Jackdaw gasfield in North Sea",
+      "category": "能源资源",
+      "score": 73.1,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.1,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T09:21:00+00:00",
+      "last_updated": "2026-10-21T12:49:52+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "north",
+        "sea",
+        "approves",
+        "gas",
+        "drilling",
+        "jackdaw",
+        "energy",
+        "decision"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“UK approves development of Jackdaw gasfield in North Sea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Protests",
+          "UK",
+          "North Sea",
+          "Jackdaw"
+        ],
+        "latest_progress": [
+          "10月21日 12:49 UTC，Al Jazeera报道：“Protests as UK approves new gas drilling in North Sea”。",
+          "10月21日 10:28 UTC，Al Jazeera报道：“UK approves development of Jackdaw gasfield in North Sea”。",
+          "10月21日 09:21 UTC，DW Top Stories报道：“UK approves Jackdaw gas field after years in limbo”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4f74c663044d03aea666",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/protests-as-uk-approves-new-gas-drilling-in-north-sea?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/protests-as-uk-approves-new-gas-drilling-in-north-sea?traffic_source=rss",
+          "title": "Protests as UK approves new gas drilling in North Sea",
+          "summary": "Climate activists have protested against the UK’s decision to go ahead with new gas drilling in the North Sea.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T12:49:52+00:00",
+          "fetched_at": "2026-10-21T13:47:53.070400+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8e4caf619a02ca55f6c1",
+          "url": "https://www.aljazeera.com/news/2026/10/21/uk-approves-development-of-jackdaw-gasfield-in-north-sea?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/uk-approves-development-of-jackdaw-gasfield-in-north-sea?traffic_source=rss",
+          "title": "UK approves development of Jackdaw gasfield in North Sea",
+          "summary": "The decision has drawn sharp criticism from left-wing politicians and environmentalists.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T10:28:18+00:00",
+          "fetched_at": "2026-10-21T13:47:53.071522+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_09ee8f13deda7fbb96e8",
+          "url": "https://www.dw.com/en/uk-approves-jackdaw-gas-field-after-years-in-limbo/a-79720557?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/uk-approves-jackdaw-gas-field-after-years-in-limbo/a-79720557?maca=en-rss-en-top-1022-rdf",
+          "title": "UK approves Jackdaw gas field after years in limbo",
+          "summary": "Drilling is set to begin in the controversial North Sea plot as the government seeks to tackle high energy costs. Environmental groups have criticized the move and called for more clean energy.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-21T09:21:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.809783+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_efd91a1ed6593b2e9716",
       "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-      "category": "经济金融",
-      "score": 73.8,
+      "category": "军事安全",
+      "score": 73.1,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
         "recency": 17.6,
         "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 5.0
+        "impact": 13.0,
+        "velocity": 3.0
       },
       "first_seen": "2026-10-20T17:30:15+00:00",
-      "last_updated": "2026-10-21T02:18:10+00:00",
+      "last_updated": "2026-10-21T08:25:45+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
@@ -320,46 +758,46 @@
         "sudan",
         "market",
         "drone",
-        "strike",
-        "abyei",
         "hit",
         "fuel",
-        "kills"
+        "people",
+        "south",
+        "army"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的经济金融事件为“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Drone",
-          "Abyei",
           "Sudan",
-          "South Sudan"
+          "South Sudan",
+          "Abyei"
         ],
         "latest_progress": [
-          "10月21日 02:18 UTC，Al Jazeera报道：“Drone strike on Abyei market near Sudan-South Sudan border kills 150”。",
+          "10月21日 08:25 UTC，Al Jazeera报道：“Drone attack in disputed Sudan-South Sudan border region kills at least 153”。",
           "10月20日 18:09 UTC，DW Top Stories报道：“Sudan drone strike kills around 150 in Abyei market”。",
           "10月20日 17:30 UTC，BBC World报道：“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。"
         ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e8bcd0c0ea3847fa2d9f",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
-          "title": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
-          "summary": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+          "article_id": "art_9c548ac7703937cd0f39",
+          "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153?traffic_source=rss",
+          "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
+          "summary": "South Sudan authorities say Sudan's army launched drone attack on market, as MSF says it is treating 20 wounded people.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-21T02:18:10+00:00",
-          "fetched_at": "2026-10-21T07:39:36.665513+00:00",
+          "published_at": "2026-10-21T08:25:45+00:00",
+          "fetched_at": "2026-10-21T13:47:53.072948+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -374,7 +812,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-20T18:09:00+00:00",
-          "fetched_at": "2026-10-21T07:39:36.279371+00:00",
+          "fetched_at": "2026-10-21T13:47:52.811611+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -389,7 +827,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-20T17:30:15+00:00",
-          "fetched_at": "2026-10-21T07:39:35.990154+00:00",
+          "fetched_at": "2026-10-21T13:47:52.520441+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -398,550 +836,328 @@
       ]
     },
     {
-      "event_id": "evt_c47894020ea9f09cc9b3",
-      "title": "Portugal cost-of-living protesters pour back into camps cleared by police",
-      "category": "社会突发",
-      "score": 67.3,
+      "event_id": "evt_cfe0dc50db2de14d8317",
+      "title": "甘肃 人工智能+软件 系列活动走进天水 _ 新浪财经 _ 新浪网",
+      "category": "科技AI",
+      "score": 71.2,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 17.9,
+        "source_diversity": 14.4,
         "region_diversity": 5.0,
-        "recency": 17.6,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 5.0
+        "recency": 13.0,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 3.5
       },
-      "first_seen": "2026-10-20T23:11:00+00:00",
-      "last_updated": "2026-10-21T02:19:06+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-20T04:00:00+00:00",
+      "last_updated": "2026-10-21T01:15:00+00:00",
+      "source_count": 4,
+      "article_count": 5,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "finance.sina.com.cn",
+        "news.cyol.com",
+        "tech.cnr.cn",
+        "theory.gmw.cn"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "China",
+        "Global"
       ],
       "keywords": [
-        "police",
-        "camps",
-        "portugal",
-        "housing",
-        "continue",
-        "cleared",
-        "arrested",
-        "people"
+        "人工",
+        "工智",
+        "智能",
+        "软件",
+        "行动",
+        "专项",
+        "项行",
+        "动实"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Portugal cost-of-living protesters pour back into camps cleared by police”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据finance.sina.com.cn、news.cyol.com、tech.cnr.cn、theory.gmw.cn等来源的5篇报道，当前关注的科技AI事件为“甘肃 人工智能+软件 系列活动走进天水 _ 新浪财经 _ 新浪网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Portugal"
+          "finance.sina.com.cn",
+          "news.cyol.com",
+          "tech.cnr.cn",
+          "theory.gmw.cn"
         ],
         "latest_progress": [
-          "10月21日 02:19 UTC，Al Jazeera报道：“Portugal cost-of-living protesters pour back into camps cleared by police”。",
-          "10月20日 23:11 UTC，DW Top Stories报道：“Portugal housing protests continue after police clear camps”。"
+          "10月21日 01:15 UTC，finance.sina.com.cn报道：“甘肃 人工智能+软件 系列活动走进天水 _ 新浪财经 _ 新浪网”。",
+          "10月20日 07:30 UTC，news.cyol.com报道：“协同推进全球人工智能伦理治理”。",
+          "10月20日 04:45 UTC，theory.gmw.cn报道：“纵深推进 人工智能+制造 行动 _ 光明网”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_708799ae432d6f7a8e7a",
-          "url": "https://www.aljazeera.com/news/2026/10/21/portugal-cost-of-living-protesters-pour-back-into-camps-cleared-by-police?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/portugal-cost-of-living-protesters-pour-back-into-camps-cleared-by-police?traffic_source=rss",
-          "title": "Portugal cost-of-living protesters pour back into camps cleared by police",
-          "summary": "Police arrested 55 people while clearing protest camps in Lisbon and Porto.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-21T02:19:06+00:00",
-          "fetched_at": "2026-10-21T07:39:36.665404+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "article_id": "art_74a3d55e74ac4e7f88e6",
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivxvuw7957561.shtml",
+          "canonical_url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivxvuw7957561.shtml",
+          "title": "甘肃 人工智能+软件 系列活动走进天水 _ 新浪财经 _ 新浪网",
+          "summary": "",
+          "source": "finance.sina.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-21T01:15:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.113823+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         },
         {
-          "article_id": "art_f147bb0bfaa1463ef7e5",
-          "url": "https://www.dw.com/en/portugal-housing-protests-continue-after-police-clear-camps/a-79717904?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/portugal-housing-protests-continue-after-police-clear-camps/a-79717904?maca=en-rss-en-top-1022-rdf",
-          "title": "Portugal housing protests continue after police clear camps",
-          "summary": "Demonstrators vow to continue their campaign to call for affordable housing in Portugal after police cleared tent camps and arrested at least 55 people.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-20T23:11:00+00:00",
-          "fetched_at": "2026-10-21T07:39:36.278913+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "article_id": "art_9728ff97441797c44cc2",
+          "url": "http://news.cyol.com/gb/keji/articles/2026-10/20/content_jpJJZpHeBd.html",
+          "canonical_url": "https://news.cyol.com/gb/keji/articles/2026-10/20/content_jpJJZpHeBd.html",
+          "title": "协同推进全球人工智能伦理治理",
+          "summary": "",
+          "source": "news.cyol.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T07:30:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.113906+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5cda3e754f01e6c77175",
+          "url": "https://theory.gmw.cn/2026-10/20/content_39054961.htm",
+          "canonical_url": "https://theory.gmw.cn/2026-10/20/content_39054961.htm",
+          "title": "纵深推进 人工智能+制造 行动 _ 光明网",
+          "summary": "",
+          "source": "theory.gmw.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T04:45:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.114720+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2222657e4977195b6174",
+          "url": "https://tech.cnr.cn/techyw/kan/20261020/t20261020_527847592.shtml",
+          "canonical_url": "https://tech.cnr.cn/techyw/kan/20261020/t20261020_527847592.shtml",
+          "title": "人工智能+软件 专项行动实施方案印发 _ 央广网",
+          "summary": "",
+          "source": "tech.cnr.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T04:00:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.113655+00:00",
+          "language": "Chinese",
+          "region": "Global",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_cad8ce0b5036e1385aa5",
+          "url": "https://tech.cnr.cn/gstj/20261020/t20261020_527847592.shtml",
+          "canonical_url": "https://tech.cnr.cn/gstj/20261020/t20261020_527847592.shtml",
+          "title": "人工智能+软件 专项行动实施方案印发 _ 央广网",
+          "summary": "",
+          "source": "tech.cnr.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T04:00:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.113738+00:00",
+          "language": "Chinese",
+          "region": "Global",
+          "source_weight": 0.75,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_8f18c4be7cf331a3a510",
-      "title": "Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff",
-      "category": "国际政治",
-      "score": 65.8,
+      "event_id": "evt_0d90bebaf1679b9f0d95",
+      "title": "《 关于加快推进科技兴商的意见 》 以18条具体举措推动商贸全链条智能化 、 绿色化 、 融合化发展 脑机接口 、 具身智能加速向市场转化",
+      "category": "科技AI",
+      "score": 65.7,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 14.4,
+        "region_diversity": 5.0,
+        "recency": 7.4,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 3.7
+      },
+      "first_seen": "2026-10-19T15:30:00+00:00",
+      "last_updated": "2026-10-20T11:45:00+00:00",
+      "source_count": 4,
+      "article_count": 5,
+      "sources": [
+        "baijiahao.baidu.com",
+        "china.cnr.cn",
+        "china.qianlong.com",
+        "legaldaily.com.cn"
+      ],
+      "regions": [
+        "China",
+        "Global"
+      ],
+      "keywords": [
+        "加快",
+        "快推",
+        "推进",
+        "进科",
+        "科技",
+        "技兴",
+        "兴商",
+        "商务"
+      ],
+      "analysis": {
+        "what_happened": "据baijiahao.baidu.com、china.cnr.cn、china.qianlong.com、legaldaily.com.cn等来源的5篇报道，当前关注的科技AI事件为“《 关于加快推进科技兴商的意见 》 以18条具体举措推动商贸全链条智能化 、 绿色化 、 融合化发展 脑机接口 、 具身智能加速向市场转化”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "baijiahao.baidu.com",
+          "china.cnr.cn",
+          "china.qianlong.com",
+          "legaldaily.com.cn"
+        ],
+        "latest_progress": [
+          "10月20日 11:45 UTC，baijiahao.baidu.com报道：“加快推进科技兴商 ， 商务部等9部门发布18条举措”。",
+          "10月20日 07:45 UTC，baijiahao.baidu.com报道：“加快推进科技兴商 商务部等9部门发布18条举措”。",
+          "10月20日 04:00 UTC，china.cnr.cn报道：“我国加快推进科技兴商 推动商贸全链条智能化 、 绿色化 、 融合化发展 _ 央广网”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_73f88b04fe6febf54a92",
+          "url": "https://baijiahao.baidu.com/s?id=1879443901309159682",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879443901309159682",
+          "title": "加快推进科技兴商 ， 商务部等9部门发布18条举措",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T11:45:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.112402+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c67424e448a29bf5470e",
+          "url": "https://baijiahao.baidu.com/s?id=1879443237290135589",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879443237290135589",
+          "title": "加快推进科技兴商 商务部等9部门发布18条举措",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T07:45:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.112518+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_541f02b910ec686821ef",
+          "url": "https://china.cnr.cn/news/20261020/t20261020_527847468.shtml",
+          "canonical_url": "https://china.cnr.cn/news/20261020/t20261020_527847468.shtml",
+          "title": "我国加快推进科技兴商 推动商贸全链条智能化 、 绿色化 、 融合化发展 _ 央广网",
+          "summary": "",
+          "source": "china.cnr.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T04:00:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.116294+00:00",
+          "language": "Chinese",
+          "region": "Global",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b4262fb3227912ce79a6",
+          "url": "https://china.qianlong.com/2026/1020/8740456.shtml",
+          "canonical_url": "https://china.qianlong.com/2026/1020/8740456.shtml",
+          "title": "《 关于加快推进科技兴商的意见 》 以18条具体举措推动商贸全链条智能化 、 绿色化 、 融合化发展 脑机接口 、 具身智能加速向市场转化",
+          "summary": "",
+          "source": "china.qianlong.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-19T21:45:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.113084+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_4bddc3c1ce8fe76cfb23",
+          "url": "http://www.legaldaily.com.cn/index_article/content/2026-10/19/content_9474922.html",
+          "canonical_url": "https://www.legaldaily.com.cn/index_article/content/2026-10/19/content_9474922.html",
+          "title": "商务部等9部门印发 《 关于加快推进科技兴商的意见 》",
+          "summary": "",
+          "source": "legaldaily.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-19T15:30:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.114888+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_beff9b9dc24985a96fa5",
+      "title": "不断提升工业经济运行质效 （ 权威发布 ）",
+      "category": "经济金融",
+      "score": 63.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.7,
-        "credibility": 9.8,
-        "impact": 11.0,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 7.5,
+        "impact": 11.7,
         "velocity": 2.2
       },
-      "first_seen": "2026-10-20T15:12:00+00:00",
-      "last_updated": "2026-10-21T04:58:03+00:00",
+      "first_seen": "2026-10-20T23:30:00+00:00",
+      "last_updated": "2026-10-21T13:00:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "163.com",
+        "baijiahao.baidu.com"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "China"
       ],
       "keywords": [
-        "lula",
-        "bolsonaro",
-        "runoff",
-        "brazil's",
-        "flavio",
-        "tied",
-        "ahead",
-        "presidential"
+        "不断",
+        "断提",
+        "提升",
+        "升工",
+        "工业",
+        "业经",
+        "经济",
+        "济运"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Lula",
-          "Bolsonaro",
-          "Brazil",
-          "Flavio Bolsonaro"
-        ],
-        "latest_progress": [
-          "10月21日 04:58 UTC，Al Jazeera报道：“Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff”。",
-          "10月20日 15:12 UTC，DW Top Stories报道：“Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ce55db921ad115ca3a4f",
-          "url": "https://www.aljazeera.com/news/2026/10/21/lula-bolsonaro-seek-to-disqualify-each-other-ahead-of-brazil-runoff?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/lula-bolsonaro-seek-to-disqualify-each-other-ahead-of-brazil-runoff?traffic_source=rss",
-          "title": "Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff",
-          "summary": "Messaging service WhatsApp and parent company Meta are embroiled in legal attacks by Brazil's presidential candidates.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-21T04:58:03+00:00",
-          "fetched_at": "2026-10-21T07:39:36.664933+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9ebf4d3b7ae9ad9fe8a6",
-          "url": "https://www.dw.com/en/brazil-s-lula-flavio-bolsonaro-tied-ahead-of-runoff-vote/a-79715182?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-s-lula-flavio-bolsonaro-tied-ahead-of-runoff-vote/a-79715182?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote",
-          "summary": "With just under a week to go before the decisive presidential runoff election, polls show left-wing incumbent Luiz Inacio Lula da Silva and his right-wing challenger Flavio Bolsonaro are virtually tied.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-20T15:12:00+00:00",
-          "fetched_at": "2026-10-21T07:39:36.279810+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_cf5d858fb6e715717d04",
-      "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
-      "category": "社会突发",
-      "score": 63.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 13.7,
-        "credibility": 9.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-20T19:08:00+00:00",
-      "last_updated": "2026-10-20T20:19:16+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "case",
-        "nigeria",
-        "ebola",
-        "first",
-        "abuja",
-        "outbreak",
-        "woman",
-        "uganda"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的社会突发事件为“Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Nigeria",
-          "Ebola",
-          "Abuja",
-          "Uganda"
-        ],
-        "latest_progress": [
-          "10月20日 20:19 UTC，NPR World报道：“Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive”。",
-          "10月20日 19:08 UTC，DW Top Stories报道：“Nigeria records its first Ebola case, in capital Abuja”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_599a5ad58410d6e5d9ba",
-          "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
-          "canonical_url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
-          "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
-          "summary": "Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region. Kenya confirmed its first case earlier this month and has since recorded nine infections.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-20T20:19:16+00:00",
-          "fetched_at": "2026-10-21T07:39:36.496480+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7ad855b85f3c3d41a519",
-          "url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-top-1022-rdf",
-          "title": "Nigeria records its first Ebola case, in capital Abuja",
-          "summary": "Nigeria has reported its first known case of Ebola during Africa's latest outbreak originating in the DRC. Health Minister Muhammad Ali Pate said the patient was a woman who had recently flown to Abuja from Uganda.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-20T19:08:00+00:00",
-          "fetched_at": "2026-10-21T07:39:36.279174+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c74110a0ef37767f1c8e",
-      "title": "The right to enforce civil rights is under attack in the US",
-      "category": "军事安全",
-      "score": 62.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-21T07:06:41+00:00",
-      "last_updated": "2026-10-21T07:06:41+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "civil",
-        "rights",
-        "right",
-        "enforce",
-        "under",
-        "attack",
-        "trump",
-        "administration"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“The right to enforce civil rights is under attack in the US”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US"
-        ],
-        "latest_progress": [
-          "10月21日 07:06 UTC，Al Jazeera报道：“The right to enforce civil rights is under attack in the US”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_777042bd20eadcf6addc",
-          "url": "https://www.aljazeera.com/opinions/2026/10/21/the-right-to-enforce-civil-rights-is-under-attack-in-the-us?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/opinions/2026/10/21/the-right-to-enforce-civil-rights-is-under-attack-in-the-us?traffic_source=rss",
-          "title": "The right to enforce civil rights is under attack in the US",
-          "summary": "The Trump administration and conservative courts are making it harder to challenge civil rights violations.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-21T07:06:41+00:00",
-          "fetched_at": "2026-10-21T07:39:36.663661+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0acfe3a8a64ec8fd16e3",
-      "title": "US envoy to meet Putin after 'positive' talks with Zelenskyy",
-      "category": "国际政治",
-      "score": 61.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 2.7
-      },
-      "first_seen": "2026-10-20T19:48:00+00:00",
-      "last_updated": "2026-10-21T06:46:00+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "zelenskyy",
-        "trump",
-        "talks",
-        "norway",
-        "ukrainian",
-        "president",
-        "met",
-        "steve"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“US envoy to meet Putin after 'positive' talks with Zelenskyy”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "US",
-          "Putin",
-          "Zelenskyy Zelenskyy",
-          "Norway",
-          "Trump White House"
-        ],
-        "latest_progress": [
-          "10月21日 06:46 UTC，DW Top Stories报道：“US envoy to meet Putin after 'positive' talks with Zelenskyy”。",
-          "10月20日 19:48 UTC，DW Top Stories报道：“Zelenskyy visits Norway amid Trump White House tensions”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5d4b866057a0c1c4b5b3",
-          "url": "https://www.dw.com/en/us-envoy-to-meet-putin-after-positive-talks-with-zelenskyy/a-79719452?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-envoy-to-meet-putin-after-positive-talks-with-zelenskyy/a-79719452?maca=en-rss-en-top-1022-rdf",
-          "title": "US envoy to meet Putin after 'positive' talks with Zelenskyy",
-          "summary": "Steve Witkoff landed in St Petersburg for talks on ending the war in Ukraine. It comes a day after he met with Ukrainian President Volodomyr Zelenskyy in Norway.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-21T06:46:00+00:00",
-          "fetched_at": "2026-10-21T07:39:36.278370+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2a5d98eb48bd16e1542e",
-          "url": "https://www.dw.com/en/zelenskyy-visits-norway-amid-trump-white-house-tensions/a-79717354?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/zelenskyy-visits-norway-amid-trump-white-house-tensions/a-79717354?maca=en-rss-en-top-1022-rdf",
-          "title": "Zelenskyy visits Norway amid Trump White House tensions",
-          "summary": "Ukrainian President Zelenskyy met with Norwegian and Finnish leaders in Oslo and held talks with Trump envoys Steve Witkoff and Jared Kushner. Trump is pressuring Zelenskyy to \"make a deal\" with Russia.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-20T19:48:00+00:00",
-          "fetched_at": "2026-10-21T07:39:36.279086+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5b6721d4c1b7b3069c3d",
-      "title": "Zelenskyy says early warning system for Russian missile attacks resumes",
-      "category": "军事安全",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.3,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-21T05:43:24+00:00",
-      "last_updated": "2026-10-21T05:43:24+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "NPR World"
-      ],
-      "regions": [
-        "North America"
-      ],
-      "keywords": [
-        "zelenskyy",
-        "early",
-        "warning",
-        "system",
-        "russian",
-        "missile",
-        "attacks",
-        "resumes"
-      ],
-      "analysis": {
-        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“Zelenskyy says early warning system for Russian missile attacks resumes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Zelenskyy",
-          "Russian"
-        ],
-        "latest_progress": [
-          "10月21日 05:43 UTC，NPR World报道：“Zelenskyy says early warning system for Russian missile attacks resumes”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5039d857d5a92680fc3e",
-          "url": "https://www.npr.org/2026/10/21/g-s1-149026/zelenskyy-russian-missiles-warning",
-          "canonical_url": "https://www.npr.org/2026/10/21/g-s1-149026/zelenskyy-russian-missiles-warning",
-          "title": "Zelenskyy says early warning system for Russian missile attacks resumes",
-          "summary": "Ukrainian President Volodymyr Zelenskyy said the change happened after talks with his American counterparts, including a phone call with U.S. Secretary of State Marco Rubio.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-21T05:43:24+00:00",
-          "fetched_at": "2026-10-21T07:39:36.496059+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1a137e9a83cfa7ca9e90",
-      "title": "India news: India-US trade deal 'pretty close,' says Trump",
-      "category": "经济金融",
-      "score": 60.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.0,
-        "credibility": 9.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-21T06:31:00+00:00",
-      "last_updated": "2026-10-21T06:31:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "trade",
-        "deal",
-        "trump",
-        "india",
-        "india-us",
-        "pretty",
-        "close",
-        "president"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的经济金融事件为“India news: India-US trade deal 'pretty close,' says Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据163.com、baijiahao.baidu.com等来源的2篇报道，当前关注的经济金融事件为“不断提升工业经济运行质效 （ 权威发布 ）”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "India",
-          "US",
-          "Trump"
+          "163.com",
+          "baijiahao.baidu.com"
         ],
         "latest_progress": [
-          "10月21日 06:31 UTC，DW Top Stories报道：“India news: India-US trade deal 'pretty close,' says Trump”。"
+          "10月21日 13:00 UTC，163.com报道：“不断提升工业经济运行质效 （ 权威发布 ）”。",
+          "10月20日 23:30 UTC，baijiahao.baidu.com报道：“不断提升工业经济运行质效 （ 权威发布 ）”。"
         ],
         "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
         "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
@@ -954,18 +1170,33 @@
       },
       "articles": [
         {
-          "article_id": "art_81cedb86e52183372c2d",
-          "url": "https://www.dw.com/en/india-news-india-us-trade-deal-pretty-close-says-trump/live-79719383?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/india-news-india-us-trade-deal-pretty-close-says-trump/live-79719383?maca=en-rss-en-top-1022-rdf",
-          "title": "India news: India-US trade deal 'pretty close,' says Trump",
-          "summary": "US President Donald Trump hinted that the US-India trade deal could look different from the previous ones. Follow DW for more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-21T06:31:00+00:00",
-          "fetched_at": "2026-10-21T07:39:36.278463+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "article_id": "art_be3aaa51942c7d155652",
+          "url": "https://www.163.com/dy/article/L9OC5LC40514R9M0.html",
+          "canonical_url": "https://www.163.com/dy/article/L9OC5LC40514R9M0.html",
+          "title": "不断提升工业经济运行质效 （ 权威发布 ）",
+          "summary": "",
+          "source": "163.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-21T13:00:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.116213+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7c2a983fdac575a10a0c",
+          "url": "https://baijiahao.baidu.com/s?id=1879610248004876974",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879610248004876974",
+          "title": "不断提升工业经济运行质效 （ 权威发布 ）",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T23:30:00+00:00",
+          "fetched_at": "2026-10-21T13:47:52.116131+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         }
       ]
