@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-10-21T01:37:13.477607+00:00",
+  "generated_at": "2026-10-21T07:39:37.980862+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 91,
-    "articles_unique": 91,
+    "articles_fetched": 141,
+    "articles_unique": 141,
     "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
       {
         "source": "GDELT: (geopolitics OR security OR supply chain OR a",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
@@ -18,58 +14,525 @@
   },
   "events": [
     {
-      "event_id": "evt_30d620643a0126a973ba",
-      "title": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
-      "category": "国际政治",
-      "score": 73.3,
+      "event_id": "evt_37d5b7ef23d050f5ce1a",
+      "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
+      "category": "科技AI",
+      "score": 79.4,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.1,
+        "credibility": 9.9,
+        "impact": 9.8,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T01:19:22+00:00",
+      "last_updated": "2026-10-21T06:36:39+00:00",
+      "source_count": 3,
+      "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "musk",
+        "spacex",
+        "tesla",
+        "merger",
+        "elon",
+        "would",
+        "confirms",
+        "exploring"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的科技AI事件为“Elon Musk says SpaceX and Tesla exploring largest merger in history”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "Why",
+          "Elon Musk",
+          "Tesla",
+          "Musk"
+        ],
+        "latest_progress": [
+          "10月21日 06:36 UTC，BBC World报道：“Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?”。",
+          "10月21日 05:53 UTC，DW Top Stories报道：“Musk says SpaceX-Tesla merger 'good idea' as companies explore union”。",
+          "10月21日 05:48 UTC，BBC World报道：“Elon Musk confirms talks to merge Tesla and SpaceX”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_66ade08be181d2e7a878",
+          "url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_campaign=rss&at_medium=RSS",
+          "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+          "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T06:36:39+00:00",
+          "fetched_at": "2026-10-21T07:39:35.992525+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b71f/live/c95f8940-cce3-11f1-94ca-a129a5a527a6.jpg"
+        },
+        {
+          "article_id": "art_6915425fa491df4b3e24",
+          "url": "https://www.dw.com/en/musk-says-spacex-tesla-merger-good-idea-as-companies-explore-union/a-79719220?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/musk-says-spacex-tesla-merger-good-idea-as-companies-explore-union/a-79719220?maca=en-rss-en-top-1022-rdf",
+          "title": "Musk says SpaceX-Tesla merger 'good idea' as companies explore union",
+          "summary": "Musk confirmed the long standing speculation of a possible merger between Tesla and SpaceX but warned that it would be premature to assume it is happening for sure.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-21T05:53:00+00:00",
+          "fetched_at": "2026-10-21T07:39:36.278557+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_68f8a324164846cffdca",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_campaign=rss&at_medium=RSS",
+          "title": "Elon Musk confirms talks to merge Tesla and SpaceX",
+          "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T05:48:46+00:00",
+          "fetched_at": "2026-10-21T07:39:35.989903+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/819f/live/f7b5d9b0-ccd0-11f1-b06b-25a52a186d15.png"
+        },
+        {
+          "article_id": "art_6661e051ab9f33e924b2",
+          "url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/21/elon-musk-says-spacex-and-tesla-exploring-largest-merger-in?traffic_source=rss",
+          "title": "Elon Musk says SpaceX and Tesla exploring largest merger in history",
+          "summary": "Tech mogul says tie-up has a 'lot of merit', given firms' complementary work on AI.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T03:51:39+00:00",
+          "fetched_at": "2026-10-21T07:39:36.665160+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e8e89513302e7780a140",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/musk-confirms-spacex-and-tesla-exploring-merger?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/musk-confirms-spacex-and-tesla-exploring-merger?traffic_source=rss",
+          "title": "Musk confirms SpaceX and Tesla exploring merger",
+          "summary": "Elon Musk says SpaceX and Tesla are considering a merger that would form a $3.5 trillion mega company.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T01:19:22+00:00",
+          "fetched_at": "2026-10-21T07:39:36.665735+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_554cdc2c6d99261440e1",
+      "title": "特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网",
+      "category": "经济金融",
+      "score": 78.3,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 14.4,
+        "region_diversity": 2.5,
+        "recency": 20.1,
+        "credibility": 7.5,
+        "impact": 11.7,
+        "velocity": 4.1
+      },
+      "first_seen": "2026-10-20T11:15:00+00:00",
+      "last_updated": "2026-10-21T05:30:00+00:00",
+      "source_count": 4,
+      "article_count": 5,
+      "sources": [
+        "baijiahao.baidu.com",
+        "news.china.com.cn",
+        "news.cn",
+        "oeeee.com"
+      ],
+      "regions": [
+        "China"
+      ],
+      "keywords": [
+        "中国",
+        "创新",
+        "新驱",
+        "驱动",
+        "开放",
+        "放赋",
+        "赋能",
+        "海外"
+      ],
+      "analysis": {
+        "what_happened": "据baijiahao.baidu.com、news.china.com.cn、news.cn、oeeee.com等来源的5篇报道，当前关注的经济金融事件为“特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "baijiahao.baidu.com",
+          "news.china.com.cn",
+          "news.cn",
+          "oeeee.com"
+        ],
+        "latest_progress": [
+          "10月21日 05:30 UTC，oeeee.com报道：“特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网”。",
+          "10月20日 23:45 UTC，news.china.com.cn报道：“创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 中国网”。",
+          "10月20日 21:30 UTC，baijiahao.baidu.com报道：“创新驱动 开放赋能 海外人士解读中国经济 三季报”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ae543092a236d3c31586",
+          "url": "https://www.oeeee.com/html/202610/21/1753127.html",
+          "canonical_url": "https://www.oeeee.com/html/202610/21/1753127.html",
+          "title": "特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网",
+          "summary": "",
+          "source": "oeeee.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-21T05:30:00+00:00",
+          "fetched_at": "2026-10-21T07:38:47.100617+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": "https://oeimg2.cache.oeeee.com/Public2025/yaowen.jpg"
+        },
+        {
+          "article_id": "art_bce145c57c920e42c962",
+          "url": "http://news.china.com.cn/2026-10/21/content_118742249.shtml",
+          "canonical_url": "https://news.china.com.cn/2026-10/21/content_118742249.shtml",
+          "title": "创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 中国网",
+          "summary": "",
+          "source": "news.china.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T23:45:00+00:00",
+          "fetched_at": "2026-10-21T07:38:47.100549+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_feb8d90e0c2cfeafe7fe",
+          "url": "https://baijiahao.baidu.com/s?id=1879603620204925678",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879603620204925678",
+          "title": "创新驱动 开放赋能 海外人士解读中国经济 三季报",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T21:30:00+00:00",
+          "fetched_at": "2026-10-21T07:38:47.099304+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_599baac4e06b2bb4485b",
+          "url": "https://baijiahao.baidu.com/s?id=1879570013388278977",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879570013388278977",
+          "title": "创新驱动 开放赋能 海外人士解读中国经济三季报",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T16:45:00+00:00",
+          "fetched_at": "2026-10-21T07:38:47.100480+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3aaa1733ed1036106560",
+          "url": "https://www.news.cn/fortune/20261020/3b869f8c45054a998b299f65581e6fdd/c.html",
+          "canonical_url": "https://www.news.cn/fortune/20261020/3b869f8c45054a998b299f65581e6fdd/c.html",
+          "title": "特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 - 新华网",
+          "summary": "",
+          "source": "news.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-10-20T11:15:00+00:00",
+          "fetched_at": "2026-10-21T07:38:47.099602+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_efd91a1ed6593b2e9716",
+      "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+      "category": "经济金融",
+      "score": 73.8,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 19.2,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 1.3
+        "region_diversity": 5.0,
+        "recency": 17.6,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-19T10:38:03+00:00",
-      "last_updated": "2026-10-20T22:20:13+00:00",
+      "first_seen": "2026-10-20T17:30:15+00:00",
+      "last_updated": "2026-10-21T02:18:10+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories",
-        "NPR World"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "trump",
-        "zelenskyy",
-        "ukraine",
-        "russia",
-        "strikes",
-        "president",
-        "deal",
-        "exchange"
+        "sudan",
+        "market",
+        "drone",
+        "strike",
+        "abyei",
+        "hit",
+        "fuel",
+        "kills"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的经济金融事件为“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Trump",
-          "Ukraine",
-          "Zelenskyy",
-          "Norway",
-          "Trump White House",
-          "Russia"
+          "Drone",
+          "Abyei",
+          "Sudan",
+          "South Sudan"
         ],
         "latest_progress": [
-          "10月20日 22:20 UTC，Al Jazeera报道：“‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal”。",
-          "10月20日 19:48 UTC，DW Top Stories报道：“Zelenskyy visits Norway amid Trump White House tensions”。",
-          "10月19日 10:38 UTC，NPR World报道：“Ukraine and Russia exchange strikes, as relations between Trump and Zelenskyy sour”。"
+          "10月21日 02:18 UTC，Al Jazeera报道：“Drone strike on Abyei market near Sudan-South Sudan border kills 150”。",
+          "10月20日 18:09 UTC，DW Top Stories报道：“Sudan drone strike kills around 150 in Abyei market”。",
+          "10月20日 17:30 UTC，BBC World报道：“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e8bcd0c0ea3847fa2d9f",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+          "title": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+          "summary": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T02:18:10+00:00",
+          "fetched_at": "2026-10-21T07:39:36.665513+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_8f7ebbf815379bc72b88",
+          "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-top-1022-rdf",
+          "title": "Sudan drone strike kills around 150 in Abyei market",
+          "summary": "A drone strike hit a market in the Abyei border region disputed by Sudan and South Sudan and killed dozens. The drone caused a large fire when it hit a fuel depot. South Sudanese officials blamed Sudan's military.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-20T18:09:00+00:00",
+          "fetched_at": "2026-10-21T07:39:36.279371+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_142d8c3a50b733064f4c",
+          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_campaign=rss&at_medium=RSS",
+          "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
+          "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-20T17:30:15+00:00",
+          "fetched_at": "2026-10-21T07:39:35.990154+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/008d/live/4e35d850-cc8e-11f1-bc2e-018d645d8d21.png"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c47894020ea9f09cc9b3",
+      "title": "Portugal cost-of-living protesters pour back into camps cleared by police",
+      "category": "社会突发",
+      "score": 67.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.6,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-20T23:11:00+00:00",
+      "last_updated": "2026-10-21T02:19:06+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "police",
+        "camps",
+        "portugal",
+        "housing",
+        "continue",
+        "cleared",
+        "arrested",
+        "people"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Portugal cost-of-living protesters pour back into camps cleared by police”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Portugal"
+        ],
+        "latest_progress": [
+          "10月21日 02:19 UTC，Al Jazeera报道：“Portugal cost-of-living protesters pour back into camps cleared by police”。",
+          "10月20日 23:11 UTC，DW Top Stories报道：“Portugal housing protests continue after police clear camps”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_708799ae432d6f7a8e7a",
+          "url": "https://www.aljazeera.com/news/2026/10/21/portugal-cost-of-living-protesters-pour-back-into-camps-cleared-by-police?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/portugal-cost-of-living-protesters-pour-back-into-camps-cleared-by-police?traffic_source=rss",
+          "title": "Portugal cost-of-living protesters pour back into camps cleared by police",
+          "summary": "Police arrested 55 people while clearing protest camps in Lisbon and Porto.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T02:19:06+00:00",
+          "fetched_at": "2026-10-21T07:39:36.665404+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f147bb0bfaa1463ef7e5",
+          "url": "https://www.dw.com/en/portugal-housing-protests-continue-after-police-clear-camps/a-79717904?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/portugal-housing-protests-continue-after-police-clear-camps/a-79717904?maca=en-rss-en-top-1022-rdf",
+          "title": "Portugal housing protests continue after police clear camps",
+          "summary": "Demonstrators vow to continue their campaign to call for affordable housing in Portugal after police cleared tent camps and arrested at least 55 people.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-20T23:11:00+00:00",
+          "fetched_at": "2026-10-21T07:39:36.278913+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8f18c4be7cf331a3a510",
+      "title": "Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff",
+      "category": "国际政治",
+      "score": 65.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.7,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.2
+      },
+      "first_seen": "2026-10-20T15:12:00+00:00",
+      "last_updated": "2026-10-21T04:58:03+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "lula",
+        "bolsonaro",
+        "runoff",
+        "brazil's",
+        "flavio",
+        "tied",
+        "ahead",
+        "presidential"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Lula",
+          "Bolsonaro",
+          "Brazil",
+          "Flavio Bolsonaro"
+        ],
+        "latest_progress": [
+          "10月21日 04:58 UTC，Al Jazeera报道：“Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff”。",
+          "10月20日 15:12 UTC，DW Top Stories报道：“Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -82,226 +545,30 @@
       },
       "articles": [
         {
-          "article_id": "art_935c0046c5800bb3698c",
-          "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss",
-          "title": "‘I don’t care how it’s done’: Trump pressures Ukraine to cut peace deal",
-          "summary": "The US president's remarks come amid a deepening feud with Ukraine's President Volodymyr Zelenskyy.",
+          "article_id": "art_ce55db921ad115ca3a4f",
+          "url": "https://www.aljazeera.com/news/2026/10/21/lula-bolsonaro-seek-to-disqualify-each-other-ahead-of-brazil-runoff?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/lula-bolsonaro-seek-to-disqualify-each-other-ahead-of-brazil-runoff?traffic_source=rss",
+          "title": "Lula, Bolsonaro seek to disqualify each other ahead of Brazil runoff",
+          "summary": "Messaging service WhatsApp and parent company Meta are embroiled in legal attacks by Brazil's presidential candidates.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-20T22:20:13+00:00",
-          "fetched_at": "2026-10-21T01:37:12.589002+00:00",
+          "published_at": "2026-10-21T04:58:03+00:00",
+          "fetched_at": "2026-10-21T07:39:36.664933+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_2a5d98eb48bd16e1542e",
-          "url": "https://www.dw.com/en/zelenskyy-visits-norway-amid-trump-white-house-tensions/a-79717354?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/zelenskyy-visits-norway-amid-trump-white-house-tensions/a-79717354?maca=en-rss-en-top-1022-rdf",
-          "title": "Zelenskyy visits Norway amid Trump White House tensions",
-          "summary": "Ukrainian President Zelenskyy met with Norwegian and Finnish leaders in Oslo and held talks with Trump envoys Steve Witkoff and Jared Kushner. Trump is pressuring Zelenskyy to \"make a deal\" with Russia.",
+          "article_id": "art_9ebf4d3b7ae9ad9fe8a6",
+          "url": "https://www.dw.com/en/brazil-s-lula-flavio-bolsonaro-tied-ahead-of-runoff-vote/a-79715182?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/brazil-s-lula-flavio-bolsonaro-tied-ahead-of-runoff-vote/a-79715182?maca=en-rss-en-top-1022-rdf",
+          "title": "Brazil's Lula, Flavio Bolsonaro tied ahead of runoff vote",
+          "summary": "With just under a week to go before the decisive presidential runoff election, polls show left-wing incumbent Luiz Inacio Lula da Silva and his right-wing challenger Flavio Bolsonaro are virtually tied.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-20T19:48:00+00:00",
-          "fetched_at": "2026-10-21T01:37:12.095307+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_514c8cabb83ac9aef070",
-          "url": "https://www.npr.org/2026/10/19/nx-s1-6007371/ukraine-and-russia-exchange-strikes-as-relations-between-trump-and-zelenskyy-sour",
-          "canonical_url": "https://www.npr.org/2026/10/19/nx-s1-6007371/ukraine-and-russia-exchange-strikes-as-relations-between-trump-and-zelenskyy-sour",
-          "title": "Ukraine and Russia exchange strikes, as relations between Trump and Zelenskyy sour",
-          "summary": "Ukraine carried out a massive drone strikes on Russia, which launched deadly attacks on its smaller neighbor over the weekend.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-19T10:38:03+00:00",
-          "fetched_at": "2026-10-21T01:37:12.249166+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0fac2d2d2159d1391c1b",
-      "title": "UK to deploy fighter jets to defend Saudi Arabia",
-      "category": "军事安全",
-      "score": 72.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.8,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 4.6
-      },
-      "first_seen": "2026-10-20T18:55:52+00:00",
-      "last_updated": "2026-10-21T01:23:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "saudi",
-        "arabia",
-        "jets",
-        "houthi",
-        "attacks",
-        "fighter",
-        "protect",
-        "deploy"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“UK to deploy fighter jets to defend Saudi Arabia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "UK",
-          "Saudi Arabia",
-          "Houthi"
-        ],
-        "latest_progress": [
-          "10月21日 01:23 UTC，DW Top Stories报道：“UK fighter jets to protect Saudi Arabia from Houthi attacks”。",
-          "10月20日 18:55 UTC，Al Jazeera报道：“UK to deploy fighter jets to defend Saudi Arabia”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b4dc252e953280466b0d",
-          "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-top-1022-rdf",
-          "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
-          "summary": "The UK is sending military support to Saudi Arabia as Iran-aligned Houthi rebels launch repeated attacks on the kingdom.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-21T01:23:00+00:00",
-          "fetched_at": "2026-10-21T01:37:12.095004+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_bb49bc91ef5c0fab0371",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/aje-onl-nf_uk-to-deploy-fighter-jets-to-defend-saudi-arabia_1-201026?traffic_source=rss",
-          "title": "UK to deploy fighter jets to defend Saudi Arabia",
-          "summary": "British Typhoon jets will carry out defensive missions to protect Saudi Arabia from escalating Houthi attacks.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-20T18:55:52+00:00",
-          "fetched_at": "2026-10-21T01:37:12.590538+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_9d95bee68305a0a7dad7",
-      "title": "EU revises Arctic strategy as pressure from Russia, US grows",
-      "category": "军事安全",
-      "score": 68.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.5,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-20T16:44:00+00:00",
-      "last_updated": "2026-10-20T20:05:39+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "arctic",
-        "russia",
-        "influence",
-        "security",
-        "strategy",
-        "plan",
-        "warily",
-        "eyes"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“EU revises Arctic strategy as pressure from Russia, US grows”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "EU",
-          "Arctic",
-          "Russia",
-          "US"
-        ],
-        "latest_progress": [
-          "10月20日 20:05 UTC，Al Jazeera报道：“EU revises Arctic strategy as pressure from Russia, US grows”。",
-          "10月20日 16:44 UTC，DW Top Stories报道：“New EU plan for Arctic warily eyes influence of Russia, US”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f0a67dd61dd948ce5f02",
-          "url": "https://www.aljazeera.com/news/2026/10/20/eu-revises-arctic-strategy-as-pressure-from-russia-us-grows?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/20/eu-revises-arctic-strategy-as-pressure-from-russia-us-grows?traffic_source=rss",
-          "title": "EU revises Arctic strategy as pressure from Russia, US grows",
-          "summary": "The new strategy shifts the bloc's focus from long-term climate concerns to urgent security measures.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-20T20:05:39+00:00",
-          "fetched_at": "2026-10-21T01:37:12.589985+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5bb63a43022a432dcac8",
-          "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-top-1022-rdf",
-          "title": "New EU plan for Arctic warily eyes influence of Russia, US",
-          "summary": "The EU unveiled its priorities in the Arctic as it vies with Russia, China and the US for influence. EU foreign affairs chief Kaja Kallas said drone incursions, GPS jamming and cable sabotage undermine Arctic security.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-20T16:44:00+00:00",
-          "fetched_at": "2026-10-21T01:37:12.095712+00:00",
+          "published_at": "2026-10-20T15:12:00+00:00",
+          "fetched_at": "2026-10-21T07:39:36.279810+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -313,12 +580,12 @@
       "event_id": "evt_cf5d858fb6e715717d04",
       "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
       "category": "社会突发",
-      "score": 67.0,
+      "score": 63.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.6,
+        "recency": 13.7,
         "credibility": 9.5,
         "impact": 11.7,
         "velocity": 5.0
@@ -377,7 +644,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-20T20:19:16+00:00",
-          "fetched_at": "2026-10-21T01:37:12.248412+00:00",
+          "fetched_at": "2026-10-21T07:39:36.496480+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -392,7 +659,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-20T19:08:00+00:00",
-          "fetched_at": "2026-10-21T01:37:12.095390+00:00",
+          "fetched_at": "2026-10-21T07:39:36.279174+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -401,109 +668,21 @@
       ]
     },
     {
-      "event_id": "evt_efd91a1ed6593b2e9716",
-      "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-      "category": "经济金融",
-      "score": 63.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 16.1,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-20T17:30:15+00:00",
-      "last_updated": "2026-10-20T18:09:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "sudan",
-        "market",
-        "hit",
-        "fuel",
-        "drone",
-        "people",
-        "strike",
-        "abyei"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的经济金融事件为“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Sudan",
-          "Abyei"
-        ],
-        "latest_progress": [
-          "10月20日 18:09 UTC，DW Top Stories报道：“Sudan drone strike kills around 150 in Abyei market”。",
-          "10月20日 17:30 UTC，BBC World报道：“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_8f7ebbf815379bc72b88",
-          "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-top-1022-rdf",
-          "title": "Sudan drone strike kills around 150 in Abyei market",
-          "summary": "A drone strike hit a market in the Abyei border region disputed by Sudan and South Sudan and killed dozens. The drone caused a large fire when it hit a fuel depot. South Sudanese officials blamed Sudan's military.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-20T18:09:00+00:00",
-          "fetched_at": "2026-10-21T01:37:12.095552+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_142d8c3a50b733064f4c",
-          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_campaign=rss&at_medium=RSS",
-          "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-          "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-20T17:30:15+00:00",
-          "fetched_at": "2026-10-21T01:37:11.624520+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/008d/live/4e35d850-cc8e-11f1-bc2e-018d645d8d21.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_85c4c7a93c1239b9f850",
-      "title": "Iran war live: US warns peace deal with Tehran is extremely difficult",
+      "event_id": "evt_c74110a0ef37767f1c8e",
+      "title": "The right to enforce civil rights is under attack in the US",
       "category": "军事安全",
-      "score": 61.6,
+      "score": 62.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.6,
+        "recency": 21.5,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-21T00:00:00+00:00",
-      "last_updated": "2026-10-21T00:00:00+00:00",
+      "first_seen": "2026-10-21T07:06:41+00:00",
+      "last_updated": "2026-10-21T07:06:41+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -513,25 +692,23 @@
         "Middle East"
       ],
       "keywords": [
-        "peace",
-        "deal",
-        "tehran",
-        "extremely",
-        "difficult",
-        "iran",
-        "war",
-        "warns"
+        "civil",
+        "rights",
+        "right",
+        "enforce",
+        "under",
+        "attack",
+        "trump",
+        "administration"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: US warns peace deal with Tehran is extremely difficult”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“The right to enforce civil rights is under attack in the US”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iran",
-          "US",
-          "Tehran"
+          "US"
         ],
         "latest_progress": [
-          "10月21日 00:00 UTC，Al Jazeera报道：“Iran war live: US warns peace deal with Tehran is extremely difficult”。"
+          "10月21日 07:06 UTC，Al Jazeera报道：“The right to enforce civil rights is under attack in the US”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -544,15 +721,15 @@
       },
       "articles": [
         {
-          "article_id": "art_8b11b7d25fbcfe03ca34",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/21/iran-war-live-us-warns-peace-deal-with-tehran-is-extremely-difficult?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/21/iran-war-live-us-warns-peace-deal-with-tehran-is-extremely-difficult?traffic_source=rss",
-          "title": "Iran war live: US warns peace deal with Tehran is extremely difficult",
-          "summary": "Rubio tells US media that reaching a peace deal with Tehran is extremely difficult while Hormuz attacks continue.",
+          "article_id": "art_777042bd20eadcf6addc",
+          "url": "https://www.aljazeera.com/opinions/2026/10/21/the-right-to-enforce-civil-rights-is-under-attack-in-the-us?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/opinions/2026/10/21/the-right-to-enforce-civil-rights-is-under-attack-in-the-us?traffic_source=rss",
+          "title": "The right to enforce civil rights is under attack in the US",
+          "summary": "The Trump administration and conservative courts are making it harder to challenge civil rights violations.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "fetched_at": "2026-10-21T01:37:12.588599+00:00",
+          "published_at": "2026-10-21T07:06:41+00:00",
+          "fetched_at": "2026-10-21T07:39:36.663661+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -561,54 +738,52 @@
       ]
     },
     {
-      "event_id": "evt_717e434ba6abc5a59fd3",
-      "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+      "event_id": "evt_0acfe3a8a64ec8fd16e3",
+      "title": "US envoy to meet Putin after 'positive' talks with Zelenskyy",
       "category": "国际政治",
-      "score": 61.4,
+      "score": 61.6,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 9.8,
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.2,
         "credibility": 9.5,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 2.7
       },
-      "first_seen": "2026-10-19T22:29:57+00:00",
-      "last_updated": "2026-10-20T06:13:00+00:00",
-      "source_count": 2,
-      "article_count": 3,
+      "first_seen": "2026-10-20T19:48:00+00:00",
+      "last_updated": "2026-10-21T06:46:00+00:00",
+      "source_count": 1,
+      "article_count": 2,
       "sources": [
-        "DW Top Stories",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "North America"
+        "Europe"
       ],
       "keywords": [
-        "alberta",
-        "voters",
-        "toward",
-        "canada",
-        "referendum",
-        "unity",
-        "oil-rich",
-        "province"
+        "zelenskyy",
+        "trump",
+        "talks",
+        "norway",
+        "ukrainian",
+        "president",
+        "met",
+        "steve"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Alberta voters reject a move toward independence in referendum backing Canadian unity”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“US envoy to meet Putin after 'positive' talks with Zelenskyy”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Canada",
-          "Alberta",
-          "CBC",
-          "Canadian"
+          "US",
+          "Putin",
+          "Zelenskyy Zelenskyy",
+          "Norway",
+          "Trump White House"
         ],
         "latest_progress": [
-          "10月20日 06:13 UTC，DW Top Stories报道：“Canada: Alberta rejects separation bid, CBC projects”。",
-          "10月20日 06:02 UTC，NPR World报道：“Alberta voters reject a move toward independence in referendum backing Canadian unity”。",
-          "10月19日 22:29 UTC，NPR World报道：“Alberta voters decide whether to take a step toward separating from Canada”。"
+          "10月21日 06:46 UTC，DW Top Stories报道：“US envoy to meet Putin after 'positive' talks with Zelenskyy”。",
+          "10月20日 19:48 UTC，DW Top Stories报道：“Zelenskyy visits Norway amid Trump White House tensions”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -621,239 +796,152 @@
       },
       "articles": [
         {
-          "article_id": "art_e5b9a372aff2d644ac0d",
-          "url": "https://www.dw.com/en/canada-alberta-rejects-separation-bid-cbc-projects/a-79708520?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/canada-alberta-rejects-separation-bid-cbc-projects/a-79708520?maca=en-rss-en-top-1022-rdf",
-          "title": "Canada: Alberta rejects separation bid, CBC projects",
-          "summary": "Voters have decisively rejected a proposal to begin the legal process toward Alberta's independence, dealing a major blow to a movement driven largely by economic grievances.",
+          "article_id": "art_5d4b866057a0c1c4b5b3",
+          "url": "https://www.dw.com/en/us-envoy-to-meet-putin-after-positive-talks-with-zelenskyy/a-79719452?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-envoy-to-meet-putin-after-positive-talks-with-zelenskyy/a-79719452?maca=en-rss-en-top-1022-rdf",
+          "title": "US envoy to meet Putin after 'positive' talks with Zelenskyy",
+          "summary": "Steve Witkoff landed in St Petersburg for talks on ending the war in Ukraine. It comes a day after he met with Ukrainian President Volodomyr Zelenskyy in Norway.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-20T06:13:00+00:00",
-          "fetched_at": "2026-10-21T01:37:12.096561+00:00",
+          "published_at": "2026-10-21T06:46:00+00:00",
+          "fetched_at": "2026-10-21T07:39:36.278370+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_75ee90af8630e0b1343f",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
-          "canonical_url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada",
-          "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
-          "summary": "Voters in Canada's oil-rich Alberta province overwhelmingly backed remaining in Canada, with early referendum results Tuesday delivering a boost to Prime Minister Carney's push for national unity.",
-          "source": "NPR World",
+          "article_id": "art_2a5d98eb48bd16e1542e",
+          "url": "https://www.dw.com/en/zelenskyy-visits-norway-amid-trump-white-house-tensions/a-79717354?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/zelenskyy-visits-norway-amid-trump-white-house-tensions/a-79717354?maca=en-rss-en-top-1022-rdf",
+          "title": "Zelenskyy visits Norway amid Trump White House tensions",
+          "summary": "Ukrainian President Zelenskyy met with Norwegian and Finnish leaders in Oslo and held talks with Trump envoys Steve Witkoff and Jared Kushner. Trump is pressuring Zelenskyy to \"make a deal\" with Russia.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-20T06:02:40+00:00",
-          "fetched_at": "2026-10-21T01:37:12.248799+00:00",
+          "published_at": "2026-10-20T19:48:00+00:00",
+          "fetched_at": "2026-10-21T07:39:36.279086+00:00",
           "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_be1fed70e2e73576008c",
-          "url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
-          "canonical_url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
-          "title": "Alberta voters decide whether to take a step toward separating from Canada",
-          "summary": "In Canada, the oil-rich province of Alberta votes in a referendum that could set it on a path toward separation, as Prime Minister Mark Carney warns of threats to Canadian unity.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-19T22:29:57+00:00",
-          "fetched_at": "2026-10-21T01:37:12.248889+00:00",
-          "language": "en",
-          "region": "North America",
+          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_087eba241290e11083e0",
-      "title": "One year on: Has Kenya’s opposition lost its way without Raila Odinga?",
-      "category": "国际政治",
-      "score": 60.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.9,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-21T00:22:19+00:00",
-      "last_updated": "2026-10-21T00:22:19+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "odinga",
-        "one",
-        "year",
-        "kenya",
-        "opposition",
-        "lost",
-        "way",
-        "without"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“One year on: Has Kenya’s opposition lost its way without Raila Odinga?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Has Kenya",
-          "Raila Odinga"
-        ],
-        "latest_progress": [
-          "10月21日 00:22 UTC，Al Jazeera报道：“One year on: Has Kenya’s opposition lost its way without Raila Odinga?”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_81fa847df08c297b8364",
-          "url": "https://www.aljazeera.com/news/2026/10/21/one-year-on-has-kenyas-opposition-lost-its-way-without-raila-odinga?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/one-year-on-has-kenyas-opposition-lost-its-way-without-raila-odinga?traffic_source=rss",
-          "title": "One year on: Has Kenya’s opposition lost its way without Raila Odinga?",
-          "summary": "Odinga’s legacy faces a test as ODM splits over its alliance with President Ruto.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-21T00:22:19+00:00",
-          "fetched_at": "2026-10-21T01:37:12.588373+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1902c8627e92bf07e572",
-      "title": "Is Ebola under control in Kenya after nine cases confirmed?",
-      "category": "国际政治",
-      "score": 59.4,
+      "event_id": "evt_5b6721d4c1b7b3069c3d",
+      "title": "Zelenskyy says early warning system for Russian missile attacks resumes",
+      "category": "军事安全",
+      "score": 60.8,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
         "recency": 20.3,
-        "credibility": 10.0,
-        "impact": 11.0,
+        "credibility": 9.5,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-20T23:41:30+00:00",
-      "last_updated": "2026-10-20T23:41:30+00:00",
+      "first_seen": "2026-10-21T05:43:24+00:00",
+      "last_updated": "2026-10-21T05:43:24+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "BBC World"
+        "NPR World"
       ],
       "regions": [
-        "Europe"
+        "North America"
       ],
       "keywords": [
-        "kenya",
-        "ebola",
-        "under",
-        "control",
-        "nine",
-        "cases",
-        "confirmed",
-        "advised"
+        "zelenskyy",
+        "early",
+        "warning",
+        "system",
+        "russian",
+        "missile",
+        "attacks",
+        "resumes"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Is Ebola under control in Kenya after nine cases confirmed?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“Zelenskyy says early warning system for Russian missile attacks resumes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Is Ebola",
-          "Kenya"
+          "Zelenskyy",
+          "Russian"
         ],
         "latest_progress": [
-          "10月20日 23:41 UTC，BBC World报道：“Is Ebola under control in Kenya after nine cases confirmed?”。"
+          "10月21日 05:43 UTC，NPR World报道：“Zelenskyy says early warning system for Russian missile attacks resumes”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_c8566565970504282acf",
-          "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c693z948px0jo?at_campaign=rss&at_medium=RSS",
-          "title": "Is Ebola under control in Kenya after nine cases confirmed?",
-          "summary": "The US has advised its citizens to reconsider travelling to Kenya but the government tries to reassure people.",
-          "source": "BBC World",
+          "article_id": "art_5039d857d5a92680fc3e",
+          "url": "https://www.npr.org/2026/10/21/g-s1-149026/zelenskyy-russian-missiles-warning",
+          "canonical_url": "https://www.npr.org/2026/10/21/g-s1-149026/zelenskyy-russian-missiles-warning",
+          "title": "Zelenskyy says early warning system for Russian missile attacks resumes",
+          "summary": "Ukrainian President Volodymyr Zelenskyy said the change happened after talks with his American counterparts, including a phone call with U.S. Secretary of State Marco Rubio.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-20T23:41:30+00:00",
-          "fetched_at": "2026-10-21T01:37:11.626426+00:00",
+          "published_at": "2026-10-21T05:43:24+00:00",
+          "fetched_at": "2026-10-21T07:39:36.496059+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1718/live/05ef3900-cc80-11f1-bed8-c51b95c602ec.jpg"
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_ce05336debe849384c39",
-      "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
+      "event_id": "evt_1a137e9a83cfa7ca9e90",
+      "title": "India news: India-US trade deal 'pretty close,' says Trump",
       "category": "经济金融",
-      "score": 59.0,
+      "score": 60.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.2,
-        "credibility": 10.0,
+        "recency": 21.0,
+        "credibility": 9.5,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-20T22:22:17+00:00",
-      "last_updated": "2026-10-20T22:22:17+00:00",
+      "first_seen": "2026-10-21T06:31:00+00:00",
+      "last_updated": "2026-10-21T06:31:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "stay",
-        "canada",
-        "gives",
-        "carney",
-        "alberta's",
-        "decisive",
-        "decision",
-        "backing"
+        "trade",
+        "deal",
+        "trump",
+        "india",
+        "india-us",
+        "pretty",
+        "close",
+        "president"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的经济金融事件为“Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的经济金融事件为“India news: India-US trade deal 'pretty close,' says Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Alberta",
-          "Canada",
-          "Carney",
+          "India",
+          "US",
           "Trump"
         ],
         "latest_progress": [
-          "10月20日 22:22 UTC，BBC World报道：“Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump”。"
+          "10月21日 06:31 UTC，DW Top Stories报道：“India news: India-US trade deal 'pretty close,' says Trump”。"
         ],
         "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
         "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
@@ -866,19 +954,19 @@
       },
       "articles": [
         {
-          "article_id": "art_0f478b01cb8ef3e52920",
-          "url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr62ylj832vxo?at_campaign=rss&at_medium=RSS",
-          "title": "Alberta's decisive decision to stay in Canada gives Carney backing to take on Trump",
-          "summary": "The overwhelming vote by Alberta to stay in Canada gives Mark Carney political capital to focus on remaking the country's economy, writes the BBC's Lyse Doucet.",
-          "source": "BBC World",
+          "article_id": "art_81cedb86e52183372c2d",
+          "url": "https://www.dw.com/en/india-news-india-us-trade-deal-pretty-close-says-trump/live-79719383?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-news-india-us-trade-deal-pretty-close-says-trump/live-79719383?maca=en-rss-en-top-1022-rdf",
+          "title": "India news: India-US trade deal 'pretty close,' says Trump",
+          "summary": "US President Donald Trump hinted that the US-India trade deal could look different from the previous ones. Follow DW for more.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-20T22:22:17+00:00",
-          "fetched_at": "2026-10-21T01:37:11.624418+00:00",
+          "published_at": "2026-10-21T06:31:00+00:00",
+          "fetched_at": "2026-10-21T07:39:36.278463+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad57/live/10727dd0-cce2-11f1-b759-47986a462148.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     }
