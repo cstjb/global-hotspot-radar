@@ -1,31 +1,184 @@
 {
-  "generated_at": "2026-10-21T13:47:55.125243+00:00",
+  "generated_at": "2026-10-21T18:40:22.548769+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 193,
-    "articles_unique": 193,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 94,
+    "articles_unique": 94,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_ce10fb366990dabd61df",
-      "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
+      "event_id": "evt_d075e5a05092cef57300",
+      "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
       "category": "军事安全",
-      "score": 78.9,
+      "score": 88.8,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
+        "coverage": 17.9,
+        "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 19.1,
-        "credibility": 9.7,
+        "recency": 21.1,
+        "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
+      "first_seen": "2026-10-21T10:20:50+00:00",
+      "last_updated": "2026-10-21T17:42:34+00:00",
+      "source_count": 4,
+      "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "russia",
+        "putin",
+        "witkoff",
+        "hubbard",
+        "talks",
+        "stephen",
+        "envoy",
+        "steve"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Russia says it is ready to resume talks with Ukraine and US to end war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russia",
+          "Ukraine",
+          "US",
+          "Witkoff",
+          "Putin",
+          "American Stephen Hubbard",
+          "Stephen Hubbard",
+          "Trump"
+        ],
+        "latest_progress": [
+          "10月21日 17:42 UTC，BBC World报道：“Russia says it is ready to resume talks with Ukraine and US to end war”。",
+          "10月21日 14:39 UTC，Al Jazeera报道：“US envoy Witkoff calls Russia’s Putin a ‘humanitarian’”。",
+          "10月21日 14:31 UTC，Al Jazeera报道：“Russia releases American Stephen Hubbard after four years in prison”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_faea1cb547a34976f50d",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_campaign=rss&at_medium=RSS",
+          "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
+          "summary": "The announcement came after Russian President Vladimir Putin met US President Donald Trump's special envoy Steve Witkoff in St Petersburg.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T17:42:34+00:00",
+          "fetched_at": "2026-10-21T18:40:20.537564+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/808c/live/f0408560-cd64-11f1-bc2e-018d645d8d21.jpg"
+        },
+        {
+          "article_id": "art_6f82bf07479328dd7e14",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/us-envoy-witkoff-calls-russias-putin-a?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/us-envoy-witkoff-calls-russias-putin-a?traffic_source=rss",
+          "title": "US envoy Witkoff calls Russia’s Putin a ‘humanitarian’",
+          "summary": "US envoy Steve Witkoff praised Russian President Vladimir Putin as a ‘humanitarian’.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T14:39:08+00:00",
+          "fetched_at": "2026-10-21T18:40:21.951854+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_18bff2997ebec707b46b",
+          "url": "https://www.aljazeera.com/news/2026/10/21/russia-releases-american-stephen-hubbard-after-four-years-in-prison?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/russia-releases-american-stephen-hubbard-after-four-years-in-prison?traffic_source=rss",
+          "title": "Russia releases American Stephen Hubbard after four years in prison",
+          "summary": "Hubbard was jailed after being accused of fighting alongside Ukrainian forces against Russia.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T14:31:53+00:00",
+          "fetched_at": "2026-10-21T18:40:21.951918+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c142dd82f47c589e45e3",
+          "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-top-1022-rdf",
+          "title": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
+          "summary": "During talks between Vladimir Putin and Steve Witkoff, Putin announced that jailed American Stephen Hubbard had been released. The Kremlin also said Russia was \"in principle\" ready to resume trilateral talks next month.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-21T13:56:00+00:00",
+          "fetched_at": "2026-10-21T18:40:21.578440+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_20c7749d186d0027df13",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
+          "canonical_url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
+          "title": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
+          "summary": "The announcement of Hubbard's release came as talks got underway between Putin and White House envoy Steve Witkoff in Saint Petersburg focused on the latest U.S. efforts to end the war in Ukraine.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T10:20:50+00:00",
+          "fetched_at": "2026-10-21T18:40:21.673268+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ce10fb366990dabd61df",
+      "title": "Macron makes surprise Saudi visit as France secures extra diesel supplies",
+      "category": "军事安全",
+      "score": 81.5,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 20.5,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 3.8
+      },
       "first_seen": "2026-10-21T01:23:00+00:00",
-      "last_updated": "2026-10-21T10:22:35+00:00",
+      "last_updated": "2026-10-21T16:58:39+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "DW Top Stories",
@@ -40,29 +193,29 @@
         "saudi",
         "arabia",
         "houthi",
-        "jets",
-        "military",
+        "macron",
+        "surprise",
         "attacks",
-        "support",
-        "kingdom"
+        "military",
+        "support"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“WW1 to Houthis: British jets for Saudi Arabia build on long military bond”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Macron makes surprise Saudi visit as France secures extra diesel supplies”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Houthis",
-          "British",
-          "Saudi Arabia",
+          "Macron",
+          "Saudi",
+          "France",
+          "Saudi Arabia Saudi Arabia",
           "Davos",
           "Desert",
           "Yemen",
-          "Houthi",
-          "UK"
+          "Houthi"
         ],
         "latest_progress": [
-          "10月21日 10:22 UTC，Al Jazeera报道：“WW1 to Houthis: British jets for Saudi Arabia build on long military bond”。",
-          "10月21日 08:40 UTC，NPR World报道：“Saudi Arabia cancels 'Davos in the Desert' due to Yemen's Houthi strikes”。",
-          "10月21日 01:23 UTC，DW Top Stories报道：“UK fighter jets to protect Saudi Arabia from Houthi attacks”。"
+          "10月21日 16:58 UTC，Al Jazeera报道：“Macron makes surprise Saudi visit as France secures extra diesel supplies”。",
+          "10月21日 16:34 UTC，Al Jazeera报道：“Macron’s surprise ‘solidarity’ visit to Saudi Arabia”。",
+          "10月21日 08:40 UTC，NPR World报道：“Saudi Arabia cancels 'Davos in the Desert' due to Yemen's Houthi strikes”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -75,15 +228,30 @@
       },
       "articles": [
         {
-          "article_id": "art_b0eeb64b36d2f3ee430f",
-          "url": "https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/ww1-to-houthis-british-jets-for-saudi-arabia-build-on-long-military-bond?traffic_source=rss",
-          "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
-          "summary": "UK's deployment of jets to defend Saudi Arabia is the latest chapter in a relationship older than the kingdom itself.",
+          "article_id": "art_ce8fd6092b37e27b256c",
+          "url": "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss",
+          "title": "Macron makes surprise Saudi visit as France secures extra diesel supplies",
+          "summary": "French president meets Mohammed bin Salman in Riyadh to discuss energy, security, and infrastructure.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-21T10:22:35+00:00",
-          "fetched_at": "2026-10-21T13:47:53.071680+00:00",
+          "published_at": "2026-10-21T16:58:39+00:00",
+          "fetched_at": "2026-10-21T18:40:21.951096+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3ea113e98c3ced6b727e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/macrons-surprise-solidarity-visit-to-saudi-arabia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/macrons-surprise-solidarity-visit-to-saudi-arabia?traffic_source=rss",
+          "title": "Macron’s surprise ‘solidarity’ visit to Saudi Arabia",
+          "summary": "French President Emmanuel Macron made a surprise stop in Riyadh to meet Saudi Crown Prince during his ongoing Gulf tour.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T16:34:27+00:00",
+          "fetched_at": "2026-10-21T18:40:21.951241+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -98,7 +266,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-21T08:40:51+00:00",
-          "fetched_at": "2026-10-21T13:47:52.950139+00:00",
+          "fetched_at": "2026-10-21T18:40:21.673399+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -113,7 +281,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-21T01:23:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.810847+00:00",
+          "fetched_at": "2026-10-21T18:40:21.579045+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -122,211 +290,53 @@
       ]
     },
     {
-      "event_id": "evt_66298caa1d1df10d0e33",
-      "title": "特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网",
-      "category": "经济金融",
-      "score": 78.8,
-      "score_breakdown": {
-        "coverage": 19.5,
-        "source_diversity": 18.0,
-        "region_diversity": 2.5,
-        "recency": 15.6,
-        "credibility": 7.5,
-        "impact": 11.7,
-        "velocity": 4.1
-      },
-      "first_seen": "2026-10-20T07:30:00+00:00",
-      "last_updated": "2026-10-21T05:30:00+00:00",
-      "source_count": 5,
-      "article_count": 6,
-      "sources": [
-        "baijiahao.baidu.com",
-        "china.com.cn",
-        "news.china.com.cn",
-        "news.cn",
-        "oeeee.com"
-      ],
-      "regions": [
-        "China"
-      ],
-      "keywords": [
-        "中国",
-        "国经",
-        "经济",
-        "三季",
-        "季报",
-        "创新",
-        "新驱",
-        "驱动"
-      ],
-      "analysis": {
-        "what_happened": "据baijiahao.baidu.com、china.com.cn、news.china.com.cn、news.cn等来源的6篇报道，当前关注的经济金融事件为“特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "baijiahao.baidu.com",
-          "china.com.cn",
-          "news.china.com.cn",
-          "news.cn",
-          "oeeee.com"
-        ],
-        "latest_progress": [
-          "10月21日 05:30 UTC，oeeee.com报道：“特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网”。",
-          "10月20日 23:45 UTC，news.china.com.cn报道：“创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 中国网”。",
-          "10月20日 21:30 UTC，baijiahao.baidu.com报道：“创新驱动 开放赋能 海外人士解读中国经济 三季报”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ae543092a236d3c31586",
-          "url": "https://www.oeeee.com/html/202610/21/1753127.html",
-          "canonical_url": "https://www.oeeee.com/html/202610/21/1753127.html",
-          "title": "特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 要闻 _ 奥一网",
-          "summary": "",
-          "source": "oeeee.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-21T05:30:00+00:00",
-          "fetched_at": "2026-10-21T13:47:47.781432+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": "https://oeimg2.cache.oeeee.com/Public2025/yaowen.jpg"
-        },
-        {
-          "article_id": "art_bce145c57c920e42c962",
-          "url": "http://news.china.com.cn/2026-10/21/content_118742249.shtml",
-          "canonical_url": "https://news.china.com.cn/2026-10/21/content_118742249.shtml",
-          "title": "创新驱动 开放赋能 海外人士解读中国经济 三季报 _ 中国网",
-          "summary": "",
-          "source": "news.china.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T23:45:00+00:00",
-          "fetched_at": "2026-10-21T13:47:47.781339+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_feb8d90e0c2cfeafe7fe",
-          "url": "https://baijiahao.baidu.com/s?id=1879603620204925678",
-          "canonical_url": "https://baijiahao.baidu.com/s?id=1879603620204925678",
-          "title": "创新驱动 开放赋能 海外人士解读中国经济 三季报",
-          "summary": "",
-          "source": "baijiahao.baidu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T21:30:00+00:00",
-          "fetched_at": "2026-10-21T13:47:47.779741+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_599baac4e06b2bb4485b",
-          "url": "https://baijiahao.baidu.com/s?id=1879570013388278977",
-          "canonical_url": "https://baijiahao.baidu.com/s?id=1879570013388278977",
-          "title": "创新驱动 开放赋能 海外人士解读中国经济三季报",
-          "summary": "",
-          "source": "baijiahao.baidu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T16:45:00+00:00",
-          "fetched_at": "2026-10-21T13:47:47.781232+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3aaa1733ed1036106560",
-          "url": "https://www.news.cn/fortune/20261020/3b869f8c45054a998b299f65581e6fdd/c.html",
-          "canonical_url": "https://www.news.cn/fortune/20261020/3b869f8c45054a998b299f65581e6fdd/c.html",
-          "title": "特稿丨创新驱动 开放赋能 海外人士解读中国经济 三季报 - 新华网",
-          "summary": "",
-          "source": "news.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T11:15:00+00:00",
-          "fetched_at": "2026-10-21T13:47:47.780022+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7e9b6f58c32b59a46e3e",
-          "url": "http://www.china.com.cn/opinion2020/2026-10/20/content_118740642.shtml",
-          "canonical_url": "https://www.china.com.cn/opinion2020/2026-10/20/content_118740642.shtml",
-          "title": "中国经济三季报向动荡世界传递信心",
-          "summary": "",
-          "source": "china.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T07:30:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.113572+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_7471dbb1f9d1cd8a01f3",
-      "title": "Attack on Australian MP Haines: How threats against legislators have soared",
+      "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
       "category": "军事安全",
-      "score": 78.1,
+      "score": 72.4,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 18.3,
-        "credibility": 9.9,
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 4.4
       },
       "first_seen": "2026-10-21T07:56:30+00:00",
-      "last_updated": "2026-10-21T09:24:47+00:00",
-      "source_count": 3,
-      "article_count": 4,
+      "last_updated": "2026-10-21T18:10:42+00:00",
+      "source_count": 2,
+      "article_count": 3,
       "sources": [
-        "Al Jazeera",
         "BBC World",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "australian",
         "attack",
+        "australian",
         "both",
         "legs",
         "court",
-        "haines",
         "loses",
-        "helen"
+        "alleged",
+        "car"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Attack on Australian MP Haines: How threats against legislators have soared”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“'Targeted' attack on much-loved MP leaves Australian town heartbroken”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Attack",
-          "Australian",
+          "Targeted",
           "MP",
-          "Haines",
+          "Australian",
           "Helen Haines"
         ],
         "latest_progress": [
-          "10月21日 09:24 UTC，Al Jazeera报道：“Attack on Australian MP Haines: How threats against legislators have soared”。",
-          "10月21日 08:34 UTC，Al Jazeera报道：“Australian MP loses both legs in vehicle attack as suspect appears in court”。",
-          "10月21日 08:16 UTC，DW Top Stories报道：“Australian MP Helen Haines loses both legs after car attack as suspect appears in court”。"
+          "10月21日 18:10 UTC，BBC World报道：“'Targeted' attack on much-loved MP leaves Australian town heartbroken”。",
+          "10月21日 08:16 UTC，DW Top Stories报道：“Australian MP Helen Haines loses both legs after car attack as suspect appears in court”。",
+          "10月21日 07:56 UTC，BBC World报道：“Australian MP loses both legs after alleged car attack, husband says”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -339,34 +349,19 @@
       },
       "articles": [
         {
-          "article_id": "art_aa5b8c51bfe4f59a8888",
-          "url": "https://www.aljazeera.com/news/2026/10/21/attack-on-australian-mp-haines-how-threats-against-legislators-have-soared?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/attack-on-australian-mp-haines-how-threats-against-legislators-have-soared?traffic_source=rss",
-          "title": "Attack on Australian MP Haines: How threats against legislators have soared",
-          "summary": "Abuse, threats against Australian lawmakers are rising in a country where political violence has historically been rare.",
-          "source": "Al Jazeera",
+          "article_id": "art_0ebbe9496ca1d12771e2",
+          "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_campaign=rss&at_medium=RSS",
+          "title": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+          "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-21T09:24:47+00:00",
-          "fetched_at": "2026-10-21T13:47:53.072149+00:00",
+          "published_at": "2026-10-21T18:10:42+00:00",
+          "fetched_at": "2026-10-21T18:40:20.537756+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c15acd50d92ece7d7ca5",
-          "url": "https://www.aljazeera.com/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court?traffic_source=rss",
-          "title": "Australian MP loses both legs in vehicle attack as suspect appears in court",
-          "summary": "Independent lawmaker Helen Haines is in stable condition, her husband says, as suspect charged with three offences.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-21T08:34:37+00:00",
-          "fetched_at": "2026-10-21T13:47:53.072480+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce68/live/40f9c020-cd60-11f1-bc2e-018d645d8d21.jpg"
         },
         {
           "article_id": "art_b4e63f185e88bf22f594",
@@ -377,7 +372,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-21T08:16:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.810044+00:00",
+          "fetched_at": "2026-10-21T18:40:21.578712+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -392,7 +387,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-21T07:56:30+00:00",
-          "fetched_at": "2026-10-21T13:47:52.519254+00:00",
+          "fetched_at": "2026-10-21T18:40:20.537840+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -401,126 +396,15 @@
       ]
     },
     {
-      "event_id": "evt_e38a7df041af2f957d44",
-      "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-      "category": "国际政治",
-      "score": 76.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.9,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-21T09:42:00+00:00",
-      "last_updated": "2026-10-21T12:32:01+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "stephen",
-        "hubbard",
-        "putin",
-        "russia",
-        "american",
-        "talks",
-        "russian",
-        "president"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "US",
-          "Stephen Hubbard",
-          "Russia",
-          "Trump",
-          "Putin Russia",
-          "American Stephen Hubbard",
-          "Witkoff"
-        ],
-        "latest_progress": [
-          "10月21日 12:32 UTC，BBC World报道：“US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin”。",
-          "10月21日 10:20 UTC，NPR World报道：“Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request”。",
-          "10月21日 09:42 UTC，DW Top Stories报道：“Russia frees jailed American Stephen Hubbard during Witkoff talks”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_cd52661628ef310694d4",
-          "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_campaign=rss&at_medium=RSS",
-          "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-          "summary": "The 74-year-old former teacher, who was captured, has been released without any \"swap\" required, Trump says.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-21T12:32:01+00:00",
-          "fetched_at": "2026-10-21T13:47:52.519064+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a22e/live/83914ac0-8497-11ef-bf4c-1f355eb87d3c.jpg"
-        },
-        {
-          "article_id": "art_20c7749d186d0027df13",
-          "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
-          "canonical_url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen",
-          "title": "Russia releases imprisoned U.S. citizen Stephen Hubbard following Trump's request",
-          "summary": "Russian President Vladimir Putin says he has freed an American, Stephen Hubbard, from a Russian prison following a request from President Trump.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-21T10:20:50+00:00",
-          "fetched_at": "2026-10-21T13:47:52.949848+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c142dd82f47c589e45e3",
-          "url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russia-frees-jailed-american-stephen-hubbard-during-witkoff-talks/a-79719452?maca=en-rss-en-top-1022-rdf",
-          "title": "Russia frees jailed American Stephen Hubbard during Witkoff talks",
-          "summary": "Russian President Vladimir Putin met with US special envoy Steve Witkoff in St. Petersburg for talks about a Ukraine peace deal. During the talks, Putin announced that jailed American Stephen Hubbard had been released.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-21T09:42:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.809654+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_cf5d858fb6e715717d04",
       "title": "Nigeria confirms Ebola case linked to East Africa",
       "category": "社会突发",
-      "score": 74.6,
+      "score": 70.7,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.0,
+        "recency": 17.1,
         "credibility": 9.7,
         "impact": 11.7,
         "velocity": 2.6
@@ -582,7 +466,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-21T12:39:34+00:00",
-          "fetched_at": "2026-10-21T13:47:52.520226+00:00",
+          "fetched_at": "2026-10-21T18:40:20.538246+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -597,7 +481,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-20T20:19:16+00:00",
-          "fetched_at": "2026-10-21T13:47:52.950749+00:00",
+          "fetched_at": "2026-10-21T18:40:21.673645+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -612,7 +496,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-20T19:08:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.811364+00:00",
+          "fetched_at": "2026-10-21T18:40:21.579252+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -622,14 +506,14 @@
     },
     {
       "event_id": "evt_83eab1dccb37d3816e77",
-      "title": "UK approves development of Jackdaw gasfield in North Sea",
+      "title": "Protests as UK approves new gas drilling in North Sea",
       "category": "能源资源",
-      "score": 73.1,
+      "score": 66.2,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.1,
+        "recency": 17.2,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -637,7 +521,7 @@
       "first_seen": "2026-10-21T09:21:00+00:00",
       "last_updated": "2026-10-21T12:49:52+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
         "DW Top Stories"
@@ -647,17 +531,17 @@
         "Middle East"
       ],
       "keywords": [
+        "gas",
+        "drilling",
         "north",
         "sea",
         "approves",
-        "gas",
-        "drilling",
-        "jackdaw",
         "energy",
-        "decision"
+        "jackdaw",
+        "field"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“UK approves development of Jackdaw gasfield in North Sea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Protests as UK approves new gas drilling in North Sea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
           "Protests",
@@ -667,7 +551,6 @@
         ],
         "latest_progress": [
           "10月21日 12:49 UTC，Al Jazeera报道：“Protests as UK approves new gas drilling in North Sea”。",
-          "10月21日 10:28 UTC，Al Jazeera报道：“UK approves development of Jackdaw gasfield in North Sea”。",
           "10月21日 09:21 UTC，DW Top Stories报道：“UK approves Jackdaw gas field after years in limbo”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
@@ -689,22 +572,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-21T12:49:52+00:00",
-          "fetched_at": "2026-10-21T13:47:53.070400+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8e4caf619a02ca55f6c1",
-          "url": "https://www.aljazeera.com/news/2026/10/21/uk-approves-development-of-jackdaw-gasfield-in-north-sea?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/uk-approves-development-of-jackdaw-gasfield-in-north-sea?traffic_source=rss",
-          "title": "UK approves development of Jackdaw gasfield in North Sea",
-          "summary": "The decision has drawn sharp criticism from left-wing politicians and environmentalists.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-21T10:28:18+00:00",
-          "fetched_at": "2026-10-21T13:47:53.071522+00:00",
+          "fetched_at": "2026-10-21T18:40:21.952445+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -719,7 +587,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-21T09:21:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.809783+00:00",
+          "fetched_at": "2026-10-21T18:40:21.578602+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -728,55 +596,261 @@
       ]
     },
     {
-      "event_id": "evt_efd91a1ed6593b2e9716",
-      "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-      "category": "军事安全",
-      "score": 73.1,
+      "event_id": "evt_39f0ec365d5c47756cdb",
+      "title": "India 'cockroach' leaders who called on election chief to quit are freed from jail",
+      "category": "国际政治",
+      "score": 60.8,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.6,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.0
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.7,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-20T17:30:15+00:00",
-      "last_updated": "2026-10-21T08:25:45+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-10-21T18:22:28+00:00",
+      "last_updated": "2026-10-21T18:22:28+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
-        "Europe",
+        "Europe"
+      ],
+      "keywords": [
+        "india",
+        "cockroach'",
+        "leaders",
+        "called",
+        "election",
+        "chief",
+        "quit",
+        "freed"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“India 'cockroach' leaders who called on election chief to quit are freed from jail”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "India"
+        ],
+        "latest_progress": [
+          "10月21日 18:22 UTC，BBC World报道：“India 'cockroach' leaders who called on election chief to quit are freed from jail”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_88ca1c08e19f687abd54",
+          "url": "https://www.bbc.co.uk/news/articles/c674p0xepljeo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c674p0xepljeo?at_campaign=rss&at_medium=RSS",
+          "title": "India 'cockroach' leaders who called on election chief to quit are freed from jail",
+          "summary": "Saurav Das and Ashutosh Ranka were accused of breaking into an unauthorised protest venue in Delhi.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-21T18:22:28+00:00",
+          "fetched_at": "2026-10-21T18:40:20.537983+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c4c/live/6c343880-cd77-11f1-bc2e-018d645d8d21.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_4894f79cce8694b42b3a",
+      "title": "Why social media has become an election issue in Brazil’s presidential race",
+      "category": "国际政治",
+      "score": 60.7,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T18:14:02+00:00",
+      "last_updated": "2026-10-21T18:14:02+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
         "Middle East"
       ],
       "keywords": [
-        "sudan",
-        "market",
-        "drone",
-        "hit",
-        "fuel",
-        "people",
-        "south",
-        "army"
+        "social",
+        "media",
+        "become",
+        "election",
+        "issue",
+        "brazil",
+        "presidential",
+        "race"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Why social media has become an election issue in Brazil’s presidential race”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Drone",
-          "Sudan",
-          "South Sudan",
-          "Abyei"
+          "Why",
+          "Brazil"
         ],
         "latest_progress": [
-          "10月21日 08:25 UTC，Al Jazeera报道：“Drone attack in disputed Sudan-South Sudan border region kills at least 153”。",
-          "10月20日 18:09 UTC，DW Top Stories报道：“Sudan drone strike kills around 150 in Abyei market”。",
-          "10月20日 17:30 UTC，BBC World报道：“Sudan army drones hit mourners and fuel market killing more than 300 people, sources say”。"
+          "10月21日 18:14 UTC，Al Jazeera报道：“Why social media has become an election issue in Brazil’s presidential race”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0642ba65ac9fcd95644f",
+          "url": "https://www.aljazeera.com/features/2026/10/21/why-social-media-has-become-an-election-issue-in-brazils-presidential-race?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/10/21/why-social-media-has-become-an-election-issue-in-brazils-presidential-race?traffic_source=rss",
+          "title": "Why social media has become an election issue in Brazil’s presidential race",
+          "summary": "Critics have accused the tech giant Meta of censoring the political campaign of President Lula and favouring Bolsonaro.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-21T18:14:02+00:00",
+          "fetched_at": "2026-10-21T18:40:21.950927+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_aa73f2a9b9e7530b1688",
+      "title": "PHP developers say key patches available after global scare",
+      "category": "国际政治",
+      "score": 59.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.5,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T16:56:00+00:00",
+      "last_updated": "2026-10-21T16:56:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "php",
+        "developers",
+        "say",
+        "key",
+        "patches",
+        "available",
+        "global",
+        "scare"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“PHP developers say key patches available after global scare”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "PHP"
+        ],
+        "latest_progress": [
+          "10月21日 16:56 UTC，DW Top Stories报道：“PHP developers say key patches available after global scare”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_59584a75f8cd90d08bb5",
+          "url": "https://www.dw.com/en/php-developers-say-key-patches-available-after-global-scare/a-79725938?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/php-developers-say-key-patches-available-after-global-scare/a-79725938?maca=en-rss-en-top-1022-rdf",
+          "title": "PHP developers say key patches available after global scare",
+          "summary": "Newly discovered vulnerabilities in the PHP programming language have put millions of websites at risk, with government agencies sounding alarms and taking down sites. Developers say updating systems is \"imperative.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-21T16:56:00+00:00",
+          "fetched_at": "2026-10-21T18:40:21.578242+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5bc59b51e140c99d898d",
+      "title": "How Qatar, Turkiye, Pakistan and Indonesia are deepening defence ties",
+      "category": "军事安全",
+      "score": 59.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T13:58:17+00:00",
+      "last_updated": "2026-10-21T13:58:17+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "qatar",
+        "turkiye",
+        "pakistan",
+        "indonesia",
+        "deepening",
+        "defence",
+        "ties",
+        "experts"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“How Qatar, Turkiye, Pakistan and Indonesia are deepening defence ties”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "How Qatar",
+          "Turkiye",
+          "Pakistan",
+          "Indonesia"
+        ],
+        "latest_progress": [
+          "10月21日 13:58 UTC，Al Jazeera报道：“How Qatar, Turkiye, Pakistan and Indonesia are deepening defence ties”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -789,414 +863,90 @@
       },
       "articles": [
         {
-          "article_id": "art_9c548ac7703937cd0f39",
-          "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153?traffic_source=rss",
-          "title": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
-          "summary": "South Sudan authorities say Sudan's army launched drone attack on market, as MSF says it is treating 20 wounded people.",
+          "article_id": "art_c83d25257209ce7e1858",
+          "url": "https://www.aljazeera.com/news/2026/10/21/how-qatar-turkiye-pakistan-and-indonesia-are-deepening-defence-ties?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/21/how-qatar-turkiye-pakistan-and-indonesia-are-deepening-defence-ties?traffic_source=rss",
+          "title": "How Qatar, Turkiye, Pakistan and Indonesia are deepening defence ties",
+          "summary": "Experts say conflicts and uncertainty are accelerating efforts to strengthen regional military capacity.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-21T08:25:45+00:00",
-          "fetched_at": "2026-10-21T13:47:53.072948+00:00",
+          "published_at": "2026-10-21T13:58:17+00:00",
+          "fetched_at": "2026-10-21T18:40:21.952046+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c61b2ca044565f7bfc3d",
+      "title": "Russia arrests German man, calls him a Ukraine 'mercenary'",
+      "category": "军事安全",
+      "score": 58.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.3,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T14:17:00+00:00",
+      "last_updated": "2026-10-21T14:17:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "german",
+        "him",
+        "russia",
+        "arrests",
+        "man",
+        "calls",
+        "ukraine",
+        "mercenary'"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Russia arrests German man, calls him a Ukraine 'mercenary'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russia",
+          "German",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月21日 14:17 UTC，DW Top Stories报道：“Russia arrests German man, calls him a Ukraine 'mercenary'”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
-          "article_id": "art_8f7ebbf815379bc72b88",
-          "url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/sudan-drone-strike-kills-around-150-in-abyei-market/a-79716587?maca=en-rss-en-top-1022-rdf",
-          "title": "Sudan drone strike kills around 150 in Abyei market",
-          "summary": "A drone strike hit a market in the Abyei border region disputed by Sudan and South Sudan and killed dozens. The drone caused a large fire when it hit a fuel depot. South Sudanese officials blamed Sudan's military.",
+          "article_id": "art_a45d891a7fa7146d0da3",
+          "url": "https://www.dw.com/en/russia-arrests-german-man-calls-him-a-ukraine-mercenary/a-79723871?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/russia-arrests-german-man-calls-him-a-ukraine-mercenary/a-79723871?maca=en-rss-en-top-1022-rdf",
+          "title": "Russia arrests German man, calls him a Ukraine 'mercenary'",
+          "summary": "Russian FSB agents have arrested a German national and accused him of fighting as a mercenary for Ukraine's military. They claim he deserted over unpaid wages and say he was a sniper who once served in the Bundeswehr.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-20T18:09:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.811611+00:00",
+          "published_at": "2026-10-21T14:17:00+00:00",
+          "fetched_at": "2026-10-21T18:40:21.578383+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_142d8c3a50b733064f4c",
-          "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_campaign=rss&at_medium=RSS",
-          "title": "Sudan army drones hit mourners and fuel market killing more than 300 people, sources say",
-          "summary": "A truck carrying people to a funeral and a market alleged to be supplying fuel to the RSF were targeted.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-20T17:30:15+00:00",
-          "fetched_at": "2026-10-21T13:47:52.520441+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/008d/live/4e35d850-cc8e-11f1-bc2e-018d645d8d21.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_cfe0dc50db2de14d8317",
-      "title": "甘肃 人工智能+软件 系列活动走进天水 _ 新浪财经 _ 新浪网",
-      "category": "科技AI",
-      "score": 71.2,
-      "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 14.4,
-        "region_diversity": 5.0,
-        "recency": 13.0,
-        "credibility": 7.5,
-        "impact": 9.8,
-        "velocity": 3.5
-      },
-      "first_seen": "2026-10-20T04:00:00+00:00",
-      "last_updated": "2026-10-21T01:15:00+00:00",
-      "source_count": 4,
-      "article_count": 5,
-      "sources": [
-        "finance.sina.com.cn",
-        "news.cyol.com",
-        "tech.cnr.cn",
-        "theory.gmw.cn"
-      ],
-      "regions": [
-        "China",
-        "Global"
-      ],
-      "keywords": [
-        "人工",
-        "工智",
-        "智能",
-        "软件",
-        "行动",
-        "专项",
-        "项行",
-        "动实"
-      ],
-      "analysis": {
-        "what_happened": "据finance.sina.com.cn、news.cyol.com、tech.cnr.cn、theory.gmw.cn等来源的5篇报道，当前关注的科技AI事件为“甘肃 人工智能+软件 系列活动走进天水 _ 新浪财经 _ 新浪网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "finance.sina.com.cn",
-          "news.cyol.com",
-          "tech.cnr.cn",
-          "theory.gmw.cn"
-        ],
-        "latest_progress": [
-          "10月21日 01:15 UTC，finance.sina.com.cn报道：“甘肃 人工智能+软件 系列活动走进天水 _ 新浪财经 _ 新浪网”。",
-          "10月20日 07:30 UTC，news.cyol.com报道：“协同推进全球人工智能伦理治理”。",
-          "10月20日 04:45 UTC，theory.gmw.cn报道：“纵深推进 人工智能+制造 行动 _ 光明网”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_74a3d55e74ac4e7f88e6",
-          "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivxvuw7957561.shtml",
-          "canonical_url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivxvuw7957561.shtml",
-          "title": "甘肃 人工智能+软件 系列活动走进天水 _ 新浪财经 _ 新浪网",
-          "summary": "",
-          "source": "finance.sina.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-21T01:15:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.113823+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9728ff97441797c44cc2",
-          "url": "http://news.cyol.com/gb/keji/articles/2026-10/20/content_jpJJZpHeBd.html",
-          "canonical_url": "https://news.cyol.com/gb/keji/articles/2026-10/20/content_jpJJZpHeBd.html",
-          "title": "协同推进全球人工智能伦理治理",
-          "summary": "",
-          "source": "news.cyol.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T07:30:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.113906+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5cda3e754f01e6c77175",
-          "url": "https://theory.gmw.cn/2026-10/20/content_39054961.htm",
-          "canonical_url": "https://theory.gmw.cn/2026-10/20/content_39054961.htm",
-          "title": "纵深推进 人工智能+制造 行动 _ 光明网",
-          "summary": "",
-          "source": "theory.gmw.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T04:45:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.114720+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2222657e4977195b6174",
-          "url": "https://tech.cnr.cn/techyw/kan/20261020/t20261020_527847592.shtml",
-          "canonical_url": "https://tech.cnr.cn/techyw/kan/20261020/t20261020_527847592.shtml",
-          "title": "人工智能+软件 专项行动实施方案印发 _ 央广网",
-          "summary": "",
-          "source": "tech.cnr.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T04:00:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.113655+00:00",
-          "language": "Chinese",
-          "region": "Global",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_cad8ce0b5036e1385aa5",
-          "url": "https://tech.cnr.cn/gstj/20261020/t20261020_527847592.shtml",
-          "canonical_url": "https://tech.cnr.cn/gstj/20261020/t20261020_527847592.shtml",
-          "title": "人工智能+软件 专项行动实施方案印发 _ 央广网",
-          "summary": "",
-          "source": "tech.cnr.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T04:00:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.113738+00:00",
-          "language": "Chinese",
-          "region": "Global",
-          "source_weight": 0.75,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0d90bebaf1679b9f0d95",
-      "title": "《 关于加快推进科技兴商的意见 》 以18条具体举措推动商贸全链条智能化 、 绿色化 、 融合化发展 脑机接口 、 具身智能加速向市场转化",
-      "category": "科技AI",
-      "score": 65.7,
-      "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 14.4,
-        "region_diversity": 5.0,
-        "recency": 7.4,
-        "credibility": 7.5,
-        "impact": 9.8,
-        "velocity": 3.7
-      },
-      "first_seen": "2026-10-19T15:30:00+00:00",
-      "last_updated": "2026-10-20T11:45:00+00:00",
-      "source_count": 4,
-      "article_count": 5,
-      "sources": [
-        "baijiahao.baidu.com",
-        "china.cnr.cn",
-        "china.qianlong.com",
-        "legaldaily.com.cn"
-      ],
-      "regions": [
-        "China",
-        "Global"
-      ],
-      "keywords": [
-        "加快",
-        "快推",
-        "推进",
-        "进科",
-        "科技",
-        "技兴",
-        "兴商",
-        "商务"
-      ],
-      "analysis": {
-        "what_happened": "据baijiahao.baidu.com、china.cnr.cn、china.qianlong.com、legaldaily.com.cn等来源的5篇报道，当前关注的科技AI事件为“《 关于加快推进科技兴商的意见 》 以18条具体举措推动商贸全链条智能化 、 绿色化 、 融合化发展 脑机接口 、 具身智能加速向市场转化”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "baijiahao.baidu.com",
-          "china.cnr.cn",
-          "china.qianlong.com",
-          "legaldaily.com.cn"
-        ],
-        "latest_progress": [
-          "10月20日 11:45 UTC，baijiahao.baidu.com报道：“加快推进科技兴商 ， 商务部等9部门发布18条举措”。",
-          "10月20日 07:45 UTC，baijiahao.baidu.com报道：“加快推进科技兴商 商务部等9部门发布18条举措”。",
-          "10月20日 04:00 UTC，china.cnr.cn报道：“我国加快推进科技兴商 推动商贸全链条智能化 、 绿色化 、 融合化发展 _ 央广网”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_73f88b04fe6febf54a92",
-          "url": "https://baijiahao.baidu.com/s?id=1879443901309159682",
-          "canonical_url": "https://baijiahao.baidu.com/s?id=1879443901309159682",
-          "title": "加快推进科技兴商 ， 商务部等9部门发布18条举措",
-          "summary": "",
-          "source": "baijiahao.baidu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T11:45:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.112402+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c67424e448a29bf5470e",
-          "url": "https://baijiahao.baidu.com/s?id=1879443237290135589",
-          "canonical_url": "https://baijiahao.baidu.com/s?id=1879443237290135589",
-          "title": "加快推进科技兴商 商务部等9部门发布18条举措",
-          "summary": "",
-          "source": "baijiahao.baidu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T07:45:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.112518+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_541f02b910ec686821ef",
-          "url": "https://china.cnr.cn/news/20261020/t20261020_527847468.shtml",
-          "canonical_url": "https://china.cnr.cn/news/20261020/t20261020_527847468.shtml",
-          "title": "我国加快推进科技兴商 推动商贸全链条智能化 、 绿色化 、 融合化发展 _ 央广网",
-          "summary": "",
-          "source": "china.cnr.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T04:00:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.116294+00:00",
-          "language": "Chinese",
-          "region": "Global",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_b4262fb3227912ce79a6",
-          "url": "https://china.qianlong.com/2026/1020/8740456.shtml",
-          "canonical_url": "https://china.qianlong.com/2026/1020/8740456.shtml",
-          "title": "《 关于加快推进科技兴商的意见 》 以18条具体举措推动商贸全链条智能化 、 绿色化 、 融合化发展 脑机接口 、 具身智能加速向市场转化",
-          "summary": "",
-          "source": "china.qianlong.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T21:45:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.113084+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4bddc3c1ce8fe76cfb23",
-          "url": "http://www.legaldaily.com.cn/index_article/content/2026-10/19/content_9474922.html",
-          "canonical_url": "https://www.legaldaily.com.cn/index_article/content/2026-10/19/content_9474922.html",
-          "title": "商务部等9部门印发 《 关于加快推进科技兴商的意见 》",
-          "summary": "",
-          "source": "legaldaily.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-19T15:30:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.114888+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_beff9b9dc24985a96fa5",
-      "title": "不断提升工业经济运行质效 （ 权威发布 ）",
-      "category": "经济金融",
-      "score": 63.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 7.5,
-        "impact": 11.7,
-        "velocity": 2.2
-      },
-      "first_seen": "2026-10-20T23:30:00+00:00",
-      "last_updated": "2026-10-21T13:00:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "163.com",
-        "baijiahao.baidu.com"
-      ],
-      "regions": [
-        "China"
-      ],
-      "keywords": [
-        "不断",
-        "断提",
-        "提升",
-        "升工",
-        "工业",
-        "业经",
-        "经济",
-        "济运"
-      ],
-      "analysis": {
-        "what_happened": "据163.com、baijiahao.baidu.com等来源的2篇报道，当前关注的经济金融事件为“不断提升工业经济运行质效 （ 权威发布 ）”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "163.com",
-          "baijiahao.baidu.com"
-        ],
-        "latest_progress": [
-          "10月21日 13:00 UTC，163.com报道：“不断提升工业经济运行质效 （ 权威发布 ）”。",
-          "10月20日 23:30 UTC，baijiahao.baidu.com报道：“不断提升工业经济运行质效 （ 权威发布 ）”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_be3aaa51942c7d155652",
-          "url": "https://www.163.com/dy/article/L9OC5LC40514R9M0.html",
-          "canonical_url": "https://www.163.com/dy/article/L9OC5LC40514R9M0.html",
-          "title": "不断提升工业经济运行质效 （ 权威发布 ）",
-          "summary": "",
-          "source": "163.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-21T13:00:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.116213+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7c2a983fdac575a10a0c",
-          "url": "https://baijiahao.baidu.com/s?id=1879610248004876974",
-          "canonical_url": "https://baijiahao.baidu.com/s?id=1879610248004876974",
-          "title": "不断提升工业经济运行质效 （ 权威发布 ）",
-          "summary": "",
-          "source": "baijiahao.baidu.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-20T23:30:00+00:00",
-          "fetched_at": "2026-10-21T13:47:52.116131+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
           "image_url": null
         }
       ]
