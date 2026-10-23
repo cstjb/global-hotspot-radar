@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T18:22:43.437910+00:00",
+  "generated_at": "2026-10-23T22:12:36.437569+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 85,
-    "articles_unique": 85,
+    "articles_fetched": 77,
+    "articles_unique": 77,
     "errors": [
       {
         "source": "GDELT: (conflict OR election OR economy OR technolog",
@@ -12,7 +12,7 @@
       },
       {
         "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&"
       }
     ]
   },
@@ -21,18 +21,18 @@
       "event_id": "evt_611671e178ca30246797",
       "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
       "category": "军事安全",
-      "score": 88.9,
+      "score": 86.6,
       "score_breakdown": {
         "coverage": 17.9,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 21.2,
+        "recency": 19.0,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-23T08:25:00+00:00",
-      "last_updated": "2026-10-23T17:30:51+00:00",
+      "last_updated": "2026-10-23T18:38:26+00:00",
       "source_count": 4,
       "article_count": 5,
       "sources": [
@@ -49,28 +49,28 @@
       "keywords": [
         "west",
         "bank",
-        "israeli",
         "soldiers",
+        "israeli",
+        "israel",
         "killed",
         "two",
-        "israel",
-        "orders"
+        "hebron"
       ],
       "analysis": {
         "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Jerusalem Daily",
           "Israel",
-          "West Bank Israeli",
           "West Bank",
-          "Israeli",
+          "Hebron",
+          "Jerusalem Daily",
+          "West Bank Israeli",
           "Palestinian",
-          "Hebron"
+          "Israeli"
         ],
         "latest_progress": [
+          "10月23日 18:38 UTC，Al Jazeera报道：“Israel locks down occupied West Bank after Hebron shooting”。",
           "10月23日 17:30 UTC，Al Jazeera报道：“Jerusalem Daily: Israel to ‘lock down’ occupied West Bank”。",
-          "10月23日 16:37 UTC，Al Jazeera报道：“Israeli roadblocks disrupt schools and medical care in West Bank village”。",
           "10月23日 15:37 UTC，BBC World报道：“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -84,6 +84,21 @@
       },
       "articles": [
         {
+          "article_id": "art_f795615a71ab2dac6760",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
+          "title": "Israel locks down occupied West Bank after Hebron shooting",
+          "summary": "Israel has imposed a lockdown across the occupied West Bank after a shooting near Hebron killed two Israeli soldiers.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T18:38:26+00:00",
+          "fetched_at": "2026-10-23T22:12:35.569992+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_f5f129983c01e29f2c10",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/jerusalem-daily-netanyahu-orders-a-full-lockdown-of-the-occupied-west-ba?traffic_source=rss",
@@ -92,22 +107,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-23T17:30:51+00:00",
-          "fetched_at": "2026-10-23T18:22:42.434552+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4f6c75c0c06fa03e3e3f",
-          "url": "https://www.aljazeera.com/news/2026/10/23/israeli-roadblocks-disrupt-schools-and-medical-care-in-west-bank-village?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/israeli-roadblocks-disrupt-schools-and-medical-care-in-west-bank-village?traffic_source=rss",
-          "title": "Israeli roadblocks disrupt schools and medical care in West Bank village",
-          "summary": "Residents of Madama describe being cut off from hospitals, schools, and olive groves as Israeli forces blockade village.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-23T16:37:59+00:00",
-          "fetched_at": "2026-10-23T18:22:42.435630+00:00",
+          "fetched_at": "2026-10-23T22:12:35.570504+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -122,7 +122,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T15:37:07+00:00",
-          "fetched_at": "2026-10-23T18:22:41.348921+00:00",
+          "fetched_at": "2026-10-23T22:12:34.449044+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -137,7 +137,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-23T09:40:32+00:00",
-          "fetched_at": "2026-10-23T18:22:42.292537+00:00",
+          "fetched_at": "2026-10-23T22:12:35.427958+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -152,7 +152,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T08:25:00+00:00",
-          "fetched_at": "2026-10-23T18:22:41.909032+00:00",
+          "fetched_at": "2026-10-23T22:12:35.137359+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -161,21 +161,21 @@
       ]
     },
     {
-      "event_id": "evt_5ee5437bdeb8d7e2c58a",
+      "event_id": "evt_bbf2e84347107b0dfa94",
       "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
       "category": "军事安全",
-      "score": 81.6,
+      "score": 81.1,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.8,
+        "recency": 21.3,
         "credibility": 9.9,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-23T13:32:40+00:00",
-      "last_updated": "2026-10-23T18:10:56+00:00",
+      "first_seen": "2026-10-23T15:59:36+00:00",
+      "last_updated": "2026-10-23T21:27:32+00:00",
       "source_count": 3,
       "article_count": 4,
       "sources": [
@@ -190,27 +190,27 @@
       "keywords": [
         "church",
         "jordan",
-        "shooting",
-        "funeral",
         "gunmen",
-        "dozens",
-        "seven",
-        "fire"
+        "funeral",
+        "people",
+        "shooting",
+        "karak",
+        "seven"
       ],
       "analysis": {
         "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Seven shot dead by gunmen at church funeral in Jordan, officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Seven",
+          "Masked",
+          "Jordan Seven",
           "Jordan",
           "Karak",
-          "CCTV",
-          "Jordan At"
+          "CCTV"
         ],
         "latest_progress": [
-          "10月23日 18:10 UTC，BBC World报道：“Seven shot dead by gunmen at church funeral in Jordan, officials say”。",
-          "10月23日 18:03 UTC，DW Top Stories报道：“Jordan: Karak church shooting leaves 7 dead, dozens injured”。",
-          "10月23日 15:59 UTC，BBC World报道：“Watch: CCTV footage appears to show gunmen near church in Jordan”。"
+          "10月23日 21:27 UTC，Al Jazeera报道：“Masked gunmen kill seven in attack on church funeral in Jordan”。",
+          "10月23日 19:46 UTC，BBC World报道：“Seven shot dead by gunmen at church funeral in Jordan, officials say”。",
+          "10月23日 18:33 UTC，DW Top Stories报道：“Jordan: Karak church shooting leaves 7 dead, dozens injured”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -223,6 +223,21 @@
       },
       "articles": [
         {
+          "article_id": "art_84100e574b083cb75d51",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/aje-onl-nf_masked-gunmen-kill-seven-in-attack-on-church-jordan-231026?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/aje-onl-nf_masked-gunmen-kill-seven-in-attack-on-church-jordan-231026?traffic_source=rss",
+          "title": "Masked gunmen kill seven in attack on church funeral in Jordan",
+          "summary": "At least seven people were killed and 34 wounded after two masked gunmen opened fire at a church in Karak, Jordan.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T21:27:32+00:00",
+          "fetched_at": "2026-10-23T22:12:35.568916+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_300d5d52a1c64288d09f",
           "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_campaign=rss&at_medium=RSS",
@@ -230,8 +245,8 @@
           "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-23T18:10:56+00:00",
-          "fetched_at": "2026-10-23T18:22:41.348751+00:00",
+          "published_at": "2026-10-23T19:46:30+00:00",
+          "fetched_at": "2026-10-23T22:12:34.448823+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -242,11 +257,11 @@
           "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
           "canonical_url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
           "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-          "summary": "A shooting at a Greek Orthodox church in southern Jordan happened during a funeral, according to local authorities. Two unidentified men opened fire on the procession.",
+          "summary": "A shooting at a Greek Orthodox church in southern Jordan happened during a funeral, according to authorities. Two unidentified men opened fire on the procession, with Jordan's king vowing \"the harshest retaliation.\"",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-23T18:03:00+00:00",
-          "fetched_at": "2026-10-23T18:22:41.907499+00:00",
+          "published_at": "2026-10-23T18:33:00+00:00",
+          "fetched_at": "2026-10-23T22:12:35.136398+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -256,50 +271,35 @@
           "article_id": "art_414706917b1ce875b47b",
           "url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/videos/c39wz712q0kzo?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: CCTV footage appears to show gunmen near church in Jordan",
+          "title": "Watch: CCTV footage shows gunmen near church in Jordan",
           "summary": "Dozens of people had been inside the church for a funeral when the shooting began, local media report.",
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T15:59:36+00:00",
-          "fetched_at": "2026-10-23T18:22:41.351743+00:00",
+          "fetched_at": "2026-10-23T22:12:34.449871+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0594/live/4fa5d550-cefa-11f1-93e1-3b657b665bcf.jpg"
-        },
-        {
-          "article_id": "art_f60991a241b2f584a2c2",
-          "url": "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/at-least-seven-killed-after-gunmen-open-fire-at-church-in-jordan?traffic_source=rss",
-          "title": "At least seven killed after gunmen open fire at church in Jordan",
-          "summary": "Survivors say two masked men began shooting as dozens attended a funeral procession.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-23T13:32:40+00:00",
-          "fetched_at": "2026-10-23T18:22:42.437530+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_002822901b2d4b6c9a49",
-      "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+      "event_id": "evt_0a9bad5df0abd84d2ca2",
+      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "category": "军事安全",
-      "score": 79.4,
+      "score": 77.6,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.9,
+        "recency": 20.1,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-23T13:39:06+00:00",
-      "last_updated": "2026-10-23T18:17:00+00:00",
+      "first_seen": "2026-10-23T18:17:00+00:00",
+      "last_updated": "2026-10-23T20:02:21+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
@@ -312,31 +312,29 @@
         "Middle East"
       ],
       "keywords": [
-        "city",
         "russia",
         "ukraine",
+        "city",
         "ceasefire",
-        "ukrainian",
         "oleshky",
-        "white",
-        "house"
+        "truce",
+        "melania",
+        "trump"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Russia",
           "Ukraine",
-          "US",
-          "White House",
           "Melania Trump",
-          "Ukrainian",
-          "Oleshky"
+          "White House",
+          "US"
         ],
         "latest_progress": [
-          "10月23日 18:17 UTC，DW Top Stories报道：“Russia, Ukraine agree to US-brokered, 1 city ceasefire”。",
-          "10月23日 16:59 UTC，BBC World报道：“White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'”。",
-          "10月23日 13:39 UTC，Al Jazeera报道：“Melania Trump ‘secured ceasefire’ in Ukrainian city of Oleshky: White House”。"
+          "10月23日 20:02 UTC，Al Jazeera报道：“Russia, Ukraine agree to Melania Trump-brokered localised ceasefire”。",
+          "10月23日 19:30 UTC，BBC World报道：“White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'”。",
+          "10月23日 18:17 UTC，DW Top Stories报道：“Russia, Ukraine agree to US-brokered, 1 city ceasefire”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -349,6 +347,36 @@
       },
       "articles": [
         {
+          "article_id": "art_1c6553f04b2d9abad2b7",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
+          "title": "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
+          "summary": "President Trump says it was First Lady Melania Trump’s initiative that led to a ceasefire in Oleshky.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T20:02:21+00:00",
+          "fetched_at": "2026-10-23T22:12:35.569513+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f75be6b525849d0f3b99",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_campaign=rss&at_medium=RSS",
+          "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+          "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-23T19:30:19+00:00",
+          "fetched_at": "2026-10-23T22:12:34.449145+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7099/live/5602f2d0-b770-11f1-a7b2-f3bdba1cd194.jpg"
+        },
+        {
           "article_id": "art_4e39a62d1827bfc57d49",
           "url": "https://www.dw.com/en/russia-ukraine-agree-to-us-brokered-1-city-ceasefire/a-79746723?maca=en-rss-en-top-1022-rdf",
           "canonical_url": "https://www.dw.com/en/russia-ukraine-agree-to-us-brokered-1-city-ceasefire/a-79746723?maca=en-rss-en-top-1022-rdf",
@@ -357,145 +385,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T18:17:00+00:00",
-          "fetched_at": "2026-10-23T18:22:41.907348+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f75be6b525849d0f3b99",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_campaign=rss&at_medium=RSS",
-          "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
-          "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-23T16:59:51+00:00",
-          "fetched_at": "2026-10-23T18:22:41.349107+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7099/live/5602f2d0-b770-11f1-a7b2-f3bdba1cd194.jpg"
-        },
-        {
-          "article_id": "art_84a3dfec5d3d138695fd",
-          "url": "https://www.aljazeera.com/news/2026/10/23/white-house-says-melania-trump-secured-a-ceasefire-in-ukraines-oleshky?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/white-house-says-melania-trump-secured-a-ceasefire-in-ukraines-oleshky?traffic_source=rss",
-          "title": "Melania Trump ‘secured ceasefire’ in Ukrainian city of Oleshky: White House",
-          "summary": "White House says 'localised' ceasefire to take effect, as Russia and Ukraine say timing being determined.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-23T13:39:06+00:00",
-          "fetched_at": "2026-10-23T18:22:42.437385+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_f964f6683ba55fe7e86b",
-      "title": "Deadly shooting near Paris investigated as 'crime of terrorism', minister says",
-      "category": "国际政治",
-      "score": 75.7,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.2,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-23T11:22:00+00:00",
-      "last_updated": "2026-10-23T16:17:02+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "paris",
-        "killed",
-        "wounded",
-        "shooting",
-        "near",
-        "police",
-        "investigating",
-        "motive"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Deadly shooting near Paris investigated as 'crime of terrorism', minister says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Deadly",
-          "Paris",
-          "Islamophobic",
-          "Paris France"
-        ],
-        "latest_progress": [
-          "10月23日 16:17 UTC，BBC World报道：“Deadly shooting near Paris investigated as 'crime of terrorism', minister says”。",
-          "10月23日 16:08 UTC，Al Jazeera报道：“One person killed in suspected ‘Islamophobic’ shooting near Paris”。",
-          "10月23日 11:22 UTC，DW Top Stories报道：“France: 1 killed, 4 wounded after shooting near Paris”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5b186d95ea4416ebd29c",
-          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_campaign=rss&at_medium=RSS",
-          "title": "Deadly shooting near Paris investigated as 'crime of terrorism', minister says",
-          "summary": "One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-23T16:17:02+00:00",
-          "fetched_at": "2026-10-23T18:22:41.348553+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c59/live/b8966750-cef5-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_ef423c5db3e018370001",
-          "url": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
-          "title": "One person killed in suspected ‘Islamophobic’ shooting near Paris",
-          "summary": "Antiterrorism prosecutors investigating motive of attack that seriously wounded five, including a 12-year-old girl.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-23T16:08:04+00:00",
-          "fetched_at": "2026-10-23T18:22:42.435935+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_38786a2db879ba001342",
-          "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-top-1022-rdf",
-          "title": "France: 1 killed, 4 wounded after shooting near Paris",
-          "summary": "French police arrested a suspect after gunshots were fired on the outskirts of Paris. Police are investigating a possible racist motive.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T11:22:00+00:00",
-          "fetched_at": "2026-10-23T18:22:41.908542+00:00",
+          "fetched_at": "2026-10-23T22:12:35.136476+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -504,105 +394,107 @@
       ]
     },
     {
-      "event_id": "evt_a96d8afa66edb15ca1ef",
-      "title": "Many feared trapped after multistorey building collapses in Kenya",
-      "category": "能源资源",
-      "score": 73.5,
+      "event_id": "evt_130404ffc3c05861bb2c",
+      "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
+      "category": "社会突发",
+      "score": 73.3,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 9.8,
-        "impact": 11.0,
+        "recency": 21.0,
+        "credibility": 9.5,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-23T14:09:00+00:00",
-      "last_updated": "2026-10-23T17:49:04+00:00",
+      "first_seen": "2026-10-23T12:11:00+00:00",
+      "last_updated": "2026-10-23T21:09:00+00:00",
       "source_count": 2,
       "article_count": 3,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "North America"
       ],
       "keywords": [
-        "building",
-        "feared",
-        "trapped",
-        "many",
-        "collapsed",
-        "nairobi",
-        "people",
-        "kenya"
+        "ebola",
+        "kenya",
+        "nigeria",
+        "cases",
+        "health",
+        "officials",
+        "investigating",
+        "whether"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的能源资源事件为“Many feared trapped after multistorey building collapses in Kenya”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据DW Top Stories、NPR World等来源的3篇报道，当前关注的社会突发事件为“Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Many",
-          "Kenya Many",
+          "Ebola",
           "Kenya",
-          "Nairobi"
+          "Authorities",
+          "Nigeria Ebola",
+          "Uganda",
+          "Nigeria"
         ],
         "latest_progress": [
-          "10月23日 17:49 UTC，Al Jazeera报道：“Many feared trapped after multistorey building collapses in Kenya”。",
-          "10月23日 17:01 UTC，Al Jazeera报道：“Many feared trapped after Kenya building collapse”。",
-          "10月23日 14:09 UTC，DW Top Stories报道：“Many feared trapped under collapsed building in Nairobi”。"
+          "10月23日 21:09 UTC，DW Top Stories报道：“Ebola: Kenya announces second death”。",
+          "10月23日 12:41 UTC，NPR World报道：“Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths”。",
+          "10月23日 12:11 UTC，DW Top Stories报道：“Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e7d0d129fac92ad140fc",
-          "url": "https://www.aljazeera.com/news/2026/10/23/many-feared-trapped-after-multistorey-building-collapses-in-kenya?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/many-feared-trapped-after-multistorey-building-collapses-in-kenya?traffic_source=rss",
-          "title": "Many feared trapped after multistorey building collapses in Kenya",
-          "summary": "Officials say building in Nairobi's Eastleigh area had no occupation certificate, but ground floor was in use.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-23T17:49:04+00:00",
-          "fetched_at": "2026-10-23T18:22:42.434024+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6facbbfe7120b8853038",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/many-feared-trapped-after-kenya-building-collapse?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/many-feared-trapped-after-kenya-building-collapse?traffic_source=rss",
-          "title": "Many feared trapped after Kenya building collapse",
-          "summary": "Many people are feared trapped after a multi-storey building collapsed in the Kenyan capital of Nairobi.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-23T17:01:05+00:00",
-          "fetched_at": "2026-10-23T18:22:42.435173+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0e907a542a4c8ffe2458",
-          "url": "https://www.dw.com/en/many-feared-trapped-under-collapsed-building-in-nairobi/a-79744598?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/many-feared-trapped-under-collapsed-building-in-nairobi/a-79744598?maca=en-rss-en-top-1022-rdf",
-          "title": "Many feared trapped under collapsed building in Nairobi",
-          "summary": "People are feared to be trapped after a large, unfinished building in Nairobi collapsed during construction. Rescue operations have proven complicated as police fired tear gas to disperse looters.",
+          "article_id": "art_475815877c63828cd237",
+          "url": "https://www.dw.com/en/ebola-kenya-announces-second-death/a-79747550?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ebola-kenya-announces-second-death/a-79747550?maca=en-rss-en-top-1022-rdf",
+          "title": "Ebola: Kenya announces second death",
+          "summary": "Kenyan health officials said the 65-year-old ​woman was a close ‌relative of a ‌​man who died of Ebola last month. The woman developed symptoms ‌while under quarantine in Nairobi.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-23T14:09:00+00:00",
-          "fetched_at": "2026-10-23T18:22:41.908019+00:00",
+          "published_at": "2026-10-23T21:09:00+00:00",
+          "fetched_at": "2026-10-23T22:12:35.136142+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_a35c4f32043074cb4804",
+          "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+          "canonical_url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+          "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
+          "summary": "Nigeria this week recorded its first case of Ebola in the current outbreak, which has spread from the epicenter in Congo to several other African countries.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-23T12:41:39+00:00",
+          "fetched_at": "2026-10-23T22:12:35.427626+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0b9ae2cc8ce0a9ac9e4c",
+          "url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-top-1022-rdf",
+          "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
+          "summary": "Health officials are investigating whether Ebola patients in Kenya and Nigeria crossed paths at Uganda's main airport as conflicting accounts cloud the source of one infection.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T12:11:00+00:00",
+          "fetched_at": "2026-10-23T22:12:35.136944+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -614,12 +506,12 @@
       "event_id": "evt_e0aa9de04832651a0045",
       "title": "Romania blames Russia after drone sinks ship in the Black Sea",
       "category": "军事安全",
-      "score": 72.1,
+      "score": 69.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.2,
+        "recency": 18.0,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -678,7 +570,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-23T17:26:13+00:00",
-          "fetched_at": "2026-10-23T18:22:42.434854+00:00",
+          "fetched_at": "2026-10-23T22:12:35.570695+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -693,7 +585,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T14:25:00+00:00",
-          "fetched_at": "2026-10-23T18:22:41.907766+00:00",
+          "fetched_at": "2026-10-23T22:12:35.136628+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -702,114 +594,21 @@
       ]
     },
     {
-      "event_id": "evt_130404ffc3c05861bb2c",
-      "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
-      "category": "社会突发",
-      "score": 66.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.4,
-        "credibility": 9.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-23T12:11:00+00:00",
-      "last_updated": "2026-10-23T12:41:39+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "ebola",
-        "nigeria",
-        "kenya",
-        "cases",
-        "investigating",
-        "whether",
-        "crossed",
-        "paths"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的社会突发事件为“Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Authorities",
-          "Kenya",
-          "Nigeria Ebola",
-          "Uganda",
-          "Ebola",
-          "Nigeria"
-        ],
-        "latest_progress": [
-          "10月23日 12:41 UTC，NPR World报道：“Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths”。",
-          "10月23日 12:11 UTC，DW Top Stories报道：“Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a35c4f32043074cb4804",
-          "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
-          "canonical_url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
-          "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
-          "summary": "Nigeria this week recorded its first case of Ebola in the current outbreak, which has spread from the epicenter in Congo to several other African countries.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-23T12:41:39+00:00",
-          "fetched_at": "2026-10-23T18:22:42.292031+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0b9ae2cc8ce0a9ac9e4c",
-          "url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-top-1022-rdf",
-          "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
-          "summary": "Health officials are investigating whether Ebola patients in Kenya and Nigeria crossed paths at Uganda's main airport as conflicting accounts cloud the source of one infection.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T12:11:00+00:00",
-          "fetched_at": "2026-10-23T18:22:41.908299+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4825eeea71dfc01f4f44",
-      "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "event_id": "evt_f964f6683ba55fe7e86b",
+      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
       "category": "军事安全",
-      "score": 66.4,
+      "score": 66.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.2,
+        "recency": 19.8,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 2.8
+        "velocity": 3.6
       },
-      "first_seen": "2026-10-23T05:37:00+00:00",
-      "last_updated": "2026-10-23T16:19:36+00:00",
+      "first_seen": "2026-10-23T11:22:00+00:00",
+      "last_updated": "2026-10-23T19:42:08+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -820,28 +619,276 @@
         "Europe"
       ],
       "keywords": [
-        "trump",
-        "ukraine",
-        "starshield",
-        "musk's",
-        "system",
-        "back'",
-        "president",
-        "said"
+        "paris",
+        "killed",
+        "wounded",
+        "shooting",
+        "near",
+        "macron",
+        "racist",
+        "terrorist"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Ukraine says Starlink still restricted after Trump says limits lifted”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Deadly shooting near Paris is a 'racist terrorist attack', Macron says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Deadly",
+          "Paris",
+          "Macron",
+          "France"
+        ],
+        "latest_progress": [
+          "10月23日 19:42 UTC，BBC World报道：“Deadly shooting near Paris is a 'racist terrorist attack', Macron says”。",
+          "10月23日 11:22 UTC，DW Top Stories报道：“France: 1 killed, 4 wounded after shooting near Paris”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_5b186d95ea4416ebd29c",
+          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_campaign=rss&at_medium=RSS",
+          "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+          "summary": "One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-23T19:42:08+00:00",
+          "fetched_at": "2026-10-23T22:12:34.448675+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c59/live/b8966750-cef5-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_38786a2db879ba001342",
+          "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-top-1022-rdf",
+          "title": "France: 1 killed, 4 wounded after shooting near Paris",
+          "summary": "French police arrested a suspect after gunshots were fired on the outskirts of Paris in what President Macron described as a racist and terrorist attack.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T11:22:00+00:00",
+          "fetched_at": "2026-10-23T22:12:35.137083+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a96d8afa66edb15ca1ef",
+      "title": "Many feared trapped after Kenya building collapse",
+      "category": "能源资源",
+      "score": 66.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.7,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-23T14:09:00+00:00",
+      "last_updated": "2026-10-23T17:01:05+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "feared",
+        "trapped",
+        "building",
+        "many",
+        "collapsed",
+        "nairobi",
+        "people",
+        "under"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Many feared trapped after Kenya building collapse”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Many",
+          "Kenya",
+          "Nairobi"
+        ],
+        "latest_progress": [
+          "10月23日 17:01 UTC，Al Jazeera报道：“Many feared trapped after Kenya building collapse”。",
+          "10月23日 14:09 UTC，DW Top Stories报道：“Many feared trapped under collapsed building in Nairobi”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_6facbbfe7120b8853038",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/many-feared-trapped-after-kenya-building-collapse?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/many-feared-trapped-after-kenya-building-collapse?traffic_source=rss",
+          "title": "Many feared trapped after Kenya building collapse",
+          "summary": "Many people are feared trapped after a multi-storey building collapsed in the Kenyan capital of Nairobi.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T17:01:05+00:00",
+          "fetched_at": "2026-10-23T22:12:35.570876+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0e907a542a4c8ffe2458",
+          "url": "https://www.dw.com/en/many-feared-trapped-under-collapsed-building-in-nairobi/a-79744598?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/many-feared-trapped-under-collapsed-building-in-nairobi/a-79744598?maca=en-rss-en-top-1022-rdf",
+          "title": "Many feared trapped under collapsed building in Nairobi",
+          "summary": "People are feared to be trapped after a large, unfinished building in Nairobi collapsed during construction. Rescue operations have proven complicated as police fired tear gas to disperse looters.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T14:09:00+00:00",
+          "fetched_at": "2026-10-23T22:12:35.136793+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f62ec1665243957cf6dc",
+      "title": "Why is Israel increasing its presence in the Balkans?",
+      "category": "军事安全",
+      "score": 62.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.8,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-23T22:01:52+00:00",
+      "last_updated": "2026-10-23T22:01:52+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "israel",
+        "balkans",
+        "increasing",
+        "presence",
+        "leaders",
+        "deepening",
+        "ties",
+        "through"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why is Israel increasing its presence in the Balkans?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Why",
+          "Israel",
+          "Balkans"
+        ],
+        "latest_progress": [
+          "10月23日 22:01 UTC，Al Jazeera报道：“Why is Israel increasing its presence in the Balkans?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9f60e46a107e791b48c8",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/why-is-israel-increasing-its-presence-in-the-balkans?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/why-is-israel-increasing-its-presence-in-the-balkans?traffic_source=rss",
+          "title": "Why is Israel increasing its presence in the Balkans?",
+          "summary": "In the Balkans, leaders are deepening ties with Israel through defence, surveillance, and political backing. But why?",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T22:01:52+00:00",
+          "fetched_at": "2026-10-23T22:12:35.568791+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e2bc33717f403af7df6c",
+      "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+      "category": "军事安全",
+      "score": 60.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-23T18:52:17+00:00",
+      "last_updated": "2026-10-23T18:52:17+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "trump",
+        "ukraine",
+        "starlink",
+        "still",
+        "restricted",
+        "limits",
+        "lifted",
+        "network"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Ukraine says Starlink still restricted after Trump says limits lifted”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Ukraine",
           "Starlink",
-          "Trump",
-          "Musk",
-          "Starshield"
+          "Trump"
         ],
         "latest_progress": [
-          "10月23日 16:19 UTC，BBC World报道：“Ukraine says Starlink still restricted after Trump says limits lifted”。",
-          "10月23日 05:37 UTC，DW Top Stories报道：“Musk's Starshield system 'back' in Ukraine, says Trump”。"
+          "10月23日 18:52 UTC，BBC World报道：“Ukraine says Starlink still restricted after Trump says limits lifted”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -861,48 +908,33 @@
           "summary": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\".",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-23T16:19:36+00:00",
-          "fetched_at": "2026-10-23T18:22:41.349278+00:00",
+          "published_at": "2026-10-23T18:52:17+00:00",
+          "fetched_at": "2026-10-23T22:12:34.449424+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/271c/live/d171b6a0-cebc-11f1-a64c-550be9e3c66b.jpg"
-        },
-        {
-          "article_id": "art_831b228bfb433e336d82",
-          "url": "https://www.dw.com/en/musk-s-starshield-system-back-in-ukraine-says-trump/a-79738723?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/musk-s-starshield-system-back-in-ukraine-says-trump/a-79738723?maca=en-rss-en-top-1022-rdf",
-          "title": "Musk's Starshield system 'back' in Ukraine, says Trump",
-          "summary": "US President Trump has said he wouldn't comment on who called for capping Ukraine's Starshield access but added that Elon Musk had \"put it back.\" His account was rejected by Ukraine, which says nothing has changed.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T05:37:00+00:00",
-          "fetched_at": "2026-10-23T18:22:41.909548+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_3599a0fd746bcccb8630",
-      "title": "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
-      "category": "军事安全",
-      "score": 61.6,
+      "event_id": "evt_7a2ea40eb40e5c64b8e4",
+      "title": "Argentina drops investigation into President Milei over crypto fraud",
+      "category": "国际政治",
+      "score": 60.0,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 16.5,
+        "recency": 20.9,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-23T10:23:07+00:00",
-      "last_updated": "2026-10-23T11:30:32+00:00",
+      "first_seen": "2026-10-23T20:59:39+00:00",
+      "last_updated": "2026-10-23T20:59:39+00:00",
       "source_count": 1,
-      "article_count": 2,
+      "article_count": 1,
       "sources": [
         "BBC World"
       ],
@@ -910,141 +942,49 @@
         "Europe"
       ],
       "keywords": [
-        "fighters",
-        "bbc",
-        "hospitals",
-        "sudanese",
-        "paramilitary",
-        "deliberately",
-        "targeted",
-        "sudan's"
+        "milei",
+        "argentina",
+        "drops",
+        "investigation",
+        "president",
+        "crypto",
+        "fraud",
+        "javier"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的军事安全事件为“Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Argentina drops investigation into President Milei over crypto fraud”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Doctors",
-          "BBC",
-          "Sudanese",
-          "Hospitals",
-          "Sudan",
-          "RSF"
+          "Argentina",
+          "President Milei"
         ],
         "latest_progress": [
-          "10月23日 11:30 UTC，BBC World报道：“Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters”。",
-          "10月23日 10:23 UTC，BBC World报道：“Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds”。"
+          "10月23日 20:59 UTC，BBC World报道：“Argentina drops investigation into President Milei over crypto fraud”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_b930a81444c0c7d2b3b6",
-          "url": "https://www.bbc.co.uk/news/videos/c8x23gegwz34o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c8x23gegwz34o?at_campaign=rss&at_medium=RSS",
-          "title": "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
-          "summary": "A BBC investigation has found evidence that Sudanese paramilitary fighters systematically destroyed el-Fasher's healthcare system.",
+          "article_id": "art_48b7281593be9d169905",
+          "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_campaign=rss&at_medium=RSS",
+          "title": "Argentina drops investigation into President Milei over crypto fraud",
+          "summary": "Javier Milei had denied acting fraudulently when a cryptocurrency nosedived after he deleted a social media post about it.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-23T11:30:32+00:00",
-          "fetched_at": "2026-10-23T18:22:41.351886+00:00",
+          "published_at": "2026-10-23T20:59:39+00:00",
+          "fetched_at": "2026-10-23T22:12:34.449240+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d87e/live/57440ff0-ceca-11f1-93e1-3b657b665bcf.jpg"
-        },
-        {
-          "article_id": "art_00f8b83e63201da6d86d",
-          "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_campaign=rss&at_medium=RSS",
-          "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC finds",
-          "summary": "The UN human rights chief Volker Türk says the multiple attacks may amount to war crimes.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-23T10:23:07+00:00",
-          "fetched_at": "2026-10-23T18:22:41.350657+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6eeb/live/c8bb2ad0-cec3-11f1-a701-fddedf244c16.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_167e68388f67607d4e61",
-      "title": "‘Foreign policy is the economy’: How Iran war is shaping US midterm vote",
-      "category": "军事安全",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-23T15:51:29+00:00",
-      "last_updated": "2026-10-23T15:51:29+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "foreign",
-        "policy",
-        "economy",
-        "iran",
-        "war",
-        "shaping",
-        "midterm",
-        "vote"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“‘Foreign policy is the economy’: How Iran war is shaping US midterm vote”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Foreign",
-          "How Iran",
-          "US"
-        ],
-        "latest_progress": [
-          "10月23日 15:51 UTC，Al Jazeera报道：“‘Foreign policy is the economy’: How Iran war is shaping US midterm vote”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_0aad64c51cf8068e925b",
-          "url": "https://www.aljazeera.com/news/2026/10/23/foreign-policy-is-the-economy-how-iran-war-is-shaping-us-midterm-vote?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/foreign-policy-is-the-economy-how-iran-war-is-shaping-us-midterm-vote?traffic_source=rss",
-          "title": "‘Foreign policy is the economy’: How Iran war is shaping US midterm vote",
-          "summary": "Democrats are framing the conflict as an affordability issue to criticise Republican candidates backed by Trump.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-23T15:51:29+00:00",
-          "fetched_at": "2026-10-23T18:22:42.436109+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8738/live/24bdf9e0-cf1c-11f1-9796-954775b3a434.jpg"
         }
       ]
     }
