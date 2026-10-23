@@ -1,72 +1,73 @@
 {
-  "generated_at": "2026-10-22T22:22:22.832391+00:00",
+  "generated_at": "2026-10-23T01:32:18.615037+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 145,
-    "articles_unique": 145,
+    "articles_fetched": 143,
+    "articles_unique": 143,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_eedecf388c41f7699399",
-      "title": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
+      "event_id": "evt_e06f670920e1e607dec0",
+      "title": "Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran",
       "category": "军事安全",
-      "score": 77.1,
+      "score": 81.7,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 7.5,
-        "recency": 15.7,
-        "credibility": 9.0,
+        "recency": 20.6,
+        "credibility": 9.6,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 4.0
       },
-      "first_seen": "2026-10-22T04:00:00+00:00",
-      "last_updated": "2026-10-22T14:16:00+00:00",
+      "first_seen": "2026-10-22T08:56:58+00:00",
+      "last_updated": "2026-10-23T00:00:00+00:00",
       "source_count": 3,
       "article_count": 4,
       "sources": [
+        "Al Jazeera",
         "DW Top Stories",
-        "NPR World",
-        "vov.vn"
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "North America",
-        "Vietnam"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
         "iran",
-        "israel",
         "attack",
+        "israel",
         "planning",
         "possible",
         "npr",
-        "source",
-        "tells"
+        "trump",
+        "strikes"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、NPR World、vov.vn等来源的4篇报道，当前关注的军事安全事件为“U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Is Iran",
-          "US",
-          "Israel",
           "Iran",
+          "Trump",
+          "US",
+          "Iran Is Iran",
+          "Israel",
           "And",
           "Tesla",
           "NPR"
         ],
         "latest_progress": [
+          "10月23日 00:00 UTC，Al Jazeera报道：“Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran”。",
           "10月22日 14:16 UTC，DW Top Stories报道：“Is Iran ready for another major US attack after midterm elections?”。",
-          "10月22日 11:28 UTC，NPR World报道：“U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging”。",
-          "10月22日 08:56 UTC，NPR World报道：“U.S. and Israel are planning for a possible attack on Iran, source tells NPR”。"
+          "10月22日 11:28 UTC，NPR World报道：“U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -79,6 +80,21 @@
       },
       "articles": [
         {
+          "article_id": "art_884262f895eef2a6da46",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/23/trump-hints-new-strikes-says-us-knocked-hell-out-of-iran?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/23/trump-hints-new-strikes-says-us-knocked-hell-out-of-iran?traffic_source=rss",
+          "title": "Iran war live: Trump hints new strikes, says US knocked ‘hell out’ of Iran",
+          "summary": "Trump indicates new strikes on Iran, saying the US has knocked the 'hell out' of the country.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "fetched_at": "2026-10-23T01:32:17.623225+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_b5511d90a383818d29b3",
           "url": "https://www.dw.com/en/is-iran-ready-for-another-major-us-attack-after-midterm-elections/a-79734082?maca=en-rss-en-top-1022-rdf",
           "canonical_url": "https://www.dw.com/en/is-iran-ready-for-another-major-us-attack-after-midterm-elections/a-79734082?maca=en-rss-en-top-1022-rdf",
@@ -87,7 +103,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-22T14:16:00+00:00",
-          "fetched_at": "2026-10-22T22:22:20.863124+00:00",
+          "fetched_at": "2026-10-23T01:32:17.046145+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -102,7 +118,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-22T11:28:24+00:00",
-          "fetched_at": "2026-10-22T22:22:21.214561+00:00",
+          "fetched_at": "2026-10-23T01:32:17.371289+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -117,216 +133,63 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-22T08:56:58+00:00",
-          "fetched_at": "2026-10-22T22:22:21.214847+00:00",
+          "fetched_at": "2026-10-23T01:32:17.371499+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_85fbde1b14f6034fd756",
-          "url": "http://vov.vn/the-gioi/quan-sat/my-va-israel-len-ke-hoach-khong-kich-iran-ngay-sau-bau-cu-post1343595.vov",
-          "canonical_url": "https://vov.vn/the-gioi/quan-sat/my-va-israel-len-ke-hoach-khong-kich-iran-ngay-sau-bau-cu-post1343595.vov",
-          "title": "Mỹ và Israel lên kế hoạch không kích công Iran ngay sau bầu cử",
-          "summary": "",
-          "source": "vov.vn",
-          "source_type": "gdelt",
-          "published_at": "2026-10-22T04:00:00+00:00",
-          "fetched_at": "2026-10-22T22:21:02.898327+00:00",
-          "language": "Vietnamese",
-          "region": "Vietnam",
-          "source_weight": 0.75,
-          "image_url": "https://media.vov.vn/sites/default/files/styles/og_image/public/2026-10/co-so-hat-nhan-nui-pickaxe-iran.jpg?v=1792640675"
         }
       ]
     },
     {
-      "event_id": "evt_81c849ed48c1f392250e",
-      "title": "沈伯洋談股市與停班課脫鉤 蔣萬安競辦嗆 ： 搞錯權責 「 出洋相 」 | 縣市長議員選戰 | 要聞",
-      "category": "经济金融",
-      "score": 74.2,
-      "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 18.0,
-        "region_diversity": 2.5,
-        "recency": 11.6,
-        "credibility": 7.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-22T04:45:00+00:00",
-      "last_updated": "2026-10-22T07:00:00+00:00",
-      "source_count": 5,
-      "article_count": 5,
-      "sources": [
-        "chinatimes.com",
-        "ettoday.net",
-        "news.ltn.com.tw",
-        "newtalk.tw",
-        "udn.com"
-      ],
-      "regions": [
-        "Taiwan"
-      ],
-      "keywords": [
-        "沈伯",
-        "伯洋",
-        "脫鉤",
-        "股市",
-        "權責",
-        "蔣萬",
-        "萬安",
-        "安競"
-      ],
-      "analysis": {
-        "what_happened": "据chinatimes.com、ettoday.net、news.ltn.com.tw、newtalk.tw等来源的5篇报道，当前关注的经济金融事件为“沈伯洋談股市與停班課脫鉤 蔣萬安競辦嗆 ： 搞錯權責 「 出洋相 」 | 縣市長議員選戰 | 要聞”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "chinatimes.com",
-          "ettoday.net",
-          "news.ltn.com.tw",
-          "newtalk.tw",
-          "udn.com"
-        ],
-        "latest_progress": [
-          "10月22日 07:00 UTC，newtalk.tw报道：“股市與停班課脫鉤 ？ 蔣萬安競辦嗆沈伯洋 ： 連權責都不懂 要選市長 ？ | 政治”。",
-          "10月22日 06:00 UTC，udn.com报道：“沈伯洋談股市與停班課脫鉤 蔣萬安競辦嗆 ： 搞錯權責 「 出洋相 」 | 縣市長議員選戰 | 要聞”。",
-          "10月22日 05:45 UTC，news.ltn.com.tw报道：“沈伯洋提股市與停班停課脫鉤 蔣萬安競辦反批 ： 選市長連權責都不懂 ？ - 政治”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ac735b0cc1e73a16619c",
-          "url": "https://newtalk.tw/news/view/2026-10-22/1067029",
-          "canonical_url": "https://newtalk.tw/news/view/2026-10-22/1067029",
-          "title": "股市與停班課脫鉤 ？ 蔣萬安競辦嗆沈伯洋 ： 連權責都不懂 要選市長 ？ | 政治",
-          "summary": "",
-          "source": "newtalk.tw",
-          "source_type": "gdelt",
-          "published_at": "2026-10-22T07:00:00+00:00",
-          "fetched_at": "2026-10-22T22:21:02.897363+00:00",
-          "language": "Chinese",
-          "region": "Taiwan",
-          "source_weight": 0.75,
-          "image_url": "https://s.newtalk.tw/album/news/1064/6ac459539052d.png"
-        },
-        {
-          "article_id": "art_6854cc2eca523d2773bb",
-          "url": "https://udn.com/news/story/124652/9830897",
-          "canonical_url": "https://udn.com/news/story/124652/9830897",
-          "title": "沈伯洋談股市與停班課脫鉤 蔣萬安競辦嗆 ： 搞錯權責 「 出洋相 」 | 縣市長議員選戰 | 要聞",
-          "summary": "",
-          "source": "udn.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-22T06:00:00+00:00",
-          "fetched_at": "2026-10-22T22:21:02.897071+00:00",
-          "language": "Chinese",
-          "region": "Taiwan",
-          "source_weight": 0.75,
-          "image_url": "https://uc.udn.com.tw/photo/t3/2026/10/22/35444897.jpg"
-        },
-        {
-          "article_id": "art_45aff6694b12c796c7a7",
-          "url": "https://news.ltn.com.tw/news/politics/breakingnews/5614894",
-          "canonical_url": "https://news.ltn.com.tw/news/politics/breakingnews/5614894",
-          "title": "沈伯洋提股市與停班停課脫鉤 蔣萬安競辦反批 ： 選市長連權責都不懂 ？ - 政治",
-          "summary": "",
-          "source": "news.ltn.com.tw",
-          "source_type": "gdelt",
-          "published_at": "2026-10-22T05:45:00+00:00",
-          "fetched_at": "2026-10-22T22:21:02.897175+00:00",
-          "language": "Chinese",
-          "region": "Taiwan",
-          "source_weight": 0.75,
-          "image_url": "https://img.ltn.com.tw/Upload/news/600/2026/10/22/5614894_1_1.jpg"
-        },
-        {
-          "article_id": "art_c6284df6b5fb7a1797f2",
-          "url": "https://www.chinatimes.com/realtimenews/20261022002554-260407",
-          "canonical_url": "https://www.chinatimes.com/realtimenews/20261022002554-260407",
-          "title": "沈伯洋拋股市與停班課脫鉤 蔣辦 ： 搞錯權責沈伯洋再出洋相 - 政治",
-          "summary": "",
-          "source": "chinatimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-22T05:00:00+00:00",
-          "fetched_at": "2026-10-22T22:21:02.896931+00:00",
-          "language": "Chinese",
-          "region": "Taiwan",
-          "source_weight": 0.75,
-          "image_url": "https://images.chinatimes.com/newsphoto/2026-10-22/656/20261022002555.jpg"
-        },
-        {
-          "article_id": "art_39ef6973b5e14e353590",
-          "url": "https://www.ettoday.net/news/20261022/3259090.htm",
-          "canonical_url": "https://www.ettoday.net/news/20261022/3259090.htm",
-          "title": "沈伯洋提颱風假脫鉤股市 蔣萬安競辦 ： 這是立委權責都不懂 ？",
-          "summary": "",
-          "source": "ettoday.net",
-          "source_type": "gdelt",
-          "published_at": "2026-10-22T04:45:00+00:00",
-          "fetched_at": "2026-10-22T22:21:02.898374+00:00",
-          "language": "Chinese",
-          "region": "Taiwan",
-          "source_weight": 0.75,
-          "image_url": "https://cdn2.ettoday.net/images/8978/e8978121.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a3c4eec41fe9258819da",
-      "title": "Foreign national beaten to death by a mob in South Africa",
+      "event_id": "evt_75f58c320ebcf8bdbfef",
+      "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
       "category": "社会突发",
-      "score": 67.9,
+      "score": 73.7,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 10.0,
+        "recency": 21.1,
+        "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-22T16:15:25+00:00",
-      "last_updated": "2026-10-22T17:35:44+00:00",
+      "first_seen": "2026-10-22T21:23:01+00:00",
+      "last_updated": "2026-10-23T00:33:16+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "south",
-        "africa",
-        "death",
-        "wave",
-        "mob",
-        "crowd",
-        "beats",
-        "foreigner"
+        "earthquake",
+        "tibet",
+        "magnitude",
+        "kills",
+        "people",
+        "china",
+        "powerful",
+        "state"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Foreign national beaten to death by a mob in South Africa”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Foreign",
-          "South Africa Crowd",
-          "South Africa"
+          "Tibet",
+          "Magnitude",
+          "China",
+          "Xinhua"
         ],
         "latest_progress": [
-          "10月22日 17:35 UTC，Al Jazeera报道：“Foreign national beaten to death by a mob in South Africa”。",
-          "10月22日 16:15 UTC，BBC World报道：“Crowd of 50 beats foreigner to death in South Africa”。"
+          "10月23日 00:33 UTC，Al Jazeera报道：“Tibet rocked by 7.0-magnitude earthquake”。",
+          "10月22日 23:24 UTC，DW Top Stories报道：“Tibet earthquake kills at least 16 people, injures dozens: state media”。",
+          "10月22日 21:23 UTC，Al Jazeera报道：“Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -339,53 +202,68 @@
       },
       "articles": [
         {
-          "article_id": "art_1f62a14397311298ca74",
-          "url": "https://www.aljazeera.com/news/2026/10/22/foreign-national-beaten-to-death-by-a-mob-in-south-africa?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/22/foreign-national-beaten-to-death-by-a-mob-in-south-africa?traffic_source=rss",
-          "title": "Foreign national beaten to death by a mob in South Africa",
-          "summary": "Police say a 50-person mob in Durban killed a man amid a wave of anti-migrant marches.",
+          "article_id": "art_b29a58f2fb062e43baf9",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss",
+          "title": "Tibet rocked by 7.0-magnitude earthquake",
+          "summary": "Tibet rocked by 7.0-magnitude earthquake",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-22T17:35:44+00:00",
-          "fetched_at": "2026-10-22T22:22:21.453011+00:00",
+          "published_at": "2026-10-23T00:33:16+00:00",
+          "fetched_at": "2026-10-23T01:32:17.623126+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_e26b649f9d8ed2d08971",
-          "url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_campaign=rss&at_medium=RSS",
-          "title": "Crowd of 50 beats foreigner to death in South Africa",
-          "summary": "The attack on the unidentified victim follows a wave of anti-migrants protests in South Africa this year.",
-          "source": "BBC World",
+          "article_id": "art_0b233e91f9e72bbcc28a",
+          "url": "https://www.dw.com/en/tibet-earthquake-kills-at-least-16-people-injures-dozens-state-media/a-79738117?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/tibet-earthquake-kills-at-least-16-people-injures-dozens-state-media/a-79738117?maca=en-rss-en-top-1022-rdf",
+          "title": "Tibet earthquake kills at least 16 people, injures dozens: state media",
+          "summary": "A powerful magnitude 7 earthquake has struck Tibet in southwestern China, official media reported. Chinese state TV said it's the strongest quake to hit the remote Himalayan region in five years.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-22T16:15:25+00:00",
-          "fetched_at": "2026-10-22T22:22:07.908899+00:00",
+          "published_at": "2026-10-22T23:24:00+00:00",
+          "fetched_at": "2026-10-23T01:32:17.045646+00:00",
           "language": "en",
           "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_da31983f38b500ec9156",
+          "url": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports?traffic_source=rss",
+          "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
+          "summary": "The powerful earthquake has injured 32 others so far, local medics report.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-22T21:23:01+00:00",
+          "fetched_at": "2026-10-23T01:32:17.623871+00:00",
+          "language": "en",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe24/live/7227bf90-ce27-11f1-9f18-490cec60aa0f.png"
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_d3a5a09d48c98a970572",
-      "title": "US-sanctioned ICC wins top EU human rights award",
-      "category": "国际政治",
-      "score": 67.2,
+      "event_id": "evt_131ea90e28e28e69f7b0",
+      "title": "Thousands protest across Poland for access to free and legal abortions",
+      "category": "社会突发",
+      "score": 71.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.2,
+        "recency": 21.4,
         "credibility": 9.8,
-        "impact": 11.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-22T14:12:00+00:00",
-      "last_updated": "2026-10-22T17:46:03+00:00",
+      "first_seen": "2026-10-22T20:52:00+00:00",
+      "last_updated": "2026-10-23T00:54:51+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -397,28 +275,206 @@
         "Middle East"
       ],
       "keywords": [
-        "human",
+        "abortion",
+        "poland",
+        "thousands",
+        "protest",
         "rights",
-        "vietnam",
-        "top",
-        "award",
-        "putting",
-        "profits",
-        "deepening"
+        "across",
+        "court",
+        "more"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“US-sanctioned ICC wins top EU human rights award”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Thousands protest across Poland for access to free and legal abortions”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Thousands",
+          "Poland"
+        ],
+        "latest_progress": [
+          "10月23日 00:54 UTC，Al Jazeera报道：“Thousands protest across Poland for access to free and legal abortions”。",
+          "10月22日 20:52 UTC，DW Top Stories报道：“Poland: Thousands protest for more abortion rights”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4a813c5cec4bb5636d64",
+          "url": "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
+          "title": "Thousands protest across Poland for access to free and legal abortions",
+          "summary": "Demonstrators gathered on the sixth anniversary of a near-total abortion ban imposed by Poland's highest court.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T00:54:51+00:00",
+          "fetched_at": "2026-10-23T01:32:17.622950+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_178e3cf333e767b90192",
+          "url": "https://www.dw.com/en/poland-thousands-protest-for-more-abortion-rights/a-79737572?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/poland-thousands-protest-for-more-abortion-rights/a-79737572?maca=en-rss-en-top-1022-rdf",
+          "title": "Poland: Thousands protest for more abortion rights",
+          "summary": "Thousands rallied across Poland to demand abortion rights six years after a landmark court ruling tightened restrictions. The country has one of the strictest abortion rules in all of Europe.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-22T20:52:00+00:00",
+          "fetched_at": "2026-10-23T01:32:17.045723+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1e84e03f703a015e8354",
+      "title": "Almost all shallow-water coral reefs now face extinction risk, study warns",
+      "category": "能源资源",
+      "score": 69.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.2,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-22T18:18:00+00:00",
+      "last_updated": "2026-10-22T23:32:13+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "coral",
+        "reefs",
+        "risk",
+        "face",
+        "collapse",
+        "warns",
+        "almost",
+        "all"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Almost all shallow-water coral reefs now face extinction risk, study warns”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Almost",
+          "IUCN"
+        ],
+        "latest_progress": [
+          "10月22日 23:32 UTC，Al Jazeera报道：“Almost all shallow-water coral reefs now face extinction risk, study warns”。",
+          "10月22日 18:18 UTC，DW Top Stories报道：“96% of world's coral reefs face critical risk of collapse, IUCN warns”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_10888eecccad3b7c8a0f",
+          "url": "https://www.aljazeera.com/news/2026/10/22/almost-all-shallow-water-coral-reefs-now-face-extinction-risk-study-warns?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/22/almost-all-shallow-water-coral-reefs-now-face-extinction-risk-study-warns?traffic_source=rss",
+          "title": "Almost all shallow-water coral reefs now face extinction risk, study warns",
+          "summary": "World authority on threatened wildlife classifies 96 percent of assessed coral reef systems as \"critically endangered\".",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-22T23:32:13+00:00",
+          "fetched_at": "2026-10-23T01:32:17.623382+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3dbce9ca90ef3c0d8241",
+          "url": "https://www.dw.com/en/96-of-world-s-coral-reefs-face-critical-risk-of-collapse-iucn-warns/a-79736234?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/96-of-world-s-coral-reefs-face-critical-risk-of-collapse-iucn-warns/a-79736234?maca=en-rss-en-top-1022-rdf",
+          "title": "96% of world's coral reefs face critical risk of collapse, IUCN warns",
+          "summary": "Almost all of the world’s shallow-water coral reefs are at risk of collapse by 2075, with climate change the biggest threat. A new study found that 96% of reef systems are critically endangered.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-22T18:18:00+00:00",
+          "fetched_at": "2026-10-23T01:32:17.045915+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_86f687560a5d538f78e2",
+      "title": "US-sanctioned ICC wins Sakharov Prize, EU’s top human rights award",
+      "category": "国际政治",
+      "score": 65.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.3,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.4
+      },
+      "first_seen": "2026-10-22T10:04:00+00:00",
+      "last_updated": "2026-10-22T22:25:14+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "prize",
+        "sakharov",
+        "court",
+        "international",
+        "criminal",
+        "announced",
+        "human",
+        "rights"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“US-sanctioned ICC wins Sakharov Prize, EU’s top human rights award”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "US",
           "ICC",
+          "Sakharov Prize",
           "EU",
-          "Is",
-          "Vietnam"
+          "International Criminal Court"
         ],
         "latest_progress": [
-          "10月22日 17:46 UTC，Al Jazeera报道：“US-sanctioned ICC wins top EU human rights award”。",
-          "10月22日 14:12 UTC，DW Top Stories报道：“Is EU putting profits over human rights in Vietnam?”。"
+          "10月22日 22:25 UTC，Al Jazeera报道：“US-sanctioned ICC wins Sakharov Prize, EU’s top human rights award”。",
+          "10月22日 10:04 UTC，DW Top Stories报道：“EU's Sakharov Prize won by the International Criminal Court”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -431,30 +487,30 @@
       },
       "articles": [
         {
-          "article_id": "art_cdd3f201478bc548fba5",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/us-sanctioned-icc-wins-top-eu-human-rights-award?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/us-sanctioned-icc-wins-top-eu-human-rights-award?traffic_source=rss",
-          "title": "US-sanctioned ICC wins top EU human rights award",
-          "summary": "The EU has awarded the International Criminal Court its top human rights award.",
+          "article_id": "art_13aad57027af9d6d39cd",
+          "url": "https://www.aljazeera.com/news/2026/10/22/us-sanctioned-icc-wins-sakharov-prize-eus-top-human-rights-award?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/22/us-sanctioned-icc-wins-sakharov-prize-eus-top-human-rights-award?traffic_source=rss",
+          "title": "US-sanctioned ICC wins Sakharov Prize, EU’s top human rights award",
+          "summary": "The prize comes less than two weeks after US President Donald Trump announced sanctions against the court.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-22T17:46:03+00:00",
-          "fetched_at": "2026-10-22T22:22:21.452825+00:00",
+          "published_at": "2026-10-22T22:25:14+00:00",
+          "fetched_at": "2026-10-23T01:32:17.623530+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_8e7438b2fbe0d0a3ba22",
-          "url": "https://www.dw.com/en/is-eu-putting-profits-over-human-rights-in-vietnam/a-79732812?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/is-eu-putting-profits-over-human-rights-in-vietnam/a-79732812?maca=en-rss-en-top-1022-rdf",
-          "title": "Is EU putting profits over human rights in Vietnam?",
-          "summary": "The EU and Vietnam are deepening economic and diplomatic ties, but closer cooperation raises concerns about whether Brussels is doing enough to address Hanoi's human rights record, labor standards and trade imbalances.",
+          "article_id": "art_0d50136b645599b820e4",
+          "url": "https://www.dw.com/en/eu-s-sakharov-prize-won-by-the-international-criminal-court/a-79730914?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/eu-s-sakharov-prize-won-by-the-international-criminal-court/a-79730914?maca=en-rss-en-top-1022-rdf",
+          "title": "EU's Sakharov Prize won by the International Criminal Court",
+          "summary": "The EU has announced the International Criminal Court as the winner of this year's Sakharov Prize. The annual prize is awarded to individuals and organizations for their work in supporting human rights and democracy.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-22T14:12:00+00:00",
-          "fetched_at": "2026-10-22T22:22:20.863196+00:00",
+          "published_at": "2026-10-22T10:04:00+00:00",
+          "fetched_at": "2026-10-23T01:32:17.046592+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -463,15 +519,138 @@
       ]
     },
     {
+      "event_id": "evt_6ba054ef3bce80e208c4",
+      "title": "高达210亿美元 ， 凸显不平等关系 ， 对美巨额投资使日本半导体 大失血 |美国|东京",
+      "category": "科技AI",
+      "score": 64.0,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 14.4,
+        "region_diversity": 2.5,
+        "recency": 8.8,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-21T23:30:00+00:00",
+      "last_updated": "2026-10-22T03:30:00+00:00",
+      "source_count": 4,
+      "article_count": 4,
+      "sources": [
+        "163.com",
+        "baijiahao.baidu.com",
+        "hqtime.huanqiu.com",
+        "news.ifeng.com"
+      ],
+      "regions": [
+        "China"
+      ],
+      "keywords": [
+        "亿美",
+        "美元",
+        "对美",
+        "美巨",
+        "巨额",
+        "额投",
+        "投资",
+        "资使"
+      ],
+      "analysis": {
+        "what_happened": "据163.com、baijiahao.baidu.com、hqtime.huanqiu.com、news.ifeng.com等来源的4篇报道，当前关注的科技AI事件为“高达210亿美元 ， 凸显不平等关系 ， 对美巨额投资使日本半导体 大失血 |美国|东京”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "163.com",
+          "baijiahao.baidu.com",
+          "hqtime.huanqiu.com",
+          "news.ifeng.com"
+        ],
+        "latest_progress": [
+          "10月22日 03:30 UTC，hqtime.huanqiu.com报道：“高达210亿美元 ， 凸显不平等关系 ， 对美巨额投资使日本半导体 大失血”。",
+          "10月22日 02:45 UTC，news.ifeng.com报道：“210亿美元 ， 对美巨额投资使日本半导体 大失血 _ 凤凰网”。",
+          "10月22日 00:30 UTC，baijiahao.baidu.com报道：“高达210亿美元 ， 凸显不平等关系 ， 对美巨额投资使日本半导体 大失血”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_013a01daf4e32a869865",
+          "url": "https://hqtime.huanqiu.com/share/article/4ThvdFrKebU",
+          "canonical_url": "https://hqtime.huanqiu.com/share/article/4ThvdFrKebU",
+          "title": "高达210亿美元 ， 凸显不平等关系 ， 对美巨额投资使日本半导体 大失血",
+          "summary": "",
+          "source": "hqtime.huanqiu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-22T03:30:00+00:00",
+          "fetched_at": "2026-10-23T01:32:16.218897+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7b96f7cf80d2457ed14f",
+          "url": "https://news.ifeng.com/c/8xQN4DJR34f",
+          "canonical_url": "https://news.ifeng.com/c/8xQN4DJR34f",
+          "title": "210亿美元 ， 对美巨额投资使日本半导体 大失血 _ 凤凰网",
+          "summary": "",
+          "source": "news.ifeng.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-22T02:45:00+00:00",
+          "fetched_at": "2026-10-23T01:32:16.218971+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": "https://x0.ifengimg.com/ucms/2026_43/5FB09C3AEFAD5E4E7EE158C217DED550DA8FF8C8_size132_w975_h549.jpg"
+        },
+        {
+          "article_id": "art_29d452263d563a7b2ec3",
+          "url": "https://baijiahao.baidu.com/s?id=1879700842206397885",
+          "canonical_url": "https://baijiahao.baidu.com/s?id=1879700842206397885",
+          "title": "高达210亿美元 ， 凸显不平等关系 ， 对美巨额投资使日本半导体 大失血",
+          "summary": "",
+          "source": "baijiahao.baidu.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-22T00:30:00+00:00",
+          "fetched_at": "2026-10-23T01:32:16.218858+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_83d3d34285454b6a1727",
+          "url": "https://www.163.com/dy/article/L9QUUR3A0514R9OJ.html",
+          "canonical_url": "https://www.163.com/dy/article/L9QUUR3A0514R9OJ.html",
+          "title": "高达210亿美元 ， 凸显不平等关系 ， 对美巨额投资使日本半导体 大失血 |美国|东京",
+          "summary": "",
+          "source": "163.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-21T23:30:00+00:00",
+          "fetched_at": "2026-10-23T01:32:16.218934+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_a62c100e9891be4a47d1",
       "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
       "category": "军事安全",
-      "score": 66.1,
+      "score": 63.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 17.7,
+        "recency": 15.5,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -530,7 +709,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-22T17:07:03+00:00",
-          "fetched_at": "2026-10-22T22:22:07.909008+00:00",
+          "fetched_at": "2026-10-23T01:32:16.546348+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -545,7 +724,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-22T11:43:00+00:00",
-          "fetched_at": "2026-10-22T22:22:20.863617+00:00",
+          "fetched_at": "2026-10-23T01:32:17.046536+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -554,105 +733,15 @@
       ]
     },
     {
-      "event_id": "evt_86f860651120134b4ce0",
-      "title": "What is the history behind Trump’s LeBron blast over US national anthem?",
-      "category": "国际政治",
-      "score": 64.7,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-22T18:05:52+00:00",
-      "last_updated": "2026-10-22T21:51:41+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "trump",
-        "lebron",
-        "anthem",
-        "nba",
-        "james",
-        "national",
-        "star",
-        "president"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“What is the history behind Trump’s LeBron blast over US national anthem?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "What",
-          "Trump",
-          "US",
-          "NBA",
-          "James"
-        ],
-        "latest_progress": [
-          "10月22日 21:51 UTC，Al Jazeera报道：“What is the history behind Trump’s LeBron blast over US national anthem?”。",
-          "10月22日 18:05 UTC，Al Jazeera报道：“Trump slams NBA star LeBron James for disrespecting US national anthem”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7dbb6388369b03179467",
-          "url": "https://www.aljazeera.com/sports/2026/10/22/what-led-to-the-trump-lebron-feud-over-us-national-anthem?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/22/what-led-to-the-trump-lebron-feud-over-us-national-anthem?traffic_source=rss",
-          "title": "What is the history behind Trump’s LeBron blast over US national anthem?",
-          "summary": "What led to LeBron James being labelled a disgrace by US President Donald Trump, who says NBA star disgraced anthem?",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-22T21:51:41+00:00",
-          "fetched_at": "2026-10-22T22:22:21.451224+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_fd990e42fc22b6d5c956",
-          "url": "https://www.aljazeera.com/sports/2026/10/22/trump-says-nba-star-lebron-james-disrespected-us-national-anthem?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/22/trump-says-nba-star-lebron-james-disrespected-us-national-anthem?traffic_source=rss",
-          "title": "Trump slams NBA star LeBron James for disrespecting US national anthem",
-          "summary": "NBA superstar LeBron James criticised by US President ⁠Donald ⁠Trump for disrespctful behaviour during national anthem.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-22T18:05:52+00:00",
-          "fetched_at": "2026-10-22T22:22:21.452647+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_2cae80fc4175c878e163",
       "title": "El Salvador's president threatens Haitian gangs over military hostages",
       "category": "军事安全",
-      "score": 64.3,
+      "score": 62.6,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 13.3,
+        "recency": 11.7,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -712,7 +801,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-22T10:17:48+00:00",
-          "fetched_at": "2026-10-22T22:22:07.910169+00:00",
+          "fetched_at": "2026-10-23T01:32:16.547232+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -727,7 +816,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-22T08:39:19+00:00",
-          "fetched_at": "2026-10-22T22:22:21.215089+00:00",
+          "fetched_at": "2026-10-23T01:32:17.371632+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -736,228 +825,53 @@
       ]
     },
     {
-      "event_id": "evt_f6f8ef81590f15beb814",
-      "title": "Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push",
-      "category": "军事安全",
-      "score": 63.2,
+      "event_id": "evt_facf7a2afcd1e959d968",
+      "title": "Microsoft , Çin bağlantılı aktörün yapay zeka kullanarak yüzlerce kuruluşu hedef aldığını belirtti",
+      "category": "社会突发",
+      "score": 61.2,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 3.6,
+        "source_diversity": 10.8,
         "region_diversity": 2.5,
-        "recency": 18.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 2.1
-      },
-      "first_seen": "2026-10-21T19:58:06+00:00",
-      "last_updated": "2026-10-22T17:49:13+00:00",
-      "source_count": 1,
-      "article_count": 3,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "russia",
-        "talks",
-        "peace",
-        "ukraine",
-        "agrees",
-        "resume",
-        "president",
-        "war"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的3篇报道，当前关注的军事安全事件为“Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ukraine",
-          "Russia",
-          "Missiles",
-          "Kyiv",
-          "US",
-          "Rosenberg"
-        ],
-        "latest_progress": [
-          "10月22日 17:49 UTC，BBC World报道：“Ukraine hit by strikes after Russia agrees to new peace talks”。",
-          "10月21日 21:27 UTC，BBC World报道：“Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks”。",
-          "10月21日 19:58 UTC，BBC World报道：“Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f12b3969416d2b30dc54",
-          "url": "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_campaign=rss&at_medium=RSS",
-          "title": "Ukraine hit by strikes after Russia agrees to new peace talks",
-          "summary": "The three waves of Russian missiles were launched at hours after Russia said it was \"ready in principle\" to resume peace talks with the US and Ukraine.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-22T17:49:13+00:00",
-          "fetched_at": "2026-10-22T22:22:07.910917+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af60/live/691b9580-ce35-11f1-a86f-f78305ec9987.jpg"
-        },
-        {
-          "article_id": "art_faea1cb547a34976f50d",
-          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_campaign=rss&at_medium=RSS",
-          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-          "summary": "Moscow says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-21T21:27:41+00:00",
-          "fetched_at": "2026-10-22T22:22:07.910425+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/abac/live/5ed152f0-cd8f-11f1-b1e7-39558e114359.jpg"
-        },
-        {
-          "article_id": "art_ee366bb76e3be0a744d4",
-          "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_campaign=rss&at_medium=RSS",
-          "title": "Rosenberg: Russia agrees to Ukraine talks but sees little to talk about in new peace push",
-          "summary": "President Vladimir Putin does not feel under pressure right now to end the war, the BBC's Russia Editor writes.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-21T19:58:06+00:00",
-          "fetched_at": "2026-10-22T22:22:07.911626+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d18d/live/67ecd1c0-cdee-11f1-bc2e-018d645d8d21.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4ba78544232afd123852",
-      "title": "US judge blocks federal operations seeking to identify non-citizen voters",
-      "category": "军事安全",
-      "score": 62.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-22T21:52:52+00:00",
-      "last_updated": "2026-10-22T21:52:52+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "voters",
-        "judge",
-        "blocks",
-        "federal",
-        "operations",
-        "seeking",
-        "identify",
-        "non-citizen"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“US judge blocks federal operations seeking to identify non-citizen voters”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US"
-        ],
-        "latest_progress": [
-          "10月22日 21:52 UTC，Al Jazeera报道：“US judge blocks federal operations seeking to identify non-citizen voters”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2cb68d9fe2c11098ebcd",
-          "url": "https://www.aljazeera.com/news/2026/10/22/us-judge-blocks-federal-operations-seeking-to-identify-non-citizen-voters?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/22/us-judge-blocks-federal-operations-seeking-to-identify-non-citizen-voters?traffic_source=rss",
-          "title": "US judge blocks federal operations seeking to identify non-citizen voters",
-          "summary": "Homeland Security targets nine states in fraud investigations that critics say intimidate voters.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-22T21:52:52+00:00",
-          "fetched_at": "2026-10-22T22:22:21.450985+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_681aba683b8b87b48300",
-      "title": "First human case of Shamonda virus detected in France, officials say",
-      "category": "社会突发",
-      "score": 62.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.5,
-        "credibility": 9.8,
+        "recency": 9.8,
+        "credibility": 7.5,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-22T12:46:00+00:00",
-      "last_updated": "2026-10-22T13:53:32+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-21T23:15:00+00:00",
+      "last_updated": "2026-10-22T06:15:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
-        "BBC World",
-        "DW Top Stories"
+        "aa.com.tr",
+        "dunya.com",
+        "haberler.com"
       ],
       "regions": [
-        "Europe"
+        "Turkey"
       ],
       "keywords": [
-        "first",
-        "shamonda",
-        "virus",
-        "human",
-        "france",
-        "severely",
-        "detected",
-        "officials"
+        "zlerce",
+        "kurulu",
+        "hedef",
+        "microsoft",
+        "yapay",
+        "ald",
+        "storm",
+        "zekayla"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“First human case of Shamonda virus detected in France, officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据aa.com.tr、dunya.com、haberler.com等来源的3篇报道，当前关注的社会突发事件为“Microsoft , Çin bağlantılı aktörün yapay zeka kullanarak yüzlerce kuruluşu hedef aldığını belirtti”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "First",
-          "Shamonda",
-          "France"
+          "Microsofttan",
+          "Microsoft",
+          "Storm"
         ],
         "latest_progress": [
-          "10月22日 13:53 UTC，BBC World报道：“First human case of Shamonda virus detected in France, officials say”。",
-          "10月22日 12:46 UTC，DW Top Stories报道：“France confirms first Shamonda virus infection in a human death of 'severely immunocompromised' individual”。"
+          "10月22日 06:15 UTC，dunya.com报道：“Microsofttan küresel siber saldırı uyarısı : Yüzlerce kuruluş hedef alındı”。",
+          "10月21日 23:15 UTC，haberler.com报道：“Microsoft , Storm - 0940 ın yapay zekayla yüzlerce kuruluşu hedef aldığını bildirdi”。",
+          "10月21日 23:15 UTC，aa.com.tr报道：“Microsoft , Çin bağlantılı aktörün yapay zeka kullanarak yüzlerce kuruluşu hedef aldığını belirtti”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -970,34 +884,122 @@
       },
       "articles": [
         {
-          "article_id": "art_462f615086ef75a742cc",
-          "url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_campaign=rss&at_medium=RSS",
-          "title": "First human case of Shamonda virus detected in France, officials say",
-          "summary": "The disease, which usually affects cattle, has been identified in a patient who died in early October.",
+          "article_id": "art_8a70baf6921fd0876d7f",
+          "url": "https://www.dunya.com/dunya/microsofttan-kuresel-siber-saldiri-uyarisi-yuzlerce-kurulus-hedef-alindi-haberi-844821",
+          "canonical_url": "https://www.dunya.com/dunya/microsofttan-kuresel-siber-saldiri-uyarisi-yuzlerce-kurulus-hedef-alindi-haberi-844821",
+          "title": "Microsofttan küresel siber saldırı uyarısı : Yüzlerce kuruluş hedef alındı",
+          "summary": "",
+          "source": "dunya.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-22T06:15:00+00:00",
+          "fetched_at": "2026-10-23T01:32:16.218580+00:00",
+          "language": "Turkish",
+          "region": "Turkey",
+          "source_weight": 0.75,
+          "image_url": "https://image.dunya.com/rcman/Cw1280h720q95gc/storage/files/images/2022/09/20/siber-saldiri-lLQA_cover.jpg"
+        },
+        {
+          "article_id": "art_1bdb12e47692852c0984",
+          "url": "https://www.haberler.com/ekonomi/microsoft-storm-0940-in-yapay-zekayla-yuzlerce-20353815-haberi/",
+          "canonical_url": "https://www.haberler.com/ekonomi/microsoft-storm-0940-in-yapay-zekayla-yuzlerce-20353815-haberi",
+          "title": "Microsoft , Storm - 0940 ın yapay zekayla yüzlerce kuruluşu hedef aldığını bildirdi",
+          "summary": "",
+          "source": "haberler.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-21T23:15:00+00:00",
+          "fetched_at": "2026-10-23T01:32:16.218007+00:00",
+          "language": "Turkish",
+          "region": "Turkey",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_38903b9234ecee01d1fd",
+          "url": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoft-cin-baglantili-aktorun-yapay-zeka-kullanarak-yuzlerce-kurulusu-hedef-aldigini-belirtti/4096573",
+          "canonical_url": "https://www.aa.com.tr/tr/bilim-teknoloji/microsoft-cin-baglantili-aktorun-yapay-zeka-kullanarak-yuzlerce-kurulusu-hedef-aldigini-belirtti/4096573",
+          "title": "Microsoft , Çin bağlantılı aktörün yapay zeka kullanarak yüzlerce kuruluşu hedef aldığını belirtti",
+          "summary": "",
+          "source": "aa.com.tr",
+          "source_type": "gdelt",
+          "published_at": "2026-10-21T23:15:00+00:00",
+          "fetched_at": "2026-10-23T01:32:16.218168+00:00",
+          "language": "Turkish",
+          "region": "Turkey",
+          "source_weight": 0.75,
+          "image_url": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/22/thumbs_b_c_aec9339dc7f3034d9d5a0f44f5c96f40.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d97ac32cce413d93f982",
+      "title": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
+      "category": "军事安全",
+      "score": 61.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-22T23:16:20+00:00",
+      "last_updated": "2026-10-22T23:16:20+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "surveillance",
+        "constant",
+        "paranoia'",
+        "western",
+        "diplomats",
+        "tell",
+        "bbc",
+        "life"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Surveillance",
+          "Western",
+          "BBC",
+          "Moscow"
+        ],
+        "latest_progress": [
+          "10月22日 23:16 UTC，BBC World报道：“Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0e0a381bfaed31ba6da4",
+          "url": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_campaign=rss&at_medium=RSS",
+          "title": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
+          "summary": "Officials compare working in Russia since its full-scale invasion of Ukraine to the Cold War era.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-22T13:53:32+00:00",
-          "fetched_at": "2026-10-22T22:22:07.910256+00:00",
+          "published_at": "2026-10-22T23:16:20+00:00",
+          "fetched_at": "2026-10-23T01:32:16.547897+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f518/live/9a1112f0-ce03-11f1-8991-296181d7e3de.jpg"
-        },
-        {
-          "article_id": "art_eed2e505ddc0d5ac99b5",
-          "url": "https://www.dw.com/en/france-confirms-first-shamonda-virus-infection-in-a-human-death-of-severely-immunocompromised-individual/a-79731991?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-confirms-first-shamonda-virus-infection-in-a-human-death-of-severely-immunocompromised-individual/a-79731991?maca=en-rss-en-top-1022-rdf",
-          "title": "France confirms first Shamonda virus infection in a human death of 'severely immunocompromised' individual",
-          "summary": "The Shamonda virus has been detected in a human for the first time, French health officials said. Authorities see no risk to the public, adding that the victim, who died in early October, was severely immunocompromised.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-22T12:46:00+00:00",
-          "fetched_at": "2026-10-22T22:22:20.863412+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0791/live/d5705ef0-ce21-11f1-906e-e3128518d85d.png"
         }
       ]
     }
