@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-10-23T22:12:36.437569+00:00",
+  "generated_at": "2026-10-24T00:42:17.652083+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 77,
-    "articles_unique": 77,
+    "articles_fetched": 127,
+    "articles_unique": 127,
     "errors": [
       {
         "source": "GDELT: (conflict OR election OR economy OR technolog",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&"
       }
     ]
   },
@@ -21,20 +17,20 @@
       "event_id": "evt_611671e178ca30246797",
       "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
       "category": "军事安全",
-      "score": 86.6,
+      "score": 90.6,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 19.5,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 19.0,
+        "recency": 21.4,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-23T08:25:00+00:00",
-      "last_updated": "2026-10-23T18:38:26+00:00",
+      "last_updated": "2026-10-24T00:00:00+00:00",
       "source_count": 4,
-      "article_count": 5,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -51,27 +47,28 @@
         "bank",
         "soldiers",
         "israeli",
+        "hebron",
         "israel",
         "killed",
-        "two",
-        "hebron"
+        "two"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Iran",
           "Israel",
-          "West Bank",
           "Hebron",
+          "West Bank",
           "Jerusalem Daily",
           "West Bank Israeli",
           "Palestinian",
           "Israeli"
         ],
         "latest_progress": [
+          "10月24日 00:00 UTC，Al Jazeera报道：“Iran war live: Israel launches ‘targeted’ Hebron operation after attack”。",
           "10月23日 18:38 UTC，Al Jazeera报道：“Israel locks down occupied West Bank after Hebron shooting”。",
-          "10月23日 17:30 UTC，Al Jazeera报道：“Jerusalem Daily: Israel to ‘lock down’ occupied West Bank”。",
-          "10月23日 15:37 UTC，BBC World报道：“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。"
+          "10月23日 17:30 UTC，Al Jazeera报道：“Jerusalem Daily: Israel to ‘lock down’ occupied West Bank”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -84,6 +81,21 @@
       },
       "articles": [
         {
+          "article_id": "art_d824cd6e4750097a85f4",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/24/iran-war-live-israel-launches-targeted-hebron-operation-after-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/24/iran-war-live-israel-launches-targeted-hebron-operation-after-attack?traffic_source=rss",
+          "title": "Iran war live: Israel launches ‘targeted’ Hebron operation after attack",
+          "summary": "Israeli army launches a 'targeted' operation in Hebron after a shooting killed two soldiers.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T00:00:00+00:00",
+          "fetched_at": "2026-10-24T00:42:16.741868+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_f795615a71ab2dac6760",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
@@ -92,7 +104,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-23T18:38:26+00:00",
-          "fetched_at": "2026-10-23T22:12:35.569992+00:00",
+          "fetched_at": "2026-10-24T00:42:16.743079+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -107,7 +119,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-23T17:30:51+00:00",
-          "fetched_at": "2026-10-23T22:12:35.570504+00:00",
+          "fetched_at": "2026-10-24T00:42:16.743529+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -122,7 +134,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T15:37:07+00:00",
-          "fetched_at": "2026-10-23T22:12:34.449044+00:00",
+          "fetched_at": "2026-10-24T00:42:15.832198+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -137,7 +149,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-23T09:40:32+00:00",
-          "fetched_at": "2026-10-23T22:12:35.427958+00:00",
+          "fetched_at": "2026-10-24T00:42:16.505468+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -152,7 +164,133 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T08:25:00+00:00",
-          "fetched_at": "2026-10-23T22:12:35.137359+00:00",
+          "fetched_at": "2026-10-24T00:42:16.233605+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_130404ffc3c05861bb2c",
+      "title": "Kenya announces second Ebola death, says ‘no evidence’ of community spread",
+      "category": "社会突发",
+      "score": 80.9,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 20.1,
+        "credibility": 9.6,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-23T12:11:00+00:00",
+      "last_updated": "2026-10-23T22:33:48+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "ebola",
+        "kenya",
+        "nigeria",
+        "spread",
+        "cases",
+        "health",
+        "officials",
+        "investigating"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的社会突发事件为“Kenya announces second Ebola death, says ‘no evidence’ of community spread”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Kenya",
+          "Ebola",
+          "Authorities",
+          "Nigeria Ebola",
+          "Uganda",
+          "Nigeria"
+        ],
+        "latest_progress": [
+          "10月23日 22:33 UTC，Al Jazeera报道：“Kenya announces second Ebola death, says ‘no evidence’ of community spread”。",
+          "10月23日 21:09 UTC，DW Top Stories报道：“Ebola: Kenya announces second death”。",
+          "10月23日 12:41 UTC，NPR World报道：“Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c97917ca683ccda5df3c",
+          "url": "https://www.aljazeera.com/news/2026/10/23/kenya-announces-second-ebola-death-says-no-evidence-of-community-spread?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/kenya-announces-second-ebola-death-says-no-evidence-of-community-spread?traffic_source=rss",
+          "title": "Kenya announces second Ebola death, says ‘no evidence’ of community spread",
+          "summary": "The Ebola outbreak has now spread to four countries across eastern, central ⁠⁠and western Africa.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T22:33:48+00:00",
+          "fetched_at": "2026-10-24T00:42:16.742133+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_475815877c63828cd237",
+          "url": "https://www.dw.com/en/ebola-kenya-announces-second-death/a-79747550?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ebola-kenya-announces-second-death/a-79747550?maca=en-rss-en-top-1022-rdf",
+          "title": "Ebola: Kenya announces second death",
+          "summary": "Kenyan health officials said the 65-year-old ​woman was a close ‌relative of a ‌​man who died of Ebola last month. The woman developed symptoms ‌while under quarantine in Nairobi.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T21:09:00+00:00",
+          "fetched_at": "2026-10-24T00:42:16.232676+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_a35c4f32043074cb4804",
+          "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+          "canonical_url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+          "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
+          "summary": "Nigeria this week recorded its first case of Ebola in the current outbreak, which has spread from the epicenter in Congo to several other African countries.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-23T12:41:39+00:00",
+          "fetched_at": "2026-10-24T00:42:16.505211+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0b9ae2cc8ce0a9ac9e4c",
+          "url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-top-1022-rdf",
+          "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
+          "summary": "Health officials are investigating whether Ebola patients in Kenya and Nigeria crossed paths at Uganda's main airport as conflicting accounts cloud the source of one infection.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T12:11:00+00:00",
+          "fetched_at": "2026-10-24T00:42:16.233263+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -164,12 +302,12 @@
       "event_id": "evt_bbf2e84347107b0dfa94",
       "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
       "category": "军事安全",
-      "score": 81.1,
+      "score": 79.0,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.3,
+        "recency": 19.2,
         "credibility": 9.9,
         "impact": 13.0,
         "velocity": 5.0
@@ -231,7 +369,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-23T21:27:32+00:00",
-          "fetched_at": "2026-10-23T22:12:35.568916+00:00",
+          "fetched_at": "2026-10-24T00:42:16.742278+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -246,7 +384,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T19:46:30+00:00",
-          "fetched_at": "2026-10-23T22:12:34.448823+00:00",
+          "fetched_at": "2026-10-24T00:42:15.832040+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -261,7 +399,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T18:33:00+00:00",
-          "fetched_at": "2026-10-23T22:12:35.136398+00:00",
+          "fetched_at": "2026-10-24T00:42:16.232867+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -276,7 +414,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T15:59:36+00:00",
-          "fetched_at": "2026-10-23T22:12:34.449871+00:00",
+          "fetched_at": "2026-10-24T00:42:15.832834+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -288,12 +426,12 @@
       "event_id": "evt_0a9bad5df0abd84d2ca2",
       "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "category": "军事安全",
-      "score": 77.6,
+      "score": 75.6,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.1,
+        "recency": 18.1,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -355,7 +493,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-23T20:02:21+00:00",
-          "fetched_at": "2026-10-23T22:12:35.569513+00:00",
+          "fetched_at": "2026-10-24T00:42:16.742716+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -370,7 +508,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T19:30:19+00:00",
-          "fetched_at": "2026-10-23T22:12:34.449145+00:00",
+          "fetched_at": "2026-10-24T00:42:15.832270+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -385,116 +523,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T18:17:00+00:00",
-          "fetched_at": "2026-10-23T22:12:35.136476+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_130404ffc3c05861bb2c",
-      "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
-      "category": "社会突发",
-      "score": 73.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.0,
-        "credibility": 9.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-23T12:11:00+00:00",
-      "last_updated": "2026-10-23T21:09:00+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "ebola",
-        "kenya",
-        "nigeria",
-        "cases",
-        "health",
-        "officials",
-        "investigating",
-        "whether"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的3篇报道，当前关注的社会突发事件为“Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Ebola",
-          "Kenya",
-          "Authorities",
-          "Nigeria Ebola",
-          "Uganda",
-          "Nigeria"
-        ],
-        "latest_progress": [
-          "10月23日 21:09 UTC，DW Top Stories报道：“Ebola: Kenya announces second death”。",
-          "10月23日 12:41 UTC，NPR World报道：“Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths”。",
-          "10月23日 12:11 UTC，DW Top Stories报道：“Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_475815877c63828cd237",
-          "url": "https://www.dw.com/en/ebola-kenya-announces-second-death/a-79747550?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ebola-kenya-announces-second-death/a-79747550?maca=en-rss-en-top-1022-rdf",
-          "title": "Ebola: Kenya announces second death",
-          "summary": "Kenyan health officials said the 65-year-old ​woman was a close ‌relative of a ‌​man who died of Ebola last month. The woman developed symptoms ‌while under quarantine in Nairobi.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T21:09:00+00:00",
-          "fetched_at": "2026-10-23T22:12:35.136142+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a35c4f32043074cb4804",
-          "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
-          "canonical_url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
-          "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
-          "summary": "Nigeria this week recorded its first case of Ebola in the current outbreak, which has spread from the epicenter in Congo to several other African countries.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-23T12:41:39+00:00",
-          "fetched_at": "2026-10-23T22:12:35.427626+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0b9ae2cc8ce0a9ac9e4c",
-          "url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/uganda-says-it-has-no-active-ebola-cases-but-infections-in-kenya-and-nigeria-are-prompting-fresh-scrutiny/a-79741580?maca=en-rss-en-top-1022-rdf",
-          "title": "Uganda says it has no active Ebola cases, but infections in Kenya and Nigeria are prompting fresh scrutiny",
-          "summary": "Health officials are investigating whether Ebola patients in Kenya and Nigeria crossed paths at Uganda's main airport as conflicting accounts cloud the source of one infection.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T12:11:00+00:00",
-          "fetched_at": "2026-10-23T22:12:35.136944+00:00",
+          "fetched_at": "2026-10-24T00:42:16.232925+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -506,12 +535,12 @@
       "event_id": "evt_e0aa9de04832651a0045",
       "title": "Romania blames Russia after drone sinks ship in the Black Sea",
       "category": "军事安全",
-      "score": 69.0,
+      "score": 67.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.0,
+        "recency": 16.3,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -570,7 +599,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-23T17:26:13+00:00",
-          "fetched_at": "2026-10-23T22:12:35.570695+00:00",
+          "fetched_at": "2026-10-24T00:42:16.743671+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -585,7 +614,97 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T14:25:00+00:00",
-          "fetched_at": "2026-10-23T22:12:35.136628+00:00",
+          "fetched_at": "2026-10-24T00:42:16.233041+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_61ca94ace815a63e0bc4",
+      "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+      "category": "社会突发",
+      "score": 67.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.6,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 1.8
+      },
+      "first_seen": "2026-10-23T06:40:00+00:00",
+      "last_updated": "2026-10-23T23:10:54+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "taiwan",
+        "typhoon",
+        "champi",
+        "one",
+        "braces",
+        "nino-supercharged",
+        "approaches",
+        "island"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Typhoon Champi hits Taiwan, killing one and injuring 350”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Typhoon Champi",
+          "Taiwan",
+          "El Nino"
+        ],
+        "latest_progress": [
+          "10月23日 23:10 UTC，Al Jazeera报道：“Typhoon Champi hits Taiwan, killing one and injuring 350”。",
+          "10月23日 06:40 UTC，DW Top Stories报道：“Taiwan braces as El Nino-supercharged Typhoon Champi approaches island”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_53a2993817bb60dd8362",
+          "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+          "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+          "summary": "Authorities warn of 'destructive winds' and urge residents to shelter as the storm passes the island's northeast.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-23T23:10:54+00:00",
+          "fetched_at": "2026-10-24T00:42:16.742054+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e9cd18d68a22ccd1974a",
+          "url": "https://www.dw.com/en/taiwan-braces-as-el-nino-supercharged-typhoon-champi-approaches-island/a-79738819?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/taiwan-braces-as-el-nino-supercharged-typhoon-champi-approaches-island/a-79738819?maca=en-rss-en-top-1022-rdf",
+          "title": "Taiwan braces as El Nino-supercharged Typhoon Champi approaches island",
+          "summary": "One person has died and thousands have been evacuated as Taiwan prepares for a possible direct hit. Though no longer a \"super\" typhoon, Champi is still packing winds of nearly 200 kmh and will bring torrential rain.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T06:40:00+00:00",
+          "fetched_at": "2026-10-24T00:42:16.233775+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -597,12 +716,12 @@
       "event_id": "evt_f964f6683ba55fe7e86b",
       "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
       "category": "军事安全",
-      "score": 66.9,
+      "score": 64.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 19.8,
+        "recency": 17.9,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 3.6
@@ -656,11 +775,11 @@
           "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_campaign=rss&at_medium=RSS",
           "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-          "summary": "One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended.",
+          "summary": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T19:42:08+00:00",
-          "fetched_at": "2026-10-23T22:12:34.448675+00:00",
+          "fetched_at": "2026-10-24T00:42:15.831935+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -675,97 +794,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T11:22:00+00:00",
-          "fetched_at": "2026-10-23T22:12:35.137083+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a96d8afa66edb15ca1ef",
-      "title": "Many feared trapped after Kenya building collapse",
-      "category": "能源资源",
-      "score": 66.7,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.7,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-23T14:09:00+00:00",
-      "last_updated": "2026-10-23T17:01:05+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "feared",
-        "trapped",
-        "building",
-        "many",
-        "collapsed",
-        "nairobi",
-        "people",
-        "under"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Many feared trapped after Kenya building collapse”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Many",
-          "Kenya",
-          "Nairobi"
-        ],
-        "latest_progress": [
-          "10月23日 17:01 UTC，Al Jazeera报道：“Many feared trapped after Kenya building collapse”。",
-          "10月23日 14:09 UTC，DW Top Stories报道：“Many feared trapped under collapsed building in Nairobi”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6facbbfe7120b8853038",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/many-feared-trapped-after-kenya-building-collapse?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/many-feared-trapped-after-kenya-building-collapse?traffic_source=rss",
-          "title": "Many feared trapped after Kenya building collapse",
-          "summary": "Many people are feared trapped after a multi-storey building collapsed in the Kenyan capital of Nairobi.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-23T17:01:05+00:00",
-          "fetched_at": "2026-10-23T22:12:35.570876+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0e907a542a4c8ffe2458",
-          "url": "https://www.dw.com/en/many-feared-trapped-under-collapsed-building-in-nairobi/a-79744598?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/many-feared-trapped-under-collapsed-building-in-nairobi/a-79744598?maca=en-rss-en-top-1022-rdf",
-          "title": "Many feared trapped under collapsed building in Nairobi",
-          "summary": "People are feared to be trapped after a large, unfinished building in Nairobi collapsed during construction. Rescue operations have proven complicated as police fired tear gas to disperse looters.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T14:09:00+00:00",
-          "fetched_at": "2026-10-23T22:12:35.136793+00:00",
+          "fetched_at": "2026-10-24T00:42:16.233386+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -777,12 +806,12 @@
       "event_id": "evt_f62ec1665243957cf6dc",
       "title": "Why is Israel increasing its presence in the Balkans?",
       "category": "军事安全",
-      "score": 62.9,
+      "score": 60.7,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.8,
+        "recency": 19.7,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -837,7 +866,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-23T22:01:52+00:00",
-          "fetched_at": "2026-10-23T22:12:35.568791+00:00",
+          "fetched_at": "2026-10-24T00:42:16.742204+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -849,12 +878,12 @@
       "event_id": "evt_e2bc33717f403af7df6c",
       "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
       "category": "军事安全",
-      "score": 60.2,
+      "score": 58.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.1,
+        "recency": 17.3,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -909,7 +938,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T18:52:17+00:00",
-          "fetched_at": "2026-10-23T22:12:34.449424+00:00",
+          "fetched_at": "2026-10-24T00:42:15.832493+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -918,73 +947,75 @@
       ]
     },
     {
-      "event_id": "evt_7a2ea40eb40e5c64b8e4",
-      "title": "Argentina drops investigation into President Milei over crypto fraud",
-      "category": "国际政治",
-      "score": 60.0,
+      "event_id": "evt_bee8cc6dd465a203c29c",
+      "title": "Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like",
+      "category": "军事安全",
+      "score": 58.0,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
-        "credibility": 10.0,
-        "impact": 11.0,
+        "recency": 17.4,
+        "credibility": 9.5,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-23T20:59:39+00:00",
-      "last_updated": "2026-10-23T20:59:39+00:00",
+      "first_seen": "2026-10-23T19:08:00+00:00",
+      "last_updated": "2026-10-23T19:08:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "milei",
-        "argentina",
-        "drops",
-        "investigation",
-        "president",
-        "crypto",
-        "fraud",
-        "javier"
+        "russia's",
+        "attacks",
+        "capital",
+        "kyiv",
+        "asked",
+        "people",
+        "ground",
+        "life"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Argentina drops investigation into President Milei over crypto fraud”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Argentina",
-          "President Milei"
+          "Russia",
+          "Ukraine",
+          "Kyiv",
+          "DW"
         ],
         "latest_progress": [
-          "10月23日 20:59 UTC，BBC World报道：“Argentina drops investigation into President Milei over crypto fraud”。"
+          "10月23日 19:08 UTC，DW Top Stories报道：“Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_48b7281593be9d169905",
-          "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_campaign=rss&at_medium=RSS",
-          "title": "Argentina drops investigation into President Milei over crypto fraud",
-          "summary": "Javier Milei had denied acting fraudulently when a cryptocurrency nosedived after he deleted a social media post about it.",
-          "source": "BBC World",
+          "article_id": "art_993eb1ece4b9db10a7fa",
+          "url": "https://www.dw.com/en/russia-s-attacks-on-ukraine-s-capital-kyiv-are-intensifying-dw-asked-people-on-the-ground-what-life-is-like/a-79741090?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/russia-s-attacks-on-ukraine-s-capital-kyiv-are-intensifying-dw-asked-people-on-the-ground-what-life-is-like/a-79741090?maca=en-rss-en-top-1022-rdf",
+          "title": "Russia's attacks on Ukraine's capital, Kyiv, are intensifying. DW asked people on the ground what life is like",
+          "summary": "Russia's attacks on the Ukrainian capital are hitting harder and more frequently, making 2026 one of the long war's bloodiest years for Kyiv. DW asked people on the ground what life is like.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-23T20:59:39+00:00",
-          "fetched_at": "2026-10-23T22:12:34.449240+00:00",
+          "published_at": "2026-10-23T19:08:00+00:00",
+          "fetched_at": "2026-10-24T00:42:16.232807+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8738/live/24bdf9e0-cf1c-11f1-9796-954775b3a434.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     }
