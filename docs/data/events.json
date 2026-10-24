@@ -1,31 +1,36 @@
 {
-  "generated_at": "2026-10-24T20:49:41.253811+00:00",
+  "generated_at": "2026-10-24T23:14:29.766888+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 186,
-    "articles_unique": 185,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 137,
+    "articles_unique": 136,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_1b763ced6f9f2fe43e6f",
-      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-      "category": "军事安全",
-      "score": 80.2,
+      "event_id": "evt_ab9305ce60d77f84b1ac",
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "category": "国际政治",
+      "score": 84.1,
       "score_breakdown": {
-        "coverage": 16.1,
+        "coverage": 17.9,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 16.3,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.1
+        "recency": 20.3,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 3.2
       },
-      "first_seen": "2026-10-23T18:33:00+00:00",
-      "last_updated": "2026-10-24T13:39:26+00:00",
+      "first_seen": "2026-10-23T22:01:00+00:00",
+      "last_updated": "2026-10-24T21:21:00+00:00",
       "source_count": 4,
-      "article_count": 4,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -38,95 +43,111 @@
         "North America"
       ],
       "keywords": [
-        "church",
-        "jordan",
-        "karak",
-        "shooting",
-        "funeral",
-        "gunmen",
-        "dead",
-        "injured"
+        "protests",
+        "france",
+        "police",
+        "out",
+        "violence",
+        "clashes",
+        "thousands",
+        "everything"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Seven shot dead by gunmen at church funeral in Jordan, officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“Almost 1,000 arrested as clashes follow another day of mass protests across France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Who",
-          "Jordan",
-          "Gunmen",
-          "Seven",
-          "Karak"
+          "Protests",
+          "France",
+          "Almost",
+          "France Violent",
+          "Albanian",
+          "Clashes"
         ],
         "latest_progress": [
-          "10月24日 13:39 UTC，Al Jazeera报道：“Who was behind the deadly church shooting in Jordan?”。",
-          "10月24日 11:59 UTC，NPR World报道：“Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40”。",
-          "10月23日 19:46 UTC，BBC World报道：“Seven shot dead by gunmen at church funeral in Jordan, officials say”。"
+          "10月24日 21:21 UTC，NPR World报道：“Protests roil France once again as police seek to quell violence”。",
+          "10月24日 21:09 UTC，BBC World报道：“Almost 1,000 arrested as clashes follow another day of mass protests across France”。",
+          "10月24日 20:39 UTC，Al Jazeera报道：“Violent clashes as Albanian government cracks down on protests”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_dd97a3b73a37cc20c3a7",
-          "url": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
-          "title": "Who was behind the deadly church shooting in Jordan?",
-          "summary": "Authorities are investigating the rare attack on a Christian church; the assailants remain unidentified and at large.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T13:39:26+00:00",
-          "fetched_at": "2026-10-24T20:49:39.346921+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5fe105728dcc6fd2327e",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
-          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
-          "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
-          "summary": "Footage broadcast on Jordanian state television showed three gunmen firing shots at a Greek Orthodox church in the city of Karak on Friday.",
+          "article_id": "art_26afb774eaa43bf8b27e",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
+          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
+          "title": "Protests roil France once again as police seek to quell violence",
+          "summary": "Hundreds of thousands turned out across France to protest everything from the lack of school funding to economic inequality. Police also were out in force to prevent a repeat of last week's violence.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-24T11:59:08+00:00",
-          "fetched_at": "2026-10-24T20:49:39.206175+00:00",
+          "published_at": "2026-10-24T21:21:00+00:00",
+          "fetched_at": "2026-10-24T23:14:28.227526+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_300d5d52a1c64288d09f",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_campaign=rss&at_medium=RSS",
-          "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-          "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
+          "article_id": "art_a95b5408a0c2958c1a06",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_campaign=rss&at_medium=RSS",
+          "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+          "summary": "Officials have so far managed to avoid a repeat of last weekend's rioting and looting as hundreds of thousands took part in demonstrations.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-23T19:46:30+00:00",
-          "fetched_at": "2026-10-24T20:49:38.397847+00:00",
+          "published_at": "2026-10-24T21:09:27+00:00",
+          "fetched_at": "2026-10-24T23:14:27.782690+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9e/live/bb37b200-cee8-11f1-b441-2b33b063138f.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg"
         },
         {
-          "article_id": "art_664e15e6218ff8912f96",
-          "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
-          "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-          "summary": "A shooting at a Greek Orthodox church in southern Jordan happened during a funeral, according to authorities. Two unidentified men opened fire on the procession, with Jordan's king vowing \"the harshest retaliation.\"",
+          "article_id": "art_c0a0ccf8c248421b74d8",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/aje-onl-nf_clashes-as-albanian-pm-cracks-down-on-protests-241026?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/aje-onl-nf_clashes-as-albanian-pm-cracks-down-on-protests-241026?traffic_source=rss",
+          "title": "Violent clashes as Albanian government cracks down on protests",
+          "summary": "Protesters in Albania have fought running battles with police, on a 12th day of anti-government protests.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T20:39:08+00:00",
+          "fetched_at": "2026-10-24T23:14:28.355117+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6fa8d75f2e95c7cc0297",
+          "url": "https://www.dw.com/en/france-clashes-break-out-as-protests-go-nationwide/live-79748223?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-clashes-break-out-as-protests-go-nationwide/live-79748223?maca=en-rss-en-top-1022-rdf",
+          "title": "France: Clashes break out as protests go nationwide",
+          "summary": "Police and elite security forces were out in force in French cities as tens of thousands participated in protests on Saturday. The situation turned tense toward the end of protests in several cities, including Paris.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-23T18:33:00+00:00",
-          "fetched_at": "2026-10-24T20:49:38.967510+00:00",
+          "published_at": "2026-10-24T06:34:00+00:00",
+          "fetched_at": "2026-10-24T23:14:28.025733+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_014e387a6cc9c3ab51af",
+          "url": "https://www.dw.com/en/france-to-deploy-70-000-police-officers-ahead-of-protests/a-79747655?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-to-deploy-70-000-police-officers-ahead-of-protests/a-79747655?maca=en-rss-en-top-1022-rdf",
+          "title": "France to deploy 70,000 police officers ahead of protests",
+          "summary": "With new protests in France planned for this weekend, the authorities pledged to do everything in their power to prevent looting, violence and vandalism.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T22:01:00+00:00",
+          "fetched_at": "2026-10-24T23:14:28.026094+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -138,12 +159,12 @@
       "event_id": "evt_c8af536f4d75af638fda",
       "title": "Ukraine says Starlink connection 'now stable' after network limits",
       "category": "军事安全",
-      "score": 78.2,
+      "score": 76.2,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.9,
+        "recency": 18.9,
         "credibility": 9.7,
         "impact": 13.0,
         "velocity": 5.0
@@ -202,7 +223,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T19:33:00+00:00",
-          "fetched_at": "2026-10-24T20:49:38.965414+00:00",
+          "fetched_at": "2026-10-24T23:14:28.025133+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -217,7 +238,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T17:54:25+00:00",
-          "fetched_at": "2026-10-24T20:49:39.206004+00:00",
+          "fetched_at": "2026-10-24T23:14:28.227742+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -232,7 +253,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T12:12:40+00:00",
-          "fetched_at": "2026-10-24T20:49:38.395354+00:00",
+          "fetched_at": "2026-10-24T23:14:27.782823+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -241,15 +262,141 @@
       ]
     },
     {
+      "event_id": "evt_19cb8c70716e9095a45e",
+      "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
+      "category": "军事安全",
+      "score": 73.5,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.7,
+        "credibility": 9.9,
+        "impact": 13.0,
+        "velocity": 2.6
+      },
+      "first_seen": "2026-10-23T21:38:54+00:00",
+      "last_updated": "2026-10-24T20:37:02+00:00",
+      "source_count": 2,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "NPR World"
+      ],
+      "regions": [
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "west",
+        "bank",
+        "military",
+        "israeli",
+        "lockdown",
+        "hebron",
+        "israel",
+        "operation"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、NPR World等来源的4篇报道，当前关注的军事安全事件为“More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Could Israel",
+          "Tuesday",
+          "More",
+          "Hebron",
+          "Israel",
+          "West Bank",
+          "Full",
+          "Israeli"
+        ],
+        "latest_progress": [
+          "10月24日 20:37 UTC，Al Jazeera报道：“Could Israel’s military crackdown influence Tuesday’s election?”。",
+          "10月24日 15:50 UTC，Al Jazeera报道：“More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids”。",
+          "10月24日 14:24 UTC，Al Jazeera报道：“Full lockdown of occupied West Bank begins”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_75158c1834e1c18ed588",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
+          "title": "Could Israel’s military crackdown influence Tuesday’s election?",
+          "summary": "Israel preparing a full lockdown of occupied West Bank after Hebron gunfight.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T20:37:02+00:00",
+          "fetched_at": "2026-10-24T23:14:28.355221+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_61ef7d9240d751ab16dc",
+          "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
+          "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
+          "summary": "Palestinians in Hebron are 'living in fear' with the city closed, while Israeli forces arrest dozens across the West Bank.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T15:50:49+00:00",
+          "fetched_at": "2026-10-24T23:14:28.356132+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5dec89aa3d7b0639d84c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
+          "title": "Full lockdown of occupied West Bank begins",
+          "summary": "The Israeli army begins its lockdown and military operations across the West Bank.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T14:24:19+00:00",
+          "fetched_at": "2026-10-24T23:14:28.356501+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6ee70c1e6c697b8576fb",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+          "canonical_url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+          "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
+          "summary": "Israel's Prime Minister is vowing to launch a major military operation in the West Bank in response to an attack by two Palestinian gunmen on an Israeli military checkpoint that killed two soldiers.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-23T21:38:54+00:00",
+          "fetched_at": "2026-10-24T23:14:28.228114+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_0a9bad5df0abd84d2ca2",
       "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "category": "军事安全",
-      "score": 71.6,
+      "score": 70.0,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 16.8,
+        "recency": 15.2,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 2.2
@@ -312,7 +459,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-24T14:23:40+00:00",
-          "fetched_at": "2026-10-24T20:49:39.345964+00:00",
+          "fetched_at": "2026-10-24T23:14:28.356585+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -327,7 +474,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T07:17:44+00:00",
-          "fetched_at": "2026-10-24T20:49:38.397698+00:00",
+          "fetched_at": "2026-10-24T23:14:27.784167+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -342,7 +489,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T18:17:00+00:00",
-          "fetched_at": "2026-10-24T20:49:38.967656+00:00",
+          "fetched_at": "2026-10-24T23:14:28.026455+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -351,57 +498,55 @@
       ]
     },
     {
-      "event_id": "evt_9f09dd4e676fcd976a51",
-      "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
+      "event_id": "evt_1b763ced6f9f2fe43e6f",
+      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
       "category": "军事安全",
-      "score": 70.9,
+      "score": 68.7,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 7.2,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 17.9,
-        "credibility": 9.8,
+        "recency": 13.8,
+        "credibility": 9.7,
         "impact": 13.0,
-        "velocity": 2.0
+        "velocity": 2.6
       },
-      "first_seen": "2026-10-23T09:40:32+00:00",
-      "last_updated": "2026-10-24T15:50:49+00:00",
-      "source_count": 2,
-      "article_count": 4,
+      "first_seen": "2026-10-23T18:33:00+00:00",
+      "last_updated": "2026-10-24T11:59:08+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
-        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
         "NPR World"
       ],
       "regions": [
-        "Middle East",
+        "Europe",
         "North America"
       ],
       "keywords": [
-        "west",
-        "bank",
-        "israeli",
-        "military",
-        "attack",
-        "soldiers",
-        "two",
-        "hebron"
+        "church",
+        "jordan",
+        "karak",
+        "funeral",
+        "gunmen",
+        "shooting",
+        "dead",
+        "injured"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的4篇报道，当前关注的军事安全事件为“More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“Seven shot dead by gunmen at church funeral in Jordan, officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "More",
-          "Hebron",
-          "Israel",
-          "West Bank",
-          "Full",
-          "Israeli",
-          "PM"
+          "Gunmen",
+          "Jordan",
+          "Seven",
+          "Karak"
         ],
         "latest_progress": [
-          "10月24日 15:50 UTC，Al Jazeera报道：“More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids”。",
-          "10月24日 14:24 UTC，Al Jazeera报道：“Full lockdown of occupied West Bank begins”。",
-          "10月23日 21:38 UTC，NPR World报道：“Israeli PM pledges massive military operation after West Bank checkpoint attack”。"
+          "10月24日 11:59 UTC，NPR World报道：“Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40”。",
+          "10月23日 19:46 UTC，BBC World报道：“Seven shot dead by gunmen at church funeral in Jordan, officials say”。",
+          "10月23日 18:33 UTC，DW Top Stories报道：“Jordan: Karak church shooting leaves 7 dead, dozens injured”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -414,62 +559,47 @@
       },
       "articles": [
         {
-          "article_id": "art_61ef7d9240d751ab16dc",
-          "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-          "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
-          "summary": "Palestinians in Hebron are 'living in fear' with the city closed, while Israeli forces arrest dozens across the West Bank.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T15:50:49+00:00",
-          "fetched_at": "2026-10-24T20:49:39.345169+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5dec89aa3d7b0639d84c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
-          "title": "Full lockdown of occupied West Bank begins",
-          "summary": "The Israeli army begins its lockdown and military operations across the West Bank.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T14:24:19+00:00",
-          "fetched_at": "2026-10-24T20:49:39.345815+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6ee70c1e6c697b8576fb",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-          "canonical_url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-          "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
-          "summary": "Israel's Prime Minister is vowing to launch a major military operation in the West Bank in response to an attack by two Palestinian gunmen on an Israeli military checkpoint that killed two soldiers.",
+          "article_id": "art_5fe105728dcc6fd2327e",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+          "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+          "summary": "Footage broadcast on Jordanian state television showed three gunmen firing shots at a Greek Orthodox church in the city of Karak on Friday.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-23T21:38:54+00:00",
-          "fetched_at": "2026-10-24T20:49:39.206675+00:00",
+          "published_at": "2026-10-24T11:59:08+00:00",
+          "fetched_at": "2026-10-24T23:14:28.227837+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_52323257023fbddca6dd",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
-          "canonical_url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
-          "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-          "summary": "Israeli soldiers shot and killed two men who the military said had launched an attack near the city of Hebron in the occupied West Bank on Friday morning. At least five people were injured, including some critically.",
-          "source": "NPR World",
+          "article_id": "art_300d5d52a1c64288d09f",
+          "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_campaign=rss&at_medium=RSS",
+          "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+          "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-23T09:40:32+00:00",
-          "fetched_at": "2026-10-24T20:49:39.207263+00:00",
+          "published_at": "2026-10-23T19:46:30+00:00",
+          "fetched_at": "2026-10-24T23:14:27.784269+00:00",
           "language": "en",
-          "region": "North America",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9e/live/bb37b200-cee8-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_664e15e6218ff8912f96",
+          "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
+          "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+          "summary": "A shooting at a Greek Orthodox church in southern Jordan happened during a funeral, according to authorities. Two unidentified men opened fire on the procession, with Jordan's king vowing \"the harshest retaliation.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T18:33:00+00:00",
+          "fetched_at": "2026-10-24T23:14:28.026390+00:00",
+          "language": "en",
+          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
@@ -479,12 +609,12 @@
       "event_id": "evt_d83a68a8c34385ffa0f1",
       "title": "Minister of Foreign Affairs Lin Chia - lung urges AI , drone ties with Europe",
       "category": "科技AI",
-      "score": 70.1,
+      "score": 68.4,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 18.2,
+        "recency": 16.4,
         "credibility": 7.5,
         "impact": 9.8,
         "velocity": 5.0
@@ -549,7 +679,7 @@
           "source": "taipeitimes.com",
           "source_type": "gdelt",
           "published_at": "2026-10-24T16:15:00+00:00",
-          "fetched_at": "2026-10-24T20:49:38.228230+00:00",
+          "fetched_at": "2026-10-24T23:14:27.668476+00:00",
           "language": "English",
           "region": "Taiwan",
           "source_weight": 0.75,
@@ -564,7 +694,7 @@
           "source": "econotimes.com",
           "source_type": "gdelt",
           "published_at": "2026-10-24T14:15:00+00:00",
-          "fetched_at": "2026-10-24T20:49:38.226371+00:00",
+          "fetched_at": "2026-10-24T23:14:27.667174+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -579,7 +709,7 @@
           "source": "focustaiwan.tw",
           "source_type": "gdelt",
           "published_at": "2026-10-24T11:30:00+00:00",
-          "fetched_at": "2026-10-24T20:49:38.226774+00:00",
+          "fetched_at": "2026-10-24T23:14:27.667470+00:00",
           "language": "English",
           "region": "Taiwan",
           "source_weight": 0.75,
@@ -588,93 +718,115 @@
       ]
     },
     {
-      "event_id": "evt_6c32c65589b11ed5f9ee",
-      "title": "Armed Israeli settlers try to break into Palestinian grandfather’s home",
-      "category": "国际政治",
-      "score": 68.3,
+      "event_id": "evt_39d9c2bfa8655c3a3386",
+      "title": "Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …",
+      "category": "经济金融",
+      "score": 65.4,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.0,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 12.7,
+        "credibility": 7.5,
+        "impact": 11.7,
+        "velocity": 1.3
       },
-      "first_seen": "2026-10-24T13:16:23+00:00",
-      "last_updated": "2026-10-24T17:21:42+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-23T00:00:00+00:00",
+      "last_updated": "2026-10-24T10:00:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "econotimes.com",
+        "knews.kg",
+        "timesofindia.indiatimes.com"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "India",
+        "Kyrgyzstan",
+        "United States"
       ],
       "keywords": [
-        "israeli",
-        "palestinian",
-        "forces",
-        "two",
-        "armed",
-        "settlers",
-        "try",
-        "break"
+        "nvidia",
+        "ceo",
+        "memory",
+        "does",
+        "not",
+        "expect",
+        "supply",
+        "outrun"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Armed Israeli settlers try to break into Palestinian grandfather’s home”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据econotimes.com、knews.kg、timesofindia.indiatimes.com等来源的3篇报道，当前关注的经济金融事件为“Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Palestinian",
-          "Israeli",
-          "Hebron",
-          "Armed Israeli"
+          "NVIDIA",
+          "Nvidia",
+          "CEO",
+          "Jensen Huang",
+          "Does Not Expect Memory",
+          "Supply",
+          "Outrun Demand",
+          "Stocks Slide"
         ],
         "latest_progress": [
-          "10月24日 17:21 UTC，BBC World报道：“Palestinian families displaced as Israeli forces demolish Hebron homes”。",
-          "10月24日 13:16 UTC，Al Jazeera报道：“Armed Israeli settlers try to break into Palestinian grandfather’s home”。"
+          "10月24日 10:00 UTC，knews.kg报道：“Глава NVIDIA предложил Казахстану развивать физический ИИ”。",
+          "10月23日 15:00 UTC，timesofindia.indiatimes.com报道：“Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …”。",
+          "10月23日 00:00 UTC，econotimes.com报道：“Nvidia CEO Does Not Expect Memory Supply to Outrun Demand by 2029 as Stocks Slide”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_317e4972047ffe8fb59e",
-          "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_campaign=rss&at_medium=RSS",
-          "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
-          "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-24T17:21:42+00:00",
-          "fetched_at": "2026-10-24T20:49:38.395567+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b86/live/6920a5d0-cfba-11f1-9012-0172b9f73a72.jpg"
+          "article_id": "art_e086417384a8de101dfd",
+          "url": "https://knews.kg/2026/10/24/glava-nvidia-predlozhil-kazahstanu-razvivat-fizicheskij-ii/",
+          "canonical_url": "https://knews.kg/2026/10/24/glava-nvidia-predlozhil-kazahstanu-razvivat-fizicheskij-ii",
+          "title": "Глава NVIDIA предложил Казахстану развивать физический ИИ",
+          "summary": "",
+          "source": "knews.kg",
+          "source_type": "gdelt",
+          "published_at": "2026-10-24T10:00:00+00:00",
+          "fetched_at": "2026-10-24T23:14:27.669441+00:00",
+          "language": "Russian",
+          "region": "Kyrgyzstan",
+          "source_weight": 0.75,
+          "image_url": "https://knews.kg/wp-content/uploads/2026/10/Glava-NVIDIA-Dzhensen-Huang.webp"
         },
         {
-          "article_id": "art_305d4953415f3861db1f",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
-          "title": "Armed Israeli settlers try to break into Palestinian grandfather’s home",
-          "summary": "A Palestinian man is facing Israeli settler attacks and a demolition order from Israeli forces in Umm Safa village.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T13:16:23+00:00",
-          "fetched_at": "2026-10-24T20:49:39.347223+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "article_id": "art_862fa595a651ea1c73cb",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huang-dismisses-memory-oversupply-fears-in-2029-says-one-of-the-things-that-is/articleshow/135148536.cms",
+          "canonical_url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huang-dismisses-memory-oversupply-fears-in-2029-says-one-of-the-things-that-is/articleshow/135148536.cms",
+          "title": "Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …",
+          "summary": "",
+          "source": "timesofindia.indiatimes.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-23T15:00:00+00:00",
+          "fetched_at": "2026-10-24T23:14:27.669789+00:00",
+          "language": "English",
+          "region": "India",
+          "source_weight": 0.75,
+          "image_url": "https://static.toiimg.com/thumb/msid-135148648,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+        },
+        {
+          "article_id": "art_926dab8bacbfc5643384",
+          "url": "https://econotimes.com/Nvidia-CEO-Does-Not-Expect-Memory-Supply-to-Outrun-Demand-by-2029-as-Stocks-Slide-1760726",
+          "canonical_url": "https://econotimes.com/Nvidia-CEO-Does-Not-Expect-Memory-Supply-to-Outrun-Demand-by-2029-as-Stocks-Slide-1760726",
+          "title": "Nvidia CEO Does Not Expect Memory Supply to Outrun Demand by 2029 as Stocks Slide",
+          "summary": "",
+          "source": "econotimes.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "fetched_at": "2026-10-24T23:14:27.669725+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/7a356afe0903fb9675d88e25d556bc9f9f4dfbdfc77cd5d1cde0d92983a7ee73.webp"
         }
       ]
     },
@@ -682,12 +834,12 @@
       "event_id": "evt_23107decea808abc4fb5",
       "title": "Kim Jong Un crosses new bridge linking North Korea and China",
       "category": "国际政治",
-      "score": 66.4,
+      "score": 64.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.6,
+        "recency": 17.7,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 2.9
@@ -746,7 +898,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-24T18:00:20+00:00",
-          "fetched_at": "2026-10-24T20:49:39.344346+00:00",
+          "fetched_at": "2026-10-24T23:14:28.355695+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -761,7 +913,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T07:29:00+00:00",
-          "fetched_at": "2026-10-24T20:49:38.966240+00:00",
+          "fetched_at": "2026-10-24T23:14:28.025657+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -773,12 +925,12 @@
       "event_id": "evt_f0913d6bcf361c2225c3",
       "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
       "category": "国际政治",
-      "score": 65.8,
+      "score": 64.1,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.0,
+        "recency": 16.2,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 3.4
@@ -838,7 +990,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T15:56:48+00:00",
-          "fetched_at": "2026-10-24T20:49:38.398774+00:00",
+          "fetched_at": "2026-10-24T23:14:27.784835+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -853,7 +1005,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T15:21:44+00:00",
-          "fetched_at": "2026-10-24T20:49:38.395744+00:00",
+          "fetched_at": "2026-10-24T23:14:27.783033+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -868,7 +1020,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T02:40:00+00:00",
-          "fetched_at": "2026-10-24T20:49:38.966900+00:00",
+          "fetched_at": "2026-10-24T23:14:28.026025+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -877,21 +1029,21 @@
       ]
     },
     {
-      "event_id": "evt_31822a3e55c60dd9d9c4",
-      "title": "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0",
+      "event_id": "evt_a2d0f2b53d5cd592223d",
+      "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll",
       "category": "国际政治",
-      "score": 64.5,
+      "score": 63.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.3,
+        "recency": 20.6,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-24T14:04:27+00:00",
-      "last_updated": "2026-10-24T20:03:29+00:00",
+      "first_seen": "2026-10-24T15:36:38+00:00",
+      "last_updated": "2026-10-24T21:39:29+00:00",
       "source_count": 1,
       "article_count": 2,
       "sources": [
@@ -901,29 +1053,27 @@
         "Middle East"
       ],
       "keywords": [
-        "man",
-        "city",
-        "villa",
-        "league",
-        "aston",
-        "premier",
-        "spurs",
-        "beaten"
+        "brazil",
+        "lula",
+        "bolsonaro",
+        "run-off",
+        "about",
+        "even",
+        "ahead",
+        "election"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Arsenal",
-          "Man City",
-          "Premier League",
-          "Spurs",
-          "Chelsea",
-          "Aston Villa"
+          "Brazil",
+          "Lula",
+          "Bolsonaro",
+          "Poll"
         ],
         "latest_progress": [
-          "10月24日 20:03 UTC，Al Jazeera报道：“Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0”。",
-          "10月24日 14:04 UTC，Al Jazeera报道：“Man City beaten at Aston Villa as perfect Premier League start ends”。"
+          "10月24日 21:39 UTC，Al Jazeera报道：“Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies”。",
+          "10月24日 15:36 UTC，Al Jazeera报道：“Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -936,105 +1086,34 @@
       },
       "articles": [
         {
-          "article_id": "art_6a7b3fd69ceb0551ff4a",
-          "url": "https://www.aljazeera.com/sports/2026/10/24/arsenal-join-man-city-at-premier-league-summit-spurs-shock-chelsea-2-0?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/24/arsenal-join-man-city-at-premier-league-summit-spurs-shock-chelsea-2-0?traffic_source=rss",
-          "title": "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0",
-          "summary": "Gunners capitalise on City's first loss of the season, while Spurs get second league win at Stamford Bridge in 36 years.",
+          "article_id": "art_1658cc6f4dd2dc07a2a2",
+          "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
+          "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
+          "summary": "The pivotal run-off will determine whether Brazilians stick with their left-wing leader or shift towards the right.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-24T20:03:29+00:00",
-          "fetched_at": "2026-10-24T20:49:39.343677+00:00",
+          "published_at": "2026-10-24T21:39:29+00:00",
+          "fetched_at": "2026-10-24T23:14:28.354527+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_7c28a0402996f9271bf9",
-          "url": "https://www.aljazeera.com/sports/2026/10/24/aston-villa-inflict-man-citys-first-premier-league-defeat-of-the-season?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/24/aston-villa-inflict-man-citys-first-premier-league-defeat-of-the-season?traffic_source=rss",
-          "title": "Man City beaten at Aston Villa as perfect Premier League start ends",
-          "summary": "Nicolas Jackson scores twice - either side of an Erling Haaland header - as Aston Villa beat Man City 2-1 at Villa Park.",
+          "article_id": "art_341fd6dbc70b531fd649",
+          "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
+          "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll",
+          "summary": "The race between Brazil's president and the right-wing senator has tightened in recent days.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-24T14:04:27+00:00",
-          "fetched_at": "2026-10-24T20:49:39.346278+00:00",
+          "published_at": "2026-10-24T15:36:38+00:00",
+          "fetched_at": "2026-10-24T23:14:28.356236+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_731294ad174cd2c03d8d",
-      "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-      "category": "能源资源",
-      "score": 60.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.9,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-24T19:37:35+00:00",
-      "last_updated": "2026-10-24T19:37:35+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "paris",
-        "fireworks",
-        "tear",
-        "gas",
-        "protesters",
-        "riot",
-        "police",
-        "clash"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的能源资源事件为“Fireworks and tear gas as protesters and riot police clash in Paris”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Fireworks",
-          "Paris"
-        ],
-        "latest_progress": [
-          "10月24日 19:37 UTC，BBC World报道：“Fireworks and tear gas as protesters and riot police clash in Paris”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a0f9eb3fe57f1b7f19ee",
-          "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_campaign=rss&at_medium=RSS",
-          "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
-          "summary": "Europe correspondent Nick Beake reports from Paris where mostly peaceful protests turned into unrest after nightfall.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-24T19:37:35+00:00",
-          "fetched_at": "2026-10-24T20:49:38.398610+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4f2/live/c78fb360-cfe5-11f1-b441-2b33b063138f.jpg"
         }
       ]
     }
