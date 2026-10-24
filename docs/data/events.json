@@ -1,39 +1,35 @@
 {
-  "generated_at": "2026-10-24T10:59:33.988474+00:00",
+  "generated_at": "2026-10-24T14:32:50.278826+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 132,
-    "articles_unique": 132,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 185,
+    "articles_unique": 184,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_9f09dd4e676fcd976a51",
-      "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+      "event_id": "evt_1b763ced6f9f2fe43e6f",
+      "title": "Jordan’s King Abdullah orders firm response after deadly church attack",
       "category": "军事安全",
-      "score": 77.4,
+      "score": 87.8,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
+        "coverage": 17.9,
+        "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 20.5,
+        "recency": 21.2,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 1.9
+        "velocity": 3.9
       },
-      "first_seen": "2026-10-23T09:40:32+00:00",
-      "last_updated": "2026-10-24T09:14:40+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-10-23T18:33:00+00:00",
+      "last_updated": "2026-10-24T13:39:26+00:00",
+      "source_count": 4,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
         "BBC World",
+        "DW Top Stories",
         "NPR World"
       ],
       "regions": [
@@ -42,30 +38,30 @@
         "North America"
       ],
       "keywords": [
-        "west",
-        "bank",
-        "soldiers",
-        "israeli",
-        "attack",
-        "two",
-        "israel",
-        "men"
+        "church",
+        "jordan",
+        "karak",
+        "shooting",
+        "funeral",
+        "authorities",
+        "gunmen",
+        "attack"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的3篇报道，当前关注的军事安全事件为“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Jordan’s King Abdullah orders firm response after deadly church attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Why",
-          "Israel",
-          "West Bank",
-          "Israeli",
-          "Palestinian",
-          "Hebron"
+          "Who",
+          "Jordan",
+          "King Abdullah",
+          "Gunmen",
+          "Seven",
+          "Karak"
         ],
         "latest_progress": [
-          "10月24日 09:14 UTC，Al Jazeera报道：“Why is Israel launching a new military operation in the occupied West Bank?”。",
-          "10月23日 15:37 UTC，BBC World报道：“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。",
-          "10月23日 09:40 UTC，NPR World报道：“Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack”。"
+          "10月24日 13:39 UTC，Al Jazeera报道：“Who was behind the deadly church shooting in Jordan?”。",
+          "10月24日 13:02 UTC，Al Jazeera报道：“Jordan’s King Abdullah orders firm response after deadly church attack”。",
+          "10月24日 11:59 UTC，NPR World报道：“Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -78,47 +74,77 @@
       },
       "articles": [
         {
-          "article_id": "art_e24d0c87e518e92b727c",
-          "url": "https://www.aljazeera.com/news/2026/10/24/why-is-israel-launching-a-new-military-operation-in-the-occupied-west-bank?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/why-is-israel-launching-a-new-military-operation-in-the-occupied-west-bank?traffic_source=rss",
-          "title": "Why is Israel launching a new military operation in the occupied West Bank?",
-          "summary": "Netanyahu says 'we will destroy this place' as Israeli forces begin days-long operation with raids and demolitions.",
+          "article_id": "art_dd97a3b73a37cc20c3a7",
+          "url": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
+          "title": "Who was behind the deadly church shooting in Jordan?",
+          "summary": "Authorities are investigating the rare attack on a Christian church; the assailants remain unidentified and at large.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-24T09:14:40+00:00",
-          "fetched_at": "2026-10-24T10:59:32.576219+00:00",
+          "published_at": "2026-10-24T13:39:26+00:00",
+          "fetched_at": "2026-10-24T14:32:48.298804+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_62f48a8a1b48b16bc095",
-          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_campaign=rss&at_medium=RSS",
-          "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
-          "summary": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
+          "article_id": "art_a7dd7230764684f6b2dc",
+          "url": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss",
+          "title": "Jordan’s King Abdullah orders firm response after deadly church attack",
+          "summary": "Authorities are still searching for the attackers and say it is too early to determine if they had ties to known groups.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T13:02:51+00:00",
+          "fetched_at": "2026-10-24T14:32:48.299627+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5fe105728dcc6fd2327e",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+          "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+          "summary": "Footage broadcast on Jordanian state television showed three gunmen firing shots at a Greek Orthodox church in the city of Karak on Friday.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-24T11:59:08+00:00",
+          "fetched_at": "2026-10-24T14:32:48.192333+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_300d5d52a1c64288d09f",
+          "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_campaign=rss&at_medium=RSS",
+          "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+          "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-23T15:37:07+00:00",
-          "fetched_at": "2026-10-24T10:59:31.689608+00:00",
+          "published_at": "2026-10-23T19:46:30+00:00",
+          "fetched_at": "2026-10-24T14:32:47.361545+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd8/live/36f17b50-cef9-11f1-accf-3309656ad0bb.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9e/live/bb37b200-cee8-11f1-b441-2b33b063138f.jpg"
         },
         {
-          "article_id": "art_52323257023fbddca6dd",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
-          "canonical_url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
-          "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
-          "summary": "Israeli soldiers shot and killed two men who the military said had launched an attack near the city of Hebron in the occupied West Bank on Friday morning. At least five people were injured, including some critically.",
-          "source": "NPR World",
+          "article_id": "art_664e15e6218ff8912f96",
+          "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
+          "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
+          "summary": "A shooting at a Greek Orthodox church in southern Jordan happened during a funeral, according to authorities. Two unidentified men opened fire on the procession, with Jordan's king vowing \"the harshest retaliation.\"",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-23T09:40:32+00:00",
-          "fetched_at": "2026-10-24T10:59:32.454736+00:00",
+          "published_at": "2026-10-23T18:33:00+00:00",
+          "fetched_at": "2026-10-24T14:32:47.923039+00:00",
           "language": "en",
-          "region": "North America",
+          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
@@ -126,20 +152,20 @@
     },
     {
       "event_id": "evt_f0913d6bcf361c2225c3",
-      "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
+      "title": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
       "category": "国际政治",
-      "score": 77.0,
+      "score": 76.2,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.4,
+        "recency": 21.7,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 3.9
       },
       "first_seen": "2026-10-24T02:40:00+00:00",
-      "last_updated": "2026-10-24T10:22:34+00:00",
+      "last_updated": "2026-10-24T14:16:05+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
@@ -153,28 +179,28 @@
       ],
       "keywords": [
         "fire",
-        "retreat",
-        "arrested",
-        "out",
-        "alpine",
+        "nest",
+        "police",
         "hitler's",
         "eagle's",
-        "nest"
+        "retreat",
+        "suspect",
+        "catches"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Man arrested after fire breaks out at Hitler’s former Alpine retreat”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“German police detain suspect after fire engulfs Hitler’s Eagle’s Nest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Arrest",
           "Hitler",
           "Eagle",
           "Nest",
-          "Man",
-          "Alpine"
+          "German",
+          "Nest Hitler"
         ],
         "latest_progress": [
-          "10月24日 10:22 UTC，BBC World报道：“Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat”。",
-          "10月24日 07:31 UTC，Al Jazeera报道：“Man arrested after fire breaks out at Hitler’s former Alpine retreat”。",
+          "10月24日 14:16 UTC，BBC World报道：“Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat”。",
+          "10月24日 11:01 UTC，Al Jazeera报道：“German police detain suspect after fire engulfs Hitler’s Eagle’s Nest”。",
           "10月24日 02:40 UTC，DW Top Stories报道：“Hitler's Eagle's Nest retreat catches fire, police say”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
@@ -192,26 +218,26 @@
           "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_campaign=rss&at_medium=RSS",
           "title": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
-          "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+          "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-24T10:22:34+00:00",
-          "fetched_at": "2026-10-24T10:59:31.687784+00:00",
+          "published_at": "2026-10-24T14:16:05+00:00",
+          "fetched_at": "2026-10-24T14:32:47.359647+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b513/live/b8fe52a0-cf7e-11f1-ae2e-3fbb7ae6bffe.jpg"
         },
         {
-          "article_id": "art_42e12b79a3d4195512e4",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-          "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat",
-          "summary": "A man has been arrested after a fire broke out at Hitler’s former Alpine retreat, the Kehlsteinhaus, on Friday night.",
+          "article_id": "art_c58ab3da5a21639b3f1f",
+          "url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
+          "title": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
+          "summary": "No injuries were reported at the building, while police said a ‘suspicious person’ had been taken into custody.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-24T07:31:42+00:00",
-          "fetched_at": "2026-10-24T10:59:32.577494+00:00",
+          "published_at": "2026-10-24T11:01:05+00:00",
+          "fetched_at": "2026-10-24T14:32:48.301009+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -226,7 +252,127 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T02:40:00+00:00",
-          "fetched_at": "2026-10-24T10:59:32.231392+00:00",
+          "fetched_at": "2026-10-24T14:32:47.922392+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ab9305ce60d77f84b1ac",
+      "title": "France protests live: 135 arrested as marches held under tight security",
+      "category": "军事安全",
+      "score": 75.7,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.6,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 4.0
+      },
+      "first_seen": "2026-10-23T22:01:00+00:00",
+      "last_updated": "2026-10-24T12:55:37+00:00",
+      "source_count": 2,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "france",
+        "protests",
+        "security",
+        "authorities",
+        "police",
+        "planned",
+        "weekend",
+        "prevent"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“France protests live: 135 arrested as marches held under tight security”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "France",
+          "Fresh"
+        ],
+        "latest_progress": [
+          "10月24日 12:55 UTC，Al Jazeera报道：“France protests live: 135 arrested as marches held under tight security”。",
+          "10月24日 10:04 UTC，Al Jazeera报道：“France security on high alert as another day of mass protests kicks off”。",
+          "10月24日 06:34 UTC，DW Top Stories报道：“Live: Fresh protests hit France amid heightened security”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9ce58a0e2586f2c49692",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/24/france-protests-live-135-arrested-as-marches-held-under-tight-security?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/24/france-protests-live-135-arrested-as-marches-held-under-tight-security?traffic_source=rss",
+          "title": "France protests live: 135 arrested as marches held under tight security",
+          "summary": "Authorities say they are determined to prevent another weekend of looting, burned cars and attacks on public buildings.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T12:55:37+00:00",
+          "fetched_at": "2026-10-24T14:32:48.299780+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_fe9a0c0581a9061805c6",
+          "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
+          "title": "France security on high alert as another day of mass protests kicks off",
+          "summary": "Several planned marches in major cities in France have been banned by authorities, provoking an uproar by rights groups.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T10:04:25+00:00",
+          "fetched_at": "2026-10-24T14:32:48.301499+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b8657df96fed5bc28ae7",
+          "url": "https://www.dw.com/en/live-fresh-protests-hit-france-amid-heightened-security/live-79748223?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/live-fresh-protests-hit-france-amid-heightened-security/live-79748223?maca=en-rss-en-top-1022-rdf",
+          "title": "Live: Fresh protests hit France amid heightened security",
+          "summary": "Police and elite security forces are out in force in French cities as thousands participate in a new round of protests. The protest location was changed last minute in Paris. Follow DW.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-24T06:34:00+00:00",
+          "fetched_at": "2026-10-24T14:32:47.921867+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_014e387a6cc9c3ab51af",
+          "url": "https://www.dw.com/en/france-to-deploy-70-000-police-officers-ahead-of-protests/a-79747655?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-to-deploy-70-000-police-officers-ahead-of-protests/a-79747655?maca=en-rss-en-top-1022-rdf",
+          "title": "France to deploy 70,000 police officers ahead of protests",
+          "summary": "With new protests in France planned for this weekend, the authorities pledged to do everything in their power to prevent looting, violence and vandalism.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-23T22:01:00+00:00",
+          "fetched_at": "2026-10-24T14:32:47.922514+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -238,12 +384,12 @@
       "event_id": "evt_130404ffc3c05861bb2c",
       "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
       "category": "社会突发",
-      "score": 76.9,
+      "score": 74.1,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.9,
+        "recency": 18.0,
         "credibility": 9.6,
         "impact": 11.7,
         "velocity": 2.8
@@ -308,7 +454,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T09:46:53+00:00",
-          "fetched_at": "2026-10-24T10:59:31.688664+00:00",
+          "fetched_at": "2026-10-24T14:32:47.360323+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -323,7 +469,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T21:09:00+00:00",
-          "fetched_at": "2026-10-24T10:59:32.231640+00:00",
+          "fetched_at": "2026-10-24T14:32:47.922654+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -338,7 +484,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-23T12:41:39+00:00",
-          "fetched_at": "2026-10-24T10:59:32.454265+00:00",
+          "fetched_at": "2026-10-24T14:32:48.192972+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -353,7 +499,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T12:11:00+00:00",
-          "fetched_at": "2026-10-24T10:59:32.232798+00:00",
+          "fetched_at": "2026-10-24T14:32:47.923822+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -365,12 +511,12 @@
       "event_id": "evt_39d9c2bfa8655c3a3386",
       "title": "Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …",
       "category": "经济金融",
-      "score": 73.8,
+      "score": 70.9,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 7.5,
-        "recency": 21.1,
+        "recency": 18.2,
         "credibility": 7.5,
         "impact": 11.7,
         "velocity": 1.3
@@ -436,7 +582,7 @@
           "source": "knews.kg",
           "source_type": "gdelt",
           "published_at": "2026-10-24T10:00:00+00:00",
-          "fetched_at": "2026-10-24T10:59:31.572915+00:00",
+          "fetched_at": "2026-10-24T14:32:47.257387+00:00",
           "language": "Russian",
           "region": "Kyrgyzstan",
           "source_weight": 0.75,
@@ -451,7 +597,7 @@
           "source": "timesofindia.indiatimes.com",
           "source_type": "gdelt",
           "published_at": "2026-10-23T15:00:00+00:00",
-          "fetched_at": "2026-10-24T10:59:31.573309+00:00",
+          "fetched_at": "2026-10-24T14:32:47.257739+00:00",
           "language": "English",
           "region": "India",
           "source_weight": 0.75,
@@ -466,7 +612,7 @@
           "source": "econotimes.com",
           "source_type": "gdelt",
           "published_at": "2026-10-23T00:00:00+00:00",
-          "fetched_at": "2026-10-24T10:59:31.573209+00:00",
+          "fetched_at": "2026-10-24T14:32:47.257641+00:00",
           "language": "English",
           "region": "United States",
           "source_weight": 0.75,
@@ -475,52 +621,145 @@
       ]
     },
     {
-      "event_id": "evt_ab9305ce60d77f84b1ac",
-      "title": "France braces for another day of mass protests as security on high alert",
+      "event_id": "evt_47c6a42a58ff49896444",
+      "title": "Serbia elections test student movement demanding justice for 16 victims",
+      "category": "国际政治",
+      "score": 69.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.0,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-24T11:42:11+00:00",
+      "last_updated": "2026-10-24T12:18:06+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "NPR World"
+      ],
+      "regions": [
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "elections",
+        "student",
+        "serbia",
+        "test",
+        "movement",
+        "demanding",
+        "justice",
+        "victims"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的国际政治事件为“Serbia elections test student movement demanding justice for 16 victims”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Serbia",
+          "European"
+        ],
+        "latest_progress": [
+          "10月24日 12:18 UTC，Al Jazeera报道：“Serbia elections test student movement demanding justice for 16 victims”。",
+          "10月24日 11:42 UTC，NPR World报道：“European student protests take aim at Serbia's elections”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_59bd3fc075da12cde0bd",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/serbia-elections-test-student-movement-demanding-justice-for-16-victims?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/serbia-elections-test-student-movement-demanding-justice-for-16-victims?traffic_source=rss",
+          "title": "Serbia elections test student movement demanding justice for 16 victims",
+          "summary": "Serbia elections test student movement demanding justice for 16 victims",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T12:18:06+00:00",
+          "fetched_at": "2026-10-24T14:32:48.300264+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_01e32f5bb0541a073e69",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6012799/european-student-protests-take-aim-at-serbias-elections",
+          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6012799/european-student-protests-take-aim-at-serbias-elections",
+          "title": "European student protests take aim at Serbia's elections",
+          "summary": "Students have been protesting across Europe. In Serbia, they've selected candidates to run for parliament in Sunday's elections. And they're aiming to end 14 years of government by the populist leader Aleksandar Vucic.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-24T11:42:11+00:00",
+          "fetched_at": "2026-10-24T14:32:48.192508+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9f09dd4e676fcd976a51",
+      "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
       "category": "军事安全",
-      "score": 73.7,
+      "score": 63.4,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.2,
+        "recency": 10.9,
         "credibility": 9.7,
         "impact": 13.0,
-        "velocity": 3.7
+        "velocity": 3.8
       },
-      "first_seen": "2026-10-23T22:01:00+00:00",
-      "last_updated": "2026-10-24T10:04:25+00:00",
+      "first_seen": "2026-10-23T09:40:32+00:00",
+      "last_updated": "2026-10-23T21:38:54+00:00",
       "source_count": 2,
       "article_count": 3,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "BBC World",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "North America"
       ],
       "keywords": [
-        "france",
-        "protests",
-        "police",
-        "officers",
-        "planned",
-        "authorities",
-        "violence",
-        "deploy"
+        "west",
+        "bank",
+        "soldiers",
+        "attack",
+        "israeli",
+        "two",
+        "military",
+        "killed"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“France braces for another day of mass protests as security on high alert”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的军事安全事件为“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "France",
-          "More"
+          "Israeli",
+          "PM",
+          "West Bank",
+          "Palestinian",
+          "Hebron",
+          "Israel"
         ],
         "latest_progress": [
-          "10月24日 10:04 UTC，Al Jazeera报道：“France braces for another day of mass protests as security on high alert”。",
-          "10月24日 06:34 UTC，DW Top Stories报道：“France protests: More violence feared amid renewed demonstrations”。",
-          "10月23日 22:01 UTC，DW Top Stories报道：“France to deploy 70,000 police officers ahead of protests”。"
+          "10月23日 21:38 UTC，NPR World报道：“Israeli PM pledges massive military operation after West Bank checkpoint attack”。",
+          "10月23日 15:37 UTC，BBC World报道：“Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead”。",
+          "10月23日 09:40 UTC，NPR World报道：“Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -533,233 +772,121 @@
       },
       "articles": [
         {
-          "article_id": "art_fe9a0c0581a9061805c6",
-          "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
-          "title": "France braces for another day of mass protests as security on high alert",
-          "summary": "Several planned marches in major cities in France have been banned by authorities, provoking an uproar by rights groups.",
-          "source": "Al Jazeera",
+          "article_id": "art_6ee70c1e6c697b8576fb",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+          "canonical_url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+          "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
+          "summary": "Israel's Prime Minister is vowing to launch a major military operation in the West Bank in response to an attack by two Palestinian gunmen on an Israeli military checkpoint that killed two soldiers.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-24T10:04:25+00:00",
-          "fetched_at": "2026-10-24T10:59:32.575357+00:00",
+          "published_at": "2026-10-23T21:38:54+00:00",
+          "fetched_at": "2026-10-24T14:32:48.192823+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5a4b72357222af5ec900",
-          "url": "https://www.dw.com/en/france-protests-more-violence-feared-amid-renewed-demonstrations/live-79748223?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-protests-more-violence-feared-amid-renewed-demonstrations/live-79748223?maca=en-rss-en-top-1022-rdf",
-          "title": "France protests: More violence feared amid renewed demonstrations",
-          "summary": "France is deploying some 70,000 police officers as fresh nationwide protests begin. A deadly shooting near Paris has additionally fueled tensions. DW has the latest.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-24T06:34:00+00:00",
-          "fetched_at": "2026-10-24T10:59:32.230866+00:00",
-          "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_014e387a6cc9c3ab51af",
-          "url": "https://www.dw.com/en/france-to-deploy-70-000-police-officers-ahead-of-protests/a-79747655?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-to-deploy-70-000-police-officers-ahead-of-protests/a-79747655?maca=en-rss-en-top-1022-rdf",
-          "title": "France to deploy 70,000 police officers ahead of protests",
-          "summary": "With new protests in France planned for this weekend, the authorities pledged to do everything in their power to prevent looting, violence and vandalism.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T22:01:00+00:00",
-          "fetched_at": "2026-10-24T10:59:32.231514+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_521e5ae4b1c5a8e1de0e",
-      "title": "North Korea’s Kim Jong Un visits China via newly opened bridge",
-      "category": "国际政治",
-      "score": 68.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.0,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-24T07:07:20+00:00",
-      "last_updated": "2026-10-24T07:29:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "kim",
-        "north",
-        "jong",
-        "opened",
-        "bridge",
-        "korean",
-        "via",
-        "newly"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“North Korea’s Kim Jong Un visits China via newly opened bridge”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "North Korean",
-          "Kim Jong Un",
-          "Chinese",
-          "North Korea",
-          "China"
-        ],
-        "latest_progress": [
-          "10月24日 07:29 UTC，DW Top Stories报道：“North Korean leader Kim Jong Un arrives in Chinese border city”。",
-          "10月24日 07:07 UTC，Al Jazeera报道：“North Korea’s Kim Jong Un visits China via newly opened bridge”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d4409bc9fe6cc8ba828b",
-          "url": "https://www.dw.com/en/north-korean-leader-kim-jong-un-arrives-in-chinese-border-city/a-79748580?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/north-korean-leader-kim-jong-un-arrives-in-chinese-border-city/a-79748580?maca=en-rss-en-top-1022-rdf",
-          "title": "North Korean leader Kim Jong Un arrives in Chinese border city",
-          "summary": "North Korean leader Kim Jong Un has reportedly arrived in the Chinese border city of Dandong via a newly opened bridge linking the two countries, South Korea's Yonhap news agency said.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-24T07:29:00+00:00",
-          "fetched_at": "2026-10-24T10:59:32.230736+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5e6aea2c6264f5f60030",
-          "url": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss",
-          "title": "North Korea’s Kim Jong Un visits China via newly opened bridge",
-          "summary": "South Korean officials say Kim arrived in Dandong using the New Yalu River Bridge, which opened about a week ago.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T07:07:20+00:00",
-          "fetched_at": "2026-10-24T10:59:32.577804+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e6108df5647c2258f6cb",
-      "title": "Trump administration sues to block certification of upcoming Alaska election",
-      "category": "国际政治",
-      "score": 66.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.6,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 2.2
-      },
-      "first_seen": "2026-10-23T18:49:14+00:00",
-      "last_updated": "2026-10-24T08:11:17+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "alaska",
-        "dan",
-        "sullivan",
-        "trump",
-        "two",
-        "candidates",
-        "administration",
-        "sues"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Trump administration sues to block certification of upcoming Alaska election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Dan Sullivan",
-          "Why",
-          "Trump",
-          "DOJ",
-          "Alaska"
-        ],
-        "latest_progress": [
-          "10月24日 08:11 UTC，Al Jazeera报道：“Dan Sullivan vs Dan Sullivan: Why is Trump’s DOJ suing in Alaska?”。",
-          "10月23日 18:49 UTC，BBC World报道：“Trump administration sues to block certification of upcoming Alaska election”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2013b3bf5a79e0af1b4a",
-          "url": "https://www.aljazeera.com/news/2026/10/24/dan-sullivan-vs-dan-sullivan-why-is-trumps-doj-suing-in-alaska?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/dan-sullivan-vs-dan-sullivan-why-is-trumps-doj-suing-in-alaska?traffic_source=rss",
-          "title": "Dan Sullivan vs Dan Sullivan: Why is Trump’s DOJ suing in Alaska?",
-          "summary": "US government seeks to delay Alaska Senate result over concerns about two candidates with the same name.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T08:11:17+00:00",
-          "fetched_at": "2026-10-24T10:59:32.577183+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_10b4948253ba9f1dbdbe",
-          "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_campaign=rss&at_medium=RSS",
-          "title": "Trump administration sues to block certification of upcoming Alaska election",
-          "summary": "The justice department has filed a lawsuit arguing that the inclusion of two candidates named Dan Sullivan could confuse voters.",
+          "article_id": "art_62f48a8a1b48b16bc095",
+          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_campaign=rss&at_medium=RSS",
+          "title": "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+          "summary": "The soldiers were killed in an attack by two Palestinian gunmen at a checkpoint outside the West Bank city on Friday morning.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-23T18:49:14+00:00",
-          "fetched_at": "2026-10-24T10:59:31.688973+00:00",
+          "published_at": "2026-10-23T15:37:07+00:00",
+          "fetched_at": "2026-10-24T14:32:47.361693+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/056d/live/ef958c50-cef9-11f1-a7ee-733e71112503.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bbd8/live/36f17b50-cef9-11f1-accf-3309656ad0bb.jpg"
+        },
+        {
+          "article_id": "art_52323257023fbddca6dd",
+          "url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+          "canonical_url": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+          "title": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
+          "summary": "Israeli soldiers shot and killed two men who the military said had launched an attack near the city of Hebron in the occupied West Bank on Friday morning. At least five people were injured, including some critically.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-23T09:40:32+00:00",
+          "fetched_at": "2026-10-24T14:32:48.193454+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_666b54bd847507b88e28",
+      "title": "Rybakina readies for title defence at Ningbo Open in final with Fernandez",
+      "category": "军事安全",
+      "score": 62.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-24T13:52:08+00:00",
+      "last_updated": "2026-10-24T13:52:08+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "final",
+        "fernandez",
+        "rybakina",
+        "readies",
+        "title",
+        "defence",
+        "ningbo",
+        "open"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Rybakina readies for title defence at Ningbo Open in final with Fernandez”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Rybakina",
+          "Ningbo Open",
+          "Fernandez"
+        ],
+        "latest_progress": [
+          "10月24日 13:52 UTC，Al Jazeera报道：“Rybakina readies for title defence at Ningbo Open in final with Fernandez”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2b0b0e939bd83a3ab133",
+          "url": "https://www.aljazeera.com/sports/2026/10/24/rybakina-readies-for-title-defence-at-ningbo-open-in-final-with-fernandez?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/sports/2026/10/24/rybakina-readies-for-title-defence-at-ningbo-open-in-final-with-fernandez?traffic_source=rss",
+          "title": "Rybakina readies for title defence at Ningbo Open in final with Fernandez",
+          "summary": "The world number one will face Leylah Fernandez in the final after the unseeded Canadian beat Czech Marie Bouzkova.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T13:52:08+00:00",
+          "fetched_at": "2026-10-24T14:32:48.298484+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         }
       ]
     },
@@ -767,12 +894,12 @@
       "event_id": "evt_0a9bad5df0abd84d2ca2",
       "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "category": "军事安全",
-      "score": 64.6,
+      "score": 62.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.9,
+        "recency": 16.3,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 2.3
@@ -831,7 +958,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T07:17:44+00:00",
-          "fetched_at": "2026-10-24T10:59:31.689308+00:00",
+          "fetched_at": "2026-10-24T14:32:47.361399+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -846,7 +973,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T18:17:00+00:00",
-          "fetched_at": "2026-10-24T10:59:32.232165+00:00",
+          "fetched_at": "2026-10-24T14:32:47.923159+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -855,141 +982,49 @@
       ]
     },
     {
-      "event_id": "evt_867c86ccd1f96e1e0684",
-      "title": "Massive oil slick seen weeks after tanker struck off UAE’s coast",
-      "category": "能源资源",
-      "score": 63.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.0,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 2.3
-      },
-      "first_seen": "2026-10-23T15:30:47+00:00",
-      "last_updated": "2026-10-24T04:48:40+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "oil",
-        "uae",
-        "spill",
-        "tanker",
-        "off",
-        "coast",
-        "washes",
-        "beaches"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的能源资源事件为“Massive oil slick seen weeks after tanker struck off UAE’s coast”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Massive",
-          "UAE",
-          "Oil"
-        ],
-        "latest_progress": [
-          "10月24日 04:48 UTC，Al Jazeera报道：“Massive oil slick seen weeks after tanker struck off UAE’s coast”。",
-          "10月23日 15:30 UTC，BBC World报道：“Oil spill washes up on UAE beaches after tanker strike”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b619d3244a126fc58e9d",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-oil-slick-seen-weeks-after-tanker-struck-off-uaes-coast?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-oil-slick-seen-weeks-after-tanker-struck-off-uaes-coast?traffic_source=rss",
-          "title": "Massive oil slick seen weeks after tanker struck off UAE’s coast",
-          "summary": "An oil spill off the UAE coast has prompted beach closures after a vessel reportedly hit a naval mine in early October.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T04:48:40+00:00",
-          "fetched_at": "2026-10-24T10:59:32.579245+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9e76987b6f5bd0e9dcc6",
-          "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_campaign=rss&at_medium=RSS",
-          "title": "Oil spill washes up on UAE beaches after tanker strike",
-          "summary": "Satellite images show oil spreading for miles along the coastline, threatening local marine wildlife",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-23T15:30:47+00:00",
-          "fetched_at": "2026-10-24T10:59:31.690225+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6926/live/c5f26d10-cef3-11f1-93e1-3b657b665bcf.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1b763ced6f9f2fe43e6f",
-      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
+      "event_id": "evt_3862f98e5cea22f9e3b1",
+      "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
       "category": "军事安全",
-      "score": 60.1,
+      "score": 61.8,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 11.7,
-        "credibility": 9.8,
+        "recency": 20.7,
+        "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-23T18:33:00+00:00",
-      "last_updated": "2026-10-23T19:46:30+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-24T13:06:03+00:00",
+      "last_updated": "2026-10-24T13:06:03+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "BBC World",
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "jordan",
-        "church",
-        "karak",
-        "shooting",
-        "dead",
-        "injured",
-        "southern",
-        "funeral"
+        "iran",
+        "won",
+        "allow",
+        "warships",
+        "get",
+        "close",
+        "trump",
+        "ponders"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Seven shot dead by gunmen at church funeral in Jordan, officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran says won’t allow US warships to get close as Trump ponders new attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Seven",
-          "Jordan",
-          "Karak"
+          "Iran",
+          "US",
+          "Trump"
         ],
         "latest_progress": [
-          "10月23日 19:46 UTC，BBC World报道：“Seven shot dead by gunmen at church funeral in Jordan, officials say”。",
-          "10月23日 18:33 UTC，DW Top Stories报道：“Jordan: Karak church shooting leaves 7 dead, dozens injured”。"
+          "10月24日 13:06 UTC，Al Jazeera报道：“Iran says won’t allow US warships to get close as Trump ponders new attacks”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1002,33 +1037,18 @@
       },
       "articles": [
         {
-          "article_id": "art_300d5d52a1c64288d09f",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_campaign=rss&at_medium=RSS",
-          "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-          "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
-          "source": "BBC World",
+          "article_id": "art_b031477879e3b70294ab",
+          "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
+          "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
+          "summary": "Iranian officials, media and analysts sense war is closer, but signal there will be no backing down.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-23T19:46:30+00:00",
-          "fetched_at": "2026-10-24T10:59:31.689456+00:00",
+          "published_at": "2026-10-24T13:06:03+00:00",
+          "fetched_at": "2026-10-24T14:32:48.299467+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd9e/live/bb37b200-cee8-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_664e15e6218ff8912f96",
-          "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-7-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
-          "title": "Jordan: Karak church shooting leaves 7 dead, dozens injured",
-          "summary": "A shooting at a Greek Orthodox church in southern Jordan happened during a funeral, according to authorities. Two unidentified men opened fire on the procession, with Jordan's king vowing \"the harshest retaliation.\"",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T18:33:00+00:00",
-          "fetched_at": "2026-10-24T10:59:32.232007+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
