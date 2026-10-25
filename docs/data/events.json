@@ -1,141 +1,124 @@
 {
-  "generated_at": "2026-10-25T11:28:33.641849+00:00",
+  "generated_at": "2026-10-25T16:18:29.151065+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 138,
-    "articles_unique": 138,
+    "articles_fetched": 136,
+    "articles_unique": 134,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_51fec7083d840bb384c3",
-      "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-      "category": "军事安全",
-      "score": 84.1,
+      "event_id": "evt_7b6f66b9adbcc3702ccd",
+      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+      "category": "国际政治",
+      "score": 74.9,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 21.2,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 19.3,
         "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 2.1
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-24T06:34:00+00:00",
-      "last_updated": "2026-10-25T10:38:15+00:00",
-      "source_count": 4,
-      "article_count": 4,
+      "first_seen": "2026-10-25T05:15:52+00:00",
+      "last_updated": "2026-10-25T13:09:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "protests",
-        "france",
-        "out",
-        "clashes",
-        "police",
-        "thousands",
-        "violence",
-        "force"
+        "west",
+        "bank",
+        "israel",
+        "election",
+        "israeli",
+        "close",
+        "crossings",
+        "day"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“More than 1,300 arrested as clashes follow another day of mass protests across France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Israel to close West Bank crossings on election day as crackdown escalates”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "More",
-          "France Photos",
-          "Clashes",
-          "France",
-          "Protests"
+          "Israel",
+          "West Bank",
+          "Why Israel",
+          "Hebron",
+          "West Bank Israel"
         ],
         "latest_progress": [
-          "10月25日 10:38 UTC，BBC World报道：“More than 1,300 arrested as clashes follow another day of mass protests across France”。",
-          "10月25日 07:28 UTC，Al Jazeera报道：“Photos: Clashes erupt in France during protests over rising living costs”。",
-          "10月24日 21:21 UTC，NPR World报道：“Protests roil France once again as police seek to quell violence”。"
+          "10月25日 13:09 UTC，DW Top Stories报道：“Israel to close all West Bank land crossings on election day”。",
+          "10月25日 12:17 UTC，Al Jazeera报道：“Why Israel’s latest assault on Hebron is so significant for the West Bank”。",
+          "10月25日 05:15 UTC，BBC World报道：“Israel to close West Bank crossings on election day as crackdown escalates”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_a95b5408a0c2958c1a06",
-          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_campaign=rss&at_medium=RSS",
-          "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
-          "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
-          "source": "BBC World",
+          "article_id": "art_eb878b7b2bd8e771b9a7",
+          "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
+          "title": "Israel to close all West Bank land crossings on election day",
+          "summary": "After a deadly attack which killed two Israeli soldiers on Friday, the Israeli military has said all land border points between Israel and the occupied West Bank will be closed during Tuesday's election.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-25T10:38:15+00:00",
-          "fetched_at": "2026-10-25T11:28:31.634107+00:00",
+          "published_at": "2026-10-25T13:09:00+00:00",
+          "fetched_at": "2026-10-25T16:18:27.884953+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
-          "article_id": "art_529aab26d4b950650e27",
-          "url": "https://www.aljazeera.com/gallery/2026/10/25/photos-clashes-erupt-in-france-amid-protests-over-rising-living-costs?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/gallery/2026/10/25/photos-clashes-erupt-in-france-amid-protests-over-rising-living-costs?traffic_source=rss",
-          "title": "Photos: Clashes erupt in France during protests over rising living costs",
-          "summary": "Authorities deploy 70,000 officers to combat violence. Nearly 1,000 arrests made.",
+          "article_id": "art_c5ad7620cc7650b5be6e",
+          "url": "https://www.aljazeera.com/economy/2026/10/25/why-israels-latest-assault-on-hebron-is-so-significant-for-the-west-bank?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/25/why-israels-latest-assault-on-hebron-is-so-significant-for-the-west-bank?traffic_source=rss",
+          "title": "Why Israel’s latest assault on Hebron is so significant for the West Bank",
+          "summary": "Mass expulsions, blockades and expanding settler control in Hebron threaten to devastate the West Bank economy.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-25T07:28:47+00:00",
-          "fetched_at": "2026-10-25T11:28:32.200105+00:00",
+          "published_at": "2026-10-25T12:17:39+00:00",
+          "fetched_at": "2026-10-25T16:18:28.226851+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_26afb774eaa43bf8b27e",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
-          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
-          "title": "Protests roil France once again as police seek to quell violence",
-          "summary": "Hundreds of thousands turned out across France to protest everything from the lack of school funding to economic inequality. Police also were out in force to prevent a repeat of last week's violence.",
-          "source": "NPR World",
+          "article_id": "art_751a393d29197e529c23",
+          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_campaign=rss&at_medium=RSS",
+          "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+          "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-24T21:21:00+00:00",
-          "fetched_at": "2026-10-25T11:28:32.028988+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6fa8d75f2e95c7cc0297",
-          "url": "https://www.dw.com/en/france-clashes-break-out-as-protests-go-nationwide/live-79748223?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-clashes-break-out-as-protests-go-nationwide/live-79748223?maca=en-rss-en-top-1022-rdf",
-          "title": "France: Clashes break out as protests go nationwide",
-          "summary": "Police and elite security forces were out in force in French cities as tens of thousands participated in protests on Saturday. The situation turned tense toward the end of protests in several cities, including Paris.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-24T06:34:00+00:00",
-          "fetched_at": "2026-10-25T11:28:31.838679+00:00",
+          "published_at": "2026-10-25T05:15:52+00:00",
+          "fetched_at": "2026-10-25T16:18:26.870673+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg"
         }
       ]
     },
@@ -143,12 +126,12 @@
       "event_id": "evt_276ed6fe32da025dee11",
       "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
       "category": "军事安全",
-      "score": 78.5,
+      "score": 74.9,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 19.8,
+        "recency": 16.2,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 4.0
@@ -169,12 +152,12 @@
       "keywords": [
         "ukraine",
         "starlink",
-        "normal",
+        "musk",
         "restored",
+        "military",
         "service",
-        "disruptions",
-        "speeds",
-        "satellite"
+        "spacex",
+        "tech"
       ],
       "analysis": {
         "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Musk says SpaceX restricted Ukraine's Starlink connection as service restored”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
@@ -210,7 +193,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T09:00:00+00:00",
-          "fetched_at": "2026-10-25T11:28:31.634743+00:00",
+          "fetched_at": "2026-10-25T16:18:26.870856+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -225,7 +208,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T05:45:31+00:00",
-          "fetched_at": "2026-10-25T11:28:31.638267+00:00",
+          "fetched_at": "2026-10-25T16:18:26.872457+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -240,7 +223,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T19:33:00+00:00",
-          "fetched_at": "2026-10-25T11:28:31.837918+00:00",
+          "fetched_at": "2026-10-25T16:18:27.885654+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -250,353 +233,14 @@
           "article_id": "art_34577aaac7d0a60937df",
           "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
           "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
-          "title": "Ukraine says Starlink is back to normal after disruptions",
-          "summary": "Ukrainian President Volodymyr Zelenskyy said that normal Starlink operating speeds were restored after more than a week of disruptions.",
+          "title": "Musk says SpaceX did restrict Starlink, as Ukraine says the tech has been restored",
+          "summary": "Musk said Ukraine had been violating Starlink's terms by using it for military activity, as Ukrainian President Volodymyr Zelenskyy said normal operating speeds have returned.",
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T17:54:25+00:00",
-          "fetched_at": "2026-10-25T11:28:32.029291+00:00",
+          "fetched_at": "2026-10-25T16:18:28.154267+00:00",
           "language": "en",
           "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_144763a6f0721d4e1922",
-      "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
-      "category": "国际政治",
-      "score": 77.4,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.8,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T09:00:00+00:00",
-      "last_updated": "2026-10-25T11:16:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "lula",
-        "brazil",
-        "bolsonaro",
-        "election",
-        "tight",
-        "flavio",
-        "son",
-        "leftist"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Voters in Brazil head to polls as Lula goes up against Bolsonaro's son”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Brazil",
-          "Lula",
-          "Flavio Bolsonaro Voters",
-          "Bolsonaro"
-        ],
-        "latest_progress": [
-          "10月25日 11:16 UTC，DW Top Stories报道：“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。",
-          "10月25日 11:00 UTC，BBC World报道：“Voters in Brazil head to polls as Lula goes up against Bolsonaro's son”。",
-          "10月25日 09:00 UTC，Al Jazeera报道：“Brazil 2026 election live: Lula and Bolsonaro in tight race”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_23a6cc82424e6c355a2b",
-          "url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
-          "summary": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T11:16:00+00:00",
-          "fetched_at": "2026-10-25T11:28:31.836442+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ffb7e82644cf73bdd8c0",
-          "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_campaign=rss&at_medium=RSS",
-          "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
-          "summary": "Flávio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-25T11:00:26+00:00",
-          "fetched_at": "2026-10-25T11:28:31.634573+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c93/live/6c2dbd80-d064-11f1-bbf5-99ed69f0d81f.jpg"
-        },
-        {
-          "article_id": "art_aa094f75c9fa174f89ce",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-2026-live-lula-and-bolsonaro-in-tight-race?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-2026-live-lula-and-bolsonaro-in-tight-race?traffic_source=rss",
-          "title": "Brazil 2026 election live: Lula and Bolsonaro in tight race",
-          "summary": "Brazilian President Luiz Inacio Lula da Silva and Senator Flavio Bolsonaro square off in closely watched election.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T09:00:00+00:00",
-          "fetched_at": "2026-10-25T11:28:32.198971+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_fa53450909f9534e5c4d",
-      "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
-      "category": "国际政治",
-      "score": 75.2,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 21.6,
-        "credibility": 9.2,
-        "impact": 11.0,
-        "velocity": 1.3
-      },
-      "first_seen": "2026-10-23T23:08:23+00:00",
-      "last_updated": "2026-10-25T11:00:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "sbs.com.au"
-      ],
-      "regions": [
-        "Australia",
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "student",
-        "movement",
-        "election",
-        "leader",
-        "against",
-        "populist",
-        "takes",
-        "serbia's"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、sbs.com.au等来源的3篇报道，当前关注的国际政治事件为“Student movement takes Serbia's Vučić to the wire in neck-and-neck election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Serbians",
-          "Serbia",
-          "Student"
-        ],
-        "latest_progress": [
-          "10月25日 11:00 UTC，sbs.com.au报道：“Serbians face a choice between the populist right and the student protest movement”。",
-          "10月25日 04:43 UTC，Al Jazeera报道：“Serbia votes in election pitting longtime leader against student movement”。",
-          "10月23日 23:08 UTC，BBC World报道：“Student movement takes Serbia's Vučić to the wire in neck-and-neck election”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_0321c167bf57067c71fd",
-          "url": "https://www.sbs.com.au/news/article/serbians-face-a-choice-between-the-populist-right-and-the-student-protest-movement/kmkos70aa",
-          "canonical_url": "https://www.sbs.com.au/news/article/serbians-face-a-choice-between-the-populist-right-and-the-student-protest-movement/kmkos70aa",
-          "title": "Serbians face a choice between the populist right and the student protest movement",
-          "summary": "",
-          "source": "sbs.com.au",
-          "source_type": "gdelt",
-          "published_at": "2026-10-25T11:00:00+00:00",
-          "fetched_at": "2026-10-25T11:27:24.699840+00:00",
-          "language": "English",
-          "region": "Australia",
-          "source_weight": 0.75,
-          "image_url": "https://sbs-au-brightspot.s3.ap-southeast-2.amazonaws.com/5b/66/8a206fba4497928f3c574382fa6b/afp-20261021-d3yv6t3-v1-highres-serbiaelectionpolitics.jpg"
-        },
-        {
-          "article_id": "art_b9f9fa8a918318197c58",
-          "url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement?traffic_source=rss",
-          "title": "Serbia votes in election pitting longtime leader against student movement",
-          "summary": "Polls show populist leader Aleksandar Vucic in a tight race against the anticorruption and antirepression movement.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T04:43:06+00:00",
-          "fetched_at": "2026-10-25T11:28:32.201340+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_aec0d4febaafd99a5fcc",
-          "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_campaign=rss&at_medium=RSS",
-          "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
-          "summary": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-23T23:08:23+00:00",
-          "fetched_at": "2026-10-25T11:28:31.636635+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7667/live/b6bb68f0-cef9-11f1-b441-2b33b063138f.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_f0913d6bcf361c2225c3",
-      "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
-      "category": "国际政治",
-      "score": 69.7,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 1.9
-      },
-      "first_seen": "2026-10-24T02:40:00+00:00",
-      "last_updated": "2026-10-25T10:36:00+00:00",
-      "source_count": 2,
-      "article_count": 4,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "fire",
-        "retreat",
-        "hitler's",
-        "eagle's",
-        "nest",
-        "germany",
-        "police",
-        "arrested"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Germany",
-          "Fire",
-          "Hitler",
-          "Eagle",
-          "Nest",
-          "Man"
-        ],
-        "latest_progress": [
-          "10月25日 10:36 UTC，DW Top Stories报道：“Germany news: Fire flares up at Hitler's Eagle's Nest retreat”。",
-          "10月24日 15:56 UTC，BBC World报道：“Fire engulfs Hitler's mountaintop Eagle's Nest retreat”。",
-          "10月24日 15:21 UTC，BBC World报道：“Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5c0dc03bac101a3251ed",
-          "url": "https://www.dw.com/en/germany-news-fire-flares-up-at-hitler-s-eagle-s-nest-retreat/live-79749353?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-news-fire-flares-up-at-hitler-s-eagle-s-nest-retreat/live-79749353?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany news: Fire flares up at Hitler's Eagle's Nest retreat",
-          "summary": "Fire broke out again overnight at a former mountain retreat used by Nazi dictator Adolf Hitler. Meanwhile, a survey shows most people in Germany feel the days of the governing coalition are numbered. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T10:36:00+00:00",
-          "fetched_at": "2026-10-25T11:28:31.836892+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_208c27bf32f74af1938e",
-          "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_campaign=rss&at_medium=RSS",
-          "title": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
-          "summary": "Police in the southern German state of Bavaria have detained a 33-year-old German man following the fire.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-24T15:56:48+00:00",
-          "fetched_at": "2026-10-25T11:28:31.637686+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bfba/live/f1443bc0-cfbf-11f1-93e1-3b657b665bcf.jpg"
-        },
-        {
-          "article_id": "art_93be7504a6cd057dd609",
-          "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_campaign=rss&at_medium=RSS",
-          "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
-          "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-24T15:21:44+00:00",
-          "fetched_at": "2026-10-25T11:28:31.635062+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/723c/live/ca5c07b0-cfc2-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_5e981221b7c3214ab52f",
-          "url": "https://www.dw.com/en/hitler-s-eagle-s-nest-retreat-catches-fire-police-say/a-79747820?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/hitler-s-eagle-s-nest-retreat-catches-fire-police-say/a-79747820?maca=en-rss-en-top-1022-rdf",
-          "title": "Hitler's Eagle's Nest retreat catches fire, police say",
-          "summary": "Authorities have arrested a suspect as firemen try to put out the fire in Bavaria, near the Austrian border.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-24T02:40:00+00:00",
-          "fetched_at": "2026-10-25T11:28:31.839034+00:00",
-          "language": "en",
-          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
@@ -606,20 +250,20 @@
       "event_id": "evt_ceada302606643fdfe7d",
       "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
       "category": "科技AI",
-      "score": 69.0,
+      "score": 70.5,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.3,
+        "recency": 19.8,
         "credibility": 9.8,
         "impact": 9.8,
         "velocity": 5.0
       },
       "first_seen": "2026-10-25T09:13:00+00:00",
-      "last_updated": "2026-10-25T10:42:51+00:00",
+      "last_updated": "2026-10-25T13:49:33+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "DW Top Stories"
@@ -631,24 +275,28 @@
       "keywords": [
         "saudi",
         "arabia",
+        "houthi",
+        "yemen's",
         "houthis",
-        "targeting",
         "missiles",
         "looks",
-        "edge",
-        "yemen's"
+        "edge"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的科技AI事件为“Saudi Arabia intercepts missiles and drones as fighting with Houthis rages”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的科技AI事件为“Saudi Arabia intercepts missiles and drones as fighting with Houthis rages”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Saudi Arabia",
+          "Saudi",
+          "Houthi",
+          "Mecca Saudi Arabia",
           "Houthis",
+          "Saudi Arabia",
           "US",
           "AI",
           "Yemen"
         ],
         "latest_progress": [
+          "10月25日 13:49 UTC，Al Jazeera报道：“Saudi air defences intercept Houthi barrage near Mecca”。",
           "10月25日 10:42 UTC，Al Jazeera报道：“Saudi Arabia intercepts missiles and drones as fighting with Houthis rages”。",
           "10月25日 09:13 UTC，DW Top Stories报道：“Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure”。"
         ],
@@ -663,15 +311,30 @@
       },
       "articles": [
         {
+          "article_id": "art_77c44a85cab4f6bd0394",
+          "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
+          "title": "Saudi air defences intercept Houthi barrage near Mecca",
+          "summary": "Houthi attacks on Saudi Arabia escalate as fierce ground battles and a devastating siege strangle Yemen's Taiz.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T13:49:33+00:00",
+          "fetched_at": "2026-10-25T16:18:28.226318+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_014f5be9fc4a7789c2c8",
           "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
           "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
-          "summary": "Saudi-led coalition says intercepted drone, missile launched towards Riyadh and 10 missiles targeting southern region.",
+          "summary": "Saudi Civil Defence says the interception of Houthi ballistic missiles caused two injuries in the country's south.",
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-25T10:42:51+00:00",
-          "fetched_at": "2026-10-25T11:28:32.197843+00:00",
+          "fetched_at": "2026-10-25T16:18:28.227195+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -686,7 +349,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-25T09:13:00+00:00",
-          "fetched_at": "2026-10-25T11:28:31.837281+00:00",
+          "fetched_at": "2026-10-25T16:18:27.885398+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -695,111 +358,21 @@
       ]
     },
     {
-      "event_id": "evt_7b6f66b9adbcc3702ccd",
-      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-      "category": "国际政治",
-      "score": 67.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.5,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T05:15:52+00:00",
-      "last_updated": "2026-10-25T07:20:36+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "israel",
-        "close",
-        "west",
-        "bank",
-        "crossings",
-        "election",
-        "day",
-        "crackdown"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Israel to close West Bank crossings on election day as crackdown escalates”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Israel",
-          "West Bank",
-          "Hebron Israel"
-        ],
-        "latest_progress": [
-          "10月25日 07:20 UTC，Al Jazeera报道：“Israel to close occupied West Bank crossings as it locks down Hebron”。",
-          "10月25日 05:15 UTC，BBC World报道：“Israel to close West Bank crossings on election day as crackdown escalates”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_700aa372894a48b9998e",
-          "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
-          "title": "Israel to close occupied West Bank crossings as it locks down Hebron",
-          "summary": "Israel says it will close all land crossings with the West Bank when it holds a general election on Tuesday.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T07:20:36+00:00",
-          "fetched_at": "2026-10-25T11:28:32.200257+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_751a393d29197e529c23",
-          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_campaign=rss&at_medium=RSS",
-          "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-          "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-25T05:15:52+00:00",
-          "fetched_at": "2026-10-25T11:28:31.634371+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_19cb8c70716e9095a45e",
-      "title": "Israeli forces turn Hebron homes into military posts amid lockdown",
+      "event_id": "evt_5ec16803dfa2c08d491e",
+      "title": "Thousands mourn victims of deadly Jordan church attack",
       "category": "军事安全",
-      "score": 67.0,
+      "score": 68.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.2,
+        "recency": 21.1,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 0.8
+        "velocity": 1.1
       },
-      "first_seen": "2026-10-23T21:38:54+00:00",
-      "last_updated": "2026-10-25T09:27:03+00:00",
+      "first_seen": "2026-10-24T11:59:08+00:00",
+      "last_updated": "2026-10-25T15:21:26+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -811,27 +384,26 @@
         "North America"
       ],
       "keywords": [
-        "military",
-        "israeli",
-        "west",
-        "bank",
-        "operation",
-        "checkpoint",
+        "church",
+        "gunmen",
+        "funeral",
+        "jordan",
+        "victims",
         "attack",
-        "two"
+        "open",
+        "fire"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“Israeli forces turn Hebron homes into military posts amid lockdown”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“Thousands mourn victims of deadly Jordan church attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Israeli",
-          "Hebron",
-          "PM",
-          "West Bank"
+          "Thousands",
+          "Jordan",
+          "Gunmen"
         ],
         "latest_progress": [
-          "10月25日 09:27 UTC，Al Jazeera报道：“Israeli forces turn Hebron homes into military posts amid lockdown”。",
-          "10月23日 21:38 UTC，NPR World报道：“Israeli PM pledges massive military operation after West Bank checkpoint attack”。"
+          "10月25日 15:21 UTC，Al Jazeera报道：“Thousands mourn victims of deadly Jordan church attack”。",
+          "10月24日 11:59 UTC，NPR World报道：“Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -844,30 +416,30 @@
       },
       "articles": [
         {
-          "article_id": "art_d393a3d57a0f4b3af6d2",
-          "url": "https://www.aljazeera.com/news/2026/10/25/israeli-forces-turn-hebron-homes-into-military-posts-amid-lockdown?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/israeli-forces-turn-hebron-homes-into-military-posts-amid-lockdown?traffic_source=rss",
-          "title": "Israeli forces turn Hebron homes into military posts amid lockdown",
-          "summary": "Evictions, raids and outpost expansion continue across the occupied West Bank amid heightened tensions.",
+          "article_id": "art_1cc15881eea0f528d98c",
+          "url": "https://www.aljazeera.com/news/2026/10/25/thousands-mourn-victims-of-deadly-jordan-church-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/thousands-mourn-victims-of-deadly-jordan-church-attack?traffic_source=rss",
+          "title": "Thousands mourn victims of deadly Jordan church attack",
+          "summary": "Jordan's prime minister represents king at funeral for eight of the church attack victims as hunt for gunmen continues.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-25T09:27:03+00:00",
-          "fetched_at": "2026-10-25T11:28:32.198482+00:00",
+          "published_at": "2026-10-25T15:21:26+00:00",
+          "fetched_at": "2026-10-25T16:18:28.225763+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_6ee70c1e6c697b8576fb",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-          "canonical_url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-          "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
-          "summary": "Israel's Prime Minister is vowing to launch a major military operation in the West Bank in response to an attack by two Palestinian gunmen on an Israeli military checkpoint that killed two soldiers.",
+          "article_id": "art_5fe105728dcc6fd2327e",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6015414/shooting-church-jordan",
+          "title": "Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40",
+          "summary": "Footage broadcast on Jordanian state television showed three gunmen firing shots at a Greek Orthodox church in the city of Karak on Friday.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-23T21:38:54+00:00",
-          "fetched_at": "2026-10-25T11:28:32.029915+00:00",
+          "published_at": "2026-10-24T11:59:08+00:00",
+          "fetched_at": "2026-10-25T16:18:28.154336+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -876,50 +448,140 @@
       ]
     },
     {
-      "event_id": "evt_527940c74ef47521d6cd",
-      "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
-      "category": "国际政治",
-      "score": 65.4,
+      "event_id": "evt_f4d704f42a0d75942b99",
+      "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+      "category": "军事安全",
+      "score": 66.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 7.5,
-        "impact": 11.0,
+        "recency": 18.4,
+        "credibility": 9.8,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-25T10:00:00+00:00",
-      "last_updated": "2026-10-25T10:30:00+00:00",
+      "first_seen": "2026-10-25T10:38:15+00:00",
+      "last_updated": "2026-10-25T12:05:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "gjsentinel.com",
-        "winknews.com"
+        "BBC World",
+        "DW Top Stories"
       ],
       "regions": [
-        "United States"
+        "Europe"
       ],
       "keywords": [
-        "serbia",
-        "holds",
-        "parliamentary",
-        "election",
-        "populist",
-        "vucic",
-        "faces",
-        "protesting"
+        "protests",
+        "arrested",
+        "france",
+        "more",
+        "than",
+        "clashes",
+        "across",
+        "hundreds"
       ],
       "analysis": {
-        "what_happened": "据gjsentinel.com、winknews.com等来源的2篇报道，当前关注的国际政治事件为“Serbia holds a parliamentary election as populist Vucic faces protesting students”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“More than 1,300 arrested as clashes follow another day of mass protests across France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Serbia",
-          "Vucic"
+          "France",
+          "Hundreds",
+          "More"
         ],
         "latest_progress": [
-          "10月25日 10:30 UTC，gjsentinel.com报道：“Serbia holds a parliamentary election as populist Vucic faces protesting students”。",
-          "10月25日 10:00 UTC，winknews.com报道：“Serbia holds a parliamentary election as populist Vucic faces protesting students”。"
+          "10月25日 12:05 UTC，DW Top Stories报道：“France: Hundreds arrested after nationwide protests”。",
+          "10月25日 10:38 UTC，BBC World报道：“More than 1,300 arrested as clashes follow another day of mass protests across France”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4554a81acac3f01d3691",
+          "url": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-hundreds-arrested-after-nationwide-protests/live-79748223?maca=en-rss-en-top-1022-rdf",
+          "title": "France: Hundreds arrested after nationwide protests",
+          "summary": "The French government says more than 1,000 people were arrested following nationwide protests on Saturday. Police and elite security forces were out in force across the country as clashes broke out.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-25T12:05:00+00:00",
+          "fetched_at": "2026-10-25T16:18:27.885063+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_a95b5408a0c2958c1a06",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_campaign=rss&at_medium=RSS",
+          "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+          "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T10:38:15+00:00",
+          "fetched_at": "2026-10-25T16:18:26.871275+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_70cb53c343d939bcd844",
+      "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+      "category": "国际政治",
+      "score": 62.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T11:16:00+00:00",
+      "last_updated": "2026-10-25T14:13:00+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "brazil",
+        "election",
+        "votes",
+        "leftist",
+        "lula",
+        "bolsonaro",
+        "final",
+        "tight"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Brazil",
+          "Lula",
+          "Bolsonaro",
+          "Flavio Bolsonaro"
+        ],
+        "latest_progress": [
+          "10月25日 14:13 UTC，DW Top Stories报道：“Brazil election: Lula, Bolsonaro cast votes in final bout”。",
+          "10月25日 11:16 UTC，DW Top Stories报道：“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -932,105 +594,340 @@
       },
       "articles": [
         {
-          "article_id": "art_06a167182bd484f2d17b",
-          "url": "https://www.gjsentinel.com/news/world/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_34ca2f79-70c6-5624-b16a-ffe93f1eb082.html",
-          "canonical_url": "https://www.gjsentinel.com/news/world/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_34ca2f79-70c6-5624-b16a-ffe93f1eb082.html",
-          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
-          "summary": "",
-          "source": "gjsentinel.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-25T10:30:00+00:00",
-          "fetched_at": "2026-10-25T11:27:24.700751+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://bloximages.newyork1.vip.townnews.com/gjsentinel.com/content/tncms/assets/v3/editorial/6/3a/63a6cb58-1917-5834-a460-55f05134f0fe/6add9c7f7033d.image.jpg?crop=1763%2C926%2C0%2C124"
+          "article_id": "art_c32d7d6a5eb45cdd251f",
+          "url": "https://www.dw.com/en/brazil-election-lula-bolsonaro-cast-votes-in-final-bout/live-79755630?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/brazil-election-lula-bolsonaro-cast-votes-in-final-bout/live-79755630?maca=en-rss-en-top-1022-rdf",
+          "title": "Brazil election: Lula, Bolsonaro cast votes in final bout",
+          "summary": "Almost 160 million are eligible to vote in the final round of Brazil's election that pits the left-wing incumbent against the son of the former far-right president. DW has more.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-25T14:13:00+00:00",
+          "fetched_at": "2026-10-25T16:18:27.884759+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
-          "article_id": "art_4e718eda5df6433c5718",
-          "url": "https://www.winknews.com/news/international/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_687ae794-41d8-5185-9152-f9098835148a.html",
-          "canonical_url": "https://www.winknews.com/news/international/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_687ae794-41d8-5185-9152-f9098835148a.html",
-          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
-          "summary": "",
-          "source": "winknews.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-25T10:00:00+00:00",
-          "fetched_at": "2026-10-25T11:27:24.701577+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://bloximages.chicago2.vip.townnews.com/winknews.com/content/tncms/custom/image/2c126f9c-bedd-11ef-8535-37037507a88a.png"
+          "article_id": "art_23a6cc82424e6c355a2b",
+          "url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
+          "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+          "summary": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-25T11:16:00+00:00",
+          "fetched_at": "2026-10-25T16:18:27.885119+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_c24175b6173d37686017",
-      "title": "India news: Rahul Gandhi urges protest against voter deletions, announces November 1 rally",
-      "category": "社会突发",
-      "score": 60.7,
+      "event_id": "evt_e97d82abb27d0e27f9d6",
+      "title": "Seven killed in Gaza as Israel targets university campus and other sites",
+      "category": "军事安全",
+      "score": 62.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
         "recency": 21.4,
-        "credibility": 9.5,
-        "impact": 11.7,
+        "credibility": 10.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-25T10:52:00+00:00",
-      "last_updated": "2026-10-25T10:52:00+00:00",
+      "first_seen": "2026-10-25T15:40:25+00:00",
+      "last_updated": "2026-10-25T15:40:25+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "rahul",
-        "gandhi",
-        "november",
-        "rally",
-        "india",
-        "urges",
-        "protest",
-        "against"
+        "gaza",
+        "university",
+        "seven",
+        "killed",
+        "israel",
+        "targets",
+        "campus",
+        "other"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的社会突发事件为“India news: Rahul Gandhi urges protest against voter deletions, announces November 1 rally”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Seven killed in Gaza as Israel targets university campus and other sites”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "India",
-          "Rahul Gandhi",
-          "November"
+          "Seven",
+          "Gaza",
+          "Israel"
         ],
         "latest_progress": [
-          "10月25日 10:52 UTC，DW Top Stories报道：“India news: Rahul Gandhi urges protest against voter deletions, announces November 1 rally”。"
+          "10月25日 15:40 UTC，Al Jazeera报道：“Seven killed in Gaza as Israel targets university campus and other sites”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_60bb059496d97895b02a",
-          "url": "https://www.dw.com/en/india-news-rahul-gandhi-urges-protest-against-voter-deletions-announces-november-1-rally/live-79748098?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/india-news-rahul-gandhi-urges-protest-against-voter-deletions-announces-november-1-rally/live-79748098?maca=en-rss-en-top-1022-rdf",
-          "title": "India news: Rahul Gandhi urges protest against voter deletions, announces November 1 rally",
-          "summary": "India's opposition leader Rahul Gandhi has accused the ruling BJP of \"vote theft\" and urged people to join a rally in Delhi on November 1. The call comes amid protests over revision of electoral rolls. DW has more.",
-          "source": "DW Top Stories",
+          "article_id": "art_90fd25d5e400c10fb50f",
+          "url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
+          "title": "Seven killed in Gaza as Israel targets university campus and other sites",
+          "summary": "Israeli air strike kills three security guards in one of two attacks on the Islamic University in Gaza City.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-25T10:52:00+00:00",
-          "fetched_at": "2026-10-25T11:28:31.836617+00:00",
+          "published_at": "2026-10-25T15:40:25+00:00",
+          "fetched_at": "2026-10-25T16:18:28.225583+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_4aecb2e02bcc6188a5ca",
+      "title": "Israelis have changed. Will they change their leadership?",
+      "category": "军事安全",
+      "score": 62.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.7,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T16:00:00+00:00",
+      "last_updated": "2026-10-25T16:00:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "NPR World"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "keywords": [
+        "israelis",
+        "years",
+        "war",
+        "changed",
+        "they",
+        "change",
+        "leadership",
+        "israel"
+      ],
+      "analysis": {
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“Israelis have changed. Will they change their leadership?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israelis",
+          "Will"
+        ],
+        "latest_progress": [
+          "10月25日 16:00 UTC，NPR World报道：“Israelis have changed. Will they change their leadership?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_21259562a429c62e1655",
+          "url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+          "canonical_url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+          "title": "Israelis have changed. Will they change their leadership?",
+          "summary": "Israel is holding a general election this week after years of war. For many Israelis, shaken by the Oct. 7, 2023, attacks and years of war, it is the most consequential in decades.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T16:00:00+00:00",
+          "fetched_at": "2026-10-25T16:18:28.153892+00:00",
+          "language": "en",
+          "region": "North America",
           "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a86e3808a5f57a6814b9",
+      "title": "How is the US-Israeli war on Iran causing havoc in Europe?",
+      "category": "军事安全",
+      "score": 61.7,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.7,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T14:47:55+00:00",
+      "last_updated": "2026-10-25T14:47:55+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "us-israeli",
+        "iran",
+        "war",
+        "causing",
+        "havoc",
+        "europe",
+        "rising",
+        "energy"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“How is the US-Israeli war on Iran causing havoc in Europe?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "US",
+          "Israeli",
+          "Iran",
+          "Europe"
+        ],
+        "latest_progress": [
+          "10月25日 14:47 UTC，Al Jazeera报道：“How is the US-Israeli war on Iran causing havoc in Europe?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1b09205a382a09834abe",
+          "url": "https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe?traffic_source=rss",
+          "title": "How is the US-Israeli war on Iran causing havoc in Europe?",
+          "summary": "Rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T14:47:55+00:00",
+          "fetched_at": "2026-10-25T16:18:28.225942+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_36237fb174c3927d7c08",
+      "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
+      "category": "国际政治",
+      "score": 61.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.1,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T10:14:43+00:00",
+      "last_updated": "2026-10-25T11:39:41+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "trump",
+        "iran",
+        "strikes",
+        "reporter",
+        "asking",
+        "about",
+        "plans",
+        "mocks"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Trump mocks reporter asking about Iran strikes, as Tehran says US derailed”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "CENTCOM",
+          "Iran",
+          "Will Trump",
+          "Trump",
+          "Tehran",
+          "US"
+        ],
+        "latest_progress": [
+          "10月25日 11:39 UTC，Al Jazeera报道：“CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?”。",
+          "10月25日 10:14 UTC，Al Jazeera报道：“Trump mocks reporter asking about Iran strikes, as Tehran says US derailed”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2b4e65cf9720ea1333d8",
+          "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
+          "title": "CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?",
+          "summary": "Reports say Pentagon has drawn up plans for strikes after midterm polls, but analysts question what it could achieve.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T11:39:41+00:00",
+          "fetched_at": "2026-10-25T16:18:28.226991+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_79549203377c1e7ccbec",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
+          "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
+          "summary": "US President Donald Trump sarcastically responded to a reporter asking about possible renewed attacks on Iran.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T10:14:43+00:00",
+          "fetched_at": "2026-10-25T16:18:28.227335+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
