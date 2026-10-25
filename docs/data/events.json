@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-10-25T01:12:46.591243+00:00",
+  "generated_at": "2026-10-25T06:08:11.513710+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 87,
-    "articles_unique": 87,
+    "articles_fetched": 137,
+    "articles_unique": 137,
     "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
       {
         "source": "GDELT: (geopolitics OR security OR supply chain OR a",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
@@ -21,18 +17,18 @@
       "event_id": "evt_ab9305ce60d77f84b1ac",
       "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
       "category": "国际政治",
-      "score": 86.9,
+      "score": 85.5,
       "score_breakdown": {
         "coverage": 19.5,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 21.3,
+        "recency": 20.4,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 3.4
+        "velocity": 3.0
       },
       "first_seen": "2026-10-23T22:01:00+00:00",
-      "last_updated": "2026-10-25T00:23:48+00:00",
+      "last_updated": "2026-10-25T04:16:52+00:00",
       "source_count": 4,
       "article_count": 6,
       "sources": [
@@ -60,19 +56,19 @@
         "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Almost 1,000 arrested as clashes follow another day of mass protests across France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Violence",
+          "Almost",
+          "France Violence",
           "Europe",
           "Protests",
           "France",
-          "Almost",
-          "France Violent",
+          "Violent",
           "Albanian",
           "Clashes"
         ],
         "latest_progress": [
+          "10月25日 04:16 UTC，BBC World报道：“Almost 1,000 arrested as clashes follow another day of mass protests across France”。",
           "10月25日 00:23 UTC，Al Jazeera报道：“Violence breaks out across Europe after another day of protests”。",
-          "10月24日 21:21 UTC，NPR World报道：“Protests roil France once again as police seek to quell violence”。",
-          "10月24日 21:09 UTC，BBC World报道：“Almost 1,000 arrested as clashes follow another day of mass protests across France”。"
+          "10月24日 21:21 UTC，NPR World报道：“Protests roil France once again as police seek to quell violence”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -85,6 +81,21 @@
       },
       "articles": [
         {
+          "article_id": "art_a95b5408a0c2958c1a06",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_campaign=rss&at_medium=RSS",
+          "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+          "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T04:16:52+00:00",
+          "fetched_at": "2026-10-25T06:08:09.110319+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg"
+        },
+        {
           "article_id": "art_b6c7003a5a2c3ea73103",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss",
@@ -93,7 +104,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-25T00:23:48+00:00",
-          "fetched_at": "2026-10-25T01:12:45.574165+00:00",
+          "fetched_at": "2026-10-25T06:08:10.359105+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -108,26 +119,11 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T21:21:00+00:00",
-          "fetched_at": "2026-10-25T01:12:45.351157+00:00",
+          "fetched_at": "2026-10-25T06:08:10.212620+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_a95b5408a0c2958c1a06",
-          "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_campaign=rss&at_medium=RSS",
-          "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-          "summary": "Officials have so far managed to avoid a repeat of last weekend's rioting and looting as hundreds of thousands took part in demonstrations.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-24T21:09:27+00:00",
-          "fetched_at": "2026-10-25T01:12:45.098629+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg"
         },
         {
           "article_id": "art_c0a0ccf8c248421b74d8",
@@ -138,7 +134,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-24T20:39:08+00:00",
-          "fetched_at": "2026-10-25T01:12:45.575978+00:00",
+          "fetched_at": "2026-10-25T06:08:10.360100+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -153,7 +149,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T06:34:00+00:00",
-          "fetched_at": "2026-10-25T01:12:45.258916+00:00",
+          "fetched_at": "2026-10-25T06:08:10.124172+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -168,7 +164,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T22:01:00+00:00",
-          "fetched_at": "2026-10-25T01:12:45.259545+00:00",
+          "fetched_at": "2026-10-25T06:08:10.124524+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -177,15 +173,122 @@
       ]
     },
     {
-      "event_id": "evt_c8af536f4d75af638fda",
-      "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "category": "军事安全",
-      "score": 74.7,
+      "event_id": "evt_fa53450909f9534e5c4d",
+      "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+      "category": "国际政治",
+      "score": 73.5,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 17.4,
+        "recency": 21.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 1.5
+      },
+      "first_seen": "2026-10-23T23:08:23+00:00",
+      "last_updated": "2026-10-25T05:32:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "student",
+        "movement",
+        "election",
+        "serbia",
+        "leader",
+        "aleksandar",
+        "two",
+        "years"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Student movement takes Serbia's Vučić to the wire in neck-and-neck election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Serbia",
+          "Student",
+          "Aleksandar Vucic"
+        ],
+        "latest_progress": [
+          "10月25日 05:32 UTC，DW Top Stories报道：“Serbia election: Student movement seeks to end Aleksandar Vucic's rule”。",
+          "10月25日 04:43 UTC，Al Jazeera报道：“Serbia votes in election pitting longtime leader against student movement”。",
+          "10月23日 23:08 UTC，BBC World报道：“Student movement takes Serbia's Vučić to the wire in neck-and-neck election”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_417d875cd9628a61f04f",
+          "url": "https://www.dw.com/en/serbia-election-student-movement-seeks-to-end-aleksandar-vucic-s-rule/a-79753482?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/serbia-election-student-movement-seeks-to-end-aleksandar-vucic-s-rule/a-79753482?maca=en-rss-en-top-1022-rdf",
+          "title": "Serbia election: Student movement seeks to end Aleksandar Vucic's rule",
+          "summary": "After two years of student-led, anti-corruption protests, Serbia is holding an early parliamentary election that could break long-time populist leader Aleksandar Vucic's grip on the Balkan country.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-25T05:32:00+00:00",
+          "fetched_at": "2026-10-25T06:08:10.123275+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b9f9fa8a918318197c58",
+          "url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement?traffic_source=rss",
+          "title": "Serbia votes in election pitting longtime leader against student movement",
+          "summary": "Polls show populist leader Aleksandar Vucic in a tight race against the anticorruption and anti-authoritarian movement.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T04:43:06+00:00",
+          "fetched_at": "2026-10-25T06:08:10.358305+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_aec0d4febaafd99a5fcc",
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_campaign=rss&at_medium=RSS",
+          "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+          "summary": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-23T23:08:23+00:00",
+          "fetched_at": "2026-10-25T06:08:09.111335+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7667/live/b6bb68f0-cef9-11f1-b441-2b33b063138f.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c8af536f4d75af638fda",
+      "title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "category": "军事安全",
+      "score": 71.5,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 14.2,
         "credibility": 9.7,
         "impact": 13.0,
         "velocity": 5.0
@@ -244,7 +347,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T19:33:00+00:00",
-          "fetched_at": "2026-10-25T01:12:45.257955+00:00",
+          "fetched_at": "2026-10-25T06:08:10.123643+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -259,7 +362,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T17:54:25+00:00",
-          "fetched_at": "2026-10-25T01:12:45.351485+00:00",
+          "fetched_at": "2026-10-25T06:08:10.212835+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -274,7 +377,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T12:12:40+00:00",
-          "fetched_at": "2026-10-25T01:12:45.098844+00:00",
+          "fetched_at": "2026-10-25T06:08:09.110474+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -283,15 +386,123 @@
       ]
     },
     {
+      "event_id": "evt_6a3c3c7a51419c72b573",
+      "title": "Election posters, mass tourism and property: Israel’s footprint in Cyprus",
+      "category": "国际政治",
+      "score": 68.9,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.5,
+        "credibility": 9.2,
+        "impact": 11.0,
+        "velocity": 1.2
+      },
+      "first_seen": "2026-10-23T15:00:00+00:00",
+      "last_updated": "2026-10-25T05:33:10+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "vietgiaitri.com"
+      ],
+      "regions": [
+        "Middle East",
+        "Vietnam"
+      ],
+      "keywords": [
+        "israel",
+        "election",
+        "iran",
+        "could",
+        "military",
+        "crackdown",
+        "influence",
+        "tuesday"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、vietgiaitri.com等来源的3篇报道，当前关注的国际政治事件为“Election posters, mass tourism and property: Israel’s footprint in Cyprus”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Election",
+          "Israel",
+          "Cyprus Could Israel",
+          "Tuesday",
+          "Iran"
+        ],
+        "latest_progress": [
+          "10月25日 05:33 UTC，Al Jazeera报道：“Election posters, mass tourism and property: Israel’s footprint in Cyprus”。",
+          "10月24日 20:37 UTC，Al Jazeera报道：“Could Israel’s military crackdown influence Tuesday’s election?”。",
+          "10月23日 15:00 UTC，vietgiaitri.com报道：“Liệu Iran có sẵn sàng đối mặt đợt tấn công lớn khác từ Mỹ , Israel ?”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a64835e6eaad02a31722",
+          "url": "https://www.aljazeera.com/features/2026/10/25/election-posters-mass-tourism-and-property-israels-footprint-in-cyprus?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/10/25/election-posters-mass-tourism-and-property-israels-footprint-in-cyprus?traffic_source=rss",
+          "title": "Election posters, mass tourism and property: Israel’s footprint in Cyprus",
+          "summary": "Cypriots say Israeli money is moving fast and shutting them out as their government embraces Israel as a key ally.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T05:33:10+00:00",
+          "fetched_at": "2026-10-25T06:08:10.358096+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_75158c1834e1c18ed588",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
+          "title": "Could Israel’s military crackdown influence Tuesday’s election?",
+          "summary": "Israel preparing a full lockdown of occupied West Bank after Hebron gunfight.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T20:37:02+00:00",
+          "fetched_at": "2026-10-25T06:08:10.360183+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1cafdabf6dd32574e681",
+          "url": "https://vietgiaitri.com/lieu-iran-co-san-sang-doi-mat-dot-tan-cong-lon-khac-tu-my-israel-20261023i7800584/",
+          "canonical_url": "https://vietgiaitri.com/lieu-iran-co-san-sang-doi-mat-dot-tan-cong-lon-khac-tu-my-israel-20261023i7800584",
+          "title": "Liệu Iran có sẵn sàng đối mặt đợt tấn công lớn khác từ Mỹ , Israel ?",
+          "summary": "",
+          "source": "vietgiaitri.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-23T15:00:00+00:00",
+          "fetched_at": "2026-10-25T06:07:18.152595+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://t.vietgiaitri.com/2026/10/8/lieu-iran-co-san-sang-doi-mat-dot-tan-cong-lon-khac-tu-my-israel-800x576-076-7800584.webp"
+        }
+      ]
+    },
+    {
       "event_id": "evt_1b763ced6f9f2fe43e6f",
       "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
       "category": "军事安全",
-      "score": 67.6,
+      "score": 65.3,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 12.7,
+        "recency": 10.3,
         "credibility": 9.7,
         "impact": 13.0,
         "velocity": 2.6
@@ -352,7 +563,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T11:59:08+00:00",
-          "fetched_at": "2026-10-25T01:12:45.351665+00:00",
+          "fetched_at": "2026-10-25T06:08:10.212927+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -367,7 +578,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T19:46:30+00:00",
-          "fetched_at": "2026-10-25T01:12:45.101372+00:00",
+          "fetched_at": "2026-10-25T06:08:09.111887+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -382,7 +593,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T18:33:00+00:00",
-          "fetched_at": "2026-10-25T01:12:45.260084+00:00",
+          "fetched_at": "2026-10-25T06:08:10.124815+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -391,92 +602,144 @@
       ]
     },
     {
-      "event_id": "evt_23107decea808abc4fb5",
-      "title": "Kim Jong Un crosses new bridge linking North Korea and China",
-      "category": "国际政治",
-      "score": 63.1,
+      "event_id": "evt_79f8fb7a06318a5583c9",
+      "title": "Bots, deepfakes and surveillance: Israel’s election goes to war online",
+      "category": "军事安全",
+      "score": 62.4,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.3,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.9
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-24T07:29:00+00:00",
-      "last_updated": "2026-10-24T18:00:20+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-25T05:27:54+00:00",
+      "last_updated": "2026-10-25T05:27:54+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "north",
-        "kim",
-        "jong",
-        "bridge",
-        "china",
-        "linking",
-        "korean",
-        "leader"
+        "bots",
+        "deepfakes",
+        "surveillance",
+        "israel",
+        "election",
+        "goes",
+        "war",
+        "online"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Kim Jong Un crosses new bridge linking North Korea and China”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Bots, deepfakes and surveillance: Israel’s election goes to war online”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Kim Jong Un",
-          "North Korea",
-          "China North Korean",
-          "Chinese"
+          "Bots",
+          "Israel"
         ],
         "latest_progress": [
-          "10月24日 18:00 UTC，Al Jazeera报道：“Kim Jong Un crosses new bridge linking North Korea and China”。",
-          "10月24日 07:29 UTC，DW Top Stories报道：“North Korean leader Kim Jong Un travels to Chinese border city via newly opened bridge”。"
+          "10月25日 05:27 UTC，Al Jazeera报道：“Bots, deepfakes and surveillance: Israel’s election goes to war online”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_1ca2fc85de39cb50606f",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/kim-jong-un-crosses-new-bridge-linking-north-korea-and-china?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/kim-jong-un-crosses-new-bridge-linking-north-korea-and-china?traffic_source=rss",
-          "title": "Kim Jong Un crosses new bridge linking North Korea and China",
-          "summary": "Kim Jong Un crosses new bridge linking North Korea and China",
+          "article_id": "art_d3e7b9cbf9024513b144",
+          "url": "https://www.aljazeera.com/news/2026/10/25/bots-deepfakes-and-surveillance-israels-election-goes-to-war-online?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/bots-deepfakes-and-surveillance-israels-election-goes-to-war-online?traffic_source=rss",
+          "title": "Bots, deepfakes and surveillance: Israel’s election goes to war online",
+          "summary": "Netanyahu and his rivals are tied days from the vote, and both camps are fighting with bots, deepfakes and data.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-24T18:00:20+00:00",
-          "fetched_at": "2026-10-25T01:12:45.576925+00:00",
+          "published_at": "2026-10-25T05:27:54+00:00",
+          "fetched_at": "2026-10-25T06:08:10.358201+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f2d1a012aec0f095797e",
+      "title": "Bulgarians vote for president in shadow of Russia’s war in Ukraine",
+      "category": "军事安全",
+      "score": 60.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T02:45:43+00:00",
+      "last_updated": "2026-10-25T02:45:43+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "war",
+        "ukraine",
+        "bulgarians",
+        "vote",
+        "president",
+        "shadow",
+        "russia",
+        "two"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Bulgarians vote for president in shadow of Russia’s war in Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Bulgarians",
+          "Russia",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月25日 02:45 UTC，Al Jazeera报道：“Bulgarians vote for president in shadow of Russia’s war in Ukraine”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
-          "article_id": "art_771fbcae7d8d5de9a19f",
-          "url": "https://www.dw.com/en/north-korean-leader-kim-jong-un-travels-to-chinese-border-city-via-newly-opened-bridge/a-79748580?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/north-korean-leader-kim-jong-un-travels-to-chinese-border-city-via-newly-opened-bridge/a-79748580?maca=en-rss-en-top-1022-rdf",
-          "title": "North Korean leader Kim Jong Un travels to Chinese border city via newly opened bridge",
-          "summary": "North Korean leader Kim Jong Un travelled to China’s border city of Dandong via a newly opened bridge linking the two countries, where he met a senior Chinese official.",
-          "source": "DW Top Stories",
+          "article_id": "art_774e9fc1f4419ee269fc",
+          "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+          "title": "Bulgarians vote for president in shadow of Russia’s war in Ukraine",
+          "summary": "The two leading candidates condemn recent deadly Black Sea drone strikes, but differ on the Ukraine war more broadly.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-24T07:29:00+00:00",
-          "fetched_at": "2026-10-25T01:12:45.258786+00:00",
+          "published_at": "2026-10-25T02:45:43+00:00",
+          "fetched_at": "2026-10-25T06:08:10.358817+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
@@ -485,12 +748,12 @@
       "event_id": "evt_f0913d6bcf361c2225c3",
       "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
       "category": "国际政治",
-      "score": 62.8,
+      "score": 60.0,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 15.0,
+        "recency": 12.2,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 3.4
@@ -550,7 +813,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T15:56:48+00:00",
-          "fetched_at": "2026-10-25T01:12:45.102458+00:00",
+          "fetched_at": "2026-10-25T06:08:09.112498+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -565,7 +828,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T15:21:44+00:00",
-          "fetched_at": "2026-10-25T01:12:45.099193+00:00",
+          "fetched_at": "2026-10-25T06:08:09.110691+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -580,7 +843,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T02:40:00+00:00",
-          "fetched_at": "2026-10-25T01:12:45.259424+00:00",
+          "fetched_at": "2026-10-25T06:08:10.124459+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -589,21 +852,21 @@
       ]
     },
     {
-      "event_id": "evt_43b8b38070a08e4dd8e5",
-      "title": "Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats",
-      "category": "军事安全",
-      "score": 62.5,
+      "event_id": "evt_2ca5bc0e2beb4ce939f0",
+      "title": "Obama joins El-Sayed in Michigan rally cry before key midterms",
+      "category": "国际政治",
+      "score": 59.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.4,
+        "recency": 20.2,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-25T00:34:43+00:00",
-      "last_updated": "2026-10-25T00:34:43+00:00",
+      "first_seen": "2026-10-25T04:06:28+00:00",
+      "last_updated": "2026-10-25T04:06:28+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -613,100 +876,26 @@
         "Middle East"
       ],
       "keywords": [
-        "trump",
         "obama",
-        "slams",
-        "cruelty",
-        "corruption",
-        "ohio",
+        "el-sayed",
+        "michigan",
         "rally",
-        "democrats"
+        "midterms",
+        "joins",
+        "cry",
+        "before"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Obama",
-          "Trump",
-          "Ohio",
-          "Democrats"
-        ],
-        "latest_progress": [
-          "10月25日 00:34 UTC，Al Jazeera报道：“Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_78a627de04bf75729389",
-          "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
-          "title": "Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats",
-          "summary": "Former US president says Trump 'chose to make a series of bad decisions', highlighting the US-Israel war on Iran.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T00:34:43+00:00",
-          "fetched_at": "2026-10-25T01:12:45.573989+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a2d0f2b53d5cd592223d",
-      "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll",
-      "category": "国际政治",
-      "score": 62.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.0,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-24T15:36:38+00:00",
-      "last_updated": "2026-10-24T21:39:29+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "brazil",
-        "lula",
-        "bolsonaro",
-        "run-off",
-        "about",
-        "even",
-        "ahead",
-        "election"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Obama joins El-Sayed in Michigan rally cry before key midterms”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Brazil",
-          "Lula",
-          "Bolsonaro",
-          "Poll"
+          "Obama",
+          "El",
+          "Sayed",
+          "Michigan"
         ],
         "latest_progress": [
-          "10月24日 21:39 UTC，Al Jazeera报道：“Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies”。",
-          "10月24日 15:36 UTC，Al Jazeera报道：“Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll”。"
+          "10月25日 04:06 UTC，Al Jazeera报道：“Obama joins El-Sayed in Michigan rally cry before key midterms”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -719,30 +908,15 @@
       },
       "articles": [
         {
-          "article_id": "art_1658cc6f4dd2dc07a2a2",
-          "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
-          "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies",
-          "summary": "The pivotal run-off will determine whether Brazilians stick with their left-wing leader or shift towards the right.",
+          "article_id": "art_08d15d0a4ec86561e07b",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/obama-joins-el-sayed-in-michigan-rally-cry-before-key-midterms?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/obama-joins-el-sayed-in-michigan-rally-cry-before-key-midterms?traffic_source=rss",
+          "title": "Obama joins El-Sayed in Michigan rally cry before key midterms",
+          "summary": "Former US President Barack Obama joined Michigan Senate candidate Abdul El-Sayed at a Detroit rally ahead of midterms.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-24T21:39:29+00:00",
-          "fetched_at": "2026-10-25T01:12:45.575020+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_341fd6dbc70b531fd649",
-          "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
-          "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll",
-          "summary": "The race between Brazil's president and the right-wing senator has tightened in recent days.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T15:36:38+00:00",
-          "fetched_at": "2026-10-25T01:12:45.578014+00:00",
+          "published_at": "2026-10-25T04:06:28+00:00",
+          "fetched_at": "2026-10-25T06:08:10.358420+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -751,217 +925,73 @@
       ]
     },
     {
-      "event_id": "evt_98f17028c27b573d6b85",
-      "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
-      "category": "军事安全",
-      "score": 62.0,
+      "event_id": "evt_0f41d3f4e110f7f0b91e",
+      "title": "Trump announces Audi will build $4 billion factory in US",
+      "category": "产业供应链",
+      "score": 58.7,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
-        "credibility": 10.0,
-        "impact": 13.0,
+        "recency": 20.8,
+        "credibility": 9.5,
+        "impact": 10.4,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-25T00:00:00+00:00",
-      "last_updated": "2026-10-25T00:00:00+00:00",
+      "first_seen": "2026-10-25T04:44:00+00:00",
+      "last_updated": "2026-10-25T04:44:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "Al Jazeera"
+        "DW Top Stories"
       ],
       "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "iran",
-        "trump",
-        "possible",
-        "sunday",
-        "attack",
-        "deal",
-        "war",
-        "hints"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Trump hints at possible Sunday Iran attack or deal reached”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Iran",
-          "Trump",
-          "Sunday Iran"
-        ],
-        "latest_progress": [
-          "10月25日 00:00 UTC，Al Jazeera报道：“Iran war live: Trump hints at possible Sunday Iran attack or deal reached”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_fcc15f0e001ca52f5347",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
-          "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
-          "summary": "Trump says US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T00:00:00+00:00",
-          "fetched_at": "2026-10-25T01:12:45.574334+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ad6b658645973d014873",
-      "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
-      "category": "军事安全",
-      "score": 61.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-24T23:08:16+00:00",
-      "last_updated": "2026-10-24T23:08:16+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
         "trump",
-        "russia-ukraine",
-        "localised",
-        "ceasefire",
-        "lauds",
-        "melania",
-        "deal",
-        "donald"
+        "factory",
+        "announces",
+        "audi",
+        "build",
+        "billion",
+        "donald",
+        "made"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Trump lauds Melania over Russia-Ukraine localised ceasefire deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的产业供应链事件为“Trump announces Audi will build $4 billion factory in US”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
         "participants": [
           "Trump",
-          "Melania",
-          "Russia",
-          "Ukraine"
+          "Audi",
+          "US"
         ],
         "latest_progress": [
-          "10月24日 23:08 UTC，Al Jazeera报道：“Trump lauds Melania over Russia-Ukraine localised ceasefire deal”。"
+          "10月25日 04:44 UTC，DW Top Stories报道：“Trump announces Audi will build $4 billion factory in US”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
+        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "港口和工厂运行率",
+          "交货周期与运价",
+          "企业订单及库存"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_34a74e5845756f13fb70",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
-          "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
-          "summary": "Donald Trump praised First Lady as 'better than professionals' after a localised Russia-Ukraine ceasefire in Oleshky.",
-          "source": "Al Jazeera",
+          "article_id": "art_3eada664d691d4391e50",
+          "url": "https://www.dw.com/en/trump-announces-audi-will-build-4-billion-factory-in-us/a-79753479?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-announces-audi-will-build-4-billion-factory-in-us/a-79753479?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump announces Audi will build $4 billion factory in US",
+          "summary": "After Donald Trump made the announcement at an election rally in Georgia, the German carmaker confirmed plans for a factory in the US state, but noted car production would only start early next decade.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-24T23:08:16+00:00",
-          "fetched_at": "2026-10-25T01:12:45.574507+00:00",
+          "published_at": "2026-10-25T04:44:00+00:00",
+          "fetched_at": "2026-10-25T06:08:10.123392+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_223c3765060236f4aed8",
-      "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
-      "category": "军事安全",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.7,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-24T22:35:45+00:00",
-      "last_updated": "2026-10-24T22:35:45+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "police",
-        "say",
-        "gunmen",
-        "kill",
-        "least",
-        "people",
-        "eastern",
-        "nigeria"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Gunmen kill at least 10 people in eastern Nigeria, police say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Gunmen",
-          "Nigeria"
-        ],
-        "latest_progress": [
-          "10月24日 22:35 UTC，Al Jazeera报道：“Gunmen kill at least 10 people in eastern Nigeria, police say”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_605943d1806b7d3baa46",
-          "url": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
-          "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
-          "summary": "Nigerian police say a large group carried out the attack on Binnari village in Taraba State.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T22:35:45+00:00",
-          "fetched_at": "2026-10-25T01:12:45.574691+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
