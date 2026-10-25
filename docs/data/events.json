@@ -1,23 +1,142 @@
 {
-  "generated_at": "2026-10-25T19:07:15.499558+00:00",
+  "generated_at": "2026-10-25T21:49:12.354230+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 187,
-    "articles_unique": 185,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 87,
+    "articles_unique": 87,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
+    {
+      "event_id": "evt_92d69b05f44eb085a9a5",
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "category": "国际政治",
+      "score": 77.6,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 19.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T16:18:41+00:00",
+      "last_updated": "2026-10-25T18:55:39+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "machado",
+        "opposition",
+        "leader",
+        "returns",
+        "exile",
+        "mar",
+        "corina",
+        "months"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的3篇报道，当前关注的国际政治事件为“Venezuelan opposition leader María Machado returns after months in exile”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Venezuela",
+          "Maria Corina Machado",
+          "Venezuelan",
+          "Machado",
+          "Corina Machado"
+        ],
+        "latest_progress": [
+          "10月25日 18:55 UTC，Al Jazeera报道：“Venezuela’s opposition leader Maria Corina Machado returns from exile”。",
+          "10月25日 18:29 UTC，BBC World报道：“Venezuelan opposition leader María Machado returns after months in exile”。",
+          "10月25日 16:18 UTC，NPR World报道：“Venezuela's opposition leader María Corina Machado returns after months in exile”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_37a56c5e2966e74e495c",
+          "url": "https://www.aljazeera.com/news/2026/10/25/venezuelas-opposition-leader-maria-corina-machado-returns-from-exile?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/venezuelas-opposition-leader-maria-corina-machado-returns-from-exile?traffic_source=rss",
+          "title": "Venezuela’s opposition leader Maria Corina Machado returns from exile",
+          "summary": "The Nobel laureate's homecoming follows national protests demanding free elections.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T18:55:39+00:00",
+          "fetched_at": "2026-10-25T21:49:11.430779+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_60e9a60623f9088299f3",
+          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_campaign=rss&at_medium=RSS",
+          "title": "Venezuelan opposition leader María Machado returns after months in exile",
+          "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T18:29:00+00:00",
+          "fetched_at": "2026-10-25T21:49:10.879452+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116f/live/8cce05e0-d096-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_8a97a88ed1af9975a1a4",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+          "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
+          "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\"",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T16:18:41+00:00",
+          "fetched_at": "2026-10-25T21:49:11.181872+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
     {
       "event_id": "evt_276ed6fe32da025dee11",
       "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
       "category": "军事安全",
-      "score": 73.1,
+      "score": 71.5,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 14.4,
+        "recency": 12.9,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 4.0
@@ -79,7 +198,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T09:00:00+00:00",
-          "fetched_at": "2026-10-25T19:07:13.213931+00:00",
+          "fetched_at": "2026-10-25T21:49:10.879625+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -94,7 +213,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T05:45:31+00:00",
-          "fetched_at": "2026-10-25T19:07:13.216014+00:00",
+          "fetched_at": "2026-10-25T21:49:10.883684+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -109,7 +228,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T19:33:00+00:00",
-          "fetched_at": "2026-10-25T19:07:13.936821+00:00",
+          "fetched_at": "2026-10-25T21:49:11.019558+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -124,7 +243,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T17:54:25+00:00",
-          "fetched_at": "2026-10-25T19:07:14.165354+00:00",
+          "fetched_at": "2026-10-25T21:49:11.182776+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -133,53 +252,53 @@
       ]
     },
     {
-      "event_id": "evt_92d69b05f44eb085a9a5",
-      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "event_id": "evt_180450fc407bf0f55fdf",
+      "title": "Brazil election results 2026 live: Lula-Bolsonaro voting extended by 2 hours",
       "category": "国际政治",
-      "score": 70.4,
+      "score": 70.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.4,
+        "recency": 21.7,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-25T16:18:41+00:00",
-      "last_updated": "2026-10-25T18:29:00+00:00",
+      "first_seen": "2026-10-25T20:00:04+00:00",
+      "last_updated": "2026-10-25T21:28:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "BBC World",
-        "NPR World"
+        "Al Jazeera",
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "machado",
-        "opposition",
-        "leader",
-        "mar",
-        "returns",
-        "months",
-        "exile",
-        "venezuelan"
+        "extended",
+        "brazil",
+        "election",
+        "voting",
+        "hours",
+        "lula",
+        "bolsonaro",
+        "more"
       ],
       "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“Venezuelan opposition leader María Machado returns after months in exile”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Brazil election results 2026 live: Lula-Bolsonaro voting extended by 2 hours”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Venezuelan",
-          "Machado",
-          "Venezuela",
-          "Corina Machado"
+          "Brazil",
+          "Voting",
+          "Lula",
+          "Bolsonaro"
         ],
         "latest_progress": [
-          "10月25日 18:29 UTC，BBC World报道：“Venezuelan opposition leader María Machado returns after months in exile”。",
-          "10月25日 16:18 UTC，NPR World报道：“Venezuela's opposition leader María Corina Machado returns after months in exile”。"
+          "10月25日 21:28 UTC，DW Top Stories报道：“Brazil elections: Voting extended after transport complaints”。",
+          "10月25日 20:00 UTC，Al Jazeera报道：“Brazil election results 2026 live: Lula-Bolsonaro voting extended by 2 hours”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -192,32 +311,211 @@
       },
       "articles": [
         {
-          "article_id": "art_60e9a60623f9088299f3",
-          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_campaign=rss&at_medium=RSS",
-          "title": "Venezuelan opposition leader María Machado returns after months in exile",
-          "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+          "article_id": "art_d42a743f1d6d38ccb2e8",
+          "url": "https://www.dw.com/en/brazil-elections-voting-extended-after-transport-complaints/live-79755630?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/brazil-elections-voting-extended-after-transport-complaints/live-79755630?maca=en-rss-en-top-1022-rdf",
+          "title": "Brazil elections: Voting extended after transport complaints",
+          "summary": "Supporters of left-wing Lula and far-right Bolsonaro have two more hours to vote after polling was extended. The result is expected to be very close. DW has more.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-25T21:28:00+00:00",
+          "fetched_at": "2026-10-25T21:49:11.017203+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_58dd76d6c952bad2ddd6",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss",
+          "title": "Brazil election results 2026 live: Lula-Bolsonaro voting extended by 2 hours",
+          "summary": "Brazilian President Luiz Inacio Lula da Silva and Senator Flavio Bolsonaro square off in closely watched election.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T20:00:04+00:00",
+          "fetched_at": "2026-10-25T21:49:11.430119+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_70cb53c343d939bcd844",
+      "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+      "category": "国际政治",
+      "score": 68.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.6,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 3.0
+      },
+      "first_seen": "2026-10-25T11:16:00+00:00",
+      "last_updated": "2026-10-25T21:22:43+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "brazil",
+        "runoff",
+        "leftist",
+        "election",
+        "lula",
+        "flavio",
+        "bolsonaro",
+        "latin"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的国际政治事件为“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Latin America",
+          "Brazil Brazil",
+          "Lula",
+          "Flavio Bolsonaro"
+        ],
+        "latest_progress": [
+          "10月25日 21:22 UTC，NPR World报道：“U.S. influence in Latin America at stake in runoff election in Brazil”。",
+          "10月25日 11:16 UTC，DW Top Stories报道：“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0b7b1e060fd1642568ad",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6011223/u-s-influence-in-latin-america-at-stake-in-runoff-election-in-brazil",
+          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6011223/u-s-influence-in-latin-america-at-stake-in-runoff-election-in-brazil",
+          "title": "U.S. influence in Latin America at stake in runoff election in Brazil",
+          "summary": "A polarizing presidential election runoff in Latin America's largest economy and biggest democracy pits leftist Lula da Silva's legacy against Trump ally Flavio Bolsonaro, son of the former Brazilian president.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T21:22:43+00:00",
+          "fetched_at": "2026-10-25T21:49:11.181514+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_23a6cc82424e6c355a2b",
+          "url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
+          "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+          "summary": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-25T11:16:00+00:00",
+          "fetched_at": "2026-10-25T21:49:11.018418+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8e142e79611576947773",
+      "title": "Serbia's Vučić concedes election defeat to student-led protest movement",
+      "category": "国际政治",
+      "score": 68.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T21:07:00+00:00",
+      "last_updated": "2026-10-25T21:25:04+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "defeat",
+        "student-led",
+        "movement",
+        "election",
+        "vucic",
+        "concedes",
+        "serbia's",
+        "leader"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Serbia's Vučić concedes election defeat to student-led protest movement”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Serbia",
+          "Vucic"
+        ],
+        "latest_progress": [
+          "10月25日 21:25 UTC，BBC World报道：“Serbia's Vučić concedes election defeat to student-led protest movement”。",
+          "10月25日 21:07 UTC，DW Top Stories报道：“Serbia election: Vucic concedes defeat to student-led movement”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f3258702893cb96d65dd",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_campaign=rss&at_medium=RSS",
+          "title": "Serbia's Vučić concedes election defeat to student-led protest movement",
+          "summary": "The country's populist right-wing leader of 12 years says it is \"clear\" his Serbian Progressive Party has lost.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-25T18:29:00+00:00",
-          "fetched_at": "2026-10-25T19:07:13.214040+00:00",
+          "published_at": "2026-10-25T21:25:04+00:00",
+          "fetched_at": "2026-10-25T21:49:10.879247+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116f/live/8cce05e0-d096-11f1-b441-2b33b063138f.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79e5/live/ec88c6f0-d0b9-11f1-93e1-3b657b665bcf.jpg"
         },
         {
-          "article_id": "art_8a97a88ed1af9975a1a4",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-          "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
-          "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\"",
-          "source": "NPR World",
+          "article_id": "art_333e71f4e13d7bcd1102",
+          "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
+          "title": "Serbia election: Vucic concedes defeat to student-led movement",
+          "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led movement in the country's parliamentary elections.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-25T16:18:41+00:00",
-          "fetched_at": "2026-10-25T19:07:14.164863+00:00",
+          "published_at": "2026-10-25T21:07:00+00:00",
+          "fetched_at": "2026-10-25T21:49:11.017355+00:00",
           "language": "en",
-          "region": "North America",
+          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
@@ -227,12 +525,12 @@
       "event_id": "evt_5ec16803dfa2c08d491e",
       "title": "Thousands mourn victims of deadly Jordan church attack",
       "category": "军事安全",
-      "score": 70.0,
+      "score": 68.0,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.5,
+        "recency": 17.5,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 1.6
@@ -292,7 +590,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-25T16:16:48+00:00",
-          "fetched_at": "2026-10-25T19:07:14.277280+00:00",
+          "fetched_at": "2026-10-25T21:49:11.432813+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -307,7 +605,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-25T15:21:26+00:00",
-          "fetched_at": "2026-10-25T19:07:14.277563+00:00",
+          "fetched_at": "2026-10-25T21:49:11.433418+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -322,7 +620,96 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T11:59:08+00:00",
-          "fetched_at": "2026-10-25T19:07:14.165425+00:00",
+          "fetched_at": "2026-10-25T21:49:11.182931+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9e0ae961cc149b0c89d3",
+      "title": "The narrative battle over France’s unrest",
+      "category": "社会突发",
+      "score": 66.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.1,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 1.3
+      },
+      "first_seen": "2026-10-24T21:21:00+00:00",
+      "last_updated": "2026-10-25T19:36:14+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "NPR World"
+      ],
+      "regions": [
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "france",
+        "police",
+        "violence",
+        "protests",
+        "out",
+        "roil",
+        "once",
+        "again"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的社会突发事件为“The narrative battle over France’s unrest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "France",
+          "Protests"
+        ],
+        "latest_progress": [
+          "10月25日 19:36 UTC，Al Jazeera报道：“The narrative battle over France’s unrest”。",
+          "10月24日 21:21 UTC，NPR World报道：“Protests roil France once again as police seek to quell violence”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cb6c53e1edd5f7b4a22e",
+          "url": "https://www.aljazeera.com/video/the-listening-post/2026/10/25/the-narrative-battle-over-frances-unrest?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/the-listening-post/2026/10/25/the-narrative-battle-over-frances-unrest?traffic_source=rss",
+          "title": "The narrative battle over France’s unrest",
+          "summary": "Student protests, police violence and French media obsessed with 'barbarians'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T19:36:14+00:00",
+          "fetched_at": "2026-10-25T21:49:11.430284+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_26afb774eaa43bf8b27e",
+          "url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
+          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
+          "title": "Protests roil France once again as police seek to quell violence",
+          "summary": "Hundreds of thousands turned out across France to protest everything from the lack of school funding to economic inequality. Police also were out in force to prevent a repeat of last week's violence.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-24T21:21:00+00:00",
+          "fetched_at": "2026-10-25T21:49:11.182466+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -334,12 +721,12 @@
       "event_id": "evt_242874391f4bc6a91e8a",
       "title": "The bitter row over military service that could shape Israel's future",
       "category": "军事安全",
-      "score": 67.7,
+      "score": 65.6,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.7,
+        "recency": 17.6,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 1.7
@@ -397,7 +784,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-25T16:30:51+00:00",
-          "fetched_at": "2026-10-25T19:07:14.277138+00:00",
+          "fetched_at": "2026-10-25T21:49:11.432496+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -412,7 +799,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T23:03:21+00:00",
-          "fetched_at": "2026-10-25T19:07:13.215944+00:00",
+          "fetched_at": "2026-10-25T21:49:10.883531+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -424,12 +811,12 @@
       "event_id": "evt_e97d82abb27d0e27f9d6",
       "title": "Eight killed in Gaza as Israel targets university campus and other sites",
       "category": "军事安全",
-      "score": 66.3,
+      "score": 64.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.2,
+        "recency": 18.9,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -487,7 +874,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-25T18:12:13+00:00",
-          "fetched_at": "2026-10-25T19:07:14.276625+00:00",
+          "fetched_at": "2026-10-25T21:49:11.431412+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -502,7 +889,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-25T15:40:25+00:00",
-          "fetched_at": "2026-10-25T19:07:14.277425+00:00",
+          "fetched_at": "2026-10-25T21:49:11.433117+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -514,12 +901,12 @@
       "event_id": "evt_f4d704f42a0d75942b99",
       "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
       "category": "军事安全",
-      "score": 64.9,
+      "score": 63.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 16.4,
+        "recency": 14.7,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -576,7 +963,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-25T12:05:00+00:00",
-          "fetched_at": "2026-10-25T19:07:13.936173+00:00",
+          "fetched_at": "2026-10-25T21:49:11.018296+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -591,346 +978,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T10:38:15+00:00",
-          "fetched_at": "2026-10-25T19:07:13.214651+00:00",
+          "fetched_at": "2026-10-25T21:49:10.880774+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7b6f66b9adbcc3702ccd",
-      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-      "category": "国际政治",
-      "score": 62.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 17.2,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 3.8
-      },
-      "first_seen": "2026-10-25T05:15:52+00:00",
-      "last_updated": "2026-10-25T13:09:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "election",
-        "israel",
-        "west",
-        "bank",
-        "israeli",
-        "close",
-        "crossings",
-        "day"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Israel to close West Bank crossings on election day as crackdown escalates”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Israel",
-          "West Bank"
-        ],
-        "latest_progress": [
-          "10月25日 13:09 UTC，DW Top Stories报道：“Israel to close all West Bank land crossings on election day”。",
-          "10月25日 05:15 UTC，BBC World报道：“Israel to close West Bank crossings on election day as crackdown escalates”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_eb878b7b2bd8e771b9a7",
-          "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
-          "title": "Israel to close all West Bank land crossings on election day",
-          "summary": "After a deadly attack which killed two Israeli soldiers on Friday, the Israeli military has said all land border points between Israel and the occupied West Bank will be closed during Tuesday's election.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T13:09:00+00:00",
-          "fetched_at": "2026-10-25T19:07:13.936053+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_751a393d29197e529c23",
-          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_campaign=rss&at_medium=RSS",
-          "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-          "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-25T05:15:52+00:00",
-          "fetched_at": "2026-10-25T19:07:13.214285+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_62c3d05d0d00a70cc5e2",
-      "title": "AI’s ‘opportunity divide’ could deepen global inequality, UN official warns",
-      "category": "科技AI",
-      "score": 62.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.5,
-        "credibility": 10.0,
-        "impact": 9.8,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T15:38:52+00:00",
-      "last_updated": "2026-10-25T17:26:22+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "official",
-        "warns",
-        "could",
-        "deepen",
-        "global",
-        "inequality",
-        "opportunity",
-        "divide"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的科技AI事件为“AI’s ‘opportunity divide’ could deepen global inequality, UN official warns”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "AI",
-          "UN"
-        ],
-        "latest_progress": [
-          "10月25日 17:26 UTC，Al Jazeera报道：“AI’s ‘opportunity divide’ could deepen global inequality, UN official warns”。",
-          "10月25日 15:38 UTC，Al Jazeera报道：“UN official warns AI could ‘deepen’ global inequality”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_94642db6a084efb54b35",
-          "url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns?traffic_source=rss",
-          "title": "AI’s ‘opportunity divide’ could deepen global inequality, UN official warns",
-          "summary": "The deputy secretary-general of UN's ICT agency says unequal access to AI means poorer nations may be left behind.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T17:26:22+00:00",
-          "fetched_at": "2026-10-25T19:07:14.276921+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f3aaac77f2002d4d70c4",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/un-official-warns-ai-could-deepen-global-inequality?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/un-official-warns-ai-could-deepen-global-inequality?traffic_source=rss",
-          "title": "UN official warns AI could ‘deepen’ global inequality",
-          "summary": "UN official warns AI could ‘deepen’ global inequality",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T15:38:52+00:00",
-          "fetched_at": "2026-10-25T19:07:14.277493+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_70cb53c343d939bcd844",
-      "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
-      "category": "国际政治",
-      "score": 60.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.9,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T11:16:00+00:00",
-      "last_updated": "2026-10-25T14:13:00+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "brazil",
-        "election",
-        "votes",
-        "leftist",
-        "lula",
-        "bolsonaro",
-        "final",
-        "tight"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Brazil",
-          "Lula",
-          "Bolsonaro",
-          "Flavio Bolsonaro"
-        ],
-        "latest_progress": [
-          "10月25日 14:13 UTC，DW Top Stories报道：“Brazil election: Lula, Bolsonaro cast votes in final bout”。",
-          "10月25日 11:16 UTC，DW Top Stories报道：“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c32d7d6a5eb45cdd251f",
-          "url": "https://www.dw.com/en/brazil-election-lula-bolsonaro-cast-votes-in-final-bout/live-79755630?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-election-lula-bolsonaro-cast-votes-in-final-bout/live-79755630?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil election: Lula, Bolsonaro cast votes in final bout",
-          "summary": "Almost 160 million are eligible to vote in the final round of Brazil's election that pits the left-wing incumbent against the son of the former far-right president. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T14:13:00+00:00",
-          "fetched_at": "2026-10-25T19:07:13.935853+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_23a6cc82424e6c355a2b",
-          "url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
-          "summary": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T11:16:00+00:00",
-          "fetched_at": "2026-10-25T19:07:13.936231+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4aecb2e02bcc6188a5ca",
-      "title": "Israelis have changed. Will they change their leadership?",
-      "category": "军事安全",
-      "score": 59.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.3,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T16:00:00+00:00",
-      "last_updated": "2026-10-25T16:00:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "NPR World"
-      ],
-      "regions": [
-        "North America"
-      ],
-      "keywords": [
-        "israelis",
-        "years",
-        "war",
-        "changed",
-        "they",
-        "change",
-        "leadership",
-        "israel"
-      ],
-      "analysis": {
-        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“Israelis have changed. Will they change their leadership?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Israelis",
-          "Will"
-        ],
-        "latest_progress": [
-          "10月25日 16:00 UTC，NPR World报道：“Israelis have changed. Will they change their leadership?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_21259562a429c62e1655",
-          "url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-          "canonical_url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-          "title": "Israelis have changed. Will they change their leadership?",
-          "summary": "Israel is holding a general election this week after years of war. For many Israelis, shaken by the Oct. 7, 2023, attacks and years of war, it is the most consequential in decades.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-25T16:00:00+00:00",
-          "fetched_at": "2026-10-25T19:07:14.164964+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
         }
       ]
     }
