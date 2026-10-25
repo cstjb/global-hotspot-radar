@@ -1,137 +1,23 @@
 {
-  "generated_at": "2026-10-25T16:18:29.151065+00:00",
+  "generated_at": "2026-10-25T19:07:15.499558+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 136,
-    "articles_unique": 134,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 187,
+    "articles_unique": 185,
+    "errors": []
   },
   "events": [
-    {
-      "event_id": "evt_7b6f66b9adbcc3702ccd",
-      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-      "category": "国际政治",
-      "score": 74.9,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.3,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T05:15:52+00:00",
-      "last_updated": "2026-10-25T13:09:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "west",
-        "bank",
-        "israel",
-        "election",
-        "israeli",
-        "close",
-        "crossings",
-        "day"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Israel to close West Bank crossings on election day as crackdown escalates”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Israel",
-          "West Bank",
-          "Why Israel",
-          "Hebron",
-          "West Bank Israel"
-        ],
-        "latest_progress": [
-          "10月25日 13:09 UTC，DW Top Stories报道：“Israel to close all West Bank land crossings on election day”。",
-          "10月25日 12:17 UTC，Al Jazeera报道：“Why Israel’s latest assault on Hebron is so significant for the West Bank”。",
-          "10月25日 05:15 UTC，BBC World报道：“Israel to close West Bank crossings on election day as crackdown escalates”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_eb878b7b2bd8e771b9a7",
-          "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
-          "title": "Israel to close all West Bank land crossings on election day",
-          "summary": "After a deadly attack which killed two Israeli soldiers on Friday, the Israeli military has said all land border points between Israel and the occupied West Bank will be closed during Tuesday's election.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T13:09:00+00:00",
-          "fetched_at": "2026-10-25T16:18:27.884953+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c5ad7620cc7650b5be6e",
-          "url": "https://www.aljazeera.com/economy/2026/10/25/why-israels-latest-assault-on-hebron-is-so-significant-for-the-west-bank?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/25/why-israels-latest-assault-on-hebron-is-so-significant-for-the-west-bank?traffic_source=rss",
-          "title": "Why Israel’s latest assault on Hebron is so significant for the West Bank",
-          "summary": "Mass expulsions, blockades and expanding settler control in Hebron threaten to devastate the West Bank economy.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T12:17:39+00:00",
-          "fetched_at": "2026-10-25T16:18:28.226851+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_751a393d29197e529c23",
-          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_campaign=rss&at_medium=RSS",
-          "title": "Israel to close West Bank crossings on election day as crackdown escalates",
-          "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-25T05:15:52+00:00",
-          "fetched_at": "2026-10-25T16:18:26.870673+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg"
-        }
-      ]
-    },
     {
       "event_id": "evt_276ed6fe32da025dee11",
       "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
       "category": "军事安全",
-      "score": 74.9,
+      "score": 73.1,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 16.2,
+        "recency": 14.4,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 4.0
@@ -193,7 +79,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T09:00:00+00:00",
-          "fetched_at": "2026-10-25T16:18:26.870856+00:00",
+          "fetched_at": "2026-10-25T19:07:13.213931+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -208,7 +94,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T05:45:31+00:00",
-          "fetched_at": "2026-10-25T16:18:26.872457+00:00",
+          "fetched_at": "2026-10-25T19:07:13.216014+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -223,7 +109,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T19:33:00+00:00",
-          "fetched_at": "2026-10-25T16:18:27.885654+00:00",
+          "fetched_at": "2026-10-25T19:07:13.936821+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -238,7 +124,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T17:54:25+00:00",
-          "fetched_at": "2026-10-25T16:18:28.154267+00:00",
+          "fetched_at": "2026-10-25T19:07:14.165354+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -247,111 +133,91 @@
       ]
     },
     {
-      "event_id": "evt_ceada302606643fdfe7d",
-      "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
-      "category": "科技AI",
-      "score": 70.5,
+      "event_id": "evt_92d69b05f44eb085a9a5",
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "category": "国际政治",
+      "score": 70.4,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.8,
+        "recency": 21.4,
         "credibility": 9.8,
-        "impact": 9.8,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-25T09:13:00+00:00",
-      "last_updated": "2026-10-25T13:49:33+00:00",
+      "first_seen": "2026-10-25T16:18:41+00:00",
+      "last_updated": "2026-10-25T18:29:00+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "BBC World",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "North America"
       ],
       "keywords": [
-        "saudi",
-        "arabia",
-        "houthi",
-        "yemen's",
-        "houthis",
-        "missiles",
-        "looks",
-        "edge"
+        "machado",
+        "opposition",
+        "leader",
+        "mar",
+        "returns",
+        "months",
+        "exile",
+        "venezuelan"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的科技AI事件为“Saudi Arabia intercepts missiles and drones as fighting with Houthis rages”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“Venezuelan opposition leader María Machado returns after months in exile”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Saudi",
-          "Houthi",
-          "Mecca Saudi Arabia",
-          "Houthis",
-          "Saudi Arabia",
-          "US",
-          "AI",
-          "Yemen"
+          "Venezuelan",
+          "Machado",
+          "Venezuela",
+          "Corina Machado"
         ],
         "latest_progress": [
-          "10月25日 13:49 UTC，Al Jazeera报道：“Saudi air defences intercept Houthi barrage near Mecca”。",
-          "10月25日 10:42 UTC，Al Jazeera报道：“Saudi Arabia intercepts missiles and drones as fighting with Houthis rages”。",
-          "10月25日 09:13 UTC，DW Top Stories报道：“Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure”。"
+          "10月25日 18:29 UTC，BBC World报道：“Venezuelan opposition leader María Machado returns after months in exile”。",
+          "10月25日 16:18 UTC，NPR World报道：“Venezuela's opposition leader María Corina Machado returns after months in exile”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_77c44a85cab4f6bd0394",
-          "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
-          "title": "Saudi air defences intercept Houthi barrage near Mecca",
-          "summary": "Houthi attacks on Saudi Arabia escalate as fierce ground battles and a devastating siege strangle Yemen's Taiz.",
-          "source": "Al Jazeera",
+          "article_id": "art_60e9a60623f9088299f3",
+          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_campaign=rss&at_medium=RSS",
+          "title": "Venezuelan opposition leader María Machado returns after months in exile",
+          "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-25T13:49:33+00:00",
-          "fetched_at": "2026-10-25T16:18:28.226318+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_014f5be9fc4a7789c2c8",
-          "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
-          "title": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
-          "summary": "Saudi Civil Defence says the interception of Houthi ballistic missiles caused two injuries in the country's south.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T10:42:51+00:00",
-          "fetched_at": "2026-10-25T16:18:28.227195+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8152f78fee6654d33448",
-          "url": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemen-s-houthis-up-pressure/a-79735138?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemen-s-houthis-up-pressure/a-79735138?maca=en-rss-en-top-1022-rdf",
-          "title": "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure",
-          "summary": "The US is helping Saudi Arabia fight the Houthi group in Yemen with AI-assisted targeting. But AI is not a magic bullet, experts say, and there are technological, political and human rights issues to consider.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T09:13:00+00:00",
-          "fetched_at": "2026-10-25T16:18:27.885398+00:00",
+          "published_at": "2026-10-25T18:29:00+00:00",
+          "fetched_at": "2026-10-25T19:07:13.214040+00:00",
           "language": "en",
           "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116f/live/8cce05e0-d096-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_8a97a88ed1af9975a1a4",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+          "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
+          "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\"",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T16:18:41+00:00",
+          "fetched_at": "2026-10-25T19:07:14.164863+00:00",
+          "language": "en",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
@@ -361,20 +227,20 @@
       "event_id": "evt_5ec16803dfa2c08d491e",
       "title": "Thousands mourn victims of deadly Jordan church attack",
       "category": "军事安全",
-      "score": 68.2,
+      "score": 70.0,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.1,
+        "recency": 19.5,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 1.1
+        "velocity": 1.6
       },
       "first_seen": "2026-10-24T11:59:08+00:00",
-      "last_updated": "2026-10-25T15:21:26+00:00",
+      "last_updated": "2026-10-25T16:16:48+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "NPR World"
@@ -385,23 +251,25 @@
       ],
       "keywords": [
         "church",
-        "gunmen",
-        "funeral",
-        "jordan",
         "victims",
         "attack",
-        "open",
-        "fire"
+        "gunmen",
+        "mourn",
+        "deadly",
+        "funeral",
+        "jordan"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“Thousands mourn victims of deadly Jordan church attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、NPR World等来源的3篇报道，当前关注的军事安全事件为“Thousands mourn victims of deadly Jordan church attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Jordanians",
           "Thousands",
           "Jordan",
           "Gunmen"
         ],
         "latest_progress": [
+          "10月25日 16:16 UTC，Al Jazeera报道：“Jordanians mourn victims of deadly church attack”。",
           "10月25日 15:21 UTC，Al Jazeera报道：“Thousands mourn victims of deadly Jordan church attack”。",
           "10月24日 11:59 UTC，NPR World报道：“Gunmen open fire at a church during a funeral in Jordan, killing 7 and wounding 40”。"
         ],
@@ -416,6 +284,21 @@
       },
       "articles": [
         {
+          "article_id": "art_76dcebc49a6819fe2007",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jordanians-mourn-victims-of-deadly-church-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jordanians-mourn-victims-of-deadly-church-attack?traffic_source=rss",
+          "title": "Jordanians mourn victims of deadly church attack",
+          "summary": "Jordanians mourn victims of deadly church attack",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T16:16:48+00:00",
+          "fetched_at": "2026-10-25T19:07:14.277280+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_1cc15881eea0f528d98c",
           "url": "https://www.aljazeera.com/news/2026/10/25/thousands-mourn-victims-of-deadly-jordan-church-attack?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/25/thousands-mourn-victims-of-deadly-jordan-church-attack?traffic_source=rss",
@@ -424,7 +307,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-25T15:21:26+00:00",
-          "fetched_at": "2026-10-25T16:18:28.225763+00:00",
+          "fetched_at": "2026-10-25T19:07:14.277563+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -439,7 +322,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T11:59:08+00:00",
-          "fetched_at": "2026-10-25T16:18:28.154336+00:00",
+          "fetched_at": "2026-10-25T19:07:14.165425+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -448,15 +331,195 @@
       ]
     },
     {
+      "event_id": "evt_242874391f4bc6a91e8a",
+      "title": "The bitter row over military service that could shape Israel's future",
+      "category": "军事安全",
+      "score": 67.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.7,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 1.7
+      },
+      "first_seen": "2026-10-24T23:03:21+00:00",
+      "last_updated": "2026-10-25T16:30:51+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "could",
+        "shape",
+        "future",
+        "they",
+        "netanyahu",
+        "israel",
+        "right",
+        "leaning"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“The bitter row over military service that could shape Israel's future”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israel",
+          "Generation Right",
+          "Netanyahu"
+        ],
+        "latest_progress": [
+          "10月25日 16:30 UTC，Al Jazeera报道：“Israel’s ‘Generation Right’ could shape Netanyahu’s future”。",
+          "10月24日 23:03 UTC，BBC World报道：“The bitter row over military service that could shape Israel's future”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_dd93e08f862d9c4be4b6",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israels-generation-right-could-shape-netanyahus-future?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israels-generation-right-could-shape-netanyahus-future?traffic_source=rss",
+          "title": "Israel’s ‘Generation Right’ could shape Netanyahu’s future",
+          "summary": "The global trend may show young people leaning politically to the left, but in Israel… they’re leaning to the right.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T16:30:51+00:00",
+          "fetched_at": "2026-10-25T19:07:14.277138+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_aedca878fe6655f167d1",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg7w0x742do?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmvg7w0x742do?at_campaign=rss&at_medium=RSS",
+          "title": "The bitter row over military service that could shape Israel's future",
+          "summary": "The ultra-Orthodox community is resisting being drafted into the Israeli army. But will they now bring down the Netanyahu government?",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-24T23:03:21+00:00",
+          "fetched_at": "2026-10-25T19:07:13.215944+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8e2/live/495ec3b0-ced1-11f1-b441-2b33b063138f.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e97d82abb27d0e27f9d6",
+      "title": "Eight killed in Gaza as Israel targets university campus and other sites",
+      "category": "军事安全",
+      "score": 66.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T15:40:25+00:00",
+      "last_updated": "2026-10-25T18:12:13+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "gaza",
+        "university",
+        "israeli",
+        "city",
+        "air",
+        "strike",
+        "kills",
+        "three"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Eight killed in Gaza as Israel targets university campus and other sites”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israeli",
+          "Gaza City",
+          "Eight",
+          "Gaza",
+          "Israel"
+        ],
+        "latest_progress": [
+          "10月25日 18:12 UTC，Al Jazeera报道：“Israeli air strike on Gaza City university kills three people”。",
+          "10月25日 15:40 UTC，Al Jazeera报道：“Eight killed in Gaza as Israel targets university campus and other sites”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9e6f04fa9f45770992aa",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
+          "title": "Israeli air strike on Gaza City university kills three people",
+          "summary": "Two Israeli strikes hit students and security guards at the Islamic University in Gaza City.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T18:12:13+00:00",
+          "fetched_at": "2026-10-25T19:07:14.276625+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_90fd25d5e400c10fb50f",
+          "url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
+          "title": "Eight killed in Gaza as Israel targets university campus and other sites",
+          "summary": "Israeli air strike kills three security guards in one of two attacks on the Islamic University in Gaza City.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T15:40:25+00:00",
+          "fetched_at": "2026-10-25T19:07:14.277425+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_f4d704f42a0d75942b99",
       "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
       "category": "军事安全",
-      "score": 66.9,
+      "score": 64.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.4,
+        "recency": 16.4,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -513,7 +576,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-25T12:05:00+00:00",
-          "fetched_at": "2026-10-25T16:18:27.885063+00:00",
+          "fetched_at": "2026-10-25T19:07:13.936173+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -528,7 +591,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T10:38:15+00:00",
-          "fetched_at": "2026-10-25T16:18:26.871275+00:00",
+          "fetched_at": "2026-10-25T19:07:13.214651+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -537,15 +600,190 @@
       ]
     },
     {
-      "event_id": "evt_70cb53c343d939bcd844",
-      "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+      "event_id": "evt_7b6f66b9adbcc3702ccd",
+      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
       "category": "国际政治",
-      "score": 62.8,
+      "score": 62.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 17.2,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.8
+      },
+      "first_seen": "2026-10-25T05:15:52+00:00",
+      "last_updated": "2026-10-25T13:09:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "election",
+        "israel",
+        "west",
+        "bank",
+        "israeli",
+        "close",
+        "crossings",
+        "day"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Israel to close West Bank crossings on election day as crackdown escalates”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Israel",
+          "West Bank"
+        ],
+        "latest_progress": [
+          "10月25日 13:09 UTC，DW Top Stories报道：“Israel to close all West Bank land crossings on election day”。",
+          "10月25日 05:15 UTC，BBC World报道：“Israel to close West Bank crossings on election day as crackdown escalates”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_eb878b7b2bd8e771b9a7",
+          "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
+          "title": "Israel to close all West Bank land crossings on election day",
+          "summary": "After a deadly attack which killed two Israeli soldiers on Friday, the Israeli military has said all land border points between Israel and the occupied West Bank will be closed during Tuesday's election.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-25T13:09:00+00:00",
+          "fetched_at": "2026-10-25T19:07:13.936053+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_751a393d29197e529c23",
+          "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_campaign=rss&at_medium=RSS",
+          "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+          "summary": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T05:15:52+00:00",
+          "fetched_at": "2026-10-25T19:07:13.214285+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_62c3d05d0d00a70cc5e2",
+      "title": "AI’s ‘opportunity divide’ could deepen global inequality, UN official warns",
+      "category": "科技AI",
+      "score": 62.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.2,
+        "recency": 20.5,
+        "credibility": 10.0,
+        "impact": 9.8,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T15:38:52+00:00",
+      "last_updated": "2026-10-25T17:26:22+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "official",
+        "warns",
+        "could",
+        "deepen",
+        "global",
+        "inequality",
+        "opportunity",
+        "divide"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的科技AI事件为“AI’s ‘opportunity divide’ could deepen global inequality, UN official warns”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "AI",
+          "UN"
+        ],
+        "latest_progress": [
+          "10月25日 17:26 UTC，Al Jazeera报道：“AI’s ‘opportunity divide’ could deepen global inequality, UN official warns”。",
+          "10月25日 15:38 UTC，Al Jazeera报道：“UN official warns AI could ‘deepen’ global inequality”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_94642db6a084efb54b35",
+          "url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns?traffic_source=rss",
+          "title": "AI’s ‘opportunity divide’ could deepen global inequality, UN official warns",
+          "summary": "The deputy secretary-general of UN's ICT agency says unequal access to AI means poorer nations may be left behind.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T17:26:22+00:00",
+          "fetched_at": "2026-10-25T19:07:14.276921+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f3aaac77f2002d4d70c4",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/un-official-warns-ai-could-deepen-global-inequality?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/un-official-warns-ai-could-deepen-global-inequality?traffic_source=rss",
+          "title": "UN official warns AI could ‘deepen’ global inequality",
+          "summary": "UN official warns AI could ‘deepen’ global inequality",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T15:38:52+00:00",
+          "fetched_at": "2026-10-25T19:07:14.277493+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_70cb53c343d939bcd844",
+      "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+      "category": "国际政治",
+      "score": 60.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 17.9,
         "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
@@ -602,7 +840,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-25T14:13:00+00:00",
-          "fetched_at": "2026-10-25T16:18:27.884759+00:00",
+          "fetched_at": "2026-10-25T19:07:13.935853+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -617,7 +855,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-25T11:16:00+00:00",
-          "fetched_at": "2026-10-25T16:18:27.885119+00:00",
+          "fetched_at": "2026-10-25T19:07:13.936231+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -626,87 +864,15 @@
       ]
     },
     {
-      "event_id": "evt_e97d82abb27d0e27f9d6",
-      "title": "Seven killed in Gaza as Israel targets university campus and other sites",
-      "category": "军事安全",
-      "score": 62.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T15:40:25+00:00",
-      "last_updated": "2026-10-25T15:40:25+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "gaza",
-        "university",
-        "seven",
-        "killed",
-        "israel",
-        "targets",
-        "campus",
-        "other"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Seven killed in Gaza as Israel targets university campus and other sites”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Seven",
-          "Gaza",
-          "Israel"
-        ],
-        "latest_progress": [
-          "10月25日 15:40 UTC，Al Jazeera报道：“Seven killed in Gaza as Israel targets university campus and other sites”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_90fd25d5e400c10fb50f",
-          "url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites?traffic_source=rss",
-          "title": "Seven killed in Gaza as Israel targets university campus and other sites",
-          "summary": "Israeli air strike kills three security guards in one of two attacks on the Islamic University in Gaza City.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T15:40:25+00:00",
-          "fetched_at": "2026-10-25T16:18:28.225583+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_4aecb2e02bcc6188a5ca",
       "title": "Israelis have changed. Will they change their leadership?",
       "category": "军事安全",
-      "score": 62.3,
+      "score": 59.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.7,
+        "recency": 19.3,
         "credibility": 9.5,
         "impact": 13.0,
         "velocity": 5.0
@@ -760,174 +926,10 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-25T16:00:00+00:00",
-          "fetched_at": "2026-10-25T16:18:28.153892+00:00",
+          "fetched_at": "2026-10-25T19:07:14.164964+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a86e3808a5f57a6814b9",
-      "title": "How is the US-Israeli war on Iran causing havoc in Europe?",
-      "category": "军事安全",
-      "score": 61.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.7,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T14:47:55+00:00",
-      "last_updated": "2026-10-25T14:47:55+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "us-israeli",
-        "iran",
-        "war",
-        "causing",
-        "havoc",
-        "europe",
-        "rising",
-        "energy"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“How is the US-Israeli war on Iran causing havoc in Europe?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US",
-          "Israeli",
-          "Iran",
-          "Europe"
-        ],
-        "latest_progress": [
-          "10月25日 14:47 UTC，Al Jazeera报道：“How is the US-Israeli war on Iran causing havoc in Europe?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1b09205a382a09834abe",
-          "url": "https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe?traffic_source=rss",
-          "title": "How is the US-Israeli war on Iran causing havoc in Europe?",
-          "summary": "Rising energy costs and protests are sharpening European opposition to renewed US-Israeli attacks on Iran.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T14:47:55+00:00",
-          "fetched_at": "2026-10-25T16:18:28.225942+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_36237fb174c3927d7c08",
-      "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
-      "category": "国际政治",
-      "score": 61.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.1,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-25T10:14:43+00:00",
-      "last_updated": "2026-10-25T11:39:41+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "trump",
-        "iran",
-        "strikes",
-        "reporter",
-        "asking",
-        "about",
-        "plans",
-        "mocks"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Trump mocks reporter asking about Iran strikes, as Tehran says US derailed”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "CENTCOM",
-          "Iran",
-          "Will Trump",
-          "Trump",
-          "Tehran",
-          "US"
-        ],
-        "latest_progress": [
-          "10月25日 11:39 UTC，Al Jazeera报道：“CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?”。",
-          "10月25日 10:14 UTC，Al Jazeera报道：“Trump mocks reporter asking about Iran strikes, as Tehran says US derailed”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2b4e65cf9720ea1333d8",
-          "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
-          "title": "CENTCOM reportedly has plans for Iran strikes: Will Trump approve them?",
-          "summary": "Reports say Pentagon has drawn up plans for strikes after midterm polls, but analysts question what it could achieve.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T11:39:41+00:00",
-          "fetched_at": "2026-10-25T16:18:28.226991+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_79549203377c1e7ccbec",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-mocks-reporter-asking-about-iran-strikes-as-tehran-says-us-derailed?traffic_source=rss",
-          "title": "Trump mocks reporter asking about Iran strikes, as Tehran says US derailed",
-          "summary": "US President Donald Trump sarcastically responded to a reporter asking about possible renewed attacks on Iran.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-25T10:14:43+00:00",
-          "fetched_at": "2026-10-25T16:18:28.227335+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
