@@ -1,14 +1,18 @@
 {
-  "generated_at": "2026-10-24T23:14:29.766888+00:00",
+  "generated_at": "2026-10-25T01:12:46.591243+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 137,
-    "articles_unique": 136,
+    "articles_fetched": 87,
+    "articles_unique": 87,
     "errors": [
       {
         "source": "GDELT: (conflict OR election OR economy OR technolog",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
@@ -17,20 +21,20 @@
       "event_id": "evt_ab9305ce60d77f84b1ac",
       "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
       "category": "国际政治",
-      "score": 84.1,
+      "score": 86.9,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 19.5,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 20.3,
-        "credibility": 9.7,
+        "recency": 21.3,
+        "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 3.2
+        "velocity": 3.4
       },
       "first_seen": "2026-10-23T22:01:00+00:00",
-      "last_updated": "2026-10-24T21:21:00+00:00",
+      "last_updated": "2026-10-25T00:23:48+00:00",
       "source_count": 4,
-      "article_count": 5,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -50,12 +54,14 @@
         "violence",
         "clashes",
         "thousands",
-        "everything"
+        "day"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“Almost 1,000 arrested as clashes follow another day of mass protests across France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Almost 1,000 arrested as clashes follow another day of mass protests across France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Violence",
+          "Europe",
           "Protests",
           "France",
           "Almost",
@@ -64,9 +70,9 @@
           "Clashes"
         ],
         "latest_progress": [
+          "10月25日 00:23 UTC，Al Jazeera报道：“Violence breaks out across Europe after another day of protests”。",
           "10月24日 21:21 UTC，NPR World报道：“Protests roil France once again as police seek to quell violence”。",
-          "10月24日 21:09 UTC，BBC World报道：“Almost 1,000 arrested as clashes follow another day of mass protests across France”。",
-          "10月24日 20:39 UTC，Al Jazeera报道：“Violent clashes as Albanian government cracks down on protests”。"
+          "10月24日 21:09 UTC，BBC World报道：“Almost 1,000 arrested as clashes follow another day of mass protests across France”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -79,6 +85,21 @@
       },
       "articles": [
         {
+          "article_id": "art_b6c7003a5a2c3ea73103",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss",
+          "title": "Violence breaks out across Europe after another day of protests",
+          "summary": "Police clashed with demonstrators in France, Italy and Spain over rising living costs and cuts to public services.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T00:23:48+00:00",
+          "fetched_at": "2026-10-25T01:12:45.574165+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_26afb774eaa43bf8b27e",
           "url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
           "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
@@ -87,7 +108,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T21:21:00+00:00",
-          "fetched_at": "2026-10-24T23:14:28.227526+00:00",
+          "fetched_at": "2026-10-25T01:12:45.351157+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -102,7 +123,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T21:09:27+00:00",
-          "fetched_at": "2026-10-24T23:14:27.782690+00:00",
+          "fetched_at": "2026-10-25T01:12:45.098629+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -117,7 +138,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-24T20:39:08+00:00",
-          "fetched_at": "2026-10-24T23:14:28.355117+00:00",
+          "fetched_at": "2026-10-25T01:12:45.575978+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -132,7 +153,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T06:34:00+00:00",
-          "fetched_at": "2026-10-24T23:14:28.025733+00:00",
+          "fetched_at": "2026-10-25T01:12:45.258916+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -147,7 +168,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T22:01:00+00:00",
-          "fetched_at": "2026-10-24T23:14:28.026094+00:00",
+          "fetched_at": "2026-10-25T01:12:45.259545+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -159,12 +180,12 @@
       "event_id": "evt_c8af536f4d75af638fda",
       "title": "Ukraine says Starlink connection 'now stable' after network limits",
       "category": "军事安全",
-      "score": 76.2,
+      "score": 74.7,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 18.9,
+        "recency": 17.4,
         "credibility": 9.7,
         "impact": 13.0,
         "velocity": 5.0
@@ -223,7 +244,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T19:33:00+00:00",
-          "fetched_at": "2026-10-24T23:14:28.025133+00:00",
+          "fetched_at": "2026-10-25T01:12:45.257955+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -238,7 +259,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T17:54:25+00:00",
-          "fetched_at": "2026-10-24T23:14:28.227742+00:00",
+          "fetched_at": "2026-10-25T01:12:45.351485+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -253,7 +274,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T12:12:40+00:00",
-          "fetched_at": "2026-10-24T23:14:27.782823+00:00",
+          "fetched_at": "2026-10-25T01:12:45.098844+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -262,251 +283,15 @@
       ]
     },
     {
-      "event_id": "evt_19cb8c70716e9095a45e",
-      "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
-      "category": "军事安全",
-      "score": 73.5,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.7,
-        "credibility": 9.9,
-        "impact": 13.0,
-        "velocity": 2.6
-      },
-      "first_seen": "2026-10-23T21:38:54+00:00",
-      "last_updated": "2026-10-24T20:37:02+00:00",
-      "source_count": 2,
-      "article_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "west",
-        "bank",
-        "military",
-        "israeli",
-        "lockdown",
-        "hebron",
-        "israel",
-        "operation"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的4篇报道，当前关注的军事安全事件为“More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Could Israel",
-          "Tuesday",
-          "More",
-          "Hebron",
-          "Israel",
-          "West Bank",
-          "Full",
-          "Israeli"
-        ],
-        "latest_progress": [
-          "10月24日 20:37 UTC，Al Jazeera报道：“Could Israel’s military crackdown influence Tuesday’s election?”。",
-          "10月24日 15:50 UTC，Al Jazeera报道：“More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids”。",
-          "10月24日 14:24 UTC，Al Jazeera报道：“Full lockdown of occupied West Bank begins”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_75158c1834e1c18ed588",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
-          "title": "Could Israel’s military crackdown influence Tuesday’s election?",
-          "summary": "Israel preparing a full lockdown of occupied West Bank after Hebron gunfight.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T20:37:02+00:00",
-          "fetched_at": "2026-10-24T23:14:28.355221+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_61ef7d9240d751ab16dc",
-          "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-          "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
-          "summary": "Palestinians in Hebron are 'living in fear' with the city closed, while Israeli forces arrest dozens across the West Bank.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T15:50:49+00:00",
-          "fetched_at": "2026-10-24T23:14:28.356132+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5dec89aa3d7b0639d84c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
-          "title": "Full lockdown of occupied West Bank begins",
-          "summary": "The Israeli army begins its lockdown and military operations across the West Bank.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T14:24:19+00:00",
-          "fetched_at": "2026-10-24T23:14:28.356501+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6ee70c1e6c697b8576fb",
-          "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-          "canonical_url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
-          "title": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
-          "summary": "Israel's Prime Minister is vowing to launch a major military operation in the West Bank in response to an attack by two Palestinian gunmen on an Israeli military checkpoint that killed two soldiers.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-23T21:38:54+00:00",
-          "fetched_at": "2026-10-24T23:14:28.228114+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0a9bad5df0abd84d2ca2",
-      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-      "category": "军事安全",
-      "score": 70.0,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 15.2,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 2.2
-      },
-      "first_seen": "2026-10-23T18:17:00+00:00",
-      "last_updated": "2026-10-24T14:23:40+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "ukraine",
-        "russia",
-        "city",
-        "truce",
-        "ukrainian",
-        "oleshky",
-        "negotiators",
-        "meet"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ukraine",
-          "Starlink",
-          "Russia",
-          "Ukraine White House",
-          "Melania Trump",
-          "US"
-        ],
-        "latest_progress": [
-          "10月24日 14:23 UTC，Al Jazeera报道：“Ukraine says Starlink restored as attacks continue in Russia and Ukraine”。",
-          "10月24日 07:17 UTC，BBC World报道：“White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'”。",
-          "10月23日 18:17 UTC，DW Top Stories报道：“Russia, Ukraine agree to US-brokered, 1 city ceasefire”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_94a22b6e7f4c10af846f",
-          "url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss",
-          "title": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-          "summary": "Negotiators from Ukraine, Russia and the US are expected to meet in Abu Dhabi next month.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-24T14:23:40+00:00",
-          "fetched_at": "2026-10-24T23:14:28.356585+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f75be6b525849d0f3b99",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_campaign=rss&at_medium=RSS",
-          "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-          "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-24T07:17:44+00:00",
-          "fetched_at": "2026-10-24T23:14:27.784167+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7099/live/5602f2d0-b770-11f1-a7b2-f3bdba1cd194.jpg"
-        },
-        {
-          "article_id": "art_4e39a62d1827bfc57d49",
-          "url": "https://www.dw.com/en/russia-ukraine-agree-to-us-brokered-1-city-ceasefire/a-79746723?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russia-ukraine-agree-to-us-brokered-1-city-ceasefire/a-79746723?maca=en-rss-en-top-1022-rdf",
-          "title": "Russia, Ukraine agree to US-brokered, 1 city ceasefire",
-          "summary": "The Ukrainian city of Oleshky, occupied by Russia and on the frontline, faces a humanitarian crisis. The localized truce comes as Ukrainian President Zelenskyy said negotiators would meet for wider talks next month.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-23T18:17:00+00:00",
-          "fetched_at": "2026-10-24T23:14:28.026455+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_1b763ced6f9f2fe43e6f",
       "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
       "category": "军事安全",
-      "score": 68.7,
+      "score": 67.6,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 13.8,
+        "recency": 12.7,
         "credibility": 9.7,
         "impact": 13.0,
         "velocity": 2.6
@@ -567,7 +352,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-24T11:59:08+00:00",
-          "fetched_at": "2026-10-24T23:14:28.227837+00:00",
+          "fetched_at": "2026-10-25T01:12:45.351665+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -582,7 +367,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-23T19:46:30+00:00",
-          "fetched_at": "2026-10-24T23:14:27.784269+00:00",
+          "fetched_at": "2026-10-25T01:12:45.101372+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -597,7 +382,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-23T18:33:00+00:00",
-          "fetched_at": "2026-10-24T23:14:28.026390+00:00",
+          "fetched_at": "2026-10-25T01:12:45.260084+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -606,240 +391,15 @@
       ]
     },
     {
-      "event_id": "evt_d83a68a8c34385ffa0f1",
-      "title": "Minister of Foreign Affairs Lin Chia - lung urges AI , drone ties with Europe",
-      "category": "科技AI",
-      "score": 68.4,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 16.4,
-        "credibility": 7.5,
-        "impact": 9.8,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-24T11:30:00+00:00",
-      "last_updated": "2026-10-24T16:15:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "econotimes.com",
-        "focustaiwan.tw",
-        "taipeitimes.com"
-      ],
-      "regions": [
-        "Taiwan",
-        "United States"
-      ],
-      "keywords": [
-        "drone",
-        "lin",
-        "urges",
-        "taiwan",
-        "europe",
-        "trusted",
-        "supply",
-        "chains"
-      ],
-      "analysis": {
-        "what_happened": "据econotimes.com、focustaiwan.tw、taipeitimes.com等来源的3篇报道，当前关注的科技AI事件为“Minister of Foreign Affairs Lin Chia - lung urges AI , drone ties with Europe”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "Minister",
-          "Foreign Affairs Lin Chia",
-          "AI",
-          "Europe Taiwan Seeks European",
-          "Ties",
-          "Trusted",
-          "Drone Supply Chains Lin",
-          "Taiwan"
-        ],
-        "latest_progress": [
-          "10月24日 16:15 UTC，taipeitimes.com报道：“Minister of Foreign Affairs Lin Chia - lung urges AI , drone ties with Europe”。",
-          "10月24日 14:15 UTC，econotimes.com报道：“Taiwan Seeks European Ties on Trusted AI and Drone Supply Chains”。",
-          "10月24日 11:30 UTC，focustaiwan.tw报道：“Lin urges Taiwan - Europe cooperation on trusted AI , drone supply chains”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a09631bf292669a34766",
-          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/25/2003866583",
-          "canonical_url": "https://www.taipeitimes.com/News/taiwan/archives/2026/10/25/2003866583",
-          "title": "Minister of Foreign Affairs Lin Chia - lung urges AI , drone ties with Europe",
-          "summary": "",
-          "source": "taipeitimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-24T16:15:00+00:00",
-          "fetched_at": "2026-10-24T23:14:27.668476+00:00",
-          "language": "English",
-          "region": "Taiwan",
-          "source_weight": 0.75,
-          "image_url": "https://img.taipeitimes.com/images/2026/10/25/p03-261025-001.jpg"
-        },
-        {
-          "article_id": "art_fa64d99f662b64c415aa",
-          "url": "https://econotimes.com/Taiwan-Seeks-European-Ties-on-Trusted-AI-and-Drone-Supply-Chains-1762490",
-          "canonical_url": "https://econotimes.com/Taiwan-Seeks-European-Ties-on-Trusted-AI-and-Drone-Supply-Chains-1762490",
-          "title": "Taiwan Seeks European Ties on Trusted AI and Drone Supply Chains",
-          "summary": "",
-          "source": "econotimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-24T14:15:00+00:00",
-          "fetched_at": "2026-10-24T23:14:27.667174+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/c7f831cafea0e1173af28b04156d2176e1d694b2c5e541bcaf9a9a6652b342df.webp"
-        },
-        {
-          "article_id": "art_ffd2166950c0172fda22",
-          "url": "https://focustaiwan.tw/politics/202610240015",
-          "canonical_url": "https://focustaiwan.tw/politics/202610240015",
-          "title": "Lin urges Taiwan - Europe cooperation on trusted AI , drone supply chains",
-          "summary": "",
-          "source": "focustaiwan.tw",
-          "source_type": "gdelt",
-          "published_at": "2026-10-24T11:30:00+00:00",
-          "fetched_at": "2026-10-24T23:14:27.667470+00:00",
-          "language": "English",
-          "region": "Taiwan",
-          "source_weight": 0.75,
-          "image_url": "https://imgcdn.cna.com.tw/Eng/WebEngPhotos/WebOg/600/2026/20261024/1071x562_792328364747.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_39d9c2bfa8655c3a3386",
-      "title": "Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …",
-      "category": "经济金融",
-      "score": 65.4,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 12.7,
-        "credibility": 7.5,
-        "impact": 11.7,
-        "velocity": 1.3
-      },
-      "first_seen": "2026-10-23T00:00:00+00:00",
-      "last_updated": "2026-10-24T10:00:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "econotimes.com",
-        "knews.kg",
-        "timesofindia.indiatimes.com"
-      ],
-      "regions": [
-        "India",
-        "Kyrgyzstan",
-        "United States"
-      ],
-      "keywords": [
-        "nvidia",
-        "ceo",
-        "memory",
-        "does",
-        "not",
-        "expect",
-        "supply",
-        "outrun"
-      ],
-      "analysis": {
-        "what_happened": "据econotimes.com、knews.kg、timesofindia.indiatimes.com等来源的3篇报道，当前关注的经济金融事件为“Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "NVIDIA",
-          "Nvidia",
-          "CEO",
-          "Jensen Huang",
-          "Does Not Expect Memory",
-          "Supply",
-          "Outrun Demand",
-          "Stocks Slide"
-        ],
-        "latest_progress": [
-          "10月24日 10:00 UTC，knews.kg报道：“Глава NVIDIA предложил Казахстану развивать физический ИИ”。",
-          "10月23日 15:00 UTC，timesofindia.indiatimes.com报道：“Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …”。",
-          "10月23日 00:00 UTC，econotimes.com报道：“Nvidia CEO Does Not Expect Memory Supply to Outrun Demand by 2029 as Stocks Slide”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e086417384a8de101dfd",
-          "url": "https://knews.kg/2026/10/24/glava-nvidia-predlozhil-kazahstanu-razvivat-fizicheskij-ii/",
-          "canonical_url": "https://knews.kg/2026/10/24/glava-nvidia-predlozhil-kazahstanu-razvivat-fizicheskij-ii",
-          "title": "Глава NVIDIA предложил Казахстану развивать физический ИИ",
-          "summary": "",
-          "source": "knews.kg",
-          "source_type": "gdelt",
-          "published_at": "2026-10-24T10:00:00+00:00",
-          "fetched_at": "2026-10-24T23:14:27.669441+00:00",
-          "language": "Russian",
-          "region": "Kyrgyzstan",
-          "source_weight": 0.75,
-          "image_url": "https://knews.kg/wp-content/uploads/2026/10/Glava-NVIDIA-Dzhensen-Huang.webp"
-        },
-        {
-          "article_id": "art_862fa595a651ea1c73cb",
-          "url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huang-dismisses-memory-oversupply-fears-in-2029-says-one-of-the-things-that-is/articleshow/135148536.cms",
-          "canonical_url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huang-dismisses-memory-oversupply-fears-in-2029-says-one-of-the-things-that-is/articleshow/135148536.cms",
-          "title": "Nvidia CEO Jensen Huang dismisses memory oversupply fears in 2029 , says one of the things that is …",
-          "summary": "",
-          "source": "timesofindia.indiatimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-23T15:00:00+00:00",
-          "fetched_at": "2026-10-24T23:14:27.669789+00:00",
-          "language": "English",
-          "region": "India",
-          "source_weight": 0.75,
-          "image_url": "https://static.toiimg.com/thumb/msid-135148648,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
-        },
-        {
-          "article_id": "art_926dab8bacbfc5643384",
-          "url": "https://econotimes.com/Nvidia-CEO-Does-Not-Expect-Memory-Supply-to-Outrun-Demand-by-2029-as-Stocks-Slide-1760726",
-          "canonical_url": "https://econotimes.com/Nvidia-CEO-Does-Not-Expect-Memory-Supply-to-Outrun-Demand-by-2029-as-Stocks-Slide-1760726",
-          "title": "Nvidia CEO Does Not Expect Memory Supply to Outrun Demand by 2029 as Stocks Slide",
-          "summary": "",
-          "source": "econotimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "fetched_at": "2026-10-24T23:14:27.669725+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/7a356afe0903fb9675d88e25d556bc9f9f4dfbdfc77cd5d1cde0d92983a7ee73.webp"
-        }
-      ]
-    },
-    {
       "event_id": "evt_23107decea808abc4fb5",
       "title": "Kim Jong Un crosses new bridge linking North Korea and China",
       "category": "国际政治",
-      "score": 64.5,
+      "score": 63.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.7,
+        "recency": 16.3,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 2.9
@@ -898,7 +458,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-24T18:00:20+00:00",
-          "fetched_at": "2026-10-24T23:14:28.355695+00:00",
+          "fetched_at": "2026-10-25T01:12:45.576925+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -913,7 +473,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T07:29:00+00:00",
-          "fetched_at": "2026-10-24T23:14:28.025657+00:00",
+          "fetched_at": "2026-10-25T01:12:45.258786+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -925,12 +485,12 @@
       "event_id": "evt_f0913d6bcf361c2225c3",
       "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
       "category": "国际政治",
-      "score": 64.1,
+      "score": 62.8,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 16.2,
+        "recency": 15.0,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 3.4
@@ -990,7 +550,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T15:56:48+00:00",
-          "fetched_at": "2026-10-24T23:14:27.784835+00:00",
+          "fetched_at": "2026-10-25T01:12:45.102458+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -1005,7 +565,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-24T15:21:44+00:00",
-          "fetched_at": "2026-10-24T23:14:27.783033+00:00",
+          "fetched_at": "2026-10-25T01:12:45.099193+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -1020,7 +580,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-24T02:40:00+00:00",
-          "fetched_at": "2026-10-24T23:14:28.026025+00:00",
+          "fetched_at": "2026-10-25T01:12:45.259424+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -1029,15 +589,88 @@
       ]
     },
     {
+      "event_id": "evt_43b8b38070a08e4dd8e5",
+      "title": "Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats",
+      "category": "军事安全",
+      "score": 62.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T00:34:43+00:00",
+      "last_updated": "2026-10-25T00:34:43+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "trump",
+        "obama",
+        "slams",
+        "cruelty",
+        "corruption",
+        "ohio",
+        "rally",
+        "democrats"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Obama",
+          "Trump",
+          "Ohio",
+          "Democrats"
+        ],
+        "latest_progress": [
+          "10月25日 00:34 UTC，Al Jazeera报道：“Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_78a627de04bf75729389",
+          "url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/25/obama-slams-trumps-cruelty-and-corruption-at-ohio-rally-for-democrats?traffic_source=rss",
+          "title": "Obama slams Trump’s ‘cruelty and corruption’ at Ohio rally for Democrats",
+          "summary": "Former US president says Trump 'chose to make a series of bad decisions', highlighting the US-Israel war on Iran.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T00:34:43+00:00",
+          "fetched_at": "2026-10-25T01:12:45.573989+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_a2d0f2b53d5cd592223d",
       "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll",
       "category": "国际政治",
-      "score": 63.7,
+      "score": 62.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.6,
+        "recency": 19.0,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
@@ -1094,7 +727,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-24T21:39:29+00:00",
-          "fetched_at": "2026-10-24T23:14:28.354527+00:00",
+          "fetched_at": "2026-10-25T01:12:45.575020+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -1109,7 +742,223 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-24T15:36:38+00:00",
-          "fetched_at": "2026-10-24T23:14:28.356236+00:00",
+          "fetched_at": "2026-10-25T01:12:45.578014+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_98f17028c27b573d6b85",
+      "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+      "category": "军事安全",
+      "score": 62.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.9,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-25T00:00:00+00:00",
+      "last_updated": "2026-10-25T00:00:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "iran",
+        "trump",
+        "possible",
+        "sunday",
+        "attack",
+        "deal",
+        "war",
+        "hints"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Trump hints at possible Sunday Iran attack or deal reached”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "Trump",
+          "Sunday Iran"
+        ],
+        "latest_progress": [
+          "10月25日 00:00 UTC，Al Jazeera报道：“Iran war live: Trump hints at possible Sunday Iran attack or deal reached”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_fcc15f0e001ca52f5347",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+          "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached",
+          "summary": "Trump says US is considering a possible attack on Iran as soon as Sunday, or it could reach a major deal with Tehran.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-25T00:00:00+00:00",
+          "fetched_at": "2026-10-25T01:12:45.574334+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ad6b658645973d014873",
+      "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+      "category": "军事安全",
+      "score": 61.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-24T23:08:16+00:00",
+      "last_updated": "2026-10-24T23:08:16+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "trump",
+        "russia-ukraine",
+        "localised",
+        "ceasefire",
+        "lauds",
+        "melania",
+        "deal",
+        "donald"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Trump lauds Melania over Russia-Ukraine localised ceasefire deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Melania",
+          "Russia",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月24日 23:08 UTC，Al Jazeera报道：“Trump lauds Melania over Russia-Ukraine localised ceasefire deal”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_34a74e5845756f13fb70",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/trump-lauds-melania-over-russia-ukraine-localised-ceasefire-deal?traffic_source=rss",
+          "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+          "summary": "Donald Trump praised First Lady as 'better than professionals' after a localised Russia-Ukraine ceasefire in Oleshky.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T23:08:16+00:00",
+          "fetched_at": "2026-10-25T01:12:45.574507+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_223c3765060236f4aed8",
+      "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
+      "category": "军事安全",
+      "score": 60.8,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.7,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-24T22:35:45+00:00",
+      "last_updated": "2026-10-24T22:35:45+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "police",
+        "say",
+        "gunmen",
+        "kill",
+        "least",
+        "people",
+        "eastern",
+        "nigeria"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Gunmen kill at least 10 people in eastern Nigeria, police say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Gunmen",
+          "Nigeria"
+        ],
+        "latest_progress": [
+          "10月24日 22:35 UTC，Al Jazeera报道：“Gunmen kill at least 10 people in eastern Nigeria, police say”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_605943d1806b7d3baa46",
+          "url": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
+          "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
+          "summary": "Nigerian police say a large group carried out the attack on Binnari village in Taraba State.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-24T22:35:45+00:00",
+          "fetched_at": "2026-10-25T01:12:45.574691+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
