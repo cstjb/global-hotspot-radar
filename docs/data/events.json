@@ -1,38 +1,43 @@
 {
-  "generated_at": "2026-10-26T06:13:30.094787+00:00",
+  "generated_at": "2026-10-26T13:03:22.092264+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 141,
-    "articles_unique": 139,
+    "articles_fetched": 81,
+    "articles_unique": 81,
     "errors": [
       {
         "source": "GDELT: (conflict OR election OR economy OR technolog",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_70cb53c343d939bcd844",
-      "title": "Lula holds off far right with victory in Brazil presidential election",
+      "event_id": "evt_92d69b05f44eb085a9a5",
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
       "category": "国际政治",
-      "score": 87.2,
+      "score": 84.4,
       "score_breakdown": {
-        "coverage": 22.0,
-        "source_diversity": 10.8,
+        "coverage": 17.9,
+        "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 20.9,
-        "credibility": 9.9,
+        "recency": 19.6,
+        "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 4.2
       },
-      "first_seen": "2026-10-25T11:16:00+00:00",
-      "last_updated": "2026-10-26T05:01:59+00:00",
-      "source_count": 3,
-      "article_count": 8,
+      "first_seen": "2026-10-25T16:18:41+00:00",
+      "last_updated": "2026-10-26T10:14:26+00:00",
+      "source_count": 4,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
+        "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
@@ -42,32 +47,32 @@
         "North America"
       ],
       "keywords": [
-        "brazil",
-        "election",
-        "lula",
-        "bolsonaro",
-        "presidential",
-        "runoff",
-        "leftist",
-        "flavio"
+        "machado",
+        "opposition",
+        "exile",
+        "leader",
+        "months",
+        "venezuelan",
+        "thousands",
+        "caracas"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的8篇报道，当前关注的国际政治事件为“Lula holds off far right with victory in Brazil presidential election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“Venezuelan opposition leader María Machado returns after months in exile”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Social",
-          "Brazil",
-          "Bolsonaro",
-          "Lula",
-          "Key",
-          "Latin America",
-          "Brazil Brazil",
-          "Flavio Bolsonaro"
+          "Thousands",
+          "Maria Machado",
+          "Caracas Crowds",
+          "Venezuela",
+          "Machado",
+          "Opposition",
+          "Caracas Venezuelan",
+          "Corina Machado"
         ],
         "latest_progress": [
-          "10月26日 05:01 UTC，Al Jazeera报道：“Social video captures moment Brazil’s election turned”。",
-          "10月26日 04:36 UTC，Al Jazeera报道：“Bolsonaro calls for Brazil election result to be annulled”。",
-          "10月26日 03:50 UTC，Al Jazeera报道：“World reacts to Lula’s victory in Brazil’s presidential election”。"
+          "10月26日 10:14 UTC，Al Jazeera报道：“Thousands greet opposition leader Maria Machado upon return to Caracas”。",
+          "10月26日 09:31 UTC，BBC World报道：“Crowds welcome Venezuela's María Machado after months in exile”。",
+          "10月26日 09:08 UTC，DW Top Stories报道：“Venezuela: Opposition leader Machado returns from exile, received by thousands of supporters in Caracas”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -80,90 +85,297 @@
       },
       "articles": [
         {
-          "article_id": "art_819718c17bd2230be000",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/social-video-captures-moment-brazils-election-turned?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/social-video-captures-moment-brazils-election-turned?traffic_source=rss",
-          "title": "Social video captures moment Brazil’s election turned",
-          "summary": "Video shot by supporters of the candidates in Brazil’s presidential runoff show the moment the result began changing",
+          "article_id": "art_b45df668dd07dd1e2769",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/thousands-greet-opposition-leader-maria-machado-upon-return-to-caracas?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/thousands-greet-opposition-leader-maria-machado-upon-return-to-caracas?traffic_source=rss",
+          "title": "Thousands greet opposition leader Maria Machado upon return to Caracas",
+          "summary": "Thousands lined the streets of Caracas to welcome opposition leader Maria Corina Machado back to Venezuela after exile.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T05:01:59+00:00",
-          "fetched_at": "2026-10-26T06:13:28.666736+00:00",
+          "published_at": "2026-10-26T10:14:26+00:00",
+          "fetched_at": "2026-10-26T13:03:21.436189+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_a511023544653dac5baf",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/bolsonaro-calls-for-brazil-election-result-to-be-annulled?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/bolsonaro-calls-for-brazil-election-result-to-be-annulled?traffic_source=rss",
-          "title": "Bolsonaro calls for Brazil election result to be annulled",
-          "summary": "Brazil’s right-wing Senator Flavio Bolsonaro has called for the presidential election result to be ‘annulled’.",
+          "article_id": "art_b56e15b70d58032cf24f",
+          "url": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_campaign=rss&at_medium=RSS",
+          "title": "Crowds welcome Venezuela's María Machado after months in exile",
+          "summary": "The Venezuelan opposition leader spent more than 10 months in exile after escaping the country on a speedboat.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-26T09:31:12+00:00",
+          "fetched_at": "2026-10-26T13:03:20.427895+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/276a/live/9bd2b450-d11d-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_3e8631189ebb90154bfa",
+          "url": "https://www.dw.com/en/venezuela-opposition-leader-machado-returns-from-exile-received-by-thousands-of-supporters-in-caracas/a-79759187?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/venezuela-opposition-leader-machado-returns-from-exile-received-by-thousands-of-supporters-in-caracas/a-79759187?maca=en-rss-en-top-1022-rdf",
+          "title": "Venezuela: Opposition leader Machado returns from exile, received by thousands of supporters in Caracas",
+          "summary": "Nobel Peach Prize winner and popular Venezuelan political opposition figure Maria Corina Machado has returned from nearly a year in exile. She was greeted by thousands of cheering supporters in Caracas.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-26T09:08:00+00:00",
+          "fetched_at": "2026-10-26T13:03:20.994409+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_60e9a60623f9088299f3",
+          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_campaign=rss&at_medium=RSS",
+          "title": "Venezuelan opposition leader María Machado returns after months in exile",
+          "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-26T05:20:19+00:00",
+          "fetched_at": "2026-10-26T13:03:20.426923+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dcf/live/679d8fc0-d0a0-11f1-87fa-c1809f43a7a8.jpg"
+        },
+        {
+          "article_id": "art_8a97a88ed1af9975a1a4",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+          "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
+          "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\"",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-25T16:18:41+00:00",
+          "fetched_at": "2026-10-26T13:03:21.208236+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5f71b67f9c5c6b2748cf",
+      "title": "Who is Lula? From ex-worker and prisoner to Brazil's president again",
+      "category": "国际政治",
+      "score": 78.5,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.8,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-26T00:35:00+00:00",
+      "last_updated": "2026-10-26T11:39:16+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "president",
+        "lula",
+        "bolsonaro",
+        "brazil's",
+        "fourth",
+        "term",
+        "left-wing",
+        "vio"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Who is Lula? From ex-worker and prisoner to Brazil's president again”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Who",
+          "Lula",
+          "From",
+          "Brazil",
+          "Brazilian",
+          "President Lula",
+          "Flavio Bolsonaro Watch",
+          "How President Lula"
+        ],
+        "latest_progress": [
+          "10月26日 11:39 UTC，BBC World报道：“Who is Lula? From ex-worker and prisoner to Brazil's president again”。",
+          "10月26日 03:45 UTC，DW Top Stories报道：“Brazilian leftist President Lula wins reelection against conservative challenger Flavio Bolsonaro”。",
+          "10月26日 02:53 UTC，BBC World报道：“Watch: How President Lula turned it around to beat Flávio Bolsonaro”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d2cb31bc1ccfe11f0c44",
+          "url": "https://www.bbc.co.uk/news/articles/c35yn2ye1x85o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c35yn2ye1x85o?at_campaign=rss&at_medium=RSS",
+          "title": "Who is Lula? From ex-worker and prisoner to Brazil's president again",
+          "summary": "The firebrand left-winger, who has at times been at odds with Trump, has won his fourth term as Brazil's president.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-26T11:39:16+00:00",
+          "fetched_at": "2026-10-26T13:03:20.428168+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c87/live/9b9ce0d0-d129-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
+          "article_id": "art_a77f23d688613caf6e1c",
+          "url": "https://www.dw.com/en/brazilian-leftist-president-lula-wins-reelection-against-conservative-challenger-flavio-bolsonaro/live-79755630?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/brazilian-leftist-president-lula-wins-reelection-against-conservative-challenger-flavio-bolsonaro/live-79755630?maca=en-rss-en-top-1022-rdf",
+          "title": "Brazilian leftist President Lula wins reelection against conservative challenger Flavio Bolsonaro",
+          "summary": "Leftist President Lula has defeated right-wing challenger Flavio Bolsonaro to win a historic fourth term in office. Bolsonaro has refused to concede and called for the results to be annulled. DW has the latest.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-26T03:45:00+00:00",
+          "fetched_at": "2026-10-26T13:03:20.994594+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6ae528e06cff41479a02",
+          "url": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
+          "summary": "Brazil's left-wing President has been elected for a fourth term after narrowly beating right-wing Flávio Bolsonaro in a knife-edge vote.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-26T02:53:00+00:00",
+          "fetched_at": "2026-10-26T13:03:20.427811+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3247/live/2f1c2d90-d10a-11f1-b441-2b33b063138f.png"
+        },
+        {
+          "article_id": "art_28f7062affb3fb06789e",
+          "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+          "title": "Brazil's left-wing President Lula elected for fourth term",
+          "summary": "Brazil's 80-year-old left-wing leader President Lula defeats Flávio Bolsonaro in a bitterly contested runoff.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-26T00:35:00+00:00",
+          "fetched_at": "2026-10-26T13:03:21.208009+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_70cb53c343d939bcd844",
+      "title": "Flavio Bolsonaro ‘will not give up’ after Brazil election results",
+      "category": "国际政治",
+      "score": 76.7,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 18.8,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.7
+      },
+      "first_seen": "2026-10-25T11:16:00+00:00",
+      "last_updated": "2026-10-26T09:15:21+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "election",
+        "brazil",
+        "lula",
+        "flavio",
+        "bolsonaro",
+        "latin",
+        "runoff",
+        "leftist"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Flavio Bolsonaro ‘will not give up’ after Brazil election results”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Flavio Bolsonaro",
+          "Brazil",
+          "Lula",
+          "Latin America",
+          "Brazil Brazil"
+        ],
+        "latest_progress": [
+          "10月26日 09:15 UTC，Al Jazeera报道：“Flavio Bolsonaro ‘will not give up’ after Brazil election results”。",
+          "10月26日 08:41 UTC，Al Jazeera报道：“Lula’s victory may be a turning point for Latin America”。",
+          "10月25日 21:22 UTC，NPR World报道：“U.S. influence in Latin America at stake in runoff election in Brazil”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_46f4e10bfaea2b18de4b",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/flavio-bolsonaro-will-not-give-up-after-brazil-election-results?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/flavio-bolsonaro-will-not-give-up-after-brazil-election-results?traffic_source=rss",
+          "title": "Flavio Bolsonaro ‘will not give up’ after Brazil election results",
+          "summary": "Flavio Bolsonaro is refusing to concede to Lula da Silva who won a historic 4th term in Sunday's election.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T04:36:46+00:00",
-          "fetched_at": "2026-10-26T06:13:28.666895+00:00",
+          "published_at": "2026-10-26T09:15:21+00:00",
+          "fetched_at": "2026-10-26T13:03:21.436466+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_d94d22f07e4c58b7f5e4",
-          "url": "https://www.aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race?traffic_source=rss",
-          "title": "World reacts to Lula’s victory in Brazil’s presidential election",
-          "summary": "International leaders and politicians congratulate the Brazilian president on his re-election.",
+          "article_id": "art_547814c06e9294bda6dd",
+          "url": "https://www.aljazeera.com/opinions/2026/10/26/lulas-victory-may-be-a-turning-point-for-latin-america?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/opinions/2026/10/26/lulas-victory-may-be-a-turning-point-for-latin-america?traffic_source=rss",
+          "title": "Lula’s victory may be a turning point for Latin America",
+          "summary": "The outcome of Brazil's presidential election demonstrates that the far-right tide in Latin America is not inevitable.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T03:50:12+00:00",
-          "fetched_at": "2026-10-26T06:13:28.667702+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_102ad4eba123e65defe8",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/lula-thanks-brazils-youth-for-historic-election-win?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/lula-thanks-brazils-youth-for-historic-election-win?traffic_source=rss",
-          "title": "Lula thanks Brazil’s youth for historic election win",
-          "summary": "Brazil’s President Luiz Inacio Lula da Silva has won an unprecedented fourth term.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-26T03:14:26+00:00",
-          "fetched_at": "2026-10-26T06:13:28.668025+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7f0ec9420f0e1678a0c7",
-          "url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win?traffic_source=rss",
-          "title": "Brazil election results 2026: Key takeaways from Lula’s historic win",
-          "summary": "Lula wins a fourth term after a dramatic run-off marred by voting confusion and allegations of interference.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-26T02:59:50+00:00",
-          "fetched_at": "2026-10-26T06:13:28.668180+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3e04b894562d92668c21",
-          "url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election?traffic_source=rss",
-          "title": "Lula holds off far right with victory in Brazil presidential election",
-          "summary": "Leftist president mounts stunning comeback after unexpected first-round loss galvanised supporters of Flavio Bolsonaro.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-26T00:16:29+00:00",
-          "fetched_at": "2026-10-26T06:13:28.668975+00:00",
+          "published_at": "2026-10-26T08:41:23+00:00",
+          "fetched_at": "2026-10-26T13:03:21.436680+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -178,7 +390,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-25T21:22:43+00:00",
-          "fetched_at": "2026-10-26T06:13:28.559904+00:00",
+          "fetched_at": "2026-10-26T13:03:21.208085+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -193,7 +405,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-25T11:16:00+00:00",
-          "fetched_at": "2026-10-26T06:13:28.356111+00:00",
+          "fetched_at": "2026-10-26T13:03:20.995058+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -202,56 +414,56 @@
       ]
     },
     {
-      "event_id": "evt_92d69b05f44eb085a9a5",
-      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "event_id": "evt_8e142e79611576947773",
+      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
       "category": "国际政治",
-      "score": 77.7,
+      "score": 75.3,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 21.2,
+        "region_diversity": 5.0,
+        "recency": 21.8,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 3.5
+        "velocity": 2.9
       },
-      "first_seen": "2026-10-25T16:18:41+00:00",
-      "last_updated": "2026-10-26T05:20:19+00:00",
+      "first_seen": "2026-10-25T21:07:00+00:00",
+      "last_updated": "2026-10-26T12:52:16+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "machado",
-        "opposition",
-        "leader",
-        "months",
-        "returns",
-        "exile",
-        "mar",
-        "corina"
+        "student-led",
+        "movement",
+        "serbia",
+        "vucic",
+        "election",
+        "defeat",
+        "political",
+        "longtime"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的3篇报道，当前关注的国际政治事件为“Venezuelan opposition leader María Machado returns after months in exile”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Venezuelan",
-          "Machado",
-          "Venezuela",
-          "Corina Machado"
+          "Celebrations",
+          "Serbia",
+          "Vucic",
+          "Who",
+          "PM"
         ],
         "latest_progress": [
-          "10月26日 05:20 UTC，BBC World报道：“Venezuelan opposition leader María Machado returns after months in exile”。",
-          "10月25日 23:23 UTC，Al Jazeera报道：“Venezuela’s opposition leader Machado returns after months in exile”。",
-          "10月25日 16:18 UTC，NPR World报道：“Venezuela's opposition leader María Corina Machado returns after months in exile”。"
+          "10月26日 12:52 UTC，BBC World报道：“Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement”。",
+          "10月26日 11:28 UTC，Al Jazeera报道：“Serbia after Vucic: Who will be PM and when will a government be formed?”。",
+          "10月25日 21:07 UTC，DW Top Stories报道：“Serbia election: Vucic concedes defeat to student-led movement”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -264,68 +476,173 @@
       },
       "articles": [
         {
-          "article_id": "art_60e9a60623f9088299f3",
-          "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_campaign=rss&at_medium=RSS",
-          "title": "Venezuelan opposition leader María Machado returns after months in exile",
-          "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+          "article_id": "art_f3258702893cb96d65dd",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_campaign=rss&at_medium=RSS",
+          "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+          "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-26T05:20:19+00:00",
-          "fetched_at": "2026-10-26T06:13:28.039778+00:00",
+          "published_at": "2026-10-26T12:52:16+00:00",
+          "fetched_at": "2026-10-26T13:03:20.426790+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a26f/live/3f12cea0-d0f8-11f1-b5b1-192f0fa11760.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0c7/live/712973e0-d110-11f1-b441-2b33b063138f.jpg"
         },
         {
-          "article_id": "art_8984cf5f82c2b65ed013",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/venezuelas-opposition-leader-machado-returns-after-months-in-exile?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/venezuelas-opposition-leader-machado-returns-after-months-in-exile?traffic_source=rss",
-          "title": "Venezuela’s opposition leader Machado returns after months in exile",
-          "summary": "Venezuela’s opposition leader and Nobel Peace Prize winner Maria Corina Machado returned home after more than 10 months.",
+          "article_id": "art_7f7a3ef7b0da4dcfdcb0",
+          "url": "https://www.aljazeera.com/news/2026/10/26/serbia-after-vucic-who-will-be-pm-and-when-will-a-government-be-formed?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/serbia-after-vucic-who-will-be-pm-and-when-will-a-government-be-formed?traffic_source=rss",
+          "title": "Serbia after Vucic: Who will be PM and when will a government be formed?",
+          "summary": "Uncertainty remains over key positions after student-led movement deals a blow to longtime leader's political dominance.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-25T23:23:25+00:00",
-          "fetched_at": "2026-10-26T06:13:28.669769+00:00",
+          "published_at": "2026-10-26T11:28:25+00:00",
+          "fetched_at": "2026-10-26T13:03:21.435758+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_8a97a88ed1af9975a1a4",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-          "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
-          "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\"",
-          "source": "NPR World",
+          "article_id": "art_333e71f4e13d7bcd1102",
+          "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
+          "title": "Serbia election: Vucic concedes defeat to student-led movement",
+          "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-25T16:18:41+00:00",
-          "fetched_at": "2026-10-26T06:13:28.560206+00:00",
+          "published_at": "2026-10-25T21:07:00+00:00",
+          "fetched_at": "2026-10-26T13:03:20.994650+00:00",
           "language": "en",
-          "region": "North America",
+          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
+      "event_id": "evt_b82dfa1d89155146ec9e",
+      "title": "Jordan arrests three suspects over church attack in dawn raid: What to know",
+      "category": "军事安全",
+      "score": 74.2,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.3,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-26T07:03:07+00:00",
+      "last_updated": "2026-10-26T11:08:48+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "attack",
+        "jordan",
+        "suspects",
+        "church",
+        "arrests",
+        "three",
+        "deadly",
+        "security"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Jordan arrests three suspects over church attack in dawn raid: What to know”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Jordan",
+          "What"
+        ],
+        "latest_progress": [
+          "10月26日 11:08 UTC，Al Jazeera报道：“Jordan arrests three suspects over church attack in dawn raid: What to know”。",
+          "10月26日 10:12 UTC，DW Top Stories报道：“Jordan: 3 arrested over deadly church attack”。",
+          "10月26日 07:03 UTC，Al Jazeera报道：“Jordan arrests three suspects in deadly church attack”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_71abc9fc8157c791396a",
+          "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-over-church-attack-in-dawn-raid-what-to-know?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-over-church-attack-in-dawn-raid-what-to-know?traffic_source=rss",
+          "title": "Jordan arrests three suspects over church attack in dawn raid: What to know",
+          "summary": "Jordanian authorities have not named the individuals or any group involved in the 'terrorist incident'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-26T11:08:48+00:00",
+          "fetched_at": "2026-10-26T13:03:21.435842+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_60f6240af633f6b7d6b6",
+          "url": "https://www.dw.com/en/jordan-3-arrested-over-deadly-church-attack/a-79760441?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/jordan-3-arrested-over-deadly-church-attack/a-79760441?maca=en-rss-en-top-1022-rdf",
+          "title": "Jordan: 3 arrested over deadly church attack",
+          "summary": "Three men have been arrested in Jordan in connection with an attack on a Greek Orthodox church last week. The arrests took place following a dawn shootout with security forces during which the suspects were wounded.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-26T10:12:00+00:00",
+          "fetched_at": "2026-10-26T13:03:20.994248+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1c11618bd298491d4737",
+          "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-in-deadly-church-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-in-deadly-church-attack?traffic_source=rss",
+          "title": "Jordan arrests three suspects in deadly church attack",
+          "summary": "Suspects refuse to surrender and attack security forces, who return fire, wound and arrest them, authorities say.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-26T07:03:07+00:00",
+          "fetched_at": "2026-10-26T13:03:21.437158+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_7b6f66b9adbcc3702ccd",
-      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+      "title": "Do Palestinians in Gaza expect anything to change after Israel’s election?",
       "category": "国际政治",
-      "score": 76.5,
+      "score": 73.4,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.1,
+        "recency": 18.4,
         "credibility": 9.9,
         "impact": 11.0,
-        "velocity": 2.5
+        "velocity": 2.2
       },
       "first_seen": "2026-10-25T05:15:52+00:00",
-      "last_updated": "2026-10-26T05:16:38+00:00",
+      "last_updated": "2026-10-26T08:43:39+00:00",
       "source_count": 3,
       "article_count": 4,
       "sources": [
@@ -348,16 +665,17 @@
         "day"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Israel to close West Bank crossings on election day as crackdown escalates”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的国际政治事件为“Do Palestinians in Gaza expect anything to change after Israel’s election?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Do Palestinians",
+          "Gaza",
           "Israel",
-          "Five",
           "Deeply",
           "West Bank"
         ],
         "latest_progress": [
-          "10月26日 05:16 UTC，Al Jazeera报道：“Israel’s election: Five key things to know”。",
+          "10月26日 08:43 UTC，Al Jazeera报道：“Do Palestinians in Gaza expect anything to change after Israel’s election?”。",
           "10月25日 22:11 UTC，BBC World报道：“Deeply divided Israel braces for pivotal election”。",
           "10月25日 13:09 UTC，DW Top Stories报道：“Israel to close all West Bank land crossings on election day”。"
         ],
@@ -372,15 +690,15 @@
       },
       "articles": [
         {
-          "article_id": "art_0ca76d6b27bdf7c2b040",
-          "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know?traffic_source=rss",
-          "title": "Israel’s election: Five key things to know",
-          "summary": "Vote comes as Israel is embroiled in multiple wars, faces international criticism and grapples with domestic divisions.",
+          "article_id": "art_85af2a7b14da563a493a",
+          "url": "https://www.aljazeera.com/news/2026/10/26/do-palestinians-in-gaza-expect-anything-to-change-after-israels-election?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/do-palestinians-in-gaza-expect-anything-to-change-after-israels-election?traffic_source=rss",
+          "title": "Do Palestinians in Gaza expect anything to change after Israel’s election?",
+          "summary": "After years of war, displacement and restrictions, Gazans ask whether Israel’s election will affect their future.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T05:16:38+00:00",
-          "fetched_at": "2026-10-26T06:13:28.666568+00:00",
+          "published_at": "2026-10-26T08:43:39+00:00",
+          "fetched_at": "2026-10-26T13:03:21.436606+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -395,7 +713,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T22:11:13+00:00",
-          "fetched_at": "2026-10-26T06:13:28.039940+00:00",
+          "fetched_at": "2026-10-26T13:03:20.427316+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -410,7 +728,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-25T13:09:00+00:00",
-          "fetched_at": "2026-10-26T06:13:28.355745+00:00",
+          "fetched_at": "2026-10-26T13:03:20.994890+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -425,7 +743,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-25T05:15:52+00:00",
-          "fetched_at": "2026-10-26T06:13:28.040905+00:00",
+          "fetched_at": "2026-10-26T13:03:20.427597+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -434,135 +752,25 @@
       ]
     },
     {
-      "event_id": "evt_5f71b67f9c5c6b2748cf",
-      "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
-      "category": "国际政治",
-      "score": 75.2,
+      "event_id": "evt_ceada302606643fdfe7d",
+      "title": "Saudi Arabia confirms January start for Asian Cup 2027 despite attacks",
+      "category": "科技AI",
+      "score": 63.2,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.8,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-26T00:35:00+00:00",
-      "last_updated": "2026-10-26T03:45:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "president",
-        "bolsonaro",
-        "lula",
-        "brazil's",
-        "left-wing",
-        "term",
-        "vio",
-        "elected"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Watch: How President Lula turned it around to beat Flávio Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Brazilian",
-          "President Lula",
-          "Flavio Bolsonaro Watch",
-          "How President Lula",
-          "Bolsonaro Brazil"
-        ],
-        "latest_progress": [
-          "10月26日 03:45 UTC，DW Top Stories报道：“Brazilian leftist President Lula wins reelection against conservative challenger Flavio Bolsonaro”。",
-          "10月26日 02:53 UTC，BBC World报道：“Watch: How President Lula turned it around to beat Flávio Bolsonaro”。",
-          "10月26日 00:35 UTC，NPR World报道：“Brazil's left-wing President Lula elected for fourth term”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a77f23d688613caf6e1c",
-          "url": "https://www.dw.com/en/brazilian-leftist-president-lula-wins-reelection-against-conservative-challenger-flavio-bolsonaro/live-79755630?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazilian-leftist-president-lula-wins-reelection-against-conservative-challenger-flavio-bolsonaro/live-79755630?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazilian leftist President Lula wins reelection against conservative challenger Flavio Bolsonaro",
-          "summary": "Leftist President Lula has defeated right-wing challenger Flavio Bolsonaro to win another term in office. Bolsonaro has refused to concede and called for the results to be annulled. DW has the latest.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-26T03:45:00+00:00",
-          "fetched_at": "2026-10-26T06:13:28.354992+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6ae528e06cff41479a02",
-          "url": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
-          "summary": "Brazil's left-wing President has been elected for a fourth term after narrowly beating right-wing Flávio Bolsonaro in a knife-edge vote.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-26T02:53:00+00:00",
-          "fetched_at": "2026-10-26T06:13:28.043485+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e6c/live/3b364b00-d0e8-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_28f7062affb3fb06789e",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
-          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
-          "title": "Brazil's left-wing President Lula elected for fourth term",
-          "summary": "Brazil's 80-year-old left-wing leader President Lula defeats Flávio Bolsonaro in a bitterly contested runoff.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-26T00:35:00+00:00",
-          "fetched_at": "2026-10-26T06:13:28.559725+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_8e142e79611576947773",
-      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-      "category": "国际政治",
-      "score": 73.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.8,
+        "recency": 19.3,
         "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
+        "impact": 9.8,
+        "velocity": 1.2
       },
-      "first_seen": "2026-10-25T21:07:00+00:00",
-      "last_updated": "2026-10-26T01:07:05+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-10-25T09:13:00+00:00",
+      "last_updated": "2026-10-26T09:52:58+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -570,78 +778,66 @@
         "Middle East"
       ],
       "keywords": [
-        "movement",
-        "election",
-        "serbia",
-        "student-led",
-        "vucic",
-        "defeat",
-        "serbia's",
-        "leader"
+        "saudi",
+        "arabia",
+        "january",
+        "asian",
+        "cup",
+        "looks",
+        "edge",
+        "yemen's"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的科技AI事件为“Saudi Arabia confirms January start for Asian Cup 2027 despite attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Celebrations",
-          "Serbia",
-          "Vucic"
+          "Saudi Arabia",
+          "January",
+          "Asian Cup",
+          "US",
+          "AI",
+          "Yemen",
+          "Houthis"
         ],
         "latest_progress": [
-          "10月26日 01:07 UTC，BBC World报道：“Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement”。",
-          "10月26日 00:58 UTC，Al Jazeera报道：“Serbia celebrates historic election win for student-backed movement”。",
-          "10月25日 21:07 UTC，DW Top Stories报道：“Serbia election: Vucic concedes defeat to student-led movement”。"
+          "10月26日 09:52 UTC，Al Jazeera报道：“Saudi Arabia confirms January start for Asian Cup 2027 despite attacks”。",
+          "10月25日 09:13 UTC，DW Top Stories报道：“Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_f3258702893cb96d65dd",
-          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_campaign=rss&at_medium=RSS",
-          "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-          "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-26T01:07:05+00:00",
-          "fetched_at": "2026-10-26T06:13:28.039585+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a400/live/789d12b0-d0f9-11f1-93e1-3b657b665bcf.jpg"
-        },
-        {
-          "article_id": "art_15571e2b98d399c80a62",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/serbia-celebrates-historic-election-win-for-student-backed-movement?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/serbia-celebrates-historic-election-win-for-student-backed-movement?traffic_source=rss",
-          "title": "Serbia celebrates historic election win for student-backed movement",
-          "summary": "Celebrations erupted across Belgrade as Serbia's student-backed movement claimed a major election victory",
+          "article_id": "art_d4e1381b58e58f2b3497",
+          "url": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/sports/2026/10/26/saudi-arabia-confirms-january-start-for-asian-cup-2027-despite-attacks?traffic_source=rss",
+          "title": "Saudi Arabia confirms January start for Asian Cup 2027 despite attacks",
+          "summary": "Asian Cup 2027 to kick off on January 7 with Saudi Arabia facing Palestine in Riyadh as the AFC announces the schedule.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T00:58:21+00:00",
-          "fetched_at": "2026-10-26T06:13:28.668827+00:00",
+          "published_at": "2026-10-26T09:52:58+00:00",
+          "fetched_at": "2026-10-26T13:03:21.436256+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_333e71f4e13d7bcd1102",
-          "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
-          "title": "Serbia election: Vucic concedes defeat to student-led movement",
-          "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led movement in the country's parliamentary elections.",
+          "article_id": "art_8152f78fee6654d33448",
+          "url": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemen-s-houthis-up-pressure/a-79735138?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/saudi-arabia-looks-to-us-for-an-ai-edge-as-yemen-s-houthis-up-pressure/a-79735138?maca=en-rss-en-top-1022-rdf",
+          "title": "Saudi Arabia looks to US for an AI edge as Yemen's Houthis up pressure",
+          "summary": "The US is helping Saudi Arabia fight the Houthi group in Yemen with AI-assisted targeting. But AI is not a magic bullet, experts say, and there are technological, political and human rights issues to consider.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-25T21:07:00+00:00",
-          "fetched_at": "2026-10-26T06:13:28.355141+00:00",
+          "published_at": "2026-10-25T09:13:00+00:00",
+          "fetched_at": "2026-10-26T13:03:20.995282+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -650,250 +846,50 @@
       ]
     },
     {
-      "event_id": "evt_2e6a12f26c9c03941474",
-      "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
-      "category": "国际政治",
-      "score": 69.4,
+      "event_id": "evt_265399d19a26a696ea82",
+      "title": "Nurse killed in Ebola attack in DR Congo",
+      "category": "军事安全",
+      "score": 63.0,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.1,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.9,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-25T23:33:19+00:00",
-      "last_updated": "2026-10-26T04:03:28+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-26T12:57:58+00:00",
+      "last_updated": "2026-10-26T12:57:58+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
         "BBC World"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "michigan",
-        "trump",
-        "rally",
-        "campaign",
-        "senate",
-        "ahead",
-        "rapper",
-        "nicki"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Trump",
-          "Islamophobia",
-          "Abdul El",
-          "Sayed",
-          "Michigan Senate",
-          "Rapper Nicki Minaj",
-          "Michigan"
-        ],
-        "latest_progress": [
-          "10月26日 04:03 UTC，Al Jazeera报道：“Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally”。",
-          "10月25日 23:33 UTC，BBC World报道：“Rapper Nicki Minaj joins Trump onstage at Michigan rally”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4d0401ee1cc88833e528",
-          "url": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/trump-dials-up-islamophobia-at-michigan-senate-rally-against-abdul-el-sayed?traffic_source=rss",
-          "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
-          "summary": "Al Jazeera looks at the key takeaways from the US president's campaign event in Michigan ahead of the midterm vote.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-26T04:03:28+00:00",
-          "fetched_at": "2026-10-26T06:13:28.667548+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_9aaec218a5e15142b47b",
-          "url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_campaign=rss&at_medium=RSS",
-          "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
-          "summary": "The Super Bass singer is the latest big name to campaign in Michigan, where a tight Senate race is playing out ahead of the 3 November midterms.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-25T23:33:19+00:00",
-          "fetched_at": "2026-10-26T06:13:28.040596+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8395/live/f35a8d90-d0fc-11f1-9d25-c3fafb2ab4de.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_276ed6fe32da025dee11",
-      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-      "category": "军事安全",
-      "score": 64.4,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 9.1,
-        "credibility": 9.7,
-        "impact": 13.0,
-        "velocity": 3.0
-      },
-      "first_seen": "2026-10-24T17:54:25+00:00",
-      "last_updated": "2026-10-25T09:00:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "ukraine",
-        "starlink",
-        "musk",
-        "restored",
-        "military",
-        "spacex",
-        "tech",
-        "said"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“Musk says SpaceX restricted Ukraine's Starlink connection as service restored”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Musk",
-          "Ukraine",
-          "Starlink"
-        ],
-        "latest_progress": [
-          "10月25日 09:00 UTC，BBC World报道：“Musk says SpaceX restricted Ukraine's Starlink connection as service restored”。",
-          "10月24日 19:33 UTC，DW Top Stories报道：“Ukraine: Starlink satellite speeds restored to normal”。",
-          "10月24日 17:54 UTC，NPR World报道：“Musk says SpaceX did restrict Starlink, as Ukraine says the tech has been restored”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b3b5f21d9abc98c08a3a",
-          "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_campaign=rss&at_medium=RSS",
-          "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-          "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-25T09:00:00+00:00",
-          "fetched_at": "2026-10-26T06:13:28.040754+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b53/live/c94ca0d0-d041-11f1-950a-2dcbf5245e34.jpg"
-        },
-        {
-          "article_id": "art_63ce756214018c0ed760",
-          "url": "https://www.dw.com/en/ukraine-starlink-satellite-speeds-restored-to-normal/a-79752155?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-starlink-satellite-speeds-restored-to-normal/a-79752155?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine: Starlink satellite speeds restored to normal",
-          "summary": "The announcement comes after Starlink and Starshield restrictions had disrupted military operations in Ukraine and sparked tensions with the US.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-24T19:33:00+00:00",
-          "fetched_at": "2026-10-26T06:13:28.357239+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_34577aaac7d0a60937df",
-          "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
-          "canonical_url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
-          "title": "Musk says SpaceX did restrict Starlink, as Ukraine says the tech has been restored",
-          "summary": "Musk said Ukraine had been violating Starlink's terms by using it for military activity, as Ukrainian President Volodymyr Zelenskyy said normal operating speeds have returned.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-24T17:54:25+00:00",
-          "fetched_at": "2026-10-26T06:13:28.561105+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_edd2a726a1f12902ca59",
-      "title": "Attackers kill nurse, injure health worker responding to DRC Ebola case",
-      "category": "军事安全",
-      "score": 61.4,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.4,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-26T04:21:26+00:00",
-      "last_updated": "2026-10-26T04:21:26+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "health",
         "ebola",
-        "attackers",
-        "kill",
         "nurse",
-        "injure",
-        "worker",
-        "responding"
+        "killed",
+        "attack",
+        "congo",
+        "local",
+        "youths",
+        "reportedly"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Attackers kill nurse, injure health worker responding to DRC Ebola case”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Nurse killed in Ebola attack in DR Congo”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Attackers",
-          "DRC",
-          "Ebola"
+          "Nurse",
+          "Ebola",
+          "DR",
+          "Congo"
         ],
         "latest_progress": [
-          "10月26日 04:21 UTC，Al Jazeera报道：“Attackers kill nurse, injure health worker responding to DRC Ebola case”。"
+          "10月26日 12:57 UTC，BBC World报道：“Nurse killed in Ebola attack in DR Congo”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -906,109 +902,38 @@
       },
       "articles": [
         {
-          "article_id": "art_72ecfb7751bd3f8ba7be",
-          "url": "https://www.aljazeera.com/news/2026/10/26/attackers-kill-nurse-injure-health-worker-responding-to-drc-ebola-case?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/attackers-kill-nurse-injure-health-worker-responding-to-drc-ebola-case?traffic_source=rss",
-          "title": "Attackers kill nurse, injure health worker responding to DRC Ebola case",
-          "summary": "The attack in eastern Dr Congo is the latest on health workers and responders to the deadly Ebola outbreak.",
-          "source": "Al Jazeera",
+          "article_id": "art_f366f44d0a34a9b32bf4",
+          "url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_campaign=rss&at_medium=RSS",
+          "title": "Nurse killed in Ebola attack in DR Congo",
+          "summary": "Local youths reportedly accused the health workers of contaminating water sources and spreading Ebola.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-26T04:21:26+00:00",
-          "fetched_at": "2026-10-26T06:13:28.667210+00:00",
+          "published_at": "2026-10-26T12:57:58+00:00",
+          "fetched_at": "2026-10-26T13:03:20.427245+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b16/live/de274990-d133-11f1-be77-d1864d279cb0.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_8b5d47aab27089921bad",
-      "title": "US military says it helped Gulf states export 1.5 billion barrels of oil",
+      "event_id": "evt_2486836a96a63ba88b30",
+      "title": "Israeli forces kill at least five people in Gaza, including 7-year-old girl",
       "category": "军事安全",
-      "score": 61.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-26T04:05:44+00:00",
-      "last_updated": "2026-10-26T04:05:44+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "military",
-        "helped",
-        "gulf",
-        "states",
-        "export",
-        "billion",
-        "barrels",
-        "oil"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“US military says it helped Gulf states export 1.5 billion barrels of oil”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US",
-          "Gulf"
-        ],
-        "latest_progress": [
-          "10月26日 04:05 UTC，Al Jazeera报道：“US military says it helped Gulf states export 1.5 billion barrels of oil”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f3d545b588bbde88990f",
-          "url": "https://www.aljazeera.com/economy/2026/10/26/us-military-says-it-helped-gulf-states-export-1-5-billion-barrels-of-oil?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/10/26/us-military-says-it-helped-gulf-states-export-1-5-billion-barrels-of-oil?traffic_source=rss",
-          "title": "US military says it helped Gulf states export 1.5 billion barrels of oil",
-          "summary": "US Central Command says more than 3,000 commercial vessels have transited the Strait of Hormuz with its support.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-26T04:05:44+00:00",
-          "fetched_at": "2026-10-26T06:13:28.667365+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_943e1de455904919c8ee",
-      "title": "Aleksandar Vucic, the Serbian leader brought down by students",
-      "category": "社会突发",
-      "score": 61.0,
+      "score": 62.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
         "recency": 21.3,
         "credibility": 10.0,
-        "impact": 11.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-26T05:24:59+00:00",
-      "last_updated": "2026-10-26T05:24:59+00:00",
+      "first_seen": "2026-10-26T12:17:02+00:00",
+      "last_updated": "2026-10-26T12:17:02+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -1018,45 +943,117 @@
         "Middle East"
       ],
       "keywords": [
-        "leader",
-        "aleksandar",
-        "vucic",
-        "serbian",
-        "brought",
-        "down",
-        "students",
-        "serbia's"
+        "gaza",
+        "including",
+        "israeli",
+        "forces",
+        "kill",
+        "least",
+        "five",
+        "people"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Aleksandar Vucic, the Serbian leader brought down by students”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Israeli forces kill at least five people in Gaza, including 7-year-old girl”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Aleksandar Vucic",
-          "Serbian"
+          "Israeli",
+          "Gaza"
         ],
         "latest_progress": [
-          "10月26日 05:24 UTC，Al Jazeera报道：“Aleksandar Vucic, the Serbian leader brought down by students”。"
+          "10月26日 12:17 UTC，Al Jazeera报道：“Israeli forces kill at least five people in Gaza, including 7-year-old girl”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_a187897975e8b3a3b382",
-          "url": "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss",
-          "title": "Aleksandar Vucic, the Serbian leader brought down by students",
-          "summary": "Serbia's longtime leader concedes defeat to a student-led protest movement in parliamentary elections.",
+          "article_id": "art_70b1da82c53588b708b8",
+          "url": "https://www.aljazeera.com/news/2026/10/26/israeli-forces-kill-at-least-five-people-in-gaza-including-7-year-old-girl?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/israeli-forces-kill-at-least-five-people-in-gaza-including-7-year-old-girl?traffic_source=rss",
+          "title": "Israeli forces kill at least five people in Gaza, including 7-year-old girl",
+          "summary": "The death toll in Israel's genocidal war on Gaza climbs to 74,555, including 1,559 killed since 'ceasefire' last year.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T05:24:59+00:00",
-          "fetched_at": "2026-10-26T06:13:28.666194+00:00",
+          "published_at": "2026-10-26T12:17:02+00:00",
+          "fetched_at": "2026-10-26T13:03:21.435609+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_4bb1ebf6509729e18dc4",
+      "title": "Key European defence ministers meet in Paris to discuss Ukraine support",
+      "category": "军事安全",
+      "score": 61.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-26T11:04:55+00:00",
+      "last_updated": "2026-10-26T11:04:55+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "defence",
+        "ministers",
+        "discuss",
+        "ukraine",
+        "key",
+        "european",
+        "meet",
+        "paris"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Key European defence ministers meet in Paris to discuss Ukraine support”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Key European",
+          "Paris",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月26日 11:04 UTC，Al Jazeera报道：“Key European defence ministers meet in Paris to discuss Ukraine support”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_529f0e6b0984b356d0e2",
+          "url": "https://www.aljazeera.com/news/2026/10/26/key-european-defence-ministers-meet-in-paris-to-discuss-ukraine-support?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/key-european-defence-ministers-meet-in-paris-to-discuss-ukraine-support?traffic_source=rss",
+          "title": "Key European defence ministers meet in Paris to discuss Ukraine support",
+          "summary": "Defence ministers from France, Germany, Italy, Poland and the UK to discuss increasing military assistance to Ukraine.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-26T11:04:55+00:00",
+          "fetched_at": "2026-10-26T13:03:21.435912+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
