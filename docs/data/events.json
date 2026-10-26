@@ -1,127 +1,289 @@
 {
-  "generated_at": "2026-10-26T19:19:48.615816+00:00",
+  "generated_at": "2026-10-26T23:53:37.282391+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 132,
-    "articles_unique": 132,
+    "articles_fetched": 134,
+    "articles_unique": 134,
     "errors": [
       {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_97e18eac4cac65d4877c",
-      "title": "Egyptian parliament authorises military aid for Saudi Arabia",
-      "category": "军事安全",
-      "score": 76.6,
+      "event_id": "evt_908d6aac2eb4e7f2ed63",
+      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+      "category": "国际政治",
+      "score": 93.5,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 18.9,
-        "credibility": 8.3,
-        "impact": 13.0,
-        "velocity": 4.2
+        "coverage": 22.0,
+        "source_diversity": 18.0,
+        "region_diversity": 10.0,
+        "recency": 19.2,
+        "credibility": 8.2,
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-26T05:00:00+00:00",
-      "last_updated": "2026-10-26T15:41:29+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-10-25T08:15:00+00:00",
+      "last_updated": "2026-10-26T20:38:40+00:00",
+      "source_count": 13,
+      "article_count": 13,
       "sources": [
         "Al Jazeera",
-        "arynews.tv",
-        "timesofindia.indiatimes.com"
+        "BBC World",
+        "DW Top Stories",
+        "NPR World",
+        "dailyadvance.com",
+        "dw.com",
+        "gjsentinel.com",
+        "idahostatejournal.com",
+        "isp.netscape.com",
+        "ksat.com",
+        "thepeterboroughexaminer.com",
+        "winknews.com",
+        "wsls.com"
       ],
       "regions": [
-        "India",
+        "Canada",
+        "Europe",
+        "Germany",
         "Middle East",
-        "Pakistan"
+        "North America",
+        "United States"
       ],
       "keywords": [
-        "saudi",
-        "arabia",
-        "singapore",
-        "oil",
-        "military",
-        "plan",
-        "riyadh",
-        "eyes"
+        "serbia",
+        "election",
+        "vucic",
+        "parliamentary",
+        "populist",
+        "holds",
+        "faces",
+        "protesting"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、arynews.tv、timesofindia.indiatimes.com等来源的3篇报道，当前关注的军事安全事件为“Egyptian parliament authorises military aid for Saudi Arabia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的13篇报道，当前关注的国际政治事件为“Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Egyptian",
-          "Saudi Arabia Saudi Arabia",
-          "Singapore",
-          "Asia",
-          "Saudi Arabia Singapore",
-          "Riyadh",
-          "Hormuz"
+          "What Vucic",
+          "Serbia",
+          "Celebrations",
+          "Vucic",
+          "Student",
+          "Vucic Serbia"
         ],
         "latest_progress": [
-          "10月26日 15:41 UTC，Al Jazeera报道：“Egyptian parliament authorises military aid for Saudi Arabia”。",
-          "10月26日 07:15 UTC，arynews.tv报道：“Saudi Arabia to store oil in Singapore to bolster Asia supply security”。",
-          "10月26日 05:00 UTC，timesofindia.indiatimes.com报道：“Saudi Arabia Singapore plan : Riyadh eyes oil storage hub from 2027 amid Hormuz disruption”。"
+          "10月26日 20:38 UTC，Al Jazeera报道：“What Vucic’s defeat means for Serbia’s foreign policy”。",
+          "10月26日 14:34 UTC，BBC World报道：“Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement”。",
+          "10月26日 08:41 UTC，NPR World报道：“'The smell of freedom': Serbia's student movement celebrates election triumph”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_0074f77cc1ee4ed86e5e",
-          "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
-          "title": "Egyptian parliament authorises military aid for Saudi Arabia",
-          "summary": "Legislators approve military support amid Houthi attacks on Saudi Arabia, but Cairo has ruled out strikes on Yemen.",
+          "article_id": "art_5cfa53eb5862a5b22d50",
+          "url": "https://www.aljazeera.com/news/2026/10/26/what-vucics-defeat-means-for-serbias-foreign-policy?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/what-vucics-defeat-means-for-serbias-foreign-policy?traffic_source=rss",
+          "title": "What Vucic’s defeat means for Serbia’s foreign policy",
+          "summary": "Those expecting Belgrade to tilt towards the West may need patience while the new government deals with domestic issues.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T15:41:29+00:00",
-          "fetched_at": "2026-10-26T19:19:47.255250+00:00",
+          "published_at": "2026-10-26T20:38:40+00:00",
+          "fetched_at": "2026-10-26T23:53:35.929648+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_c526c0abd43bde14882d",
-          "url": "https://arynews.tv/saudi-arabia-to-store-oil-in-singapore-to-bolster-asia-supply-security",
-          "canonical_url": "https://arynews.tv/saudi-arabia-to-store-oil-in-singapore-to-bolster-asia-supply-security",
-          "title": "Saudi Arabia to store oil in Singapore to bolster Asia supply security",
-          "summary": "",
-          "source": "arynews.tv",
-          "source_type": "gdelt",
-          "published_at": "2026-10-26T07:15:00+00:00",
-          "fetched_at": "2026-10-26T19:19:46.313350+00:00",
-          "language": "English",
-          "region": "Pakistan",
-          "source_weight": 0.75,
-          "image_url": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/Saudia.jpg"
+          "article_id": "art_f3258702893cb96d65dd",
+          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_campaign=rss&at_medium=RSS",
+          "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+          "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-26T14:34:52+00:00",
+          "fetched_at": "2026-10-26T23:53:35.274270+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0c7/live/712973e0-d110-11f1-b441-2b33b063138f.jpg"
         },
         {
-          "article_id": "art_f283c1a6b2e95ad8d02c",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabias-singapore-plan-riyadh-eyes-oil-storage-hub-from-2027-amid-hormuz-disruption/articleshow/135202643.cms",
-          "canonical_url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabias-singapore-plan-riyadh-eyes-oil-storage-hub-from-2027-amid-hormuz-disruption/articleshow/135202643.cms",
-          "title": "Saudi Arabia Singapore plan : Riyadh eyes oil storage hub from 2027 amid Hormuz disruption",
+          "article_id": "art_e87bad536bfdb165c999",
+          "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
+          "canonical_url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
+          "title": "'The smell of freedom': Serbia's student movement celebrates election triumph",
+          "summary": "A political earthquake has occurred in Serbia as a student-backed movement wins the parliamentary election, ending more than a decade of dominance by a Moscow-backed populist leader.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-26T08:41:34+00:00",
+          "fetched_at": "2026-10-26T23:53:35.840384+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_333e71f4e13d7bcd1102",
+          "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
+          "title": "Serbia election: Vucic concedes defeat to student-led movement",
+          "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-25T21:07:00+00:00",
+          "fetched_at": "2026-10-26T23:53:35.627797+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e957e9985414272b5e3b",
+          "url": "https://www.idahostatejournal.com/news/national/serbia-holds-a-parliamentary-election-as-strongman-vucic-faces-protesting-students/article_0a339741-9a1f-58bf-be66-9e138104f35a.html",
+          "canonical_url": "https://www.idahostatejournal.com/news/national/serbia-holds-a-parliamentary-election-as-strongman-vucic-faces-protesting-students/article_0a339741-9a1f-58bf-be66-9e138104f35a.html",
+          "title": "Serbia holds a parliamentary election as strongman Vucic faces protesting students",
           "summary": "",
-          "source": "timesofindia.indiatimes.com",
+          "source": "idahostatejournal.com",
           "source_type": "gdelt",
-          "published_at": "2026-10-26T05:00:00+00:00",
-          "fetched_at": "2026-10-26T19:19:46.313618+00:00",
+          "published_at": "2026-10-25T12:30:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.605141+00:00",
           "language": "English",
-          "region": "India",
+          "region": "United States",
           "source_weight": 0.75,
-          "image_url": "https://static.toiimg.com/thumb/msid-135202689,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg"
+          "image_url": "https://bloximages.chicago2.vip.townnews.com/idahostatejournal.com/content/tncms/assets/v3/editorial/3/a6/3a619116-c9e4-5d2a-b2a3-244ef4f8a190/6ada310317860.image.jpg?crop=1763%2C926%2C0%2C124"
+        },
+        {
+          "article_id": "art_4e78a1bc2cf3f0815e83",
+          "url": "https://www.wsls.com/news/world/2026/10/25/polls-have-opened-in-a-serbian-election-pitting-a-student-led-protest-movement-against-populist-leader-aleksandar-vucic/",
+          "canonical_url": "https://www.wsls.com/news/world/2026/10/25/polls-have-opened-in-a-serbian-election-pitting-a-student-led-protest-movement-against-populist-leader-aleksandar-vucic",
+          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
+          "summary": "",
+          "source": "wsls.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-25T10:45:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.604622+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/FOIR6EYA7VFQBOTPLJUCSHR4FQ.jpg?api_key=wsls_8c3a4bc35af7684e"
+        },
+        {
+          "article_id": "art_2c78babe3a8c35a73c5a",
+          "url": "http://www.dailyadvance.com/news/world/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_4e02695e-0048-502c-a5ce-131e82b5181b.html",
+          "canonical_url": "https://www.dailyadvance.com/news/world/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_4e02695e-0048-502c-a5ce-131e82b5181b.html",
+          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
+          "summary": "",
+          "source": "dailyadvance.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-25T10:45:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.606205+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bloximages.newyork1.vip.townnews.com/dailyadvance.com/content/tncms/assets/v3/editorial/2/3a/23a3be6c-34a0-53a1-bf8f-ad23b85bb6f7/6adb264e9ab3a.image.jpg?crop=1763%2C926%2C0%2C124"
+        },
+        {
+          "article_id": "art_06a167182bd484f2d17b",
+          "url": "https://www.gjsentinel.com/news/world/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_34ca2f79-70c6-5624-b16a-ffe93f1eb082.html",
+          "canonical_url": "https://www.gjsentinel.com/news/world/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_34ca2f79-70c6-5624-b16a-ffe93f1eb082.html",
+          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
+          "summary": "",
+          "source": "gjsentinel.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-25T10:30:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.602282+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bloximages.newyork1.vip.townnews.com/gjsentinel.com/content/tncms/assets/v3/editorial/6/3a/63a6cb58-1917-5834-a460-55f05134f0fe/6add9c7f7033d.image.jpg?crop=1763%2C926%2C0%2C124"
+        },
+        {
+          "article_id": "art_9034b042e8c186eab64c",
+          "url": "https://www.dw.com/en/serbia-votes-in-closely-fought-election-as-student-led-opposition-challenges-aleksandar-vucics-grip-on-power/a-79753482",
+          "canonical_url": "https://www.dw.com/en/serbia-votes-in-closely-fought-election-as-student-led-opposition-challenges-aleksandar-vucics-grip-on-power/a-79753482",
+          "title": "Serbia election : Student movement challenges Vucic",
+          "summary": "",
+          "source": "dw.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-25T10:30:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.604336+00:00",
+          "language": "English",
+          "region": "Germany",
+          "source_weight": 0.75,
+          "image_url": "https://static.dw.com/image/79753863_6.jpg"
+        },
+        {
+          "article_id": "art_4e718eda5df6433c5718",
+          "url": "https://www.winknews.com/news/international/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_687ae794-41d8-5185-9152-f9098835148a.html",
+          "canonical_url": "https://www.winknews.com/news/international/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_687ae794-41d8-5185-9152-f9098835148a.html",
+          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
+          "summary": "",
+          "source": "winknews.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-25T10:00:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.602576+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bloximages.chicago2.vip.townnews.com/winknews.com/content/tncms/custom/image/2c126f9c-bedd-11ef-8535-37037507a88a.png"
+        },
+        {
+          "article_id": "art_586e3ad46a1c8a40ae95",
+          "url": "https://isp.netscape.com:443/news/world/story/0001/20261025/fdf5def8a20aebc8ae139fd719478775",
+          "canonical_url": "https://isp.netscape.com/news/world/story/0001/20261025/fdf5def8a20aebc8ae139fd719478775",
+          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
+          "summary": "",
+          "source": "isp.netscape.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-25T09:45:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.604799+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_208931ce1c00f6b79b5d",
+          "url": "https://www.ksat.com/news/world/2026/10/25/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/",
+          "canonical_url": "https://www.ksat.com/news/world/2026/10/25/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students",
+          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
+          "summary": "",
+          "source": "ksat.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-25T09:30:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.603706+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/4SKSQP23LBFCRFDO25WMGQF7SA.jpg?api_key=ksat_9a37fc89631abedf"
+        },
+        {
+          "article_id": "art_23e93f319670f85580fd",
+          "url": "https://www.thepeterboroughexaminer.com/news/world/europe/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_1fedf537-2f65-577c-95e9-d0de0cc903d7.html",
+          "canonical_url": "https://www.thepeterboroughexaminer.com/news/world/europe/serbia-holds-a-parliamentary-election-as-populist-vucic-faces-protesting-students/article_1fedf537-2f65-577c-95e9-d0de0cc903d7.html",
+          "title": "Serbia holds a parliamentary election as populist Vucic faces protesting students",
+          "summary": "",
+          "source": "thepeterboroughexaminer.com",
+          "source_type": "gdelt",
+          "published_at": "2026-10-25T08:15:00+00:00",
+          "fetched_at": "2026-10-26T23:52:38.604147+00:00",
+          "language": "English",
+          "region": "Canada",
+          "source_weight": 0.75,
+          "image_url": "https://bloximages.chicago2.vip.townnews.com/thepeterboroughexaminer.com/content/tncms/assets/v3/editorial/9/7c/97ca9080-4f59-5713-bbc7-108714b12b10/6adb25d9ac241.image.jpg?crop=1620%2C851%2C0%2C114"
         }
       ]
     },
@@ -129,44 +291,47 @@
       "event_id": "evt_5f71b67f9c5c6b2748cf",
       "title": "Who is Lula? From ex-worker and prisoner to Brazil's president again",
       "category": "国际政治",
-      "score": 73.8,
+      "score": 80.4,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.2,
+        "coverage": 17.9,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 19.5,
         "credibility": 9.9,
         "impact": 11.0,
-        "velocity": 3.4
+        "velocity": 3.7
       },
       "first_seen": "2026-10-26T00:35:00+00:00",
-      "last_updated": "2026-10-26T18:26:19+00:00",
-      "source_count": 2,
-      "article_count": 4,
+      "last_updated": "2026-10-26T21:02:47+00:00",
+      "source_count": 3,
+      "article_count": 5,
       "sources": [
+        "Al Jazeera",
         "BBC World",
         "NPR World"
       ],
       "regions": [
         "Europe",
+        "Middle East",
         "North America"
       ],
       "keywords": [
         "president",
-        "brazil's",
         "lula",
-        "left-wing",
         "fourth",
         "term",
-        "vio",
-        "bolsonaro"
+        "brazil's",
+        "bolsonaro",
+        "left-wing",
+        "vio"
       ],
       "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的4篇报道，当前关注的国际政治事件为“Who is Lula? From ex-worker and prisoner to Brazil's president again”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的5篇报道，当前关注的国际政治事件为“Who is Lula? From ex-worker and prisoner to Brazil's president again”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Lula",
           "Brazil",
+          "What",
           "Who",
           "From",
           "How President Lula",
@@ -174,9 +339,9 @@
           "President Lula"
         ],
         "latest_progress": [
-          "10月26日 18:26 UTC，BBC World报道：“Lula wins fourth term in dramatic Brazil election comeback”。",
-          "10月26日 11:39 UTC，BBC World报道：“Who is Lula? From ex-worker and prisoner to Brazil's president again”。",
-          "10月26日 02:53 UTC，BBC World报道：“Watch: How President Lula turned it around to beat Flávio Bolsonaro”。"
+          "10月26日 21:02 UTC，BBC World报道：“Lula wins fourth term in dramatic Brazil election comeback”。",
+          "10月26日 20:55 UTC，Al Jazeera报道：“What will Lula’s fourth term mean for Brazil?”。",
+          "10月26日 11:39 UTC，BBC World报道：“Who is Lula? From ex-worker and prisoner to Brazil's president again”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -196,12 +361,27 @@
           "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-26T18:26:19+00:00",
-          "fetched_at": "2026-10-26T19:19:46.478990+00:00",
+          "published_at": "2026-10-26T21:02:47+00:00",
+          "fetched_at": "2026-10-26T23:53:35.274063+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eab1/live/a6b767f0-d15c-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_558eb7a2ddf9f2777910",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/26/what-will-lulas-fourth-term-mean-for-brazil?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/26/what-will-lulas-fourth-term-mean-for-brazil?traffic_source=rss",
+          "title": "What will Lula’s fourth term mean for Brazil?",
+          "summary": "Luiz Inacio Lula da Silva wins a fourth term as Bolsonaro disputes the result. Can he deliver on his promises of change?",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-26T20:55:47+00:00",
+          "fetched_at": "2026-10-26T23:53:35.928998+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         },
         {
           "article_id": "art_d2cb31bc1ccfe11f0c44",
@@ -212,7 +392,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-26T11:39:16+00:00",
-          "fetched_at": "2026-10-26T19:19:46.482397+00:00",
+          "fetched_at": "2026-10-26T23:53:35.277745+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -227,7 +407,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-26T02:53:00+00:00",
-          "fetched_at": "2026-10-26T19:19:46.481441+00:00",
+          "fetched_at": "2026-10-26T23:53:35.276824+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -242,7 +422,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-26T00:35:00+00:00",
-          "fetched_at": "2026-10-26T19:19:47.162259+00:00",
+          "fetched_at": "2026-10-26T23:53:35.840550+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -251,15 +431,212 @@
       ]
     },
     {
-      "event_id": "evt_29d4991580149a03b2b6",
-      "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+      "event_id": "evt_c601546496b1b8ca910a",
+      "title": "Former FBI director James Comey hit with third set of charges under Trump",
       "category": "军事安全",
-      "score": 72.0,
+      "score": 74.5,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-26T19:27:21+00:00",
+      "last_updated": "2026-10-26T22:03:26+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "comey",
+        "fired",
+        "james",
+        "trump",
+        "former",
+        "fbi",
+        "illegally",
+        "daughter"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Former FBI director James Comey hit with third set of charges under Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Former",
+          "FBI",
+          "James Comey",
+          "Trump",
+          "US"
+        ],
+        "latest_progress": [
+          "10月26日 22:03 UTC，Al Jazeera报道：“Former FBI director James Comey hit with third set of charges under Trump”。",
+          "10月26日 20:55 UTC，Al Jazeera报道：“US court rules daughter of Trump critic James Comey was illegally fired”。",
+          "10月26日 19:27 UTC，BBC World报道：“Trump administration illegally fired James Comey's daughter, judge rules”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3dfab80cf45ad6d66428",
+          "url": "https://www.aljazeera.com/news/2026/10/26/former-fbi-director-james-comey-hit-with-third-set-of-charges-under-trump?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/former-fbi-director-james-comey-hit-with-third-set-of-charges-under-trump?traffic_source=rss",
+          "title": "Former FBI director James Comey hit with third set of charges under Trump",
+          "summary": "Comey, who was fired during Trump's first term, has been accused of unlawfully divulging national security information.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-26T22:03:26+00:00",
+          "fetched_at": "2026-10-26T23:53:35.928678+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_05a48b60ee15a7026c59",
+          "url": "https://www.aljazeera.com/news/2026/10/26/us-court-rules-daughter-of-trump-critic-james-comey-was-illegally-fired?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/us-court-rules-daughter-of-trump-critic-james-comey-was-illegally-fired?traffic_source=rss",
+          "title": "US court rules daughter of Trump critic James Comey was illegally fired",
+          "summary": "Maurene Comey had argued that she was fired because her father, former FBI chief James Comey, was target of Trump's ire.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-26T20:55:37+00:00",
+          "fetched_at": "2026-10-26T23:53:35.929163+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_13d3897605dcf6f37922",
+          "url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_campaign=rss&at_medium=RSS",
+          "title": "Trump administration illegally fired James Comey's daughter, judge rules",
+          "summary": "Maurene Comey believes she was let go from her job as a federal prosecutor because her father is the former FBI director.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-26T19:27:21+00:00",
+          "fetched_at": "2026-10-26T23:53:35.274441+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad39/live/ee5424f0-d165-11f1-87df-afb7a168a1f2.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2a560a012614f3410813",
+      "title": "Jordan arrests three suspects over deadly church attack",
+      "category": "军事安全",
+      "score": 71.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.8,
+        "recency": 20.5,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-26T19:25:53+00:00",
+      "last_updated": "2026-10-26T22:15:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "church",
+        "attack",
+        "deadly",
+        "syria",
+        "jordan",
+        "three",
+        "jordanian",
+        "militant"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Jordan arrests three suspects over deadly church attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Jordan",
+          "Syria"
+        ],
+        "latest_progress": [
+          "10月26日 22:15 UTC，DW Top Stories报道：“Jordan says its military struck 'militant hideouts' in Syria after deadly church attack”。",
+          "10月26日 19:25 UTC，Al Jazeera报道：“Jordan arrests three suspects over deadly church attack”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ac8ce1d3a875d160438d",
+          "url": "https://www.dw.com/en/jordan-says-its-military-struck-militant-hideouts-in-syria-after-deadly-church-attack/a-79760441?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/jordan-says-its-military-struck-militant-hideouts-in-syria-after-deadly-church-attack/a-79760441?maca=en-rss-en-top-1022-rdf",
+          "title": "Jordan says its military struck 'militant hideouts' in Syria after deadly church attack",
+          "summary": "Jordanian armed forces carried out strikes on \"militant hideouts\" in Syria that it said were linked to a deadly church attack on the kingdom last week. Syria gave a different account.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-26T22:15:00+00:00",
+          "fetched_at": "2026-10-26T23:53:35.625670+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_520b7a1921393d2d0582",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
+          "title": "Jordan arrests three suspects over deadly church attack",
+          "summary": "Jordanian authorities have arrested three relatives over a church attack in Karak that killed eight people.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-26T19:25:53+00:00",
+          "fetched_at": "2026-10-26T23:53:35.930262+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_29d4991580149a03b2b6",
+      "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+      "category": "军事安全",
+      "score": 68.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.2,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -317,7 +694,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-26T17:55:47+00:00",
-          "fetched_at": "2026-10-26T19:19:47.253086+00:00",
+          "fetched_at": "2026-10-26T23:53:35.931373+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -332,7 +709,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-26T17:00:09+00:00",
-          "fetched_at": "2026-10-26T19:19:46.480212+00:00",
+          "fetched_at": "2026-10-26T23:53:35.275413+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -341,122 +718,15 @@
       ]
     },
     {
-      "event_id": "evt_8e142e79611576947773",
-      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-      "category": "国际政治",
-      "score": 71.0,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 18.1,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 2.6
-      },
-      "first_seen": "2026-10-25T21:07:00+00:00",
-      "last_updated": "2026-10-26T14:34:52+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "movement",
-        "election",
-        "serbia",
-        "student-led",
-        "leader",
-        "vucic",
-        "defeat",
-        "political"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Celebrations",
-          "Serbia",
-          "Vucic"
-        ],
-        "latest_progress": [
-          "10月26日 14:34 UTC，BBC World报道：“Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement”。",
-          "10月26日 08:41 UTC，NPR World报道：“'The smell of freedom': Serbia's student movement celebrates election triumph”。",
-          "10月25日 21:07 UTC，DW Top Stories报道：“Serbia election: Vucic concedes defeat to student-led movement”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f3258702893cb96d65dd",
-          "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_campaign=rss&at_medium=RSS",
-          "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-          "summary": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-26T14:34:52+00:00",
-          "fetched_at": "2026-10-26T19:19:46.479219+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0c7/live/712973e0-d110-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_e87bad536bfdb165c999",
-          "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
-          "canonical_url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
-          "title": "'The smell of freedom': Serbia's student movement celebrates election triumph",
-          "summary": "A political earthquake has occurred in Serbia as a student-backed movement wins the parliamentary election, ending more than a decade of dominance by a Moscow-backed populist leader.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-26T08:41:34+00:00",
-          "fetched_at": "2026-10-26T19:19:47.162082+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_333e71f4e13d7bcd1102",
-          "url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/serbia-election-vucic-concedes-defeat-to-student-led-movement/a-79753482?maca=en-rss-en-top-1022-rdf",
-          "title": "Serbia election: Vucic concedes defeat to student-led movement",
-          "summary": "In a seismic political shift, Serbia's longtime strongman leader Aleksandar Vucic has conceded defeat to a student-led opposition movement in the country's parliamentary elections.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T21:07:00+00:00",
-          "fetched_at": "2026-10-26T19:19:46.948688+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_92d69b05f44eb085a9a5",
       "title": "Venezuelan opposition leader María Machado returns after months in exile",
       "category": "国际政治",
-      "score": 70.8,
+      "score": 68.3,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 14.6,
+        "recency": 12.1,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 3.5
@@ -518,7 +788,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-26T09:31:12+00:00",
-          "fetched_at": "2026-10-26T19:19:46.481586+00:00",
+          "fetched_at": "2026-10-26T23:53:35.276973+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -529,11 +799,11 @@
           "url": "https://www.dw.com/en/venezuelan-opposition-leader-machado-returns-from-exile/a-79759187?maca=en-rss-en-top-1022-rdf",
           "canonical_url": "https://www.dw.com/en/venezuelan-opposition-leader-machado-returns-from-exile/a-79759187?maca=en-rss-en-top-1022-rdf",
           "title": "Venezuelan opposition leader Machado returns from exile",
-          "summary": "Nobel Peace Prize winner and popular Venezuelan political opposition figure Maria Corina Machado has returned after nearly a year away. She was greeted by thousands of cheering supporters in Caracas.",
+          "summary": "Nobel Peace Prize winner and popular Venezuelan political opposition figure Maria Corina Machado has returned after nearly a year away. Sitting President Rodriguez accused her of making a \"show.\"",
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-26T09:08:00+00:00",
-          "fetched_at": "2026-10-26T19:19:46.948315+00:00",
+          "fetched_at": "2026-10-26T23:53:35.627369+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -548,7 +818,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-26T05:20:19+00:00",
-          "fetched_at": "2026-10-26T19:19:46.480031+00:00",
+          "fetched_at": "2026-10-26T23:53:35.275106+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -563,7 +833,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-25T16:18:41+00:00",
-          "fetched_at": "2026-10-26T19:19:47.162699+00:00",
+          "fetched_at": "2026-10-26T23:53:35.840989+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -572,56 +842,52 @@
       ]
     },
     {
-      "event_id": "evt_70cb53c343d939bcd844",
-      "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+      "event_id": "evt_71bf602240ec15ab44de",
+      "title": "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
       "category": "国际政治",
-      "score": 66.7,
+      "score": 68.2,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.5,
-        "credibility": 9.5,
+        "recency": 19.0,
+        "credibility": 10.0,
         "impact": 11.0,
-        "velocity": 1.6
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-25T11:16:00+00:00",
-      "last_updated": "2026-10-26T15:08:00+00:00",
+      "first_seen": "2026-10-26T15:37:33+00:00",
+      "last_updated": "2026-10-26T20:20:09+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
-        "DW Top Stories",
-        "NPR World"
+        "Al Jazeera",
+        "BBC World"
       ],
       "regions": [
         "Europe",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
+        "channel",
+        "whatsapp",
+        "helped",
+        "lula's",
+        "army'",
         "brazil",
-        "lula",
-        "runoff",
-        "leftist",
-        "flavio",
-        "bolsonaro",
         "election",
-        "latin"
+        "joined"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“How 'Lula's Army' WhatsApp channel helped turn Brazil election around”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Brazil",
-          "Merz",
           "Lula",
-          "Latin America",
-          "Brazil Brazil",
-          "Flavio Bolsonaro"
+          "Brazil",
+          "Army"
         ],
         "latest_progress": [
-          "10月26日 15:08 UTC，DW Top Stories报道：“Brazil elections: Merz, world leaders congratulate Lula on his win”。",
-          "10月25日 21:22 UTC，NPR World报道：“U.S. influence in Latin America at stake in runoff election in Brazil”。",
-          "10月25日 11:16 UTC，DW Top Stories报道：“Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro”。"
+          "10月26日 20:20 UTC，Al Jazeera报道：“How a WhatsApp channel helped Lula win Brazil’s election”。",
+          "10月26日 15:37 UTC，BBC World报道：“How 'Lula's Army' WhatsApp channel helped turn Brazil election around”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -634,68 +900,53 @@
       },
       "articles": [
         {
-          "article_id": "art_ecae88853c60928d8077",
-          "url": "https://www.dw.com/en/brazil-elections-merz-world-leaders-congratulate-lula-on-his-win/live-79755630?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-elections-merz-world-leaders-congratulate-lula-on-his-win/live-79755630?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil elections: Merz, world leaders congratulate Lula on his win",
-          "summary": "Brazilian President Lula secured a surprise win over far-right challenger Flavio Bolsonaro, who has refused to concede. DW has the latest.",
-          "source": "DW Top Stories",
+          "article_id": "art_a413d69746cd3f64b993",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/brazil-lula-victory-whatsapp-campaign-janones?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/brazil-lula-victory-whatsapp-campaign-janones?traffic_source=rss",
+          "title": "How a WhatsApp channel helped Lula win Brazil’s election",
+          "summary": "Over 10 million Lula supporters joined a WhatsApp channel to help boost his campaign.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T15:08:00+00:00",
-          "fetched_at": "2026-10-26T19:19:46.947391+00:00",
+          "published_at": "2026-10-26T20:20:09+00:00",
+          "fetched_at": "2026-10-26T23:53:35.929806+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_0b7b1e060fd1642568ad",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6011223/u-s-influence-in-latin-america-at-stake-in-runoff-election-in-brazil",
-          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6011223/u-s-influence-in-latin-america-at-stake-in-runoff-election-in-brazil",
-          "title": "U.S. influence in Latin America at stake in runoff election in Brazil",
-          "summary": "A polarizing presidential election runoff in Latin America's largest economy and biggest democracy pits leftist Lula da Silva's legacy against Trump ally Flavio Bolsonaro, son of the former Brazilian president.",
-          "source": "NPR World",
+          "article_id": "art_65fd9ac793fc21730d42",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_campaign=rss&at_medium=RSS",
+          "title": "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
+          "summary": "Millions joined a 'Lula's Army' channel that helped to transform online enthusiasm into real-world mobilisation.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-25T21:22:43+00:00",
-          "fetched_at": "2026-10-26T19:19:47.162411+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_23a6cc82424e6c355a2b",
-          "url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
-          "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
-          "summary": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-25T11:16:00+00:00",
-          "fetched_at": "2026-10-26T19:19:46.949588+00:00",
+          "published_at": "2026-10-26T15:37:33+00:00",
+          "fetched_at": "2026-10-26T23:53:35.277592+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3bd/live/33178300-d14a-11f1-93e1-3b657b665bcf.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_3f0190bc2ed03664fc58",
-      "title": "Israel committing crimes against humanity in occupied West Bank: UN",
-      "category": "国际政治",
-      "score": 64.1,
+      "event_id": "evt_130cc2e2c9d8dfd8ceb6",
+      "title": "Anthropic’s IPO filing shows explosive growth, risks and staggering costs",
+      "category": "科技AI",
+      "score": 65.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.0,
+        "recency": 17.5,
         "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 1.1
+        "impact": 9.8,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-25T13:09:00+00:00",
-      "last_updated": "2026-10-26T15:44:59+00:00",
+      "first_seen": "2026-10-26T16:53:51+00:00",
+      "last_updated": "2026-10-26T18:22:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -707,134 +958,62 @@
         "Middle East"
       ],
       "keywords": [
-        "israel",
-        "west",
-        "bank",
-        "all",
-        "land",
-        "election",
-        "israeli",
-        "occupied"
+        "anthropic",
+        "ipo",
+        "filing",
+        "risks",
+        "company",
+        "shows",
+        "explosive",
+        "growth"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Israel committing crimes against humanity in occupied West Bank: UN”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的科技AI事件为“Anthropic’s IPO filing shows explosive growth, risks and staggering costs”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Israel",
-          "West Bank",
-          "UN"
+          "AI",
+          "Anthropic",
+          "IPO"
         ],
         "latest_progress": [
-          "10月26日 15:44 UTC，Al Jazeera报道：“Israel committing crimes against humanity in occupied West Bank: UN”。",
-          "10月25日 13:09 UTC，DW Top Stories报道：“Israel to close all West Bank land crossings on election day”。"
+          "10月26日 18:22 UTC，DW Top Stories报道：“AI company Anthropic files its IPO in hopes of raising $100 billion”。",
+          "10月26日 16:53 UTC，Al Jazeera报道：“Anthropic’s IPO filing shows explosive growth, risks and staggering costs”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e7633003d2aaf870df81",
-          "url": "https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un?traffic_source=rss",
-          "title": "Israel committing crimes against humanity in occupied West Bank: UN",
-          "summary": "UN report highlights crimes including extermination, torture, rape and other forms of sexual violence.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-26T15:44:59+00:00",
-          "fetched_at": "2026-10-26T19:19:47.255072+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_eb878b7b2bd8e771b9a7",
-          "url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/israel-to-close-all-west-bank-land-crossings-on-election-day/a-79755010?maca=en-rss-en-top-1022-rdf",
-          "title": "Israel to close all West Bank land crossings on election day",
-          "summary": "After a deadly attack which killed two Israeli soldiers on Friday, the Israeli military has said all land border points between Israel and the occupied West Bank will be closed during Tuesday's election.",
+          "article_id": "art_6b05a5ab034225f1abdc",
+          "url": "https://www.dw.com/en/ai-company-anthropic-files-its-ipo-in-hopes-of-raising-100-billion/a-79768876?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ai-company-anthropic-files-its-ipo-in-hopes-of-raising-100-billion/a-79768876?maca=en-rss-en-top-1022-rdf",
+          "title": "AI company Anthropic files its IPO in hopes of raising $100 billion",
+          "summary": "Anthropic has filed paperwork for an initial public offering that could be one of the biggest in history. The co-founders have outlined both the benefits and the risks of AI in their pitch to potential investors.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-25T13:09:00+00:00",
-          "fetched_at": "2026-10-26T19:19:46.949215+00:00",
+          "published_at": "2026-10-26T18:22:00+00:00",
+          "fetched_at": "2026-10-26T23:53:35.626091+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d79916e63a3a8f59ce2c",
-      "title": "Could the midterms change US military support for Israel?",
-      "category": "军事安全",
-      "score": 61.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.9,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-26T18:05:12+00:00",
-      "last_updated": "2026-10-26T18:05:12+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "israel",
-        "could",
-        "midterms",
-        "change",
-        "military",
-        "support",
-        "texas",
-        "michigan"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Could the midterms change US military support for Israel?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Could",
-          "US",
-          "Israel"
-        ],
-        "latest_progress": [
-          "10月26日 18:05 UTC，Al Jazeera报道：“Could the midterms change US military support for Israel?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
+        },
         {
-          "article_id": "art_c624c71c1afaf93bda8c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/could-the-midterms-change-americas-military-support-for-israel?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/could-the-midterms-change-americas-military-support-for-israel?traffic_source=rss",
-          "title": "Could the midterms change US military support for Israel?",
-          "summary": "From Texas to Michigan, Senate candidates are challenging US weapons transfers to Israel.",
+          "article_id": "art_e784d4d7ea5eb2331800",
+          "url": "https://www.aljazeera.com/economy/2026/10/26/anthropics-ipo-filing-shows-explosive-growth-risks-and-staggering-costs?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/10/26/anthropics-ipo-filing-shows-explosive-growth-risks-and-staggering-costs?traffic_source=rss",
+          "title": "Anthropic’s IPO filing shows explosive growth, risks and staggering costs",
+          "summary": "The filing sets up the company for a Wall Street debut next month, potentially eclipsing SpaceX's IPO.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T18:05:12+00:00",
-          "fetched_at": "2026-10-26T19:19:47.252441+00:00",
+          "published_at": "2026-10-26T16:53:51+00:00",
+          "fetched_at": "2026-10-26T23:53:35.932156+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -843,21 +1022,21 @@
       ]
     },
     {
-      "event_id": "evt_7a1864936953a87a4b94",
-      "title": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
+      "event_id": "evt_6294aec9d4a21a88aaf5",
+      "title": "Africa food security under threat due to Iran war, trade officials warn",
       "category": "军事安全",
-      "score": 61.4,
+      "score": 61.1,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.4,
+        "recency": 20.1,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-26T17:27:34+00:00",
-      "last_updated": "2026-10-26T17:27:34+00:00",
+      "first_seen": "2026-10-26T21:42:18+00:00",
+      "last_updated": "2026-10-26T21:42:18+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -867,93 +1046,24 @@
         "Middle East"
       ],
       "keywords": [
-        "russian",
-        "attacks",
-        "ukraine",
-        "energy",
-        "infrastructure",
-        "war",
-        "crime",
-        "commission"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Russian attacks on Ukraine’s energy infrastructure a war crime: UN”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russian",
-          "Ukraine",
-          "UN"
-        ],
-        "latest_progress": [
-          "10月26日 17:27 UTC，Al Jazeera报道：“Russian attacks on Ukraine’s energy infrastructure a war crime: UN”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_01a8cabc14ada3d9524e",
-          "url": "https://www.aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un?traffic_source=rss",
-          "title": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
-          "summary": "UN commission notes Russian weaponisation of cold in nearly five years of attacks on heating plants and power lines.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-26T17:27:34+00:00",
-          "fetched_at": "2026-10-26T19:19:47.253420+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_619935c24fe355627fae",
-      "title": "Delegations arrive in Tehran for security talks",
-      "category": "军事安全",
-      "score": 60.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.9,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-26T16:55:19+00:00",
-      "last_updated": "2026-10-26T16:55:19+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "delegations",
-        "arrive",
-        "tehran",
+        "africa",
+        "food",
         "security",
-        "talks"
+        "iran",
+        "war",
+        "trade",
+        "officials",
+        "under"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Delegations arrive in Tehran for security talks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Africa food security under threat due to Iran war, trade officials warn”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Delegations",
-          "Tehran"
+          "Africa",
+          "Iran"
         ],
         "latest_progress": [
-          "10月26日 16:55 UTC，Al Jazeera报道：“Delegations arrive in Tehran for security talks”。"
+          "10月26日 21:42 UTC，Al Jazeera报道：“Africa food security under threat due to Iran war, trade officials warn”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -966,15 +1076,86 @@
       },
       "articles": [
         {
-          "article_id": "art_18b85e7e6fb3c59eb313",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/delegations-arrive-in-tehran-for-security-talks?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/delegations-arrive-in-tehran-for-security-talks?traffic_source=rss",
-          "title": "Delegations arrive in Tehran for security talks",
-          "summary": "Delegations arrive in Tehran for security talks",
+          "article_id": "art_50c03be605f659669387",
+          "url": "https://www.aljazeera.com/news/2026/10/26/africa-food-security-under-threat-due-to-iran-war-warn-trade-officials?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/26/africa-food-security-under-threat-due-to-iran-war-warn-trade-officials?traffic_source=rss",
+          "title": "Africa food security under threat due to Iran war, trade officials warn",
+          "summary": "The war on Iran is driving up fuel and fertiliser costs across Africa, threatening food security, trade officials say.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-26T16:55:19+00:00",
-          "fetched_at": "2026-10-26T19:19:47.253735+00:00",
+          "published_at": "2026-10-26T21:42:18+00:00",
+          "fetched_at": "2026-10-26T23:53:35.928839+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_627167881f942a8ced32",
+      "title": "Palestinian children crawl under Israeli military gates to get to school",
+      "category": "军事安全",
+      "score": 60.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-26T20:46:01+00:00",
+      "last_updated": "2026-10-26T20:46:01+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "palestinian",
+        "children",
+        "crawl",
+        "under",
+        "israeli",
+        "military",
+        "gates",
+        "get"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Palestinian children crawl under Israeli military gates to get to school”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Palestinian",
+          "Israeli"
+        ],
+        "latest_progress": [
+          "10月26日 20:46 UTC，Al Jazeera报道：“Palestinian children crawl under Israeli military gates to get to school”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_07985be7c5310d05b37e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/palestinian-children-crawl-under-israeli-military-gates-to-get-to-school?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/palestinian-children-crawl-under-israeli-military-gates-to-get-to-school?traffic_source=rss",
+          "title": "Palestinian children crawl under Israeli military gates to get to school",
+          "summary": "Palestinian children in Jenin have to crawl under Israeli military gates to get to and from school.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-26T20:46:01+00:00",
+          "fetched_at": "2026-10-26T23:53:35.929319+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
