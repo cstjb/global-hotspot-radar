@@ -1,252 +1,71 @@
 {
-  "generated_at": "2026-10-27T10:34:12.831604+00:00",
+  "generated_at": "2026-10-27T16:39:04.184338+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 133,
-    "articles_unique": 133,
+    "articles_fetched": 132,
+    "articles_unique": 132,
     "errors": [
       {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_9d786ae6479cb1e9e118",
-      "title": "UK prosecutors charge two after RAF Fairford incident",
-      "category": "军事安全",
-      "score": 72.0,
+      "event_id": "evt_a46fff8c5eeba92a7ee5",
+      "title": "Turnout so far highest on record as Israelis vote in pivotal election",
+      "category": "国际政治",
+      "score": 84.7,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.1,
+        "coverage": 16.1,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 20.8,
         "credibility": 9.8,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-27T09:12:21+00:00",
-      "last_updated": "2026-10-27T09:32:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-27T11:11:33+00:00",
+      "last_updated": "2026-10-27T15:20:48+00:00",
+      "source_count": 4,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "two",
-        "raf",
-        "fairford",
-        "incident",
-        "national",
-        "prosecutors",
-        "british",
-        "charged"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“UK prosecutors charge two after RAF Fairford incident”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "UK",
-          "RAF",
-          "Fairford",
-          "Iranian"
-        ],
-        "latest_progress": [
-          "10月27日 09:32 UTC，DW Top Stories报道：“Two men face UK national security charges following an incident near RAF Fairford, with police suspecting Iranian state involvement”。",
-          "10月27日 09:12 UTC，Al Jazeera报道：“UK prosecutors charge two after RAF Fairford incident”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c8de6e4c373b100c9f11",
-          "url": "https://www.dw.com/en/two-men-face-uk-national-security-charges-following-an-incident-near-raf-fairford-with-police-suspecting-iranian-state-involvement/a-79773432?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/two-men-face-uk-national-security-charges-following-an-incident-near-raf-fairford-with-police-suspecting-iranian-state-involvement/a-79773432?maca=en-rss-en-top-1022-rdf",
-          "title": "Two men face UK national security charges following an incident near RAF Fairford, with police suspecting Iranian state involvement",
-          "summary": "British prosecutors have charged two men over an incident near RAF Fairford in September. Police suspect Iranian involvement in the case at a base used for US strikes on Iran.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-27T09:32:00+00:00",
-          "fetched_at": "2026-10-27T10:34:10.840113+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0406c27630451e1687f7",
-          "url": "https://www.aljazeera.com/news/2026/10/27/uk-prosecutors-charge-two-after-raf-fairford-incident?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/27/uk-prosecutors-charge-two-after-raf-fairford-incident?traffic_source=rss",
-          "title": "UK prosecutors charge two after RAF Fairford incident",
-          "summary": "British-Iranian dual national Mohmed Abdulkarim and British citizen Nouman Essghir charged under National Security Act.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-27T09:12:21+00:00",
-          "fetched_at": "2026-10-27T10:34:11.372237+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d59a66e57d418cda70e7",
-      "title": "Palestine weekly: West Bank under siege as Israelis go to the polls",
-      "category": "军事安全",
-      "score": 67.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.5,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.1
-      },
-      "first_seen": "2026-10-26T20:56:00+00:00",
-      "last_updated": "2026-10-27T06:28:13+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "west",
-        "bank",
-        "alarm",
-        "military",
-        "hebron",
-        "israel",
-        "sounds",
-        "israel's"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Palestine weekly: West Bank under siege as Israelis go to the polls”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Palestine",
-          "West Bank",
-          "Israelis",
-          "UN",
-          "Israel"
-        ],
-        "latest_progress": [
-          "10月27日 06:28 UTC，Al Jazeera报道：“Palestine weekly: West Bank under siege as Israelis go to the polls”。",
-          "10月26日 20:56 UTC，DW Top Stories报道：“UN sounds the alarm over Israel's West Bank military operation”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_90bc5ec53cc284d54515",
-          "url": "https://www.aljazeera.com/news/2026/10/27/palestine-weekly-west-bank-under-siege-as-israelis-go-to-the-polls?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/27/palestine-weekly-west-bank-under-siege-as-israelis-go-to-the-polls?traffic_source=rss",
-          "title": "Palestine weekly: West Bank under siege as Israelis go to the polls",
-          "summary": "Israel sealed the West Bank, emptied parts of Hebron and tightened the squeeze on Gaza as its election campaign closed.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-27T06:28:13+00:00",
-          "fetched_at": "2026-10-27T10:34:11.373901+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_324a3e3b2b12f6ddd944",
-          "url": "https://www.dw.com/en/un-sounds-the-alarm-over-israel-s-west-bank-military-operation/a-79770228?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/un-sounds-the-alarm-over-israel-s-west-bank-military-operation/a-79770228?maca=en-rss-en-top-1022-rdf",
-          "title": "UN sounds the alarm over Israel's West Bank military operation",
-          "summary": "The UN has sounded the alarm on Israeli action in the West Bank city of Hebron after hundreds of families were displaced over the weekend. Israel has ordered the military to demolish homes after soldiers were killed.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-26T20:56:00+00:00",
-          "fetched_at": "2026-10-27T10:34:10.841342+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_92d69b05f44eb085a9a5",
-      "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
-      "category": "国际政治",
-      "score": 66.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 14.5,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 1.4
-      },
-      "first_seen": "2026-10-25T16:18:41+00:00",
-      "last_updated": "2026-10-27T00:31:11+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
         "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
+        "Middle East",
         "North America"
       ],
       "keywords": [
-        "machado",
-        "opposition",
-        "leader",
-        "returns",
-        "exile",
-        "venezuela's",
-        "mar",
-        "corina"
+        "election",
+        "turnout",
+        "highest",
+        "israelis",
+        "vote",
+        "record",
+        "since",
+        "israel"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Turnout so far highest on record as Israelis vote in pivotal election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Opposition",
-          "Machado",
-          "Venezuela",
-          "Trump Venezuelan",
-          "Corina Machado"
+          "Israel",
+          "Turnout",
+          "Democrats",
+          "And",
+          "Israelis"
         ],
         "latest_progress": [
-          "10月27日 00:31 UTC，BBC World报道：“Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump”。",
-          "10月26日 09:08 UTC，DW Top Stories报道：“Venezuelan opposition leader Machado returns from exile”。",
-          "10月25日 16:18 UTC，NPR World报道：“Venezuela's opposition leader María Corina Machado returns after months in exile”。"
+          "10月27日 15:20 UTC，Al Jazeera报道：“Israel election turnout highest in 50 years as voting continues”。",
+          "10月27日 14:35 UTC，DW Top Stories报道：“Turnout at Israel's election has reached a record high at the halfway stage”。",
+          "10月27日 11:39 UTC，NPR World报道：“Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -259,45 +78,337 @@
       },
       "articles": [
         {
-          "article_id": "art_5f51ba287d500ba87a60",
-          "url": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c8vgx3pvdeq1o?at_campaign=rss&at_medium=RSS",
-          "title": "Opposition leader María Machado returns from exile to a Venezuela reshaped by Trump",
-          "summary": "Machado returns with Trump's blessing, even if Washington is happy with Venezuela's existing leader - at least for the time being.",
-          "source": "BBC World",
+          "article_id": "art_ef27438a4f63dd0288b3",
+          "url": "https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues?traffic_source=rss",
+          "title": "Israel election turnout highest in 50 years as voting continues",
+          "summary": "Almost 45 percent of Israeli voters had cast their ballots by mid-afternoon.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-27T00:31:11+00:00",
-          "fetched_at": "2026-10-27T10:34:10.329539+00:00",
+          "published_at": "2026-10-27T15:20:48+00:00",
+          "fetched_at": "2026-10-27T16:39:03.004375+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/725c/live/634334d0-d1e9-11f1-b360-61fb5d34dc08.jpg"
+          "image_url": null
         },
         {
-          "article_id": "art_28d4cedf5c6196b9ecc3",
-          "url": "https://www.dw.com/en/venezuelan-opposition-leader-machado-returns-from-exile/a-79759187?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/venezuelan-opposition-leader-machado-returns-from-exile/a-79759187?maca=en-rss-en-top-1022-rdf",
-          "title": "Venezuelan opposition leader Machado returns from exile",
-          "summary": "Nobel Peace Prize winner and popular Venezuelan political opposition figure Maria Corina Machado has returned after nearly a year away. Sitting President Rodriguez accused her of making a \"show.\"",
+          "article_id": "art_754ffeaf86183d369488",
+          "url": "https://www.dw.com/en/turnout-at-israel-s-election-has-reached-a-record-high-at-the-halfway-stage/live-79713839?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/turnout-at-israel-s-election-has-reached-a-record-high-at-the-halfway-stage/live-79713839?maca=en-rss-en-top-1022-rdf",
+          "title": "Turnout at Israel's election has reached a record high at the halfway stage",
+          "summary": "Almost 45% of the electorate had voted by 2 p.m., the highest share since such records began in 1973. The highly anticipated vote is expected to be a close-fought contest, and perhaps even a stalemate.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-26T09:08:00+00:00",
-          "fetched_at": "2026-10-27T10:34:10.842647+00:00",
+          "published_at": "2026-10-27T14:35:00+00:00",
+          "fetched_at": "2026-10-27T16:39:02.567120+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_8a97a88ed1af9975a1a4",
-          "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-          "canonical_url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
-          "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
-          "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\"",
+          "article_id": "art_1930dec01d8d66a6d968",
+          "url": "https://www.npr.org/2026/10/27/g-s1-150052/up-first-newsletter-midterms-polling-data-voter-fraud-israel-prime-minister-elections",
+          "canonical_url": "https://www.npr.org/2026/10/27/g-s1-150052/up-first-newsletter-midterms-polling-data-voter-fraud-israel-prime-minister-elections",
+          "title": "Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election",
+          "summary": "Democrats are still holding a slight edge with Election Day a week away, according to a new NPR/PBS News/Marist poll. And, Israelis are casting their votes in an election that could change leadership.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-25T16:18:41+00:00",
-          "fetched_at": "2026-10-27T10:34:11.173862+00:00",
+          "published_at": "2026-10-27T11:39:52+00:00",
+          "fetched_at": "2026-10-27T16:39:02.852062+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_86677d8354acd21399ca",
+          "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_campaign=rss&at_medium=RSS",
+          "title": "Turnout so far highest on record as Israelis vote in pivotal election",
+          "summary": "The elections - the first since the Hamas-led attacks on Israel and the wars which followed - are widely seen as a referendum on Benjamin Netanyahu.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-27T11:11:33+00:00",
+          "fetched_at": "2026-10-27T16:39:01.989371+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/24e8/live/8fbba870-d221-11f1-b441-2b33b063138f.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f72793b6dc3f1ba90117",
+      "title": "Sudan’s war steals children’s future with school closures and displacement",
+      "category": "军事安全",
+      "score": 72.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-27T14:45:41+00:00",
+      "last_updated": "2026-10-27T15:41:46+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "sudan",
+        "war",
+        "children",
+        "conflict",
+        "millions",
+        "steals",
+        "future",
+        "school"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Sudan’s war steals children’s future with school closures and displacement”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "West",
+          "Sudan"
+        ],
+        "latest_progress": [
+          "10月27日 15:41 UTC，BBC World报道：“West warns of famine risk in Sudan as civil war grinds on”。",
+          "10月27日 14:45 UTC，Al Jazeera报道：“Sudan’s war steals children’s future with school closures and displacement”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b9bb54922fec4f686474",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cj5ynkk6v3pzo?at_campaign=rss&at_medium=RSS",
+          "title": "West warns of famine risk in Sudan as civil war grinds on",
+          "summary": "Millions face acute hunger in Sudan as conflict, drought and funding cuts aggravate the humanitarian crisis.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-27T15:41:46+00:00",
+          "fetched_at": "2026-10-27T16:39:01.990264+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/609e/live/8fffe6c0-d208-11f1-b3b6-c1e79e957e40.jpg"
+        },
+        {
+          "article_id": "art_fae5e71f5e5c0857cd92",
+          "url": "https://www.aljazeera.com/features/2026/10/27/sudans-war-steals-childrens-futures-with-school-closures-and-displacement?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/10/27/sudans-war-steals-childrens-futures-with-school-closures-and-displacement?traffic_source=rss",
+          "title": "Sudan’s war steals children’s future with school closures and displacement",
+          "summary": "The conflict in Sudan has left millions of children without education, as they work to help their families.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-27T14:45:41+00:00",
+          "fetched_at": "2026-10-27T16:39:03.004865+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6071d1707d17b2057dd6",
+      "title": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
+      "category": "军事安全",
+      "score": 71.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-27T13:59:37+00:00",
+      "last_updated": "2026-10-27T14:23:05+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "leaders",
+        "hold",
+        "rare",
+        "call",
+        "putin",
+        "direct",
+        "russia",
+        "targets"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Norway",
+          "Finland",
+          "Putin Russia",
+          "Kyiv",
+          "Finnish",
+          "Norwegian",
+          "Putin"
+        ],
+        "latest_progress": [
+          "10月27日 14:23 UTC，BBC World报道：“Norway and Finland leaders hold rare call with Putin”。",
+          "10月27日 13:59 UTC，Al Jazeera报道：“Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_158cf53168c002ff0a7d",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_campaign=rss&at_medium=RSS",
+          "title": "Norway and Finland leaders hold rare call with Putin",
+          "summary": "This is the first time European leaders have had direct communication with Russia's president in more than a year.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-27T14:23:05+00:00",
+          "fetched_at": "2026-10-27T16:39:01.989510+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg"
+        },
+        {
+          "article_id": "art_e3c2edf5fbf9b6087c09",
+          "url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin?traffic_source=rss",
+          "title": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
+          "summary": "Strikes hit a major bridge in the Ukrainian capital as leaders push for 'direct discussions' to end the war.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-27T13:59:37+00:00",
+          "fetched_at": "2026-10-27T16:39:03.005071+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_650866b950536f1c1202",
+      "title": "Melania or the pope: Who brokered Russia-Ukraine ceasefire in Oleshky?",
+      "category": "军事安全",
+      "score": 69.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.5,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 3.6
+      },
+      "first_seen": "2026-10-27T05:26:58+00:00",
+      "last_updated": "2026-10-27T13:45:01+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "NPR World"
+      ],
+      "regions": [
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "ceasefire",
+        "brokered",
+        "melania",
+        "trump",
+        "ukraine",
+        "between",
+        "local",
+        "starts"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“Melania or the pope: Who brokered Russia-Ukraine ceasefire in Oleshky?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Melania",
+          "Who",
+          "Russia",
+          "Ukraine",
+          "Oleshky",
+          "Local",
+          "Melania Trump"
+        ],
+        "latest_progress": [
+          "10月27日 13:45 UTC，Al Jazeera报道：“Melania or the pope: Who brokered Russia-Ukraine ceasefire in Oleshky?”。",
+          "10月27日 05:26 UTC，NPR World报道：“Local ceasefire brokered by Melania Trump starts in southern Ukraine”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_88071c71315640f3892e",
+          "url": "https://www.aljazeera.com/news/2026/10/27/melania-or-the-pope-who-brokered-russia-ukraine-ceasefire-in-oleshky?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/27/melania-or-the-pope-who-brokered-russia-ukraine-ceasefire-in-oleshky?traffic_source=rss",
+          "title": "Melania or the pope: Who brokered Russia-Ukraine ceasefire in Oleshky?",
+          "summary": "Competing claims over the ceasefire mark the latest tensions between the White House and the Vatican.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-27T13:45:01+00:00",
+          "fetched_at": "2026-10-27T16:39:03.005255+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1fa24dedc7c445b42a7a",
+          "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+          "canonical_url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+          "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+          "summary": "A localized ceasefire between Ukraine and Russia took effect early Tuesday ahead of a humanitarian mission brokered by U.S. first lady Melania Trump, as missile attacks resumed in Kyiv.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-27T05:26:58+00:00",
+          "fetched_at": "2026-10-27T16:39:02.852158+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -306,21 +417,21 @@
       ]
     },
     {
-      "event_id": "evt_d88361546657d639446e",
-      "title": "Cruise ship crashes into two container ships during storm",
-      "category": "产业供应链",
-      "score": 65.7,
+      "event_id": "evt_f25e765e6a84ed82a299",
+      "title": "Russia strikes Kyiv ahead of localised ceasefire in Oleshky",
+      "category": "军事安全",
+      "score": 68.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.4,
+        "recency": 19.3,
         "credibility": 9.8,
-        "impact": 10.4,
-        "velocity": 1.9
+        "impact": 13.0,
+        "velocity": 3.1
       },
-      "first_seen": "2026-10-26T17:00:00+00:00",
-      "last_updated": "2026-10-27T08:46:19+00:00",
+      "first_seen": "2026-10-27T03:52:00+00:00",
+      "last_updated": "2026-10-27T13:34:07+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -332,62 +443,63 @@
         "Middle East"
       ],
       "keywords": [
-        "cruise",
-        "german",
-        "police",
-        "ship",
-        "captain",
-        "collision",
-        "container",
-        "ships"
+        "oleshky",
+        "russia",
+        "ceasefire",
+        "kyiv",
+        "ukraine",
+        "begin",
+        "aid",
+        "mission"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的产业供应链事件为“Cruise ship crashes into two container ships during storm”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Russia strikes Kyiv ahead of localised ceasefire in Oleshky”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Cruise",
-          "German",
-          "Bremerhaven"
+          "Russia",
+          "Kyiv",
+          "Oleshky Ukraine",
+          "Oleshky"
         ],
         "latest_progress": [
-          "10月27日 08:46 UTC，Al Jazeera报道：“Cruise ship crashes into two container ships during storm”。",
-          "10月26日 17:00 UTC，DW Top Stories报道：“German police probe cruise ship captain after Bremerhaven collision”。"
+          "10月27日 13:34 UTC，Al Jazeera报道：“Russia strikes Kyiv ahead of localised ceasefire in Oleshky”。",
+          "10月27日 03:52 UTC，DW Top Stories报道：“Ukraine and Russia begin Oleshky ceasefire for aid mission”。"
         ],
-        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
-        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "港口和工厂运行率",
-          "交货周期与运价",
-          "企业订单及库存"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_694b3fbcd2692ac803bf",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cruise-ship-crashes-into-two-container-ships-during-storm?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cruise-ship-crashes-into-two-container-ships-during-storm?traffic_source=rss",
-          "title": "Cruise ship crashes into two container ships during storm",
-          "summary": "A captain whose cruise liner collided with container ships in strong winds is being investigated by German police.",
+          "article_id": "art_6a8bd72a5df0b7e4eee9",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/russia-strikes-kyiv-ahead-of-localised-ceasefire-in-oleshky?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/russia-strikes-kyiv-ahead-of-localised-ceasefire-in-oleshky?traffic_source=rss",
+          "title": "Russia strikes Kyiv ahead of localised ceasefire in Oleshky",
+          "summary": "Russia struck Kyiv multiple times on Monday night, hours before a humanitarian ceasefire in Oleshky took effect.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-27T08:46:19+00:00",
-          "fetched_at": "2026-10-27T10:34:11.372393+00:00",
+          "published_at": "2026-10-27T13:34:07+00:00",
+          "fetched_at": "2026-10-27T16:39:03.005341+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_8159597fd98d19497a39",
-          "url": "https://www.dw.com/en/german-police-probe-cruise-ship-captain-after-bremerhaven-collision/a-79769346?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/german-police-probe-cruise-ship-captain-after-bremerhaven-collision/a-79769346?maca=en-rss-en-top-1022-rdf",
-          "title": "German police probe cruise ship captain after Bremerhaven collision",
-          "summary": "A three-ship collision has led to the cancellation of a cruise and expensive damages. Shipyard repairs are needed, and further cruises could be affected.",
+          "article_id": "art_b86318bcbe59a48643d0",
+          "url": "https://www.dw.com/en/ukraine-and-russia-begin-oleshky-ceasefire-for-aid-mission/a-79771473?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-and-russia-begin-oleshky-ceasefire-for-aid-mission/a-79771473?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine and Russia begin Oleshky ceasefire for aid mission",
+          "summary": "Around 2,000 people remain stranded in the city of Oleshky, facing severe shortages of food and medicine. The Russian-occupied town has been devastated by fighting and flooding since Moscow's invasion in 2022.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-26T17:00:00+00:00",
-          "fetched_at": "2026-10-27T10:34:10.841723+00:00",
+          "published_at": "2026-10-27T03:52:00+00:00",
+          "fetched_at": "2026-10-27T16:39:02.568022+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -396,86 +508,89 @@
       ]
     },
     {
-      "event_id": "evt_4b7f3ef7d420c51aadce",
-      "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
-      "category": "军事安全",
-      "score": 64.3,
+      "event_id": "evt_5b955fd3194146fabc40",
+      "title": "Ebola cases in DR Congo surpass 10,000 in fastest-growing outbreak",
+      "category": "社会突发",
+      "score": 68.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.8,
+        "region_diversity": 5.0,
+        "recency": 18.5,
         "credibility": 9.8,
-        "impact": 13.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-26T22:15:00+00:00",
-      "last_updated": "2026-10-27T02:40:17+00:00",
+      "first_seen": "2026-10-27T11:15:00+00:00",
+      "last_updated": "2026-10-27T12:31:19+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "BBC World",
+        "Al Jazeera",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe"
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
-        "syria",
-        "attack",
-        "deadly",
-        "church",
-        "jordan",
-        "militant",
-        "out",
-        "said"
+        "ebola",
+        "outbreak",
+        "congo",
+        "cases",
+        "virus",
+        "approved",
+        "vaccine",
+        "specific"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Jordan carries out deadly strike in Syria in retaliation for church attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Ebola cases in DR Congo surpass 10,000 in fastest-growing outbreak”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Jordan",
-          "Syria"
+          "Ebola",
+          "DR",
+          "Congo",
+          "Bundibugyo"
         ],
         "latest_progress": [
-          "10月27日 02:40 UTC，BBC World报道：“Jordan carries out deadly strike in Syria in retaliation for church attack”。",
-          "10月26日 22:15 UTC，DW Top Stories报道：“Jordan says its military struck 'militant hideouts' in Syria after deadly church attack”。"
+          "10月27日 12:31 UTC，Al Jazeera报道：“Ebola cases in DR Congo surpass 10,000 in fastest-growing outbreak”。",
+          "10月27日 11:15 UTC，DW Top Stories报道：“DR Congo reports over 10,000 Ebola cases as the outbreak spreads abroad, with no approved vaccine or specific treatment for the Bundibugyo virus”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e0ae9740796d093eebb2",
-          "url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_campaign=rss&at_medium=RSS",
-          "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
-          "summary": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said.",
-          "source": "BBC World",
+          "article_id": "art_e7a2ddd16fe69930d77b",
+          "url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak?traffic_source=rss",
+          "title": "Ebola cases in DR Congo surpass 10,000 in fastest-growing outbreak",
+          "summary": "Nearly half of the people confirmed to have the virus have died in DRC's fastest-growing Ebola outbreak on record.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-27T02:40:17+00:00",
-          "fetched_at": "2026-10-27T10:34:10.327035+00:00",
+          "published_at": "2026-10-27T12:31:19+00:00",
+          "fetched_at": "2026-10-27T16:39:03.005979+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/309b/live/f7a08cb0-d1a1-11f1-9ca8-7ff2fe25f975.jpg"
+          "image_url": null
         },
         {
-          "article_id": "art_ac8ce1d3a875d160438d",
-          "url": "https://www.dw.com/en/jordan-says-its-military-struck-militant-hideouts-in-syria-after-deadly-church-attack/a-79760441?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/jordan-says-its-military-struck-militant-hideouts-in-syria-after-deadly-church-attack/a-79760441?maca=en-rss-en-top-1022-rdf",
-          "title": "Jordan says its military struck 'militant hideouts' in Syria after deadly church attack",
-          "summary": "Jordanian armed forces carried out strikes on \"militant hideouts\" in Syria that it said were linked to a deadly church attack on the kingdom last week. Syria gave a different account.",
+          "article_id": "art_e5aec77f81d5e8911753",
+          "url": "https://www.dw.com/en/dr-congo-reports-over-10-000-ebola-cases-as-the-outbreak-spreads-abroad-with-no-approved-vaccine-or-specific-treatment-for-the-bundibugyo-virus/a-79773667?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/dr-congo-reports-over-10-000-ebola-cases-as-the-outbreak-spreads-abroad-with-no-approved-vaccine-or-specific-treatment-for-the-bundibugyo-virus/a-79773667?maca=en-rss-en-top-1022-rdf",
+          "title": "DR Congo reports over 10,000 Ebola cases as the outbreak spreads abroad, with no approved vaccine or specific treatment for the Bundibugyo virus",
+          "summary": "DR Congo has reported more than 10,000 Ebola cases and nearly 4,900 deaths. The outbreak involves a virus for which there is no approved vaccine or specific treatment, complicating efforts to contain its spread.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-26T22:15:00+00:00",
-          "fetched_at": "2026-10-27T10:34:10.841208+00:00",
+          "published_at": "2026-10-27T11:15:00+00:00",
+          "fetched_at": "2026-10-27T16:39:02.567533+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -484,91 +599,113 @@
       ]
     },
     {
-      "event_id": "evt_a46fff8c5eeba92a7ee5",
-      "title": "Israel heads to polls for pivotal election defined by security and democracy",
-      "category": "军事安全",
-      "score": 62.7,
+      "event_id": "evt_501e8f0c6d86edf6e975",
+      "title": "Lula’s victory echoes across BRICS after fears of a Bolsonaro win",
+      "category": "国际政治",
+      "score": 68.1,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.7,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.6
       },
-      "first_seen": "2026-10-27T10:14:00+00:00",
-      "last_updated": "2026-10-27T10:14:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-10-27T04:46:00+00:00",
+      "last_updated": "2026-10-27T16:05:22+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "BBC World"
+        "Al Jazeera",
+        "DW Top Stories"
       ],
       "regions": [
-        "Europe"
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
-        "political",
-        "israel",
-        "heads",
-        "polls",
-        "pivotal",
-        "election",
-        "defined",
-        "security"
+        "lula",
+        "win",
+        "bolsonaro",
+        "victory",
+        "brics",
+        "brazil",
+        "elections",
+        "merz"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Israel heads to polls for pivotal election defined by security and democracy”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Lula’s victory echoes across BRICS after fears of a Bolsonaro win”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Israel"
+          "Lula",
+          "BRICS",
+          "Bolsonaro",
+          "Brazil",
+          "Merz"
         ],
         "latest_progress": [
-          "10月27日 10:14 UTC，BBC World报道：“Israel heads to polls for pivotal election defined by security and democracy”。"
+          "10月27日 16:05 UTC，Al Jazeera报道：“Lula’s victory echoes across BRICS after fears of a Bolsonaro win”。",
+          "10月27日 04:46 UTC，DW Top Stories报道：“Brazil elections: Merz, world leaders congratulate Lula on his win”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_86677d8354acd21399ca",
-          "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_campaign=rss&at_medium=RSS",
-          "title": "Israel heads to polls for pivotal election defined by security and democracy",
-          "summary": "Many fear neither of the leading political blocs will win enough seats for a majority - meaning weeks or months of political wrangling may lie ahead.",
-          "source": "BBC World",
+          "article_id": "art_c21d194728f8f22ccd35",
+          "url": "https://www.aljazeera.com/news-analysis/2026/10/27/lulas-victory-echoes-across-brics-after-fears-over-a-bolsonaro-win?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news-analysis/2026/10/27/lulas-victory-echoes-across-brics-after-fears-over-a-bolsonaro-win?traffic_source=rss",
+          "title": "Lula’s victory echoes across BRICS after fears of a Bolsonaro win",
+          "summary": "Lula’s fourth term may have spared BRICS an internal fracture at a time when Trump is trying to reassert US power.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-27T10:14:00+00:00",
-          "fetched_at": "2026-10-27T10:34:10.326463+00:00",
+          "published_at": "2026-10-27T16:05:22+00:00",
+          "fetched_at": "2026-10-27T16:39:03.003938+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ecae88853c60928d8077",
+          "url": "https://www.dw.com/en/brazil-elections-merz-world-leaders-congratulate-lula-on-his-win/live-79755630?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/brazil-elections-merz-world-leaders-congratulate-lula-on-his-win/live-79755630?maca=en-rss-en-top-1022-rdf",
+          "title": "Brazil elections: Merz, world leaders congratulate Lula on his win",
+          "summary": "Brazilian President Lula secured a surprise win over far-right challenger Flavio Bolsonaro, whose party recognizes Lula's election victory.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-27T04:46:00+00:00",
+          "fetched_at": "2026-10-27T16:39:02.567905+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9543/live/7b21c3e0-d1cc-11f1-837e-832a94a7445c.png"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_f7271068fdbb596262b4",
-      "title": "WNBA Finals: Valkyries beat Dream to reach the brink of their first title",
+      "event_id": "evt_fbc828b14b2329555432",
+      "title": "Death toll from attack by gunmen in northeastern Nigeria rises to 62",
       "category": "军事安全",
       "score": 62.4,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.4,
+        "recency": 21.3,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-27T09:52:36+00:00",
-      "last_updated": "2026-10-27T09:52:36+00:00",
+      "first_seen": "2026-10-27T15:53:35+00:00",
+      "last_updated": "2026-10-27T15:53:35+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -578,26 +715,24 @@
         "Middle East"
       ],
       "keywords": [
-        "wnba",
-        "finals",
-        "valkyries",
-        "beat",
-        "dream",
-        "reach",
-        "brink",
-        "first"
+        "death",
+        "toll",
+        "attack",
+        "gunmen",
+        "northeastern",
+        "nigeria",
+        "rises",
+        "bandits"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“WNBA Finals: Valkyries beat Dream to reach the brink of their first title”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Death toll from attack by gunmen in northeastern Nigeria rises to 62”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "WNBA",
-          "Finals",
-          "Valkyries",
-          "Dream"
+          "Death",
+          "Nigeria"
         ],
         "latest_progress": [
-          "10月27日 09:52 UTC，Al Jazeera报道：“WNBA Finals: Valkyries beat Dream to reach the brink of their first title”。"
+          "10月27日 15:53 UTC，Al Jazeera报道：“Death toll from attack by gunmen in northeastern Nigeria rises to 62”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -610,15 +745,15 @@
       },
       "articles": [
         {
-          "article_id": "art_c91804fd8aa4c2b231a2",
-          "url": "https://www.aljazeera.com/sports/2026/10/27/wnba-finals-valkyries-beat-dream-to-reach-the-brink-of-their-first-title?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/27/wnba-finals-valkyries-beat-dream-to-reach-the-brink-of-their-first-title?traffic_source=rss",
-          "title": "WNBA Finals: Valkyries beat Dream to reach the brink of their first title",
-          "summary": "Kiah Stokes and Veronica Burton shine for Golden State as Angel Reese's Atlanta team was stifled by a strong defence.",
+          "article_id": "art_fe63ba3172f709a3bd5f",
+          "url": "https://www.aljazeera.com/news/2026/10/27/death-toll-from-attack-by-gunmen-in-northeastern-nigeria-rises-to-62?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/27/death-toll-from-attack-by-gunmen-in-northeastern-nigeria-rises-to-62?traffic_source=rss",
+          "title": "Death toll from attack by gunmen in northeastern Nigeria rises to 62",
+          "summary": "Bandits targeted Binnari village in Taraba state, setting fire to homes, shops, food supplies and motorcycles.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-27T09:52:36+00:00",
-          "fetched_at": "2026-10-27T10:34:11.371543+00:00",
+          "published_at": "2026-10-27T15:53:35+00:00",
+          "fetched_at": "2026-10-27T16:39:03.004075+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -627,111 +762,21 @@
       ]
     },
     {
-      "event_id": "evt_62c15ae474abbecb85c6",
-      "title": "Germany news: Fall of global order threatens Europe, Asia, Merz says",
-      "category": "军事安全",
-      "score": 62.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 1.5
-      },
-      "first_seen": "2026-10-26T13:32:00+00:00",
-      "last_updated": "2026-10-27T09:49:00+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "merz",
-        "asia",
-        "chancellor",
-        "friedrich",
-        "singapore",
-        "germany",
-        "global",
-        "order"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Germany news: Fall of global order threatens Europe, Asia, Merz says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Germany",
-          "Fall",
-          "Europe",
-          "Asia",
-          "Merz"
-        ],
-        "latest_progress": [
-          "10月27日 09:49 UTC，DW Top Stories报道：“Germany news: Fall of global order threatens Europe, Asia, Merz says”。",
-          "10月26日 13:32 UTC，DW Top Stories报道：“Germany's Merz heads to Asia as security issues loom large”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_99c3051ebc7eea27789d",
-          "url": "https://www.dw.com/en/germany-news-fall-of-global-order-threatens-europe-asia-merz-says/live-79772992?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-news-fall-of-global-order-threatens-europe-asia-merz-says/live-79772992?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany news: Fall of global order threatens Europe, Asia, Merz says",
-          "summary": "During a visit to Singapore, German Chancellor Friedrich Merz spoke about how the erosion of world order presents a threat to the interests of both European and Asian nations.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-27T09:49:00+00:00",
-          "fetched_at": "2026-10-27T10:34:10.839956+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_fde76afc9b984e2b6996",
-          "url": "https://www.dw.com/en/germany-s-merz-heads-to-asia-as-security-issues-loom-large/a-79764065?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-s-merz-heads-to-asia-as-security-issues-loom-large/a-79764065?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany's Merz heads to Asia as security issues loom large",
-          "summary": "Chancellor Friedrich Merz will be meeting the leaders of Singapore, Japan and South Korea as Germany seeks to adjust its foreign policy to rising uncertainty and threats to global supply chains.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-26T13:32:00+00:00",
-          "fetched_at": "2026-10-27T10:34:10.842258+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
       "event_id": "evt_cba491f4a82c8483becb",
       "title": "Truce begins in Ukraine city where residents ate weeds to survive",
       "category": "军事安全",
-      "score": 61.9,
+      "score": 61.8,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
+        "recency": 20.7,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-27T09:18:44+00:00",
-      "last_updated": "2026-10-27T09:18:44+00:00",
+      "first_seen": "2026-10-27T15:13:24+00:00",
+      "last_updated": "2026-10-27T15:13:24+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -741,14 +786,14 @@
         "Europe"
       ],
       "keywords": [
+        "get",
         "truce",
         "begins",
         "ukraine",
         "city",
         "residents",
         "ate",
-        "weeds",
-        "survive"
+        "weeds"
       ],
       "analysis": {
         "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Truce begins in Ukraine city where residents ate weeds to survive”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
@@ -758,7 +803,7 @@
           "Ukraine"
         ],
         "latest_progress": [
-          "10月27日 09:18 UTC，BBC World报道：“Truce begins in Ukraine city where residents ate weeds to survive”。"
+          "10月27日 15:13 UTC，BBC World报道：“Truce begins in Ukraine city where residents ate weeds to survive”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -775,11 +820,11 @@
           "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_campaign=rss&at_medium=RSS",
           "title": "Truce begins in Ukraine city where residents ate weeds to survive",
-          "summary": "The ceasefire in Oleshky, secured by US First Lady Melania Trump, is meant to allow aid deliveries and the evacuation of civilians.",
+          "summary": "The Oleshky ceasefire, which the White House said was secured by US First Lady Melania Trump, is meant to allow aid to get in and civilians to get out.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-27T09:18:44+00:00",
-          "fetched_at": "2026-10-27T10:34:10.326856+00:00",
+          "published_at": "2026-10-27T15:13:24+00:00",
+          "fetched_at": "2026-10-27T16:39:01.989627+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -788,21 +833,21 @@
       ]
     },
     {
-      "event_id": "evt_e587230c4c00c832bf75",
-      "title": "North Korean howitzer guns spotted close to border with South Korea",
-      "category": "国际政治",
-      "score": 60.9,
+      "event_id": "evt_ba0127793eecb8b5b3c6",
+      "title": "Israeli military detains Egyptian national who crossed border",
+      "category": "军事安全",
+      "score": 61.7,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.8,
+        "recency": 20.7,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-27T10:22:20+00:00",
-      "last_updated": "2026-10-27T10:22:20+00:00",
+      "first_seen": "2026-10-27T15:10:27+00:00",
+      "last_updated": "2026-10-27T15:10:27+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -812,45 +857,45 @@
         "Middle East"
       ],
       "keywords": [
-        "korean",
-        "south",
-        "north",
-        "howitzer",
-        "guns",
-        "spotted",
-        "close",
+        "egyptian",
+        "crossing",
+        "israeli",
+        "military",
+        "detains",
+        "national",
+        "crossed",
         "border"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“North Korean howitzer guns spotted close to border with South Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Israeli military detains Egyptian national who crossed border”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "North Korean",
-          "South Korea"
+          "Israeli",
+          "Egyptian"
         ],
         "latest_progress": [
-          "10月27日 10:22 UTC，Al Jazeera报道：“North Korean howitzer guns spotted close to border with South Korea”。"
+          "10月27日 15:10 UTC，Al Jazeera报道：“Israeli military detains Egyptian national who crossed border”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_32c9b9ac71b3aab4b5b4",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/north-korean-howitzer-guns-spotted-close-to-border-with-south-korea?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/north-korean-howitzer-guns-spotted-close-to-border-with-south-korea?traffic_source=rss",
-          "title": "North Korean howitzer guns spotted close to border with South Korea",
-          "summary": "The sighting comes after a mine blast wounded three South Korean soldiers in September.",
+          "article_id": "art_cf2eeae66cc6d0fbb510",
+          "url": "https://www.aljazeera.com/news/2026/10/27/israeli-military-detains-egyptian-national-who-crossed-border?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/27/israeli-military-detains-egyptian-national-who-crossed-border?traffic_source=rss",
+          "title": "Israeli military detains Egyptian national who crossed border",
+          "summary": "Egyptian man held after crossing into Israel near Nitzana, his motive for the crossing still unknown.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-27T10:22:20+00:00",
-          "fetched_at": "2026-10-27T10:34:11.371171+00:00",
+          "published_at": "2026-10-27T15:10:27+00:00",
+          "fetched_at": "2026-10-27T16:39:03.004565+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
