@@ -1,184 +1,34 @@
 {
-  "generated_at": "2026-10-28T16:03:43.938159+00:00",
+  "generated_at": "2026-10-28T21:04:45.781260+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 75,
-    "articles_unique": 75,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 180,
+    "articles_unique": 170,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_f3bc0f02700835a13de8",
-      "title": "What we know so far about deadly Spain train crash",
+      "event_id": "evt_ee0b818e18e5376565e4",
+      "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
       "category": "国际政治",
-      "score": 87.2,
+      "score": 88.1,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 19.5,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 21.6,
-        "credibility": 9.7,
+        "recency": 22.0,
+        "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 4.0
       },
-      "first_seen": "2026-10-28T09:17:00+00:00",
-      "last_updated": "2026-10-28T15:36:11+00:00",
+      "first_seen": "2026-10-27T22:18:00+00:00",
+      "last_updated": "2026-10-28T21:03:49+00:00",
       "source_count": 4,
-      "article_count": 5,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "train",
-        "high-speed",
-        "spain",
-        "crash",
-        "trains",
-        "madrid",
-        "dozens",
-        "south"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“What we know so far about deadly Spain train crash”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "What",
-          "Spain",
-          "High",
-          "Photos",
-          "Dozens",
-          "Spain Dozens"
-        ],
-        "latest_progress": [
-          "10月28日 15:36 UTC，BBC World报道：“What we know so far about deadly Spain train crash”。",
-          "10月28日 14:33 UTC，DW Top Stories报道：“Spain: High-speed train crash kills dozens, rescue operations ongoing”。",
-          "10月28日 12:46 UTC，Al Jazeera报道：“Photos: Spain high-speed train crash kills 30”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e2d1aab8ced4318caf0a",
-          "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_campaign=rss&at_medium=RSS",
-          "title": "What we know so far about deadly Spain train crash",
-          "summary": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T15:36:11+00:00",
-          "fetched_at": "2026-10-28T16:03:42.771313+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc1d/live/c4d7e6f0-d2c5-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_43afc6a81c3c3ce7052e",
-          "url": "https://www.dw.com/en/spain-high-speed-train-crash-kills-dozens-rescue-operations-ongoing/live-79785087?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/spain-high-speed-train-crash-kills-dozens-rescue-operations-ongoing/live-79785087?maca=en-rss-en-top-1022-rdf",
-          "title": "Spain: High-speed train crash kills dozens, rescue operations ongoing",
-          "summary": "Two high-speed trains carrying hundreds of passengers collided south of Madrid. Spain's transport minister said one of the trains was told to continue its journey despite a \"red signal\" being in effect. Follow DW.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-28T14:33:00+00:00",
-          "fetched_at": "2026-10-28T16:03:42.886114+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_eddc3e6c6444d0bb323f",
-          "url": "https://www.aljazeera.com/gallery/2026/10/28/photos-spain-high-speed-train-collision-kills-30?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/gallery/2026/10/28/photos-spain-high-speed-train-collision-kills-30?traffic_source=rss",
-          "title": "Photos: Spain high-speed train crash kills 30",
-          "summary": "Health Minister Monica Garcia says emergency workers are focusing on rescuing survivors.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T12:46:09+00:00",
-          "fetched_at": "2026-10-28T16:03:43.313150+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_aeecd09938a56dc1753a",
-          "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
-          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
-          "title": "Dozens are dead in a high-speed train crash in Spain",
-          "summary": "The toll is rising after a high-speed train between slammed into the rear of another train that had stopped south of Madrid, derailing two cars. It was Spain's second major train accident this year.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T10:09:46+00:00",
-          "fetched_at": "2026-10-28T16:03:43.100149+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c1ea190fd74b53e565fe",
-          "url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-top-1022-rdf",
-          "title": "Dozens of people killed after high-speed trains collide in central Spain",
-          "summary": "At least 68 people have been killed in a train crash in central Spain, local authorities have confirmed. Rail services between Madrid and Seville have been suspended.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-28T09:17:00+00:00",
-          "fetched_at": "2026-10-28T16:03:42.886601+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ee0b818e18e5376565e4",
-      "title": "Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election",
-      "category": "国际政治",
-      "score": 82.6,
-      "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 21.2,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 4.4
-      },
-      "first_seen": "2026-10-27T22:18:00+00:00",
-      "last_updated": "2026-10-28T15:10:00+00:00",
-      "source_count": 3,
-      "article_count": 5,
-      "sources": [
-        "Al Jazeera",
         "DW Top Stories",
         "NPR World"
       ],
@@ -192,27 +42,28 @@
         "flavio",
         "brazil",
         "presidential",
+        "vio",
         "florida",
-        "fled",
-        "fleeing",
-        "defeated"
+        "defeated",
+        "candidate"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Flavio Bolsonaro",
+          "Bolsonaro",
           "Miami",
           "Brazil",
+          "Flavio Bolsonaro",
           "US",
-          "Bolsonaro",
+          "Brazil Bolsonaro",
           "Florida",
           "Brazil Flavio Bolsonaro"
         ],
         "latest_progress": [
-          "10月28日 15:10 UTC，DW Top Stories报道：“Flavio Bolsonaro lands in Miami after fleeing Brazil for US”。",
-          "10月28日 15:02 UTC，Al Jazeera报道：“Bolsonaro turns up in Florida after vanishing from public view”。",
-          "10月28日 14:32 UTC，Al Jazeera报道：“Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election”。"
+          "10月28日 21:03 UTC，BBC World报道：“Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election”。",
+          "10月28日 18:51 UTC，BBC World报道：“How did Flávio Bolsonaro end up in Miami?”。",
+          "10月28日 15:10 UTC，DW Top Stories报道：“Flavio Bolsonaro lands in US, declares himself 'president-elect' of Brazil”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -225,15 +76,45 @@
       },
       "articles": [
         {
-          "article_id": "art_744632369b5484e75978",
-          "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-miami-after-fleeing-brazil-for-us/a-79788659?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-miami-after-fleeing-brazil-for-us/a-79788659?maca=en-rss-en-top-1022-rdf",
-          "title": "Flavio Bolsonaro lands in Miami after fleeing Brazil for US",
+          "article_id": "art_4348a1804ab5ee3a50b5",
+          "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_campaign=rss&at_medium=RSS",
+          "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
+          "summary": "Bolsonaro's arrival in the US ends speculation about his whereabouts after he failed to comply with an order to surrender his passports.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T21:03:49+00:00",
+          "fetched_at": "2026-10-28T21:04:43.264899+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_29b6b29ebb3577a8eb85",
+          "url": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o?at_campaign=rss&at_medium=RSS",
+          "title": "How did Flávio Bolsonaro end up in Miami?",
+          "summary": "BBC Verify has pieced together defeated presidential candidate Flávio Bolsonaro's journey through Brazil, Argentina and Ecuador to reach Miami.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T18:51:05+00:00",
+          "fetched_at": "2026-10-28T21:04:43.266997+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9c9/live/0a0506e0-d2f8-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_ccf4a9a1dea23dca4137",
+          "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-president-elect-of-brazil/a-79788659?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-president-elect-of-brazil/a-79788659?maca=en-rss-en-top-1022-rdf",
+          "title": "Flavio Bolsonaro lands in US, declares himself 'president-elect' of Brazil",
           "summary": "Defeated Brazilian presidential candidate Flavio Bolsonaro and his family landed in Florida early on Wednesday. Facing money laundering allegations, he fled just days after refusing to concede defeat to incumbent Lula.",
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-28T15:10:00+00:00",
-          "fetched_at": "2026-10-28T16:03:42.886046+00:00",
+          "fetched_at": "2026-10-28T21:04:43.652742+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -248,22 +129,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-28T15:02:04+00:00",
-          "fetched_at": "2026-10-28T16:03:43.312231+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_556ea93e7efc439bb2fe",
-          "url": "https://www.aljazeera.com/news/2026/10/28/flavio-bolsonaro-lands-in-miami-after-losing-brazils-presidential-election?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/28/flavio-bolsonaro-lands-in-miami-after-losing-brazils-presidential-election?traffic_source=rss",
-          "title": "Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election",
-          "summary": "Bolsonaro and his family fled to the US amid a Brazilian Supreme Court order to surrender his passports.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T14:32:16+00:00",
-          "fetched_at": "2026-10-28T16:03:43.312537+00:00",
+          "fetched_at": "2026-10-28T21:04:44.024416+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -278,7 +144,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-28T01:58:08+00:00",
-          "fetched_at": "2026-10-28T16:03:43.100512+00:00",
+          "fetched_at": "2026-10-28T21:04:43.939253+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -293,7 +159,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-27T22:18:00+00:00",
-          "fetched_at": "2026-10-28T16:03:42.886929+00:00",
+          "fetched_at": "2026-10-28T21:04:43.654674+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -302,164 +168,61 @@
       ]
     },
     {
-      "event_id": "evt_9b0b25f75f7ed83a1158",
-      "title": "Real Madrid apologise to Chinese people for Mbappe’s Mao ‘dictator’ remark",
-      "category": "经济金融",
-      "score": 71.2,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.6,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 2.0
-      },
-      "first_seen": "2026-10-27T16:49:00+00:00",
-      "last_updated": "2026-10-28T15:36:39+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "mao",
-        "mbappe",
-        "chinese",
-        "dictator",
-        "kylian",
-        "zedong",
-        "real",
-        "china"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的经济金融事件为“Real Madrid apologise to Chinese people for Mbappe’s Mao ‘dictator’ remark”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "What",
-          "Real Madrid",
-          "Kylian Mbappe",
-          "China",
-          "Chinese",
-          "Mbappe",
-          "Mao",
-          "TV"
-        ],
-        "latest_progress": [
-          "10月28日 15:36 UTC，Al Jazeera报道：“What is the controversy between Real Madrid’s Kylian Mbappe and China?”。",
-          "10月28日 12:56 UTC，Al Jazeera报道：“Real Madrid apologise to Chinese people for Mbappe’s Mao ‘dictator’ remark”。",
-          "10月27日 16:49 UTC，DW Top Stories报道：“Mbappe apologizes as Chinese sponsors drop him and TV broadcasts are halted over Mao dictator remark”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_13c8c90001214fbbd8d4",
-          "url": "https://www.aljazeera.com/sports/2026/10/28/kylian-mbappe-china-meme-mao-zedong-la-liga-real-madrid?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/28/kylian-mbappe-china-meme-mao-zedong-la-liga-real-madrid?traffic_source=rss",
-          "title": "What is the controversy between Real Madrid’s Kylian Mbappe and China?",
-          "summary": "The French superstar's comments about Mao Zedong have drawn the ire of China, a lucrative market for sports teams.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T15:36:39+00:00",
-          "fetched_at": "2026-10-28T16:03:43.312078+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3fd2de65e1625a9bc5f5",
-          "url": "https://www.aljazeera.com/sports/2026/10/28/real-madrid-apologise-to-chinese-people-for-mbappes-mao-dictator-remark?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/28/real-madrid-apologise-to-chinese-people-for-mbappes-mao-dictator-remark?traffic_source=rss",
-          "title": "Real Madrid apologise to Chinese people for Mbappe’s Mao ‘dictator’ remark",
-          "summary": "Mocking Mao Zedong is taboo in China, which is a lucrative market for players and teams such as Kylian Mbappe's Real.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T12:56:24+00:00",
-          "fetched_at": "2026-10-28T16:03:43.312950+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4a98ec40964efb0b73e3",
-          "url": "https://www.dw.com/en/mbappe-apologizes-as-chinese-sponsors-drop-him-and-tv-broadcasts-are-halted-over-mao-dictator-remark/a-79779831?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/mbappe-apologizes-as-chinese-sponsors-drop-him-and-tv-broadcasts-are-halted-over-mao-dictator-remark/a-79779831?maca=en-rss-en-top-1022-rdf",
-          "title": "Mbappe apologizes as Chinese sponsors drop him and TV broadcasts are halted over Mao dictator remark",
-          "summary": "French soccer star Kylian Mbappe has apologized after apparently referring to Mao Zedong as a dictator. Chinese sponsors have dropped him, while state television has suspended Spanish league broadcasts.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-27T16:49:00+00:00",
-          "fetched_at": "2026-10-28T16:03:42.887044+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_3498eab82e770b332e6b",
-      "title": "Why Arab parties may not be the ‘kingmakers’ in this Israeli election",
+      "event_id": "evt_f3bc0f02700835a13de8",
+      "title": "Spain demands answers after deadliest train disaster in over a decade",
       "category": "国际政治",
-      "score": 69.6,
+      "score": 87.8,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
+        "coverage": 19.5,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
         "recency": 20.6,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-28T08:46:16+00:00",
-      "last_updated": "2026-10-28T14:30:17+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-28T09:17:00+00:00",
+      "last_updated": "2026-10-28T19:32:57+00:00",
+      "source_count": 4,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
         "NPR World"
       ],
       "regions": [
+        "Europe",
         "Middle East",
         "North America"
       ],
       "keywords": [
-        "arab",
-        "parties",
-        "may",
-        "not",
-        "ex-israeli",
-        "diplomat",
-        "calls",
-        "opposition's"
+        "train",
+        "high-speed",
+        "madrid",
+        "trains",
+        "spain",
+        "crash",
+        "south",
+        "people"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的国际政治事件为“Why Arab parties may not be the ‘kingmakers’ in this Israeli election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Spain demands answers after deadliest train disaster in over a decade”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Why Arab",
-          "Israeli",
-          "Ex",
-          "Arab"
+          "Spain",
+          "At",
+          "What",
+          "Spanish",
+          "PM",
+          "Sanchez",
+          "Dozens",
+          "Spain Dozens"
         ],
         "latest_progress": [
-          "10月28日 14:30 UTC，Al Jazeera报道：“Why Arab parties may not be the ‘kingmakers’ in this Israeli election”。",
-          "10月28日 08:46 UTC，NPR World报道：“Ex-Israeli diplomat calls opposition's refusal to work with Arab parties 'reckless'”。"
+          "10月28日 19:32 UTC，Al Jazeera报道：“Spain demands answers after deadliest train disaster in over a decade”。",
+          "10月28日 16:45 UTC，BBC World报道：“Watch: At the scene of Spain's deadly train crash”。",
+          "10月28日 15:36 UTC，BBC World报道：“What we know so far about deadly Spain train crash”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -472,30 +235,195 @@
       },
       "articles": [
         {
-          "article_id": "art_a27d2cfeb9ac207c66ea",
-          "url": "https://www.aljazeera.com/news/2026/10/28/can-israeli-leader-eisenkot-ally-with-arab-parties-to-unseat-netanyahu?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/28/can-israeli-leader-eisenkot-ally-with-arab-parties-to-unseat-netanyahu?traffic_source=rss",
-          "title": "Why Arab parties may not be the ‘kingmakers’ in this Israeli election",
-          "summary": "Exit poll projections show that if Eisenkot’s bloc teamed up with Arab parties, they could potentially unseat Bibi.",
+          "article_id": "art_cae418d3ef708bf4dde9",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss",
+          "title": "Spain demands answers after deadliest train disaster in over a decade",
+          "summary": "At least 68 people have been killed and more than 100 injured after two high-speed trains collided south of Madrid.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-28T14:30:17+00:00",
-          "fetched_at": "2026-10-28T16:03:43.312607+00:00",
+          "published_at": "2026-10-28T19:32:57+00:00",
+          "fetched_at": "2026-10-28T21:04:44.021190+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_a932c87addfb078c8343",
-          "url": "https://www.npr.org/2026/10/28/nx-s1-6019328/israel-election-arab-parties-government",
-          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6019328/israel-election-arab-parties-government",
-          "title": "Ex-Israeli diplomat calls opposition's refusal to work with Arab parties 'reckless'",
-          "summary": "Why a stronger showing for Arab parties may not translate into political power in Israel.",
+          "article_id": "art_c72a1127973a2aec3878",
+          "url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: At the scene of Spain's deadly train crash",
+          "summary": "People have been killed after a Spanish high-speed train collided with another train south of the capital Madrid, making this the country's worst disaster since 2013.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T16:45:16+00:00",
+          "fetched_at": "2026-10-28T21:04:43.267146+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97cd/live/4f78dd50-d2e9-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_e2d1aab8ced4318caf0a",
+          "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_campaign=rss&at_medium=RSS",
+          "title": "What we know so far about deadly Spain train crash",
+          "summary": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T15:36:11+00:00",
+          "fetched_at": "2026-10-28T21:04:43.267911+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81f7/live/e4acc800-d302-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_2dccbcc02e84ab23d285",
+          "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-top-1022-rdf",
+          "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+          "summary": "Two high-speed trains carrying hundreds of passengers collided south of Madrid. Spain's transport minister said one of the trains was told to continue its journey despite a \"red signal\" being in effect. Follow DW.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-28T14:33:00+00:00",
+          "fetched_at": "2026-10-28T21:04:43.652871+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_aeecd09938a56dc1753a",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
+          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
+          "title": "Dozens are dead in a high-speed train crash in Spain",
+          "summary": "The toll is rising after a high-speed train between slammed into the rear of another train that had stopped south of Madrid, derailing two cars. It was Spain's second major train accident this year.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-28T08:46:16+00:00",
-          "fetched_at": "2026-10-28T16:03:43.100367+00:00",
+          "published_at": "2026-10-28T10:09:46+00:00",
+          "fetched_at": "2026-10-28T21:04:43.938410+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c1ea190fd74b53e565fe",
+          "url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-top-1022-rdf",
+          "title": "Dozens of people killed after high-speed trains collide in central Spain",
+          "summary": "At least 68 people have been killed in a train crash in central Spain, local authorities have confirmed. Rail services between Madrid and Seville have been suspended.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-28T09:17:00+00:00",
+          "fetched_at": "2026-10-28T21:04:43.653888+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ba5ebcec9a4b963360ad",
+      "title": "Israel's election deadlock is a sign of the country's deep divisions",
+      "category": "国际政治",
+      "score": 70.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.8,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 1.9
+      },
+      "first_seen": "2026-10-27T20:45:39+00:00",
+      "last_updated": "2026-10-28T20:53:02+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "election",
+        "israel's",
+        "voter",
+        "turnout",
+        "highest",
+        "decades",
+        "clear",
+        "soars"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的国际政治事件为“Israel's election deadlock is a sign of the country's deep divisions”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Israel",
+          "Netanyahu"
+        ],
+        "latest_progress": [
+          "10月28日 20:53 UTC，BBC World报道：“Israel's election deadlock is a sign of the country's deep divisions”。",
+          "10月28日 14:26 UTC，BBC World报道：“Israel's election result is messy - here's why”。",
+          "10月27日 20:45 UTC，NPR World报道：“Israel's voter turnout soars as Netanyahu faces a tight election”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_bb3b78e1ea629e03414d",
+          "url": "https://www.bbc.co.uk/news/articles/cqz0ve94ygpjo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqz0ve94ygpjo?at_campaign=rss&at_medium=RSS",
+          "title": "Israel's election deadlock is a sign of the country's deep divisions",
+          "summary": "The election was a celebration of democracy in some ways - but it has left Israel with no clear path to a new government, writes James Landale.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T20:53:02+00:00",
+          "fetched_at": "2026-10-28T21:04:43.268061+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a31/live/8148c250-d311-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_59fd7efa14fb15c4c2df",
+          "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_campaign=rss&at_medium=RSS",
+          "title": "Israel's election result is messy - here's why",
+          "summary": "Despite having the highest voter turnout in nearly three decades, Israel's elections have had no clear winner. What does this mean for the country, asks the BBC's Yolande Knell.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T14:26:24+00:00",
+          "fetched_at": "2026-10-28T21:04:43.267295+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8924/live/3d448ba0-d2d7-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
+          "article_id": "art_a90a8c4af771b226f8ef",
+          "url": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+          "canonical_url": "https://www.npr.org/2026/10/27/nx-s1-6019381/israel-elections",
+          "title": "Israel's voter turnout soars as Netanyahu faces a tight election",
+          "summary": "Israelis voted in their highest numbers in over two decades in a tense national election to decide whether to stick with Prime Minister Benjamin Netanyahu's far-right coalition.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-27T20:45:39+00:00",
+          "fetched_at": "2026-10-28T21:04:43.939396+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -504,15 +432,555 @@
       ]
     },
     {
-      "event_id": "evt_1e6ca3a23debda88c5b7",
-      "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+      "event_id": "evt_9223cba9989fe40e01e6",
+      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
       "category": "国际政治",
-      "score": 63.8,
+      "score": 68.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.4,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 2.6
+      },
+      "first_seen": "2026-10-28T08:46:47+00:00",
+      "last_updated": "2026-10-28T20:24:39+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "netanyahu's",
+        "bloc",
+        "partial",
+        "results",
+        "election",
+        "show",
+        "leading",
+        "israel's"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的国际政治事件为“Netanyahu's bloc leading Israel election but short of majority, partial results show”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Netanyahu",
+          "Israel",
+          "Partial"
+        ],
+        "latest_progress": [
+          "10月28日 20:24 UTC，BBC World报道：“Netanyahu's bloc leading Israel election but short of majority, partial results show”。",
+          "10月28日 08:46 UTC，NPR World报道：“Partial results from Israel's contentious election show no clear winner”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_4aa7c6ddb41a6d35c458",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_campaign=rss&at_medium=RSS",
+          "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+          "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T20:24:39+00:00",
+          "fetched_at": "2026-10-28T21:04:43.265093+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3381/live/719a4410-d2f2-11f1-8d86-83eebc838351.jpg"
+        },
+        {
+          "article_id": "art_6b01621bd4c1f27c68bd",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results",
+          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results",
+          "title": "Partial results from Israel's contentious election show no clear winner",
+          "summary": "Prime Minister Benjamin Netanyahu's right-wing bloc was leading opposition rival Gadi Eisenkot. Arab parties had a strong showing, and a key question now is whether Eisenkot's bloc will consider forming a coalition with them.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T08:46:47+00:00",
+          "fetched_at": "2026-10-28T21:04:43.938807+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0b4710c3611e39c513fb",
+      "title": "How do the US midterms work, and why are they so important for Trump's presidency?",
+      "category": "国际政治",
+      "score": 66.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.2,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 2.9
+      },
+      "first_seen": "2026-10-28T08:47:18+00:00",
+      "last_updated": "2026-10-28T19:02:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "trump's",
+        "midterms",
+        "president",
+        "relationship",
+        "putin",
+        "under",
+        "ahead",
+        "comes"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的国际政治事件为“How do the US midterms work, and why are they so important for Trump's presidency?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "US",
+          "Trump",
+          "Putin"
+        ],
+        "latest_progress": [
+          "10月28日 19:02 UTC，DW Top Stories报道：“How do the US midterms work, and why are they so important for Trump's presidency?”。",
+          "10月28日 08:47 UTC，NPR World报道：“Trump's relationship with Putin comes under fire ahead of the midterms”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ec0d5aa9377e17d0dee9",
+          "url": "https://www.dw.com/en/how-do-the-us-midterms-work-and-why-are-they-so-important-for-trump-s-presidency/a-79789932?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/how-do-the-us-midterms-work-and-why-are-they-so-important-for-trump-s-presidency/a-79789932?maca=en-rss-en-top-1022-rdf",
+          "title": "How do the US midterms work, and why are they so important for Trump's presidency?",
+          "summary": "US voters are electing a new Congress. The results will be decisive for the future of the United States, and a judgment on Donald Trump's second term as president.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-28T19:02:00+00:00",
+          "fetched_at": "2026-10-28T21:04:43.652044+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_432ac328f2d10371d595",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6009262/trumps-relationship-with-putin-comes-under-fire-ahead-of-the-midterms",
+          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6009262/trumps-relationship-with-putin-comes-under-fire-ahead-of-the-midterms",
+          "title": "Trump's relationship with Putin comes under fire ahead of the midterms",
+          "summary": "President Trump's relationship with Russia's Vladimir Putin is under scrutiny again as the president makes deals with Moscow ahead of the midterms.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T08:47:18+00:00",
+          "fetched_at": "2026-10-28T21:04:43.938626+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_93938117e78797b40722",
+      "title": "Putin: Russia is African continent’s best partner, not ‘colonial’ West",
+      "category": "国际政治",
+      "score": 63.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.4,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-28T19:01:46+00:00",
+      "last_updated": "2026-10-28T19:13:32+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "putin",
+        "african",
+        "moscow",
+        "leaders",
+        "not",
+        "colonial",
+        "best",
+        "partner"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Putin: Russia is African continent’s best partner, not ‘colonial’ West”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Putin",
+          "Russia",
+          "African",
+          "West Putin",
+          "Moscow"
+        ],
+        "latest_progress": [
+          "10月28日 19:13 UTC，Al Jazeera报道：“Putin: Russia is African continent’s best partner, not ‘colonial’ West”。",
+          "10月28日 19:01 UTC，Al Jazeera报道：“Putin tells African leaders Moscow will not pursue ‘neo-colonialism’”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_6fb4d856823c6a064895",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/putin-russia-is-african-continents-best-partner-not-colonial-west?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/putin-russia-is-african-continents-best-partner-not-colonial-west?traffic_source=rss",
+          "title": "Putin: Russia is African continent’s best partner, not ‘colonial’ West",
+          "summary": "Russian President Vladimir Putin told the leaders of dozens of African nations that Moscow was their best partner.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-28T19:13:32+00:00",
+          "fetched_at": "2026-10-28T21:04:44.021352+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_17cec6790fd72953802b",
+          "url": "https://www.aljazeera.com/news/2026/10/28/putin-tells-african-leaders-moscow-will-not-pursue-neo-colonialism?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/28/putin-tells-african-leaders-moscow-will-not-pursue-neo-colonialism?traffic_source=rss",
+          "title": "Putin tells African leaders Moscow will not pursue ‘neo-colonialism’",
+          "summary": "Speaking at the third Russia-Africa Summit, Putin frames Moscow as an alternative to former colonial powers.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-28T19:01:46+00:00",
+          "fetched_at": "2026-10-28T21:04:44.022032+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7f11b1c7bf33932ead6e",
+      "title": "Jerusalem Daily: What’s next after Israel’s elections?",
+      "category": "国际政治",
+      "score": 63.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-28T18:31:33+00:00",
+      "last_updated": "2026-10-28T19:03:03+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "israel",
+        "elections",
+        "election",
+        "jerusalem",
+        "daily",
+        "next",
+        "prime",
+        "minister"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Jerusalem Daily: What’s next after Israel’s elections?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "What",
+          "Israel",
+          "Jerusalem Daily"
+        ],
+        "latest_progress": [
+          "10月28日 19:03 UTC，Al Jazeera报道：“What are the implications of Israel’s elections?”。",
+          "10月28日 18:31 UTC，Al Jazeera报道：“Jerusalem Daily: What’s next after Israel’s elections?”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e5b64acb905ad2c3c176",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/28/what-are-the-implications-of-israels-elections?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/28/what-are-the-implications-of-israels-elections?traffic_source=rss",
+          "title": "What are the implications of Israel’s elections?",
+          "summary": "No clear winner in Israel's first election since the October 7 attacks and genocidal war in Gaza.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-28T19:03:03+00:00",
+          "fetched_at": "2026-10-28T21:04:44.021697+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_058ab197626814ea1586",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/jerusalem-daily-whats-next-after-israels-elections?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/jerusalem-daily-whats-next-after-israels-elections?traffic_source=rss",
+          "title": "Jerusalem Daily: What’s next after Israel’s elections?",
+          "summary": "Prime Minister Benjamin Netanyahu and former military chief Gadi Eisenkot are both claiming victory in Israel’s election",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-28T18:31:33+00:00",
+          "fetched_at": "2026-10-28T21:04:44.022711+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_208b518c4150b27a5660",
+      "title": "Is Iran headed to war or peace after Mecca alliance meeting?",
+      "category": "军事安全",
+      "score": 62.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 16.6,
+        "credibility": 8.5,
+        "impact": 13.0,
+        "velocity": 0.9
+      },
+      "first_seen": "2026-10-27T05:15:00+00:00",
+      "last_updated": "2026-10-28T14:20:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "DW Top Stories",
+        "middleeasteye.net"
+      ],
+      "regions": [
+        "Europe",
+        "Israel"
+      ],
+      "keywords": [
+        "iran",
+        "meeting",
+        "mecca",
+        "peace",
+        "pact",
+        "states",
+        "mark",
+        "beginning"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、middleeasteye.net等来源的2篇报道，当前关注的军事安全事件为“Is Iran headed to war or peace after Mecca alliance meeting?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Is Iran",
+          "Mecca",
+          "Iran"
+        ],
+        "latest_progress": [
+          "10月28日 14:20 UTC，DW Top Stories报道：“Is Iran headed to war or peace after Mecca alliance meeting?”。",
+          "10月27日 05:15 UTC，middleeasteye.net报道：“Iran says meeting with Mecca pact states will mark beginning of real transformation”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_35b9b2fbce5a06a7105a",
+          "url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-top-1022-rdf",
+          "title": "Is Iran headed to war or peace after Mecca alliance meeting?",
+          "summary": "Saudi Arabia, Pakistan and Turkey have taken their latest peace push directly to Tehran. Officially, it was to avert a new military escalation, but their diplomatic outreach can also be seen as a warning to Iran.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-28T14:20:00+00:00",
+          "fetched_at": "2026-10-28T21:04:43.652998+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e827ef41b6e01af1f6cd",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
+          "canonical_url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
+          "title": "Iran says meeting with Mecca pact states will mark beginning of real transformation",
+          "summary": "",
+          "source": "middleeasteye.net",
+          "source_type": "gdelt",
+          "published_at": "2026-10-27T05:15:00+00:00",
+          "fetched_at": "2026-10-28T21:03:29.792841+00:00",
+          "language": "English",
+          "region": "Israel",
+          "source_weight": 0.75,
+          "image_url": "https://www.middleeasteye.net/sites/default/files/2026-10/Iran_Saudi_Pakistan_Turkey.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7caa8c1b50f57369782b",
+      "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+      "category": "能源资源",
+      "score": 61.6,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 17.3,
+        "recency": 18.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 1.5
+      },
+      "first_seen": "2026-10-27T20:42:38+00:00",
+      "last_updated": "2026-10-28T17:04:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "oleshky",
+        "about",
+        "brokered",
+        "melania",
+        "trump",
+        "russian-occupied",
+        "know",
+        "ukraine-russia"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Evacuation",
+          "Oleshky",
+          "What",
+          "Ukraine",
+          "Russia",
+          "Melania Trump"
+        ],
+        "latest_progress": [
+          "10月28日 17:04 UTC，DW Top Stories报道：“Evacuation from Oleshky: How are preparations going?”。",
+          "10月27日 20:42 UTC，BBC World报道：“What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f107fbaccd949de21eb5",
+          "url": "https://www.dw.com/en/evacuation-from-oleshky-how-are-preparations-going/a-79790001?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/evacuation-from-oleshky-how-are-preparations-going/a-79790001?maca=en-rss-en-top-1022-rdf",
+          "title": "Evacuation from Oleshky: How are preparations going?",
+          "summary": "A lawyer with the Save Ukraine Foundation, Myroslava Kharchenko, told DW about what has been happening in Russian-occupied Oleshky since a temporary ceasefire brokered by Melania Trump took effect.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-28T17:04:00+00:00",
+          "fetched_at": "2026-10-28T21:04:43.652190+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2ba52bad74854f779404",
+          "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_campaign=rss&at_medium=RSS",
+          "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+          "summary": "The Russian-occupied city of Oleshky has had no electricity, gas or water for three years, as residents reported having to eat weeds to survive.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-27T20:42:38+00:00",
+          "fetched_at": "2026-10-28T21:04:43.267613+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8774/live/b2b005e0-d246-11f1-b441-2b33b063138f.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1e6ca3a23debda88c5b7",
+      "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+      "category": "国际政治",
+      "score": 60.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 14.0,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -569,7 +1037,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-28T10:17:54+00:00",
-          "fetched_at": "2026-10-28T16:03:42.770369+00:00",
+          "fetched_at": "2026-10-28T21:04:43.265593+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -584,366 +1052,10 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-28T08:48:00+00:00",
-          "fetched_at": "2026-10-28T16:03:42.886712+00:00",
+          "fetched_at": "2026-10-28T21:04:43.654130+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_20312fd66f2e9aebcc94",
-      "title": "Are GCC countries looking for a regional security pact with Iran?",
-      "category": "军事安全",
-      "score": 62.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.9,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-28T14:51:14+00:00",
-      "last_updated": "2026-10-28T14:51:14+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "gcc",
-        "countries",
-        "looking",
-        "regional",
-        "security",
-        "pact",
-        "iran",
-        "observers"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Are GCC countries looking for a regional security pact with Iran?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Are",
-          "GCC",
-          "Iran"
-        ],
-        "latest_progress": [
-          "10月28日 14:51 UTC，Al Jazeera报道：“Are GCC countries looking for a regional security pact with Iran?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_90af2c162075b9f34cbd",
-          "url": "https://www.aljazeera.com/news/2026/10/28/are-gcc-countries-looking-for-a-regional-security-pact-with-iran?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/28/are-gcc-countries-looking-for-a-regional-security-pact-with-iran?traffic_source=rss",
-          "title": "Are GCC countries looking for a regional security pact with Iran?",
-          "summary": "Observers say diverging views are unlikely to turn current diplomatic efforts into a lasting infrastructure.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T14:51:14+00:00",
-          "fetched_at": "2026-10-28T16:03:43.312302+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d93fdc389f32de4c71ea",
-      "title": "Espionage threats blur lines between security and dissent in Iran",
-      "category": "军事安全",
-      "score": 61.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-28T14:03:08+00:00",
-      "last_updated": "2026-10-28T14:03:08+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "iran",
-        "espionage",
-        "threats",
-        "blur",
-        "lines",
-        "between",
-        "security",
-        "dissent"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Espionage threats blur lines between security and dissent in Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Espionage",
-          "Iran"
-        ],
-        "latest_progress": [
-          "10月28日 14:03 UTC，Al Jazeera报道：“Espionage threats blur lines between security and dissent in Iran”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_22fbd3a6839ed3807299",
-          "url": "https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/28/iran-faces-espionage-attempts-but-using-threat-for-crackdown-on-opponents?traffic_source=rss",
-          "title": "Espionage threats blur lines between security and dissent in Iran",
-          "summary": "Iran is using the threat of spy networks to detain and execute political opponents, analysts say.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T14:03:08+00:00",
-          "fetched_at": "2026-10-28T16:03:43.312677+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_07ebde395f35c03b8122",
-      "title": "Why are three of the UK’s four nuclear deterrent submarines at sea?",
-      "category": "军事安全",
-      "score": 61.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-28T13:56:41+00:00",
-      "last_updated": "2026-10-28T13:56:41+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "three",
-        "sea",
-        "time",
-        "four",
-        "nuclear",
-        "deterrent",
-        "submarines",
-        "deployment"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why are three of the UK’s four nuclear deterrent submarines at sea?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Why",
-          "UK"
-        ],
-        "latest_progress": [
-          "10月28日 13:56 UTC，Al Jazeera报道：“Why are three of the UK’s four nuclear deterrent submarines at sea?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6a1cfac3c17adfa76af3",
-          "url": "https://www.aljazeera.com/news/2026/10/28/why-are-three-of-the-uks-four-nuclear-deterrent-submarines-at-sea?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/28/why-are-three-of-the-uks-four-nuclear-deterrent-submarines-at-sea?traffic_source=rss",
-          "title": "Why are three of the UK’s four nuclear deterrent submarines at sea?",
-          "summary": "The deployment marks the first time in years that three Vanguard-class vessels have been at sea at the same time.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T13:56:41+00:00",
-          "fetched_at": "2026-10-28T16:03:43.312745+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2912595819ccd7027def",
-      "title": "Is Iran headed to war or peace after Mecca alliance meeting?",
-      "category": "军事安全",
-      "score": 61.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.5,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-28T14:20:00+00:00",
-      "last_updated": "2026-10-28T14:20:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "iran",
-        "peace",
-        "headed",
-        "war",
-        "mecca",
-        "alliance",
-        "meeting",
-        "saudi"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Is Iran headed to war or peace after Mecca alliance meeting?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Is Iran",
-          "Mecca"
-        ],
-        "latest_progress": [
-          "10月28日 14:20 UTC，DW Top Stories报道：“Is Iran headed to war or peace after Mecca alliance meeting?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_35b9b2fbce5a06a7105a",
-          "url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-top-1022-rdf",
-          "title": "Is Iran headed to war or peace after Mecca alliance meeting?",
-          "summary": "Saudi Arabia, Pakistan and Turkey have taken their latest peace push directly to Tehran. Officially, it was to avert a new military escalation, but their diplomatic outreach can also be seen as a warning to Iran.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-28T14:20:00+00:00",
-          "fetched_at": "2026-10-28T16:03:42.886178+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5f3208c27e16f84684c8",
-      "title": "US Congresswoman Rashida Tlaib condemns anti-Muslim election rhetoric",
-      "category": "国际政治",
-      "score": 60.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-28T15:40:04+00:00",
-      "last_updated": "2026-10-28T15:40:04+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "congresswoman",
-        "rashida",
-        "tlaib",
-        "condemns",
-        "anti-muslim",
-        "election",
-        "rhetoric"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“US Congresswoman Rashida Tlaib condemns anti-Muslim election rhetoric”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "US",
-          "Congresswoman Rashida Tlaib",
-          "Muslim"
-        ],
-        "latest_progress": [
-          "10月28日 15:40 UTC，Al Jazeera报道：“US Congresswoman Rashida Tlaib condemns anti-Muslim election rhetoric”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_49f280eb60ecc1451209",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/us-congresswoman-rashida-tlaib-condemns-anti-muslim-election-rhetoric?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/us-congresswoman-rashida-tlaib-condemns-anti-muslim-election-rhetoric?traffic_source=rss",
-          "title": "US Congresswoman Rashida Tlaib condemns anti-Muslim election rhetoric",
-          "summary": "US Congresswoman Rashida Tlaib condemns anti-Muslim election rhetoric",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T15:40:04+00:00",
-          "fetched_at": "2026-10-28T16:03:43.311975+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
