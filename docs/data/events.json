@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-10-29T20:17:58.191351+00:00",
+  "generated_at": "2026-10-29T23:59:47.006808+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
     "articles_fetched": 84,
     "articles_unique": 84,
     "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
       {
         "source": "GDELT: (geopolitics OR security OR supply chain OR a",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
@@ -17,18 +21,18 @@
       "event_id": "evt_855c8ea855803b1ac05c",
       "title": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
       "category": "国际政治",
-      "score": 85.0,
+      "score": 86.4,
       "score_breakdown": {
         "coverage": 20.8,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 17.9,
+        "recency": 19.9,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 3.6
+        "velocity": 3.0
       },
       "first_seen": "2026-10-28T10:09:46+00:00",
-      "last_updated": "2026-10-29T15:18:38+00:00",
+      "last_updated": "2026-10-29T21:33:35+00:00",
       "source_count": 4,
       "article_count": 7,
       "sources": [
@@ -45,30 +49,30 @@
       "keywords": [
         "train",
         "crash",
-        "high-speed",
         "spain",
-        "deadly",
+        "high-speed",
         "another",
-        "spain's",
-        "year"
+        "year",
+        "between",
+        "had"
       ],
       "analysis": {
         "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的国际政治事件为“Audio reveals exchanges between Spain train operators and drivers moments before deadly crash”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Spanish",
-          "Julieta Gallego",
-          "Audio",
+          "Young",
           "Spain",
           "What",
-          "PM",
-          "Sanchez",
-          "At"
+          "Real Madrid",
+          "FC",
+          "Barcelona",
+          "Audio",
+          "PM"
         ],
         "latest_progress": [
-          "10月29日 15:18 UTC，Al Jazeera报道：“Spanish long jumper Julieta Gallego among victims of deadly train collision”。",
-          "10月29日 11:07 UTC，BBC World报道：“Audio reveals exchanges between Spain train operators and drivers moments before deadly crash”。",
-          "10月29日 10:02 UTC，BBC World报道：“What we know so far about deadly Spain train crash”。"
+          "10月29日 21:33 UTC，BBC World报道：“Young athlete and former minister among victims of Spain train crash”。",
+          "10月29日 20:50 UTC，BBC World报道：“Watch: What leaked audio reveals about Spain train crash”。",
+          "10月29日 20:42 UTC，Al Jazeera报道：“Real Madrid and FC Barcelona honour Spain train crash victims”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -81,15 +85,45 @@
       },
       "articles": [
         {
-          "article_id": "art_ec779500c5dbf2bfeee8",
-          "url": "https://www.aljazeera.com/sports/2026/10/29/spanish-long-jumper-julieta-gallego-among-victims-of-deadly-train-collision?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/10/29/spanish-long-jumper-julieta-gallego-among-victims-of-deadly-train-collision?traffic_source=rss",
-          "title": "Spanish long jumper Julieta Gallego among victims of deadly train collision",
-          "summary": "Julieta Gallego, who competed for Madrid-based AD Sprint, among those killed in train crash in Spain.",
+          "article_id": "art_c7cca21661384af2e860",
+          "url": "https://www.bbc.co.uk/news/articles/cr78plp1p9yvo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cr78plp1p9yvo?at_campaign=rss&at_medium=RSS",
+          "title": "Young athlete and former minister among victims of Spain train crash",
+          "summary": "As some of the victims' names are released publicly, an outpouring of grief and anger is sweeping across Spain.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-29T21:33:35+00:00",
+          "fetched_at": "2026-10-29T23:59:44.953772+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9c9/live/e9ad7380-d3c6-11f1-867c-77016fb236d7.jpg"
+        },
+        {
+          "article_id": "art_5f6a6939867911ef201f",
+          "url": "https://www.bbc.co.uk/news/videos/c6vgjeg0myzgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c6vgjeg0myzgo?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: What leaked audio reveals about Spain train crash",
+          "summary": "Recordings between a control centre and the train drivers appear to show one train was given clearance to move even though another train had stalled on the track.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-29T20:50:25+00:00",
+          "fetched_at": "2026-10-29T23:59:44.953404+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d46f/live/7d9cd370-d3e4-11f1-9caf-3b69fd8bbd8b.jpg"
+        },
+        {
+          "article_id": "art_43e225625d2ab4f8d814",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/real-madrid-and-fc-barcelona-honour-spain-train-crash-victims?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/real-madrid-and-fc-barcelona-honour-spain-train-crash-victims?traffic_source=rss",
+          "title": "Real Madrid and FC Barcelona honour Spain train crash victims",
+          "summary": "Spanish football clubs were among those to hold a minute’s silence for the victims of Wednesday’s train collision.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-29T15:18:38+00:00",
-          "fetched_at": "2026-10-29T20:17:57.195108+00:00",
+          "published_at": "2026-10-29T20:42:03+00:00",
+          "fetched_at": "2026-10-29T23:59:46.062801+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -104,26 +138,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-29T11:07:35+00:00",
-          "fetched_at": "2026-10-29T20:17:55.651267+00:00",
+          "fetched_at": "2026-10-29T23:59:44.950953+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3bc/live/1e706fb0-d3c1-11f1-a62f-fd53d503ac8d.jpg"
-        },
-        {
-          "article_id": "art_e2d1aab8ced4318caf0a",
-          "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_campaign=rss&at_medium=RSS",
-          "title": "What we know so far about deadly Spain train crash",
-          "summary": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-29T10:02:37+00:00",
-          "fetched_at": "2026-10-29T20:17:55.655070+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe69/live/788ac890-d37d-11f1-b441-2b33b063138f.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5421/live/19962d80-d3e5-11f1-9caf-3b69fd8bbd8b.jpg"
         },
         {
           "article_id": "art_d5f5fe2daa8cf0504623",
@@ -134,7 +153,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-29T07:22:00+00:00",
-          "fetched_at": "2026-10-29T20:17:56.618417+00:00",
+          "fetched_at": "2026-10-29T23:59:45.675180+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -149,26 +168,11 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-29T06:10:11+00:00",
-          "fetched_at": "2026-10-29T20:17:56.965496+00:00",
+          "fetched_at": "2026-10-29T23:59:45.924114+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_c72a1127973a2aec3878",
-          "url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: At the scene of Spain's deadly train crash",
-          "summary": "People have been killed after a Spanish high-speed train collided with another train south of the capital Madrid, making this the country's worst disaster since 2013.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T16:45:16+00:00",
-          "fetched_at": "2026-10-29T20:17:55.654750+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97cd/live/4f78dd50-d2e9-11f1-b441-2b33b063138f.jpg"
         },
         {
           "article_id": "art_aeecd09938a56dc1753a",
@@ -179,135 +183,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-28T10:09:46+00:00",
-          "fetched_at": "2026-10-29T20:17:56.965992+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_dcf3601a9232db9d3122",
-      "title": "Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’",
-      "category": "国际政治",
-      "score": 82.7,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 21.2,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.8
-      },
-      "first_seen": "2026-10-28T21:46:27+00:00",
-      "last_updated": "2026-10-29T19:21:19+00:00",
-      "source_count": 4,
-      "article_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "bolsonaro",
-        "flavio",
-        "defeated",
-        "presidential",
-        "brazil",
-        "himself",
-        "election",
-        "brazilian"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Trump",
-          "Brazil",
-          "Bolsonaro",
-          "Flavio Bolsonaro",
-          "US",
-          "Brazil Brazilian",
-          "Miami"
-        ],
-        "latest_progress": [
-          "10月29日 19:21 UTC，Al Jazeera报道：“Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’”。",
-          "10月29日 14:58 UTC，BBC World报道：“Flávio Bolsonaro calls himself 'leader of Brazil' after election loss”。",
-          "10月28日 22:26 UTC，DW Top Stories报道：“Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_4498dfa315abeb874487",
-          "url": "https://www.aljazeera.com/news/2026/10/29/trump-says-wont-take-sides-in-brazil-election-but-calls-it-a-disgrace?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/29/trump-says-wont-take-sides-in-brazil-election-but-calls-it-a-disgrace?traffic_source=rss",
-          "title": "Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’",
-          "summary": "Comments come after Trump ally Flavio Bolsonaro fled to Miami in US and claimed, without evidence, that vote was stolen.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-29T19:21:19+00:00",
-          "fetched_at": "2026-10-29T20:17:57.192209+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_88852e38b2404acfd01f",
-          "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_campaign=rss&at_medium=RSS",
-          "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-          "summary": "The defeated presidential candidate says he will lead the opposition from the US.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-29T14:58:28+00:00",
-          "fetched_at": "2026-10-29T20:17:55.651640+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57ed/live/bd177c10-d3aa-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_c83902304d31163534d5",
-          "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-top-1022-rdf",
-          "title": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
-          "summary": "Flavio Bolsonaro declared himself the rightful leader of his country despite losing the presidential election runoff on Sunday. He and his family have fled to the US.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-28T22:26:00+00:00",
-          "fetched_at": "2026-10-29T20:17:56.619177+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ed30f11d7c362f6275ca",
-          "url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
-          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
-          "title": "Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami",
-          "summary": "Defeated presidential candidate Flavio Bolsonaro and his family have arrived in the U.S. after Brazilian authorities ordered him to surrender his passport. He is facing multiple investigations in Brazil.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T21:46:27+00:00",
-          "fetched_at": "2026-10-29T20:17:56.965651+00:00",
+          "fetched_at": "2026-10-29T23:59:45.924481+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -319,12 +195,12 @@
       "event_id": "evt_6046130faca69b568b29",
       "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
       "category": "军事安全",
-      "score": 77.6,
+      "score": 74.7,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.0,
+        "recency": 17.2,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -386,7 +262,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-29T18:03:21+00:00",
-          "fetched_at": "2026-10-29T20:17:57.193667+00:00",
+          "fetched_at": "2026-10-29T23:59:46.064710+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -401,7 +277,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-29T14:17:35+00:00",
-          "fetched_at": "2026-10-29T20:17:55.651471+00:00",
+          "fetched_at": "2026-10-29T23:59:44.951255+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -416,7 +292,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-29T11:33:00+00:00",
-          "fetched_at": "2026-10-29T20:17:56.617750+00:00",
+          "fetched_at": "2026-10-29T23:59:45.674506+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -425,15 +301,105 @@
       ]
     },
     {
-      "event_id": "evt_d1c07ae33e40a54c94b0",
-      "title": "European Central Bank President Lagarde to step down early",
-      "category": "经济金融",
-      "score": 68.5,
+      "event_id": "evt_cf4b31a174ee92e4a0d3",
+      "title": "Netanyahu attacks Palestinian-Israeli parties as he falls short of majority",
+      "category": "国际政治",
+      "score": 70.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.8,
+        "recency": 21.3,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-29T19:06:00+00:00",
+      "last_updated": "2026-10-29T23:10:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "netanyahu",
+        "parties",
+        "majority",
+        "all",
+        "votes",
+        "counted",
+        "palestinian-israeli",
+        "short"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Netanyahu attacks Palestinian-Israeli parties as he falls short of majority”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Israeli",
+          "Netanyahu",
+          "Palestinian"
+        ],
+        "latest_progress": [
+          "10月29日 23:10 UTC，DW Top Stories报道：“Israeli election: Netanyahu, main rival fall short of majority after all votes counted”。",
+          "10月29日 19:06 UTC，Al Jazeera报道：“Netanyahu attacks Palestinian-Israeli parties as he falls short of majority”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b14a4d75c37e1aea86e8",
+          "url": "https://www.dw.com/en/israeli-election-netanyahu-main-rival-fall-short-of-majority-after-all-votes-counted/live-79713839?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/israeli-election-netanyahu-main-rival-fall-short-of-majority-after-all-votes-counted/live-79713839?maca=en-rss-en-top-1022-rdf",
+          "title": "Israeli election: Netanyahu, main rival fall short of majority after all votes counted",
+          "summary": "With all the votes counted, the pro-Netanyahu bloc finished ahead of Gadi Eisenkot's anti-Netanyahu bloc. But as neither grouping won a majority, tough coalition talks are ahead. Follow DW.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-29T23:10:00+00:00",
+          "fetched_at": "2026-10-29T23:59:45.672834+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_4ab3a42f36bc06f4e614",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/netanyahu-attacks-palestinian-israeli-parties-as-he-falls-short-of-majority?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/netanyahu-attacks-palestinian-israeli-parties-as-he-falls-short-of-majority?traffic_source=rss",
+          "title": "Netanyahu attacks Palestinian-Israeli parties as he falls short of majority",
+          "summary": "With all votes now counted, opposition parties could join forces with Palestinian-Israeli parties to unseat Netanyahu.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-29T19:06:00+00:00",
+          "fetched_at": "2026-10-29T23:59:46.063696+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d1c07ae33e40a54c94b0",
+      "title": "European Central Bank President Lagarde to step down early",
+      "category": "经济金融",
+      "score": 65.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 16.2,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
@@ -494,7 +460,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-29T16:34:55+00:00",
-          "fetched_at": "2026-10-29T20:17:57.194322+00:00",
+          "fetched_at": "2026-10-29T23:59:46.065234+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -509,7 +475,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-29T10:33:00+00:00",
-          "fetched_at": "2026-10-29T20:17:56.618037+00:00",
+          "fetched_at": "2026-10-29T23:59:45.674734+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -521,12 +487,12 @@
       "event_id": "evt_8a91271c17c0e47cd129",
       "title": "EU chief lays out vision for new Canada partnership at Montreal summit",
       "category": "国际政治",
-      "score": 67.2,
+      "score": 64.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.7,
+        "recency": 17.7,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -583,7 +549,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-29T18:50:00+00:00",
-          "fetched_at": "2026-10-29T20:17:56.616515+00:00",
+          "fetched_at": "2026-10-29T23:59:45.673546+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -598,7 +564,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-29T17:02:59+00:00",
-          "fetched_at": "2026-10-29T20:17:55.652157+00:00",
+          "fetched_at": "2026-10-29T23:59:44.951649+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -607,89 +573,73 @@
       ]
     },
     {
-      "event_id": "evt_a30307d6a35f2ede3840",
-      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-      "category": "国际政治",
-      "score": 63.0,
+      "event_id": "evt_6a1fbe81c259ad09854a",
+      "title": "Palestinians injured, arrested in Israeli raids across West Bank",
+      "category": "军事安全",
+      "score": 60.2,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 18.2,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 3.3
+        "recency": 19.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-29T06:36:00+00:00",
-      "last_updated": "2026-10-29T15:47:20+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-29T20:40:03+00:00",
+      "last_updated": "2026-10-29T20:40:03+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "BBC World",
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "bloc",
-        "counted",
-        "israel",
-        "election",
-        "nearly",
-        "votes",
-        "ahead",
-        "win"
+        "palestinians",
+        "injured",
+        "arrested",
+        "israeli",
+        "raids",
+        "across",
+        "west",
+        "bank"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Netanyahu's bloc leading Israel election but short of majority, partial results show”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Palestinians injured, arrested in Israeli raids across West Bank”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Netanyahu",
-          "Israel"
+          "Palestinians",
+          "Israeli",
+          "West Bank"
         ],
         "latest_progress": [
-          "10月29日 15:47 UTC，BBC World报道：“Netanyahu's bloc leading Israel election but short of majority, partial results show”。",
-          "10月29日 06:36 UTC，DW Top Stories报道：“Israel election: Netanyahu-led bloc holds lead with nearly 99% of votes counted”。"
+          "10月29日 20:40 UTC，Al Jazeera报道：“Palestinians injured, arrested in Israeli raids across West Bank”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_4aa7c6ddb41a6d35c458",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_campaign=rss&at_medium=RSS",
-          "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-          "summary": "With 99% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
-          "source": "BBC World",
+          "article_id": "art_966e1f2e52b8fce41835",
+          "url": "https://www.aljazeera.com/news/2026/10/29/palestinians-injured-arrested-in-israeli-raids-across-west-bank?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/29/palestinians-injured-arrested-in-israeli-raids-across-west-bank?traffic_source=rss",
+          "title": "Palestinians injured, arrested in Israeli raids across West Bank",
+          "summary": "This comes as more than 3,300 Palestinians are forced from homes in Hebron as Israel's military offensive continues.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-29T15:47:20+00:00",
-          "fetched_at": "2026-10-29T20:17:55.652313+00:00",
+          "published_at": "2026-10-29T20:40:03+00:00",
+          "fetched_at": "2026-10-29T23:59:46.062930+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3381/live/719a4410-d2f2-11f1-8d86-83eebc838351.jpg"
-        },
-        {
-          "article_id": "art_c506905c35c62ef4b966",
-          "url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-holds-lead-with-nearly-99-of-votes-counted/live-79713839?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-holds-lead-with-nearly-99-of-votes-counted/live-79713839?maca=en-rss-en-top-1022-rdf",
-          "title": "Israel election: Netanyahu-led bloc holds lead with nearly 99% of votes counted",
-          "summary": "With nearly 99% of votes counted, the pro-Netanyahu bloc is ahead of the anti-Netanyahu bloc, but neither grouping is expected to win a majority, with tough coalition talks ahead. Follow DW.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-29T06:36:00+00:00",
-          "fetched_at": "2026-10-29T20:17:56.618657+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
@@ -698,12 +648,12 @@
       "event_id": "evt_7337578309608a79f0e5",
       "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
       "category": "军事安全",
-      "score": 62.9,
+      "score": 59.7,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.8,
+        "recency": 18.7,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -756,7 +706,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-29T20:05:57+00:00",
-          "fetched_at": "2026-10-29T20:17:55.651995+00:00",
+          "fetched_at": "2026-10-29T23:59:44.951115+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -768,12 +718,12 @@
       "event_id": "evt_6c17a1c3024c00bd3967",
       "title": "Pentagon fires general it says leaked classified information to media",
       "category": "军事安全",
-      "score": 61.9,
+      "score": 58.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
+        "recency": 17.9,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -826,7 +776,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-29T19:02:19+00:00",
-          "fetched_at": "2026-10-29T20:17:57.192711+00:00",
+          "fetched_at": "2026-10-29T23:59:46.063947+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -835,21 +785,21 @@
       ]
     },
     {
-      "event_id": "evt_a1deeb24049b39746082",
-      "title": "Pakistan rights activist Imaan Mazari and husband jailed for 10 years",
-      "category": "军事安全",
-      "score": 60.6,
+      "event_id": "evt_2c5eca5271750f88b87d",
+      "title": "Does Russia offer African countries an equal partnership?",
+      "category": "国际政治",
+      "score": 58.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.6,
+        "recency": 19.1,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-29T17:28:18+00:00",
-      "last_updated": "2026-10-29T17:28:18+00:00",
+      "first_seen": "2026-10-29T20:34:28+00:00",
+      "last_updated": "2026-10-29T20:34:28+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -859,45 +809,45 @@
         "Middle East"
       ],
       "keywords": [
-        "pakistan",
-        "rights",
-        "activist",
-        "imaan",
-        "mazari",
-        "husband",
-        "jailed",
-        "years"
+        "african",
+        "does",
+        "russia",
+        "offer",
+        "countries",
+        "equal",
+        "partnership",
+        "president"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Pakistan rights activist Imaan Mazari and husband jailed for 10 years”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Does Russia offer African countries an equal partnership?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Pakistan",
-          "Imaan Mazari"
+          "Does Russia",
+          "African"
         ],
         "latest_progress": [
-          "10月29日 17:28 UTC，Al Jazeera报道：“Pakistan rights activist Imaan Mazari and husband jailed for 10 years”。"
+          "10月29日 20:34 UTC，Al Jazeera报道：“Does Russia offer African countries an equal partnership?”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_c1f8a439437c5adbcad0",
-          "url": "https://www.aljazeera.com/news/2026/10/29/pakistan-rights-activist-imaan-mazari-and-husband-jailed-for-10-years?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/29/pakistan-rights-activist-imaan-mazari-and-husband-jailed-for-10-years?traffic_source=rss",
-          "title": "Pakistan rights activist Imaan Mazari and husband jailed for 10 years",
-          "summary": "Couple say they are 'prisoners of conscience' being made an example of by Pakistan's military-backed authorities.",
+          "article_id": "art_abf7431cbd2ce74b3039",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/10/29/does-russia-offer-african-countries-an-equal-partnership?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/29/does-russia-offer-african-countries-an-equal-partnership?traffic_source=rss",
+          "title": "Does Russia offer African countries an equal partnership?",
+          "summary": "President Vladimir Putin hosts African leaders at a summit in Moscow.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-29T17:28:18+00:00",
-          "fetched_at": "2026-10-29T20:17:57.193824+00:00",
+          "published_at": "2026-10-29T20:34:28+00:00",
+          "fetched_at": "2026-10-29T23:59:46.063051+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -906,21 +856,21 @@
       ]
     },
     {
-      "event_id": "evt_71183d19f6d85d9a6e75",
-      "title": "UAE sentences eight people to life over arms supplies to Sudan’s army",
-      "category": "军事安全",
-      "score": 60.6,
+      "event_id": "evt_eb5afb5e398c38d30bc2",
+      "title": "Israel election result shows no overall majority as vote count complete",
+      "category": "国际政治",
+      "score": 58.0,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.5,
+        "recency": 18.9,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-29T17:25:17+00:00",
-      "last_updated": "2026-10-29T17:25:17+00:00",
+      "first_seen": "2026-10-29T20:22:04+00:00",
+      "last_updated": "2026-10-29T20:22:04+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -930,45 +880,44 @@
         "Middle East"
       ],
       "keywords": [
-        "sentences",
-        "life",
-        "uae",
-        "eight",
-        "people",
-        "arms",
-        "supplies",
-        "sudan"
+        "majority",
+        "israel",
+        "election",
+        "result",
+        "shows",
+        "overall",
+        "vote",
+        "count"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“UAE sentences eight people to life over arms supplies to Sudan’s army”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Israel election result shows no overall majority as vote count complete”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "UAE",
-          "Sudan"
+          "Israel"
         ],
         "latest_progress": [
-          "10月29日 17:25 UTC，Al Jazeera报道：“UAE sentences eight people to life over arms supplies to Sudan’s army”。"
+          "10月29日 20:22 UTC，Al Jazeera报道：“Israel election result shows no overall majority as vote count complete”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_2d3639bd7752205259b5",
-          "url": "https://www.aljazeera.com/news/2026/10/29/uae-sentences-eight-people-to-life-over-arms-supplies-to-sudans-army?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/29/uae-sentences-eight-people-to-life-over-arms-supplies-to-sudans-army?traffic_source=rss",
-          "title": "UAE sentences eight people to life over arms supplies to Sudan’s army",
-          "summary": "Defendants handed ⁠life sentences amid tensions between Khartoum and Abu Dhabi over Sudan's war and the RSF.",
+          "article_id": "art_af11012ee96efea31f3c",
+          "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete?traffic_source=rss",
+          "title": "Israel election result shows no overall majority as vote count complete",
+          "summary": "Opposition explores options to form coalition as no party secures the 61 seats required for parliamentary majority.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-29T17:25:17+00:00",
-          "fetched_at": "2026-10-29T20:17:57.194010+00:00",
+          "published_at": "2026-10-29T20:22:04+00:00",
+          "fetched_at": "2026-10-29T23:59:46.063194+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
