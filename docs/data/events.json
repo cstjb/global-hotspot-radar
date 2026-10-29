@@ -1,29 +1,242 @@
 {
-  "generated_at": "2026-10-28T21:04:45.781260+00:00",
+  "generated_at": "2026-10-29T00:57:21.857646+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 180,
-    "articles_unique": 170,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 83,
+    "articles_unique": 83,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_ee0b818e18e5376565e4",
-      "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
+      "event_id": "evt_f3bc0f02700835a13de8",
+      "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
       "category": "国际政治",
-      "score": 88.1,
+      "score": 91.5,
+      "score_breakdown": {
+        "coverage": 22.0,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.7,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-28T09:17:00+00:00",
+      "last_updated": "2026-10-29T00:36:33+00:00",
+      "source_count": 4,
+      "article_count": 9,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "train",
+        "crash",
+        "spain",
+        "high-speed",
+        "madrid",
+        "people",
+        "trains",
+        "south"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的9篇报道，当前关注的国际政治事件为“Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Riot",
+          "Madrid",
+          "High",
+          "Spain Bloodied",
+          "Spain Spain",
+          "At",
+          "Spain",
+          "What"
+        ],
+        "latest_progress": [
+          "10月29日 00:36 UTC，Al Jazeera报道：“Riot police deployed in Madrid as protests erupt over deadly train crash”。",
+          "10月28日 21:38 UTC，BBC World报道：“High-speed train crash kills at least 68 people in Spain”。",
+          "10月28日 21:24 UTC，BBC World报道：“Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d9a72121c5f4ecf7510d",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/riot-police-deployed-in-madrid-as-protests-erupt-over-deadly-train-crash?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/riot-police-deployed-in-madrid-as-protests-erupt-over-deadly-train-crash?traffic_source=rss",
+          "title": "Riot police deployed in Madrid as protests erupt over deadly train crash",
+          "summary": "A deadly train crash fuelled anger in Spain as far-right demonstrators clashed with police",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-29T00:36:33+00:00",
+          "fetched_at": "2026-10-29T00:57:20.916769+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e23905dc137b6efb319d",
+          "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_campaign=rss&at_medium=RSS",
+          "title": "High-speed train crash kills at least 68 people in Spain",
+          "summary": "The crash, between a moving train and another that was stopped further up the track, was caused by an \"inexplicable\" error, the transport minister said.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T21:38:54+00:00",
+          "fetched_at": "2026-10-29T00:57:20.025882+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c0f/live/1f7e90f0-d2e8-11f1-8d86-83eebc838351.jpg"
+        },
+        {
+          "article_id": "art_547a893902265a4ae224",
+          "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_campaign=rss&at_medium=RSS",
+          "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+          "summary": "Survivors of the train crash in Spain have spoken of their shock, panic and anger at the accident in Toledo province on Wednesday.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T21:24:41+00:00",
+          "fetched_at": "2026-10-29T00:57:20.026089+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2148/live/b9f2de90-d31d-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_cae418d3ef708bf4dde9",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss",
+          "title": "Spain demands answers after deadliest train disaster in over a decade",
+          "summary": "At least 68 people have been killed and more than 100 injured after two high-speed trains collided south of Madrid.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-28T19:32:57+00:00",
+          "fetched_at": "2026-10-29T00:57:20.918760+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c72a1127973a2aec3878",
+          "url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: At the scene of Spain's deadly train crash",
+          "summary": "People have been killed after a Spanish high-speed train collided with another train south of the capital Madrid, making this the country's worst disaster since 2013.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T16:45:16+00:00",
+          "fetched_at": "2026-10-29T00:57:20.028778+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97cd/live/4f78dd50-d2e9-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_e2d1aab8ced4318caf0a",
+          "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_campaign=rss&at_medium=RSS",
+          "title": "What we know so far about deadly Spain train crash",
+          "summary": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T15:36:11+00:00",
+          "fetched_at": "2026-10-29T00:57:20.029550+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81f7/live/e4acc800-d302-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_2dccbcc02e84ab23d285",
+          "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-top-1022-rdf",
+          "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
+          "summary": "Two high-speed trains carrying hundreds of passengers collided south of Madrid. Spain's transport minister said one of the trains was told to continue its journey despite a \"red signal\" being in effect. Follow DW.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-28T14:33:00+00:00",
+          "fetched_at": "2026-10-29T00:57:20.533032+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_aeecd09938a56dc1753a",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
+          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
+          "title": "Dozens are dead in a high-speed train crash in Spain",
+          "summary": "The toll is rising after a high-speed train between slammed into the rear of another train that had stopped south of Madrid, derailing two cars. It was Spain's second major train accident this year.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T10:09:46+00:00",
+          "fetched_at": "2026-10-29T00:57:20.719492+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c1ea190fd74b53e565fe",
+          "url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-top-1022-rdf",
+          "title": "Dozens of people killed after high-speed trains collide in central Spain",
+          "summary": "At least 68 people have been killed in a train crash in central Spain, local authorities have confirmed. Rail services between Madrid and Seville have been suspended.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-28T09:17:00+00:00",
+          "fetched_at": "2026-10-29T00:57:20.534034+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_534293b3b05f201dfae8",
+      "title": "What’s next for Brazil’s Flavio Bolsonaro after election defeat?",
+      "category": "国际政治",
+      "score": 87.0,
       "score_breakdown": {
         "coverage": 19.5,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 22.0,
+        "recency": 20.6,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 4.0
+        "velocity": 4.2
       },
-      "first_seen": "2026-10-27T22:18:00+00:00",
-      "last_updated": "2026-10-28T21:03:49+00:00",
+      "first_seen": "2026-10-28T01:58:08+00:00",
+      "last_updated": "2026-10-28T23:21:48+00:00",
       "source_count": 4,
       "article_count": 6,
       "sources": [
@@ -39,31 +252,31 @@
       ],
       "keywords": [
         "bolsonaro",
-        "flavio",
         "brazil",
-        "presidential",
         "vio",
-        "florida",
         "defeated",
-        "candidate"
+        "miami",
+        "flavio",
+        "candidate",
+        "arrives"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“What’s next for Brazil’s Flavio Bolsonaro after election defeat?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Bolsonaro",
-          "Miami",
           "Brazil",
-          "Flavio Bolsonaro",
+          "Miami Flavio Bolsonaro",
           "US",
-          "Brazil Bolsonaro",
-          "Florida",
-          "Brazil Flavio Bolsonaro"
+          "Brazil Brazilian",
+          "Flavio Bolsonaro",
+          "Miami What",
+          "Miami"
         ],
         "latest_progress": [
-          "10月28日 21:03 UTC，BBC World报道：“Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election”。",
-          "10月28日 18:51 UTC，BBC World报道：“How did Flávio Bolsonaro end up in Miami?”。",
-          "10月28日 15:10 UTC，DW Top Stories报道：“Flavio Bolsonaro lands in US, declares himself 'president-elect' of Brazil”。"
+          "10月28日 23:21 UTC，BBC World报道：“Flávio Bolsonaro denies fleeing Brazil after landing in Miami”。",
+          "10月28日 22:26 UTC，DW Top Stories报道：“Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil”。",
+          "10月28日 21:46 UTC，NPR World报道：“Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -79,16 +292,61 @@
           "article_id": "art_4348a1804ab5ee3a50b5",
           "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_campaign=rss&at_medium=RSS",
-          "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
-          "summary": "Bolsonaro's arrival in the US ends speculation about his whereabouts after he failed to comply with an order to surrender his passports.",
+          "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+          "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-28T21:03:49+00:00",
-          "fetched_at": "2026-10-28T21:04:43.264899+00:00",
+          "published_at": "2026-10-28T23:21:48+00:00",
+          "fetched_at": "2026-10-29T00:57:20.026265+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_c83902304d31163534d5",
+          "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-leader-of-brazil/a-79788659?maca=en-rss-en-top-1022-rdf",
+          "title": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
+          "summary": "Flavio Bolsonaro declared himself the rightful leader of his country despite losing the presidential election runoff on Sunday. He and his family have fled to the US.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-28T22:26:00+00:00",
+          "fetched_at": "2026-10-29T00:57:20.532219+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ed30f11d7c362f6275ca",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
+          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
+          "title": "Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami",
+          "summary": "Defeated presidential candidate Flavio Bolsonaro and his family have arrived in the U.S. after Brazilian authorities ordered him to surrender his passport. He is facing multiple investigations in Brazil.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-28T21:46:27+00:00",
+          "fetched_at": "2026-10-29T00:57:20.719157+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c5239f39a393510fb972",
+          "url": "https://www.aljazeera.com/news/2026/10/28/whats-next-for-brazils-flavio-bolsonaro-after-election-defeat?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/28/whats-next-for-brazils-flavio-bolsonaro-after-election-defeat?traffic_source=rss",
+          "title": "What’s next for Brazil’s Flavio Bolsonaro after election defeat?",
+          "summary": "The far-right ally of US President Donald Trump has fled to Miami with his wife and children.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-28T20:38:01+00:00",
+          "fetched_at": "2026-10-29T00:57:20.918143+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         },
         {
           "article_id": "art_29b6b29ebb3577a8eb85",
@@ -99,67 +357,115 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-28T18:51:05+00:00",
-          "fetched_at": "2026-10-28T21:04:43.266997+00:00",
+          "fetched_at": "2026-10-29T00:57:20.029393+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9c9/live/0a0506e0-d2f8-11f1-a701-fddedf244c16.jpg"
         },
         {
-          "article_id": "art_ccf4a9a1dea23dca4137",
-          "url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-president-elect-of-brazil/a-79788659?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/flavio-bolsonaro-lands-in-us-declares-himself-president-elect-of-brazil/a-79788659?maca=en-rss-en-top-1022-rdf",
-          "title": "Flavio Bolsonaro lands in US, declares himself 'president-elect' of Brazil",
-          "summary": "Defeated Brazilian presidential candidate Flavio Bolsonaro and his family landed in Florida early on Wednesday. Facing money laundering allegations, he fled just days after refusing to concede defeat to incumbent Lula.",
-          "source": "DW Top Stories",
+          "article_id": "art_1b20b74ec3a60e459286",
+          "url": "https://www.npr.org/2026/10/27/nx-s1-6019678/bolsonaro-brazil-lula-election-trump",
+          "canonical_url": "https://www.npr.org/2026/10/27/nx-s1-6019678/bolsonaro-brazil-lula-election-trump",
+          "title": "Flávio Bolsonaro arrives in Florida after fleeing Brazil",
+          "summary": "Brazil's defeated candidate Flávio Bolsonaro arrives in the U.S. after a multi-country journey as Washington says it will issue him a visa.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-28T15:10:00+00:00",
-          "fetched_at": "2026-10-28T21:04:43.652742+00:00",
+          "published_at": "2026-10-28T01:58:08+00:00",
+          "fetched_at": "2026-10-29T00:57:20.720255+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2912595819ccd7027def",
+      "title": "Iran war live: Tehran presses 7-day Hormuz plan; Trump denies peace talks",
+      "category": "军事安全",
+      "score": 70.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.1,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 3.1
+      },
+      "first_seen": "2026-10-28T14:20:00+00:00",
+      "last_updated": "2026-10-29T00:00:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "iran",
+        "peace",
+        "war",
+        "tehran",
+        "hormuz",
+        "plan",
+        "headed",
+        "mecca"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Iran war live: Tehran presses 7-day Hormuz plan; Trump denies peace talks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "Tehran",
+          "Hormuz",
+          "Trump",
+          "Is Iran",
+          "Mecca"
+        ],
+        "latest_progress": [
+          "10月29日 00:00 UTC，Al Jazeera报道：“Iran war live: Tehran presses 7-day Hormuz plan; Trump denies peace talks”。",
+          "10月28日 14:20 UTC，DW Top Stories报道：“Is Iran headed to war or peace after Mecca alliance meeting?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
-          "article_id": "art_9d8a76fe700f9f89255a",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_bolsonaro-in-florida-after-vanishing-from-public-281026?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_bolsonaro-in-florida-after-vanishing-from-public-281026?traffic_source=rss",
-          "title": "Bolsonaro turns up in Florida after vanishing from public view",
-          "summary": "Flavio Bolsonaro, Brazil’s defeated presidential candidate, landed in Florida after fleeing the country with his family.",
+          "article_id": "art_29ffb4371bb454486a8d",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
+          "title": "Iran war live: Tehran presses 7-day Hormuz plan; Trump denies peace talks",
+          "summary": "Araghchi says Iran is in close contact with mediators on ideas to implement its seven-day plan to reopen Hormuz strait.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-28T15:02:04+00:00",
-          "fetched_at": "2026-10-28T21:04:44.024416+00:00",
+          "published_at": "2026-10-29T00:00:00+00:00",
+          "fetched_at": "2026-10-29T00:57:20.917316+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_d7a3dbed4764357dc1b0",
-          "url": "https://www.npr.org/2026/10/27/nx-s1-6019678/u-s-to-issue-visas-to-flavio-bolsonaro-as-his-whereabouts-remain-unclear",
-          "canonical_url": "https://www.npr.org/2026/10/27/nx-s1-6019678/u-s-to-issue-visas-to-flavio-bolsonaro-as-his-whereabouts-remain-unclear",
-          "title": "Flávio Bolsonaro arrives in Florida after fleeing Brazil",
-          "summary": "Brazil's defeated candidate Flávio Bolsonaro arrives in the U.S. after a multi-country journey as Washington says it will issue him a visa.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T01:58:08+00:00",
-          "fetched_at": "2026-10-28T21:04:43.939253+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_133c739704f40ad1a028",
-          "url": "https://www.dw.com/en/flavio-bolsonaro-flees-brazil-for-us-amid-investigation/a-79781094?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/flavio-bolsonaro-flees-brazil-for-us-amid-investigation/a-79781094?maca=en-rss-en-top-1022-rdf",
-          "title": "Flavio Bolsonaro flees Brazil for US amid investigation",
-          "summary": "Flavio Bolsonaro, who lost to incumbent Lula in Sunday's presidential election, has reportedly fled the country. Bolsonaro, who is facing multiple corruption probes, has refused to concede.",
+          "article_id": "art_35b9b2fbce5a06a7105a",
+          "url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-top-1022-rdf",
+          "title": "Is Iran headed to war or peace after Mecca alliance meeting?",
+          "summary": "Saudi Arabia, Pakistan and Turkey have taken their latest peace push directly to Tehran. Officially, it was to avert a new military escalation, but their diplomatic outreach can also be seen as a warning to Iran.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-27T22:18:00+00:00",
-          "fetched_at": "2026-10-28T21:04:43.654674+00:00",
+          "published_at": "2026-10-28T14:20:00+00:00",
+          "fetched_at": "2026-10-29T00:57:20.533158+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -168,61 +474,52 @@
       ]
     },
     {
-      "event_id": "evt_f3bc0f02700835a13de8",
-      "title": "Spain demands answers after deadliest train disaster in over a decade",
+      "event_id": "evt_0fd427cdc1ae9c6f879d",
+      "title": "No clear winner in Israel election with nearly 90 percent of votes counted",
       "category": "国际政治",
-      "score": 87.8,
+      "score": 67.9,
       "score_breakdown": {
-        "coverage": 19.5,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 20.6,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.2,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 2.7
       },
-      "first_seen": "2026-10-28T09:17:00+00:00",
-      "last_updated": "2026-10-28T19:32:57+00:00",
-      "source_count": 4,
-      "article_count": 6,
+      "first_seen": "2026-10-28T12:55:00+00:00",
+      "last_updated": "2026-10-29T00:01:07+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "train",
-        "high-speed",
-        "madrid",
-        "trains",
-        "spain",
-        "crash",
-        "south",
-        "people"
+        "bloc",
+        "votes",
+        "israel",
+        "election",
+        "counted",
+        "ahead",
+        "netanyahu-led",
+        "slight"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Spain demands answers after deadliest train disaster in over a decade”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“No clear winner in Israel election with nearly 90 percent of votes counted”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Spain",
-          "At",
-          "What",
-          "Spanish",
-          "PM",
-          "Sanchez",
-          "Dozens",
-          "Spain Dozens"
+          "No",
+          "Israel",
+          "Netanyahu"
         ],
         "latest_progress": [
-          "10月28日 19:32 UTC，Al Jazeera报道：“Spain demands answers after deadliest train disaster in over a decade”。",
-          "10月28日 16:45 UTC，BBC World报道：“Watch: At the scene of Spain's deadly train crash”。",
-          "10月28日 15:36 UTC，BBC World报道：“What we know so far about deadly Spain train crash”。"
+          "10月29日 00:01 UTC，Al Jazeera报道：“No clear winner in Israel election with nearly 90 percent of votes counted”。",
+          "10月28日 12:55 UTC，DW Top Stories报道：“Israel election: Netanyahu-led bloc in slight lead with more than 80% of votes counted”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -235,90 +532,30 @@
       },
       "articles": [
         {
-          "article_id": "art_cae418d3ef708bf4dde9",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/spain-demands-answers-after-deadliest-train-disaster-in-over-a-decade?traffic_source=rss",
-          "title": "Spain demands answers after deadliest train disaster in over a decade",
-          "summary": "At least 68 people have been killed and more than 100 injured after two high-speed trains collided south of Madrid.",
+          "article_id": "art_c742e73967eef2b7a1ac",
+          "url": "https://www.aljazeera.com/news/2026/10/29/no-clear-winner-in-israeli-election-with-nearly-90-percent-of-votes-counted?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/29/no-clear-winner-in-israeli-election-with-nearly-90-percent-of-votes-counted?traffic_source=rss",
+          "title": "No clear winner in Israel election with nearly 90 percent of votes counted",
+          "summary": "Netanyahu's right-wing bloc leads but is falling short of the votes needed to form a government.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-28T19:32:57+00:00",
-          "fetched_at": "2026-10-28T21:04:44.021190+00:00",
+          "published_at": "2026-10-29T00:01:07+00:00",
+          "fetched_at": "2026-10-29T00:57:20.917153+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_c72a1127973a2aec3878",
-          "url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_campaign=rss&at_medium=RSS",
-          "title": "Watch: At the scene of Spain's deadly train crash",
-          "summary": "People have been killed after a Spanish high-speed train collided with another train south of the capital Madrid, making this the country's worst disaster since 2013.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T16:45:16+00:00",
-          "fetched_at": "2026-10-28T21:04:43.267146+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97cd/live/4f78dd50-d2e9-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_e2d1aab8ced4318caf0a",
-          "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_campaign=rss&at_medium=RSS",
-          "title": "What we know so far about deadly Spain train crash",
-          "summary": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T15:36:11+00:00",
-          "fetched_at": "2026-10-28T21:04:43.267911+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81f7/live/e4acc800-d302-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_2dccbcc02e84ab23d285",
-          "url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/spanish-train-crash-leaves-68-dead-pm-sanchez-declares-3-days-of-mourning/live-79785087?maca=en-rss-en-top-1022-rdf",
-          "title": "Spanish train crash leaves 68 dead, PM Sanchez declares 3 days of mourning",
-          "summary": "Two high-speed trains carrying hundreds of passengers collided south of Madrid. Spain's transport minister said one of the trains was told to continue its journey despite a \"red signal\" being in effect. Follow DW.",
+          "article_id": "art_7fce8b1d45477dcad7b4",
+          "url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-in-slight-lead-with-more-than-80-of-votes-counted/live-79713839?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-in-slight-lead-with-more-than-80-of-votes-counted/live-79713839?maca=en-rss-en-top-1022-rdf",
+          "title": "Israel election: Netanyahu-led bloc in slight lead with more than 80% of votes counted",
+          "summary": "While partial results show the pro-Netanyahu bloc ahead of the anti-Netanyahu bloc, the final tally could take days. Neither grouping is expected to win a majority, with tough coalition talks ahead. Follow DW.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-28T14:33:00+00:00",
-          "fetched_at": "2026-10-28T21:04:43.652871+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_aeecd09938a56dc1753a",
-          "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
-          "canonical_url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
-          "title": "Dozens are dead in a high-speed train crash in Spain",
-          "summary": "The toll is rising after a high-speed train between slammed into the rear of another train that had stopped south of Madrid, derailing two cars. It was Spain's second major train accident this year.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T10:09:46+00:00",
-          "fetched_at": "2026-10-28T21:04:43.938410+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c1ea190fd74b53e565fe",
-          "url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/dozens-of-people-killed-after-high-speed-trains-collide-in-central-spain/a-79784119?maca=en-rss-en-top-1022-rdf",
-          "title": "Dozens of people killed after high-speed trains collide in central Spain",
-          "summary": "At least 68 people have been killed in a train crash in central Spain, local authorities have confirmed. Rail services between Madrid and Seville have been suspended.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-28T09:17:00+00:00",
-          "fetched_at": "2026-10-28T21:04:43.653888+00:00",
+          "published_at": "2026-10-28T12:55:00+00:00",
+          "fetched_at": "2026-10-29T00:57:20.533401+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -330,12 +567,12 @@
       "event_id": "evt_ba5ebcec9a4b963360ad",
       "title": "Israel's election deadlock is a sign of the country's deep divisions",
       "category": "国际政治",
-      "score": 70.7,
+      "score": 67.4,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.8,
+        "recency": 18.6,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 1.9
@@ -393,7 +630,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-28T20:53:02+00:00",
-          "fetched_at": "2026-10-28T21:04:43.268061+00:00",
+          "fetched_at": "2026-10-29T00:57:20.029708+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -408,7 +645,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-28T14:26:24+00:00",
-          "fetched_at": "2026-10-28T21:04:43.267295+00:00",
+          "fetched_at": "2026-10-29T00:57:20.028949+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -423,7 +660,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-27T20:45:39+00:00",
-          "fetched_at": "2026-10-28T21:04:43.939396+00:00",
+          "fetched_at": "2026-10-29T00:57:20.720396+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -435,12 +672,12 @@
       "event_id": "evt_9223cba9989fe40e01e6",
       "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
       "category": "国际政治",
-      "score": 68.0,
+      "score": 64.8,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.4,
+        "recency": 18.2,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 2.6
@@ -498,7 +735,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-28T20:24:39+00:00",
-          "fetched_at": "2026-10-28T21:04:43.265093+00:00",
+          "fetched_at": "2026-10-29T00:57:20.026430+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -513,7 +750,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-28T08:46:47+00:00",
-          "fetched_at": "2026-10-28T21:04:43.938807+00:00",
+          "fetched_at": "2026-10-29T00:57:20.719791+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -525,12 +762,12 @@
       "event_id": "evt_0b4710c3611e39c513fb",
       "title": "How do the US midterms work, and why are they so important for Trump's presidency?",
       "category": "国际政治",
-      "score": 66.9,
+      "score": 63.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.2,
+        "recency": 17.2,
         "credibility": 9.5,
         "impact": 11.0,
         "velocity": 2.9
@@ -588,7 +825,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-28T19:02:00+00:00",
-          "fetched_at": "2026-10-28T21:04:43.652044+00:00",
+          "fetched_at": "2026-10-29T00:57:20.532358+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -603,7 +840,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-28T08:47:18+00:00",
-          "fetched_at": "2026-10-28T21:04:43.938626+00:00",
+          "fetched_at": "2026-10-29T00:57:20.719642+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -612,23 +849,23 @@
       ]
     },
     {
-      "event_id": "evt_93938117e78797b40722",
-      "title": "Putin: Russia is African continent’s best partner, not ‘colonial’ West",
+      "event_id": "evt_f6a59e6e6e3dbfdd3dcf",
+      "title": "Israelis rally for Jewish-Arab government after election gains",
       "category": "国际政治",
-      "score": 63.5,
+      "score": 60.7,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.4,
+        "recency": 21.7,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-28T19:01:46+00:00",
-      "last_updated": "2026-10-28T19:13:32+00:00",
+      "first_seen": "2026-10-29T00:34:24+00:00",
+      "last_updated": "2026-10-29T00:34:24+00:00",
       "source_count": 1,
-      "article_count": 2,
+      "article_count": 1,
       "sources": [
         "Al Jazeera"
       ],
@@ -636,116 +873,25 @@
         "Middle East"
       ],
       "keywords": [
-        "putin",
-        "african",
-        "moscow",
-        "leaders",
-        "not",
-        "colonial",
-        "best",
-        "partner"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Putin: Russia is African continent’s best partner, not ‘colonial’ West”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Putin",
-          "Russia",
-          "African",
-          "West Putin",
-          "Moscow"
-        ],
-        "latest_progress": [
-          "10月28日 19:13 UTC，Al Jazeera报道：“Putin: Russia is African continent’s best partner, not ‘colonial’ West”。",
-          "10月28日 19:01 UTC，Al Jazeera报道：“Putin tells African leaders Moscow will not pursue ‘neo-colonialism’”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6fb4d856823c6a064895",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/putin-russia-is-african-continents-best-partner-not-colonial-west?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/putin-russia-is-african-continents-best-partner-not-colonial-west?traffic_source=rss",
-          "title": "Putin: Russia is African continent’s best partner, not ‘colonial’ West",
-          "summary": "Russian President Vladimir Putin told the leaders of dozens of African nations that Moscow was their best partner.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T19:13:32+00:00",
-          "fetched_at": "2026-10-28T21:04:44.021352+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_17cec6790fd72953802b",
-          "url": "https://www.aljazeera.com/news/2026/10/28/putin-tells-african-leaders-moscow-will-not-pursue-neo-colonialism?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/28/putin-tells-african-leaders-moscow-will-not-pursue-neo-colonialism?traffic_source=rss",
-          "title": "Putin tells African leaders Moscow will not pursue ‘neo-colonialism’",
-          "summary": "Speaking at the third Russia-Africa Summit, Putin frames Moscow as an alternative to former colonial powers.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T19:01:46+00:00",
-          "fetched_at": "2026-10-28T21:04:44.022032+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7f11b1c7bf33932ead6e",
-      "title": "Jerusalem Daily: What’s next after Israel’s elections?",
-      "category": "国际政治",
-      "score": 63.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.2,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-28T18:31:33+00:00",
-      "last_updated": "2026-10-28T19:03:03+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "israel",
-        "elections",
+        "israelis",
+        "jewish-arab",
         "election",
-        "jerusalem",
-        "daily",
-        "next",
-        "prime",
-        "minister"
+        "gains",
+        "rally",
+        "government",
+        "rallied",
+        "gov"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Jerusalem Daily: What’s next after Israel’s elections?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Israelis rally for Jewish-Arab government after election gains”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "What",
-          "Israel",
-          "Jerusalem Daily"
+          "Israelis",
+          "Jewish",
+          "Arab"
         ],
         "latest_progress": [
-          "10月28日 19:03 UTC，Al Jazeera报道：“What are the implications of Israel’s elections?”。",
-          "10月28日 18:31 UTC，Al Jazeera报道：“Jerusalem Daily: What’s next after Israel’s elections?”。"
+          "10月29日 00:34 UTC，Al Jazeera报道：“Israelis rally for Jewish-Arab government after election gains”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -758,30 +904,15 @@
       },
       "articles": [
         {
-          "article_id": "art_e5b64acb905ad2c3c176",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/10/28/what-are-the-implications-of-israels-elections?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/10/28/what-are-the-implications-of-israels-elections?traffic_source=rss",
-          "title": "What are the implications of Israel’s elections?",
-          "summary": "No clear winner in Israel's first election since the October 7 attacks and genocidal war in Gaza.",
+          "article_id": "art_18f69200d08648a174a1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/israelis-rally-for-jewish-arab-government-after-election-gains?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/israelis-rally-for-jewish-arab-government-after-election-gains?traffic_source=rss",
+          "title": "Israelis rally for Jewish-Arab government after election gains",
+          "summary": "Israelis rallied for a Jewish-Arab gov’t after parties representing Israel’s Arab citizens made gains in the election.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-28T19:03:03+00:00",
-          "fetched_at": "2026-10-28T21:04:44.021697+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_058ab197626814ea1586",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/jerusalem-daily-whats-next-after-israels-elections?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/jerusalem-daily-whats-next-after-israels-elections?traffic_source=rss",
-          "title": "Jerusalem Daily: What’s next after Israel’s elections?",
-          "summary": "Prime Minister Benjamin Netanyahu and former military chief Gadi Eisenkot are both claiming victory in Israel’s election",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-28T18:31:33+00:00",
-          "fetched_at": "2026-10-28T21:04:44.022711+00:00",
+          "published_at": "2026-10-29T00:34:24+00:00",
+          "fetched_at": "2026-10-29T00:57:20.916976+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -790,52 +921,48 @@
       ]
     },
     {
-      "event_id": "evt_208b518c4150b27a5660",
-      "title": "Is Iran headed to war or peace after Mecca alliance meeting?",
+      "event_id": "evt_907ee2c227c69970750d",
+      "title": "Girl seriously injured in wolf attack at German wildlife park",
       "category": "军事安全",
-      "score": 62.2,
+      "score": 60.6,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.6,
-        "credibility": 8.5,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.6,
+        "credibility": 10.0,
         "impact": 13.0,
-        "velocity": 0.9
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-27T05:15:00+00:00",
-      "last_updated": "2026-10-28T14:20:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-28T22:08:52+00:00",
+      "last_updated": "2026-10-28T22:08:52+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "DW Top Stories",
-        "middleeasteye.net"
+        "BBC World"
       ],
       "regions": [
-        "Europe",
-        "Israel"
+        "Europe"
       ],
       "keywords": [
-        "iran",
-        "meeting",
-        "mecca",
-        "peace",
-        "pact",
-        "states",
-        "mark",
-        "beginning"
+        "girl",
+        "seriously",
+        "injured",
+        "wolf",
+        "attack",
+        "german",
+        "wildlife",
+        "park"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、middleeasteye.net等来源的2篇报道，当前关注的军事安全事件为“Is Iran headed to war or peace after Mecca alliance meeting?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Girl seriously injured in wolf attack at German wildlife park”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Is Iran",
-          "Mecca",
-          "Iran"
+          "Girl",
+          "German"
         ],
         "latest_progress": [
-          "10月28日 14:20 UTC，DW Top Stories报道：“Is Iran headed to war or peace after Mecca alliance meeting?”。",
-          "10月27日 05:15 UTC，middleeasteye.net报道：“Iran says meeting with Mecca pact states will mark beginning of real transformation”。"
+          "10月28日 22:08 UTC，BBC World报道：“Girl seriously injured in wolf attack at German wildlife park”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -848,175 +975,65 @@
       },
       "articles": [
         {
-          "article_id": "art_35b9b2fbce5a06a7105a",
-          "url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-top-1022-rdf",
-          "title": "Is Iran headed to war or peace after Mecca alliance meeting?",
-          "summary": "Saudi Arabia, Pakistan and Turkey have taken their latest peace push directly to Tehran. Officially, it was to avert a new military escalation, but their diplomatic outreach can also be seen as a warning to Iran.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-28T14:20:00+00:00",
-          "fetched_at": "2026-10-28T21:04:43.652998+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e827ef41b6e01af1f6cd",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
-          "canonical_url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-meeting-mecca-pact-states-will-mark-beginning-real",
-          "title": "Iran says meeting with Mecca pact states will mark beginning of real transformation",
-          "summary": "",
-          "source": "middleeasteye.net",
-          "source_type": "gdelt",
-          "published_at": "2026-10-27T05:15:00+00:00",
-          "fetched_at": "2026-10-28T21:03:29.792841+00:00",
-          "language": "English",
-          "region": "Israel",
-          "source_weight": 0.75,
-          "image_url": "https://www.middleeasteye.net/sites/default/files/2026-10/Iran_Saudi_Pakistan_Turkey.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7caa8c1b50f57369782b",
-      "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-      "category": "能源资源",
-      "score": 61.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 18.6,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 1.5
-      },
-      "first_seen": "2026-10-27T20:42:38+00:00",
-      "last_updated": "2026-10-28T17:04:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "oleshky",
-        "about",
-        "brokered",
-        "melania",
-        "trump",
-        "russian-occupied",
-        "know",
-        "ukraine-russia"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Evacuation",
-          "Oleshky",
-          "What",
-          "Ukraine",
-          "Russia",
-          "Melania Trump"
-        ],
-        "latest_progress": [
-          "10月28日 17:04 UTC，DW Top Stories报道：“Evacuation from Oleshky: How are preparations going?”。",
-          "10月27日 20:42 UTC，BBC World报道：“What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f107fbaccd949de21eb5",
-          "url": "https://www.dw.com/en/evacuation-from-oleshky-how-are-preparations-going/a-79790001?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/evacuation-from-oleshky-how-are-preparations-going/a-79790001?maca=en-rss-en-top-1022-rdf",
-          "title": "Evacuation from Oleshky: How are preparations going?",
-          "summary": "A lawyer with the Save Ukraine Foundation, Myroslava Kharchenko, told DW about what has been happening in Russian-occupied Oleshky since a temporary ceasefire brokered by Melania Trump took effect.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-28T17:04:00+00:00",
-          "fetched_at": "2026-10-28T21:04:43.652190+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2ba52bad74854f779404",
-          "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_campaign=rss&at_medium=RSS",
-          "title": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-          "summary": "The Russian-occupied city of Oleshky has had no electricity, gas or water for three years, as residents reported having to eat weeds to survive.",
+          "article_id": "art_938b42eb9b31712994a4",
+          "url": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_campaign=rss&at_medium=RSS",
+          "title": "Girl seriously injured in wolf attack at German wildlife park",
+          "summary": "The eight-year-old was in an enclosure with other children and a staff member when she was attacked.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-27T20:42:38+00:00",
-          "fetched_at": "2026-10-28T21:04:43.267613+00:00",
+          "published_at": "2026-10-28T22:08:52+00:00",
+          "fetched_at": "2026-10-29T00:57:20.026747+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8774/live/b2b005e0-d246-11f1-b441-2b33b063138f.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad45/live/27f788a0-d30f-11f1-ad4f-5d2bbacf0caf.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_1e6ca3a23debda88c5b7",
-      "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+      "event_id": "evt_744bfa211d231b81a8d8",
+      "title": "EU countries block Canada's 'associate membership' plan",
       "category": "国际政治",
       "score": 60.5,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 14.0,
-        "credibility": 9.8,
+        "recency": 21.9,
+        "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-28T08:48:00+00:00",
-      "last_updated": "2026-10-28T10:17:54+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-10-29T00:49:00+00:00",
+      "last_updated": "2026-10-29T00:49:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "police",
-        "embassy",
-        "serbian",
-        "dead",
-        "israeli",
-        "attacking",
-        "belgrade",
-        "minister"
+        "countries",
+        "block",
+        "canada's",
+        "associate",
+        "membership'",
+        "plan",
+        "european",
+        "commission"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Serbian shot dead after attacking officer outside Israeli embassy, minister says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“EU countries block Canada's 'associate membership' plan”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Serbian",
-          "Israeli",
-          "Israeli Embassy"
+          "EU",
+          "Canada"
         ],
         "latest_progress": [
-          "10月28日 10:17 UTC，BBC World报道：“Serbian shot dead after attacking officer outside Israeli embassy, minister says”。",
-          "10月28日 08:48 UTC，DW Top Stories报道：“Serbian police shoot dead assailant at Israeli Embassy”。"
+          "10月29日 00:49 UTC，DW Top Stories报道：“EU countries block Canada's 'associate membership' plan”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -1029,30 +1046,15 @@
       },
       "articles": [
         {
-          "article_id": "art_ccadf02b9e3b88eaa884",
-          "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_campaign=rss&at_medium=RSS",
-          "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-          "summary": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-28T10:17:54+00:00",
-          "fetched_at": "2026-10-28T21:04:43.265593+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8aa/live/94f66d00-d2b4-11f1-8cf0-c5d120932f9f.jpg"
-        },
-        {
-          "article_id": "art_985c7ee6b4245a982b73",
-          "url": "https://www.dw.com/en/serbian-police-shoot-dead-assailant-at-israeli-embassy/a-79782905?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/serbian-police-shoot-dead-assailant-at-israeli-embassy/a-79782905?maca=en-rss-en-top-1022-rdf",
-          "title": "Serbian police shoot dead assailant at Israeli Embassy",
-          "summary": "A \"minor\" has been killed by police after attacking a guard at Israel's embassy in Belgrade with knives, the interior minister says. Ivica Dacic said police had declared the highest terror alert after the incident.",
+          "article_id": "art_a2917e5a06d829b7485d",
+          "url": "https://www.dw.com/en/eu-countries-block-canada-s-associate-membership-plan/a-79791601?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/eu-countries-block-canada-s-associate-membership-plan/a-79791601?maca=en-rss-en-top-1022-rdf",
+          "title": "EU countries block Canada's 'associate membership' plan",
+          "summary": "European Commission President Ursula von der Leyen wanted to give Canada a special status within the EU. But Germany and other member states have raised objections ahead of a summit in Montreal.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-28T08:48:00+00:00",
-          "fetched_at": "2026-10-28T21:04:43.654130+00:00",
+          "published_at": "2026-10-29T00:49:00+00:00",
+          "fetched_at": "2026-10-29T00:57:20.532067+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
