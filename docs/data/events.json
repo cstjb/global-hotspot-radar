@@ -1,38 +1,29 @@
 {
-  "generated_at": "2026-10-30T18:39:32.776303+00:00",
+  "generated_at": "2026-10-30T22:59:10.785707+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
+    "status": "success",
     "articles_fetched": 93,
     "articles_unique": 93,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "errors": []
   },
   "events": [
     {
       "event_id": "evt_4f898737e32a4d5c0355",
       "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
       "category": "军事安全",
-      "score": 78.5,
+      "score": 77.8,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.1,
+        "recency": 20.4,
         "credibility": 9.7,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-10-30T13:01:22+00:00",
-      "last_updated": "2026-10-30T17:39:43+00:00",
+      "last_updated": "2026-10-30T21:13:14+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
@@ -65,7 +56,7 @@
           "Blockchain"
         ],
         "latest_progress": [
-          "10月30日 17:39 UTC，BBC World报道：“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。",
+          "10月30日 21:13 UTC，BBC World报道：“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。",
           "10月30日 15:37 UTC，DW Top Stories报道：“Binance crypto exchange suspends trades over North Korea-linked hack”。",
           "10月30日 13:01 UTC，NPR World报道：“Blockchain intelligence firms link North Korea to $6.3B hack on Binance”。"
         ],
@@ -87,8 +78,8 @@
           "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-30T17:39:43+00:00",
-          "fetched_at": "2026-10-30T18:39:30.749762+00:00",
+          "published_at": "2026-10-30T21:13:14+00:00",
+          "fetched_at": "2026-10-30T22:59:09.165647+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -103,7 +94,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T15:37:00+00:00",
-          "fetched_at": "2026-10-30T18:39:31.225928+00:00",
+          "fetched_at": "2026-10-30T22:59:09.554682+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -118,7 +109,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-30T13:01:22+00:00",
-          "fetched_at": "2026-10-30T18:39:31.569507+00:00",
+          "fetched_at": "2026-10-30T22:59:09.797509+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -130,12 +121,12 @@
       "event_id": "evt_21a1d06388d888a047ad",
       "title": "Swiss foreign minister talks political ties on rare visit to North Korea",
       "category": "国际政治",
-      "score": 73.4,
+      "score": 69.9,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.5,
+        "recency": 17.9,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -196,7 +187,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-30T18:03:45+00:00",
-          "fetched_at": "2026-10-30T18:39:31.727244+00:00",
+          "fetched_at": "2026-10-30T22:59:09.927665+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -211,7 +202,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-30T15:37:03+00:00",
-          "fetched_at": "2026-10-30T18:39:31.728651+00:00",
+          "fetched_at": "2026-10-30T22:59:09.928376+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -226,7 +217,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T14:08:00+00:00",
-          "fetched_at": "2026-10-30T18:39:31.226180+00:00",
+          "fetched_at": "2026-10-30T22:59:09.554833+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -235,91 +226,92 @@
       ]
     },
     {
-      "event_id": "evt_a4182b914357ecc557cd",
-      "title": "Italy tightens security as students, unions launch nationwide protests",
-      "category": "军事安全",
-      "score": 68.5,
+      "event_id": "evt_206de3ad39e3631ee1f9",
+      "title": "What to know about California’s midterm elections",
+      "category": "科技AI",
+      "score": 66.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.6,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
+        "recency": 19.1,
+        "credibility": 10.0,
+        "impact": 9.8,
+        "velocity": 4.2
       },
-      "first_seen": "2026-10-30T12:45:00+00:00",
-      "last_updated": "2026-10-30T13:14:11+00:00",
+      "first_seen": "2026-10-30T12:27:28+00:00",
+      "last_updated": "2026-10-30T19:38:49+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "italy",
-        "students",
-        "living",
-        "costs",
-        "workers",
-        "across",
-        "school",
-        "rallies"
+        "about",
+        "know",
+        "hack",
+        "california",
+        "binance's",
+        "cyber",
+        "correspondent",
+        "joe"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Italy tightens security as students, unions launch nationwide protests”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的科技AI事件为“What to know about California’s midterm elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Italy",
-          "Students"
+          "What",
+          "California",
+          "Binance"
         ],
         "latest_progress": [
-          "10月30日 13:14 UTC，Al Jazeera报道：“Italy tightens security as students, unions launch nationwide protests”。",
-          "10月30日 12:45 UTC，DW Top Stories报道：“Italy: Students and workers rally over living costs”。"
+          "10月30日 19:38 UTC，Al Jazeera报道：“What to know about California’s midterm elections”。",
+          "10月30日 12:27 UTC，BBC World报道：“What we know about Binance's $6.3bn hack”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e8fc2fbeec7a85bef6ec",
-          "url": "https://www.aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/30/italy-tightens-security-as-students-unions-launch-nationwide-protests?traffic_source=rss",
-          "title": "Italy tightens security as students, unions launch nationwide protests",
-          "summary": "Rallies across the country target living costs, investment in education and the wars in the Middle East.",
+          "article_id": "art_ae9078f4be0c65dc16e2",
+          "url": "https://www.aljazeera.com/news/2026/10/30/what-to-know-about-the-midterm-elections-in-california?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/30/what-to-know-about-the-midterm-elections-in-california?traffic_source=rss",
+          "title": "What to know about California’s midterm elections",
+          "summary": "Redistricting in California, the most populous US state, could flip control of US House from Republican to Democrat.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-30T13:14:11+00:00",
-          "fetched_at": "2026-10-30T18:39:31.730520+00:00",
+          "published_at": "2026-10-30T19:38:49+00:00",
+          "fetched_at": "2026-10-30T22:59:09.927112+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_dd999ee6968667d8827a",
-          "url": "https://www.dw.com/en/italy-students-and-workers-rally-over-living-costs/a-79807668?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/italy-students-and-workers-rally-over-living-costs/a-79807668?maca=en-rss-en-top-1022-rdf",
-          "title": "Italy: Students and workers rally over living costs",
-          "summary": "Students and workers have marched across Italy for more school funding and relief from rising living costs. The rallies follow weeks of school occupations and protests against higher military spending.",
-          "source": "DW Top Stories",
+          "article_id": "art_d43c2b59a06e4dde296e",
+          "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_campaign=rss&at_medium=RSS",
+          "title": "What we know about Binance's $6.3bn hack",
+          "summary": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-30T12:45:00+00:00",
-          "fetched_at": "2026-10-30T18:39:31.226561+00:00",
+          "published_at": "2026-10-30T12:27:28+00:00",
+          "fetched_at": "2026-10-30T22:59:09.168070+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ae1/live/ab354520-d460-11f1-b441-2b33b063138f.jpg"
         }
       ]
     },
@@ -327,12 +319,12 @@
       "event_id": "evt_a3223d6c0faef382ad7b",
       "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
       "category": "社会突发",
-      "score": 67.8,
+      "score": 64.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 20.6,
+        "recency": 17.2,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
@@ -389,7 +381,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T17:07:19+00:00",
-          "fetched_at": "2026-10-30T18:39:30.749967+00:00",
+          "fetched_at": "2026-10-30T22:59:09.165763+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -404,7 +396,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T16:51:00+00:00",
-          "fetched_at": "2026-10-30T18:39:31.225492+00:00",
+          "fetched_at": "2026-10-30T22:59:09.554426+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -413,15 +405,103 @@
       ]
     },
     {
+      "event_id": "evt_1e027263b9a3f4e84ded",
+      "title": "Israeli forces blow up homes of Palestinians accused of killing soldiers",
+      "category": "军事安全",
+      "score": 63.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-30T15:06:00+00:00",
+      "last_updated": "2026-10-30T18:35:44+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "homes",
+        "palestinians",
+        "israeli",
+        "soldiers",
+        "forces",
+        "accused",
+        "killing",
+        "demolished"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Israeli forces blow up homes of Palestinians accused of killing soldiers”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israel",
+          "Palestinians",
+          "Israeli"
+        ],
+        "latest_progress": [
+          "10月30日 18:35 UTC，Al Jazeera报道：“Israel demolishes homes of Palestinians blamed for attack on soldiers”。",
+          "10月30日 15:06 UTC，Al Jazeera报道：“Israeli forces blow up homes of Palestinians accused of killing soldiers”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e05917d40d80413e91a3",
+          "url": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers?traffic_source=rss",
+          "title": "Israel demolishes homes of Palestinians blamed for attack on soldiers",
+          "summary": "Troops hold at least 12 Palestinians near demolished homes as nearly 5,000 remain displaced from Hebron neighbourhoods",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-30T18:35:44+00:00",
+          "fetched_at": "2026-10-30T22:59:09.927464+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e19cf41dd441d2ffe10a",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/israeli-forces-blow-up-homes-of-palestinians-accused-of-killing-soldiers?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/israeli-forces-blow-up-homes-of-palestinians-accused-of-killing-soldiers?traffic_source=rss",
+          "title": "Israeli forces blow up homes of Palestinians accused of killing soldiers",
+          "summary": "Israeli forces demolished the homes of two Palestinians accused of killing two Israeli soldiers in Hebron last week.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-30T15:06:00+00:00",
+          "fetched_at": "2026-10-30T22:59:09.928657+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_8ed7f68845547ee3ec5c",
       "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
       "category": "国际政治",
-      "score": 66.4,
+      "score": 63.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 19.9,
+        "recency": 16.6,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -478,7 +558,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T16:14:00+00:00",
-          "fetched_at": "2026-10-30T18:39:31.225798+00:00",
+          "fetched_at": "2026-10-30T22:59:09.554605+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -493,7 +573,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T14:48:22+00:00",
-          "fetched_at": "2026-10-30T18:39:30.750650+00:00",
+          "fetched_at": "2026-10-30T22:59:09.166263+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -502,15 +582,158 @@
       ]
     },
     {
+      "event_id": "evt_13221e96eaf1663376b5",
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "category": "军事安全",
+      "score": 62.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-30T22:20:52+00:00",
+      "last_updated": "2026-10-30T22:20:52+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "missiles",
+        "approves",
+        "sale",
+        "patriot",
+        "ukraine",
+        "american-made",
+        "interceptors",
+        "only"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“US approves sale of 500 Patriot missiles to Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "US",
+          "Patriot",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月30日 22:20 UTC，BBC World报道：“US approves sale of 500 Patriot missiles to Ukraine”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_6cdb3a9a4a1798b01749",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_campaign=rss&at_medium=RSS",
+          "title": "US approves sale of 500 Patriot missiles to Ukraine",
+          "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-30T22:20:52+00:00",
+          "fetched_at": "2026-10-30T22:59:09.165485+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33b8/live/5acd5630-8cbd-11f1-b8ee-9b3c26ad07bb.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b659a9b8b9eb3e15e23d",
+      "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+      "category": "军事安全",
+      "score": 61.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.9,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-30T20:37:20+00:00",
+      "last_updated": "2026-10-30T20:37:20+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "g20",
+        "drops",
+        "group",
+        "photo",
+        "europeans",
+        "refuse",
+        "stand",
+        "lavrov"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“G20 drops group photo as Europeans refuse to stand with Lavrov”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Europeans",
+          "Lavrov"
+        ],
+        "latest_progress": [
+          "10月30日 20:37 UTC，Al Jazeera报道：“G20 drops group photo as Europeans refuse to stand with Lavrov”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3f1712623dbd45718b7a",
+          "url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
+          "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+          "summary": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-30T20:37:20+00:00",
+          "fetched_at": "2026-10-30T22:59:09.926601+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_c18a569565f0db7e0215",
       "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
       "category": "国际政治",
-      "score": 63.9,
+      "score": 60.8,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 19.0,
+        "recency": 15.9,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 3.4
@@ -566,7 +789,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T15:09:29+00:00",
-          "fetched_at": "2026-10-30T18:39:30.753582+00:00",
+          "fetched_at": "2026-10-30T22:59:09.167909+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -581,7 +804,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T06:17:00+00:00",
-          "fetched_at": "2026-10-30T18:39:31.227593+00:00",
+          "fetched_at": "2026-10-30T22:59:09.555613+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -590,181 +813,21 @@
       ]
     },
     {
-      "event_id": "evt_a1fc6ffb420a59dd276f",
-      "title": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-      "category": "军事安全",
-      "score": 63.7,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-30T13:01:43+00:00",
-      "last_updated": "2026-10-30T14:40:19+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "trump",
-        "plan",
-        "restart",
-        "war",
-        "iran",
-        "briefed",
-        "senators",
-        "insane"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Senators briefed on Trump’s ‘insane’ plan to restart war on Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Senators",
-          "Trump",
-          "Iran Senators",
-          "Iran"
-        ],
-        "latest_progress": [
-          "10月30日 14:40 UTC，Al Jazeera报道：“Senators briefed on Trump’s ‘insane’ plan to restart war on Iran”。",
-          "10月30日 13:01 UTC，Al Jazeera报道：“Senators briefed on Trump’s ‘insane’ plan to restart war on Iran”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_3c867dabbd11c01cad02",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2?traffic_source=rss",
-          "title": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-          "summary": "Senator Chris Murphy says he’s been briefed on Trump’s plan to restart the war on Iran.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-30T14:40:19+00:00",
-          "fetched_at": "2026-10-30T18:39:31.729272+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0012ea7b7021c267f807",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran?traffic_source=rss",
-          "title": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-          "summary": "Senator Chris Murphy warns Trump’s reported plan to restart war with Iran could have devastating consequences.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-30T13:01:43+00:00",
-          "fetched_at": "2026-10-30T18:39:31.730697+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b891b69f38293ee1d300",
-      "title": "How cuts under Colombia’s de la Espriella threaten a key human rights court",
-      "category": "军事安全",
-      "score": 62.2,
+      "event_id": "evt_ac3ad082936231589c65",
+      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+      "category": "国际政治",
+      "score": 60.4,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.2,
+        "recency": 21.3,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-30T17:43:21+00:00",
-      "last_updated": "2026-10-30T17:43:21+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "court",
-        "cuts",
-        "under",
-        "colombia",
-        "espriella",
-        "threaten",
-        "key",
-        "human"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“How cuts under Colombia’s de la Espriella threaten a key human rights court”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Colombia",
-          "Espriella"
-        ],
-        "latest_progress": [
-          "10月30日 17:43 UTC，Al Jazeera报道：“How cuts under Colombia’s de la Espriella threaten a key human rights court”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9c29266d2dbd03026379",
-          "url": "https://www.aljazeera.com/news/longform/2026/10/30/how-cuts-under-colombias-de-la-espriella-threaten-a-key-human-rights-court?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/longform/2026/10/30/how-cuts-under-colombias-de-la-espriella-threaten-a-key-human-rights-court?traffic_source=rss",
-          "title": "How cuts under Colombia’s de la Espriella threaten a key human rights court",
-          "summary": "Colombia's president plans to slash spending on a transitional justice court. But war crimes victims fear the cost.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-30T17:43:21+00:00",
-          "fetched_at": "2026-10-30T18:39:31.727427+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_f18ffac46e837b17cee3",
-      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-      "category": "军事安全",
-      "score": 61.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-30T16:26:11+00:00",
-      "last_updated": "2026-10-30T16:26:11+00:00",
+      "first_seen": "2026-10-30T22:11:52+00:00",
+      "last_updated": "2026-10-30T22:11:52+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -774,122 +837,48 @@
         "Europe"
       ],
       "keywords": [
-        "hundreds",
-        "evacuated",
-        "russian-occupied",
-        "oleshky",
-        "during",
-        "rare",
-        "ukraine",
-        "ceasefire"
+        "russian",
+        "g20",
+        "family",
+        "photo'",
+        "cancelled",
+        "protests",
+        "presence",
+        "minister"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“G20 'family photo' cancelled after protests over presence of Russian minister”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Hundreds",
-          "Russian",
-          "Oleshky",
-          "Ukraine"
+          "Russian"
         ],
         "latest_progress": [
-          "10月30日 16:26 UTC，BBC World报道：“Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire”。"
+          "10月30日 22:11 UTC，BBC World报道：“G20 'family photo' cancelled after protests over presence of Russian minister”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_55fc6707b3cde2fa3b2b",
-          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_campaign=rss&at_medium=RSS",
-          "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-          "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
+          "article_id": "art_400c834739805f620639",
+          "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_campaign=rss&at_medium=RSS",
+          "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+          "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-30T16:26:11+00:00",
-          "fetched_at": "2026-10-30T18:39:30.750140+00:00",
+          "published_at": "2026-10-30T22:11:52+00:00",
+          "fetched_at": "2026-10-30T22:59:09.166442+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21db/live/aec4b500-d482-11f1-a701-fddedf244c16.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_899556ad2b6782543b0d",
-      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-      "category": "经济金融",
-      "score": 61.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-30T17:47:01+00:00",
-      "last_updated": "2026-10-30T17:47:01+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "tech",
-        "stocks",
-        "see",
-        "sharp",
-        "falls",
-        "spending",
-        "nears",
-        "shares"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的经济金融事件为“US tech stocks see sharp falls as AI spending nears $1tn”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "US",
-          "AI"
-        ],
-        "latest_progress": [
-          "10月30日 17:47 UTC，BBC World报道：“US tech stocks see sharp falls as AI spending nears $1tn”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_11a37dfc09a87764756c",
-          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_campaign=rss&at_medium=RSS",
-          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-          "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T17:47:01+00:00",
-          "fetched_at": "2026-10-30T18:39:30.750811+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa3e/live/bc4ea460-d487-11f1-80bc-6d398902272f.jpg"
         }
       ]
     }
