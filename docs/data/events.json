@@ -1,31 +1,163 @@
 {
-  "generated_at": "2026-10-31T15:45:22.385366+00:00",
+  "generated_at": "2026-10-31T19:59:22.742181+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 87,
-    "articles_unique": 87,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 84,
+    "articles_unique": 84,
+    "errors": [
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_949822aa116479d55011",
-      "title": "Protests outside Poland’s constitutional court: What’s the crisis about?",
-      "category": "国际政治",
-      "score": 72.7,
+      "event_id": "evt_e72f9665c308984e20d9",
+      "title": "Thousands rally in Berlin as Gen Z plans protests in 30 German cities",
+      "category": "军事安全",
+      "score": 83.6,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 21.6,
+        "credibility": 9.6,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T16:00:00+00:00",
+      "last_updated": "2026-10-31T19:30:19+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "protests",
+        "cities",
+        "across",
+        "people",
+        "streets",
+        "some",
+        "more",
+        "europe"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Thousands rally in Berlin as Gen Z plans protests in 30 German cities”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "France",
+          "Europe More",
+          "Thousands",
+          "Berlin",
+          "Gen",
+          "German",
+          "Germany"
+        ],
+        "latest_progress": [
+          "10月31日 19:30 UTC，NPR World报道：“France seethes again as youth-led protests sweep Europe”。",
+          "10月31日 18:49 UTC，DW Top Stories报道：“More than 290 arrested in France as some weekend protests turn violent”。",
+          "10月31日 16:28 UTC，Al Jazeera报道：“Thousands rally in Berlin as Gen Z plans protests in 30 German cities”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c5193ece55308be3b05a",
+          "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+          "canonical_url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+          "title": "France seethes again as youth-led protests sweep Europe",
+          "summary": "French Interior Minister Laurent Nuñez warned of a \"very high risk\" of disorder, especially after dark on Halloween, as some 320,000 people nationwide took to the streets.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T19:30:19+00:00",
+          "fetched_at": "2026-10-31T19:59:21.872540+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1e43547cc25670bd48dd",
+          "url": "https://www.dw.com/en/more-than-290-arrested-in-france-as-some-weekend-protests-turn-violent/a-79818138?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/more-than-290-arrested-in-france-as-some-weekend-protests-turn-violent/a-79818138?maca=en-rss-en-top-1022-rdf",
+          "title": "More than 290 arrested in France as some weekend protests turn violent",
+          "summary": "Protests continue across France as 320,000 people take to the streets over rising living costs and poor school conditions for a third consecutive weekend, with clashes reported in several cities.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-31T18:49:00+00:00",
+          "fetched_at": "2026-10-31T19:59:21.500655+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1d6297f0bdc26a37299c",
+          "url": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities?traffic_source=rss",
+          "title": "Thousands rally in Berlin as Gen Z plans protests in 30 German cities",
+          "summary": "Demonstrations sweeping Europe are inspiring young Germans frustrated by rising costs of living amid military spending.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T16:28:04+00:00",
+          "fetched_at": "2026-10-31T19:59:22.047732+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b6c37f98c38d8197f4e7",
+          "url": "https://www.dw.com/en/gen-z-protests-sweep-cities-across-germany/live-79814694?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/gen-z-protests-sweep-cities-across-germany/live-79814694?maca=en-rss-en-top-1022-rdf",
+          "title": "Gen Z protests sweep cities across Germany",
+          "summary": "Young people in Germany have taken to the streets in some 34 cities, calling for greater political say and a more hopeful future. The protests come amid a wave of youth demonstrations across Europe. DW has more.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-31T16:00:00+00:00",
+          "fetched_at": "2026-10-31T19:59:21.500727+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_813dbeeab5aa2da9f508",
+      "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+      "category": "军事安全",
+      "score": 78.6,
+      "score_breakdown": {
+        "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 18.4,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 3.7
+        "recency": 20.7,
+        "credibility": 9.9,
+        "impact": 13.0,
+        "velocity": 3.1
       },
-      "first_seen": "2026-10-30T23:22:00+00:00",
-      "last_updated": "2026-10-31T11:27:07+00:00",
+      "first_seen": "2026-10-30T23:19:17+00:00",
+      "last_updated": "2026-10-31T18:32:20+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -36,84 +168,100 @@
         "Middle East"
       ],
       "keywords": [
-        "poland",
-        "court",
-        "police",
-        "top",
-        "government",
-        "protesters",
-        "clash",
-        "sacked"
+        "oleshky",
+        "russian-occupied",
+        "ceasefire",
+        "evacuees",
+        "residents",
+        "ukraine",
+        "dan",
+        "johnson"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Protests outside Poland’s constitutional court: What’s the crisis about?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“How has the ceasefire in Russian-occupied Oleshky been unfolding?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Protests",
-          "Poland",
-          "What",
-          "Police",
-          "Protesters"
+          "Evacuees",
+          "Russian",
+          "Oleshky",
+          "Emotional",
+          "Ukraine",
+          "Kyiv"
         ],
         "latest_progress": [
-          "10月31日 11:27 UTC，Al Jazeera报道：“Protests outside Poland’s constitutional court: What’s the crisis about?”。",
-          "10月31日 01:11 UTC，BBC World报道：“Police deployed during stand-off over control of top Poland court”。",
-          "10月30日 23:22 UTC，DW Top Stories报道：“Poland: Protesters clash with police over sacked court chief”。"
+          "10月31日 18:32 UTC，Al Jazeera报道：“Evacuees of Russian-occupied Oleshky reunited with families”。",
+          "10月31日 16:55 UTC，BBC World报道：“Emotional reunions with loved ones for Oleshky evacuees”。",
+          "10月31日 15:47 UTC，DW Top Stories报道：“Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_99812603deaed695696b",
-          "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about?traffic_source=rss",
-          "title": "Protests outside Poland’s constitutional court: What’s the crisis about?",
-          "summary": "Poland’s centrist government says it is restoring judicial independence after years of far-right political interference.",
+          "article_id": "art_db4b3599b29593ec1c95",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss",
+          "title": "Evacuees of Russian-occupied Oleshky reunited with families",
+          "summary": "Ukrainian residents evacuated from Russian-occupied city of Oleshky have arrived in Ukrainian-controlled territory.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-31T11:27:07+00:00",
-          "fetched_at": "2026-10-31T15:45:21.708304+00:00",
+          "published_at": "2026-10-31T18:32:20+00:00",
+          "fetched_at": "2026-10-31T19:59:22.046914+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_2d1b0e89d947f72cf955",
-          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_campaign=rss&at_medium=RSS",
-          "title": "Police deployed during stand-off over control of top Poland court",
-          "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+          "article_id": "art_ee030eb61166929c34be",
+          "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_campaign=rss&at_medium=RSS",
+          "title": "Emotional reunions with loved ones for Oleshky evacuees",
+          "summary": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-31T01:11:43+00:00",
-          "fetched_at": "2026-10-31T15:45:20.783292+00:00",
+          "published_at": "2026-10-31T16:55:47+00:00",
+          "fetched_at": "2026-10-31T19:59:20.427038+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/308f/live/f44b1080-d50c-11f1-9db5-95ff6e967be3.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4184/live/73d4d420-d54a-11f1-bcb7-8f812b44c2e5.jpg"
         },
         {
-          "article_id": "art_b4f265b7db598bfff279",
-          "url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-top-1022-rdf",
-          "title": "Poland: Protesters clash with police over sacked court chief",
-          "summary": "Polish Prime Minister Donald Tusk defended the firing of top court President Bogdan Swieczkowski as a move to \"restore the rule of law.\"",
+          "article_id": "art_0ca7b8c71bbf37a4eecf",
+          "url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+          "summary": "After Melania Trump reportedly brokered a localized truce, residents of Ukraine's Oleshky managed to leave the occupied city. Meanwhile, Kyiv claimed a hit on a Russian rocket fuel plant. DW has more.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-30T23:22:00+00:00",
-          "fetched_at": "2026-10-31T15:45:21.445696+00:00",
+          "published_at": "2026-10-31T15:47:00+00:00",
+          "fetched_at": "2026-10-31T19:59:21.500794+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
+        },
+        {
+          "article_id": "art_11777ba6dc43fc54f72b",
+          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_campaign=rss&at_medium=RSS",
+          "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+          "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-30T23:19:17+00:00",
+          "fetched_at": "2026-10-31T19:59:20.427251+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc6f/live/ee8a8a40-d4b2-11f1-88a4-835788f4f80e.jpg"
         }
       ]
     },
@@ -121,20 +269,20 @@
       "event_id": "evt_4f898737e32a4d5c0355",
       "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
       "category": "军事安全",
-      "score": 71.7,
+      "score": 78.3,
       "score_breakdown": {
-        "coverage": 16.1,
+        "coverage": 17.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 12.5,
+        "recency": 19.1,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 4.6
+        "velocity": 2.7
       },
       "first_seen": "2026-10-30T13:01:22+00:00",
-      "last_updated": "2026-10-31T02:12:19+00:00",
+      "last_updated": "2026-10-31T16:32:08+00:00",
       "source_count": 3,
-      "article_count": 4,
+      "article_count": 5,
       "sources": [
         "BBC World",
         "DW Top Stories",
@@ -148,27 +296,27 @@
         "north",
         "hack",
         "binance",
-        "korea",
         "crypto",
+        "korea",
         "suspected",
-        "cryptocurrency",
-        "exchange"
+        "intelligence",
+        "firms"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Why North Korea",
-          "Binance",
           "Crypto",
+          "Binance",
+          "Why North Korea",
           "North Korea Binance",
           "North Korea",
           "Blockchain"
         ],
         "latest_progress": [
+          "10月31日 16:32 UTC，BBC World报道：“Crypto firm Binance covers 90% of losses after $6.3bn hack”。",
           "10月31日 02:12 UTC，BBC World报道：“Why North Korea's 'elite' hackers are the prime suspect in major Binance hack”。",
-          "10月30日 21:13 UTC，BBC World报道：“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。",
-          "10月30日 15:37 UTC，DW Top Stories报道：“Binance crypto exchange suspends trades over North Korea-linked hack”。"
+          "10月30日 21:13 UTC，BBC World报道：“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -181,6 +329,21 @@
       },
       "articles": [
         {
+          "article_id": "art_7e07b386d88308d85443",
+          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_campaign=rss&at_medium=RSS",
+          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+          "summary": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T16:32:08+00:00",
+          "fetched_at": "2026-10-31T19:59:20.426028+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg"
+        },
+        {
           "article_id": "art_0315d0f2e2c3c6917d94",
           "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_campaign=rss&at_medium=RSS",
@@ -189,7 +352,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-31T02:12:19+00:00",
-          "fetched_at": "2026-10-31T15:45:20.783121+00:00",
+          "fetched_at": "2026-10-31T19:59:20.427392+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -204,7 +367,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T21:13:14+00:00",
-          "fetched_at": "2026-10-31T15:45:20.783907+00:00",
+          "fetched_at": "2026-10-31T19:59:20.426747+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -219,7 +382,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T15:37:00+00:00",
-          "fetched_at": "2026-10-31T15:45:21.446093+00:00",
+          "fetched_at": "2026-10-31T19:59:21.501637+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -234,7 +397,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-30T13:01:22+00:00",
-          "fetched_at": "2026-10-31T15:45:21.563873+00:00",
+          "fetched_at": "2026-10-31T19:59:21.872793+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -243,295 +406,112 @@
       ]
     },
     {
-      "event_id": "evt_813dbeeab5aa2da9f508",
-      "title": "Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus",
-      "category": "军事安全",
-      "score": 66.8,
+      "event_id": "evt_aea6fd0f2917500d9053",
+      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
+      "category": "能源资源",
+      "score": 64.6,
       "score_breakdown": {
         "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 2.6
-      },
-      "first_seen": "2026-10-30T23:19:17+00:00",
-      "last_updated": "2026-10-31T10:53:55+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "oleshky",
-        "ceasefire",
-        "russian-occupied",
-        "ukraine",
-        "evacuees",
-        "unfolding",
-        "correspondent",
-        "dan"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Evacuees",
-          "Russian",
-          "Oleshky",
-          "Ukraine",
-          "Belarus How"
-        ],
-        "latest_progress": [
-          "10月31日 10:53 UTC，Al Jazeera报道：“Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus”。",
-          "10月30日 23:19 UTC，BBC World报道：“How has the ceasefire in Russian-occupied Oleshky been unfolding?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_8b7deee357effb3f328d",
-          "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
-          "title": "Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus",
-          "summary": "Four planes transporting evacuees from the war-ravaged city arrived in Belarus's Gomel earlier on Saturday.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T10:53:55+00:00",
-          "fetched_at": "2026-10-31T15:45:21.708505+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_11777ba6dc43fc54f72b",
-          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_campaign=rss&at_medium=RSS",
-          "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-          "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T23:19:17+00:00",
-          "fetched_at": "2026-10-31T15:45:20.784500+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc6f/live/ee8a8a40-d4b2-11f1-88a4-835788f4f80e.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b8043636d8c14d672d65",
-      "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
-      "category": "军事安全",
-      "score": 66.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 1.6
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-30T20:09:00+00:00",
-      "last_updated": "2026-10-31T14:53:34+00:00",
-      "source_count": 2,
+      "first_seen": "2026-10-31T17:53:35+00:00",
+      "last_updated": "2026-10-31T19:22:26+00:00",
+      "source_count": 1,
       "article_count": 2,
       "sources": [
-        "BBC World",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "residents",
+        "years",
+        "russia-occupied",
         "city",
-        "ukraine",
         "oleshky",
-        "ceasefire",
-        "aid",
-        "evacuate",
-        "war-ravaged"
+        "food",
+        "ukrainian",
+        "evacuees",
+        "reunite"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World等来源的2篇报道，当前关注的能源资源事件为“'We came back from hell', say Ukrainians after years in Russia-occupied frontline city”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Evacuees",
+          "We",
+          "Ukrainians",
           "Russia",
-          "Ukraine Ukraine",
-          "Oleshky"
+          "Ukrainian"
         ],
         "latest_progress": [
-          "10月31日 14:53 UTC，BBC World报道：“Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine”。",
-          "10月30日 20:09 UTC，DW Top Stories报道：“Ukraine: Oleshky residents evacuate war-ravaged city”。"
+          "10月31日 19:22 UTC，BBC World报道：“'We came back from hell', say Ukrainians after years in Russia-occupied frontline city”。",
+          "10月31日 17:53 UTC，BBC World报道：“Ukrainian evacuees reunite with family after years trapped in Russia-occupied city”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_03636a7b93f909c1ccda",
+          "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_campaign=rss&at_medium=RSS",
+          "title": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
+          "summary": "One evacuated couple says they crossed minefields in Oleshky in a search for food.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T19:22:26+00:00",
+          "fetched_at": "2026-10-31T19:59:20.425726+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/053a/live/d1a9e840-d54c-11f1-bcb7-8f812b44c2e5.jpg"
+        },
         {
           "article_id": "art_94341cc5bac73a175eaa",
           "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_campaign=rss&at_medium=RSS",
-          "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
-          "summary": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+          "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+          "summary": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-31T14:53:34+00:00",
-          "fetched_at": "2026-10-31T15:45:20.783009+00:00",
+          "published_at": "2026-10-31T17:53:35+00:00",
+          "fetched_at": "2026-10-31T19:59:20.425852+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_915bdc956a21256026a3",
-          "url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
-          "summary": "Under the local ceasefire, an aid convoy of 25 buses arrived with humanitarian aid and as transport for fleeing Oleshky residents. The Ukrainian city has been occupied by Russia since 2022 and faces food shortages.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T20:09:00+00:00",
-          "fetched_at": "2026-10-31T15:45:21.445807+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_a4182b914357ecc557cd",
-      "title": "Thousands protest across Italy over living costs and military spending",
-      "category": "军事安全",
-      "score": 65.4,
+      "event_id": "evt_12e5b6d8fd9b5375373c",
+      "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+      "category": "社会突发",
+      "score": 60.7,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.1,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 1.3
-      },
-      "first_seen": "2026-10-30T12:45:00+00:00",
-      "last_updated": "2026-10-31T11:07:39+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "italy",
-        "living",
-        "costs",
-        "across",
-        "military",
-        "spending",
-        "students",
-        "workers"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Thousands protest across Italy over living costs and military spending”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Thousands",
-          "Italy",
-          "Students"
-        ],
-        "latest_progress": [
-          "10月31日 11:07 UTC，Al Jazeera报道：“Thousands protest across Italy over living costs and military spending”。",
-          "10月30日 12:45 UTC，DW Top Stories报道：“Italy: Students and workers rally over living costs”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e8ecd9c545c92ab756cc",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
-          "title": "Thousands protest across Italy over living costs and military spending",
-          "summary": "Thousands have protested across Italy against rising living costs and increased military spending.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T11:07:39+00:00",
-          "fetched_at": "2026-10-31T15:45:21.708369+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_dd999ee6968667d8827a",
-          "url": "https://www.dw.com/en/italy-students-and-workers-rally-over-living-costs/a-79807668?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/italy-students-and-workers-rally-over-living-costs/a-79807668?maca=en-rss-en-top-1022-rdf",
-          "title": "Italy: Students and workers rally over living costs",
-          "summary": "Students and workers have marched across Italy for more school funding and relief from rising living costs. The rallies follow weeks of school occupations and protests against higher military spending.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T12:45:00+00:00",
-          "fetched_at": "2026-10-31T15:45:21.446306+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b5df16704e4c0436386d",
-      "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
-      "category": "军事安全",
-      "score": 64.2,
-      "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.1,
+        "recency": 20.9,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-31T12:13:42+00:00",
-      "last_updated": "2026-10-31T12:22:45+00:00",
+      "first_seen": "2026-10-31T18:48:29+00:00",
+      "last_updated": "2026-10-31T18:48:29+00:00",
       "source_count": 1,
-      "article_count": 2,
+      "article_count": 1,
       "sources": [
         "Al Jazeera"
       ],
@@ -539,62 +519,259 @@
         "Middle East"
       ],
       "keywords": [
-        "iran",
-        "peace",
-        "not",
-        "withdrawal",
-        "nuclear",
-        "warns",
-        "unfettered",
-        "retaliation"
+        "london",
+        "police",
+        "arrest",
+        "hundreds",
+        "protest",
+        "palestine",
+        "action",
+        "ban"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Iran warns of unfettered retaliation if attacked as mediators try for peace”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“London police arrest 139 as hundreds protest Palestine Action ban”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Iran",
-          "NPT",
-          "Will"
+          "London",
+          "Palestine Action"
         ],
         "latest_progress": [
-          "10月31日 12:22 UTC，Al Jazeera报道：“Iran lawmakers call for withdrawal from NPT: Will we have war or peace?”。",
-          "10月31日 12:13 UTC，Al Jazeera报道：“Iran warns of unfettered retaliation if attacked as mediators try for peace”。"
+          "10月31日 18:48 UTC，Al Jazeera报道：“London police arrest 139 as hundreds protest Palestine Action ban”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_caa117590bede6189f5e",
-          "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
-          "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
-          "summary": "Withdrawal from the nuclear treaty doses not mean that Iran would build a nuclear weapon, observers say.",
+          "article_id": "art_192221ce7f290c041f70",
+          "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
+          "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+          "summary": "Demonstrations in London and Edinburgh come days before a UK Supreme Court appeal challenging the group's proscription.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-31T12:22:45+00:00",
-          "fetched_at": "2026-10-31T15:45:21.707968+00:00",
+          "published_at": "2026-10-31T18:48:29+00:00",
+          "fetched_at": "2026-10-31T19:59:22.046842+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8e2da15b2ce5df9c5a72",
+      "title": "Serbia after Vucic: The winners are losing patience",
+      "category": "国际政治",
+      "score": 60.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.8,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T19:49:00+00:00",
+      "last_updated": "2026-10-31T19:49:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "serbia",
+        "vucic",
+        "winners",
+        "losing",
+        "patience",
+        "student",
+        "list's",
+        "election"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“Serbia after Vucic: The winners are losing patience”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Serbia",
+          "Vucic"
+        ],
+        "latest_progress": [
+          "10月31日 19:49 UTC，DW Top Stories报道：“Serbia after Vucic: The winners are losing patience”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
         {
-          "article_id": "art_47fe0d68e72d60ebedc0",
-          "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
-          "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
-          "summary": "Iran’s supreme leader says Tehran’s potential response will not be restricted by geography.",
+          "article_id": "art_0539dab480d607891e0e",
+          "url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-top-1022-rdf",
+          "title": "Serbia after Vucic: The winners are losing patience",
+          "summary": "After the Student List's election victory, Aleksandar Vucic's power apparatus is disintegrating. People want justice as soon as possible. But the eleciton losers still hold sway in the judiciary and administration.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-31T19:49:00+00:00",
+          "fetched_at": "2026-10-31T19:59:21.500564+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b0ac12c3c33c904f5941",
+      "title": "Tension and clashes as hundreds of thousands protest again in France",
+      "category": "社会突发",
+      "score": 60.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.7,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T18:28:14+00:00",
+      "last_updated": "2026-10-31T18:28:14+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "tension",
+        "clashes",
+        "hundreds",
+        "thousands",
+        "protest",
+        "again",
+        "france",
+        "authorities"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Tension and clashes as hundreds of thousands protest again in France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Tension",
+          "France"
+        ],
+        "latest_progress": [
+          "10月31日 18:28 UTC，Al Jazeera报道：“Tension and clashes as hundreds of thousands protest again in France”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_95169b6939f0818a02ee",
+          "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+          "title": "Tension and clashes as hundreds of thousands protest again in France",
+          "summary": "Authorities say 320,000 march on third consecutive weekend of demonstrations over cost of living and state of schools.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-31T12:13:42+00:00",
-          "fetched_at": "2026-10-31T15:45:21.708102+00:00",
+          "published_at": "2026-10-31T18:28:14+00:00",
+          "fetched_at": "2026-10-31T19:59:22.046987+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0a1b0ad5d352dfac3adb",
+      "title": "Jerusalem Daily: Who will form Israel’s next government?",
+      "category": "国际政治",
+      "score": 58.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.8,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T17:29:00+00:00",
+      "last_updated": "2026-10-31T17:29:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "form",
+        "jerusalem",
+        "daily",
+        "israel",
+        "next",
+        "government",
+        "netanyahu",
+        "eisenkot"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Jerusalem Daily: Who will form Israel’s next government?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Jerusalem Daily",
+          "Who",
+          "Israel"
+        ],
+        "latest_progress": [
+          "10月31日 17:29 UTC，Al Jazeera报道：“Jerusalem Daily: Who will form Israel’s next government?”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_12f14b23cce7e027703d",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/jerusalem-daily-who-will-form-israels-next-government?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/jerusalem-daily-who-will-form-israels-next-government?traffic_source=rss",
+          "title": "Jerusalem Daily: Who will form Israel’s next government?",
+          "summary": "Netanyahu and Eisenkot are locked in a struggle to form a governing coalition in the Knesset.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T17:29:00+00:00",
+          "fetched_at": "2026-10-31T19:59:22.047352+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -606,12 +783,12 @@
       "event_id": "evt_95f2ce14fa8c5894ac72",
       "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
       "category": "军事安全",
-      "score": 61.9,
+      "score": 58.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
+        "recency": 17.5,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -667,7 +844,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-31T14:31:37+00:00",
-          "fetched_at": "2026-10-31T15:45:21.707103+00:00",
+          "fetched_at": "2026-10-31T19:59:22.047943+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -679,12 +856,12 @@
       "event_id": "evt_66486e6270b1ec069826",
       "title": "Ethiopian PM puts ministers through military training",
       "category": "军事安全",
-      "score": 61.9,
+      "score": 58.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
+        "recency": 17.5,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -738,155 +915,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-31T14:28:15+00:00",
-          "fetched_at": "2026-10-31T15:45:20.783401+00:00",
+          "fetched_at": "2026-10-31T19:59:20.426186+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edb0/live/55b5ceb0-d534-11f1-b64c-03717a6e5b71.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_8df704bba3f7d090781b",
-      "title": "Syria considering entry into Mecca defence pact, says foreign minister",
-      "category": "军事安全",
-      "score": 61.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.7,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T14:20:23+00:00",
-      "last_updated": "2026-10-31T14:20:23+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "syria",
-        "considering",
-        "entry",
-        "mecca",
-        "defence",
-        "pact",
-        "foreign",
-        "minister"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Syria considering entry into Mecca defence pact, says foreign minister”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Syria",
-          "Mecca"
-        ],
-        "latest_progress": [
-          "10月31日 14:20 UTC，Al Jazeera报道：“Syria considering entry into Mecca defence pact, says foreign minister”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a87f03fcfb7d76bcf55f",
-          "url": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
-          "title": "Syria considering entry into Mecca defence pact, says foreign minister",
-          "summary": "Damascus 'evaluating' whether to join the alliance that binds Turkiye, Saudi Arabia and Pakistan.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T14:20:23+00:00",
-          "fetched_at": "2026-10-31T15:45:21.707252+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_08c21fd12e038f8e86d0",
-      "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
-      "category": "社会突发",
-      "score": 61.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T15:16:20+00:00",
-      "last_updated": "2026-10-31T15:16:20+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "more",
-        "than",
-        "die",
-        "ebola",
-        "congo's",
-        "deadliest",
-        "outbreak",
-        "government"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的社会突发事件为“More than 5,000 die from Ebola in DR Congo's deadliest outbreak”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "More",
-          "Ebola",
-          "DR",
-          "Congo"
-        ],
-        "latest_progress": [
-          "10月31日 15:16 UTC，BBC World报道：“More than 5,000 die from Ebola in DR Congo's deadliest outbreak”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e1dd2c21c22405431775",
-          "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_campaign=rss&at_medium=RSS",
-          "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
-          "summary": "Government data shows that more than 10,000 people have contracted the rare virus.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T15:16:20+00:00",
-          "fetched_at": "2026-10-31T15:45:20.783204+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5071/live/dc9ee270-d531-11f1-866a-b522399149a0.jpg"
         }
       ]
     }
