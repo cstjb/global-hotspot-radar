@@ -1,72 +1,70 @@
 {
-  "generated_at": "2026-10-31T19:59:22.742181+00:00",
+  "generated_at": "2026-10-31T23:24:30.254513+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
     "articles_fetched": 84,
-    "articles_unique": 84,
+    "articles_unique": 83,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_e72f9665c308984e20d9",
-      "title": "Thousands rally in Berlin as Gen Z plans protests in 30 German cities",
+      "event_id": "evt_4f898737e32a4d5c0355",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
       "category": "军事安全",
-      "score": 83.6,
+      "score": 79.7,
       "score_breakdown": {
-        "coverage": 16.1,
+        "coverage": 17.9,
         "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 21.6,
-        "credibility": 9.6,
+        "region_diversity": 5.0,
+        "recency": 20.9,
+        "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 2.3
       },
-      "first_seen": "2026-10-31T16:00:00+00:00",
-      "last_updated": "2026-10-31T19:30:19+00:00",
+      "first_seen": "2026-10-30T13:01:22+00:00",
+      "last_updated": "2026-10-31T22:11:45+00:00",
       "source_count": 3,
-      "article_count": 4,
+      "article_count": 5,
       "sources": [
-        "Al Jazeera",
+        "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East",
         "North America"
       ],
       "keywords": [
-        "protests",
-        "cities",
-        "across",
-        "people",
-        "streets",
-        "some",
-        "more",
-        "europe"
+        "hack",
+        "north",
+        "binance",
+        "korea",
+        "crypto",
+        "suspected",
+        "cryptocurrency",
+        "exchange"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Thousands rally in Berlin as Gen Z plans protests in 30 German cities”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "France",
-          "Europe More",
-          "Thousands",
-          "Berlin",
-          "Gen",
-          "German",
-          "Germany"
+          "Crypto",
+          "Binance",
+          "Why North Korea",
+          "North Korea Binance",
+          "North Korea",
+          "Blockchain"
         ],
         "latest_progress": [
-          "10月31日 19:30 UTC，NPR World报道：“France seethes again as youth-led protests sweep Europe”。",
-          "10月31日 18:49 UTC，DW Top Stories报道：“More than 290 arrested in France as some weekend protests turn violent”。",
-          "10月31日 16:28 UTC，Al Jazeera报道：“Thousands rally in Berlin as Gen Z plans protests in 30 German cities”。"
+          "10月31日 22:11 UTC，BBC World报道：“Crypto firm Binance covers 90% of losses after $6.3bn hack”。",
+          "10月31日 02:12 UTC，BBC World报道：“Why North Korea's 'elite' hackers are the prime suspect in major Binance hack”。",
+          "10月30日 21:13 UTC，BBC World报道：“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -79,6 +77,162 @@
       },
       "articles": [
         {
+          "article_id": "art_7e07b386d88308d85443",
+          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_campaign=rss&at_medium=RSS",
+          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+          "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T22:11:45+00:00",
+          "fetched_at": "2026-10-31T23:24:29.129893+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg"
+        },
+        {
+          "article_id": "art_0315d0f2e2c3c6917d94",
+          "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_campaign=rss&at_medium=RSS",
+          "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+          "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T02:12:19+00:00",
+          "fetched_at": "2026-10-31T23:24:29.132710+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_d069e26c5380cf3278aa",
+          "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_campaign=rss&at_medium=RSS",
+          "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+          "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-30T21:13:14+00:00",
+          "fetched_at": "2026-10-31T23:24:29.131319+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_8532cb157846d5c775a9",
+          "url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-top-1022-rdf",
+          "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
+          "summary": "Crypto platform Binance has suspended trading following a suspected hack now linked to North Korea. The disruption has left users unable to trade on the cryptocurrency platform while the suspected breach is investigated.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-30T15:37:00+00:00",
+          "fetched_at": "2026-10-31T23:24:29.179194+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_953a21482a7a6994f98a",
+          "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+          "canonical_url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+          "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+          "summary": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-30T13:01:22+00:00",
+          "fetched_at": "2026-10-31T23:24:29.280443+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e72f9665c308984e20d9",
+      "title": "Thousands demonstrate in Paris as protests spread across Europe",
+      "category": "国际政治",
+      "score": 77.9,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.3,
+        "credibility": 9.6,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T16:00:00+00:00",
+      "last_updated": "2026-10-31T21:29:01+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "protests",
+        "across",
+        "people",
+        "some",
+        "more",
+        "france",
+        "cities",
+        "streets"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Thousands demonstrate in Paris as protests spread across Europe”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Thousands",
+          "Paris",
+          "Europe France",
+          "Europe More",
+          "France",
+          "Gen",
+          "Germany"
+        ],
+        "latest_progress": [
+          "10月31日 21:29 UTC，BBC World报道：“Thousands demonstrate in Paris as protests spread across Europe”。",
+          "10月31日 19:30 UTC，NPR World报道：“France seethes again as youth-led protests sweep Europe”。",
+          "10月31日 18:49 UTC，DW Top Stories报道：“More than 290 arrested in France as some weekend protests turn violent”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d4a6cdf444893d3b395b",
+          "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_campaign=rss&at_medium=RSS",
+          "title": "Thousands demonstrate in Paris as protests spread across Europe",
+          "summary": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T21:29:01+00:00",
+          "fetched_at": "2026-10-31T23:24:29.129718+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d3a/live/6230e120-d570-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
           "article_id": "art_c5193ece55308be3b05a",
           "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
           "canonical_url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
@@ -87,7 +241,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-31T19:30:19+00:00",
-          "fetched_at": "2026-10-31T19:59:21.872540+00:00",
+          "fetched_at": "2026-10-31T23:24:29.280001+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -102,25 +256,10 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-31T18:49:00+00:00",
-          "fetched_at": "2026-10-31T19:59:21.500655+00:00",
+          "fetched_at": "2026-10-31T23:24:29.177062+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_1d6297f0bdc26a37299c",
-          "url": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities?traffic_source=rss",
-          "title": "Thousands rally in Berlin as Gen Z plans protests in 30 German cities",
-          "summary": "Demonstrations sweeping Europe are inspiring young Germans frustrated by rising costs of living amid military spending.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T16:28:04+00:00",
-          "fetched_at": "2026-10-31T19:59:22.047732+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         },
         {
@@ -132,7 +271,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-31T16:00:00+00:00",
-          "fetched_at": "2026-10-31T19:59:21.500727+00:00",
+          "fetched_at": "2026-10-31T23:24:29.177205+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -141,23 +280,23 @@
       ]
     },
     {
-      "event_id": "evt_813dbeeab5aa2da9f508",
-      "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+      "event_id": "evt_b8043636d8c14d672d65",
+      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
       "category": "军事安全",
-      "score": 78.6,
+      "score": 77.9,
       "score_breakdown": {
-        "coverage": 16.1,
+        "coverage": 17.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.7,
-        "credibility": 9.9,
+        "recency": 18.0,
+        "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 3.1
+        "velocity": 3.3
       },
-      "first_seen": "2026-10-30T23:19:17+00:00",
+      "first_seen": "2026-10-30T20:09:00+00:00",
       "last_updated": "2026-10-31T18:32:20+00:00",
       "source_count": 3,
-      "article_count": 4,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -169,29 +308,31 @@
       ],
       "keywords": [
         "oleshky",
-        "russian-occupied",
-        "ceasefire",
-        "evacuees",
         "residents",
-        "ukraine",
-        "dan",
-        "johnson"
+        "city",
+        "ukrainian",
+        "evacuees",
+        "arrived",
+        "russian-occupied",
+        "ukraine"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“How has the ceasefire in Russian-occupied Oleshky been unfolding?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的军事安全事件为“Ukrainian evacuees reunite with family after years trapped in Russia-occupied city”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Evacuees",
           "Russian",
           "Oleshky",
+          "Ukrainian",
+          "Russia",
           "Emotional",
           "Ukraine",
           "Kyiv"
         ],
         "latest_progress": [
           "10月31日 18:32 UTC，Al Jazeera报道：“Evacuees of Russian-occupied Oleshky reunited with families”。",
-          "10月31日 16:55 UTC，BBC World报道：“Emotional reunions with loved ones for Oleshky evacuees”。",
-          "10月31日 15:47 UTC，DW Top Stories报道：“Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory”。"
+          "10月31日 17:53 UTC，BBC World报道：“Ukrainian evacuees reunite with family after years trapped in Russia-occupied city”。",
+          "10月31日 16:55 UTC，BBC World报道：“Emotional reunions with loved ones for Oleshky evacuees”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -212,270 +353,11 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-31T18:32:20+00:00",
-          "fetched_at": "2026-10-31T19:59:22.046914+00:00",
+          "fetched_at": "2026-10-31T23:24:29.348552+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
-        {
-          "article_id": "art_ee030eb61166929c34be",
-          "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_campaign=rss&at_medium=RSS",
-          "title": "Emotional reunions with loved ones for Oleshky evacuees",
-          "summary": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T16:55:47+00:00",
-          "fetched_at": "2026-10-31T19:59:20.427038+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4184/live/73d4d420-d54a-11f1-bcb7-8f812b44c2e5.jpg"
-        },
-        {
-          "article_id": "art_0ca7b8c71bbf37a4eecf",
-          "url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
-          "summary": "After Melania Trump reportedly brokered a localized truce, residents of Ukraine's Oleshky managed to leave the occupied city. Meanwhile, Kyiv claimed a hit on a Russian rocket fuel plant. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-31T15:47:00+00:00",
-          "fetched_at": "2026-10-31T19:59:21.500794+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_11777ba6dc43fc54f72b",
-          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_campaign=rss&at_medium=RSS",
-          "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-          "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T23:19:17+00:00",
-          "fetched_at": "2026-10-31T19:59:20.427251+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc6f/live/ee8a8a40-d4b2-11f1-88a4-835788f4f80e.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4f898737e32a4d5c0355",
-      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-      "category": "军事安全",
-      "score": 78.3,
-      "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.1,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 2.7
-      },
-      "first_seen": "2026-10-30T13:01:22+00:00",
-      "last_updated": "2026-10-31T16:32:08+00:00",
-      "source_count": 3,
-      "article_count": 5,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "north",
-        "hack",
-        "binance",
-        "crypto",
-        "korea",
-        "suspected",
-        "intelligence",
-        "firms"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Crypto",
-          "Binance",
-          "Why North Korea",
-          "North Korea Binance",
-          "North Korea",
-          "Blockchain"
-        ],
-        "latest_progress": [
-          "10月31日 16:32 UTC，BBC World报道：“Crypto firm Binance covers 90% of losses after $6.3bn hack”。",
-          "10月31日 02:12 UTC，BBC World报道：“Why North Korea's 'elite' hackers are the prime suspect in major Binance hack”。",
-          "10月30日 21:13 UTC，BBC World报道：“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7e07b386d88308d85443",
-          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_campaign=rss&at_medium=RSS",
-          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-          "summary": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T16:32:08+00:00",
-          "fetched_at": "2026-10-31T19:59:20.426028+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg"
-        },
-        {
-          "article_id": "art_0315d0f2e2c3c6917d94",
-          "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_campaign=rss&at_medium=RSS",
-          "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-          "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T02:12:19+00:00",
-          "fetched_at": "2026-10-31T19:59:20.427392+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_d069e26c5380cf3278aa",
-          "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_campaign=rss&at_medium=RSS",
-          "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-          "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T21:13:14+00:00",
-          "fetched_at": "2026-10-31T19:59:20.426747+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_8532cb157846d5c775a9",
-          "url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-top-1022-rdf",
-          "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
-          "summary": "Crypto platform Binance has suspended trading following a suspected hack now linked to North Korea. The disruption has left users unable to trade on the cryptocurrency platform while the suspected breach is investigated.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T15:37:00+00:00",
-          "fetched_at": "2026-10-31T19:59:21.501637+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_953a21482a7a6994f98a",
-          "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
-          "canonical_url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
-          "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
-          "summary": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T13:01:22+00:00",
-          "fetched_at": "2026-10-31T19:59:21.872793+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_aea6fd0f2917500d9053",
-      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
-      "category": "能源资源",
-      "score": 64.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T17:53:35+00:00",
-      "last_updated": "2026-10-31T19:22:26+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "years",
-        "russia-occupied",
-        "city",
-        "oleshky",
-        "food",
-        "ukrainian",
-        "evacuees",
-        "reunite"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的能源资源事件为“'We came back from hell', say Ukrainians after years in Russia-occupied frontline city”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "We",
-          "Ukrainians",
-          "Russia",
-          "Ukrainian"
-        ],
-        "latest_progress": [
-          "10月31日 19:22 UTC，BBC World报道：“'We came back from hell', say Ukrainians after years in Russia-occupied frontline city”。",
-          "10月31日 17:53 UTC，BBC World报道：“Ukrainian evacuees reunite with family after years trapped in Russia-occupied city”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_03636a7b93f909c1ccda",
-          "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_campaign=rss&at_medium=RSS",
-          "title": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
-          "summary": "One evacuated couple says they crossed minefields in Oleshky in a search for food.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T19:22:26+00:00",
-          "fetched_at": "2026-10-31T19:59:20.425726+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/053a/live/d1a9e840-d54c-11f1-bcb7-8f812b44c2e5.jpg"
         },
         {
           "article_id": "art_94341cc5bac73a175eaa",
@@ -486,21 +368,66 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-31T17:53:35+00:00",
-          "fetched_at": "2026-10-31T19:59:20.425852+00:00",
+          "fetched_at": "2026-10-31T23:24:29.129488+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_ee030eb61166929c34be",
+          "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_campaign=rss&at_medium=RSS",
+          "title": "Emotional reunions with loved ones for Oleshky evacuees",
+          "summary": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T16:55:47+00:00",
+          "fetched_at": "2026-10-31T23:24:29.132087+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f47/live/8e8b6090-d568-11f1-910b-9bd7c745c627.jpg"
+        },
+        {
+          "article_id": "art_0ca7b8c71bbf37a4eecf",
+          "url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+          "summary": "After Melania Trump reportedly brokered a localized truce, residents of Ukraine's Oleshky managed to leave the occupied city. Meanwhile, Kyiv claimed a hit on a Russian rocket fuel plant. DW has more.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-31T15:47:00+00:00",
+          "fetched_at": "2026-10-31T23:24:29.177349+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_915bdc956a21256026a3",
+          "url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
+          "summary": "Under the local ceasefire, an aid convoy of 25 buses arrived with humanitarian aid and as transport for fleeing Oleshky residents. The Ukrainian city has been occupied by Russia since 2022 and faces food shortages.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-30T20:09:00+00:00",
+          "fetched_at": "2026-10-31T23:24:29.178525+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
       "event_id": "evt_12e5b6d8fd9b5375373c",
-      "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+      "title": "Palestine Action supporters arrested outside US embassy in London",
       "category": "社会突发",
-      "score": 60.7,
+      "score": 64.7,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
         "recency": 20.9,
@@ -509,9 +436,9 @@
         "velocity": 5.0
       },
       "first_seen": "2026-10-31T18:48:29+00:00",
-      "last_updated": "2026-10-31T18:48:29+00:00",
+      "last_updated": "2026-10-31T22:10:53+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "sources": [
         "Al Jazeera"
       ],
@@ -520,22 +447,24 @@
       ],
       "keywords": [
         "london",
-        "police",
-        "arrest",
-        "hundreds",
-        "protest",
         "palestine",
         "action",
-        "ban"
+        "hundreds",
+        "ban",
+        "outside",
+        "embassy",
+        "police"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“London police arrest 139 as hundreds protest Palestine Action ban”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的社会突发事件为“Palestine Action supporters arrested outside US embassy in London”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "London",
-          "Palestine Action"
+          "Palestine Action",
+          "US",
+          "London London"
         ],
         "latest_progress": [
+          "10月31日 22:10 UTC，Al Jazeera报道：“Palestine Action supporters arrested outside US embassy in London”。",
           "10月31日 18:48 UTC，Al Jazeera报道：“London police arrest 139 as hundreds protest Palestine Action ban”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
@@ -549,6 +478,21 @@
       },
       "articles": [
         {
+          "article_id": "art_bef31fa2ba2cd6a88e6d",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
+          "title": "Palestine Action supporters arrested outside US embassy in London",
+          "summary": "Hundreds of protesters gathered outside the US Embassy in London to oppose the UK government's ban on Palestine Action.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T22:10:53+00:00",
+          "fetched_at": "2026-10-31T23:24:29.346628+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_192221ce7f290c041f70",
           "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
@@ -557,7 +501,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-31T18:48:29+00:00",
-          "fetched_at": "2026-10-31T19:59:22.046842+00:00",
+          "fetched_at": "2026-10-31T23:24:29.348405+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -566,48 +510,117 @@
       ]
     },
     {
-      "event_id": "evt_8e2da15b2ce5df9c5a72",
-      "title": "Serbia after Vucic: The winners are losing patience",
-      "category": "国际政治",
-      "score": 60.4,
+      "event_id": "evt_3ff05cd786d80fcdbff8",
+      "title": "Secretary Rubio has a tough time getting officials at G20 on the same page",
+      "category": "军事安全",
+      "score": 60.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.8,
+        "recency": 20.1,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T21:14:34+00:00",
+      "last_updated": "2026-10-31T21:14:34+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "NPR World"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "keywords": [
+        "secretary",
+        "rubio",
+        "g20",
+        "tough",
+        "time",
+        "getting",
+        "officials",
+        "same"
+      ],
+      "analysis": {
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“Secretary Rubio has a tough time getting officials at G20 on the same page”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Secretary Rubio"
+        ],
+        "latest_progress": [
+          "10月31日 21:14 UTC，NPR World报道：“Secretary Rubio has a tough time getting officials at G20 on the same page”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7c0ce3d8dd2c4b7e24e4",
+          "url": "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page",
+          "canonical_url": "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page",
+          "title": "Secretary Rubio has a tough time getting officials at G20 on the same page",
+          "summary": "U.S. Secretary of State Marco Rubio is hosting the G20 foreign ministers' meeting in Atlanta, with a focus on economic and security challenges.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T21:14:34+00:00",
+          "fetched_at": "2026-10-31T23:24:29.279659+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a7db983ca10442dbb9a5",
+      "title": "A new political era in the Southern Philippines",
+      "category": "国际政治",
+      "score": 58.7,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.1,
         "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-31T19:49:00+00:00",
-      "last_updated": "2026-10-31T19:49:00+00:00",
+      "first_seen": "2026-10-31T21:14:32+00:00",
+      "last_updated": "2026-10-31T21:14:32+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "DW Top Stories"
+        "NPR World"
       ],
       "regions": [
-        "Europe"
+        "North America"
       ],
       "keywords": [
-        "serbia",
-        "vucic",
-        "winners",
-        "losing",
-        "patience",
-        "student",
-        "list's",
-        "election"
+        "southern",
+        "philippines",
+        "political",
+        "era",
+        "local",
+        "government",
+        "taken",
+        "seat"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“Serbia after Vucic: The winners are losing patience”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的国际政治事件为“A new political era in the Southern Philippines”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Serbia",
-          "Vucic"
+          "Southern Philippines"
         ],
         "latest_progress": [
-          "10月31日 19:49 UTC，DW Top Stories报道：“Serbia after Vucic: The winners are losing patience”。"
+          "10月31日 21:14 UTC，NPR World报道：“A new political era in the Southern Philippines”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -620,18 +633,161 @@
       },
       "articles": [
         {
-          "article_id": "art_0539dab480d607891e0e",
-          "url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-top-1022-rdf",
-          "title": "Serbia after Vucic: The winners are losing patience",
-          "summary": "After the Student List's election victory, Aleksandar Vucic's power apparatus is disintegrating. People want justice as soon as possible. But the eleciton losers still hold sway in the judiciary and administration.",
-          "source": "DW Top Stories",
+          "article_id": "art_98e47325920a6fd8509e",
+          "url": "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines",
+          "canonical_url": "https://www.npr.org/2026/10/31/nx-s1-6020639/a-new-political-era-in-the-southern-philippines",
+          "title": "A new political era in the Southern Philippines",
+          "summary": "A new local government has taken its seat in the southern Philippines, in a step that marks a milestone in the peace process for a conflict that has lasted some 80 years.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-10-31T19:49:00+00:00",
-          "fetched_at": "2026-10-31T19:59:21.500564+00:00",
+          "published_at": "2026-10-31T21:14:32+00:00",
+          "fetched_at": "2026-10-31T23:24:29.279840+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d5d842edcccb627db8d0",
+      "title": "Israel’s allegations of Qatari election interference rejected",
+      "category": "国际政治",
+      "score": 58.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.4,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T20:24:58+00:00",
+      "last_updated": "2026-10-31T20:24:58+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "israel",
+        "allegations",
+        "qatari",
+        "election",
+        "interference",
+        "rejected"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Israel’s allegations of Qatari election interference rejected”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Israel",
+          "Qatari"
+        ],
+        "latest_progress": [
+          "10月31日 20:24 UTC，Al Jazeera报道：“Israel’s allegations of Qatari election interference rejected”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_74fdbf78a15fba9f65fd",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/israels-allegations-of-qatari-election-interference-rejected?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/israels-allegations-of-qatari-election-interference-rejected?traffic_source=rss",
+          "title": "Israel’s allegations of Qatari election interference rejected",
+          "summary": "Israel’s allegations of Qatari election interference rejected",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T20:24:58+00:00",
+          "fetched_at": "2026-10-31T23:24:29.347449+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_85800947316256990396",
+      "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
+      "category": "国际政治",
+      "score": 58.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.2,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T20:09:18+00:00",
+      "last_updated": "2026-10-31T20:09:18+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "black",
+        "sea",
+        "turkiye",
+        "erdogan",
+        "urges",
+        "russia",
+        "ukraine",
+        "stop"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Turkiye",
+          "Erdogan",
+          "Russia",
+          "Ukraine",
+          "Black Sea"
+        ],
+        "latest_progress": [
+          "10月31日 20:09 UTC，Al Jazeera报道：“Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cc5e68dfb70f0b966931",
+          "url": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss",
+          "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
+          "summary": "Turkish president hosts Zelenskyy in Istanbul as the two leaders agree to work on a new Black Sea grain corridor.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T20:09:18+00:00",
+          "fetched_at": "2026-10-31T23:24:29.347798+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
@@ -640,12 +796,12 @@
       "event_id": "evt_b0ac12c3c33c904f5941",
       "title": "Tension and clashes as hundreds of thousands protest again in France",
       "category": "社会突发",
-      "score": 60.4,
+      "score": 57.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.7,
+        "recency": 17.9,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
@@ -699,7 +855,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-31T18:28:14+00:00",
-          "fetched_at": "2026-10-31T19:59:22.046987+00:00",
+          "fetched_at": "2026-10-31T23:24:29.348730+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -708,49 +864,48 @@
       ]
     },
     {
-      "event_id": "evt_0a1b0ad5d352dfac3adb",
-      "title": "Jerusalem Daily: Who will form Israel’s next government?",
+      "event_id": "evt_8e2da15b2ce5df9c5a72",
+      "title": "Serbia after Vucic: The winners are losing patience",
       "category": "国际政治",
-      "score": 58.9,
+      "score": 57.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.8,
-        "credibility": 10.0,
+        "recency": 18.9,
+        "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-31T17:29:00+00:00",
-      "last_updated": "2026-10-31T17:29:00+00:00",
+      "first_seen": "2026-10-31T19:49:00+00:00",
+      "last_updated": "2026-10-31T19:49:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "Al Jazeera"
+        "DW Top Stories"
       ],
       "regions": [
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "form",
-        "jerusalem",
-        "daily",
-        "israel",
-        "next",
-        "government",
-        "netanyahu",
-        "eisenkot"
+        "serbia",
+        "vucic",
+        "winners",
+        "losing",
+        "patience",
+        "student",
+        "list's",
+        "election"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Jerusalem Daily: Who will form Israel’s next government?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“Serbia after Vucic: The winners are losing patience”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Jerusalem Daily",
-          "Who",
-          "Israel"
+          "Serbia",
+          "Vucic"
         ],
         "latest_progress": [
-          "10月31日 17:29 UTC，Al Jazeera报道：“Jerusalem Daily: Who will form Israel’s next government?”。"
+          "10月31日 19:49 UTC，DW Top Stories报道：“Serbia after Vucic: The winners are losing patience”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -763,163 +918,19 @@
       },
       "articles": [
         {
-          "article_id": "art_12f14b23cce7e027703d",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/jerusalem-daily-who-will-form-israels-next-government?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/jerusalem-daily-who-will-form-israels-next-government?traffic_source=rss",
-          "title": "Jerusalem Daily: Who will form Israel’s next government?",
-          "summary": "Netanyahu and Eisenkot are locked in a struggle to form a governing coalition in the Knesset.",
-          "source": "Al Jazeera",
+          "article_id": "art_0539dab480d607891e0e",
+          "url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/serbia-after-vucic-the-winners-are-losing-patience/a-79817586?maca=en-rss-en-top-1022-rdf",
+          "title": "Serbia after Vucic: The winners are losing patience",
+          "summary": "After the Student List's election victory, Aleksandar Vucic's power apparatus is disintegrating. People want justice as soon as possible. But the losers still hold sway in the judiciary and administration.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-10-31T17:29:00+00:00",
-          "fetched_at": "2026-10-31T19:59:22.047352+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_95f2ce14fa8c5894ac72",
-      "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
-      "category": "军事安全",
-      "score": 58.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T14:31:37+00:00",
-      "last_updated": "2026-10-31T14:31:37+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "iran",
-        "outreach",
-        "positive",
-        "step",
-        "delegation",
-        "qatar",
-        "talks",
-        "foreign"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Iran",
-          "FM",
-          "US",
-          "Qatar"
-        ],
-        "latest_progress": [
-          "10月31日 14:31 UTC，Al Jazeera报道：“Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ea39b3dca31cf0d19eb7",
-          "url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
-          "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
-          "summary": "Iran’s Foreign Minister Abbas Araghchi tells Al Jazeera Tehran doesn't rule out attack, is ‘prepared for all scenarios’.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T14:31:37+00:00",
-          "fetched_at": "2026-10-31T19:59:22.047943+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_66486e6270b1ec069826",
-      "title": "Ethiopian PM puts ministers through military training",
-      "category": "军事安全",
-      "score": 58.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T14:28:15+00:00",
-      "last_updated": "2026-10-31T14:28:15+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "military",
-        "ethiopian",
-        "puts",
-        "ministers",
-        "through",
-        "training",
-        "prime",
-        "minister"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Ethiopian PM puts ministers through military training”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ethiopian",
-          "PM"
-        ],
-        "latest_progress": [
-          "10月31日 14:28 UTC，BBC World报道：“Ethiopian PM puts ministers through military training”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_3a06fe6718f5b412b684",
-          "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_campaign=rss&at_medium=RSS",
-          "title": "Ethiopian PM puts ministers through military training",
-          "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T14:28:15+00:00",
-          "fetched_at": "2026-10-31T19:59:20.426186+00:00",
+          "published_at": "2026-10-31T19:49:00+00:00",
+          "fetched_at": "2026-10-31T23:24:29.176897+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edb0/live/55b5ceb0-d534-11f1-b64c-03717a6e5b71.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     }
