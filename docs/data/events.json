@@ -1,28 +1,132 @@
 {
-  "generated_at": "2026-10-31T09:38:42.440704+00:00",
+  "generated_at": "2026-10-31T15:45:22.385366+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 92,
-    "articles_unique": 92,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 87,
+    "articles_unique": 87,
+    "errors": []
   },
   "events": [
+    {
+      "event_id": "evt_949822aa116479d55011",
+      "title": "Protests outside Poland’s constitutional court: What’s the crisis about?",
+      "category": "国际政治",
+      "score": 72.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 18.4,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.7
+      },
+      "first_seen": "2026-10-30T23:22:00+00:00",
+      "last_updated": "2026-10-31T11:27:07+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "poland",
+        "court",
+        "police",
+        "top",
+        "government",
+        "protesters",
+        "clash",
+        "sacked"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Protests outside Poland’s constitutional court: What’s the crisis about?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Protests",
+          "Poland",
+          "What",
+          "Police",
+          "Protesters"
+        ],
+        "latest_progress": [
+          "10月31日 11:27 UTC，Al Jazeera报道：“Protests outside Poland’s constitutional court: What’s the crisis about?”。",
+          "10月31日 01:11 UTC，BBC World报道：“Police deployed during stand-off over control of top Poland court”。",
+          "10月30日 23:22 UTC，DW Top Stories报道：“Poland: Protesters clash with police over sacked court chief”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_99812603deaed695696b",
+          "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about?traffic_source=rss",
+          "title": "Protests outside Poland’s constitutional court: What’s the crisis about?",
+          "summary": "Poland’s centrist government says it is restoring judicial independence after years of far-right political interference.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T11:27:07+00:00",
+          "fetched_at": "2026-10-31T15:45:21.708304+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2d1b0e89d947f72cf955",
+          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_campaign=rss&at_medium=RSS",
+          "title": "Police deployed during stand-off over control of top Poland court",
+          "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T01:11:43+00:00",
+          "fetched_at": "2026-10-31T15:45:20.783292+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/308f/live/f44b1080-d50c-11f1-9db5-95ff6e967be3.jpg"
+        },
+        {
+          "article_id": "art_b4f265b7db598bfff279",
+          "url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-top-1022-rdf",
+          "title": "Poland: Protesters clash with police over sacked court chief",
+          "summary": "Polish Prime Minister Donald Tusk defended the firing of top court President Bogdan Swieczkowski as a move to \"restore the rule of law.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-30T23:22:00+00:00",
+          "fetched_at": "2026-10-31T15:45:21.445696+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
     {
       "event_id": "evt_4f898737e32a4d5c0355",
       "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
       "category": "军事安全",
-      "score": 75.4,
+      "score": 71.7,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 16.1,
+        "recency": 12.5,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 4.6
@@ -85,7 +189,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-31T02:12:19+00:00",
-          "fetched_at": "2026-10-31T09:38:40.615259+00:00",
+          "fetched_at": "2026-10-31T15:45:20.783121+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -100,7 +204,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T21:13:14+00:00",
-          "fetched_at": "2026-10-31T09:38:40.615079+00:00",
+          "fetched_at": "2026-10-31T15:45:20.783907+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -115,7 +219,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T15:37:00+00:00",
-          "fetched_at": "2026-10-31T09:38:41.026040+00:00",
+          "fetched_at": "2026-10-31T15:45:21.446093+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -130,7 +234,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-30T13:01:22+00:00",
-          "fetched_at": "2026-10-31T09:38:41.297217+00:00",
+          "fetched_at": "2026-10-31T15:45:21.563873+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -140,22 +244,22 @@
     },
     {
       "event_id": "evt_813dbeeab5aa2da9f508",
-      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+      "title": "Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus",
       "category": "军事安全",
-      "score": 75.1,
+      "score": 66.8,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.3,
+        "recency": 18.0,
         "credibility": 10.0,
         "impact": 13.0,
-        "velocity": 4.7
+        "velocity": 2.6
       },
       "first_seen": "2026-10-30T23:19:17+00:00",
-      "last_updated": "2026-10-31T08:49:35+00:00",
+      "last_updated": "2026-10-31T10:53:55+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
         "BBC World"
@@ -165,29 +269,27 @@
         "Middle East"
       ],
       "keywords": [
-        "ceasefire",
         "oleshky",
-        "hundreds",
-        "town",
-        "evacuated",
+        "ceasefire",
         "russian-occupied",
         "ukraine",
-        "unfolding"
+        "evacuees",
+        "unfolding",
+        "correspondent",
+        "dan"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Hundreds",
+          "Evacuees",
           "Russian",
           "Oleshky",
           "Ukraine",
-          "Melania",
-          "Oleshky How"
+          "Belarus How"
         ],
         "latest_progress": [
-          "10月31日 08:49 UTC，BBC World报道：“Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire”。",
-          "10月31日 02:44 UTC，Al Jazeera报道：“Hundreds evacuated from Melania-brokered ceasefire town of Oleshky”。",
+          "10月31日 10:53 UTC，Al Jazeera报道：“Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus”。",
           "10月30日 23:19 UTC，BBC World报道：“How has the ceasefire in Russian-occupied Oleshky been unfolding?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -201,30 +303,15 @@
       },
       "articles": [
         {
-          "article_id": "art_55fc6707b3cde2fa3b2b",
-          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_campaign=rss&at_medium=RSS",
-          "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-          "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T08:49:35+00:00",
-          "fetched_at": "2026-10-31T09:38:40.616087+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21db/live/aec4b500-d482-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_1146ea76ffdcfe2d155e",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
-          "title": "Hundreds evacuated from Melania-brokered ceasefire town of Oleshky",
-          "summary": "Hundreds have been evacuated from Russia-occupied Oleshky under a localised ceasefire brokered by Melania Trump.",
+          "article_id": "art_8b7deee357effb3f328d",
+          "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
+          "title": "Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus",
+          "summary": "Four planes transporting evacuees from the war-ravaged city arrived in Belarus's Gomel earlier on Saturday.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-31T02:44:38+00:00",
-          "fetched_at": "2026-10-31T09:38:41.431930+00:00",
+          "published_at": "2026-10-31T10:53:55+00:00",
+          "fetched_at": "2026-10-31T15:45:21.708505+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -239,7 +326,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T23:19:17+00:00",
-          "fetched_at": "2026-10-31T09:38:40.618749+00:00",
+          "fetched_at": "2026-10-31T15:45:20.784500+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -248,26 +335,115 @@
       ]
     },
     {
-      "event_id": "evt_a3223d6c0faef382ad7b",
-      "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
-      "category": "社会突发",
-      "score": 72.5,
+      "event_id": "evt_b8043636d8c14d672d65",
+      "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
+      "category": "军事安全",
+      "score": 66.3,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.2,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.2,
         "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 4.1
+        "impact": 13.0,
+        "velocity": 1.6
       },
-      "first_seen": "2026-10-30T16:51:00+00:00",
-      "last_updated": "2026-10-31T03:42:14+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-10-30T20:09:00+00:00",
+      "last_updated": "2026-10-31T14:53:34+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "residents",
+        "city",
+        "ukraine",
+        "oleshky",
+        "ceasefire",
+        "aid",
+        "evacuate",
+        "war-ravaged"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Evacuees",
+          "Russia",
+          "Ukraine Ukraine",
+          "Oleshky"
+        ],
+        "latest_progress": [
+          "10月31日 14:53 UTC，BBC World报道：“Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine”。",
+          "10月30日 20:09 UTC，DW Top Stories报道：“Ukraine: Oleshky residents evacuate war-ravaged city”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_94341cc5bac73a175eaa",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_campaign=rss&at_medium=RSS",
+          "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
+          "summary": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T14:53:34+00:00",
+          "fetched_at": "2026-10-31T15:45:20.783009+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_915bdc956a21256026a3",
+          "url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
+          "summary": "Under the local ceasefire, an aid convoy of 25 buses arrived with humanitarian aid and as transport for fleeing Oleshky residents. The Ukrainian city has been occupied by Russia since 2022 and faces food shortages.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-30T20:09:00+00:00",
+          "fetched_at": "2026-10-31T15:45:21.445807+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a4182b914357ecc557cd",
+      "title": "Thousands protest across Italy over living costs and military spending",
+      "category": "军事安全",
+      "score": 65.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.1,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 1.3
+      },
+      "first_seen": "2026-10-30T12:45:00+00:00",
+      "last_updated": "2026-10-31T11:07:39+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -275,27 +451,417 @@
         "Middle East"
       ],
       "keywords": [
-        "pike",
-        "christa",
-        "execution",
-        "pain",
-        "failed",
-        "lethal",
-        "injection",
-        "tennessee"
+        "italy",
+        "living",
+        "costs",
+        "across",
+        "military",
+        "spending",
+        "students",
+        "workers"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“US inmate Christa Pike says she woke up 'confused and in pain' after failed execution”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Thousands protest across Italy over living costs and military spending”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "US",
-          "Christa Pike",
-          "Tennessee"
+          "Thousands",
+          "Italy",
+          "Students"
         ],
         "latest_progress": [
-          "10月31日 03:42 UTC，Al Jazeera报道：“US execution survivor Christa Pike says she is now in ‘constant pain’”。",
-          "10月30日 17:07 UTC，BBC World报道：“US inmate Christa Pike says she woke up 'confused and in pain' after failed execution”。",
-          "10月30日 16:51 UTC，DW Top Stories报道：“Tennessee woman Christa Pike describes pain after failed execution”。"
+          "10月31日 11:07 UTC，Al Jazeera报道：“Thousands protest across Italy over living costs and military spending”。",
+          "10月30日 12:45 UTC，DW Top Stories报道：“Italy: Students and workers rally over living costs”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e8ecd9c545c92ab756cc",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
+          "title": "Thousands protest across Italy over living costs and military spending",
+          "summary": "Thousands have protested across Italy against rising living costs and increased military spending.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T11:07:39+00:00",
+          "fetched_at": "2026-10-31T15:45:21.708369+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_dd999ee6968667d8827a",
+          "url": "https://www.dw.com/en/italy-students-and-workers-rally-over-living-costs/a-79807668?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/italy-students-and-workers-rally-over-living-costs/a-79807668?maca=en-rss-en-top-1022-rdf",
+          "title": "Italy: Students and workers rally over living costs",
+          "summary": "Students and workers have marched across Italy for more school funding and relief from rising living costs. The rallies follow weeks of school occupations and protests against higher military spending.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-30T12:45:00+00:00",
+          "fetched_at": "2026-10-31T15:45:21.446306+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b5df16704e4c0436386d",
+      "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+      "category": "军事安全",
+      "score": 64.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T12:13:42+00:00",
+      "last_updated": "2026-10-31T12:22:45+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "iran",
+        "peace",
+        "not",
+        "withdrawal",
+        "nuclear",
+        "warns",
+        "unfettered",
+        "retaliation"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Iran warns of unfettered retaliation if attacked as mediators try for peace”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "NPT",
+          "Will"
+        ],
+        "latest_progress": [
+          "10月31日 12:22 UTC，Al Jazeera报道：“Iran lawmakers call for withdrawal from NPT: Will we have war or peace?”。",
+          "10月31日 12:13 UTC，Al Jazeera报道：“Iran warns of unfettered retaliation if attacked as mediators try for peace”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_caa117590bede6189f5e",
+          "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
+          "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
+          "summary": "Withdrawal from the nuclear treaty doses not mean that Iran would build a nuclear weapon, observers say.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T12:22:45+00:00",
+          "fetched_at": "2026-10-31T15:45:21.707968+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_47fe0d68e72d60ebedc0",
+          "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
+          "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+          "summary": "Iran’s supreme leader says Tehran’s potential response will not be restricted by geography.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T12:13:42+00:00",
+          "fetched_at": "2026-10-31T15:45:21.708102+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_95f2ce14fa8c5894ac72",
+      "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
+      "category": "军事安全",
+      "score": 61.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.9,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T14:31:37+00:00",
+      "last_updated": "2026-10-31T14:31:37+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "iran",
+        "outreach",
+        "positive",
+        "step",
+        "delegation",
+        "qatar",
+        "talks",
+        "foreign"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "FM",
+          "US",
+          "Qatar"
+        ],
+        "latest_progress": [
+          "10月31日 14:31 UTC，Al Jazeera报道：“Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ea39b3dca31cf0d19eb7",
+          "url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
+          "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
+          "summary": "Iran’s Foreign Minister Abbas Araghchi tells Al Jazeera Tehran doesn't rule out attack, is ‘prepared for all scenarios’.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T14:31:37+00:00",
+          "fetched_at": "2026-10-31T15:45:21.707103+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_66486e6270b1ec069826",
+      "title": "Ethiopian PM puts ministers through military training",
+      "category": "军事安全",
+      "score": 61.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.9,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T14:28:15+00:00",
+      "last_updated": "2026-10-31T14:28:15+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "military",
+        "ethiopian",
+        "puts",
+        "ministers",
+        "through",
+        "training",
+        "prime",
+        "minister"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Ethiopian PM puts ministers through military training”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Ethiopian",
+          "PM"
+        ],
+        "latest_progress": [
+          "10月31日 14:28 UTC，BBC World报道：“Ethiopian PM puts ministers through military training”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3a06fe6718f5b412b684",
+          "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_campaign=rss&at_medium=RSS",
+          "title": "Ethiopian PM puts ministers through military training",
+          "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T14:28:15+00:00",
+          "fetched_at": "2026-10-31T15:45:20.783401+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edb0/live/55b5ceb0-d534-11f1-b64c-03717a6e5b71.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8df704bba3f7d090781b",
+      "title": "Syria considering entry into Mecca defence pact, says foreign minister",
+      "category": "军事安全",
+      "score": 61.8,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.7,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T14:20:23+00:00",
+      "last_updated": "2026-10-31T14:20:23+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "syria",
+        "considering",
+        "entry",
+        "mecca",
+        "defence",
+        "pact",
+        "foreign",
+        "minister"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Syria considering entry into Mecca defence pact, says foreign minister”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Syria",
+          "Mecca"
+        ],
+        "latest_progress": [
+          "10月31日 14:20 UTC，Al Jazeera报道：“Syria considering entry into Mecca defence pact, says foreign minister”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a87f03fcfb7d76bcf55f",
+          "url": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
+          "title": "Syria considering entry into Mecca defence pact, says foreign minister",
+          "summary": "Damascus 'evaluating' whether to join the alliance that binds Turkiye, Saudi Arabia and Pakistan.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T14:20:23+00:00",
+          "fetched_at": "2026-10-31T15:45:21.707252+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_08c21fd12e038f8e86d0",
+      "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "category": "社会突发",
+      "score": 61.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-31T15:16:20+00:00",
+      "last_updated": "2026-10-31T15:16:20+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "more",
+        "than",
+        "die",
+        "ebola",
+        "congo's",
+        "deadliest",
+        "outbreak",
+        "government"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的社会突发事件为“More than 5,000 die from Ebola in DR Congo's deadliest outbreak”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "More",
+          "Ebola",
+          "DR",
+          "Congo"
+        ],
+        "latest_progress": [
+          "10月31日 15:16 UTC，BBC World报道：“More than 5,000 die from Ebola in DR Congo's deadliest outbreak”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -308,645 +874,19 @@
       },
       "articles": [
         {
-          "article_id": "art_ebaede23cc07616dc386",
-          "url": "https://www.aljazeera.com/news/2026/10/31/us-execution-survivor-christa-pike-says-she-is-now-in-constant?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/us-execution-survivor-christa-pike-says-she-is-now-in-constant?traffic_source=rss",
-          "title": "US execution survivor Christa Pike says she is now in ‘constant pain’",
-          "summary": "Pike, 50, is being held in solitary confinement and faces an uncertain future after surviving a failed lethal injection.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T03:42:14+00:00",
-          "fetched_at": "2026-10-31T09:38:41.431383+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5c353031b9a077e0dc92",
-          "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_campaign=rss&at_medium=RSS",
-          "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
-          "summary": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
+          "article_id": "art_e1dd2c21c22405431775",
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_campaign=rss&at_medium=RSS",
+          "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+          "summary": "Government data shows that more than 10,000 people have contracted the rare virus.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-30T17:07:19+00:00",
-          "fetched_at": "2026-10-31T09:38:40.616554+00:00",
+          "published_at": "2026-10-31T15:16:20+00:00",
+          "fetched_at": "2026-10-31T15:45:20.783204+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e22e/live/c1455920-d46c-11f1-93e1-3b657b665bcf.jpg"
-        },
-        {
-          "article_id": "art_598dd4b97e0f8acae113",
-          "url": "https://www.dw.com/en/tennessee-woman-christa-pike-describes-pain-after-failed-execution/a-79810735?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/tennessee-woman-christa-pike-describes-pain-after-failed-execution/a-79810735?maca=en-rss-en-top-1022-rdf",
-          "title": "Tennessee woman Christa Pike describes pain after failed execution",
-          "summary": "Christa Pike says she remains in constant pain a month after surviving a lethal injection in Tennessee. Her lawyers want her death sentence reduced to life, while the state governor has ordered an investigation.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T16:51:00+00:00",
-          "fetched_at": "2026-10-31T09:38:41.025641+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c56284b297b646fe7abb",
-      "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
-      "category": "国际政治",
-      "score": 70.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.0,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.8
-      },
-      "first_seen": "2026-10-30T11:09:00+00:00",
-      "last_updated": "2026-10-31T03:27:21+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "russia",
-        "novaya",
-        "newspaper",
-        "gazeta",
-        "pressure",
-        "critical",
-        "one",
-        "last"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“They strangled us, says founder of Russian newspaper shut under pressure from authorities”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Russia",
-          "Novaya Gazeta",
-          "They",
-          "Russian",
-          "Critical"
-        ],
-        "latest_progress": [
-          "10月31日 03:27 UTC，Al Jazeera报道：“Russia’s Novaya Gazeta ‘killed off’ after murders, arrests and pressure”。",
-          "10月30日 20:41 UTC，BBC World报道：“They strangled us, says founder of Russian newspaper shut under pressure from authorities”。",
-          "10月30日 11:09 UTC，DW Top Stories报道：“Russia: Critical newspaper 'Novaya Gazeta' to close”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7417fc2592ac39c3a550",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/russias-novaya-gazeta-killed-off-after-murders-arrests-and-pressure?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/russias-novaya-gazeta-killed-off-after-murders-arrests-and-pressure?traffic_source=rss",
-          "title": "Russia’s Novaya Gazeta ‘killed off’ after murders, arrests and pressure",
-          "summary": "Russia’s most prominent investigative newspaper is closing, with staff accusing the government of killing it off.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T03:27:21+00:00",
-          "fetched_at": "2026-10-31T09:38:41.431534+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_240fe2e8fd61f68059f0",
-          "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_campaign=rss&at_medium=RSS",
-          "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
-          "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T20:41:51+00:00",
-          "fetched_at": "2026-10-31T09:38:40.616247+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b85a/live/484c0a90-d4b8-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_3f5de88c68e6b5229943",
-          "url": "https://www.dw.com/en/russia-critical-newspaper-novaya-gazeta-to-close/a-79805693?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russia-critical-newspaper-novaya-gazeta-to-close/a-79805693?maca=en-rss-en-top-1022-rdf",
-          "title": "Russia: Critical newspaper 'Novaya Gazeta' to close",
-          "summary": "\"Novaya Gazeta,\" one of the last remaining independent, critical media outlets in Russia, has announced it is closing under pressure from state authorities. Meanwhile, in Ukraine, evacuations have begun in Oleshky.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T11:09:00+00:00",
-          "fetched_at": "2026-10-31T09:38:41.026809+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_13221e96eaf1663376b5",
-      "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-      "category": "军事安全",
-      "score": 69.2,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T00:40:43+00:00",
-      "last_updated": "2026-10-31T04:51:25+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "sale",
-        "patriot",
-        "missiles",
-        "ukraine",
-        "approves",
-        "american-made",
-        "interceptors",
-        "only"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“US greenlights $2.1bn Patriot missile sale to Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US",
-          "Patriot",
-          "Ukraine"
-        ],
-        "latest_progress": [
-          "10月31日 04:51 UTC，Al Jazeera报道：“US greenlights $2.1bn Patriot missile sale to Ukraine”。",
-          "10月31日 00:40 UTC，BBC World报道：“US approves sale of 500 Patriot missiles to Ukraine”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c56781528fc981761f57",
-          "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
-          "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-          "summary": "Deal would be one of the most significant steps to supply defensive weapons to Kyiv since ​Trump took office in 2025.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T04:51:25+00:00",
-          "fetched_at": "2026-10-31T09:38:41.430901+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6cdb3a9a4a1798b01749",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_campaign=rss&at_medium=RSS",
-          "title": "US approves sale of 500 Patriot missiles to Ukraine",
-          "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T00:40:43+00:00",
-          "fetched_at": "2026-10-31T09:38:40.614834+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_21a1d06388d888a047ad",
-      "title": "US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea",
-      "category": "国际政治",
-      "score": 65.7,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.0,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 1.7
-      },
-      "first_seen": "2026-10-30T14:08:00+00:00",
-      "last_updated": "2026-10-31T07:20:45+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "korea",
-        "north",
-        "south",
-        "trump",
-        "korean",
-        "donald",
-        "kim",
-        "jong"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "US",
-          "South Korea",
-          "Japan",
-          "North Korea Seoul",
-          "North Korea"
-        ],
-        "latest_progress": [
-          "10月31日 07:20 UTC，Al Jazeera报道：“US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea”。",
-          "10月30日 14:08 UTC，DW Top Stories报道：“Seoul fears being sidelined as US reaches out to North Korea”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1ce6b8fbf8b0ac1e551a",
-          "url": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea?traffic_source=rss",
-          "title": "US, South Korea, Japan call for ‘complete denuclearisation’ of North Korea",
-          "summary": "The joint statement comes as US President Donald Trump seeks a new meeting with North Korean leader Kim Jong Un.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T07:20:45+00:00",
-          "fetched_at": "2026-10-31T09:38:41.429322+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_abb8032b21c24bfef1e1",
-          "url": "https://www.dw.com/en/seoul-fears-being-sidelined-as-us-reaches-out-to-north-korea/a-79808098?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/seoul-fears-being-sidelined-as-us-reaches-out-to-north-korea/a-79808098?maca=en-rss-en-top-1022-rdf",
-          "title": "Seoul fears being sidelined as US reaches out to North Korea",
-          "summary": "With ties between South Korea and the Trump administration strained, the South Korean government worries that Donald Trump's pursuit of a diplomatic breakthrough with Kim Jong Un may come at Seoul's expense.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T14:08:00+00:00",
-          "fetched_at": "2026-10-31T09:38:41.026303+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b2440ac14704f5992514",
-      "title": "Dead dolphins, naval mines: Russia-Ukraine war destroys the Black Sea",
-      "category": "军事安全",
-      "score": 62.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.9,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T08:27:10+00:00",
-      "last_updated": "2026-10-31T08:27:10+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "dolphins",
-        "black",
-        "sea",
-        "dead",
-        "naval",
-        "mines",
-        "russia-ukraine",
-        "war"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Dead dolphins, naval mines: Russia-Ukraine war destroys the Black Sea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Dead",
-          "Russia",
-          "Ukraine",
-          "Black Sea"
-        ],
-        "latest_progress": [
-          "10月31日 08:27 UTC，Al Jazeera报道：“Dead dolphins, naval mines: Russia-Ukraine war destroys the Black Sea”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_20e94a56401b0d405b43",
-          "url": "https://www.aljazeera.com/news/2026/10/31/dead-dolphins-naval-mines-russia-ukraine-war-destroys-the-black-sea?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/dead-dolphins-naval-mines-russia-ukraine-war-destroys-the-black-sea?traffic_source=rss",
-          "title": "Dead dolphins, naval mines: Russia-Ukraine war destroys the Black Sea",
-          "summary": "Conflict devastates Black Sea marine life, killing more than 120,000 dolphins and causing ecological damage.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T08:27:10+00:00",
-          "fetched_at": "2026-10-31T09:38:41.428648+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_949822aa116479d55011",
-      "title": "Police deployed during stand-off over control of top Poland court",
-      "category": "国际政治",
-      "score": 62.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.5,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-30T23:22:00+00:00",
-      "last_updated": "2026-10-31T01:11:43+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "court",
-        "poland",
-        "police",
-        "top",
-        "protesters",
-        "clash",
-        "sacked",
-        "chief"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Police deployed during stand-off over control of top Poland court”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Police",
-          "Poland",
-          "Protesters"
-        ],
-        "latest_progress": [
-          "10月31日 01:11 UTC，BBC World报道：“Police deployed during stand-off over control of top Poland court”。",
-          "10月30日 23:22 UTC，DW Top Stories报道：“Poland: Protesters clash with police over sacked court chief”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2d1b0e89d947f72cf955",
-          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_campaign=rss&at_medium=RSS",
-          "title": "Police deployed during stand-off over control of top Poland court",
-          "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T01:11:43+00:00",
-          "fetched_at": "2026-10-31T09:38:40.615426+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/308f/live/f44b1080-d50c-11f1-9db5-95ff6e967be3.jpg"
-        },
-        {
-          "article_id": "art_b4f265b7db598bfff279",
-          "url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-top-1022-rdf",
-          "title": "Poland: Protesters clash with police over sacked court chief",
-          "summary": "Polish Prime Minister Donald Tusk defended the firing of top court President Bogdan Swieczkowski as a move to \"restore the rule of law.\"",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T23:22:00+00:00",
-          "fetched_at": "2026-10-31T09:38:41.025103+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_89c12798ed3eb46abd75",
-      "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
-      "category": "军事安全",
-      "score": 61.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.7,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T08:08:30+00:00",
-      "last_updated": "2026-10-31T08:08:30+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "houthis",
-        "using",
-        "russian",
-        "satellites",
-        "saudi",
-        "arabia",
-        "fends",
-        "off"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Are Houthis using Russian satellites as Saudi Arabia fends off strikes?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Are Houthis",
-          "Russian",
-          "Saudi Arabia"
-        ],
-        "latest_progress": [
-          "10月31日 08:08 UTC，Al Jazeera报道：“Are Houthis using Russian satellites as Saudi Arabia fends off strikes?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a0b78fab003ac37f0e8e",
-          "url": "https://www.aljazeera.com/news/2026/10/31/are-houthis-using-russian-satellites-as-saudi-arabia-faces-hits?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/are-houthis-using-russian-satellites-as-saudi-arabia-faces-hits?traffic_source=rss",
-          "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
-          "summary": "Analysts say the seizure of state arsenals, external backing and extensive military evolution has helped the Houthis.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-31T08:08:30+00:00",
-          "fetched_at": "2026-10-31T09:38:41.428982+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4a8224279c58edf6fdee",
-      "title": "CCTV, zip ties and election watchers: How US mail-in votes are secured and counted",
-      "category": "国际政治",
-      "score": 60.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.7,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-31T09:16:14+00:00",
-      "last_updated": "2026-10-31T09:16:14+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "election",
-        "mail-in",
-        "cctv",
-        "zip",
-        "ties",
-        "watchers",
-        "votes",
-        "secured"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“CCTV, zip ties and election watchers: How US mail-in votes are secured and counted”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "CCTV",
-          "US"
-        ],
-        "latest_progress": [
-          "10月31日 09:16 UTC，BBC World报道：“CCTV, zip ties and election watchers: How US mail-in votes are secured and counted”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f9054474e0dbaf649b68",
-          "url": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_campaign=rss&at_medium=RSS",
-          "title": "CCTV, zip ties and election watchers: How US mail-in votes are secured and counted",
-          "summary": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T09:16:14+00:00",
-          "fetched_at": "2026-10-31T09:38:40.618602+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e67/live/634d7ac0-d46a-11f1-a701-fddedf244c16.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5071/live/dc9ee270-d531-11f1-866a-b522399149a0.jpg"
         }
       ]
     }
