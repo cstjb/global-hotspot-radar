@@ -1,31 +1,40 @@
 {
-  "generated_at": "2026-10-30T22:59:10.785707+00:00",
+  "generated_at": "2026-10-31T02:23:53.228280+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 93,
-    "articles_unique": 93,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 90,
+    "articles_unique": 90,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
       "event_id": "evt_4f898737e32a4d5c0355",
       "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
       "category": "军事安全",
-      "score": 77.8,
+      "score": 81.0,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.4,
-        "credibility": 9.7,
+        "recency": 21.8,
+        "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 4.6
       },
       "first_seen": "2026-10-30T13:01:22+00:00",
-      "last_updated": "2026-10-30T21:13:14+00:00",
+      "last_updated": "2026-10-31T02:12:19+00:00",
       "source_count": 3,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "BBC World",
         "DW Top Stories",
@@ -36,29 +45,30 @@
         "North America"
       ],
       "keywords": [
-        "hack",
         "north",
+        "hack",
         "binance",
         "korea",
         "crypto",
+        "suspected",
         "cryptocurrency",
-        "exchange",
-        "platform"
+        "exchange"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Crypto",
+          "Why North Korea",
           "Binance",
+          "Crypto",
           "North Korea Binance",
           "North Korea",
           "Blockchain"
         ],
         "latest_progress": [
+          "10月31日 02:12 UTC，BBC World报道：“Why North Korea's 'elite' hackers are the prime suspect in major Binance hack”。",
           "10月30日 21:13 UTC，BBC World报道：“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。",
-          "10月30日 15:37 UTC，DW Top Stories报道：“Binance crypto exchange suspends trades over North Korea-linked hack”。",
-          "10月30日 13:01 UTC，NPR World报道：“Blockchain intelligence firms link North Korea to $6.3B hack on Binance”。"
+          "10月30日 15:37 UTC，DW Top Stories报道：“Binance crypto exchange suspends trades over North Korea-linked hack”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -71,6 +81,21 @@
       },
       "articles": [
         {
+          "article_id": "art_0315d0f2e2c3c6917d94",
+          "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_campaign=rss&at_medium=RSS",
+          "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+          "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T02:12:19+00:00",
+          "fetched_at": "2026-10-31T02:23:51.641158+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg"
+        },
+        {
           "article_id": "art_d069e26c5380cf3278aa",
           "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_campaign=rss&at_medium=RSS",
@@ -79,7 +104,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T21:13:14+00:00",
-          "fetched_at": "2026-10-30T22:59:09.165647+00:00",
+          "fetched_at": "2026-10-31T02:23:51.641070+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -94,7 +119,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T15:37:00+00:00",
-          "fetched_at": "2026-10-30T22:59:09.554682+00:00",
+          "fetched_at": "2026-10-31T02:23:52.159114+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -109,7 +134,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-30T13:01:22+00:00",
-          "fetched_at": "2026-10-30T22:59:09.797509+00:00",
+          "fetched_at": "2026-10-31T02:23:52.437408+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -118,15 +143,322 @@
       ]
     },
     {
-      "event_id": "evt_21a1d06388d888a047ad",
-      "title": "Swiss foreign minister talks political ties on rare visit to North Korea",
+      "event_id": "evt_ecd85adfce0ddc1e5132",
+      "title": "Police deployed during stand-off over control of top Poland court",
       "category": "国际政治",
-      "score": 69.9,
+      "score": 76.5,
       "score_breakdown": {
         "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.9,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-30T23:19:42+00:00",
+      "last_updated": "2026-10-31T01:11:43+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "court",
+        "police",
+        "top",
+        "polish",
+        "deployed",
+        "suspended",
+        "government",
+        "poland"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Police deployed during stand-off over control of top Poland court”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Police",
+          "Poland",
+          "Protesters",
+          "Polish"
+        ],
+        "latest_progress": [
+          "10月31日 01:11 UTC，BBC World报道：“Police deployed during stand-off over control of top Poland court”。",
+          "10月30日 23:22 UTC，DW Top Stories报道：“Poland: Protesters clash with police over sacked court chief”。",
+          "10月30日 23:19 UTC，Al Jazeera报道：“Polish police deployed to top court after head judge suspended”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_2d1b0e89d947f72cf955",
+          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_campaign=rss&at_medium=RSS",
+          "title": "Police deployed during stand-off over control of top Poland court",
+          "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-31T01:11:43+00:00",
+          "fetched_at": "2026-10-31T02:23:51.641237+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b6c2/live/46cc2780-d49b-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_b4f265b7db598bfff279",
+          "url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-top-1022-rdf",
+          "title": "Poland: Protesters clash with police over sacked court chief",
+          "summary": "Polish Prime Minister Donald Tusk defended the firing of top court President Bogdan Swieczkowski as a move to \"restore the rule of law.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-30T23:22:00+00:00",
+          "fetched_at": "2026-10-31T02:23:52.158705+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_a780985c3572656cfa13",
+          "url": "https://www.aljazeera.com/news/2026/10/30/polish-police-deployed-to-top-court-after-head-judge-suspended?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/30/polish-police-deployed-to-top-court-after-head-judge-suspended?traffic_source=rss",
+          "title": "Polish police deployed to top court after head judge suspended",
+          "summary": "Judge's suspension is part of a long dispute over politicisation of the Constitutional Tribunal under former government.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-30T23:19:42+00:00",
+          "fetched_at": "2026-10-31T02:23:52.561599+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8ed7f68845547ee3ec5c",
+      "title": "Pope Leo becomes first pontiff to vote in US general election",
+      "category": "国际政治",
+      "score": 76.0,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.2,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 4.2
+      },
+      "first_seen": "2026-10-30T14:48:22+00:00",
+      "last_updated": "2026-10-31T01:31:44+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "pope",
+        "leo",
+        "pontiff",
+        "vote",
+        "xiv",
+        "ballot",
+        "elections",
+        "becomes"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Pope Leo becomes first pontiff to vote in US general election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Pope Leo",
+          "US",
+          "XIV"
+        ],
+        "latest_progress": [
+          "10月31日 01:31 UTC，Al Jazeera报道：“Pope Leo becomes first pontiff to vote in US general election”。",
+          "10月30日 16:14 UTC，DW Top Stories报道：“US midterms: Pope Leo XIV casts vote by mail”。",
+          "10月30日 14:48 UTC，BBC World报道：“Pope Leo XIV becomes first pontiff to vote in a US election”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_10f693fbbd2c0b152eb8",
+          "url": "https://www.aljazeera.com/news/2026/10/31/pope-leo-becomes-first-pontiff-to-vote-in-us-general-election?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/10/31/pope-leo-becomes-first-pontiff-to-vote-in-us-general-election?traffic_source=rss",
+          "title": "Pope Leo becomes first pontiff to vote in US general election",
+          "summary": "Vatican confirms the pope submitted a mail-in ballot in his native Chicago ahead of November 3 midterm elections",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-31T01:31:44+00:00",
+          "fetched_at": "2026-10-31T02:23:52.561019+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b767c8327c8c0f4bf006",
+          "url": "https://www.dw.com/en/us-midterms-pope-leo-xiv-casts-vote-by-mail/a-79810339?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-midterms-pope-leo-xiv-casts-vote-by-mail/a-79810339?maca=en-rss-en-top-1022-rdf",
+          "title": "US midterms: Pope Leo XIV casts vote by mail",
+          "summary": "As a US citizen, Pope Leo XIV is eligible to vote in US elections and has made use of that right with a postal ballot ahead of Tuesday's midterms. The pontiff, a Chicago native, did not reveal who he voted for.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-30T16:14:00+00:00",
+          "fetched_at": "2026-10-31T02:23:52.159059+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_44c07a833723821ade23",
+          "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_campaign=rss&at_medium=RSS",
+          "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
+          "summary": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-30T14:48:22+00:00",
+          "fetched_at": "2026-10-31T02:23:51.641683+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8a0/live/e3a84f00-d470-11f1-9dda-1ba6fcc7d159.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_4aa0a0ea9b2f9aee24b1",
+      "title": "Rubio hosts G20 talks as Russia’s Lavrov presence sparks tensions",
+      "category": "国际政治",
+      "score": 70.6,
+      "score_breakdown": {
+        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.9,
+        "recency": 21.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-10-30T20:13:36+00:00",
+      "last_updated": "2026-10-31T01:56:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "g20",
+        "russia",
+        "rubio",
+        "talks",
+        "lavrov",
+        "hosts",
+        "presence",
+        "sparks"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Rubio hosts G20 talks as Russia’s Lavrov presence sparks tensions”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "European",
+          "Russia",
+          "US",
+          "Rubio",
+          "Lavrov"
+        ],
+        "latest_progress": [
+          "10月31日 01:56 UTC，DW Top Stories报道：“European diplomats shun Russia at G20 gathering in the US”。",
+          "10月30日 20:13 UTC，Al Jazeera报道：“Rubio hosts G20 talks as Russia’s Lavrov presence sparks tensions”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f369c14d4a109cd81a22",
+          "url": "https://www.dw.com/en/european-diplomats-shun-russia-at-g20-gathering-in-the-us/a-79813925?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/european-diplomats-shun-russia-at-g20-gathering-in-the-us/a-79813925?maca=en-rss-en-top-1022-rdf",
+          "title": "European diplomats shun Russia at G20 gathering in the US",
+          "summary": "Russian Foreign Minister Sergey Lavrov declined to comment on Russia's participation in the G20 summit in December, telling DW that Volodymyr Zelenskyy should travel to Russia if he wanted talks with Vladimir Putin.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-31T01:56:00+00:00",
+          "fetched_at": "2026-10-31T02:23:52.158623+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0ff7911cdfabf0223ce1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
+          "title": "Rubio hosts G20 talks as Russia’s Lavrov presence sparks tensions",
+          "summary": "US Secretary of State Marco Rubio urged G20 officials to work together to confront threats to the economic order.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-10-30T20:13:36+00:00",
+          "fetched_at": "2026-10-31T02:23:52.562020+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_21a1d06388d888a047ad",
+      "title": "Kim Jong Un calls for North Korea’s drone technology superiority",
+      "category": "国际政治",
+      "score": 64.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 15.5,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -134,7 +466,7 @@
       "first_seen": "2026-10-30T14:08:00+00:00",
       "last_updated": "2026-10-30T18:03:45+00:00",
       "source_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
         "DW Top Stories"
@@ -148,24 +480,22 @@
         "korea",
         "kim",
         "jong",
-        "ties",
         "south",
         "korean",
-        "diplomatic"
+        "calls",
+        "drone"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Swiss foreign minister talks political ties on rare visit to North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Kim Jong Un calls for North Korea’s drone technology superiority”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Kim Jong Un",
           "North Korea",
-          "Swiss",
-          "North Korea Seoul",
+          "Seoul",
           "US"
         ],
         "latest_progress": [
           "10月30日 18:03 UTC，Al Jazeera报道：“Kim Jong Un calls for North Korea’s drone technology superiority”。",
-          "10月30日 15:37 UTC，Al Jazeera报道：“Swiss foreign minister talks political ties on rare visit to North Korea”。",
           "10月30日 14:08 UTC，DW Top Stories报道：“Seoul fears being sidelined as US reaches out to North Korea”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
@@ -187,22 +517,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-30T18:03:45+00:00",
-          "fetched_at": "2026-10-30T22:59:09.927665+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_18db19d9d4fb0a8e2559",
-          "url": "https://www.aljazeera.com/news/2026/10/30/swiss-foreign-minister-talks-political-ties-on-rare-visit-to-north-korea?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/30/swiss-foreign-minister-talks-political-ties-on-rare-visit-to-north-korea?traffic_source=rss",
-          "title": "Swiss foreign minister talks political ties on rare visit to North Korea",
-          "summary": "Switzerland formally reopens diplomatic office in North Korea after its closure in 2020.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-30T15:37:03+00:00",
-          "fetched_at": "2026-10-30T22:59:09.928376+00:00",
+          "fetched_at": "2026-10-31T02:23:52.562722+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -217,7 +532,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T14:08:00+00:00",
-          "fetched_at": "2026-10-30T22:59:09.554833+00:00",
+          "fetched_at": "2026-10-31T02:23:52.159220+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -226,15 +541,104 @@
       ]
     },
     {
+      "event_id": "evt_f18ffac46e837b17cee3",
+      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+      "category": "军事安全",
+      "score": 63.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.4,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 4.4
+      },
+      "first_seen": "2026-10-30T16:26:11+00:00",
+      "last_updated": "2026-10-30T23:19:17+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "oleshky",
+        "ceasefire",
+        "hundreds",
+        "russian-occupied",
+        "ukraine",
+        "town",
+        "evacuated",
+        "during"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的2篇报道，当前关注的军事安全事件为“Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russian",
+          "Oleshky",
+          "Hundreds",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "10月30日 23:19 UTC，BBC World报道：“How has the ceasefire in Russian-occupied Oleshky been unfolding?”。",
+          "10月30日 16:26 UTC，BBC World报道：“Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_11777ba6dc43fc54f72b",
+          "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_campaign=rss&at_medium=RSS",
+          "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+          "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-30T23:19:17+00:00",
+          "fetched_at": "2026-10-31T02:23:51.642513+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc6f/live/ee8a8a40-d4b2-11f1-88a4-835788f4f80e.jpg"
+        },
+        {
+          "article_id": "art_55fc6707b3cde2fa3b2b",
+          "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_campaign=rss&at_medium=RSS",
+          "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+          "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-10-30T16:26:11+00:00",
+          "fetched_at": "2026-10-31T02:23:51.641315+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21db/live/aec4b500-d482-11f1-a701-fddedf244c16.jpg"
+        }
+      ]
+    },
+    {
       "event_id": "evt_206de3ad39e3631ee1f9",
       "title": "What to know about California’s midterm elections",
       "category": "科技AI",
-      "score": 66.3,
+      "score": 63.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.1,
+        "recency": 16.6,
         "credibility": 10.0,
         "impact": 9.8,
         "velocity": 4.2
@@ -292,7 +696,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-10-30T19:38:49+00:00",
-          "fetched_at": "2026-10-30T22:59:09.927112+00:00",
+          "fetched_at": "2026-10-31T02:23:52.562299+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -307,7 +711,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T12:27:28+00:00",
-          "fetched_at": "2026-10-30T22:59:09.168070+00:00",
+          "fetched_at": "2026-10-31T02:23:51.642660+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -319,12 +723,12 @@
       "event_id": "evt_a3223d6c0faef382ad7b",
       "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
       "category": "社会突发",
-      "score": 64.4,
+      "score": 62.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 17.2,
+        "recency": 14.9,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
@@ -381,7 +785,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-30T17:07:19+00:00",
-          "fetched_at": "2026-10-30T22:59:09.165763+00:00",
+          "fetched_at": "2026-10-31T02:23:51.641542+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -396,188 +800,11 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-30T16:51:00+00:00",
-          "fetched_at": "2026-10-30T22:59:09.554426+00:00",
+          "fetched_at": "2026-10-31T02:23:52.158950+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1e027263b9a3f4e84ded",
-      "title": "Israeli forces blow up homes of Palestinians accused of killing soldiers",
-      "category": "军事安全",
-      "score": 63.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.3,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-30T15:06:00+00:00",
-      "last_updated": "2026-10-30T18:35:44+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "homes",
-        "palestinians",
-        "israeli",
-        "soldiers",
-        "forces",
-        "accused",
-        "killing",
-        "demolished"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Israeli forces blow up homes of Palestinians accused of killing soldiers”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Israel",
-          "Palestinians",
-          "Israeli"
-        ],
-        "latest_progress": [
-          "10月30日 18:35 UTC，Al Jazeera报道：“Israel demolishes homes of Palestinians blamed for attack on soldiers”。",
-          "10月30日 15:06 UTC，Al Jazeera报道：“Israeli forces blow up homes of Palestinians accused of killing soldiers”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e05917d40d80413e91a3",
-          "url": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers?traffic_source=rss",
-          "title": "Israel demolishes homes of Palestinians blamed for attack on soldiers",
-          "summary": "Troops hold at least 12 Palestinians near demolished homes as nearly 5,000 remain displaced from Hebron neighbourhoods",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-30T18:35:44+00:00",
-          "fetched_at": "2026-10-30T22:59:09.927464+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e19cf41dd441d2ffe10a",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/israeli-forces-blow-up-homes-of-palestinians-accused-of-killing-soldiers?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/israeli-forces-blow-up-homes-of-palestinians-accused-of-killing-soldiers?traffic_source=rss",
-          "title": "Israeli forces blow up homes of Palestinians accused of killing soldiers",
-          "summary": "Israeli forces demolished the homes of two Palestinians accused of killing two Israeli soldiers in Hebron last week.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-10-30T15:06:00+00:00",
-          "fetched_at": "2026-10-30T22:59:09.928657+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_8ed7f68845547ee3ec5c",
-      "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
-      "category": "国际政治",
-      "score": 63.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 16.6,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-30T14:48:22+00:00",
-      "last_updated": "2026-10-30T16:14:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "pope",
-        "leo",
-        "xiv",
-        "pontiff",
-        "vote",
-        "ballot",
-        "elections",
-        "midterms"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Pope Leo XIV becomes first pontiff to vote in a US election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "US",
-          "Pope Leo",
-          "XIV"
-        ],
-        "latest_progress": [
-          "10月30日 16:14 UTC，DW Top Stories报道：“US midterms: Pope Leo XIV casts vote by mail”。",
-          "10月30日 14:48 UTC，BBC World报道：“Pope Leo XIV becomes first pontiff to vote in a US election”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b767c8327c8c0f4bf006",
-          "url": "https://www.dw.com/en/us-midterms-pope-leo-xiv-casts-vote-by-mail/a-79810339?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-midterms-pope-leo-xiv-casts-vote-by-mail/a-79810339?maca=en-rss-en-top-1022-rdf",
-          "title": "US midterms: Pope Leo XIV casts vote by mail",
-          "summary": "As a US citizen, Pope Leo XIV is eligible to vote in US elections and has made use of that right with a postal ballot ahead of Tuesday's midterms. The pontiff, a Chicago native, did not reveal who he voted for.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T16:14:00+00:00",
-          "fetched_at": "2026-10-30T22:59:09.554605+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_44c07a833723821ade23",
-          "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_campaign=rss&at_medium=RSS",
-          "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
-          "summary": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T14:48:22+00:00",
-          "fetched_at": "2026-10-30T22:59:09.166263+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8a0/live/e3a84f00-d470-11f1-9dda-1ba6fcc7d159.jpg"
         }
       ]
     },
@@ -585,18 +812,18 @@
       "event_id": "evt_13221e96eaf1663376b5",
       "title": "US approves sale of 500 Patriot missiles to Ukraine",
       "category": "军事安全",
-      "score": 62.5,
+      "score": 61.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.4,
+        "recency": 20.5,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-30T22:20:52+00:00",
-      "last_updated": "2026-10-30T22:20:52+00:00",
+      "first_seen": "2026-10-31T00:40:43+00:00",
+      "last_updated": "2026-10-31T00:40:43+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -624,7 +851,7 @@
           "Ukraine"
         ],
         "latest_progress": [
-          "10月30日 22:20 UTC，BBC World报道：“US approves sale of 500 Patriot missiles to Ukraine”。"
+          "10月31日 00:40 UTC，BBC World报道：“US approves sale of 500 Patriot missiles to Ukraine”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -644,20 +871,20 @@
           "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-10-30T22:20:52+00:00",
-          "fetched_at": "2026-10-30T22:59:09.165485+00:00",
+          "published_at": "2026-10-31T00:40:43+00:00",
+          "fetched_at": "2026-10-31T02:23:51.640954+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33b8/live/5acd5630-8cbd-11f1-b8ee-9b3c26ad07bb.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_b659a9b8b9eb3e15e23d",
-      "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+      "event_id": "evt_52668881d6e436e85e97",
+      "title": "Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end soon",
       "category": "军事安全",
-      "score": 61.0,
+      "score": 60.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
@@ -667,8 +894,8 @@
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-10-30T20:37:20+00:00",
-      "last_updated": "2026-10-30T20:37:20+00:00",
+      "first_seen": "2026-10-31T00:00:00+00:00",
+      "last_updated": "2026-10-31T00:00:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -678,24 +905,25 @@
         "Middle East"
       ],
       "keywords": [
-        "g20",
-        "drops",
-        "group",
-        "photo",
-        "europeans",
-        "refuse",
-        "stand",
-        "lavrov"
+        "iran",
+        "war",
+        "tankers",
+        "hit",
+        "hormuz",
+        "trump",
+        "conflict",
+        "end"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“G20 drops group photo as Europeans refuse to stand with Lavrov”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end soon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Europeans",
-          "Lavrov"
+          "Iran",
+          "Hormuz",
+          "Trump"
         ],
         "latest_progress": [
-          "10月30日 20:37 UTC，Al Jazeera报道：“G20 drops group photo as Europeans refuse to stand with Lavrov”。"
+          "10月31日 00:00 UTC，Al Jazeera报道：“Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end soon”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -708,177 +936,19 @@
       },
       "articles": [
         {
-          "article_id": "art_3f1712623dbd45718b7a",
-          "url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
-          "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
-          "summary": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members.",
+          "article_id": "art_a017d16d5bc22700ce16",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+          "title": "Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end soon",
+          "summary": "IRGC says four tankers hit in Strait of Hormuz, as Trump says war on Iran will 'get wrapped up soon'.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-10-30T20:37:20+00:00",
-          "fetched_at": "2026-10-30T22:59:09.926601+00:00",
+          "published_at": "2026-10-31T00:00:00+00:00",
+          "fetched_at": "2026-10-31T02:23:52.561432+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c18a569565f0db7e0215",
-      "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
-      "category": "国际政治",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.9,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 3.4
-      },
-      "first_seen": "2026-10-30T06:17:00+00:00",
-      "last_updated": "2026-10-30T15:09:29+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "election",
-        "majority",
-        "israeli",
-        "netanyahu",
-        "all",
-        "votes",
-        "counted",
-        "bloc"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Israeli opposition accuses Netanyahu of trying to 'delegitimise' election”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Israeli",
-          "Netanyahu"
-        ],
-        "latest_progress": [
-          "10月30日 15:09 UTC，BBC World报道：“Israeli opposition accuses Netanyahu of trying to 'delegitimise' election”。",
-          "10月30日 06:17 UTC，DW Top Stories报道：“Israeli election: Netanyahu, main rival fall short of majority after all votes counted”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_f33d1f0ed33fca681b07",
-          "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_campaign=rss&at_medium=RSS",
-          "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
-          "summary": "The PM's Likud party has alleged foreign interference and said Arab-led parties \"stole\" the election after his coalition lost its majority.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T15:09:29+00:00",
-          "fetched_at": "2026-10-30T22:59:09.167909+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/213a/live/ecf64a00-d3d3-11f1-9c32-1532a6164171.jpg"
-        },
-        {
-          "article_id": "art_b14a4d75c37e1aea86e8",
-          "url": "https://www.dw.com/en/israeli-election-netanyahu-main-rival-fall-short-of-majority-after-all-votes-counted/live-79713839?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/israeli-election-netanyahu-main-rival-fall-short-of-majority-after-all-votes-counted/live-79713839?maca=en-rss-en-top-1022-rdf",
-          "title": "Israeli election: Netanyahu, main rival fall short of majority after all votes counted",
-          "summary": "With all the votes counted, the pro-Netanyahu bloc finished ahead of Gadi Eisenkot's anti-Netanyahu bloc. But tough coalition talks loom as neither grouping won a majority. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T06:17:00+00:00",
-          "fetched_at": "2026-10-30T22:59:09.555613+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ac3ad082936231589c65",
-      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
-      "category": "国际政治",
-      "score": 60.4,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-10-30T22:11:52+00:00",
-      "last_updated": "2026-10-30T22:11:52+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "russian",
-        "g20",
-        "family",
-        "photo'",
-        "cancelled",
-        "protests",
-        "presence",
-        "minister"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“G20 'family photo' cancelled after protests over presence of Russian minister”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Russian"
-        ],
-        "latest_progress": [
-          "10月30日 22:11 UTC，BBC World报道：“G20 'family photo' cancelled after protests over presence of Russian minister”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_400c834739805f620639",
-          "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_campaign=rss&at_medium=RSS",
-          "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
-          "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T22:11:52+00:00",
-          "fetched_at": "2026-10-30T22:59:09.166442+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa3e/live/bc4ea460-d487-11f1-80bc-6d398902272f.jpg"
         }
       ]
     }
