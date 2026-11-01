@@ -1,69 +1,75 @@
 {
-  "generated_at": "2026-11-01T06:03:32.367376+00:00",
+  "generated_at": "2026-11-01T13:23:38.886033+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 84,
-    "articles_unique": 83,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 81,
+    "articles_unique": 81,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
       "event_id": "evt_6b2b720d1b4a0ee8c19a",
       "title": "Thousands demonstrate in Paris as protests spread across Europe",
       "category": "国际政治",
-      "score": 84.3,
+      "score": 76.9,
       "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 18.6,
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.7,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 3.5
       },
       "first_seen": "2026-10-31T18:49:00+00:00",
-      "last_updated": "2026-11-01T01:59:57+00:00",
-      "source_count": 4,
-      "article_count": 5,
+      "last_updated": "2026-11-01T11:57:48+00:00",
+      "source_count": 3,
+      "article_count": 4,
       "sources": [
-        "Al Jazeera",
         "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East",
         "North America"
       ],
       "keywords": [
         "protests",
         "france",
-        "violent",
         "across",
         "some",
-        "turn",
         "people",
-        "streets"
+        "living",
+        "more",
+        "than"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“Thousands demonstrate in Paris as protests spread across Europe”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Thousands demonstrate in Paris as protests spread across Europe”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Shops",
           "German",
-          "Gen",
-          "Germany",
           "Thousands",
           "Paris",
           "Europe France",
-          "Europe More"
+          "Europe More",
+          "France"
         ],
         "latest_progress": [
-          "11月01日 01:59 UTC，BBC World报道：“Shops looted as German cost of living protests turn violent”。",
-          "11月01日 00:27 UTC，Al Jazeera报道：“Gen Z-led protests in Germany turn violent”。",
-          "10月31日 21:29 UTC，BBC World报道：“Thousands demonstrate in Paris as protests spread across Europe”。"
+          "11月01日 11:57 UTC，BBC World报道：“Shops looted as German cost of living protests turn violent”。",
+          "10月31日 21:29 UTC，BBC World报道：“Thousands demonstrate in Paris as protests spread across Europe”。",
+          "10月31日 19:30 UTC，NPR World报道：“France seethes again as youth-led protests sweep Europe”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -80,30 +86,15 @@
           "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_campaign=rss&at_medium=RSS",
           "title": "Shops looted as German cost of living protests turn violent",
-          "summary": "Police in Frankfurt say \"violent riots\" took place in the city centre, with unrest also reported in Berlin, Hamburg and Cologne.",
+          "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-01T01:59:57+00:00",
-          "fetched_at": "2026-11-01T06:03:30.761470+00:00",
+          "published_at": "2026-11-01T11:57:48+00:00",
+          "fetched_at": "2026-11-01T13:23:37.607671+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1d6/live/e39b2030-d58f-11f1-b151-73ae9f7607e8.jpg"
-        },
-        {
-          "article_id": "art_6c9b24994b1bb8f76b68",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/germany-gen-z-protests-education-military-service?traffic_source=rss",
-          "title": "Gen Z-led protests in Germany turn violent",
-          "summary": "Protesters clashed with police as thousands took to the streets across 34 cities in Germany.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-01T00:27:20+00:00",
-          "fetched_at": "2026-11-01T06:03:31.774534+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ace/live/3e4ef120-d5d4-11f1-8629-7b9503d639be.jpg"
         },
         {
           "article_id": "art_d4a6cdf444893d3b395b",
@@ -114,7 +105,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-31T21:29:01+00:00",
-          "fetched_at": "2026-11-01T06:03:30.762028+00:00",
+          "fetched_at": "2026-11-01T13:23:37.609232+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -129,7 +120,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-31T19:30:19+00:00",
-          "fetched_at": "2026-11-01T06:03:31.539974+00:00",
+          "fetched_at": "2026-11-01T13:23:38.009533+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -144,7 +135,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-31T18:49:00+00:00",
-          "fetched_at": "2026-11-01T06:03:31.260176+00:00",
+          "fetched_at": "2026-11-01T13:23:37.850315+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -153,60 +144,55 @@
       ]
     },
     {
-      "event_id": "evt_4f898737e32a4d5c0355",
-      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "event_id": "evt_44ae3c5df3f447033659",
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
       "category": "科技AI",
-      "score": 84.0,
+      "score": 76.1,
       "score_breakdown": {
-        "coverage": 20.8,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 19.0,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.8,
         "credibility": 9.8,
         "impact": 9.8,
-        "velocity": 2.8
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-30T13:01:22+00:00",
-      "last_updated": "2026-11-01T02:28:38+00:00",
-      "source_count": 4,
-      "article_count": 7,
+      "first_seen": "2026-11-01T07:33:00+00:00",
+      "last_updated": "2026-11-01T13:11:37+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
-        "NPR World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "North America"
+        "Middle East"
       ],
       "keywords": [
-        "hack",
-        "north",
-        "binance",
-        "crypto",
-        "korea",
         "fbi",
-        "billion",
-        "suspected"
+        "north",
+        "korea",
+        "binance",
+        "theft",
+        "hack",
+        "behind",
+        "billion"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的科技AI事件为“Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的科技AI事件为“Crypto firm Binance covers 90% of losses after $6.3bn hack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "FBI",
-          "North Korea",
-          "Binance",
           "Crypto",
-          "Why North Korea",
-          "North Korea Binance",
-          "Blockchain"
+          "Binance",
+          "FBI",
+          "North Korea"
         ],
         "latest_progress": [
-          "11月01日 02:28 UTC，Al Jazeera报道：“FBI blames North Korea for record $6.3bn crypto heist from Binance”。",
-          "11月01日 01:53 UTC，DW Top Stories报道：“FBI says North Korea behind $6 billion Binance crypto theft”。",
-          "10月31日 22:11 UTC，BBC World报道：“Crypto firm Binance covers 90% of losses after $6.3bn hack”。"
+          "11月01日 13:11 UTC，BBC World报道：“Crypto firm Binance covers 90% of losses after $6.3bn hack”。",
+          "11月01日 12:50 UTC，Al Jazeera报道：“Binance restarts withdrawals after $6.3bn heist”。",
+          "11月01日 07:33 UTC，DW Top Stories报道：“FBI says North Korea behind $6 billion Binance crypto theft”。"
         ],
         "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
         "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
@@ -219,15 +205,30 @@
       },
       "articles": [
         {
-          "article_id": "art_d010ff02caad04c20f31",
-          "url": "https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist?traffic_source=rss",
-          "title": "FBI blames North Korea for record $6.3bn crypto heist from Binance",
-          "summary": "Crypto firm Binance says it has covered 90 percent of losses from the multibillion-dollar hack.",
+          "article_id": "art_7e07b386d88308d85443",
+          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_campaign=rss&at_medium=RSS",
+          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+          "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-01T13:11:37+00:00",
+          "fetched_at": "2026-11-01T13:23:37.608230+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg"
+        },
+        {
+          "article_id": "art_639ab0fa3f0908934f5e",
+          "url": "https://www.aljazeera.com/news/2026/11/1/binance-restarts-withdrawals-after-6-3bn-heist?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/binance-restarts-withdrawals-after-6-3bn-heist?traffic_source=rss",
+          "title": "Binance restarts withdrawals after $6.3bn heist",
+          "summary": "The FBI says hackers from North Korea are responsible for the theft.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-01T02:28:38+00:00",
-          "fetched_at": "2026-11-01T06:03:31.774259+00:00",
+          "published_at": "2026-11-01T12:50:55+00:00",
+          "fetched_at": "2026-11-01T13:23:38.140261+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -241,108 +242,33 @@
           "summary": "The FBI said the theft was tied to \"malicious cyber activity\" by an entity known as TraderTraitor, the same actors behind a $1.5 billion Bybit hack last year.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-01T01:53:00+00:00",
-          "fetched_at": "2026-11-01T06:03:31.260061+00:00",
+          "published_at": "2026-11-01T07:33:00+00:00",
+          "fetched_at": "2026-11-01T13:23:37.849935+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7e07b386d88308d85443",
-          "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_campaign=rss&at_medium=RSS",
-          "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-          "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T22:11:45+00:00",
-          "fetched_at": "2026-11-01T06:03:30.761742+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg"
-        },
-        {
-          "article_id": "art_0315d0f2e2c3c6917d94",
-          "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_campaign=rss&at_medium=RSS",
-          "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-          "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T02:12:19+00:00",
-          "fetched_at": "2026-11-01T06:03:30.763018+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_d069e26c5380cf3278aa",
-          "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_campaign=rss&at_medium=RSS",
-          "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-          "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T21:13:14+00:00",
-          "fetched_at": "2026-11-01T06:03:30.762572+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_8532cb157846d5c775a9",
-          "url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-top-1022-rdf",
-          "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
-          "summary": "Crypto platform Binance has suspended trading following a suspected hack now linked to North Korea. The disruption has left users unable to trade on the cryptocurrency platform while the suspected breach is investigated.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T15:37:00+00:00",
-          "fetched_at": "2026-11-01T06:03:31.261040+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_953a21482a7a6994f98a",
-          "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
-          "canonical_url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
-          "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
-          "summary": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-10-30T13:01:22+00:00",
-          "fetched_at": "2026-11-01T06:03:31.540186+00:00",
-          "language": "en",
-          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_b8043636d8c14d672d65",
-      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
-      "category": "军事安全",
-      "score": 78.8,
+      "event_id": "evt_0c738995aebeb7b0e09b",
+      "title": "India's opposition holds mega rally seeking election chief's resignation",
+      "category": "国际政治",
+      "score": 75.8,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 19.9,
+        "recency": 20.3,
         "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 2.4
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-10-30T20:09:00+00:00",
-      "last_updated": "2026-11-01T03:37:23+00:00",
+      "first_seen": "2026-11-01T07:00:55+00:00",
+      "last_updated": "2026-11-01T11:26:08+00:00",
       "source_count": 3,
-      "article_count": 5,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -353,31 +279,317 @@
         "Middle East"
       ],
       "keywords": [
-        "oleshky",
-        "residents",
-        "city",
-        "ukrainian",
-        "evacuees",
-        "ukraine",
-        "ceasefire",
-        "aid"
+        "rally",
+        "delhi",
+        "election",
+        "thousands",
+        "opposition",
+        "holds",
+        "mega",
+        "chief"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的军事安全事件为“Ukrainian evacuees reunite with family after years trapped in Russia-occupied city”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“India's opposition holds mega rally seeking election chief's resignation”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Ukrainian",
-          "Russian",
-          "Oleshky",
-          "Russia",
-          "Emotional",
-          "Ukraine",
-          "Evacuees",
-          "Kyiv"
+          "Thousands",
+          "New Delhi",
+          "India",
+          "Opposition",
+          "Delhi"
         ],
         "latest_progress": [
-          "11月01日 03:37 UTC，Al Jazeera报道：“Ukrainian evacuees from Russian-occupied Oleshky reunite with family”。",
-          "10月31日 17:53 UTC，BBC World报道：“Ukrainian evacuees reunite with family after years trapped in Russia-occupied city”。",
+          "11月01日 11:26 UTC，Al Jazeera报道：“Thousands rally in New Delhi to demand India’s election chief resign”。",
+          "11月01日 10:26 UTC，DW Top Stories报道：“India news: Opposition holds major rally in Delhi over voter roll revisions”。",
+          "11月01日 07:00 UTC，BBC World报道：“India's opposition holds mega rally seeking election chief's resignation”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3bdbd29abd796a33496a",
+          "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign?traffic_source=rss",
+          "title": "Thousands rally in New Delhi to demand India’s election chief resign",
+          "summary": "Hundreds of police, some carrying batons and shields, are deployed around the rally site.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T11:26:08+00:00",
+          "fetched_at": "2026-11-01T13:23:38.140743+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_287321ef73f5b96ed26d",
+          "url": "https://www.dw.com/en/india-news-opposition-holds-major-rally-in-delhi-over-voter-roll-revisions/live-79820226?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-news-opposition-holds-major-rally-in-delhi-over-voter-roll-revisions/live-79820226?maca=en-rss-en-top-1022-rdf",
+          "title": "India news: Opposition holds major rally in Delhi over voter roll revisions",
+          "summary": "Thousands are expected to take part in the Indian opposition's planned mega march in New Delhi over a controversial revision of electoral rolls. DW has more.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-01T10:26:00+00:00",
+          "fetched_at": "2026-11-01T13:23:37.849712+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d68bfc7b58a905cdd6e0",
+          "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_campaign=rss&at_medium=RSS",
+          "title": "India's opposition holds mega rally seeking election chief's resignation",
+          "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-01T07:00:55+00:00",
+          "fetched_at": "2026-11-01T13:23:37.607932+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab52/live/e490a850-d5d2-11f1-8629-7b9503d639be.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a2a14d69d04fb942c262",
+      "title": "Bulgarians vote in presidential run-off amid Black Sea tensions",
+      "category": "军事安全",
+      "score": 70.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.9,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-01T07:00:00+00:00",
+      "last_updated": "2026-11-01T10:57:45+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "bulgarians",
+        "vote",
+        "presidential",
+        "runoff",
+        "ukraine",
+        "war",
+        "voters",
+        "bulgaria"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Bulgarians vote in presidential run-off amid Black Sea tensions”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Bulgarians",
+          "Black Sea",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "11月01日 10:57 UTC，Al Jazeera报道：“Bulgarians vote in presidential run-off amid Black Sea tensions”。",
+          "11月01日 07:00 UTC，DW Top Stories报道：“Bulgarians vote in highly polarized presidential runoff overshadowed by Ukraine war”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_60ae9f6563aec840ab80",
+          "url": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions?traffic_source=rss",
+          "title": "Bulgarians vote in presidential run-off amid Black Sea tensions",
+          "summary": "Voters in Bulgaria weigh economic challenges and attacks on ships in a race marked by record low turnout.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T10:57:45+00:00",
+          "fetched_at": "2026-11-01T13:23:38.140950+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_595e2f2c6518dc671fee",
+          "url": "https://www.dw.com/en/bulgarians-vote-in-highly-polarized-presidential-runoff-overshadowed-by-ukraine-war/a-79820449?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/bulgarians-vote-in-highly-polarized-presidential-runoff-overshadowed-by-ukraine-war/a-79820449?maca=en-rss-en-top-1022-rdf",
+          "title": "Bulgarians vote in highly polarized presidential runoff overshadowed by Ukraine war",
+          "summary": "Voters in Bulgaria are choosing between two candidates with vastly different views of the war in Ukraine and ties with Russia. The runoff comes after a record-low turnout in the first round.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-01T07:00:00+00:00",
+          "fetched_at": "2026-11-01T13:23:37.850013+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_455e7ae41d8d1487f847",
+      "title": "Mamdani says Trump to grant visa to mother of boy killed in Bronx shooting",
+      "category": "国际政治",
+      "score": 66.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.8,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-01T03:12:00+00:00",
+      "last_updated": "2026-11-01T08:18:23+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "visa",
+        "trump",
+        "mother",
+        "boy",
+        "killed",
+        "mamdani",
+        "bronx",
+        "grant"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Mamdani says Trump to grant visa to mother of boy killed in Bronx shooting”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Mamdani",
+          "Trump",
+          "Bronx",
+          "Ghanaian",
+          "NYC"
+        ],
+        "latest_progress": [
+          "11月01日 08:18 UTC，Al Jazeera报道：“Mamdani says Trump to grant visa to mother of boy killed in Bronx shooting”。",
+          "11月01日 03:12 UTC，DW Top Stories报道：“Trump grants visa to mother of Ghanaian boy killed in NYC — Mamdani”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d639499b495ea2ae7340",
+          "url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/mamdani-says-trump-to-grant-visa-to-mother-of-boy-killed-in-bronx-shooting?traffic_source=rss",
+          "title": "Mamdani says Trump to grant visa to mother of boy killed in Bronx shooting",
+          "summary": "New York City mayor says US president 'has agreed to grant her visa immediately'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T08:18:23+00:00",
+          "fetched_at": "2026-11-01T13:23:38.142385+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e9f9d93bde4f2b246357",
+          "url": "https://www.dw.com/en/trump-grants-visa-to-mother-of-ghanaian-boy-killed-in-nyc-mamdani/a-79820019?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-grants-visa-to-mother-of-ghanaian-boy-killed-in-nyc-mamdani/a-79820019?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump grants visa to mother of Ghanaian boy killed in NYC — Mamdani",
+          "summary": "Javits Frimpong was on his way to school when he was shot in a neighborhood in the Bronx. He was 15 years old.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-01T03:12:00+00:00",
+          "fetched_at": "2026-11-01T13:23:37.850161+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1daac923df55db567d69",
+      "title": "Emotional reunions with loved ones for Oleshky evacuees",
+      "category": "军事安全",
+      "score": 65.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.4,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 1.6
+      },
+      "first_seen": "2026-10-31T16:55:47+00:00",
+      "last_updated": "2026-11-01T11:38:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "oleshky",
+        "evacuees",
+        "residents",
+        "emotional",
+        "reunions",
+        "loved",
+        "ones",
+        "bbc's"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Emotional reunions with loved ones for Oleshky evacuees”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Ukraine",
+          "Evacuees",
+          "Russian",
+          "Oleshky",
+          "Kyiv",
+          "Emotional"
+        ],
+        "latest_progress": [
+          "11月01日 11:38 UTC，DW Top Stories报道：“Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory”。",
           "10月31日 16:55 UTC，BBC World报道：“Emotional reunions with loved ones for Oleshky evacuees”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -391,34 +603,19 @@
       },
       "articles": [
         {
-          "article_id": "art_603cd29052594273654b",
-          "url": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family?traffic_source=rss",
-          "title": "Ukrainian evacuees from Russian-occupied Oleshky reunite with family",
-          "summary": "Starved and exhausted residents of Oleshky arrive in Ukraine after months of isolation, but some stay behind.",
-          "source": "Al Jazeera",
+          "article_id": "art_0ca7b8c71bbf37a4eecf",
+          "url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+          "summary": "After Melania Trump reportedly brokered a localized truce, residents of Ukraine's Oleshky managed to leave the occupied city. Meanwhile, Kyiv claimed a hit on a Russian rocket fuel plant. DW has more.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-01T03:37:23+00:00",
-          "fetched_at": "2026-11-01T06:03:31.773976+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_94341cc5bac73a175eaa",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_campaign=rss&at_medium=RSS",
-          "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
-          "summary": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T17:53:35+00:00",
-          "fetched_at": "2026-11-01T06:03:30.761669+00:00",
+          "published_at": "2026-11-01T11:38:00+00:00",
+          "fetched_at": "2026-11-01T13:23:37.849553+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
           "article_id": "art_ee030eb61166929c34be",
@@ -429,168 +626,30 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-31T16:55:47+00:00",
-          "fetched_at": "2026-11-01T06:03:30.762699+00:00",
+          "fetched_at": "2026-11-01T13:23:37.609331+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f47/live/8e8b6090-d568-11f1-910b-9bd7c745c627.jpg"
-        },
-        {
-          "article_id": "art_0ca7b8c71bbf37a4eecf",
-          "url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
-          "summary": "After Melania Trump reportedly brokered a localized truce, residents of Ukraine's Oleshky managed to leave the occupied city. Meanwhile, Kyiv claimed a hit on a Russian rocket fuel plant. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-31T15:47:00+00:00",
-          "fetched_at": "2026-11-01T06:03:31.260298+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_915bdc956a21256026a3",
-          "url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-oleshky-residents-evacuate-war-ravaged-city/a-79812327?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine: Oleshky residents evacuate war-ravaged city",
-          "summary": "Under the local ceasefire, an aid convoy of 25 buses arrived with humanitarian aid and as transport for fleeing Oleshky residents. The Ukrainian city has been occupied by Russia since 2022 and faces food shortages.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T20:09:00+00:00",
-          "fetched_at": "2026-11-01T06:03:31.260785+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_707b04181386cd77a184",
-      "title": "Police deployed during stand-off over control of top Poland court",
-      "category": "国际政治",
-      "score": 69.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.5,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 1.8
-      },
-      "first_seen": "2026-10-30T23:22:00+00:00",
-      "last_updated": "2026-11-01T00:30:59+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "court",
-        "top",
-        "poland",
-        "police",
-        "standoff",
-        "polish",
-        "president",
-        "protesters"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Police deployed during stand-off over control of top Poland court”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Polish",
-          "Police",
-          "Poland",
-          "Protesters"
-        ],
-        "latest_progress": [
-          "11月01日 00:30 UTC，Al Jazeera报道：“Polish president holds crisis talks in court standoff”。",
-          "10月31日 01:11 UTC，BBC World报道：“Police deployed during stand-off over control of top Poland court”。",
-          "10月30日 23:22 UTC，DW Top Stories报道：“Poland: Protesters, police clash amid top court standoff”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_449fb61ba5f785efb24d",
-          "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff?traffic_source=rss",
-          "title": "Polish president holds crisis talks in court standoff",
-          "summary": "A dispute over the politicisation of Poland's constitutional court is deepening, with no side appearing to back down.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-01T00:30:59+00:00",
-          "fetched_at": "2026-11-01T06:03:31.774469+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2d1b0e89d947f72cf955",
-          "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_campaign=rss&at_medium=RSS",
-          "title": "Police deployed during stand-off over control of top Poland court",
-          "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-10-31T01:11:43+00:00",
-          "fetched_at": "2026-11-01T06:03:30.762308+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/308f/live/f44b1080-d50c-11f1-9db5-95ff6e967be3.jpg"
-        },
-        {
-          "article_id": "art_342100078dbddc6d009b",
-          "url": "https://www.dw.com/en/poland-protesters-police-clash-amid-top-court-standoff/a-79813882?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/poland-protesters-police-clash-amid-top-court-standoff/a-79813882?maca=en-rss-en-top-1022-rdf",
-          "title": "Poland: Protesters, police clash amid top court standoff",
-          "summary": "Polish Prime Minister Donald Tusk defended the suspension of top court President Bogdan Swieczkowski as a move to \"restore the rule of law.\"",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-10-30T23:22:00+00:00",
-          "fetched_at": "2026-11-01T06:03:31.260678+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_973a6b1543c07ed8b606",
-      "title": "What we know about latest efforts to end US war on Iran",
+      "event_id": "evt_fa8bd02fd37dae08c9c6",
+      "title": "Iran and US explore diplomacy amid rising threats of war",
       "category": "军事安全",
-      "score": 60.7,
+      "score": 62.7,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.7,
+        "recency": 21.7,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-01T03:24:02+00:00",
-      "last_updated": "2026-11-01T03:24:02+00:00",
+      "first_seen": "2026-11-01T13:02:10+00:00",
+      "last_updated": "2026-11-01T13:02:10+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -600,25 +659,24 @@
         "Middle East"
       ],
       "keywords": [
-        "end",
-        "war",
         "iran",
-        "know",
-        "about",
-        "efforts",
-        "foreign",
-        "ministers"
+        "explore",
+        "diplomacy",
+        "rising",
+        "threats",
+        "war",
+        "could",
+        "reopen"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“What we know about latest efforts to end US war on Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran and US explore diplomacy amid rising threats of war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "What",
-          "US",
-          "Iran"
+          "Iran",
+          "US"
         ],
         "latest_progress": [
-          "11月01日 03:24 UTC，Al Jazeera报道：“What we know about latest efforts to end US war on Iran”。"
+          "11月01日 13:02 UTC，Al Jazeera报道：“Iran and US explore diplomacy amid rising threats of war”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -631,15 +689,15 @@
       },
       "articles": [
         {
-          "article_id": "art_2d714aaa121b187b1616",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126?traffic_source=rss",
-          "title": "What we know about latest efforts to end US war on Iran",
-          "summary": "The foreign ministers of the US and Iran say a diplomatic end to the war is still possible.",
+          "article_id": "art_3d8c507887b76cf383a5",
+          "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war?traffic_source=rss",
+          "title": "Iran and US explore diplomacy amid rising threats of war",
+          "summary": "Iran says could reopen Hormuz in shorter period if conditions met, as Trump says US still has targets to 'take care of'.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-01T03:24:02+00:00",
-          "fetched_at": "2026-11-01T06:03:31.774041+00:00",
+          "published_at": "2026-11-01T13:02:10+00:00",
+          "fetched_at": "2026-11-01T13:23:38.140118+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -648,21 +706,21 @@
       ]
     },
     {
-      "event_id": "evt_9b391b385e0beb31e44b",
-      "title": "UN demands investigation after staffer’s death in Houthi custody in Yemen",
-      "category": "社会突发",
-      "score": 60.6,
+      "event_id": "evt_9796d7fa97d4f2353046",
+      "title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
+      "category": "军事安全",
+      "score": 61.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
+        "recency": 20.1,
         "credibility": 10.0,
-        "impact": 11.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-01T04:49:15+00:00",
-      "last_updated": "2026-11-01T04:49:15+00:00",
+      "first_seen": "2026-11-01T11:14:27+00:00",
+      "last_updated": "2026-11-01T11:14:27+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -672,46 +730,47 @@
         "Middle East"
       ],
       "keywords": [
-        "demands",
-        "investigation",
-        "staffer",
-        "death",
-        "houthi",
-        "custody",
-        "yemen",
-        "mohammad"
+        "mediators",
+        "continue",
+        "us-iran",
+        "negotiations",
+        "war",
+        "rhetoric",
+        "know",
+        "trump"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“UN demands investigation after staffer’s death in Houthi custody in Yemen”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Mediators continue US-Iran negotiations amid war rhetoric: What we know”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "UN",
-          "Houthi",
-          "Yemen"
+          "Mediators",
+          "US",
+          "Iran",
+          "What"
         ],
         "latest_progress": [
-          "11月01日 04:49 UTC，Al Jazeera报道：“UN demands investigation after staffer’s death in Houthi custody in Yemen”。"
+          "11月01日 11:14 UTC，Al Jazeera报道：“Mediators continue US-Iran negotiations amid war rhetoric: What we know”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_5fe3dcc9d1c5a84a138d",
-          "url": "https://www.aljazeera.com/news/2026/11/1/un-demands-investigation-after-staffers-death-in-houthi-custody-in-yemen?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/un-demands-investigation-after-staffers-death-in-houthi-custody-in-yemen?traffic_source=rss",
-          "title": "UN demands investigation after staffer’s death in Houthi custody in Yemen",
-          "summary": "Mohammad el-Shami had been held since June 2024, when he and many other UN and NGO workers were accused of being spies.",
+          "article_id": "art_29d3993b376b3e1418d3",
+          "url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know?traffic_source=rss",
+          "title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
+          "summary": "Trump says latest talks 'going fine'; Iranian leaders say they favour diplomacy but are ready to respond to US attacks.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-01T04:49:15+00:00",
-          "fetched_at": "2026-11-01T06:03:31.773764+00:00",
+          "published_at": "2026-11-01T11:14:27+00:00",
+          "fetched_at": "2026-11-01T13:23:38.140854+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -720,47 +779,48 @@
       ]
     },
     {
-      "event_id": "evt_cff69bef7ebc4670fc49",
-      "title": "France protests enter third week as police fire tear gas",
+      "event_id": "evt_cd27b1d3a3b73125b6dc",
+      "title": "They signed up for a lifetime at sea on an endless cruise. High gas prices intervened",
       "category": "能源资源",
-      "score": 59.7,
+      "score": 60.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.6,
-        "credibility": 10.0,
+        "recency": 21.9,
+        "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-01T04:31:24+00:00",
-      "last_updated": "2026-11-01T04:31:24+00:00",
+      "first_seen": "2026-11-01T13:15:28+00:00",
+      "last_updated": "2026-11-01T13:15:28+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "Al Jazeera"
+        "NPR World"
       ],
       "regions": [
-        "Middle East"
+        "North America"
       ],
       "keywords": [
-        "france",
-        "third",
-        "week",
-        "police",
-        "tear",
-        "gas",
-        "protests",
-        "enter"
+        "cruise",
+        "cassingham",
+        "they",
+        "signed",
+        "lifetime",
+        "sea",
+        "endless",
+        "high"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“France protests enter third week as police fire tear gas”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的能源资源事件为“They signed up for a lifetime at sea on an endless cruise. High gas prices intervened”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "France"
+          "They",
+          "High"
         ],
         "latest_progress": [
-          "11月01日 04:31 UTC，Al Jazeera报道：“France protests enter third week as police fire tear gas”。"
+          "11月01日 13:15 UTC，NPR World报道：“They signed up for a lifetime at sea on an endless cruise. High gas prices intervened”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
         "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
@@ -773,237 +833,107 @@
       },
       "articles": [
         {
-          "article_id": "art_d6ce5e11dbf51dc775c7",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/france-protests-teargas-police-clashes?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/france-protests-teargas-police-clashes?traffic_source=rss",
-          "title": "France protests enter third week as police fire tear gas",
-          "summary": "Police used tear gas to disperse protesters as demonstrations entered a third week ahead in France.",
-          "source": "Al Jazeera",
+          "article_id": "art_dcc076b478ae82a24556",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6022214/they-signed-up-for-a-lifetime-at-sea-on-an-endless-cruise-high-gas-prices-intervened",
+          "canonical_url": "https://www.npr.org/2026/11/01/nx-s1-6022214/they-signed-up-for-a-lifetime-at-sea-on-an-endless-cruise-high-gas-prices-intervened",
+          "title": "They signed up for a lifetime at sea on an endless cruise. High gas prices intervened",
+          "summary": "A cruise ship suspended operations suddenly, citing soaring fuel costs. Passengers, including Randy Cassingham, had to disembark in Cambodia. NPR's Ayesha Rascoe talks to Cassingham about the ordeal.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-11-01T04:31:24+00:00",
-          "fetched_at": "2026-11-01T06:03:31.773838+00:00",
+          "published_at": "2026-11-01T13:15:28+00:00",
+          "fetched_at": "2026-11-01T13:23:38.009189+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "North America",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_f8092db4a11799f6bdda",
-      "title": "Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’",
-      "category": "军事安全",
-      "score": 58.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-01T00:00:51+00:00",
-      "last_updated": "2026-11-01T00:00:51+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "iran",
-        "hormuz",
-        "plan",
-        "war",
-        "tehran",
-        "eyes",
-        "day",
-        "trump"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Iran",
-          "Tehran",
-          "Hormuz",
-          "Trump"
-        ],
-        "latest_progress": [
-          "11月01日 00:00 UTC，Al Jazeera报道：“Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e527f4893069ce3fac75",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
-          "title": "Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’",
-          "summary": "Top diplomat says Iran and Qatar have reached a plan to reopen Hormuz in two days if the US meets Tehran's conditions.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-01T00:00:51+00:00",
-          "fetched_at": "2026-11-01T06:03:31.774603+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_569631debfb569750500",
-      "title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+      "event_id": "evt_69eda6b8b066b5960475",
+      "title": "Germany's Gen Z protests disrupted by violence on Saturday",
       "category": "国际政治",
-      "score": 57.7,
+      "score": 60.3,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 18.7,
-        "credibility": 10.0,
+        "recency": 21.1,
+        "credibility": 9.5,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 1.5
       },
-      "first_seen": "2026-11-01T02:05:40+00:00",
-      "last_updated": "2026-11-01T02:05:40+00:00",
+      "first_seen": "2026-10-31T16:00:00+00:00",
+      "last_updated": "2026-11-01T12:26:00+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "israel",
-        "netanyahu",
-        "thousands",
-        "rally",
-        "urging",
-        "jewish-arab",
-        "coalition",
-        "oust"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Thousands",
-          "Israel",
-          "Jewish",
-          "Arab",
-          "Netanyahu"
-        ],
-        "latest_progress": [
-          "11月01日 02:05 UTC，Al Jazeera报道：“Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_583d33efd45768f67b98",
-          "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
-          "title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
-          "summary": "In a counterprotest, Netanyahu supporters demand that Israel should not have a government with 'terrorists'.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-01T02:05:40+00:00",
-          "fetched_at": "2026-11-01T06:03:31.774328+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_f71171d4c971c0995ae1",
-      "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
-      "category": "能源资源",
-      "score": 56.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.8,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-01T00:55:06+00:00",
-      "last_updated": "2026-11-01T00:55:06+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "serbia's",
-        "orb",
-        "downfall",
-        "mirrored",
-        "hungary's",
-        "defeat",
-        "aleksandar",
-        "last"
+        "protests",
+        "gen",
+        "demonstrations",
+        "group",
+        "more",
+        "germany's",
+        "disrupted",
+        "violence"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的能源资源事件为“How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Germany's Gen Z protests disrupted by violence on Saturday”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Serbia",
-          "Hungary"
+          "Germany",
+          "Gen",
+          "Saturday"
         ],
         "latest_progress": [
-          "11月01日 00:55 UTC，BBC World报道：“How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán”。"
+          "11月01日 12:26 UTC，DW Top Stories报道：“Germany news: Gen Z group calls for new protests”。",
+          "10月31日 16:00 UTC，DW Top Stories报道：“Germany's Gen Z protests disrupted by violence on Saturday”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e1ef87054bdee4050e80",
-          "url": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_campaign=rss&at_medium=RSS",
-          "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
-          "summary": "Defeat for Serbia's Aleksandar Vučiċ in last weekend's vote was a carbon copy of Viktor Orbán's fall in Hungary.",
-          "source": "BBC World",
+          "article_id": "art_a601c2901105fbee6110",
+          "url": "https://www.dw.com/en/germany-news-gen-z-group-calls-for-new-protests/live-79814961?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/germany-news-gen-z-group-calls-for-new-protests/live-79814961?maca=en-rss-en-top-1022-rdf",
+          "title": "Germany news: Gen Z group calls for new protests",
+          "summary": "The group behind German demonstrations this weekend has called for more protests to keep pressure on the government to act. Meanwhile, the IG Metall union has begun warning strikes after pay talks collapse. DW has more.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-01T00:55:06+00:00",
-          "fetched_at": "2026-11-01T06:03:30.761891+00:00",
+          "published_at": "2026-11-01T12:26:00+00:00",
+          "fetched_at": "2026-11-01T13:23:37.849375+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b724/live/db1d9120-d456-11f1-906a-add2117fe3e6.jpg"
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e7c2bcdc24805bf03f19",
+          "url": "https://www.dw.com/en/germany-s-gen-z-protests-disrupted-by-violence-on-saturday/live-79814694?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/germany-s-gen-z-protests-disrupted-by-violence-on-saturday/live-79814694?maca=en-rss-en-top-1022-rdf",
+          "title": "Germany's Gen Z protests disrupted by violence on Saturday",
+          "summary": "Nationwide protests led by young people were largely peaceful throughout the day, but reports about looting and rioting in the evening, especially in Frankfurt, overshadowed the spirit of the demonstrations.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-10-31T16:00:00+00:00",
+          "fetched_at": "2026-11-01T13:23:37.850395+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     }
