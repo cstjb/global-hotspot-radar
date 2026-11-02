@@ -1,23 +1,384 @@
 {
-  "generated_at": "2026-11-01T22:49:34.604531+00:00",
+  "generated_at": "2026-11-02T02:31:32.296650+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
+    "status": "partial",
     "articles_fetched": 86,
     "articles_unique": 86,
-    "errors": []
+    "errors": [
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
+    {
+      "event_id": "evt_481d9d11fcaad960bd8f",
+      "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+      "category": "国际政治",
+      "score": 77.5,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.3,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-01T18:51:07+00:00",
+      "last_updated": "2026-11-02T01:45:42+00:00",
+      "source_count": 2,
+      "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "stevens",
+        "democrat",
+        "republican",
+        "haley",
+        "michigan",
+        "senate",
+        "el-sayed",
+        "mike"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的5篇报道，当前关注的国际政治事件为“Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Democrat",
+          "Republican",
+          "Michigan Senate",
+          "Trump",
+          "Michigan Democrat Stevens",
+          "Republican Party Democrat Haley",
+          "Stevens",
+          "El"
+        ],
+        "latest_progress": [
+          "11月02日 01:45 UTC，BBC World报道：“Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts”。",
+          "11月02日 01:25 UTC，Al Jazeera报道：“Trump invites Michigan Democrat Stevens to join the Republican Party”。",
+          "11月01日 21:29 UTC，Al Jazeera报道：“Democrat Haley Stevens heckled as she backs El-Sayed rival”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_947eb6db635a7efceba4",
+          "url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_campaign=rss&at_medium=RSS",
+          "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+          "summary": "The move by Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, was called a \"despicable betrayal\" by one top Democrat.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-02T01:45:42+00:00",
+          "fetched_at": "2026-11-02T02:31:30.922004+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ea1/live/d9896430-d625-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
+          "article_id": "art_d8ad03f8a0c710aa4bdd",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/trump-invites-michigan-democrat-stevens-to-join-the-republican-party?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/trump-invites-michigan-democrat-stevens-to-join-the-republican-party?traffic_source=rss",
+          "title": "Trump invites Michigan Democrat Stevens to join the Republican Party",
+          "summary": "US President Donald Trump praised Michigan Democrat Haley Stevens for endorsing Republican Mike Rogers.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-02T01:25:00+00:00",
+          "fetched_at": "2026-11-02T02:31:31.623200+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_4ce20a727931e17c1f47",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/democrat-haley-stevens-heckled-as-she-backs-el-sayed-rival?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/democrat-haley-stevens-heckled-as-she-backs-el-sayed-rival?traffic_source=rss",
+          "title": "Democrat Haley Stevens heckled as she backs El-Sayed rival",
+          "summary": "US Democrat Haley Stevens from Michigan was heckled as a ‘traitor’, after endorsing Republican Mike Rogers.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T21:29:43+00:00",
+          "fetched_at": "2026-11-02T02:31:31.623981+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_83b9fc92b68c2cb64ab5",
+          "url": "https://www.aljazeera.com/news/2026/11/1/why-did-democrat-haley-stevens-just-endorse-a-republican-for-us-senate?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/why-did-democrat-haley-stevens-just-endorse-a-republican-for-us-senate?traffic_source=rss",
+          "title": "Why did Democrat Haley Stevens just endorse a Republican for US Senate?",
+          "summary": "Stevens’s endorsement of Mike Rogers comes after a bitter dispute with Democratic nominee Abdul El-Sayed.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T21:00:52+00:00",
+          "fetched_at": "2026-11-02T02:31:31.624199+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_369f11980ac1af3c2579",
+          "url": "https://www.aljazeera.com/news/2026/11/1/michigan-dem-haley-stevens-endorses-republican-senate-candidate-mike-rogers?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/michigan-dem-haley-stevens-endorses-republican-senate-candidate-mike-rogers?traffic_source=rss",
+          "title": "Michigan Democrat Haley Stevens endorses Republican Senate candidate",
+          "summary": "Stevens, who lost the primary to Abdul El-Sayed, shifts support to Republican Mike Rogers days before midterm election.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T18:51:07+00:00",
+          "fetched_at": "2026-11-02T02:31:31.624859+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_af3216f1ff95da778385",
+      "title": "France launches attempted murder investigation after petrol bomb thrown at police",
+      "category": "军事安全",
+      "score": 77.3,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.0,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 4.8
+      },
+      "first_seen": "2026-11-01T14:50:00+00:00",
+      "last_updated": "2026-11-02T00:15:30+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "france",
+        "attempted",
+        "murder",
+        "police",
+        "arrests",
+        "opens",
+        "probe",
+        "attack"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“France launches attempted murder investigation after petrol bomb thrown at police”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "France"
+        ],
+        "latest_progress": [
+          "11月02日 00:15 UTC，BBC World报道：“France launches attempted murder investigation after petrol bomb thrown at police”。",
+          "11月01日 18:58 UTC，Al Jazeera报道：“France opens ‘attempted murder’ probe into petrol bomb attacks on police”。",
+          "11月01日 14:50 UTC，DW Top Stories报道：“France opens attempted murder probe after protest attack”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_80b53bc622d627218ce6",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_campaign=rss&at_medium=RSS",
+          "title": "France launches attempted murder investigation after petrol bomb thrown at police",
+          "summary": "There were hundreds of arrests as protesters took to the streets in cities across France for the third weekend in a row.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-02T00:15:30+00:00",
+          "fetched_at": "2026-11-02T02:31:30.922168+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30b9/live/175c0e10-d62c-11f1-b085-b9e65bc8bfff.jpg"
+        },
+        {
+          "article_id": "art_21369745a93ef6388168",
+          "url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
+          "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+          "summary": "No arrests made after several security officers were reportedly injured during incidents at Saturday's protests.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T18:58:23+00:00",
+          "fetched_at": "2026-11-02T02:31:31.624770+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_1ac8b2a6538f1c78f3f1",
+          "url": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-top-1022-rdf",
+          "title": "France opens attempted murder probe after protest attack",
+          "summary": "Paris prosecutors have opened an attempted murder investigation after a Molotov attack on police. France reported 779 arrests during nationwide protests and Halloween night, fewer than on previous weekends.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-01T14:50:00+00:00",
+          "fetched_at": "2026-11-02T02:31:31.142826+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e8ec7e9697b60116b7f8",
+      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+      "category": "军事安全",
+      "score": 75.9,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 18.4,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-01T14:13:00+00:00",
+      "last_updated": "2026-11-01T22:15:14+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "ceasefire",
+        "kherson",
+        "ukraine",
+        "six-day",
+        "oleshky",
+        "region",
+        "violations",
+        "reported"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Kherson",
+          "Russia",
+          "Ukraine",
+          "Russian",
+          "Six",
+          "Oleshky"
+        ],
+        "latest_progress": [
+          "11月01日 22:15 UTC，Al Jazeera报道：“Kherson braces for return of war as localised Russia-Ukraine truce ends”。",
+          "11月01日 21:55 UTC，BBC World报道：“Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends”。",
+          "11月01日 14:13 UTC，DW Top Stories报道：“Ukraine: Six-day localized ceasefire in Oleshky comes to end”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_75b0ce0ef3ca08fe9ef2",
+          "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
+          "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+          "summary": "Moscow and Kyiv continue strikes elsewhere, but no reported violations in Kherson region during the six-day ceasefire.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T22:15:14+00:00",
+          "fetched_at": "2026-11-02T02:31:31.623907+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d7a53f61da69598a8a02",
+          "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_campaign=rss&at_medium=RSS",
+          "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+          "summary": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-01T21:55:01+00:00",
+          "fetched_at": "2026-11-02T02:31:30.921906+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8e6/live/7871d270-d627-11f1-a947-0507737f09b2.jpg"
+        },
+        {
+          "article_id": "art_4a71c0efb05b2e6b79eb",
+          "url": "https://www.dw.com/en/ukraine-six-day-localized-ceasefire-in-oleshky-comes-to-end/live-79815409?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-six-day-localized-ceasefire-in-oleshky-comes-to-end/live-79815409?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine: Six-day localized ceasefire in Oleshky comes to end",
+          "summary": "A US-brokered ceasefire in Ukraine's southern Kherson region ended on Sunday night with no violations reported. But Russian drones and missiles hit other regions in Ukraine.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-01T14:13:00+00:00",
+          "fetched_at": "2026-11-02T02:31:31.142891+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
     {
       "event_id": "evt_6b2b720d1b4a0ee8c19a",
       "title": "Thousands demonstrate in Paris as protests spread across Europe",
       "category": "国际政治",
-      "score": 70.2,
+      "score": 68.2,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 14.0,
+        "recency": 12.0,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 3.5
@@ -81,7 +442,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-01T11:57:48+00:00",
-          "fetched_at": "2026-11-01T22:49:32.714360+00:00",
+          "fetched_at": "2026-11-02T02:31:30.922389+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -96,7 +457,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-10-31T21:29:01+00:00",
-          "fetched_at": "2026-11-01T22:49:32.715563+00:00",
+          "fetched_at": "2026-11-02T02:31:30.923342+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -111,7 +472,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-10-31T19:30:19+00:00",
-          "fetched_at": "2026-11-01T22:49:33.749778+00:00",
+          "fetched_at": "2026-11-02T02:31:31.377005+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -126,185 +487,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-31T18:49:00+00:00",
-          "fetched_at": "2026-11-01T22:49:33.682418+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_af3216f1ff95da778385",
-      "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
-      "category": "军事安全",
-      "score": 69.7,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.7,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-01T14:50:00+00:00",
-      "last_updated": "2026-11-01T18:58:23+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "france",
-        "attempted",
-        "murder",
-        "opens",
-        "probe",
-        "attack",
-        "police",
-        "arrests"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“France opens ‘attempted murder’ probe into petrol bomb attacks on police”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "France"
-        ],
-        "latest_progress": [
-          "11月01日 18:58 UTC，Al Jazeera报道：“France opens ‘attempted murder’ probe into petrol bomb attacks on police”。",
-          "11月01日 14:50 UTC，DW Top Stories报道：“France opens attempted murder probe after protest attack”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_21369745a93ef6388168",
-          "url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
-          "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
-          "summary": "No arrests made after several security officers were reportedly injured during incidents at Saturday's protests.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-01T18:58:23+00:00",
-          "fetched_at": "2026-11-01T22:49:33.920083+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_1ac8b2a6538f1c78f3f1",
-          "url": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-top-1022-rdf",
-          "title": "France opens attempted murder probe after protest attack",
-          "summary": "Paris prosecutors have opened an attempted murder investigation after a Molotov attack on police. France reported 779 arrests during nationwide protests and Halloween night, fewer than on previous weekends.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-01T14:50:00+00:00",
-          "fetched_at": "2026-11-01T22:49:33.681605+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_b6c378e43b4d8bdb60a7",
-      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
-      "category": "军事安全",
-      "score": 68.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.9
-      },
-      "first_seen": "2026-11-01T14:13:00+00:00",
-      "last_updated": "2026-11-01T21:55:01+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "ceasefire",
-        "ukraine",
-        "oleshky",
-        "ends",
-        "russian",
-        "thousands",
-        "power",
-        "kherson"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russian",
-          "Ukraine",
-          "Kherson",
-          "Oleshky"
-        ],
-        "latest_progress": [
-          "11月01日 21:55 UTC，BBC World报道：“Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends”。",
-          "11月01日 14:13 UTC，DW Top Stories报道：“Ukraine news: Oleshky ceasefire ends as Russian attacks leave tens of thousands without power”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d7a53f61da69598a8a02",
-          "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_campaign=rss&at_medium=RSS",
-          "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
-          "summary": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-01T21:55:01+00:00",
-          "fetched_at": "2026-11-01T22:49:32.714069+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8e6/live/7871d270-d627-11f1-a947-0507737f09b2.jpg"
-        },
-        {
-          "article_id": "art_e7607c6e1e667da04118",
-          "url": "https://www.dw.com/en/ukraine-news-oleshky-ceasefire-ends-as-russian-attacks-leave-tens-of-thousands-without-power/live-79815409?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-news-oleshky-ceasefire-ends-as-russian-attacks-leave-tens-of-thousands-without-power/live-79815409?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine news: Oleshky ceasefire ends as Russian attacks leave tens of thousands without power",
-          "summary": "A US-brokered ceasefire in Ukraine's southern Kherson region ended on Sunday night with no violations reported. Elsewhere, however, Russia struck energy infrastructure in at least four other regions. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-01T14:13:00+00:00",
-          "fetched_at": "2026-11-01T22:49:33.681669+00:00",
+          "fetched_at": "2026-11-02T02:31:31.143664+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -316,12 +499,12 @@
       "event_id": "evt_ed96b13efa8268ddaf2f",
       "title": "Police clash with housing crisis protesters in Portugal",
       "category": "社会突发",
-      "score": 67.9,
+      "score": 65.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.0,
+        "recency": 17.1,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 3.3
@@ -380,7 +563,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-01T20:31:17+00:00",
-          "fetched_at": "2026-11-01T22:49:33.919727+00:00",
+          "fetched_at": "2026-11-02T02:31:31.624411+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -395,188 +578,10 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-01T11:20:00+00:00",
-          "fetched_at": "2026-11-01T22:49:33.681903+00:00",
+          "fetched_at": "2026-11-02T02:31:31.143130+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_23750ca94e1c4b92cccf",
-      "title": "Bulgaria’s acting President Iotova leads in run-off exit polls",
-      "category": "国际政治",
-      "score": 66.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.2,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.2
-      },
-      "first_seen": "2026-11-01T07:00:00+00:00",
-      "last_updated": "2026-11-01T20:43:33+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "exit",
-        "polls",
-        "win",
-        "president",
-        "bulgaria",
-        "incumbent",
-        "yotova",
-        "iliana"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Bulgaria’s acting President Iotova leads in run-off exit polls”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Bulgaria",
-          "President Iotova",
-          "Incumbent Yotova"
-        ],
-        "latest_progress": [
-          "11月01日 20:43 UTC，Al Jazeera报道：“Bulgaria’s acting President Iotova leads in run-off exit polls”。",
-          "11月01日 07:00 UTC，DW Top Stories报道：“Bulgaria exit polls: Incumbent Yotova predicted to win”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_281873d63e96c3d3bcf4",
-          "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show?traffic_source=rss",
-          "title": "Bulgaria’s acting President Iotova leads in run-off exit polls",
-          "summary": "Iliana Iotova would become the nation’s first elected female president if results confirm her win on Monday.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-01T20:43:33+00:00",
-          "fetched_at": "2026-11-01T22:49:33.919658+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4dc8c19bfe40d157ded2",
-          "url": "https://www.dw.com/en/bulgaria-exit-polls-incumbent-yotova-predicted-to-win/a-79820449?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/bulgaria-exit-polls-incumbent-yotova-predicted-to-win/a-79820449?maca=en-rss-en-top-1022-rdf",
-          "title": "Bulgaria exit polls: Incumbent Yotova predicted to win",
-          "summary": "Incumbent President Iliana Yotova appears set to win Bulgaria's presidential election runoff. Exit polls put the more Russia-friendly candidate who favors dialogue with Moscow on just over 50% of the vote.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-01T07:00:00+00:00",
-          "fetched_at": "2026-11-01T22:49:33.682196+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_951620cfd8b223e43518",
-      "title": "Hebron siege continues for 10th day as Israel threatens wider offensive",
-      "category": "军事安全",
-      "score": 65.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-01T17:30:45+00:00",
-      "last_updated": "2026-11-01T21:28:47+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "hebron",
-        "siege",
-        "israel",
-        "west",
-        "bank",
-        "displaced",
-        "continues",
-        "day"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Hebron siege continues for 10th day as Israel threatens wider offensive”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Thousands",
-          "Hebron",
-          "Israel"
-        ],
-        "latest_progress": [
-          "11月01日 21:28 UTC，Al Jazeera报道：“Thousands displaced from Hebron as Israel carries on siege”。",
-          "11月01日 17:30 UTC，Al Jazeera报道：“Hebron siege continues for 10th day as Israel threatens wider offensive”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2114e0fe386a61879631",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/thousands-displaced-from-hebron-as-israel-carries-on-siege?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/thousands-displaced-from-hebron-as-israel-carries-on-siege?traffic_source=rss",
-          "title": "Thousands displaced from Hebron as Israel carries on siege",
-          "summary": "Almost 5,000 people have been displaced as a result of Israel’s military siege on the city of Hebron in the West Bank.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-01T21:28:47+00:00",
-          "fetched_at": "2026-11-01T22:49:33.919342+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_518e4f22c8b7770e43c4",
-          "url": "https://www.aljazeera.com/news/2026/11/1/hebron-siege-continues-for-10th-day-as-israel-threatens-wider-offensive?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/hebron-siege-continues-for-10th-day-as-israel-threatens-wider-offensive?traffic_source=rss",
-          "title": "Hebron siege continues for 10th day as Israel threatens wider offensive",
-          "summary": "Hebron's economic losses surpass $3.8m as Israeli forces demolish West Bank homes and close hundreds of businesses.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-01T17:30:45+00:00",
-          "fetched_at": "2026-11-01T22:49:33.920363+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
@@ -585,12 +590,12 @@
       "event_id": "evt_69eda6b8b066b5960475",
       "title": "Peaceful protests in Germany spiral into violence and looting",
       "category": "国际政治",
-      "score": 64.6,
+      "score": 62.0,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.7,
+        "recency": 16.0,
         "credibility": 9.7,
         "impact": 11.0,
         "velocity": 1.7
@@ -649,7 +654,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-01T18:51:56+00:00",
-          "fetched_at": "2026-11-01T22:49:32.715426+00:00",
+          "fetched_at": "2026-11-02T02:31:30.923200+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -664,7 +669,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-01T12:26:00+00:00",
-          "fetched_at": "2026-11-01T22:49:33.681790+00:00",
+          "fetched_at": "2026-11-02T02:31:31.143012+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -679,7 +684,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-10-31T16:00:00+00:00",
-          "fetched_at": "2026-11-01T22:49:33.682473+00:00",
+          "fetched_at": "2026-11-02T02:31:31.143723+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -688,21 +693,21 @@
       ]
     },
     {
-      "event_id": "evt_1fa0348870d7255a6ae9",
-      "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+      "event_id": "evt_5796d40dab9f9a658625",
+      "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
       "category": "军事安全",
-      "score": 62.5,
+      "score": 60.8,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.5,
+        "recency": 19.8,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-01T22:15:14+00:00",
-      "last_updated": "2026-11-01T22:15:14+00:00",
+      "first_seen": "2026-11-02T00:00:00+00:00",
+      "last_updated": "2026-11-02T00:00:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -712,25 +717,26 @@
         "Middle East"
       ],
       "keywords": [
-        "kherson",
-        "braces",
-        "return",
+        "iran",
+        "tankers",
+        "hit",
+        "hormuz",
         "war",
-        "localised",
-        "russia-ukraine",
-        "truce",
-        "ends"
+        "trump",
+        "again",
+        "conflict"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Kherson braces for return of war as localised Russia-Ukraine truce ends”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Kherson",
-          "Russia",
-          "Ukraine"
+          "Iran",
+          "Tankers",
+          "Hormuz",
+          "Trump"
         ],
         "latest_progress": [
-          "11月01日 22:15 UTC，Al Jazeera报道：“Kherson braces for return of war as localised Russia-Ukraine truce ends”。"
+          "11月02日 00:00 UTC，Al Jazeera报道：“Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -743,15 +749,157 @@
       },
       "articles": [
         {
-          "article_id": "art_75b0ce0ef3ca08fe9ef2",
-          "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
-          "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
-          "summary": "Moscow and Kyiv continue strikes elsewhere, but no reported violations in Kherson region during the six-day ceasefire.",
+          "article_id": "art_c6552bcc9127ee789a74",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
+          "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
+          "summary": "US president warns Iran to make a deal, as IRGC says two tankers have hit mines and caught fire in the Strait of Hormuz.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-01T22:15:14+00:00",
-          "fetched_at": "2026-11-01T22:49:33.919166+00:00",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "fetched_at": "2026-11-02T02:31:31.623520+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_44f8318d4e8afd43b939",
+      "title": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
+      "category": "军事安全",
+      "score": 60.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-01T23:19:51+00:00",
+      "last_updated": "2026-11-01T23:19:51+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "mission",
+        "warns",
+        "security",
+        "risks",
+        "western",
+        "sahara",
+        "peacekeeping",
+        "ends"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“UN warns of security risks in Western Sahara as peacekeeping mission ends”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "UN",
+          "Western Sahara"
+        ],
+        "latest_progress": [
+          "11月01日 23:19 UTC，Al Jazeera报道：“UN warns of security risks in Western Sahara as peacekeeping mission ends”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_29e87b2c472e4fcd6771",
+          "url": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss",
+          "title": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
+          "summary": "The mission, known as MINURSO, has been in place in the disputed region since a ceasefire in 1991.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-01T23:19:51+00:00",
+          "fetched_at": "2026-11-02T02:31:31.623745+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6506de2a0e9573856545",
+      "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
+      "category": "国际政治",
+      "score": 59.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-02T00:29:16+00:00",
+      "last_updated": "2026-11-02T00:29:16+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "claims",
+        "election",
+        "israeli",
+        "officials",
+        "say",
+        "results",
+        "stand",
+        "netanyahu"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Israeli officials say results stand as Netanyahu claims election ‘stolen’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Israeli",
+          "Netanyahu"
+        ],
+        "latest_progress": [
+          "11月02日 00:29 UTC，Al Jazeera报道：“Israeli officials say results stand as Netanyahu claims election ‘stolen’”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a88e56e49a7ff20a8000",
+          "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
+          "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
+          "summary": "Election body says deadlocked result won't be undermined even if foreign interference claims are found to be true.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-02T00:29:16+00:00",
+          "fetched_at": "2026-11-02T02:31:31.623361+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -763,12 +911,12 @@
       "event_id": "evt_e0a18fd50b6f6eca61c0",
       "title": "Gulf leaders meet in Qatar in effort to stave off new escalation in U.S and Iran war",
       "category": "军事安全",
-      "score": 62.1,
+      "score": 59.0,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.5,
+        "recency": 18.5,
         "credibility": 9.5,
         "impact": 13.0,
         "velocity": 5.0
@@ -823,81 +971,9 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-01T22:19:13+00:00",
-          "fetched_at": "2026-11-01T22:49:33.749486+00:00",
+          "fetched_at": "2026-11-02T02:31:31.376676+00:00",
           "language": "en",
           "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_3750725ada9255dd5d2a",
-      "title": "Russia's giant new radar in Kaliningrad raises alarm in NATO",
-      "category": "军事安全",
-      "score": 60.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.0,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-01T20:34:00+00:00",
-      "last_updated": "2026-11-01T20:34:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "giant",
-        "radar",
-        "kaliningrad",
-        "nato",
-        "experts",
-        "russia's",
-        "raises",
-        "alarm"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Russia's giant new radar in Kaliningrad raises alarm in NATO”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russia",
-          "Kaliningrad",
-          "NATO"
-        ],
-        "latest_progress": [
-          "11月01日 20:34 UTC，DW Top Stories报道：“Russia's giant new radar in Kaliningrad raises alarm in NATO”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_907dcb093dcb8bccbf5c",
-          "url": "https://www.dw.com/en/russia-s-giant-new-radar-in-kaliningrad-raises-alarm-in-nato/a-79797815?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russia-s-giant-new-radar-in-kaliningrad-raises-alarm-in-nato/a-79797815?maca=en-rss-en-top-1022-rdf",
-          "title": "Russia's giant new radar in Kaliningrad raises alarm in NATO",
-          "summary": "Russia is nearing completion of what experts think is a giant radar complex in Kaliningrad, capable of monitoring much of Europe. Experts warn the project could intensify the military standoff between Moscow and NATO.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-01T20:34:00+00:00",
-          "fetched_at": "2026-11-01T22:49:33.681455+00:00",
-          "language": "en",
-          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
