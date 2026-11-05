@@ -1,23 +1,278 @@
 {
-  "generated_at": "2026-11-04T21:53:35.852292+00:00",
+  "generated_at": "2026-11-05T02:28:35.370691+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 179,
-    "articles_unique": 173,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 129,
+    "articles_unique": 129,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
+    {
+      "event_id": "evt_959cdcb8fb32854f2fb4",
+      "title": "Iran war live: Trump says war caused election wipeout but he ‘had to do it’",
+      "category": "军事安全",
+      "score": 77.8,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.8,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-04T12:45:00+00:00",
+      "last_updated": "2026-11-05T00:00:00+00:00",
+      "source_count": 2,
+      "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "trump",
+        "war",
+        "iran",
+        "midterm",
+        "president",
+        "election",
+        "republicans",
+        "democrats"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的5篇报道，当前关注的军事安全事件为“Iran war live: Trump says war caused election wipeout but he ‘had to do it’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "Trump",
+          "Democrats",
+          "House",
+          "Senate",
+          "Republicans",
+          "US"
+        ],
+        "latest_progress": [
+          "11月05日 00:00 UTC，Al Jazeera报道：“Iran war live: Trump says war caused election wipeout but he ‘had to do it’”。",
+          "11月04日 23:30 UTC，Al Jazeera报道：“Trump blames Iran war for midterms losses”。",
+          "11月04日 23:04 UTC，DW Top Stories报道：“Democrats take House and Senate from Republicans in US midterm rout”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d24707651820942c4823",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+          "title": "Iran war live: Trump says war caused election wipeout but he ‘had to do it’",
+          "summary": "President Trump admits Iran war 'largely' caused Republicans' US election wipeout, but says he 'had to do it'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "fetched_at": "2026-11-05T02:28:34.463442+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b41af73736c40b998927",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+          "title": "Trump blames Iran war for midterms losses",
+          "summary": "President Donald Trump said the war in Iran likely contributed to Republican setbacks in the midterm elections",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-04T23:30:01+00:00",
+          "fetched_at": "2026-11-05T02:28:34.463727+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0f565aeafd725c557a1e",
+          "url": "https://www.dw.com/en/democrats-take-house-and-senate-from-republicans-in-us-midterm-rout/a-79859416?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/democrats-take-house-and-senate-from-republicans-in-us-midterm-rout/a-79859416?maca=en-rss-en-top-1022-rdf",
+          "title": "Democrats take House and Senate from Republicans in US midterm rout",
+          "summary": "Democrats will control both chambers of Congress after flipping seats in Republican strongholds across the US in an election seen as a repudiation of President Donald Trump.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-04T23:04:00+00:00",
+          "fetched_at": "2026-11-05T02:28:34.015228+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_cb34e8477dd9a23e33fc",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+          "title": "US midterm election results live: Trump blames Iran war after losses",
+          "summary": "A Democratic romp has rocked the US political landscape, but several closely contested races remain too close to call.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-04T21:00:00+00:00",
+          "fetched_at": "2026-11-05T02:28:34.464173+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5f410b5e8151956c826e",
+          "url": "https://www.dw.com/en/trump-says-largely-true-iran-war-led-to-republicans-midterm-loss/live-79829440?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-says-largely-true-iran-war-led-to-republicans-midterm-loss/live-79829440?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump says 'largely true' Iran war led to Republicans midterm loss",
+          "summary": "After Democrats won both the House and Senate in a blowout for Republicans, President Donald Trump admitted fuel prices brought on by the Iran war impacted the outcome, but stuck by his decision. DW has more.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-04T12:45:00+00:00",
+          "fetched_at": "2026-11-05T02:28:34.016205+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_37c7cd2230990aa9d3e4",
+      "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
+      "category": "社会突发",
+      "score": 73.9,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 7.5,
+        "recency": 18.9,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 1.3
+      },
+      "first_seen": "2026-11-03T11:01:14+00:00",
+      "last_updated": "2026-11-04T22:48:43+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "russian",
+        "still",
+        "death",
+        "toll",
+        "strike",
+        "ukrainian",
+        "attack",
+        "drones"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的3篇报道，当前关注的社会突发事件为“Ukraine raises death toll from Russian strike on Zaporizhia to 40 people”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Ukraine",
+          "Russian",
+          "Zaporizhia",
+          "Death",
+          "Ukrainian"
+        ],
+        "latest_progress": [
+          "11月04日 22:48 UTC，BBC World报道：“Ukraine says bodycam video shows deadly Russian double-tap bombing”。",
+          "11月04日 20:31 UTC，Al Jazeera报道：“Ukraine raises death toll from Russian strike on Zaporizhia to 40 people”。",
+          "11月03日 11:01 UTC，NPR World报道：“Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ab393e74ca3458352e59",
+          "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_campaign=rss&at_medium=RSS",
+          "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+          "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-04T22:48:43+00:00",
+          "fetched_at": "2026-11-05T02:28:33.217041+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f23/live/c9877cb0-d8a1-11f1-93e1-3b657b665bcf.png"
+        },
+        {
+          "article_id": "art_6ee9970f1e39b9cd83fc",
+          "url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss",
+          "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
+          "summary": "Dozens may still be under the rubble in Komyshuvakha. Rescue efforts ongoing despite interruptions by Russian drones.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-04T20:31:56+00:00",
+          "fetched_at": "2026-11-05T02:28:34.464329+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3548cb5894e32c74fc33",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+          "canonical_url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+          "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+          "summary": "Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, President Zelenskyy said in an online post that noted the barrage coincided with U.S. elections.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-03T11:01:14+00:00",
+          "fetched_at": "2026-11-05T02:28:34.294849+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
     {
       "event_id": "evt_520cd395e8ed78b4e989",
       "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
       "category": "国际政治",
-      "score": 75.9,
+      "score": 72.4,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.3,
+        "recency": 16.8,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -81,7 +336,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-04T19:59:14+00:00",
-          "fetched_at": "2026-11-04T21:53:34.713937+00:00",
+          "fetched_at": "2026-11-05T02:28:34.464480+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -96,7 +351,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-04T15:09:00+00:00",
-          "fetched_at": "2026-11-04T21:53:34.231097+00:00",
+          "fetched_at": "2026-11-05T02:28:34.015903+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -111,7 +366,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-04T13:33:30+00:00",
-          "fetched_at": "2026-11-04T21:53:33.722516+00:00",
+          "fetched_at": "2026-11-05T02:28:33.216832+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -123,12 +378,12 @@
       "event_id": "evt_a83241eb09c36a5d6b2c",
       "title": "Secret police files released in Hungary, 37 years after fall of communism",
       "category": "军事安全",
-      "score": 71.2,
+      "score": 67.7,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 19.9,
+        "recency": 16.5,
         "credibility": 9.7,
         "impact": 13.0,
         "velocity": 5.0
@@ -186,7 +441,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-04T19:30:00+00:00",
-          "fetched_at": "2026-11-04T21:53:34.230611+00:00",
+          "fetched_at": "2026-11-05T02:28:34.015438+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -201,7 +456,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-04T15:28:18+00:00",
-          "fetched_at": "2026-11-04T21:53:33.723103+00:00",
+          "fetched_at": "2026-11-05T02:28:33.217414+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -216,372 +471,9 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-04T12:36:00+00:00",
-          "fetched_at": "2026-11-04T21:53:34.231439+00:00",
+          "fetched_at": "2026-11-05T02:28:34.016261+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_474ba7d4d2dd747260ac",
-      "title": "Presidential hopeful Vance appears to question Iran war after polls debacle",
-      "category": "军事安全",
-      "score": 69.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.2,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-04T12:45:00+00:00",
-      "last_updated": "2026-11-04T17:18:50+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "war",
-        "iran",
-        "vance",
-        "loss",
-        "trump",
-        "president",
-        "democrats",
-        "midterms"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Presidential hopeful Vance appears to question Iran war after polls debacle”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Presidential",
-          "Vance",
-          "Iran",
-          "US",
-          "Largely",
-          "Trump"
-        ],
-        "latest_progress": [
-          "11月04日 17:18 UTC，Al Jazeera报道：“Presidential hopeful Vance appears to question Iran war after polls debacle”。",
-          "11月04日 12:45 UTC，DW Top Stories报道：“US midterms: 'Largely true' Iran war led to loss, Trump says”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c5638ed5ef549f120353",
-          "url": "https://www.aljazeera.com/news/2026/11/4/presidential-hopeful-vance-appears-to-question-iran-war-after-polls-debacle?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/4/presidential-hopeful-vance-appears-to-question-iran-war-after-polls-debacle?traffic_source=rss",
-          "title": "Presidential hopeful Vance appears to question Iran war after polls debacle",
-          "summary": "US VP Vance cites trusted pollster saying Iran war, Israel ties were top of mind for Trump voters swinging to Democrats.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-04T17:18:50+00:00",
-          "fetched_at": "2026-11-04T21:53:34.714654+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_923db2293e03cb26aa4c",
-          "url": "https://www.dw.com/en/us-midterms-largely-true-iran-war-led-to-loss-trump-says/live-79829440?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-midterms-largely-true-iran-war-led-to-loss-trump-says/live-79829440?maca=en-rss-en-top-1022-rdf",
-          "title": "US midterms: 'Largely true' Iran war led to loss, Trump says",
-          "summary": "The US president still insisted he \"had to do\" the controversial war, after his Vice President Vance also blamed it for the Republican loss. The Democrats now control both the US House and Senate. Follow live.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-04T12:45:00+00:00",
-          "fetched_at": "2026-11-04T21:53:34.231384+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_928daebee9c325d0f9c8",
-      "title": "Owono enduring ‘hardest days of my life’ after De Miguel death",
-      "category": "社会突发",
-      "score": 67.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.0,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-04T16:40:38+00:00",
-      "last_updated": "2026-11-04T17:05:12+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "owono",
-        "days",
-        "andorra",
-        "goalkeeper",
-        "jesus",
-        "tenerife",
-        "death",
-        "miguel"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Owono enduring ‘hardest days of my life’ after De Miguel death”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Owono",
-          "De Miguel",
-          "Most"
-        ],
-        "latest_progress": [
-          "11月04日 17:05 UTC，Al Jazeera报道：“Owono enduring ‘hardest days of my life’ after De Miguel death”。",
-          "11月04日 16:40 UTC，BBC World报道：“'Most difficult days of my life' for keeper Owono”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b0563bdb296ee7f0c7a8",
-          "url": "https://www.aljazeera.com/sports/2026/11/4/owono-enduring-hardest-days-of-my-life-after-de-miguel-death?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/11/4/owono-enduring-hardest-days-of-my-life-after-de-miguel-death?traffic_source=rss",
-          "title": "Owono enduring ‘hardest days of my life’ after De Miguel death",
-          "summary": "Tenerife striker De Miguel died on Tuesday as a result of injuries from a collision with FC Andorra goalkeeper Owono.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-04T17:05:12+00:00",
-          "fetched_at": "2026-11-04T21:53:34.714823+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c0a9336cfd422b65b565",
-          "url": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_campaign=rss&at_medium=RSS",
-          "title": "'Most difficult days of my life' for keeper Owono",
-          "summary": "FC Andorra goalkeeper Jesus Owono puts out a statement through his club, expressing his sorrow and pain after Tenerife forward Jesus de Miguel's death.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-04T16:40:38+00:00",
-          "fetched_at": "2026-11-04T21:53:33.722875+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8bd/live/9677ecc0-d86e-11f1-85ab-b3cc3b5498c6.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_acbf2a06b7d659ed33ec",
-      "title": "US midterm election results live: Trump blames Iran war after losses",
-      "category": "军事安全",
-      "score": 66.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-04T19:15:50+00:00",
-      "last_updated": "2026-11-04T21:00:00+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "midterm",
-        "results",
-        "trump",
-        "could",
-        "reshape",
-        "foreign",
-        "policy",
-        "political"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“US midterm election results live: Trump blames Iran war after losses”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US",
-          "Trump",
-          "Iran"
-        ],
-        "latest_progress": [
-          "11月04日 21:00 UTC，Al Jazeera报道：“US midterm election results live: Trump blames Iran war after losses”。",
-          "11月04日 19:15 UTC，Al Jazeera报道：“How US midterm results could reshape Trump’s foreign policy”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_cb34e8477dd9a23e33fc",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
-          "title": "US midterm election results live: Trump blames Iran war after losses",
-          "summary": "A Democratic romp has rocked the US political landscape, but several closely contested races remain too close to call.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-04T21:00:00+00:00",
-          "fetched_at": "2026-11-04T21:53:34.713587+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2fae946d3cbb5d62010c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_how-us-midterm-could-reshape-trumps-foreign-policy-041126?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_how-us-midterm-could-reshape-trumps-foreign-policy-041126?traffic_source=rss",
-          "title": "How US midterm results could reshape Trump’s foreign policy",
-          "summary": "US midterm results could reshape Trump’s political landscape and increase congressional scrutiny of his foreign policy.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-04T19:15:50+00:00",
-          "fetched_at": "2026-11-04T21:53:34.714300+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_37c7cd2230990aa9d3e4",
-      "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
-      "category": "社会突发",
-      "score": 66.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.8,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 0.9
-      },
-      "first_seen": "2026-11-03T11:01:14+00:00",
-      "last_updated": "2026-11-04T20:31:56+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "russian",
-        "death",
-        "toll",
-        "strike",
-        "still",
-        "drones",
-        "missiles",
-        "hits"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的社会突发事件为“Ukraine raises death toll from Russian strike on Zaporizhia to 40 people”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Ukraine",
-          "Russian",
-          "Zaporizhia",
-          "Death",
-          "Ukrainian"
-        ],
-        "latest_progress": [
-          "11月04日 20:31 UTC，Al Jazeera报道：“Ukraine raises death toll from Russian strike on Zaporizhia to 40 people”。",
-          "11月03日 11:01 UTC，NPR World报道：“Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6ee9970f1e39b9cd83fc",
-          "url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/4/ukraine-raises-death-toll-from-russian-strike-on-zaporizhia-to-40-people?traffic_source=rss",
-          "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
-          "summary": "Dozens may still be under the rubble in Komyshuvakha. Rescue efforts ongoing despite interruptions by Russian drones.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-04T20:31:56+00:00",
-          "fetched_at": "2026-11-04T21:53:34.713783+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3548cb5894e32c74fc33",
-          "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
-          "canonical_url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
-          "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
-          "summary": "Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, President Zelenskyy said in an online post that noted the barrage coincided with U.S. elections.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-03T11:01:14+00:00",
-          "fetched_at": "2026-11-04T21:53:34.515448+00:00",
-          "language": "en",
-          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
@@ -589,20 +481,20 @@
     },
     {
       "event_id": "evt_dc78d14a5f4ef352f5bb",
-      "title": "Everything you need to know from the US midterm elections",
+      "title": "Historic firsts redraw US political map in 2026 midterm elections",
       "category": "国际政治",
-      "score": 66.2,
+      "score": 67.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 17.0,
+        "recency": 20.2,
         "credibility": 10.0,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 2.9
       },
       "first_seen": "2026-11-04T14:05:42+00:00",
-      "last_updated": "2026-11-04T15:39:38+00:00",
+      "last_updated": "2026-11-05T00:24:20+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -614,25 +506,25 @@
         "Middle East"
       ],
       "keywords": [
-        "democrats",
+        "historic",
+        "firsts",
         "midterm",
         "elections",
-        "trump",
         "everything",
         "you",
         "need",
         "know"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Everything you need to know from the US midterm elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Historic firsts redraw US political map in 2026 midterm elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Historic",
           "US",
-          "Democrats",
           "Everything"
         ],
         "latest_progress": [
-          "11月04日 15:39 UTC，Al Jazeera报道：“US markets rise as Democrats sweep midterm elections”。",
+          "11月05日 00:24 UTC，Al Jazeera报道：“Historic firsts redraw US political map in 2026 midterm elections”。",
           "11月04日 14:05 UTC，BBC World报道：“Everything you need to know from the US midterm elections”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
@@ -646,15 +538,15 @@
       },
       "articles": [
         {
-          "article_id": "art_696f91851c91899e98a3",
-          "url": "https://www.aljazeera.com/economy/2026/11/4/us-markets-rise-as-democrats-sweep-midterm-elections?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/11/4/us-markets-rise-as-democrats-sweep-midterm-elections?traffic_source=rss",
-          "title": "US markets rise as Democrats sweep midterm elections",
-          "summary": "Nasdaq, Dow, and S&P 500 open higher after Democrats take control and Trump accepts results.",
+          "article_id": "art_33d888588dc691caed1e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections?traffic_source=rss",
+          "title": "Historic firsts redraw US political map in 2026 midterm elections",
+          "summary": "The 2026 US midterms delivered a wave of historic firsts for women, Black, Muslim, gay and Native American politicians.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-04T15:39:38+00:00",
-          "fetched_at": "2026-11-04T21:53:34.715178+00:00",
+          "published_at": "2026-11-05T00:24:20+00:00",
+          "fetched_at": "2026-11-05T02:28:34.463360+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -669,57 +561,219 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-04T14:05:42+00:00",
-          "fetched_at": "2026-11-04T21:53:33.723929+00:00",
+          "fetched_at": "2026-11-05T02:28:33.218257+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bcf/live/c31f31d0-d854-11f1-93e1-3b657b665bcf.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/883e/live/60c11c10-d8b3-11f1-93e1-3b657b665bcf.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_aee6ddfbb0ed6ec16461",
-      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "category": "军事安全",
-      "score": 61.7,
+      "event_id": "evt_eb40540c82343134771d",
+      "title": "Democrats won Congress. But can they deliver on their promises?",
+      "category": "国际政治",
+      "score": 63.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-04T21:21:58+00:00",
+      "last_updated": "2026-11-05T00:25:43+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "democrats",
+        "social",
+        "media",
+        "congress",
+        "midterm",
+        "reacts",
+        "takeover",
+        "awash"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Democrats won Congress. But can they deliver on their promises?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Democrats",
+          "Congress",
+          "But",
+          "Social",
+          "US"
+        ],
+        "latest_progress": [
+          "11月05日 00:25 UTC，Al Jazeera报道：“Democrats won Congress. But can they deliver on their promises?”。",
+          "11月04日 21:21 UTC，Al Jazeera报道：“Social media reacts to Democrats’ takeover of US Congress”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a9aa5fecbc78ea7a8c20",
+          "url": "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/5/democrats-won-congress-but-can-they-deliver-on-their-promises?traffic_source=rss",
+          "title": "Democrats won Congress. But can they deliver on their promises?",
+          "summary": "Despite their midterm election victories, Democrats face major obstacles to reining in Trump on Iran, tariffs and more.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-05T00:25:43+00:00",
+          "fetched_at": "2026-11-05T02:28:34.463285+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_a160be549fa35207ecbc",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/social-media-reacts-to-democrats-takeover-of-us-congress?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/social-media-reacts-to-democrats-takeover-of-us-congress?traffic_source=rss",
+          "title": "Social media reacts to Democrats’ takeover of US Congress",
+          "summary": "Social media is awash with reactions to Democrats’ sweeping midterm gains.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-04T21:21:58+00:00",
+          "fetched_at": "2026-11-05T02:28:34.464029+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5ffe962e77133866cb9b",
+      "title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
+      "category": "国际政治",
+      "score": 60.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.7,
+        "recency": 21.5,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-05T01:53:30+00:00",
+      "last_updated": "2026-11-05T01:53:30+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "israel",
+        "herzog",
+        "accepts",
+        "vote",
+        "results",
+        "opens",
+        "talks",
+        "forming"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Israel’s Herzog accepts vote results, opens talks on forming a government”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Israel",
+          "Herzog"
+        ],
+        "latest_progress": [
+          "11月05日 01:53 UTC，Al Jazeera报道：“Israel’s Herzog accepts vote results, opens talks on forming a government”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_62d9351445805f59a9f6",
+          "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government?traffic_source=rss",
+          "title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
+          "summary": "Move deals blow to Netanyahu's efforts to discredit the elections, in which he and his allies lost their majority.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-05T01:53:30+00:00",
+          "fetched_at": "2026-11-05T02:28:34.463012+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_73516cfca42ebfefaa48",
+      "title": "Democratic Socialists of America see record wins in US midterm elections",
+      "category": "军事安全",
+      "score": 59.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.8,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-04T20:22:40+00:00",
-      "last_updated": "2026-11-04T20:22:40+00:00",
+      "first_seen": "2026-11-04T22:45:24+00:00",
+      "last_updated": "2026-11-04T22:45:24+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "BBC World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "ukraine",
-        "bodycam",
-        "video",
-        "shows",
-        "deadly",
-        "russian",
-        "double-tap",
-        "bombing"
+        "democratic",
+        "socialists",
+        "america",
+        "see",
+        "record",
+        "wins",
+        "midterm",
+        "elections"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Ukraine says bodycam video shows deadly Russian double-tap bombing”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Democratic Socialists of America see record wins in US midterm elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Ukraine",
-          "Russian"
+          "Democratic Socialists",
+          "America",
+          "US"
         ],
         "latest_progress": [
-          "11月04日 20:22 UTC，BBC World报道：“Ukraine says bodycam video shows deadly Russian double-tap bombing”。"
+          "11月04日 22:45 UTC，Al Jazeera报道：“Democratic Socialists of America see record wins in US midterm elections”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -732,38 +786,38 @@
       },
       "articles": [
         {
-          "article_id": "art_ab393e74ca3458352e59",
-          "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_campaign=rss&at_medium=RSS",
-          "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-          "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
-          "source": "BBC World",
+          "article_id": "art_7f9161243dd6b7b667d0",
+          "url": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss",
+          "title": "Democratic Socialists of America see record wins in US midterm elections",
+          "summary": "The left-wing movement has won support for its views on issues like the war in Gaza and universal healthcare.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-04T20:22:40+00:00",
-          "fetched_at": "2026-11-04T21:53:33.722721+00:00",
+          "published_at": "2026-11-04T22:45:24+00:00",
+          "fetched_at": "2026-11-05T02:28:34.463797+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6512/live/e94a10e0-d873-11f1-a364-a1fce50dd192.png"
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_efdd77671251de7253a5",
-      "title": "Democrat leaders hail midterm election success",
-      "category": "国际政治",
-      "score": 60.1,
+      "event_id": "evt_bc745f64cf54c1356235",
+      "title": "Sudan factories struggle to restart after devastating wartime losses",
+      "category": "军事安全",
+      "score": 59.7,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.1,
+        "recency": 18.7,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-04T20:50:31+00:00",
-      "last_updated": "2026-11-04T20:50:31+00:00",
+      "first_seen": "2026-11-04T22:31:09+00:00",
+      "last_updated": "2026-11-04T22:31:09+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -773,44 +827,44 @@
         "Middle East"
       ],
       "keywords": [
-        "democrat",
-        "leaders",
-        "hail",
-        "midterm",
-        "election",
-        "success",
-        "top",
-        "democrats"
+        "factories",
+        "struggle",
+        "sudan",
+        "restart",
+        "devastating",
+        "wartime",
+        "losses",
+        "war"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Democrat leaders hail midterm election success”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Sudan factories struggle to restart after devastating wartime losses”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Democrat"
+          "Sudan"
         ],
         "latest_progress": [
-          "11月04日 20:50 UTC，Al Jazeera报道：“Democrat leaders hail midterm election success”。"
+          "11月04日 22:31 UTC，Al Jazeera报道：“Sudan factories struggle to restart after devastating wartime losses”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_38763dd48d7e72dcd9e8",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss",
-          "title": "Democrat leaders hail midterm election success",
-          "summary": "The top Democrats in the two chambers of US Congress have been hailing their party’s resounding victory in the midterms.",
+          "article_id": "art_d5e3bfd67b5199a9512f",
+          "url": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
+          "title": "Sudan factories struggle to restart after devastating wartime losses",
+          "summary": "War has left Sudanese workers jobless and consumers facing higher prices as factories struggle to reopen.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-04T20:50:31+00:00",
-          "fetched_at": "2026-11-04T21:53:34.713664+00:00",
+          "published_at": "2026-11-04T22:31:09+00:00",
+          "fetched_at": "2026-11-05T02:28:34.463868+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -819,73 +873,72 @@
       ]
     },
     {
-      "event_id": "evt_bf858cfe92bf9db04b79",
-      "title": "Bavarian politician Hubert Aiwanger found dead in Berlin hotel",
-      "category": "国际政治",
-      "score": 59.8,
+      "event_id": "evt_78bf6241b1ed4edba5e3",
+      "title": "Africa’s richest man launches mega oil tank farm in Namibia",
+      "category": "能源资源",
+      "score": 59.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 9.5,
+        "recency": 20.4,
+        "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-04T21:00:00+00:00",
-      "last_updated": "2026-11-04T21:00:00+00:00",
+      "first_seen": "2026-11-05T00:39:18+00:00",
+      "last_updated": "2026-11-05T00:39:18+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "DW Top Stories"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "aiwanger",
-        "bavarian",
-        "politician",
-        "hubert",
-        "found",
-        "dead",
-        "berlin",
-        "hotel"
+        "namibia",
+        "africa",
+        "richest",
+        "man",
+        "launches",
+        "mega",
+        "oil",
+        "tank"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“Bavarian politician Hubert Aiwanger found dead in Berlin hotel”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“Africa’s richest man launches mega oil tank farm in Namibia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Bavarian",
-          "Hubert Aiwanger",
-          "Berlin"
+          "Africa",
+          "Namibia"
         ],
         "latest_progress": [
-          "11月04日 21:00 UTC，DW Top Stories报道：“Bavarian politician Hubert Aiwanger found dead in Berlin hotel”。"
+          "11月05日 00:39 UTC，Al Jazeera报道：“Africa’s richest man launches mega oil tank farm in Namibia”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_722e4a1cf8667e574e2d",
-          "url": "https://www.dw.com/en/bavarian-politician-hubert-aiwanger-found-dead-in-berlin-hotel/a-79859115?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/bavarian-politician-hubert-aiwanger-found-dead-in-berlin-hotel/a-79859115?maca=en-rss-en-top-1022-rdf",
-          "title": "Bavarian politician Hubert Aiwanger found dead in Berlin hotel",
-          "summary": "Aiwanger was Bavaria's economic minister and the chairman of the Free Voters Party. The circumstances surrounding his death are still unclear.",
-          "source": "DW Top Stories",
+          "article_id": "art_cfa5ad8cffc8974daab1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/africas-richest-man-launches-mega-oil-tank-farm-in-namibia?traffic_source=rss",
+          "title": "Africa’s richest man launches mega oil tank farm in Namibia",
+          "summary": "Nigerian billionaire Aliko Dangote launched a fuel storage facility in Namibia to future-proof Southern Africa's supply.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-04T21:00:00+00:00",
-          "fetched_at": "2026-11-04T21:53:34.230467+00:00",
+          "published_at": "2026-11-05T00:39:18+00:00",
+          "fetched_at": "2026-11-05T02:28:34.463117+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
