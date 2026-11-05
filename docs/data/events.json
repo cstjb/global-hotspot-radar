@@ -1,11 +1,15 @@
 {
-  "generated_at": "2026-11-05T10:56:15.699731+00:00",
+  "generated_at": "2026-11-05T18:46:53.039622+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 126,
-    "articles_unique": 126,
+    "articles_fetched": 77,
+    "articles_unique": 76,
     "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
       {
         "source": "GDELT: (geopolitics OR security OR supply chain OR a",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
@@ -14,23 +18,23 @@
   },
   "events": [
     {
-      "event_id": "evt_edb0a287a254b6b29dbd",
-      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-      "category": "军事安全",
-      "score": 87.2,
+      "event_id": "evt_e1d10d74e2a4156449ee",
+      "title": "Paraguay President Santiago Peña resigns after bank collapse",
+      "category": "国际政治",
+      "score": 85.6,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 16.1,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 19.6,
+        "recency": 21.7,
         "credibility": 9.8,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-05T04:04:57+00:00",
-      "last_updated": "2026-11-05T08:07:22+00:00",
+      "first_seen": "2026-11-05T16:28:00+00:00",
+      "last_updated": "2026-11-05T18:30:16+00:00",
       "source_count": 4,
-      "article_count": 5,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -43,26 +47,149 @@
         "North America"
       ],
       "keywords": [
-        "wong",
-        "hong",
-        "joshua",
-        "kong",
-        "activist",
-        "sentenced",
-        "years",
-        "pro-democracy"
+        "president",
+        "bank",
+        "collapse",
+        "pena",
+        "paraguay",
+        "resigns",
+        "santiago",
+        "crisis"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Paraguay President Santiago Peña resigns after bank collapse”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Paraguay",
+          "Paraguay President Santiago",
+          "Paraguay President Pena",
+          "President Pena"
+        ],
+        "latest_progress": [
+          "11月05日 18:30 UTC，NPR World报道：“Paraguay's president is impeached minutes after resigning following a bank collapse”。",
+          "11月05日 17:40 UTC，BBC World报道：“Paraguay President Santiago Peña resigns after bank collapse”。",
+          "11月05日 17:08 UTC，Al Jazeera报道：“Paraguay President Pena resigns in wake of bank collapse”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a2c6e770ad911ecd8e3a",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+          "canonical_url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+          "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+          "summary": "Paraguayan lawmakers voted to impeach President Santiago Peña minutes after his resignation, as the collapse of a digital bank tied to his government froze millions of people's savings.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-05T18:30:16+00:00",
+          "fetched_at": "2026-11-05T18:46:52.234946+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f5fb5d8faf5669aff8d9",
+          "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_campaign=rss&at_medium=RSS",
+          "title": "Paraguay President Santiago Peña resigns after bank collapse",
+          "summary": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-05T17:40:40+00:00",
+          "fetched_at": "2026-11-05T18:46:51.696051+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12e6/live/3ccd15c0-d93a-11f1-95ea-8df9a040b6bf.jpg"
+        },
+        {
+          "article_id": "art_3322d22b56a2991a6baf",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse?traffic_source=rss",
+          "title": "Paraguay President Pena resigns in wake of bank collapse",
+          "summary": "President Pena, a Trump ally, had faced an impeachment motion and protests after the collapse of digital lender ueno.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-05T17:08:19+00:00",
+          "fetched_at": "2026-11-05T18:46:52.302584+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_e3b45b6d207b3a071d70",
+          "url": "https://www.dw.com/en/paraguay-president-pena-resigns-amid-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/paraguay-president-pena-resigns-amid-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
+          "title": "Paraguay: President Pena resigns amid bank crisis",
+          "summary": "Paraguay's President Santiago Pena has resigned amid a crisis over his ties to collapsed lender Ueno. Millions of customers' accounts are frozen, with public pension and health care funds also tied up.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-05T16:28:00+00:00",
+          "fetched_at": "2026-11-05T18:46:52.174892+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c27d119cee1c3cccffb8",
+      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "category": "军事安全",
+      "score": 75.3,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 17.9,
+        "credibility": 9.7,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-05T05:29:56+00:00",
+      "last_updated": "2026-11-05T13:51:03+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "wong",
+        "joshua",
+        "years",
+        "hong",
+        "activist",
+        "sentenced",
+        "kong",
+        "prison"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Joshua Wong",
           "Hong Kong"
         ],
         "latest_progress": [
-          "11月05日 08:07 UTC，BBC World报道：“Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years”。",
-          "11月05日 07:50 UTC，Al Jazeera报道：“Hong Kong democracy activist Joshua Wong sentenced to 10 years in jail”。",
-          "11月05日 05:32 UTC，DW Top Stories报道：“Hong Kong democracy activist Joshua Wong sentenced to 10 more years”。"
+          "11月05日 13:51 UTC，BBC World报道：“Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years”。",
+          "11月05日 05:32 UTC，DW Top Stories报道：“Hong Kong democracy activist Joshua Wong sentenced to 10 more years”。",
+          "11月05日 05:29 UTC，NPR World报道：“Hong Kong activist Joshua Wong sentenced to 10 years in prison”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -82,38 +209,23 @@
           "summary": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-05T08:07:22+00:00",
-          "fetched_at": "2026-11-05T10:56:13.657296+00:00",
+          "published_at": "2026-11-05T13:51:03+00:00",
+          "fetched_at": "2026-11-05T18:46:51.696437+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff8f/live/68eb4bf0-d8e4-11f1-a701-fddedf244c16.jpg"
         },
         {
-          "article_id": "art_4d179952eb22b593a9f4",
-          "url": "https://www.aljazeera.com/news/2026/11/5/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-jail?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/5/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-years-in-jail?traffic_source=rss",
-          "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 years in jail",
-          "summary": "Wong, in prison since 2020, was found guilty of colluding with foreign entities in violation of national security law.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-05T07:50:44+00:00",
-          "fetched_at": "2026-11-05T10:56:14.355746+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
           "article_id": "art_d16c51a0145423966ba8",
           "url": "https://www.dw.com/en/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years/a-79859898?maca=en-rss-en-top-1022-rdf",
           "canonical_url": "https://www.dw.com/en/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years/a-79859898?maca=en-rss-en-top-1022-rdf",
           "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 more years",
-          "summary": "Joshua Wong, once a teen activist and one of the faces of the \"Umbrella Movement,\" is spending most of his adult life so far in prison.",
+          "summary": "Joshua Wong, once a teen activist and one of the faces of the \"Umbrella Movement,\" is spending years of his adult life in prison.",
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-05T05:32:00+00:00",
-          "fetched_at": "2026-11-05T10:56:14.071741+00:00",
+          "fetched_at": "2026-11-05T18:46:52.176111+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -128,137 +240,30 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-05T05:29:56+00:00",
-          "fetched_at": "2026-11-05T10:56:14.249238+00:00",
+          "fetched_at": "2026-11-05T18:46:52.235360+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_24bc74708d1b8cce1b53",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hong-kong-activist-joshua-wong-sentenced-to-ten-years-in-jail?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hong-kong-activist-joshua-wong-sentenced-to-ten-years-in-jail?traffic_source=rss",
-          "title": "Hong Kong activist Joshua Wong sentenced to ten years in jail",
-          "summary": "Hong Kong activist Joshua Wong, who became the global face of Hong Kong’s pro-democracy movement has been sentenced.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-05T04:04:57+00:00",
-          "fetched_at": "2026-11-05T10:56:14.357903+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_28ff3d31fff6a679da5b",
-      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-      "category": "国际政治",
-      "score": 70.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 4.5
-      },
-      "first_seen": "2026-11-05T03:47:56+00:00",
-      "last_updated": "2026-11-05T10:24:14+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "war",
-        "vance",
-        "trump",
-        "election",
-        "iran",
-        "defeat",
-        "president",
-        "congress"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Vance walks Trump tightrope with scathing election critique blaming Iran war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Congress",
-          "How Trump",
-          "Iran",
-          "Vance",
-          "Trump"
-        ],
-        "latest_progress": [
-          "11月05日 10:24 UTC，Al Jazeera报道：“Congress defeat: How Trump’s allies are distancing themselves from Iran war”。",
-          "11月05日 03:47 UTC，BBC World报道：“Vance walks Trump tightrope with scathing election critique blaming Iran war”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5755aeb84504f9593ed1",
-          "url": "https://www.aljazeera.com/news/2026/11/5/congress-defeat-how-trumps-allies-are-distancing-themselves-from-iran-war?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/5/congress-defeat-how-trumps-allies-are-distancing-themselves-from-iran-war?traffic_source=rss",
-          "title": "Congress defeat: How Trump’s allies are distancing themselves from Iran war",
-          "summary": "US Vice President JD Vance blames the war for the midterm rout as Democrats prepare to use Congress to rein it in.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-05T10:24:14+00:00",
-          "fetched_at": "2026-11-05T10:56:14.354234+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a078fb1d488abff1433a",
-          "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_campaign=rss&at_medium=RSS",
-          "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-          "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-05T03:47:56+00:00",
-          "fetched_at": "2026-11-05T10:56:13.656765+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c74/live/1d4cf850-d8e5-11f1-a701-fddedf244c16.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e5164fd6d1c933fbb3c8",
-      "title": "France gears up for strikes and protests as unions promise national mobilisation",
+      "event_id": "evt_fc30499e8184de1f59fa",
+      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
       "category": "军事安全",
-      "score": 70.0,
+      "score": 68.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 21.5,
+        "recency": 21.0,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 4.0
       },
-      "first_seen": "2026-11-05T09:19:00+00:00",
-      "last_updated": "2026-11-05T10:26:03+00:00",
+      "first_seen": "2026-11-05T10:10:00+00:00",
+      "last_updated": "2026-11-05T17:39:48+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -269,24 +274,27 @@
         "Europe"
       ],
       "keywords": [
-        "unions",
-        "protests",
-        "france",
-        "strike",
-        "strikes",
-        "national",
-        "braces",
-        "fresh"
+        "bomb",
+        "threats",
+        "flights",
+        "across",
+        "europe",
+        "least",
+        "hoax",
+        "disrupt"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“France gears up for strikes and protests as unions promise national mobilisation”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Hoax bomb threats target European airlines and airports for second time in a week”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "France"
+          "Hoax",
+          "European",
+          "Bomb",
+          "Europe"
         ],
         "latest_progress": [
-          "11月05日 10:26 UTC，BBC World报道：“France gears up for strikes and protests as unions promise national mobilisation”。",
-          "11月05日 09:19 UTC，DW Top Stories报道：“France braces for fresh protests as unions strike over higher wages”。"
+          "11月05日 17:39 UTC，BBC World报道：“Hoax bomb threats target European airlines and airports for second time in a week”。",
+          "11月05日 10:10 UTC，DW Top Stories报道：“Bomb threats disrupt several flights across Europe”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -299,30 +307,30 @@
       },
       "articles": [
         {
-          "article_id": "art_49d023f1396f95cc2a5f",
-          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_campaign=rss&at_medium=RSS",
-          "title": "France gears up for strikes and protests as unions promise national mobilisation",
-          "summary": "Five of France's unions have joined a wave of strikes and protests in a national day of action.",
+          "article_id": "art_8ee4e11e0986e753bd44",
+          "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_campaign=rss&at_medium=RSS",
+          "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+          "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-05T10:26:03+00:00",
-          "fetched_at": "2026-11-05T10:56:13.657134+00:00",
+          "published_at": "2026-11-05T17:39:48+00:00",
+          "fetched_at": "2026-11-05T18:46:51.695664+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c4c/live/4a3cc930-d8f9-11f1-93e1-3b657b665bcf.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7423/live/1976bf00-d911-11f1-94c6-3f8050561bf5.jpg"
         },
         {
-          "article_id": "art_d3fa9712809885414ab8",
-          "url": "https://www.dw.com/en/france-braces-for-fresh-protests-as-unions-strike-over-higher-wages/a-79860616?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/france-braces-for-fresh-protests-as-unions-strike-over-higher-wages/a-79860616?maca=en-rss-en-top-1022-rdf",
-          "title": "France braces for fresh protests as unions strike over higher wages",
-          "summary": "Unions representing the education sector, rail employees, public hospitals and postal services called the strike. Authorities have deployed some 70,000 police and security officers across the country.",
+          "article_id": "art_58794beadd950854135e",
+          "url": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-top-1022-rdf",
+          "title": "Bomb threats disrupt several flights across Europe",
+          "summary": "At least a dozen flights were either diverted or landed with a military escort after bomb or security threats. The first reported case involved a flight from Dublin to Rome landing outside Paris and more soon followed.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-05T09:19:00+00:00",
-          "fetched_at": "2026-11-05T10:56:14.071315+00:00",
+          "published_at": "2026-11-05T10:10:00+00:00",
+          "fetched_at": "2026-11-05T18:46:52.175711+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -331,15 +339,195 @@
       ]
     },
     {
+      "event_id": "evt_bed783f0616d717b95e0",
+      "title": "French protests see numbers surge as unions join strikes over high cost of living",
+      "category": "社会突发",
+      "score": 68.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.3,
+        "credibility": 9.8,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-05T17:51:00+00:00",
+      "last_updated": "2026-11-05T17:59:53+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "cost",
+        "living",
+        "protests",
+        "france",
+        "french",
+        "high",
+        "unions",
+        "more"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“French protests see numbers surge as unions join strikes over high cost of living”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "French",
+          "France",
+          "More"
+        ],
+        "latest_progress": [
+          "11月05日 17:59 UTC，BBC World报道：“French protests see numbers surge as unions join strikes over high cost of living”。",
+          "11月05日 17:51 UTC，DW Top Stories报道：“France: More than 600,000 protest as anger grows over cost of living”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_49d023f1396f95cc2a5f",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_campaign=rss&at_medium=RSS",
+          "title": "French protests see numbers surge as unions join strikes over high cost of living",
+          "summary": "The interior ministry estimates 600,000 people joined protests across France, while the unions say the number was far higher.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-05T17:59:53+00:00",
+          "fetched_at": "2026-11-05T18:46:51.695944+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f641/live/977c1840-d91c-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_715490c8fb0227af19e9",
+          "url": "https://www.dw.com/en/france-more-than-600-000-protest-as-anger-grows-over-cost-of-living/a-79860616?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/france-more-than-600-000-protest-as-anger-grows-over-cost-of-living/a-79860616?maca=en-rss-en-top-1022-rdf",
+          "title": "France: More than 600,000 protest as anger grows over cost of living",
+          "summary": "Demonstrators took to the streets in several French cities to call for government action on the high cost of living. Protests were largely peaceful, but there were some reports of escalation, including in Paris.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-05T17:51:00+00:00",
+          "fetched_at": "2026-11-05T18:46:52.174585+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0f6e9a19139b908e3291",
+      "title": "Photos: Spain mourns Jesus de Miguel, who died after on-pitch collision",
+      "category": "社会突发",
+      "score": 65.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-05T16:12:37+00:00",
+      "last_updated": "2026-11-05T18:22:16+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "jesus",
+        "miguel",
+        "death",
+        "football",
+        "spain",
+        "could",
+        "change",
+        "photos"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的社会突发事件为“Photos: Spain mourns Jesus de Miguel, who died after on-pitch collision”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Could Football Change After",
+          "Jesus",
+          "Miguel",
+          "Death",
+          "Photos",
+          "Spain"
+        ],
+        "latest_progress": [
+          "11月05日 18:22 UTC，Al Jazeera报道：“Could Football Change After Jesus de Miguel’s Death?”。",
+          "11月05日 16:12 UTC，Al Jazeera报道：“Photos: Spain mourns Jesus de Miguel, who died after on-pitch collision”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a69eded49e6d52dcdddd",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/could-football-change-after-jesus-de-miguels-death?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/could-football-change-after-jesus-de-miguels-death?traffic_source=rss",
+          "title": "Could Football Change After Jesus de Miguel’s Death?",
+          "summary": "Could football change after the death of Jesus de Miguel?",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-05T18:22:16+00:00",
+          "fetched_at": "2026-11-05T18:46:52.302255+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b573938ecebbcaf97213",
+          "url": "https://www.aljazeera.com/gallery/2026/11/5/photos-spain-mourns-jesus-de-miguel-who-died-after-on-pitch-collision?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/gallery/2026/11/5/photos-spain-mourns-jesus-de-miguel-who-died-after-on-pitch-collision?traffic_source=rss",
+          "title": "Photos: Spain mourns Jesus de Miguel, who died after on-pitch collision",
+          "summary": "Mourners gather in Navahermosa to honour Tenerife player, whose death has united Spain’s football community in grief.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-05T16:12:37+00:00",
+          "fetched_at": "2026-11-05T18:46:52.302906+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_baf2b1c60907f6ef970b",
       "title": "Pope Leo hosts Bob Dylan at official residence in Rome",
       "category": "军事安全",
-      "score": 69.6,
+      "score": 64.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.7,
+        "recency": 13.5,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -398,7 +586,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-05T07:02:12+00:00",
-          "fetched_at": "2026-11-05T10:56:14.249067+00:00",
+          "fetched_at": "2026-11-05T18:46:52.235266+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -413,7 +601,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-05T02:09:23+00:00",
-          "fetched_at": "2026-11-05T10:56:13.657802+00:00",
+          "fetched_at": "2026-11-05T18:46:51.696626+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -422,21 +610,21 @@
       ]
     },
     {
-      "event_id": "evt_dc78d14a5f4ef352f5bb",
-      "title": "New Zealand braces for knife-edge election: What you need to know",
+      "event_id": "evt_48e2db41946b6a7903a5",
+      "title": "What Democrats can and can't do with their new power after taking Congress",
       "category": "国际政治",
-      "score": 64.4,
+      "score": 63.6,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 18.3,
+        "recency": 17.8,
         "credibility": 10.0,
         "impact": 11.0,
-        "velocity": 1.8
+        "velocity": 1.5
       },
-      "first_seen": "2026-11-04T14:05:42+00:00",
-      "last_updated": "2026-11-05T06:34:50+00:00",
+      "first_seen": "2026-11-04T18:01:27+00:00",
+      "last_updated": "2026-11-05T13:43:56+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -448,27 +636,28 @@
         "Middle East"
       ],
       "keywords": [
-        "you",
-        "need",
-        "know",
-        "everything",
-        "midterm",
-        "elections",
+        "can",
         "democrats",
-        "secured"
+        "trump",
+        "power",
+        "congress",
+        "can't",
+        "taking",
+        "vote"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“New Zealand braces for knife-edge election: What you need to know”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“What Democrats can and can't do with their new power after taking Congress”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "New Zealand",
           "What",
-          "Everything",
-          "US"
+          "Democrats",
+          "Congress",
+          "President Trump",
+          "What Democrats"
         ],
         "latest_progress": [
-          "11月05日 06:34 UTC，Al Jazeera报道：“New Zealand braces for knife-edge election: What you need to know”。",
-          "11月04日 14:05 UTC，BBC World报道：“Everything you need to know from the US midterm elections”。"
+          "11月05日 13:43 UTC，Al Jazeera报道：“What can Democrats do in Congress under President Trump?”。",
+          "11月04日 18:01 UTC，BBC World报道：“What Democrats can and can't do with their new power after taking Congress”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -481,194 +670,53 @@
       },
       "articles": [
         {
-          "article_id": "art_7bc17561e25bb30812f4",
-          "url": "https://www.aljazeera.com/news/2026/11/5/new-zealand-braces-for-knife-edge-election-what-you-need-to-know?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/5/new-zealand-braces-for-knife-edge-election-what-you-need-to-know?traffic_source=rss",
-          "title": "New Zealand braces for knife-edge election: What you need to know",
-          "summary": "Smaller parties hold the key, with major contenders expected to fall short of the majority needed to govern alone.",
+          "article_id": "art_182041b3fa920f7d307c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/what-can-democrats-do-in-congress-under-president-trump?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/what-can-democrats-do-in-congress-under-president-trump?traffic_source=rss",
+          "title": "What can Democrats do in Congress under President Trump?",
+          "summary": "What can the Democratic party actually change when it comes to Donald Trump’s decisions, policies and presidency?",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-05T06:34:50+00:00",
-          "fetched_at": "2026-11-05T10:56:14.356734+00:00",
+          "published_at": "2026-11-05T13:43:56+00:00",
+          "fetched_at": "2026-11-05T18:46:52.304178+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_7f6a5c5fa9fdc44836d1",
-          "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_campaign=rss&at_medium=RSS",
-          "title": "Everything you need to know from the US midterm elections",
-          "summary": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump.",
+          "article_id": "art_4413d84a6f3e151005ec",
+          "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_campaign=rss&at_medium=RSS",
+          "title": "What Democrats can and can't do with their new power after taking Congress",
+          "summary": "Democrats can vote legislation through. But Trump still has veto power.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-04T14:05:42+00:00",
-          "fetched_at": "2026-11-05T10:56:13.659340+00:00",
+          "published_at": "2026-11-04T18:01:27+00:00",
+          "fetched_at": "2026-11-05T18:46:51.697342+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/883e/live/60c11c10-d8b3-11f1-93e1-3b657b665bcf.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f863/live/48cc8c40-d889-11f1-8203-5d774478c31c.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_46b45e6dd8c0ff970783",
-      "title": "Poland arrests four over alleged spying for Russia",
+      "event_id": "evt_975177cbc961504dc20e",
+      "title": "Jordanian officer killed in stabbing attack in Amman",
       "category": "军事安全",
-      "score": 62.3,
+      "score": 61.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.7,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-05T10:39:00+00:00",
-      "last_updated": "2026-11-05T10:39:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "poland",
-        "four",
-        "spying",
-        "russia",
-        "arrests",
-        "alleged",
-        "charged",
-        "people"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Poland arrests four over alleged spying for Russia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Poland",
-          "Russia"
-        ],
-        "latest_progress": [
-          "11月05日 10:39 UTC，DW Top Stories报道：“Poland arrests four over alleged spying for Russia”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9017d97eb35209e782b5",
-          "url": "https://www.dw.com/en/poland-arrests-four-over-alleged-spying-for-russia/a-79862829?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/poland-arrests-four-over-alleged-spying-for-russia/a-79862829?maca=en-rss-en-top-1022-rdf",
-          "title": "Poland arrests four over alleged spying for Russia",
-          "summary": "Poland has charged four people with espionage and says they were spying for Moscow. Two more have been accused of shipping military components to Russia.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-05T10:39:00+00:00",
-          "fetched_at": "2026-11-05T10:56:14.070653+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d1ebec08e3ed358839ad",
-      "title": "Several European flights receive bomb threats, some divert",
-      "category": "军事安全",
-      "score": 61.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-05T10:10:00+00:00",
-      "last_updated": "2026-11-05T10:10:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "several",
-        "flights",
-        "bomb",
-        "threats",
-        "european",
-        "receive",
-        "some",
-        "divert"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Several European flights receive bomb threats, some divert”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Several European"
-        ],
-        "latest_progress": [
-          "11月05日 10:10 UTC，DW Top Stories报道：“Several European flights receive bomb threats, some divert”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ba763da086d16bf9b4c6",
-          "url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/several-european-flights-receive-bomb-threats-some-divert/a-79861216?maca=en-rss-en-top-1022-rdf",
-          "title": "Several European flights receive bomb threats, some divert",
-          "summary": "Several flights across Europe have either diverted or landed with a military escort after bomb or security threats. The first reported case involved a flight from Dublin to Rome landing outside Paris; more soon followed.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-05T10:10:00+00:00",
-          "fetched_at": "2026-11-05T10:56:14.070937+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ef79a09f13f79493efb9",
-      "title": "South Korea plans to expand anti-piracy operations closer to Hormuz Strait",
-      "category": "军事安全",
-      "score": 60.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.3,
+        "recency": 20.6,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-05T07:44:47+00:00",
-      "last_updated": "2026-11-05T07:44:47+00:00",
+      "first_seen": "2026-11-05T17:08:45+00:00",
+      "last_updated": "2026-11-05T17:08:45+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -678,24 +726,24 @@
         "Middle East"
       ],
       "keywords": [
-        "south",
-        "korea",
-        "plans",
-        "expand",
-        "anti-piracy",
-        "operations",
-        "closer",
-        "hormuz"
+        "jordanian",
+        "officer",
+        "killed",
+        "amman",
+        "stabbing",
+        "attack",
+        "security",
+        "another"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“South Korea plans to expand anti-piracy operations closer to Hormuz Strait”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Jordanian officer killed in stabbing attack in Amman”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "South Korea",
-          "Hormuz Strait"
+          "Jordanian",
+          "Amman"
         ],
         "latest_progress": [
-          "11月05日 07:44 UTC，Al Jazeera报道：“South Korea plans to expand anti-piracy operations closer to Hormuz Strait”。"
+          "11月05日 17:08 UTC，Al Jazeera报道：“Jordanian officer killed in stabbing attack in Amman”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -708,15 +756,15 @@
       },
       "articles": [
         {
-          "article_id": "art_0a097c12eb98e20f73e6",
-          "url": "https://www.aljazeera.com/news/2026/11/5/south-korea-plans-to-expand-anti-piracy-operations-closer-to-hormuz-strait?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/5/south-korea-plans-to-expand-anti-piracy-operations-closer-to-hormuz-strait?traffic_source=rss",
-          "title": "South Korea plans to expand anti-piracy operations closer to Hormuz Strait",
-          "summary": "Seoul proposes extending its Cheonghae unit’s patrols to waters near Oman’s Duqm amid US pressure over Iran war.",
+          "article_id": "art_59f4c35779170d3bc9cf",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/jordanian-officer-killed-in-stabbing-attack-in-amman?traffic_source=rss",
+          "title": "Jordanian officer killed in stabbing attack in Amman",
+          "summary": "A Jordanian security officer has been killed and another one wounded near the Sri Lankan embassy in Amman.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-05T07:44:47+00:00",
-          "fetched_at": "2026-11-05T10:56:14.355907+00:00",
+          "published_at": "2026-11-05T17:08:45+00:00",
+          "fetched_at": "2026-11-05T18:46:52.302483+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -725,21 +773,21 @@
       ]
     },
     {
-      "event_id": "evt_f9e9f8243cd12357a74b",
-      "title": "A month after Yemen government offensive began, war of attrition takes hold",
-      "category": "国际政治",
-      "score": 60.2,
+      "event_id": "evt_d8cba1004b1f1c4760ff",
+      "title": "Gaza holds final of tournament honouring more than 1,000 slain athletes",
+      "category": "军事安全",
+      "score": 61.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.1,
+        "recency": 20.2,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-05T09:58:18+00:00",
-      "last_updated": "2026-11-05T09:58:18+00:00",
+      "first_seen": "2026-11-05T16:46:34+00:00",
+      "last_updated": "2026-11-05T16:46:34+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -749,44 +797,44 @@
         "Middle East"
       ],
       "keywords": [
-        "government",
-        "month",
-        "yemen",
-        "offensive",
-        "began",
-        "war",
-        "attrition",
-        "takes"
+        "gaza",
+        "final",
+        "holds",
+        "tournament",
+        "honouring",
+        "more",
+        "than",
+        "slain"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“A month after Yemen government offensive began, war of attrition takes hold”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Gaza holds final of tournament honouring more than 1,000 slain athletes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Yemen"
+          "Gaza"
         ],
         "latest_progress": [
-          "11月05日 09:58 UTC，Al Jazeera报道：“A month after Yemen government offensive began, war of attrition takes hold”。"
+          "11月05日 16:46 UTC，Al Jazeera报道：“Gaza holds final of tournament honouring more than 1,000 slain athletes”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_d5dca2c5f1c2a53584c7",
-          "url": "https://www.aljazeera.com/news/2026/11/5/a-month-after-yemen-government-offensive-began-war-of-attrition-takes-hold?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/5/a-month-after-yemen-government-offensive-began-war-of-attrition-takes-hold?traffic_source=rss",
-          "title": "A month after Yemen government offensive began, war of attrition takes hold",
-          "summary": "The Houthis suffer losses but also inflict pain on government forces and Saudi Arabia.",
+          "article_id": "art_eb570b155d397d053ec1",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/gaza-holds-final-of-tournament-honouring-more-than-1000-slain-athletes?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/gaza-holds-final-of-tournament-honouring-more-than-1000-slain-athletes?traffic_source=rss",
+          "title": "Gaza holds final of tournament honouring more than 1,000 slain athletes",
+          "summary": "The final of Gaza’s ‘Thousand Martyrs’ Cup marks the return of organised football after nearly three years of war.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-05T09:58:18+00:00",
-          "fetched_at": "2026-11-05T10:56:14.354621+00:00",
+          "published_at": "2026-11-05T16:46:34+00:00",
+          "fetched_at": "2026-11-05T18:46:52.302806+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -795,21 +843,21 @@
       ]
     },
     {
-      "event_id": "evt_c5cd60d825d460cbd8c5",
-      "title": "Russia says it hit Ukrainian postal hub and ship as Ukraine strikes Ryazan",
+      "event_id": "evt_a467f7791fa14ff44931",
+      "title": "AI stocks plunge after election, driving down US markets",
       "category": "经济金融",
-      "score": 60.2,
+      "score": 61.0,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.5,
+        "recency": 21.2,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-05T09:13:35+00:00",
-      "last_updated": "2026-11-05T09:13:35+00:00",
+      "first_seen": "2026-11-05T17:56:17+00:00",
+      "last_updated": "2026-11-05T17:56:17+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -819,26 +867,24 @@
         "Middle East"
       ],
       "keywords": [
-        "russia",
-        "ukraine",
-        "strikes",
-        "hit",
-        "ukrainian",
-        "postal",
-        "hub",
-        "ship"
+        "stocks",
+        "election",
+        "plunge",
+        "driving",
+        "down",
+        "markets",
+        "tech",
+        "lead"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的经济金融事件为“Russia says it hit Ukrainian postal hub and ship as Ukraine strikes Ryazan”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的经济金融事件为“AI stocks plunge after election, driving down US markets”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Russia",
-          "Ukrainian",
-          "Ukraine",
-          "Ryazan"
+          "AI",
+          "US"
         ],
         "latest_progress": [
-          "11月05日 09:13 UTC，Al Jazeera报道：“Russia says it hit Ukrainian postal hub and ship as Ukraine strikes Ryazan”。"
+          "11月05日 17:56 UTC，Al Jazeera报道：“AI stocks plunge after election, driving down US markets”。"
         ],
         "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
         "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
@@ -851,15 +897,15 @@
       },
       "articles": [
         {
-          "article_id": "art_f7e6c232449ba1f6c3cd",
-          "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan?traffic_source=rss",
-          "title": "Russia says it hit Ukrainian postal hub and ship as Ukraine strikes Ryazan",
-          "summary": "Injuries reported on both sides as Russia and Ukraine trade overnight drone strikes on energy and logistics sites.",
+          "article_id": "art_b5fd335a5b96c6cd20e4",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets?traffic_source=rss",
+          "title": "AI stocks plunge after election, driving down US markets",
+          "summary": "Tech stocks lead US market slide as investors weigh impact of midterm election results on AI industry.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-05T09:13:35+00:00",
-          "fetched_at": "2026-11-05T10:56:14.355441+00:00",
+          "published_at": "2026-11-05T17:56:17+00:00",
+          "fetched_at": "2026-11-05T18:46:52.302376+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
