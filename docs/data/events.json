@@ -1,245 +1,65 @@
 {
-  "generated_at": "2026-11-07T07:11:42.045418+00:00",
+  "generated_at": "2026-11-07T14:02:33.540552+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 84,
-    "articles_unique": 84,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 179,
+    "articles_unique": 178,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_8d771d82adfcd941a956",
-      "title": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
-      "category": "国际政治",
-      "score": 87.3,
+      "event_id": "evt_ff712527ddf0c1d6f9f5",
+      "title": "Qatari PM says US willing to seek solution to war with Iran",
+      "category": "军事安全",
+      "score": 76.5,
       "score_breakdown": {
-        "coverage": 20.8,
-        "source_diversity": 14.4,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
         "region_diversity": 7.5,
-        "recency": 20.8,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.9
+        "recency": 19.8,
+        "credibility": 9.0,
+        "impact": 13.0,
+        "velocity": 2.5
       },
-      "first_seen": "2026-11-05T17:40:40+00:00",
-      "last_updated": "2026-11-07T05:51:23+00:00",
-      "source_count": 4,
-      "article_count": 7,
+      "first_seen": "2026-11-06T17:47:00+00:00",
+      "last_updated": "2026-11-07T11:30:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "BBC World",
         "DW Top Stories",
-        "NPR World"
+        "vov.vn"
       ],
       "regions": [
         "Europe",
         "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "bank",
-        "paraguay",
-        "santiago",
-        "president",
-        "collapse",
-        "pena",
-        "millions",
-        "crisis"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的国际政治事件为“Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Paraguay",
-          "Pena",
-          "President Santiago",
-          "Santiago Pena",
-          "Pedro Alliana",
-          "President Santiago Pena",
-          "Ueno Bank",
-          "Paraguay President Santiago"
-        ],
-        "latest_progress": [
-          "11月07日 05:51 UTC，Al Jazeera报道：“Paraguay’s Pena under military protection in bank collapse chaos”。",
-          "11月07日 03:25 UTC，BBC World报道：“Paraguay's President Santiago Peña impeached and arrested”。",
-          "11月07日 00:31 UTC，Al Jazeera报道：“Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5eb109c8ec7c8ab7c267",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_paraguays-pena-under-house-arrest-061126?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_paraguays-pena-under-house-arrest-061126?traffic_source=rss",
-          "title": "Paraguay’s Pena under military protection in bank collapse chaos",
-          "summary": "Paraguay moves ex-President Santiago Pena to military base for protection after dramatic day in Asuncion.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T05:51:23+00:00",
-          "fetched_at": "2026-11-07T07:11:41.136672+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_20e3f9f664621a2b5f5a",
-          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_campaign=rss&at_medium=RSS",
-          "title": "Paraguay's President Santiago Peña impeached and arrested",
-          "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-07T03:25:00+00:00",
-          "fetched_at": "2026-11-07T07:11:40.473709+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg"
-        },
-        {
-          "article_id": "art_f1c6d447b9d34882c725",
-          "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
-          "title": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
-          "summary": "The sudden leadership change comes as Paraguay reels from the collapse of the Ueno Bank, a popular lender.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T00:31:41+00:00",
-          "fetched_at": "2026-11-07T07:11:41.138770+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ce2637c9dbe191c3738c",
-          "url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
-          "title": "Paraguay: President Santiago Pena under house arrest over bank crisis",
-          "summary": "Paraguay’s Senate has ousted President Santiago Pena over the collapse of a major bank tied to his government. Millions of customers' accounts are frozen, with public pension and health care funds also tied up.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-06T23:23:00+00:00",
-          "fetched_at": "2026-11-07T07:11:40.685896+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6e68248afc2e5c28f5c2",
-          "url": "https://www.dw.com/en/ueno-bank-scandal-plunges-paraguay-into-political-crisis/a-79881388?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ueno-bank-scandal-plunges-paraguay-into-political-crisis/a-79881388?maca=en-rss-en-top-1022-rdf",
-          "title": "Ueno Bank scandal plunges Paraguay into political crisis",
-          "summary": "Suspected financial fraud, public money at risk and millions of customers affected: Paraguay is in serious crisis following the sudden collapse of Ueno Bank. President Santiago Pena is facing impeachment.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-06T20:23:00+00:00",
-          "fetched_at": "2026-11-07T07:11:40.686386+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a2c6e770ad911ecd8e3a",
-          "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-          "canonical_url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-          "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
-          "summary": "Paraguayan lawmakers voted to impeach President Santiago Peña minutes after his resignation, as the collapse of a digital bank tied to his government froze millions of people's savings.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-05T18:30:16+00:00",
-          "fetched_at": "2026-11-07T07:11:41.026952+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f5fb5d8faf5669aff8d9",
-          "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_campaign=rss&at_medium=RSS",
-          "title": "Paraguay President Santiago Peña resigns after bank collapse",
-          "summary": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-05T17:40:40+00:00",
-          "fetched_at": "2026-11-07T07:11:40.476819+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/12e6/live/3ccd15c0-d93a-11f1-95ea-8df9a040b6bf.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ff712527ddf0c1d6f9f5",
-      "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
-      "category": "军事安全",
-      "score": 73.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.3,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.6
-      },
-      "first_seen": "2026-11-06T17:47:00+00:00",
-      "last_updated": "2026-11-07T06:26:58+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
+        "Vietnam"
       ],
       "keywords": [
         "iran",
         "war",
         "gulf",
         "tanker",
-        "not",
-        "wait",
-        "reach",
-        "deal"
+        "qatari",
+        "willing",
+        "seek",
+        "solution"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Iran war live: Qatar says US, Iran should not wait to reach a peace deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories、vov.vn等来源的3篇报道，当前关注的军事安全事件为“Qatari PM says US willing to seek solution to war with Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Iran",
-          "Democrats",
-          "Qatar",
+          "Qatari",
+          "PM",
           "US",
+          "Iran Iran",
           "Gulf"
         ],
         "latest_progress": [
-          "11月07日 06:26 UTC，Al Jazeera报道：“How the Iran war helped Democrats win the midterms”。",
-          "11月07日 00:00 UTC，Al Jazeera报道：“Iran war live: Qatar says US, Iran should not wait to reach a peace deal”。",
+          "11月07日 11:30 UTC，vov.vn报道：“Mỹ tiếp tục tấn công Iran : Sức ép chính trị và bài toán giá dầu”。",
+          "11月07日 07:10 UTC，Al Jazeera报道：“Qatari PM says US willing to seek solution to war with Iran”。",
           "11月06日 17:47 UTC，DW Top Stories报道：“Iran war: Gulf tanker attacked, 1 seaferer killed”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -253,30 +73,30 @@
       },
       "articles": [
         {
-          "article_id": "art_f148efdc2489bc1b0dc6",
-          "url": "https://www.aljazeera.com/opinions/2026/11/7/how-the-iran-war-helped-democrats-win-the-midterms?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/opinions/2026/11/7/how-the-iran-war-helped-democrats-win-the-midterms?traffic_source=rss",
-          "title": "How the Iran war helped Democrats win the midterms",
-          "summary": "Tehran brought the costs of war into American homes, fuelling the backlash against Trump's party.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T06:26:58+00:00",
-          "fetched_at": "2026-11-07T07:11:41.136013+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "article_id": "art_0db8a7e4c97b6024e515",
+          "url": "http://vov.vn/the-gioi/my-tiep-tuc-tan-cong-iran-suc-ep-chinh-tri-va-bai-toan-gia-dau-post1348166.vov",
+          "canonical_url": "https://vov.vn/the-gioi/my-tiep-tuc-tan-cong-iran-suc-ep-chinh-tri-va-bai-toan-gia-dau-post1348166.vov",
+          "title": "Mỹ tiếp tục tấn công Iran : Sức ép chính trị và bài toán giá dầu",
+          "summary": "",
+          "source": "vov.vn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-07T11:30:00+00:00",
+          "fetched_at": "2026-11-07T14:02:22.446692+00:00",
+          "language": "Vietnamese",
+          "region": "Vietnam",
+          "source_weight": 0.75,
+          "image_url": "https://media.vov.vn/sites/default/files/styles/og_image/public/2026-10/tau-khu-truc-uss-thomas-hudner-my.jpg?v=1794050176"
         },
         {
-          "article_id": "art_1188df38c507aac8f8a6",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
-          "title": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
-          "summary": "Qatar's prime minister urges the US and Iran not to wait for a 'perfect moment' to reach a deal to end the war.",
+          "article_id": "art_fa99e7c7ac9f0bbcc10c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/qatari-pm-says-us-willing-to-seek-solution-to-war-with-iran?traffic_source=rss",
+          "title": "Qatari PM says US willing to seek solution to war with Iran",
+          "summary": "Qatari PM says US willing to seek solution to war with Iran",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-07T00:00:00+00:00",
-          "fetched_at": "2026-11-07T07:11:41.139076+00:00",
+          "published_at": "2026-11-07T07:10:37+00:00",
+          "fetched_at": "2026-11-07T14:02:31.597252+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -291,7 +111,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-06T17:47:00+00:00",
-          "fetched_at": "2026-11-07T07:11:40.686913+00:00",
+          "fetched_at": "2026-11-07T14:02:31.270892+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -300,204 +120,23 @@
       ]
     },
     {
-      "event_id": "evt_58693c4cd54fe49c5915",
-      "title": "Protesters storm site of Microsoft’s planned Amsterdam data centre",
-      "category": "科技AI",
-      "score": 64.7,
+      "event_id": "evt_e02eabab4b72a73cc306",
+      "title": "Rains flood 70,000 displaced families’ tents in Gaza",
+      "category": "社会突发",
+      "score": 68.0,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.4,
-        "credibility": 9.8,
-        "impact": 9.8,
-        "velocity": 2.6
-      },
-      "first_seen": "2026-11-06T16:38:00+00:00",
-      "last_updated": "2026-11-07T04:08:02+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "data",
-        "protesters",
-        "microsoft",
-        "site",
-        "amsterdam",
-        "center",
-        "centre",
-        "break"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的科技AI事件为“Protesters storm site of Microsoft’s planned Amsterdam data centre”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "Protesters",
-          "Microsoft",
-          "Amsterdam",
-          "Data"
-        ],
-        "latest_progress": [
-          "11月07日 04:08 UTC，Al Jazeera报道：“Protesters storm site of Microsoft’s planned Amsterdam data centre”。",
-          "11月06日 16:38 UTC，DW Top Stories报道：“Data center protesters break into Microsoft site in Amsterdam”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6f50e7b6fc6164399dd7",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
-          "title": "Protesters storm site of Microsoft’s planned Amsterdam data centre",
-          "summary": "Activists in Amsterdam have stormed the site of a proposed Microsoft data centre. Al Jazeera’s Step Vaessen reports.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T04:08:02+00:00",
-          "fetched_at": "2026-11-07T07:11:41.137777+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c05c42385874bcb0d974",
-          "url": "https://www.dw.com/en/data-center-protesters-break-into-microsoft-site-in-amsterdam/a-79879050?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/data-center-protesters-break-into-microsoft-site-in-amsterdam/a-79879050?maca=en-rss-en-top-1022-rdf",
-          "title": "Data center protesters break into Microsoft site in Amsterdam",
-          "summary": "Protesters are demanding a pause in data center construction in Europe. Campaigners planning protests in 16 countries say the AI building boom threatens water supplies, power grids and climate goals.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-06T16:38:00+00:00",
-          "fetched_at": "2026-11-07T07:11:40.687158+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d1b5e705c44b3299f48e",
-      "title": "With Stephen Miller pick, Trump readies for a battle",
-      "category": "国际政治",
-      "score": 62.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.9,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-06T20:41:00+00:00",
-      "last_updated": "2026-11-06T23:24:15+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "miller",
-        "trump",
-        "stephen",
-        "chief",
-        "staff",
-        "named",
-        "white",
-        "house"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“With Stephen Miller pick, Trump readies for a battle”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "With Stephen Miller",
-          "Trump",
-          "Stephen Miller",
-          "White House"
-        ],
-        "latest_progress": [
-          "11月06日 23:24 UTC，BBC World报道：“With Stephen Miller pick, Trump readies for a battle”。",
-          "11月06日 20:41 UTC，DW Top Stories报道：“Stephen Miller named by Trump as new White House chief of staff”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_eadfb17dc1438d4ddf3d",
-          "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_campaign=rss&at_medium=RSS",
-          "title": "With Stephen Miller pick, Trump readies for a battle",
-          "summary": "The US president's promotion of Miller, a loyal partisan firebrand to be his new chief of staff sets up likely clashes with Congress.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-06T23:24:15+00:00",
-          "fetched_at": "2026-11-07T07:11:40.477707+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/492d/live/41326240-da17-11f1-bba7-b50f1faa7672.jpg"
-        },
-        {
-          "article_id": "art_604e55f2efd2ea1c8265",
-          "url": "https://www.dw.com/en/stephen-miller-named-by-trump-as-new-white-house-chief-of-staff/a-79881571?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/stephen-miller-named-by-trump-as-new-white-house-chief-of-staff/a-79881571?maca=en-rss-en-top-1022-rdf",
-          "title": "Stephen Miller named by Trump as new White House chief of staff",
-          "summary": "Trump said he would be replacing Susie Wiles for the top advisory role. Miller is controversial figure, known as a key architect of the administration's hardline immigration policies.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-06T20:41:00+00:00",
-          "fetched_at": "2026-11-07T07:11:40.686266+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_70b2c99f346eae9147e3",
-      "title": "Russia launches missile attack on Kyiv, injuring residents",
-      "category": "军事安全",
-      "score": 61.3,
-      "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 13.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.2,
+        "recency": 21.3,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-07T05:11:03+00:00",
-      "last_updated": "2026-11-07T05:11:03+00:00",
+      "first_seen": "2026-11-07T11:10:02+00:00",
+      "last_updated": "2026-11-07T13:14:53+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 3,
       "sources": [
         "Al Jazeera"
       ],
@@ -505,278 +144,27 @@
         "Middle East"
       ],
       "keywords": [
-        "russia",
-        "launches",
-        "missile",
-        "attack",
-        "kyiv",
-        "injuring",
-        "residents",
-        "air"
+        "gaza",
+        "displacement",
+        "rains",
+        "camps",
+        "across",
+        "flood",
+        "tents",
+        "heavy"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Russia launches missile attack on Kyiv, injuring residents”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russia",
-          "Kyiv"
-        ],
-        "latest_progress": [
-          "11月07日 05:11 UTC，Al Jazeera报道：“Russia launches missile attack on Kyiv, injuring residents”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_0675e4b6803593d4c347",
-          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-          "title": "Russia launches missile attack on Kyiv, injuring residents",
-          "summary": "Air strikes damage buildings and injure two civilians after Zelenskyy warns of potential for new attacks.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T05:11:03+00:00",
-          "fetched_at": "2026-11-07T07:11:41.137134+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_942bc5a4ea6178d4a2eb",
-      "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
-      "category": "经济金融",
-      "score": 61.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 11.4,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-06T12:24:52+00:00",
-      "last_updated": "2026-11-06T15:30:42+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "construction",
-        "arch",
-        "judge",
-        "trump's",
-        "labor",
-        "department",
-        "release",
-        "jobs"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的经济金融事件为“Judge blocks construction of Trump's massive arch after federal agency approval”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Judge",
-          "Trump",
-          "And",
-          "Labor Department"
-        ],
-        "latest_progress": [
-          "11月06日 15:30 UTC，BBC World报道：“Judge blocks construction of Trump's massive arch after federal agency approval”。",
-          "11月06日 12:24 UTC，NPR World报道：“Judge halts construction of Trump's arch. And, Labor Department to release jobs report”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6492a877b5a53016b89a",
-          "url": "https://www.bbc.co.uk/news/articles/cq99zd93ryvko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq99zd93ryvko?at_campaign=rss&at_medium=RSS",
-          "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
-          "summary": "The Trump administration had hoped the construction of the 250-foot arch could begin as early as this week.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-06T15:30:42+00:00",
-          "fetched_at": "2026-11-07T07:11:40.475168+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afb3/live/7b472130-d956-11f1-b7f4-8bd3c0617693.jpg"
-        },
-        {
-          "article_id": "art_155a35c1e346259d95cf",
-          "url": "https://www.npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon",
-          "canonical_url": "https://www.npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon",
-          "title": "Judge halts construction of Trump's arch. And, Labor Department to release jobs report",
-          "summary": "A judge has blocked construction of Trump's arch moments after it won federal approval to proceed. And, the Labor Department is set to release the latest jobs report today, a day after stocks plunged.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-06T12:24:52+00:00",
-          "fetched_at": "2026-11-07T07:11:41.026648+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_50a98fbbee44d09ad4e2",
-      "title": "Macau jails pro-democracy campaigner in city's first national security case",
-      "category": "军事安全",
-      "score": 60.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 10.7,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 4.2
-      },
-      "first_seen": "2026-11-06T06:46:21+00:00",
-      "last_updated": "2026-11-06T13:56:43+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "first",
-        "national",
-        "security",
-        "case",
-        "years",
-        "macao's",
-        "macau",
-        "jails"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的军事安全事件为“Macau jails pro-democracy campaigner in city's first national security case”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ex",
-          "Macao",
-          "Macau"
-        ],
-        "latest_progress": [
-          "11月06日 13:56 UTC，NPR World报道：“Ex-lawmaker gets 12.5 years in Macao's first national security case”。",
-          "11月06日 06:46 UTC，BBC World报道：“Macau jails pro-democracy campaigner in city's first national security case”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_45cdeae664636167f068",
-          "url": "https://www.npr.org/2026/11/06/g-s1-152217/ex-lawmaker-gets-12-5-years-in-macaos-first-national-security-case",
-          "canonical_url": "https://www.npr.org/2026/11/06/g-s1-152217/ex-lawmaker-gets-12-5-years-in-macaos-first-national-security-case",
-          "title": "Ex-lawmaker gets 12.5 years in Macao's first national security case",
-          "summary": "Au's arrest last year was the first publicly known prosecution under Macao's national security law since it was enacted in 2009.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-06T13:56:43+00:00",
-          "fetched_at": "2026-11-07T07:11:41.026477+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_b262bd5d3dd041d86b3f",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_campaign=rss&at_medium=RSS",
-          "title": "Macau jails pro-democracy campaigner in city's first national security case",
-          "summary": "Au Kam San was sentenced to 12 years and six months' jail for \"subversion against the political power of the state\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-06T06:46:21+00:00",
-          "fetched_at": "2026-11-07T07:11:40.476669+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ae0/live/23a8aa80-d9aa-11f1-88e6-7913ca4cf3b6.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_34afce7221f09eb8c39a",
-      "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-      "category": "社会突发",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 11.2,
-        "credibility": 9.8,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-06T14:46:03+00:00",
-      "last_updated": "2026-11-06T14:53:46+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "cult",
-        "leader",
-        "kenyan",
-        "doomsday",
-        "murdering",
-        "paul",
-        "mackenzie",
-        "ordered"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的社会突发事件为“Kenyan doomsday cult leader given life sentence for murdering 191 people”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的3篇报道，当前关注的社会突发事件为“Rains flood 70,000 displaced families’ tents in Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Kenyan"
+          "Gaza",
+          "Heavy",
+          "Gaza Rains"
         ],
         "latest_progress": [
-          "11月06日 14:53 UTC，NPR World报道：“The leader of a Kenyan doomsday cult is sentenced to 200 years in prison”。",
-          "11月06日 14:46 UTC，BBC World报道：“Kenyan doomsday cult leader given life sentence for murdering 191 people”。"
+          "11月07日 13:14 UTC，Al Jazeera报道：“Gaza displacement camps collapse under rainwater”。",
+          "11月07日 13:04 UTC，Al Jazeera报道：“Heavy rains flood displacement camps across Gaza”。",
+          "11月07日 11:10 UTC，Al Jazeera报道：“Rains flood 70,000 displaced families’ tents in Gaza”。"
         ],
         "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
         "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
@@ -789,79 +177,192 @@
       },
       "articles": [
         {
-          "article_id": "art_b2885443585d44aa030f",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6032593/kenya-cult-leader-paul-mackenzie-sentenced-murder",
-          "canonical_url": "https://www.npr.org/2026/11/06/nx-s1-6032593/kenya-cult-leader-paul-mackenzie-sentenced-murder",
-          "title": "The leader of a Kenyan doomsday cult is sentenced to 200 years in prison",
-          "summary": "Cult leader Paul Mackenzie was convicted of murdering 190 children and one adult after he ordered his followers to starve themselves to death in order to meet Jesus.",
-          "source": "NPR World",
+          "article_id": "art_0b5febc5c1d24a5005ff",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss",
+          "title": "Gaza displacement camps collapse under rainwater",
+          "summary": "Rainwater is inundating displacement camps across Gaza as makeshift shelters collapse. Al Jazeera’s Nour Khaled reports.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-06T14:53:46+00:00",
-          "fetched_at": "2026-11-07T07:11:41.026332+00:00",
+          "published_at": "2026-11-07T13:14:53+00:00",
+          "fetched_at": "2026-11-07T14:02:31.594900+00:00",
           "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_c269cec82c6d0d35f14b",
-          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_campaign=rss&at_medium=RSS",
-          "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-          "summary": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
-          "source": "BBC World",
+          "article_id": "art_34f0a7a3fa872da5abc9",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
+          "title": "Heavy rains flood displacement camps across Gaza",
+          "summary": "Heavy rains and strong winds have flooded and damaged displacement tents across Gaza.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-06T14:46:03+00:00",
-          "fetched_at": "2026-11-07T07:11:40.474546+00:00",
+          "published_at": "2026-11-07T13:04:51+00:00",
+          "fetched_at": "2026-11-07T14:02:31.595258+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9676/live/4f47ccc0-d9f0-11f1-bb10-cdca6001fbcf.jpg"
+          "image_url": null
+        },
+        {
+          "article_id": "art_b0fe1e48f1b10dfdcb4e",
+          "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
+          "title": "Rains flood 70,000 displaced families’ tents in Gaza",
+          "summary": "Initial losses are estimated at about $3m, according to Gaza's Government Media Office.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T11:10:02+00:00",
+          "fetched_at": "2026-11-07T14:02:31.596100+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_990ef8ca50dff376b09f",
-      "title": "New Zealanders end vote on final day of tight elections",
-      "category": "国际政治",
-      "score": 60.0,
+      "event_id": "evt_c6259f448b724ff0d8ec",
+      "title": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+      "category": "能源资源",
+      "score": 66.5,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 9.5,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.5,
+        "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 1.9
       },
-      "first_seen": "2026-11-07T06:35:00+00:00",
-      "last_updated": "2026-11-07T06:35:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-11-06T20:55:00+00:00",
+      "last_updated": "2026-11-07T12:24:11+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "diesel",
+        "tankers",
+        "russian",
+        "deal",
+        "carrying",
+        "change",
+        "course",
+        "despite"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Why",
+          "Russian",
+          "Trump",
+          "Putin",
+          "Tankers",
+          "US"
+        ],
+        "latest_progress": [
+          "11月07日 12:24 UTC，Al Jazeera报道：“Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?”。",
+          "11月06日 20:55 UTC，DW Top Stories报道：“Tankers carrying Russian diesel to the US change course”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ced7d37ee94e95756ebf",
+          "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
+          "title": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+          "summary": "Zero Russian diesel has reached the US as tankers divert and buyers fear legal action.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T12:24:11+00:00",
+          "fetched_at": "2026-11-07T14:02:31.595631+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_52e230f70555d7801100",
+          "url": "https://www.dw.com/en/tankers-carrying-russian-diesel-to-the-us-change-course/a-79870807?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/tankers-carrying-russian-diesel-to-the-us-change-course/a-79870807?maca=en-rss-en-top-1022-rdf",
+          "title": "Tankers carrying Russian diesel to the US change course",
+          "summary": "Despite an ostensible deal between Donald Trump and Vladimir Putin to bring diesel to the US, tankers are reportedly unable to dock due to existing sanctions.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-06T20:55:00+00:00",
+          "fetched_at": "2026-11-07T14:02:31.270307+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ac6309243c2a3d7b1b53",
+      "title": "Paraguay's president impeached and under house arrest after bank collapse",
+      "category": "国际政治",
+      "score": 65.0,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 16.6,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 4.1
+      },
+      "first_seen": "2026-11-06T20:23:00+00:00",
+      "last_updated": "2026-11-07T07:20:00+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
         "Europe"
       ],
       "keywords": [
-        "zealanders",
-        "end",
-        "vote",
-        "final",
-        "day",
-        "tight",
-        "elections",
-        "early"
+        "bank",
+        "paraguay",
+        "crisis",
+        "president",
+        "santiago",
+        "millions",
+        "collapse",
+        "pena"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“New Zealanders end vote on final day of tight elections”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Paraguay's president impeached and under house arrest after bank collapse”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "New Zealanders"
+          "Paraguay",
+          "President Santiago Pena",
+          "Ueno Bank"
         ],
         "latest_progress": [
-          "11月07日 06:35 UTC，DW Top Stories报道：“New Zealanders end vote on final day of tight elections”。"
+          "11月07日 07:20 UTC，BBC World报道：“Paraguay's president impeached and under house arrest after bank collapse”。",
+          "11月06日 23:23 UTC，DW Top Stories报道：“Paraguay: President Santiago Pena under house arrest over bank crisis”。",
+          "11月06日 20:23 UTC，DW Top Stories报道：“Ueno Bank scandal plunges Paraguay into political crisis”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -874,15 +375,45 @@
       },
       "articles": [
         {
-          "article_id": "art_6bf5a2201a73ec66f374",
-          "url": "https://www.dw.com/en/new-zealanders-end-vote-on-final-day-of-tight-elections/a-79883056?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/new-zealanders-end-vote-on-final-day-of-tight-elections/a-79883056?maca=en-rss-en-top-1022-rdf",
-          "title": "New Zealanders end vote on final day of tight elections",
-          "summary": "Early results after polls closed in New Zealand show the race is too close to call. The country has strict election-day laws on political reporting to prevent voters from being swayed at the last minute.",
+          "article_id": "art_20e3f9f664621a2b5f5a",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_campaign=rss&at_medium=RSS",
+          "title": "Paraguay's president impeached and under house arrest after bank collapse",
+          "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-07T07:20:00+00:00",
+          "fetched_at": "2026-11-07T14:02:30.969117+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg"
+        },
+        {
+          "article_id": "art_ce2637c9dbe191c3738c",
+          "url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
+          "title": "Paraguay: President Santiago Pena under house arrest over bank crisis",
+          "summary": "Paraguay’s Senate has ousted President Santiago Pena over the collapse of a major bank tied to his government. Millions of customers' accounts are frozen, with public pension and health care funds also tied up.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-07T06:35:00+00:00",
-          "fetched_at": "2026-11-07T07:11:40.685457+00:00",
+          "published_at": "2026-11-06T23:23:00+00:00",
+          "fetched_at": "2026-11-07T14:02:31.270122+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6e68248afc2e5c28f5c2",
+          "url": "https://www.dw.com/en/ueno-bank-scandal-plunges-paraguay-into-political-crisis/a-79881388?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ueno-bank-scandal-plunges-paraguay-into-political-crisis/a-79881388?maca=en-rss-en-top-1022-rdf",
+          "title": "Ueno Bank scandal plunges Paraguay into political crisis",
+          "summary": "Suspected financial fraud, public money at risk and millions of customers affected: Paraguay is in serious crisis following the sudden collapse of Ueno Bank. President Santiago Pena is facing impeachment.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-06T20:23:00+00:00",
+          "fetched_at": "2026-11-07T14:02:31.270516+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -891,21 +422,21 @@
       ]
     },
     {
-      "event_id": "evt_3f612e0b8f036d181ff7",
-      "title": "President Herzog faces key choice as Israel struggles to form government",
-      "category": "国际政治",
-      "score": 59.4,
+      "event_id": "evt_5260ec2cb8c7fb8d11f6",
+      "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
+      "category": "军事安全",
+      "score": 62.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.3,
+        "recency": 21.4,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-07T05:16:18+00:00",
-      "last_updated": "2026-11-07T05:16:18+00:00",
+      "first_seen": "2026-11-07T13:24:41+00:00",
+      "last_updated": "2026-11-07T13:24:41+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -915,45 +446,454 @@
         "Middle East"
       ],
       "keywords": [
-        "form",
-        "government",
-        "president",
-        "herzog",
-        "faces",
-        "key",
-        "choice",
-        "israel"
+        "they",
+        "started",
+        "bombing",
+        "drones",
+        "russian",
+        "attacks",
+        "unnerve",
+        "zaporizhzhia"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“President Herzog faces key choice as Israel struggles to form government”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "President Herzog",
-          "Israel"
+          "They",
+          "Russian",
+          "Zaporizhzhia"
         ],
         "latest_progress": [
-          "11月07日 05:16 UTC，Al Jazeera报道：“President Herzog faces key choice as Israel struggles to form government”。"
+          "11月07日 13:24 UTC，Al Jazeera报道：“‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_caf64beb6a9b1083f688",
-          "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss",
-          "title": "President Herzog faces key choice as Israel struggles to form government",
-          "summary": "Eisenkot's bloc and Arab-led parties seek to oust Netanyahu, but failure to form government could leave him in power.",
+          "article_id": "art_06eef7bf964045400a65",
+          "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
+          "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
+          "summary": "A region once offering refuge becomes increasingly dangerous, as 50 people are killed in a single attack.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-07T05:16:18+00:00",
-          "fetched_at": "2026-11-07T07:11:41.136989+00:00",
+          "published_at": "2026-11-07T13:24:41+00:00",
+          "fetched_at": "2026-11-07T14:02:31.594777+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_923b7476120ed9465dbf",
+      "title": "Spate of bomb threats poses serious challenge to airline industry",
+      "category": "产业供应链",
+      "score": 62.5,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 8.9,
+        "credibility": 9.9,
+        "impact": 10.4,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-06T12:51:38+00:00",
+      "last_updated": "2026-11-06T16:18:44+00:00",
+      "source_count": 2,
+      "article_count": 4,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "threats",
+        "bomb",
+        "flights",
+        "week",
+        "against",
+        "airlines",
+        "across",
+        "europe"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的4篇报道，当前关注的产业供应链事件为“Spate of bomb threats poses serious challenge to airline industry”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
+        "participants": [
+          "Spate",
+          "European",
+          "Russian"
+        ],
+        "latest_progress": [
+          "11月06日 16:18 UTC，BBC World报道：“Spate of bomb threats poses serious challenge to airline industry”。",
+          "11月06日 15:25 UTC，BBC World报道：“New wave of bomb threats hit European airlines”。",
+          "11月06日 15:21 UTC，NPR World报道：“European flights and broadcasters are targeted with another wave of bomb threats”。"
+        ],
+        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
+        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
+        "watch_indicators": [
+          "港口和工厂运行率",
+          "交货周期与运价",
+          "企业订单及库存"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c569e6fda71167a5bfa8",
+          "url": "https://www.bbc.co.uk/news/articles/cv8ezz9yn6pyo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cv8ezz9yn6pyo?at_campaign=rss&at_medium=RSS",
+          "title": "Spate of bomb threats poses serious challenge to airline industry",
+          "summary": "After a week of disruption, airlines are facing both safety and financial concerns.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-06T16:18:44+00:00",
+          "fetched_at": "2026-11-07T14:02:30.971384+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f23/live/39514eb0-d9f9-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
+          "article_id": "art_7d737b26c2baddea13cf",
+          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_campaign=rss&at_medium=RSS",
+          "title": "New wave of bomb threats hit European airlines",
+          "summary": "No link has been established between the threats against the airlines and those against the media outlets.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-06T15:25:35+00:00",
+          "fetched_at": "2026-11-07T14:02:30.969679+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c047/live/33f77d10-d9ed-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_6276075465bf1693b108",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
+          "canonical_url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
+          "title": "European flights and broadcasters are targeted with another wave of bomb threats",
+          "summary": "Officials across Europe reported a slew of bomb threats against multiple flights, following a string of hoaxes that caused flight diversions this week. Three broadcasters also received threats.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-06T15:21:31+00:00",
+          "fetched_at": "2026-11-07T14:02:31.402501+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f1d12848583ddb67387b",
+          "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_campaign=rss&at_medium=RSS",
+          "title": "Russian extremist group denies sending hoax bomb threats",
+          "summary": "Scores of flights across Europe have received bomb threats this week, but no explosives have been found so far.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-06T12:51:38+00:00",
+          "fetched_at": "2026-11-07T14:02:30.970368+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddd/live/b610ac80-d9da-11f1-b441-2b33b063138f.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fe22afc09cdf5a6e930b",
+      "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
+      "category": "军事安全",
+      "score": 62.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-07T13:07:23+00:00",
+      "last_updated": "2026-11-07T13:07:23+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "buildings",
+        "risk",
+        "rain",
+        "gaza",
+        "damaged",
+        "israeli",
+        "bombings",
+        "collapse"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Buildings",
+          "Israeli",
+          "Gaza"
+        ],
+        "latest_progress": [
+          "11月07日 13:07 UTC，Al Jazeera报道：“Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9fe1f706a0fe35bf62a1",
+          "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss",
+          "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
+          "summary": "Floods have swept through Gaza after heavy rain, endangering families and putting war-damaged buildings at risk.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T13:07:23+00:00",
+          "fetched_at": "2026-11-07T14:02:31.595021+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3b54886213eb56ccc75c",
+      "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
+      "category": "军事安全",
+      "score": 61.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-07T11:59:26+00:00",
+      "last_updated": "2026-11-07T11:59:26+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "dozens",
+        "killed",
+        "humanitarian",
+        "crisis",
+        "mounts",
+        "yemen",
+        "next",
+        "war"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Dozens killed as humanitarian crisis mounts in Yemen: What next for war?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Dozens",
+          "Yemen",
+          "What"
+        ],
+        "latest_progress": [
+          "11月07日 11:59 UTC，Al Jazeera报道：“Dozens killed as humanitarian crisis mounts in Yemen: What next for war?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_26a028d8d56ed514c557",
+          "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
+          "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
+          "summary": "Government forces reclaim key territories in Taiz and Lahij but face setbacks under Houthi resistance in certain areas.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T11:59:26+00:00",
+          "fetched_at": "2026-11-07T14:02:31.595858+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_318a7f060530e2f7c527",
+      "title": "India beat New Zealand by four runs via DLS in rain-hit second ODI",
+      "category": "军事安全",
+      "score": 60.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-07T10:50:54+00:00",
+      "last_updated": "2026-11-07T10:50:54+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "zealand",
+        "india",
+        "beat",
+        "four",
+        "runs",
+        "via",
+        "dls",
+        "rain-hit"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“India beat New Zealand by four runs via DLS in rain-hit second ODI”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "India",
+          "New Zealand",
+          "DLS",
+          "ODI"
+        ],
+        "latest_progress": [
+          "11月07日 10:50 UTC，Al Jazeera报道：“India beat New Zealand by four runs via DLS in rain-hit second ODI”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_bd2d1da38af4d43c7697",
+          "url": "https://www.aljazeera.com/sports/2026/11/7/india-new-zealand-second-odi-rain-dls-method-win-four-runs?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/sports/2026/11/7/india-new-zealand-second-odi-rain-dls-method-win-four-runs?traffic_source=rss",
+          "title": "India beat New Zealand by four runs via DLS in rain-hit second ODI",
+          "summary": "Put in to bat, New Zealand struggled to gain any momentum as ⁠India's pace attack dismantled their batting lineup.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T10:50:54+00:00",
+          "fetched_at": "2026-11-07T14:02:31.596225+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0ed944bdde8ee30f4e94",
+      "title": "Sudan war and climate change see parents struggle to feed their children",
+      "category": "军事安全",
+      "score": 60.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-07T10:36:32+00:00",
+      "last_updated": "2026-11-07T10:36:32+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "war",
+        "climate",
+        "change",
+        "sudan",
+        "see",
+        "parents",
+        "struggle",
+        "feed"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Sudan war and climate change see parents struggle to feed their children”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Sudan"
+        ],
+        "latest_progress": [
+          "11月07日 10:36 UTC，Al Jazeera报道：“Sudan war and climate change see parents struggle to feed their children”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_df01437ae377c6cff4a0",
+          "url": "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss",
+          "title": "Sudan war and climate change see parents struggle to feed their children",
+          "summary": "War, poverty and climate change are all affecting Sudanese, with increasing cases of child malnutrition.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T10:36:32+00:00",
+          "fetched_at": "2026-11-07T14:02:31.596340+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
