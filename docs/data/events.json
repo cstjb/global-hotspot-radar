@@ -1,77 +1,330 @@
 {
-  "generated_at": "2026-11-07T18:48:54.168863+00:00",
+  "generated_at": "2026-11-07T22:46:39.778727+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 130,
-    "articles_unique": 129,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 181,
+    "articles_unique": 180,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_f6cea1758f5abbb0f70b",
-      "title": "At least six people killed in shooting in Poland’s Krakow",
-      "category": "经济金融",
+      "event_id": "evt_8c1efb9775bbbbd7c2eb",
+      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "category": "国际政治",
+      "score": 87.2,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.6,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-07T19:56:00+00:00",
+      "last_updated": "2026-11-07T22:19:59+00:00",
+      "source_count": 4,
+      "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "eisenkot",
+        "government",
+        "president",
+        "gadi",
+        "form",
+        "leader",
+        "israel's",
+        "opposition"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“Israel's president tasks opposition leader Eisenkot with forming government”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Israel",
+          "Eisenkot",
+          "Israeli",
+          "Netanyahu",
+          "Gadi Eisenkot"
+        ],
+        "latest_progress": [
+          "11月07日 22:19 UTC，BBC World报道：“Israel's president tasks opposition leader Eisenkot with forming government”。",
+          "11月07日 22:12 UTC，NPR World报道：“Israeli president invites Netanyahu's opposition leader to broker new government”。",
+          "11月07日 20:26 UTC，Al Jazeera报道：“Israel’s president picks Eisenkot over Netanyahu to form next government”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_8b1a97b6bdb1c2ce68a2",
+          "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_campaign=rss&at_medium=RSS",
+          "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+          "summary": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-07T22:19:59+00:00",
+          "fetched_at": "2026-11-07T22:46:37.553619+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ff8/live/d9aea170-daf1-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_af722e765d69173a661e",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6032606/israeli-president-invites-netanyahus-opposition-leader-to-broker-new-government",
+          "canonical_url": "https://www.npr.org/2026/11/07/nx-s1-6032606/israeli-president-invites-netanyahus-opposition-leader-to-broker-new-government",
+          "title": "Israeli president invites Netanyahu's opposition leader to broker new government",
+          "summary": "Israel's political landscape shifts as President Herzog hands opposition leader Gadi Eisenkot the mandate to form a government, dealing a blow to Benjamin Netanyahu's grip on power.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-07T22:12:09+00:00",
+          "fetched_at": "2026-11-07T22:46:38.025834+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d34a0f171ec3bd13c8fe",
+          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government?traffic_source=rss",
+          "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "summary": "Isaac Herzog formally gives Gadi Eisenkot 28 days to secure 61 Knesset seats and replace Netanyahu as prime minister.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T20:26:58+00:00",
+          "fetched_at": "2026-11-07T22:46:38.164648+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_193d985bb4f154561787",
+          "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+          "canonical_url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+          "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+          "summary": "Gadi Eisenkot ran as the main rival to Prime Minister Benjamin Netanyahu, but neither won enough support to command a majority. Israel's main parties have recommended Eisenkot form a new government.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-07T20:18:18+00:00",
+          "fetched_at": "2026-11-07T22:46:38.026056+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c4e515b0da603b0860d3",
+          "url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-top-1022-rdf",
+          "title": "Israeli president tasks Gadi Eisenkot with forming government",
+          "summary": "President Isaac Herzog has picked former Israeli military chief Gadi Eisenkot, leader of an anti-Netanyahu alliance, to take the first shot at trying to form a government, with tricky coalition talks expected.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-07T19:56:00+00:00",
+          "fetched_at": "2026-11-07T22:46:37.764135+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_f2ab4bad6b9cb6d67f9e",
+      "title": "Paraguay’s ousted president appears before prosecutors after impeachment",
+      "category": "国际政治",
       "score": 80.1,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.6,
+        "region_diversity": 7.5,
+        "recency": 19.7,
         "credibility": 9.9,
-        "impact": 11.7,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-07T15:22:55+00:00",
-      "last_updated": "2026-11-07T18:22:11+00:00",
+      "first_seen": "2026-11-07T17:14:36+00:00",
+      "last_updated": "2026-11-07T20:08:47+00:00",
       "source_count": 3,
       "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories"
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
-        "least",
-        "killed",
-        "shooting",
-        "krakow",
-        "people",
-        "six",
-        "city",
-        "injured"
+        "president",
+        "ousted",
+        "santiago",
+        "paraguayan",
+        "before",
+        "prosecutors",
+        "collapse",
+        "bank"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的经济金融事件为“At least six people killed in shooting in Poland’s Krakow”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的4篇报道，当前关注的国际政治事件为“Paraguay’s ousted president appears before prosecutors after impeachment”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Paraguay",
+          "Ousted Paraguayan"
+        ],
+        "latest_progress": [
+          "11月07日 20:08 UTC，Al Jazeera报道：“Paraguay’s ousted president appears before prosecutors after impeachment”。",
+          "11月07日 19:17 UTC，BBC World报道：“Paraguay's former president charged after bank collapse”。",
+          "11月07日 18:35 UTC，Al Jazeera报道：“Paraguay’s ousted president charged over banking scandal”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_885c91141a45ea58cb13",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-paraguay-former-president-detained-appears?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-paraguay-former-president-detained-appears?traffic_source=rss",
+          "title": "Paraguay’s ousted president appears before prosecutors after impeachment",
+          "summary": "Former Paraguayan President Santiago Pena has appeared before prosecutors.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T20:08:47+00:00",
+          "fetched_at": "2026-11-07T22:46:38.164941+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_20e3f9f664621a2b5f5a",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_campaign=rss&at_medium=RSS",
+          "title": "Paraguay's former president charged after bank collapse",
+          "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-07T19:17:22+00:00",
+          "fetched_at": "2026-11-07T22:46:37.553904+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg"
+        },
+        {
+          "article_id": "art_1d2d67c66c89237b629b",
+          "url": "https://www.aljazeera.com/economy/2026/11/7/paraguays-ousted-president-charged-over-banking-scandal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/11/7/paraguays-ousted-president-charged-over-banking-scandal?traffic_source=rss",
+          "title": "Paraguay’s ousted president charged over banking scandal",
+          "summary": "Santiago Pena was impeached over the collapse of Ueno Bank, which left millions unable to access their accounts.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T18:35:15+00:00",
+          "fetched_at": "2026-11-07T22:46:38.165769+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d885a696d889ce6383aa",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+          "canonical_url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+          "title": "Ousted Paraguayan president appears before prosecutors",
+          "summary": "Paraguayan President Santiago Peña was removed from office and placed under house arrest Friday. The Senate voted on his impeachment after the collapse of a state-affiliated bank.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-07T17:14:36+00:00",
+          "fetched_at": "2026-11-07T22:46:38.026153+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_29e2feb3b09d71e4381e",
+      "title": "What we know so far after Krakow gun attack",
+      "category": "军事安全",
+      "score": 70.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.7,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-07T21:34:00+00:00",
+      "last_updated": "2026-11-07T22:27:30+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "main",
+        "square",
+        "gunman",
+        "krakow",
+        "killed",
+        "six",
+        "people",
+        "far"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“What we know so far after Krakow gun attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "What",
           "Krakow",
-          "Five",
-          "At",
-          "Polish",
-          "Poland"
+          "Poland",
+          "Gunman"
         ],
         "latest_progress": [
-          "11月07日 18:22 UTC，BBC World报道：“What we know about Krakow mass shooting so far”。",
-          "11月07日 16:06 UTC，Al Jazeera报道：“Five killed and at least 10 injured in Krakow shooting”。",
-          "11月07日 15:38 UTC，DW Top Stories报道：“At least 6 killed in shooting in Polish city of Krakow, police say”。"
+          "11月07日 22:27 UTC，BBC World报道：“What we know so far after Krakow gun attack”。",
+          "11月07日 21:34 UTC，DW Top Stories报道：“Poland: Gunman kills 6 in Krakow main square”。"
         ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
@@ -80,85 +333,54 @@
           "article_id": "art_6e89a7ca50575be0bb42",
           "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_campaign=rss&at_medium=RSS",
-          "title": "What we know about Krakow mass shooting so far",
-          "summary": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
+          "title": "What we know so far after Krakow gun attack",
+          "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-07T18:22:11+00:00",
-          "fetched_at": "2026-11-07T18:48:51.883147+00:00",
+          "published_at": "2026-11-07T22:27:30+00:00",
+          "fetched_at": "2026-11-07T22:46:37.553146+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f6c3/live/95455f00-dac5-11f1-bda8-29fb69dbc026.jpg"
         },
         {
-          "article_id": "art_93a68188c9347541c1d3",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
-          "title": "Five killed and at least 10 injured in Krakow shooting",
-          "summary": "Five people have been killed and at least 10 injured in a shooting near the main market square in Krakow, Poland.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T16:06:58+00:00",
-          "fetched_at": "2026-11-07T18:48:52.976162+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2dc952df739d235cfe7e",
-          "url": "https://www.dw.com/en/at-least-6-killed-in-shooting-in-polish-city-of-krakow-police-say/a-79886489?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/at-least-6-killed-in-shooting-in-polish-city-of-krakow-police-say/a-79886489?maca=en-rss-en-top-1022-rdf",
-          "title": "At least 6 killed in shooting in Polish city of Krakow, police say",
-          "summary": "At least six people were killed and fifteen injured after a shooter opened fire from a car in Krakow's main market square.",
+          "article_id": "art_361d822686f1da7f75f9",
+          "url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square/a-79886489?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square/a-79886489?maca=en-rss-en-top-1022-rdf",
+          "title": "Poland: Gunman kills 6 in Krakow main square",
+          "summary": "A gunman who fired from a car killed at least six people, including a British tourist, in Krakow's main market square. Officials said the shooter was fascinated with \"radical\" and \"far right' ideologies.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-07T15:38:00+00:00",
-          "fetched_at": "2026-11-07T18:48:52.529518+00:00",
+          "published_at": "2026-11-07T21:34:00+00:00",
+          "fetched_at": "2026-11-07T22:46:37.763942+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_10836284aa8bd4a9e20c",
-          "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss",
-          "title": "At least six people killed in shooting in Poland’s Krakow",
-          "summary": "Polish Prime Minister Donald Tusk says police are investigating after 'tragic shooting' in second-largest city.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T15:22:55+00:00",
-          "fetched_at": "2026-11-07T18:48:52.976468+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_6941ba56dded4f47ff64",
-      "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
+      "event_id": "evt_a7c91fd47babfbd24da2",
+      "title": "More than 140,000 rally as new protests against rising costs sweep France",
       "category": "国际政治",
-      "score": 75.8,
+      "score": 66.3,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.3,
+        "recency": 19.8,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 5.0
+        "velocity": 2.5
       },
-      "first_seen": "2026-11-07T12:29:48+00:00",
-      "last_updated": "2026-11-07T16:50:06+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-11-07T08:16:00+00:00",
+      "last_updated": "2026-11-07T20:12:22+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
@@ -166,29 +388,116 @@
         "Middle East"
       ],
       "keywords": [
-        "hackers",
-        "minister",
-        "pro-russian",
-        "data",
-        "meloni",
-        "leak",
-        "italian",
-        "foreign"
+        "protests",
+        "costs",
+        "rising",
+        "debt",
+        "france",
+        "france's",
+        "threaten",
+        "stability"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Pro-Russian hackers leak Italian foreign minister’s data on dark web”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“More than 140,000 rally as new protests against rising costs sweep France”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "More",
+          "France Amid",
+          "France"
+        ],
+        "latest_progress": [
+          "11月07日 20:12 UTC，Al Jazeera报道：“More than 140,000 rally as new protests against rising costs sweep France”。",
+          "11月07日 08:16 UTC，DW Top Stories报道：“Amid protests, France's rising debt costs threaten stability”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_234d3c38a55eff44ef75",
+          "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss",
+          "title": "More than 140,000 rally as new protests against rising costs sweep France",
+          "summary": "Tear gas fired in Paris and Lyon as interior minister warns authorities are 'ready and waiting' for rioters and looters.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T20:12:22+00:00",
+          "fetched_at": "2026-11-07T22:46:38.164751+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_dda962acfd114bf9c615",
+          "url": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-top-1022-rdf",
+          "title": "Amid protests, France's rising debt costs threaten stability",
+          "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the government have?",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-07T08:16:00+00:00",
+          "fetched_at": "2026-11-07T22:46:37.765278+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8a13eca1ddcb4e225144",
+      "title": "Italian foreign minister says hackers leaked his personal data",
+      "category": "国际政治",
+      "score": 63.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 17.2,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-07T14:07:00+00:00",
+      "last_updated": "2026-11-07T16:50:06+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "hackers",
+        "meloni",
+        "minister",
+        "pro-russian",
+        "personal",
+        "data",
+        "giorgia",
+        "blamed"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Italian foreign minister says hackers leaked his personal data”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Italian",
           "Italy",
           "Meloni",
-          "Russian",
-          "Pro"
+          "Russian"
         ],
         "latest_progress": [
           "11月07日 16:50 UTC，BBC World报道：“Italian foreign minister says hackers leaked his personal data”。",
-          "11月07日 14:07 UTC，DW Top Stories报道：“Italy's Meloni blames pro-Russian hackers for cyberattack on minister”。",
-          "11月07日 12:29 UTC，Al Jazeera报道：“Pro-Russian hackers leak Italian foreign minister’s data on dark web”。"
+          "11月07日 14:07 UTC，DW Top Stories报道：“Italy's Meloni blames pro-Russian hackers for cyberattack on minister”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -209,7 +518,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-07T16:50:06+00:00",
-          "fetched_at": "2026-11-07T18:48:51.884027+00:00",
+          "fetched_at": "2026-11-07T22:46:37.554079+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -224,128 +533,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T14:07:00+00:00",
-          "fetched_at": "2026-11-07T18:48:52.529851+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_65b52f269725d31f32dd",
-          "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
-          "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
-          "summary": "The prime minister blames pro-Russian hackers for the leak, as her top diplomat says the cyberthreat was ongoing.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T12:29:48+00:00",
-          "fetched_at": "2026-11-07T18:48:52.977595+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ff7d43f699809b585a56",
-      "title": "New Zealand’s prime minister says election is ‘too close to call’",
-      "category": "国际政治",
-      "score": 75.1,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.5,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-07T11:54:00+00:00",
-      "last_updated": "2026-11-07T15:56:28+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "zealand",
-        "election",
-        "votes",
-        "results",
-        "too",
-        "close",
-        "call",
-        "counted"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“New Zealand’s prime minister says election is ‘too close to call’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "No",
-          "New Zealand"
-        ],
-        "latest_progress": [
-          "11月07日 15:56 UTC，BBC World报道：“No clear winner after tight New Zealand general election”。",
-          "11月07日 14:03 UTC，Al Jazeera报道：“New Zealand’s prime minister says election is ‘too close to call’”。",
-          "11月07日 11:54 UTC，DW Top Stories报道：“New Zealand election too close to call with over 95% of votes counted”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6d102c4ffaa558e60c43",
-          "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_campaign=rss&at_medium=RSS",
-          "title": "No clear winner after tight New Zealand general election",
-          "summary": "Weeks of coalition talks could follow after preliminary results pointed to a highly divided national parliament.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-07T15:56:28+00:00",
-          "fetched_at": "2026-11-07T18:48:51.883287+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3578/live/a76cb0d0-dab5-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_321b0bee76c9777c8a51",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/new-zealands-prime-minister-says-election-is-too-close-to?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/new-zealands-prime-minister-says-election-is-too-close-to?traffic_source=rss",
-          "title": "New Zealand’s prime minister says election is ‘too close to call’",
-          "summary": "New Zealand prime minister Christopher Luxon says he has a pathway to form the next government.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T14:03:06+00:00",
-          "fetched_at": "2026-11-07T18:48:52.976771+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_925dc33f6d236b0a0a05",
-          "url": "https://www.dw.com/en/new-zealand-election-too-close-to-call-with-over-95-of-votes-counted/a-79883056?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/new-zealand-election-too-close-to-call-with-over-95-of-votes-counted/a-79883056?maca=en-rss-en-top-1022-rdf",
-          "title": "New Zealand election too close to call with over 95% of votes counted",
-          "summary": "Initial results in New Zealand show the two main parties neck-and-neck with fewer than 4,000 votes separating them. Official results aren't expected until later this month once special votes have been counted.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-07T11:54:00+00:00",
-          "fetched_at": "2026-11-07T18:48:52.530027+00:00",
+          "fetched_at": "2026-11-07T22:46:37.764845+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -354,145 +542,23 @@
       ]
     },
     {
-      "event_id": "evt_de6d25b89dffe9cd7a0b",
-      "title": "Paraguay's president impeached and under house arrest after bank collapse",
-      "category": "国际政治",
-      "score": 74.5,
+      "event_id": "evt_08572c1769afa3bcd04f",
+      "title": "Who is behind Europe’s suspected hybrid attacks?",
+      "category": "军事安全",
+      "score": 61.3,
       "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.6,
-        "credibility": 9.6,
-        "impact": 11.0,
-        "velocity": 1.3
-      },
-      "first_seen": "2026-11-05T18:30:16+00:00",
-      "last_updated": "2026-11-07T17:14:36+00:00",
-      "source_count": 3,
-      "article_count": 4,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "president",
-        "bank",
-        "collapse",
-        "santiago",
-        "paraguayan",
-        "tied",
-        "millions",
-        "under"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Paraguay's president impeached and under house arrest after bank collapse”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Ousted Paraguayan",
-          "Paraguay",
-          "President Santiago Pena"
-        ],
-        "latest_progress": [
-          "11月07日 17:14 UTC，NPR World报道：“Ousted Paraguayan president appears before prosecutors”。",
-          "11月07日 07:20 UTC，BBC World报道：“Paraguay's president impeached and under house arrest after bank collapse”。",
-          "11月06日 23:23 UTC，DW Top Stories报道：“Paraguay: President Santiago Pena under house arrest over bank crisis”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d885a696d889ce6383aa",
-          "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
-          "canonical_url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
-          "title": "Ousted Paraguayan president appears before prosecutors",
-          "summary": "Paraguayan President Santiago Peña was removed from office and placed under house arrest Friday. The Senate voted on his impeachment after the collapse of a state-affiliated bank.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-07T17:14:36+00:00",
-          "fetched_at": "2026-11-07T18:48:52.752822+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_20e3f9f664621a2b5f5a",
-          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_campaign=rss&at_medium=RSS",
-          "title": "Paraguay's president impeached and under house arrest after bank collapse",
-          "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-07T07:20:00+00:00",
-          "fetched_at": "2026-11-07T18:48:51.883815+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg"
-        },
-        {
-          "article_id": "art_ce2637c9dbe191c3738c",
-          "url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
-          "title": "Paraguay: President Santiago Pena under house arrest over bank crisis",
-          "summary": "Paraguay’s Senate has ousted President Santiago Pena over the collapse of a major bank tied to his government. Millions of customers' accounts are frozen, with public pension and health care funds also tied up.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-06T23:23:00+00:00",
-          "fetched_at": "2026-11-07T18:48:52.530829+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a2c6e770ad911ecd8e3a",
-          "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-          "canonical_url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
-          "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
-          "summary": "Paraguayan lawmakers voted to impeach President Santiago Peña minutes after his resignation, as the collapse of a digital bank tied to his government froze millions of people's savings.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-05T18:30:16+00:00",
-          "fetched_at": "2026-11-07T18:48:52.753736+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_56bd45daa94e18643a28",
-      "title": "Gaza displacement camps collapse under rainwater",
-      "category": "社会突发",
-      "score": 67.2,
-      "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.6,
+        "recency": 20.3,
         "credibility": 10.0,
-        "impact": 11.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-07T13:04:51+00:00",
-      "last_updated": "2026-11-07T17:11:29+00:00",
+      "first_seen": "2026-11-07T20:48:58+00:00",
+      "last_updated": "2026-11-07T20:48:58+00:00",
       "source_count": 1,
-      "article_count": 3,
+      "article_count": 1,
       "sources": [
         "Al Jazeera"
       ],
@@ -500,79 +566,45 @@
         "Middle East"
       ],
       "keywords": [
-        "gaza",
-        "heavy",
-        "rains",
-        "displacement",
-        "flood",
-        "camps",
-        "across",
-        "collapse"
+        "behind",
+        "europe",
+        "suspected",
+        "hybrid",
+        "attacks",
+        "bomb",
+        "hoaxes",
+        "supermarket"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的3篇报道，当前关注的社会突发事件为“Gaza displacement camps collapse under rainwater”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Who is behind Europe’s suspected hybrid attacks?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Jerusalem Daily",
-          "Heavy",
-          "Gaza Gaza",
-          "Gaza"
+          "Who",
+          "Europe"
         ],
         "latest_progress": [
-          "11月07日 17:11 UTC，Al Jazeera报道：“Jerusalem Daily: Heavy rains flood Gaza”。",
-          "11月07日 13:14 UTC，Al Jazeera报道：“Gaza displacement camps collapse under rainwater”。",
-          "11月07日 13:04 UTC，Al Jazeera报道：“Heavy rains flood displacement camps across Gaza”。"
+          "11月07日 20:48 UTC，Al Jazeera报道：“Who is behind Europe’s suspected hybrid attacks?”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_bf8e651ee8a87a722cc8",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
-          "title": "Jerusalem Daily: Heavy rains flood Gaza",
-          "summary": "Jerusalem Daily: Heavy rains flood Gaza",
+          "article_id": "art_b3274226f671fdc99cbd",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+          "title": "Who is behind Europe’s suspected hybrid attacks?",
+          "summary": "Bomb hoaxes and supermarket cyberattacks are heightening security fears.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-07T17:11:29+00:00",
-          "fetched_at": "2026-11-07T18:48:52.975669+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0b5febc5c1d24a5005ff",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss",
-          "title": "Gaza displacement camps collapse under rainwater",
-          "summary": "Rainwater is inundating displacement camps across Gaza as makeshift shelters collapse. Al Jazeera’s Nour Khaled reports.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T13:14:53+00:00",
-          "fetched_at": "2026-11-07T18:48:52.977179+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_34f0a7a3fa872da5abc9",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
-          "title": "Heavy rains flood displacement camps across Gaza",
-          "summary": "Heavy rains and strong winds have flooded and damaged displacement tents across Gaza.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T13:04:51+00:00",
-          "fetched_at": "2026-11-07T18:48:52.977479+00:00",
+          "published_at": "2026-11-07T20:48:58+00:00",
+          "fetched_at": "2026-11-07T22:46:38.164424+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -581,93 +613,75 @@
       ]
     },
     {
-      "event_id": "evt_912724aa5f5b5c995a3b",
-      "title": "Trump’s new chief of staff Stephen Miller says he ‘saved America’",
-      "category": "国际政治",
-      "score": 65.3,
+      "event_id": "evt_8aa30dcc61d890f37925",
+      "title": "Abdul El-Sayed slams Trump’s tariff war with Canada",
+      "category": "军事安全",
+      "score": 61.3,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.2,
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
         "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 1.9
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-06T23:24:15+00:00",
-      "last_updated": "2026-11-07T15:29:11+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-11-07T20:44:34+00:00",
+      "last_updated": "2026-11-07T20:44:34+00:00",
+      "source_count": 1,
+      "article_count": 1,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "miller",
-        "stephen",
+        "abdul",
+        "el-sayed",
         "trump",
-        "chief",
-        "staff",
-        "pick",
-        "readies",
-        "battle"
+        "war",
+        "canada",
+        "slams",
+        "tariff",
+        "michigan"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Trump’s new chief of staff Stephen Miller says he ‘saved America’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Abdul El-Sayed slams Trump’s tariff war with Canada”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Abdul El",
+          "Sayed",
           "Trump",
-          "Stephen Miller",
-          "America",
-          "With Stephen Miller"
+          "Canada"
         ],
         "latest_progress": [
-          "11月07日 15:29 UTC，Al Jazeera报道：“Trump’s new chief of staff Stephen Miller says he ‘saved America’”。",
-          "11月06日 23:24 UTC，BBC World报道：“With Stephen Miller pick, Trump readies for a battle”。"
+          "11月07日 20:44 UTC，Al Jazeera报道：“Abdul El-Sayed slams Trump’s tariff war with Canada”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_a2755112f4dcf74fe483",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-sv-trump-stephen-miller-loyalty-pledge?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-sv-trump-stephen-miller-loyalty-pledge?traffic_source=rss",
-          "title": "Trump’s new chief of staff Stephen Miller says he ‘saved America’",
-          "summary": "Stephen Miller, US President Donald Trump’s incoming chief of staff praises him.",
+          "article_id": "art_6ca0a6e857781c135945",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
+          "title": "Abdul El-Sayed slams Trump’s tariff war with Canada",
+          "summary": "Michigan Senator-elect Abdul El-Sayed has criticised Trump’s trade war with Canada.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-07T15:29:11+00:00",
-          "fetched_at": "2026-11-07T18:48:52.976357+00:00",
+          "published_at": "2026-11-07T20:44:34+00:00",
+          "fetched_at": "2026-11-07T22:46:38.164542+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
-        {
-          "article_id": "art_eadfb17dc1438d4ddf3d",
-          "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_campaign=rss&at_medium=RSS",
-          "title": "With Stephen Miller pick, Trump readies for a battle",
-          "summary": "The US president's promotion of Miller, a loyal partisan firebrand to be his new chief of staff sets up likely clashes with Congress.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-06T23:24:15+00:00",
-          "fetched_at": "2026-11-07T18:48:51.883714+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/492d/live/41326240-da17-11f1-bba7-b50f1faa7672.jpg"
         }
       ]
     },
@@ -675,12 +689,12 @@
       "event_id": "evt_75696cccb4fb6e81e9ee",
       "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
       "category": "国际政治",
-      "score": 63.6,
+      "score": 61.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 17.1,
+        "recency": 14.5,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -738,7 +752,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-07T12:49:36+00:00",
-          "fetched_at": "2026-11-07T18:48:51.884125+00:00",
+          "fetched_at": "2026-11-07T22:46:37.554166+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -753,7 +767,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T09:21:00+00:00",
-          "fetched_at": "2026-11-07T18:48:52.530264+00:00",
+          "fetched_at": "2026-11-07T22:46:37.765133+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -762,15 +776,87 @@
       ]
     },
     {
+      "event_id": "evt_aac363b558d37a137a68",
+      "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+      "category": "军事安全",
+      "score": 60.8,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.7,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-07T20:10:38+00:00",
+      "last_updated": "2026-11-07T20:10:38+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "ukraine",
+        "zaporizhzhia",
+        "faces",
+        "threat",
+        "russian",
+        "drones",
+        "close",
+        "once"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Ukraine’s Zaporizhzhia faces threat as Russian drones close in”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Ukraine",
+          "Zaporizhzhia",
+          "Russian"
+        ],
+        "latest_progress": [
+          "11月07日 20:10 UTC，Al Jazeera报道：“Ukraine’s Zaporizhzhia faces threat as Russian drones close in”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b11880d001c66c7a2eaf",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+          "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+          "summary": "Ukraine’s Zaporizhzhia, once a refuge for those fleeing the war, is now facing growing danger.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T20:10:38+00:00",
+          "fetched_at": "2026-11-07T22:46:38.164849+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
       "event_id": "evt_35bb7709b55eb5b546cf",
       "title": "Germany news: Son of Iran's last shah takes center stage in Frankfurt",
       "category": "军事安全",
-      "score": 63.1,
+      "score": 60.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 18.5,
+        "recency": 15.7,
         "credibility": 9.5,
         "impact": 13.0,
         "velocity": 5.0
@@ -828,7 +914,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T14:38:00+00:00",
-          "fetched_at": "2026-11-07T18:48:52.529685+00:00",
+          "fetched_at": "2026-11-07T22:46:37.764694+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -843,152 +929,10 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T09:08:00+00:00",
-          "fetched_at": "2026-11-07T18:48:52.530342+00:00",
+          "fetched_at": "2026-11-07T22:46:37.765204+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_8dff2b065cfa3bbac5d2",
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "category": "军事安全",
-      "score": 62.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-07T18:14:38+00:00",
-      "last_updated": "2026-11-07T18:14:38+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "iran's",
-        "nuclear",
-        "offers",
-        "reward",
-        "information",
-        "about",
-        "programme",
-        "donald"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“US offers $20m reward for information about Iran's nuclear programme”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US",
-          "Iran"
-        ],
-        "latest_progress": [
-          "11月07日 18:14 UTC，BBC World报道：“US offers $20m reward for information about Iran's nuclear programme”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_39b7433b73bf14c382e7",
-          "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_campaign=rss&at_medium=RSS",
-          "title": "US offers $20m reward for information about Iran's nuclear programme",
-          "summary": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-07T18:14:38+00:00",
-          "fetched_at": "2026-11-07T18:48:51.883402+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b84/live/0f887590-dad0-11f1-93e1-3b657b665bcf.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0405a3055b66e2d65c79",
-      "title": "Israel builds 90km network of military roads across southern Lebanon",
-      "category": "军事安全",
-      "score": 61.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-07T16:30:33+00:00",
-      "last_updated": "2026-11-07T16:30:33+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "israel",
-        "military",
-        "roads",
-        "across",
-        "southern",
-        "lebanon",
-        "builds",
-        "network"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Israel builds 90km network of military roads across southern Lebanon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Israel",
-          "Lebanon"
-        ],
-        "latest_progress": [
-          "11月07日 16:30 UTC，Al Jazeera报道：“Israel builds 90km network of military roads across southern Lebanon”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c16ff8ba0ac95de3a32a",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss",
-          "title": "Israel builds 90km network of military roads across southern Lebanon",
-          "summary": "Israel is building roads and military outposts across southern Lebanon.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-07T16:30:33+00:00",
-          "fetched_at": "2026-11-07T18:48:52.975862+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
