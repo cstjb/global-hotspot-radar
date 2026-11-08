@@ -1,31 +1,36 @@
 {
-  "generated_at": "2026-11-07T22:46:39.778727+00:00",
+  "generated_at": "2026-11-08T02:30:47.556985+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 181,
-    "articles_unique": 180,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 131,
+    "articles_unique": 130,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
       "event_id": "evt_8c1efb9775bbbbd7c2eb",
       "title": "Israel's president tasks opposition leader Eisenkot with forming government",
       "category": "国际政治",
-      "score": 87.2,
+      "score": 86.8,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 19.5,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 21.6,
-        "credibility": 9.7,
+        "recency": 19.6,
+        "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
       "first_seen": "2026-11-07T19:56:00+00:00",
-      "last_updated": "2026-11-07T22:19:59+00:00",
+      "last_updated": "2026-11-07T23:45:45+00:00",
       "source_count": 4,
-      "article_count": 5,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -41,26 +46,26 @@
         "eisenkot",
         "government",
         "president",
-        "gadi",
         "form",
+        "gadi",
+        "netanyahu",
         "leader",
-        "israel's",
-        "opposition"
+        "israel's"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“Israel's president tasks opposition leader Eisenkot with forming government”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的国际政治事件为“Israel's president tasks opposition leader Eisenkot with forming government”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Israel",
           "Eisenkot",
-          "Israeli",
           "Netanyahu",
+          "Israel",
+          "Israeli",
           "Gadi Eisenkot"
         ],
         "latest_progress": [
+          "11月07日 23:45 UTC，Al Jazeera报道：“Eisenkot chosen over Netanyahu to form Israel’s next government”。",
           "11月07日 22:19 UTC，BBC World报道：“Israel's president tasks opposition leader Eisenkot with forming government”。",
-          "11月07日 22:12 UTC，NPR World报道：“Israeli president invites Netanyahu's opposition leader to broker new government”。",
-          "11月07日 20:26 UTC，Al Jazeera报道：“Israel’s president picks Eisenkot over Netanyahu to form next government”。"
+          "11月07日 22:12 UTC，NPR World报道：“Israeli president invites Netanyahu's opposition leader to broker new government”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -73,6 +78,21 @@
       },
       "articles": [
         {
+          "article_id": "art_7cfda1d71bccd0438f70",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss",
+          "title": "Eisenkot chosen over Netanyahu to form Israel’s next government",
+          "summary": "Israel's president asked opposition leader Gadi Eisenkot to form the next gov't over Prime Minister Benjamin Netanyahu.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-07T23:45:45+00:00",
+          "fetched_at": "2026-11-08T02:30:45.984578+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_8b1a97b6bdb1c2ce68a2",
           "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_campaign=rss&at_medium=RSS",
@@ -81,7 +101,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-07T22:19:59+00:00",
-          "fetched_at": "2026-11-07T22:46:37.553619+00:00",
+          "fetched_at": "2026-11-08T02:30:45.429567+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -96,7 +116,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-07T22:12:09+00:00",
-          "fetched_at": "2026-11-07T22:46:38.025834+00:00",
+          "fetched_at": "2026-11-08T02:30:45.826997+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -111,7 +131,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-07T20:26:58+00:00",
-          "fetched_at": "2026-11-07T22:46:38.164648+00:00",
+          "fetched_at": "2026-11-08T02:30:45.985314+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -126,7 +146,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-07T20:18:18+00:00",
-          "fetched_at": "2026-11-07T22:46:38.026056+00:00",
+          "fetched_at": "2026-11-08T02:30:45.827298+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -141,7 +161,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T19:56:00+00:00",
-          "fetched_at": "2026-11-07T22:46:37.764135+00:00",
+          "fetched_at": "2026-11-08T02:30:45.669804+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -153,12 +173,12 @@
       "event_id": "evt_f2ab4bad6b9cb6d67f9e",
       "title": "Paraguay’s ousted president appears before prosecutors after impeachment",
       "category": "国际政治",
-      "score": 80.1,
+      "score": 77.2,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 7.5,
-        "recency": 19.7,
+        "recency": 16.9,
         "credibility": 9.9,
         "impact": 11.0,
         "velocity": 5.0
@@ -218,7 +238,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-07T20:08:47+00:00",
-          "fetched_at": "2026-11-07T22:46:38.164941+00:00",
+          "fetched_at": "2026-11-08T02:30:45.985672+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -233,7 +253,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-07T19:17:22+00:00",
-          "fetched_at": "2026-11-07T22:46:37.553904+00:00",
+          "fetched_at": "2026-11-08T02:30:45.430335+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -248,7 +268,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-07T18:35:15+00:00",
-          "fetched_at": "2026-11-07T22:46:38.165769+00:00",
+          "fetched_at": "2026-11-08T02:30:45.986753+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -263,7 +283,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-07T17:14:36+00:00",
-          "fetched_at": "2026-11-07T22:46:38.026153+00:00",
+          "fetched_at": "2026-11-08T02:30:45.827420+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -275,18 +295,18 @@
       "event_id": "evt_29e2feb3b09d71e4381e",
       "title": "What we know so far after Krakow gun attack",
       "category": "军事安全",
-      "score": 70.2,
+      "score": 69.8,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 21.7,
+        "recency": 21.4,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-11-07T21:34:00+00:00",
-      "last_updated": "2026-11-07T22:27:30+00:00",
+      "last_updated": "2026-11-08T01:47:41+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -316,7 +336,7 @@
           "Gunman"
         ],
         "latest_progress": [
-          "11月07日 22:27 UTC，BBC World报道：“What we know so far after Krakow gun attack”。",
+          "11月08日 01:47 UTC，BBC World报道：“What we know so far after Krakow gun attack”。",
           "11月07日 21:34 UTC，DW Top Stories报道：“Poland: Gunman kills 6 in Krakow main square”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -334,11 +354,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_campaign=rss&at_medium=RSS",
           "title": "What we know so far after Krakow gun attack",
-          "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
+          "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-07T22:27:30+00:00",
-          "fetched_at": "2026-11-07T22:46:37.553146+00:00",
+          "published_at": "2026-11-08T01:47:41+00:00",
+          "fetched_at": "2026-11-08T02:30:45.429397+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -353,7 +373,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T21:34:00+00:00",
-          "fetched_at": "2026-11-07T22:46:37.763942+00:00",
+          "fetched_at": "2026-11-08T02:30:45.669562+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -365,12 +385,12 @@
       "event_id": "evt_a7c91fd47babfbd24da2",
       "title": "More than 140,000 rally as new protests against rising costs sweep France",
       "category": "国际政治",
-      "score": 66.3,
+      "score": 63.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.8,
+        "recency": 16.9,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 2.5
@@ -428,7 +448,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-07T20:12:22+00:00",
-          "fetched_at": "2026-11-07T22:46:38.164751+00:00",
+          "fetched_at": "2026-11-08T02:30:45.985440+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -443,7 +463,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T08:16:00+00:00",
-          "fetched_at": "2026-11-07T22:46:37.765278+00:00",
+          "fetched_at": "2026-11-08T02:30:45.671326+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -455,12 +475,12 @@
       "event_id": "evt_8a13eca1ddcb4e225144",
       "title": "Italian foreign minister says hackers leaked his personal data",
       "category": "国际政治",
-      "score": 63.7,
+      "score": 61.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 17.2,
+        "recency": 14.7,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -518,7 +538,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-07T16:50:06+00:00",
-          "fetched_at": "2026-11-07T22:46:37.554079+00:00",
+          "fetched_at": "2026-11-08T02:30:45.430563+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -533,7 +553,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T14:07:00+00:00",
-          "fetched_at": "2026-11-07T22:46:37.764845+00:00",
+          "fetched_at": "2026-11-08T02:30:45.670725+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -542,21 +562,21 @@
       ]
     },
     {
-      "event_id": "evt_08572c1769afa3bcd04f",
-      "title": "Who is behind Europe’s suspected hybrid attacks?",
+      "event_id": "evt_d3f2deeea5bd8c3d0e9c",
+      "title": "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
       "category": "军事安全",
-      "score": 61.3,
+      "score": 60.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.3,
+        "recency": 19.8,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-07T20:48:58+00:00",
-      "last_updated": "2026-11-07T20:48:58+00:00",
+      "first_seen": "2026-11-08T00:00:56+00:00",
+      "last_updated": "2026-11-08T00:00:56+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -566,24 +586,26 @@
         "Middle East"
       ],
       "keywords": [
-        "behind",
-        "europe",
-        "suspected",
-        "hybrid",
-        "attacks",
-        "bomb",
-        "hoaxes",
-        "supermarket"
+        "blasts",
+        "qeshm",
+        "iran",
+        "war",
+        "heard",
+        "moves",
+        "block",
+        "land"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Who is behind Europe’s suspected hybrid attacks?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Blasts heard in Qeshm; US moves to block land supply routes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Who",
-          "Europe"
+          "Iran",
+          "Blasts",
+          "Qeshm",
+          "US"
         ],
         "latest_progress": [
-          "11月07日 20:48 UTC，Al Jazeera报道：“Who is behind Europe’s suspected hybrid attacks?”。"
+          "11月08日 00:00 UTC，Al Jazeera报道：“Iran war live: Blasts heard in Qeshm; US moves to block land supply routes”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -596,15 +618,15 @@
       },
       "articles": [
         {
-          "article_id": "art_b3274226f671fdc99cbd",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
-          "title": "Who is behind Europe’s suspected hybrid attacks?",
-          "summary": "Bomb hoaxes and supermarket cyberattacks are heightening security fears.",
+          "article_id": "art_2d9c97c6c432a6779777",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+          "title": "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
+          "summary": "Iranian state media report blasts on Qeshm Island in Strait of Hormuz and the cities of Jask, Sirik and Bandar Abbas.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-07T20:48:58+00:00",
-          "fetched_at": "2026-11-07T22:46:38.164424+00:00",
+          "published_at": "2026-11-08T00:00:56+00:00",
+          "fetched_at": "2026-11-08T02:30:45.984439+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -613,21 +635,21 @@
       ]
     },
     {
-      "event_id": "evt_8aa30dcc61d890f37925",
-      "title": "Abdul El-Sayed slams Trump’s tariff war with Canada",
-      "category": "军事安全",
-      "score": 61.3,
+      "event_id": "evt_a19505efd69cef5fdc3a",
+      "title": "Canary Islands’ El Hierro declares emergency amid migrant, refugee influx",
+      "category": "国际政治",
+      "score": 60.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.2,
+        "recency": 21.2,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-07T20:44:34+00:00",
-      "last_updated": "2026-11-07T20:44:34+00:00",
+      "first_seen": "2026-11-08T01:37:55+00:00",
+      "last_updated": "2026-11-08T01:37:55+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -637,47 +659,117 @@
         "Middle East"
       ],
       "keywords": [
-        "abdul",
-        "el-sayed",
-        "trump",
-        "war",
-        "canada",
-        "slams",
-        "tariff",
-        "michigan"
+        "hierro",
+        "canary",
+        "islands",
+        "declares",
+        "emergency",
+        "migrant",
+        "refugee",
+        "influx"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Abdul El-Sayed slams Trump’s tariff war with Canada”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Canary Islands’ El Hierro declares emergency amid migrant, refugee influx”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Abdul El",
-          "Sayed",
-          "Trump",
-          "Canada"
+          "Canary Islands",
+          "El Hierro"
         ],
         "latest_progress": [
-          "11月07日 20:44 UTC，Al Jazeera报道：“Abdul El-Sayed slams Trump’s tariff war with Canada”。"
+          "11月08日 01:37 UTC，Al Jazeera报道：“Canary Islands’ El Hierro declares emergency amid migrant, refugee influx”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_6ca0a6e857781c135945",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
-          "title": "Abdul El-Sayed slams Trump’s tariff war with Canada",
-          "summary": "Michigan Senator-elect Abdul El-Sayed has criticised Trump’s trade war with Canada.",
+          "article_id": "art_6f7ef4430d44ae2add88",
+          "url": "https://www.aljazeera.com/news/2026/11/8/canary-islands-el-hierro-declares-emergency-amid-migrant-refugee-influx?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/8/canary-islands-el-hierro-declares-emergency-amid-migrant-refugee-influx?traffic_source=rss",
+          "title": "Canary Islands’ El Hierro declares emergency amid migrant, refugee influx",
+          "summary": "El Hierro asks Spanish government for help after more than 3,300 people arrived on boats since start of November.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-07T20:44:34+00:00",
-          "fetched_at": "2026-11-07T22:46:38.164542+00:00",
+          "published_at": "2026-11-08T01:37:55+00:00",
+          "fetched_at": "2026-11-08T02:30:45.984109+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3aec5891bc5f2d21b37a",
+      "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
+      "category": "国际政治",
+      "score": 59.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.5,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-08T00:50:28+00:00",
+      "last_updated": "2026-11-08T00:50:28+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "polish",
+        "deadly",
+        "krakow",
+        "shooting",
+        "act",
+        "terrorism",
+        "calls",
+        "prime"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Polish PM calls deadly Krakow shooting an act of ‘terrorism’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Polish",
+          "PM",
+          "Krakow"
+        ],
+        "latest_progress": [
+          "11月08日 00:50 UTC，Al Jazeera报道：“Polish PM calls deadly Krakow shooting an act of ‘terrorism’”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3980ab797e5915ca609f",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss",
+          "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
+          "summary": "Polish Prime Minister Donald Tusk describes a deadly shooting in Krakow that killed six people as an act of ‘terrorism’.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-08T00:50:28+00:00",
+          "fetched_at": "2026-11-08T02:30:45.984291+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -689,12 +781,12 @@
       "event_id": "evt_75696cccb4fb6e81e9ee",
       "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
       "category": "国际政治",
-      "score": 61.0,
+      "score": 58.9,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 14.5,
+        "recency": 12.4,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -752,7 +844,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-07T12:49:36+00:00",
-          "fetched_at": "2026-11-07T22:46:37.554166+00:00",
+          "fetched_at": "2026-11-08T02:30:45.430676+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -767,7 +859,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-07T09:21:00+00:00",
-          "fetched_at": "2026-11-07T22:46:37.765133+00:00",
+          "fetched_at": "2026-11-08T02:30:45.671127+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -776,21 +868,21 @@
       ]
     },
     {
-      "event_id": "evt_aac363b558d37a137a68",
-      "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+      "event_id": "evt_08572c1769afa3bcd04f",
+      "title": "Who is behind Europe’s suspected hybrid attacks?",
       "category": "军事安全",
-      "score": 60.8,
+      "score": 58.4,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.7,
+        "recency": 17.4,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-07T20:10:38+00:00",
-      "last_updated": "2026-11-07T20:10:38+00:00",
+      "first_seen": "2026-11-07T20:48:58+00:00",
+      "last_updated": "2026-11-07T20:48:58+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -800,25 +892,24 @@
         "Middle East"
       ],
       "keywords": [
-        "ukraine",
-        "zaporizhzhia",
-        "faces",
-        "threat",
-        "russian",
-        "drones",
-        "close",
-        "once"
+        "behind",
+        "europe",
+        "suspected",
+        "hybrid",
+        "attacks",
+        "bomb",
+        "hoaxes",
+        "supermarket"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Ukraine’s Zaporizhzhia faces threat as Russian drones close in”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Who is behind Europe’s suspected hybrid attacks?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Ukraine",
-          "Zaporizhzhia",
-          "Russian"
+          "Who",
+          "Europe"
         ],
         "latest_progress": [
-          "11月07日 20:10 UTC，Al Jazeera报道：“Ukraine’s Zaporizhzhia faces threat as Russian drones close in”。"
+          "11月07日 20:48 UTC，Al Jazeera报道：“Who is behind Europe’s suspected hybrid attacks?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -831,108 +922,18 @@
       },
       "articles": [
         {
-          "article_id": "art_b11880d001c66c7a2eaf",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
-          "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
-          "summary": "Ukraine’s Zaporizhzhia, once a refuge for those fleeing the war, is now facing growing danger.",
+          "article_id": "art_b3274226f671fdc99cbd",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss",
+          "title": "Who is behind Europe’s suspected hybrid attacks?",
+          "summary": "Bomb hoaxes and supermarket cyberattacks are heightening security fears.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-07T20:10:38+00:00",
-          "fetched_at": "2026-11-07T22:46:38.164849+00:00",
+          "published_at": "2026-11-07T20:48:58+00:00",
+          "fetched_at": "2026-11-08T02:30:45.985065+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_35bb7709b55eb5b546cf",
-      "title": "Germany news: Son of Iran's last shah takes center stage in Frankfurt",
-      "category": "军事安全",
-      "score": 60.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 15.7,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-07T09:08:00+00:00",
-      "last_updated": "2026-11-07T14:38:00+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "frankfurt",
-        "son",
-        "iranian",
-        "iran's",
-        "shah",
-        "opposition",
-        "reza",
-        "pahlavi"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Germany news: Son of Iran's last shah takes center stage in Frankfurt”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Son",
-          "Iran",
-          "Freedom Prize",
-          "Frankfurt Germany",
-          "Frankfurt"
-        ],
-        "latest_progress": [
-          "11月07日 14:38 UTC，DW Top Stories报道：“Son of Iran's shah receives 'Freedom Prize' in Frankfurt”。",
-          "11月07日 09:08 UTC，DW Top Stories报道：“Germany news: Son of Iran's last shah takes center stage in Frankfurt”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_de15a17473e5255757ff",
-          "url": "https://www.dw.com/en/son-of-iran-s-shah-receives-freedom-prize-in-frankfurt/a-79885661?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/son-of-iran-s-shah-receives-freedom-prize-in-frankfurt/a-79885661?maca=en-rss-en-top-1022-rdf",
-          "title": "Son of Iran's shah receives 'Freedom Prize' in Frankfurt",
-          "summary": "18,000 people gathered in Frankfurt to show support for Reza Pahlavi, the son of the Iranian monarch ousted in 1979. Factions in the opposition have accused him of not distancing himself from his father's rule.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-07T14:38:00+00:00",
-          "fetched_at": "2026-11-07T22:46:37.764694+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_79f652621a5916af168f",
-          "url": "https://www.dw.com/en/germany-news-son-of-iran-s-last-shah-takes-center-stage-in-frankfurt/live-79883533?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-news-son-of-iran-s-last-shah-takes-center-stage-in-frankfurt/live-79883533?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany news: Son of Iran's last shah takes center stage in Frankfurt",
-          "summary": "Iranian opposition leader Reza Pahlavi accepted a peace prize in the name of the Iranian people in Frankfurt. Meanwhile, Germany's defense minister said he believes military conscription will not be needed. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-07T09:08:00+00:00",
-          "fetched_at": "2026-11-07T22:46:37.765204+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
