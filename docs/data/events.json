@@ -1,115 +1,145 @@
 {
-  "generated_at": "2026-11-09T18:49:24.882824+00:00",
+  "generated_at": "2026-11-10T02:09:33.440964+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 80,
-    "articles_unique": 80,
+    "articles_fetched": 136,
+    "articles_unique": 136,
     "errors": [
       {
         "source": "GDELT: (conflict OR election OR economy OR technolog",
         "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_e888857c91a379b7c3a6",
+      "event_id": "evt_f7c390d8e852a17b85f0",
       "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-      "category": "军事安全",
-      "score": 84.6,
+      "category": "国际政治",
+      "score": 97.2,
       "score_breakdown": {
-        "coverage": 19.5,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.4,
-        "credibility": 9.9,
-        "impact": 13.0,
+        "coverage": 22.0,
+        "source_diversity": 18.0,
+        "region_diversity": 10.0,
+        "recency": 21.6,
+        "credibility": 9.5,
+        "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-09T07:10:11+00:00",
-      "last_updated": "2026-11-09T18:11:11+00:00",
-      "source_count": 3,
-      "article_count": 6,
+      "first_seen": "2026-11-09T01:00:00+00:00",
+      "last_updated": "2026-11-10T01:44:53+00:00",
+      "source_count": 5,
+      "article_count": 12,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories"
+        "DW Top Stories",
+        "bbc.com",
+        "fortune.com"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "United Kingdom",
+        "United States"
       ],
       "keywords": [
         "nvidia",
-        "affair",
-        "chinese",
         "spy",
         "huang",
+        "affair",
+        "chinese",
         "jensen",
-        "ceo",
-        "suspected"
+        "alleged",
+        "ceo"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的6篇报道，当前关注的军事安全事件为“Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、bbc.com等来源的12篇报道，当前关注的国际政治事件为“Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Trump",
+          "FBI",
           "Nvidia",
-          "Huang",
           "Chinese",
           "CEO",
-          "Jensen Huang What",
-          "Jensen Huang",
-          "Who",
-          "Why Nvidia"
+          "Huang",
+          "Zoe Kleinman",
+          "US"
         ],
         "latest_progress": [
-          "11月09日 18:11 UTC，BBC World报道：“Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy”。",
-          "11月09日 16:00 UTC，Al Jazeera报道：“Nvidia shares slump amid investigation into CEO Jensen Huang”。",
-          "11月09日 15:46 UTC，BBC World报道：“What we know so far about Jensen Huang's affair with suspected Chinese spy”。"
+          "11月10日 01:44 UTC，BBC World报道：“Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy”。",
+          "11月10日 00:44 UTC，Al Jazeera报道：“Trump says FBI probing Nvidia CEO Huang’s affair with alleged spy”。",
+          "11月10日 00:30 UTC，bbc.com报道：“Zoe Kleinman : Nvidia CEO affair will cause ripples across US and beyond”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e538de8483b7e5324cbb",
-          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_campaign=rss&at_medium=RSS",
-          "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-          "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+          "article_id": "art_89a2887496fec4a58833",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_campaign=rss&at_medium=RSS",
+          "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+          "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-09T18:11:11+00:00",
-          "fetched_at": "2026-11-09T18:49:23.104215+00:00",
+          "published_at": "2026-11-10T01:44:53+00:00",
+          "fetched_at": "2026-11-10T02:09:30.979590+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f773/live/9c28e680-dc95-11f1-a701-fddedf244c16.jpg"
         },
         {
-          "article_id": "art_5f5199e1bee684f58df2",
-          "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss",
-          "title": "Nvidia shares slump amid investigation into CEO Jensen Huang",
-          "summary": "Huang admits infidelity, denies compromising Nvidia security as China spy inquiry shakes $4.5 trillion AI firm.",
+          "article_id": "art_e0b5635205bb4c815f74",
+          "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss",
+          "title": "Trump says FBI probing Nvidia CEO Huang’s affair with alleged spy",
+          "summary": "US president says he believes CEO Jensen Huang had no knowledge of woman's alleged work for Chinese intelligence.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-09T16:00:10+00:00",
-          "fetched_at": "2026-11-09T18:49:23.805279+00:00",
+          "published_at": "2026-11-10T00:44:28+00:00",
+          "fetched_at": "2026-11-10T02:09:32.048868+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_094eb154bf2fe8961c11",
+          "url": "https://www.bbc.com/news/articles/cj3vqv3nee72o",
+          "canonical_url": "https://www.bbc.com/news/articles/cj3vqv3nee72o",
+          "title": "Zoe Kleinman : Nvidia CEO affair will cause ripples across US and beyond",
+          "summary": "",
+          "source": "bbc.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-10T00:30:00+00:00",
+          "fetched_at": "2026-11-10T02:09:30.433492+00:00",
+          "language": "English",
+          "region": "United Kingdom",
+          "source_weight": 0.75,
+          "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/4310/live/95e56210-dc92-11f1-b244-e54544344237.jpg"
+        },
+        {
+          "article_id": "art_2edcfe8b51662b0cfbb8",
+          "url": "https://www.dw.com/en/nvidia-shareholders-sue-jensen-huang-over-alleged-spy-ties/a-79905809?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/nvidia-shareholders-sue-jensen-huang-over-alleged-spy-ties/a-79905809?maca=en-rss-en-top-1022-rdf",
+          "title": "Nvidia shareholders sue Jensen Huang over alleged spy ties",
+          "summary": "Nvidia shareholders have sued the chipmaker and its CEO, Jensen Huang, over his alleged ties to a suspected Chinese spy. The case adds to scrutiny over whether sensitive information at the AI giant was compromised.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-09T23:55:00+00:00",
+          "fetched_at": "2026-11-10T02:09:31.526053+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
@@ -120,12 +150,57 @@
           "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-09T15:46:20+00:00",
-          "fetched_at": "2026-11-09T18:49:23.106035+00:00",
+          "published_at": "2026-11-09T23:51:22+00:00",
+          "fetched_at": "2026-11-10T02:09:30.982752+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_5b580416f8abe57dfea6",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-defends-nvidias-huang-after-calling-about-spy-scandal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-defends-nvidias-huang-after-calling-about-spy-scandal?traffic_source=rss",
+          "title": "Trump defends Nvidia’s Huang after calling about spy scandal",
+          "summary": "Trump told reporters he believes Nvidia’s CEO Jensen Huang had no idea his alleged mistress was a suspected Chinese spy.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-09T23:13:44+00:00",
+          "fetched_at": "2026-11-10T02:09:32.049500+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_4f8c122c2c14c2ada720",
+          "url": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_campaign=rss&at_medium=RSS",
+          "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
+          "summary": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-09T21:52:28+00:00",
+          "fetched_at": "2026-11-10T02:09:30.982535+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4310/live/95e56210-dc92-11f1-b244-e54544344237.jpg"
+        },
+        {
+          "article_id": "art_e538de8483b7e5324cbb",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_campaign=rss&at_medium=RSS",
+          "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+          "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-09T19:58:01+00:00",
+          "fetched_at": "2026-11-10T02:09:30.979751+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg"
         },
         {
           "article_id": "art_a784d8d1c060f01f194a",
@@ -136,7 +211,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-09T14:50:35+00:00",
-          "fetched_at": "2026-11-09T18:49:23.105593+00:00",
+          "fetched_at": "2026-11-10T02:09:30.981978+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -151,7 +226,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-09T11:18:00+00:00",
-          "fetched_at": "2026-11-09T18:49:23.398374+00:00",
+          "fetched_at": "2026-11-10T02:09:31.527621+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -166,262 +241,50 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-09T07:10:11+00:00",
-          "fetched_at": "2026-11-09T18:49:23.105686+00:00",
+          "fetched_at": "2026-11-10T02:09:30.982092+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83e2/live/f1cb1e30-dc24-11f1-93e1-3b657b665bcf.png"
+        },
+        {
+          "article_id": "art_1c2f310469fa14384aa4",
+          "url": "https://fortune.com/2026/11/08/pentagon-economic-warfare-espionage-nvidia-jensen-huang-chinese-spy-romantic-affair/",
+          "canonical_url": "https://fortune.com/2026/11/08/pentagon-economic-warfare-espionage-nvidia-jensen-huang-chinese-spy-romantic-affair",
+          "title": "The Pentagon is ramping up economic espionage . Jensen Huang affair with a Chinese spy shows why",
+          "summary": "",
+          "source": "fortune.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-09T01:00:00+00:00",
+          "fetched_at": "2026-11-10T02:09:30.433427+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2301620664-e1794174452782.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_b40a614b4734c21ac4f1",
-      "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-      "category": "经济金融",
-      "score": 77.9,
+      "event_id": "evt_029723a308ede5d407d3",
+      "title": "France blames Iran for October supermarket cyberattack",
+      "category": "国际政治",
+      "score": 84.8,
       "score_breakdown": {
         "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.4,
-        "credibility": 9.9,
-        "impact": 11.7,
-        "velocity": 3.0
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.0,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-08T22:05:12+00:00",
-      "last_updated": "2026-11-09T18:12:46+00:00",
-      "source_count": 3,
+      "first_seen": "2026-11-09T18:33:00+00:00",
+      "last_updated": "2026-11-10T01:01:47+00:00",
+      "source_count": 4,
       "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "shooting",
-        "krakow",
-        "people",
-        "suspect",
-        "died",
-        "six",
-        "hospital",
-        "police"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的经济金融事件为“'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Krakow",
-          "Poland"
-        ],
-        "latest_progress": [
-          "11月09日 18:12 UTC，Al Jazeera报道：“Krakow shooting suspect dies as Poland mourns six victims”。",
-          "11月09日 11:56 UTC，BBC World报道：“Krakow shooting suspect has died in hospital, police say”。",
-          "11月09日 06:53 UTC，DW Top Stories报道：“Krakow mass shooting suspect has died in hospital, police in Poland say”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a8b6e8a0fce03a9a9071",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/krakow-shooting-suspect-dies-as-poland-mourns-six-victims?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/krakow-shooting-suspect-dies-as-poland-mourns-six-victims?traffic_source=rss",
-          "title": "Krakow shooting suspect dies as Poland mourns six victims",
-          "summary": "A 24-year-old man who killed six people and wounded 15 in a shooting in Krakow, has died in hospital.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-09T18:12:46+00:00",
-          "fetched_at": "2026-11-09T18:49:23.804363+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_2aa508aa263676059570",
-          "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_campaign=rss&at_medium=RSS",
-          "title": "Krakow shooting suspect has died in hospital, police say",
-          "summary": "Six people were killed in the shooting, and three bodies of the suspect's family members were found at their home.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-09T11:56:25+00:00",
-          "fetched_at": "2026-11-09T18:49:23.104938+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/707b/live/625f7400-dc3b-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_c31b113d2e815390f028",
-          "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-top-1022-rdf",
-          "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
-          "summary": "The alleged gunman who killed six people in a shooting spree in the Polish city of Krakow has died of injuries sustained in a shootout with police, authorities say.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-09T06:53:00+00:00",
-          "fetched_at": "2026-11-09T18:49:23.398713+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_218c049777c5c00c8b75",
-          "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_campaign=rss&at_medium=RSS",
-          "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-          "summary": "Two doctors were eating near the Polish city's Main Market Square when a gunman began firing at random.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-08T22:05:12+00:00",
-          "fetched_at": "2026-11-09T18:49:23.105775+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30fc/live/a92bdf90-dbbe-11f1-b441-2b33b063138f.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_191da5e556640d422ddd",
-      "title": "France accuses Iran of cyberattack on supermarket fridges",
-      "category": "科技AI",
-      "score": 76.0,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.8,
-        "credibility": 9.8,
-        "impact": 9.8,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-09T16:33:33+00:00",
-      "last_updated": "2026-11-09T18:33:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "france",
-        "iran",
-        "supermarket",
-        "hacking",
-        "accuses",
-        "cyberattack",
-        "fridges",
-        "iran's"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的科技AI事件为“France accuses Iran of cyberattack on supermarket fridges”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "French",
-          "Iran",
-          "France"
-        ],
-        "latest_progress": [
-          "11月09日 18:33 UTC，DW Top Stories报道：“French officials blame Iran for supermarket fridge hacking”。",
-          "11月09日 16:55 UTC，BBC World报道：“France accuses Iran of supermarket fridge hacking”。",
-          "11月09日 16:33 UTC，Al Jazeera报道：“France accuses Iran of cyberattack on supermarket fridges”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ed9f6c17f7947976f199",
-          "url": "https://www.dw.com/en/french-officials-blame-iran-for-supermarket-fridge-hacking/a-79903646?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/french-officials-blame-iran-for-supermarket-fridge-hacking/a-79903646?maca=en-rss-en-top-1022-rdf",
-          "title": "French officials blame Iran for supermarket fridge hacking",
-          "summary": "The recent cyberattack on refrigerators and freezers in supermarkets in France was organized by Iran's Revolutionary Guards, French Foreign Minister Jean-Noel Barrot has said, describing the hacking as \"unprecedented.\"",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-09T18:33:00+00:00",
-          "fetched_at": "2026-11-09T18:49:23.397511+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_55a00634801d417543d7",
-          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_campaign=rss&at_medium=RSS",
-          "title": "France accuses Iran of supermarket fridge hacking",
-          "summary": "The cyber-attack last month saw fridges and freezers in hundreds of supermarkets across France heated up.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-09T16:55:07+00:00",
-          "fetched_at": "2026-11-09T18:49:23.104042+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0bc/live/eec149b0-dc5d-11f1-8fe6-5becaee5408f.jpg"
-        },
-        {
-          "article_id": "art_5cdffa7d5ccb416fa8c9",
-          "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges?traffic_source=rss",
-          "title": "France accuses Iran of cyberattack on supermarket fridges",
-          "summary": "Paris says a cyber unit linked to Iran's Revolutionary Guard was behind hack, which hit more than 1,000 stores.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-09T16:33:33+00:00",
-          "fetched_at": "2026-11-09T18:49:23.804969+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ad40212c729bcc21dc9d",
-      "title": "‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi",
-      "category": "军事安全",
-      "score": 75.5,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 18.3,
-        "credibility": 9.7,
-        "impact": 13.0,
-        "velocity": 2.4
-      },
-      "first_seen": "2026-11-08T19:25:30+00:00",
-      "last_updated": "2026-11-09T14:24:31+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
         "DW Top Stories",
         "NPR World"
       ],
@@ -431,226 +294,28 @@
         "North America"
       ],
       "keywords": [
-        "talks",
-        "ukraine",
-        "abu",
-        "dhabi",
-        "europe",
-        "european",
-        "round",
-        "negotiations"
+        "france",
+        "iran",
+        "french",
+        "supermarket",
+        "fridge",
+        "hacking",
+        "cyberattack",
+        "freezers"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "No",
-          "What",
-          "Russia",
-          "US",
-          "Ukraine",
-          "Abu Dhabi",
-          "Europe",
-          "Kremlin"
-        ],
-        "latest_progress": [
-          "11月09日 14:24 UTC，Al Jazeera报道：“‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi”。",
-          "11月09日 04:18 UTC，DW Top Stories报道：“G7 ministers meet as Europe seeks greater say in Ukraine peace talks”。",
-          "11月08日 19:25 UTC，NPR World报道：“Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_936713c0e69bf6ee0edc",
-          "url": "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi?traffic_source=rss",
-          "title": "‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi",
-          "summary": "A fourth round of peace talks in 2026 takes place this week, with security guarantees high on the agenda.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-09T14:24:31+00:00",
-          "fetched_at": "2026-11-09T18:49:23.806072+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_d12ca1394634e7874b2c",
-          "url": "https://www.dw.com/en/g7-ministers-meet-as-europe-seeks-greater-say-in-ukraine-peace-talks/a-79894960?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/g7-ministers-meet-as-europe-seeks-greater-say-in-ukraine-peace-talks/a-79894960?maca=en-rss-en-top-1022-rdf",
-          "title": "G7 ministers meet as Europe seeks greater say in Ukraine peace talks",
-          "summary": "With Washington preparing negotiations with Moscow and Kyiv, European leaders fear Ukraine could face pressure to accept a bad deal. Iran tensions and the threat of renewed US strikes are also on the agenda.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-09T04:18:00+00:00",
-          "fetched_at": "2026-11-09T18:49:23.398855+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_115856182950e41c3ecd",
-          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
-          "canonical_url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
-          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
-          "summary": "France says European officials will attend this week's U.S.-mediated Russia-Ukraine talks in Abu Dhabi, the first three-way round of negotiations since February.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-08T19:25:30+00:00",
-          "fetched_at": "2026-11-09T18:49:23.595605+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e519687a033f73734779",
-      "title": "Turkey steel factory blast kills at least 16 people",
-      "category": "产业供应链",
-      "score": 67.2,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 9.8,
-        "impact": 10.4,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-09T15:52:00+00:00",
-      "last_updated": "2026-11-09T18:04:01+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "steel",
-        "turkey",
-        "workers",
-        "izmir",
-        "plant",
-        "blast",
-        "least",
-        "explosion"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的产业供应链事件为“Turkey steel factory blast kills at least 16 people”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
-        "participants": [
-          "Turkey",
-          "Workers",
-          "Izmir"
-        ],
-        "latest_progress": [
-          "11月09日 18:04 UTC，BBC World报道：“Turkey steel factory blast kills at least 16 people”。",
-          "11月09日 15:52 UTC，DW Top Stories报道：“Turkey: Workers killed in Izmir steel plant blast”。"
-        ],
-        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
-        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
-        "watch_indicators": [
-          "港口和工厂运行率",
-          "交货周期与运价",
-          "企业订单及库存"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_eccf5bc22ee6b17f9d83",
-          "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_campaign=rss&at_medium=RSS",
-          "title": "Turkey steel factory blast kills at least 16 people",
-          "summary": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-09T18:04:01+00:00",
-          "fetched_at": "2026-11-09T18:49:23.104441+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5625/live/fd460940-dc61-11f1-8fe6-5becaee5408f.jpg"
-        },
-        {
-          "article_id": "art_72097697c16c7bf3d82c",
-          "url": "https://www.dw.com/en/turkey-workers-killed-in-izmir-steel-plant-blast/a-79900748?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/turkey-workers-killed-in-izmir-steel-plant-blast/a-79900748?maca=en-rss-en-top-1022-rdf",
-          "title": "Turkey: Workers killed in Izmir steel plant blast",
-          "summary": "At least 16 workers lost their lives in an explosion at a steel factory in Izmir. President Recep Tayyip Erdogan issued an updated casualty toll after a Cabinet meeting.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-09T15:52:00+00:00",
-          "fetched_at": "2026-11-09T18:49:23.397918+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a071fb17881a47edaa00",
-      "title": "Pope delivers veiled rebuke of Milei's austerity measures",
-      "category": "国际政治",
-      "score": 65.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 21.8,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.3
-      },
-      "first_seen": "2026-11-09T05:30:37+00:00",
-      "last_updated": "2026-11-09T18:38:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "pope",
-        "milei's",
-        "austerity",
-        "leo",
-        "million",
-        "buenos",
-        "aires",
-        "delivers"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Pope delivers veiled rebuke of Milei's austerity measures”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“France blames Iran for October supermarket cyberattack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Pope Leo",
-          "Buenos Aires",
-          "Milei",
-          "Pope"
+          "France",
+          "Iran",
+          "October",
+          "French"
         ],
         "latest_progress": [
-          "11月09日 18:38 UTC，DW Top Stories报道：“Pope Leo draws 2.5 million in Buenos Aires, renews warning over Milei's austerity”。",
-          "11月09日 05:30 UTC，BBC World报道：“Pope delivers veiled rebuke of Milei's austerity measures”。"
+          "11月10日 01:01 UTC，Al Jazeera报道：“France blames Iran for October supermarket cyberattack”。",
+          "11月09日 22:30 UTC，NPR World报道：“France accuses Iran of cyber 'sabotage' in fridge attacks”。",
+          "11月09日 20:20 UTC，BBC World报道：“France accuses Iran of supermarket fridge hacking”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -663,80 +328,243 @@
       },
       "articles": [
         {
-          "article_id": "art_e27fa54781a1c57cc922",
-          "url": "https://www.dw.com/en/pope-leo-draws-2-5-million-in-buenos-aires-renews-warning-over-milei-s-austerity/a-79904137?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/pope-leo-draws-2-5-million-in-buenos-aires-renews-warning-over-milei-s-austerity/a-79904137?maca=en-rss-en-top-1022-rdf",
-          "title": "Pope Leo draws 2.5 million in Buenos Aires, renews warning over Milei's austerity",
-          "summary": "An estimated 2.5 million people have attended Pope Leo's mass in Buenos Aires, his largest gathering yet. The pontiff once called for protecting the vulnerable as President Milei cuts disability care and social services.",
-          "source": "DW Top Stories",
+          "article_id": "art_9daf33d83fc1fa4cccfe",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
+          "title": "France blames Iran for October supermarket cyberattack",
+          "summary": "French Foreign Minister Jean-Noël Barrot has blamed the Iranian Islamic Revolutionary Guard Corps for the cyberattack.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-09T18:38:00+00:00",
-          "fetched_at": "2026-11-09T18:49:23.397404+00:00",
+          "published_at": "2026-11-10T01:01:47+00:00",
+          "fetched_at": "2026-11-10T02:09:32.048474+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f07dca7c625bb864bac6",
+          "url": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+          "canonical_url": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+          "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
+          "summary": "France says Iranian military hackers took over refrigeration controllers at around 700 different retail sites last month, turning up temperatures in the middle of the night and spoiling millions of dollars' worth of food.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-09T22:30:49+00:00",
+          "fetched_at": "2026-11-10T02:09:31.780129+00:00",
+          "language": "en",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_0e7d86b6d194341d5dee",
-          "url": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_campaign=rss&at_medium=RSS",
-          "title": "Pope delivers veiled rebuke of Milei's austerity measures",
-          "summary": "Pope Leo made the comments as he arrived in Argentina on the second leg of his Latin America tour.",
+          "article_id": "art_55a00634801d417543d7",
+          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_campaign=rss&at_medium=RSS",
+          "title": "France accuses Iran of supermarket fridge hacking",
+          "summary": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-09T05:30:37+00:00",
-          "fetched_at": "2026-11-09T18:49:23.105234+00:00",
+          "published_at": "2026-11-09T20:20:08+00:00",
+          "fetched_at": "2026-11-10T02:09:30.980157+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d83/live/ef505e30-dbf8-11f1-93e1-3b657b665bcf.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0bc/live/eec149b0-dc5d-11f1-8fe6-5becaee5408f.jpg"
+        },
+        {
+          "article_id": "art_ed9f6c17f7947976f199",
+          "url": "https://www.dw.com/en/french-officials-blame-iran-for-supermarket-fridge-hacking/a-79903646?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/french-officials-blame-iran-for-supermarket-fridge-hacking/a-79903646?maca=en-rss-en-top-1022-rdf",
+          "title": "French officials blame Iran for supermarket fridge hacking",
+          "summary": "The recent cyberattack on refrigerators and freezers in supermarkets in France was organized by Iran's Revolutionary Guards, French Foreign Minister Jean-Noel Barrot has said, describing the hacking as \"unprecedented.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-09T18:33:00+00:00",
+          "fetched_at": "2026-11-10T02:09:31.526572+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_abef0fdf3004b3641a7b",
+      "event_id": "evt_e519687a033f73734779",
+      "title": "Explosion at Turkish steel plant kills at least 16 people",
+      "category": "社会突发",
+      "score": 76.0,
+      "score_breakdown": {
+        "coverage": 16.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 17.5,
+        "credibility": 9.9,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-09T15:52:00+00:00",
+      "last_updated": "2026-11-09T20:42:04+00:00",
+      "source_count": 3,
+      "article_count": 4,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "steel",
+        "plant",
+        "explosion",
+        "izmir",
+        "blast",
+        "least",
+        "turkey",
+        "workers"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的社会突发事件为“Explosion at Turkish steel plant kills at least 16 people”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "participants": [
+          "Turkey",
+          "Deadly",
+          "Iron",
+          "Turkiye Explosion",
+          "Turkish",
+          "Workers",
+          "Izmir"
+        ],
+        "latest_progress": [
+          "11月09日 20:42 UTC，BBC World报道：“Turkey steel factory blast kills at least 17 people”。",
+          "11月09日 20:19 UTC，Al Jazeera报道：“Deadly explosion at Iron and steel plant in Turkiye”。",
+          "11月09日 19:58 UTC，Al Jazeera报道：“Explosion at Turkish steel plant kills at least 16 people”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_eccf5bc22ee6b17f9d83",
+          "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_campaign=rss&at_medium=RSS",
+          "title": "Turkey steel factory blast kills at least 17 people",
+          "summary": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-09T20:42:04+00:00",
+          "fetched_at": "2026-11-10T02:09:30.980620+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5625/live/fd460940-dc61-11f1-8fe6-5becaee5408f.jpg"
+        },
+        {
+          "article_id": "art_de88d3201290119174c9",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
+          "title": "Deadly explosion at Iron and steel plant in Turkiye",
+          "summary": "Deadly explosion at Iron and steel plant in Turkiye",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-09T20:19:18+00:00",
+          "fetched_at": "2026-11-10T02:09:32.050550+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_63c10b32ba97d47857e8",
+          "url": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people?traffic_source=rss",
+          "title": "Explosion at Turkish steel plant kills at least 16 people",
+          "summary": "President Erdogan announces an investigation after a crane collapsed into a furnace, triggering the blast near Izmir.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-09T19:58:40+00:00",
+          "fetched_at": "2026-11-10T02:09:32.050771+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_72097697c16c7bf3d82c",
+          "url": "https://www.dw.com/en/turkey-workers-killed-in-izmir-steel-plant-blast/a-79900748?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/turkey-workers-killed-in-izmir-steel-plant-blast/a-79900748?maca=en-rss-en-top-1022-rdf",
+          "title": "Turkey: Workers killed in Izmir steel plant blast",
+          "summary": "At least 16 workers lost their lives in an explosion at a steel factory in Izmir. President Recep Tayyip Erdogan issued an updated casualty toll after a Cabinet meeting.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-09T15:52:00+00:00",
+          "fetched_at": "2026-11-10T02:09:31.527054+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fd249b48cacf5fcb1c1e",
       "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
       "category": "军事安全",
-      "score": 62.6,
+      "score": 75.6,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
         "recency": 21.5,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-09T18:19:19+00:00",
-      "last_updated": "2026-11-09T18:19:19+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-11-09T21:04:11+00:00",
+      "last_updated": "2026-11-10T01:38:49+00:00",
+      "source_count": 2,
+      "article_count": 3,
       "sources": [
+        "Al Jazeera",
         "BBC World"
       ],
       "regions": [
-        "Europe"
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
-        "impeachment",
         "hegseth",
         "republican",
+        "secretary",
         "congressman",
-        "force",
-        "vote",
-        "defence",
-        "secretary"
+        "thomas",
+        "massie",
+        "impeachment",
+        "lawmaker"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Republican congressman to force impeachment vote on Defence Secretary Hegseth”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Republican congressman to force impeachment vote on Defence Secretary Hegseth”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Republican",
-          "Defence Secretary Hegseth"
+          "Defence Secretary Hegseth",
+          "US",
+          "Defence Secretary Pete Hegseth",
+          "Defense Secretary Hegseth"
         ],
         "latest_progress": [
-          "11月09日 18:19 UTC，BBC World报道：“Republican congressman to force impeachment vote on Defence Secretary Hegseth”。"
+          "11月10日 01:38 UTC，BBC World报道：“Republican congressman to force impeachment vote on Defence Secretary Hegseth”。",
+          "11月09日 23:53 UTC，Al Jazeera报道：“US congressman files resolution to impeach Defence Secretary Pete Hegseth”。",
+          "11月09日 21:04 UTC，Al Jazeera报道：“Republican lawmaker moves to impeach US Defense Secretary Hegseth”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -753,81 +581,41 @@
           "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_campaign=rss&at_medium=RSS",
           "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-          "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process.",
+          "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process next year.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-09T18:19:19+00:00",
-          "fetched_at": "2026-11-09T18:49:23.104544+00:00",
+          "published_at": "2026-11-10T01:38:49+00:00",
+          "fetched_at": "2026-11-10T02:09:30.980276+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04a0/live/7de9a320-dc64-11f1-8fe6-5becaee5408f.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_d17a3404018f2a2edb03",
-      "title": "France accelerates minimum wage hike in bid to quell protest",
-      "category": "社会突发",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-09T17:46:28+00:00",
-      "last_updated": "2026-11-09T17:46:28+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "france",
-        "accelerates",
-        "minimum",
-        "wage",
-        "hike",
-        "bid",
-        "quell",
-        "protest"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“France accelerates minimum wage hike in bid to quell protest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "France"
-        ],
-        "latest_progress": [
-          "11月09日 17:46 UTC，Al Jazeera报道：“France accelerates minimum wage hike in bid to quell protest”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0303/live/c8a877f0-dc7e-11f1-93e1-3b657b665bcf.png"
+        },
         {
-          "article_id": "art_7ab4acedd17e1bbeaeb2",
-          "url": "https://www.aljazeera.com/news/2026/11/9/france-accelerates-minimum-wage-hike-in-bid-to-quell-protest?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/9/france-accelerates-minimum-wage-hike-in-bid-to-quell-protest?traffic_source=rss",
-          "title": "France accelerates minimum wage hike in bid to quell protest",
-          "summary": "Unions slam the increase as insufficient, as the government seeks to defuse the unrest ahead of upcoming elections.",
+          "article_id": "art_c5723271e839cb3f3745",
+          "url": "https://www.aljazeera.com/news/2026/11/9/us-congressman-files-resolution-to-impeach-defence-secretary-pete-hegseth?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/9/us-congressman-files-resolution-to-impeach-defence-secretary-pete-hegseth?traffic_source=rss",
+          "title": "US congressman files resolution to impeach Defence Secretary Pete Hegseth",
+          "summary": "Outgoing Republican lawmaker Thomas Massie calls on Congress to oust Hegseth over accusations of unlawful orders.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-09T17:46:28+00:00",
-          "fetched_at": "2026-11-09T18:49:23.804686+00:00",
+          "published_at": "2026-11-09T23:53:03+00:00",
+          "fetched_at": "2026-11-10T02:09:32.049152+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2f529ab63ee0bb47859f",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/republican-lawmaker-moves-to-impeach-us-defense-secretary-hegseth?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/republican-lawmaker-moves-to-impeach-us-defense-secretary-hegseth?traffic_source=rss",
+          "title": "Republican lawmaker moves to impeach US Defense Secretary Hegseth",
+          "summary": "Republican Congressman Thomas Massie has introduced articles of impeachment against Defense Secretary Pete Hegseth.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-09T21:04:11+00:00",
+          "fetched_at": "2026-11-10T02:09:32.050330+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -836,23 +624,226 @@
       ]
     },
     {
-      "event_id": "evt_1cd7f0a8a18398769d14",
-      "title": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
+      "event_id": "evt_ad40212c729bcc21dc9d",
+      "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
       "category": "军事安全",
-      "score": 60.2,
+      "score": 74.2,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.2,
+        "credibility": 9.7,
+        "impact": 13.0,
+        "velocity": 1.6
+      },
+      "first_seen": "2026-11-08T19:25:30+00:00",
+      "last_updated": "2026-11-10T00:09:49+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "talks",
+        "ukraine",
+        "abu",
+        "dhabi",
+        "february",
+        "officials",
+        "first",
+        "since"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Ukraine",
+          "US",
+          "Abu Dhabi",
+          "What",
+          "Europe",
+          "Kremlin"
+        ],
+        "latest_progress": [
+          "11月10日 00:09 UTC，BBC World报道：“Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say”。",
+          "11月09日 23:46 UTC，DW Top Stories报道：“New trilateral talks on Ukraine war in Abu Dhabi: What to expect?”。",
+          "11月08日 19:25 UTC，NPR World报道：“Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3878d4c28c6cd6777f82",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_campaign=rss&at_medium=RSS",
+          "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+          "summary": "Kyiv, Washington and Moscow are all sending delegation to the United Arab Emirates for the first trilateral talks since February.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-10T00:09:49+00:00",
+          "fetched_at": "2026-11-10T02:09:30.979899+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d4a/live/c60a1ad0-dc88-11f1-851a-19e868620cad.jpg"
+        },
+        {
+          "article_id": "art_15ad3d06199772629b9f",
+          "url": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-top-1022-rdf",
+          "title": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
+          "summary": "Ukrainian and Russian representatives last met in February for talks on ending the war, but the same sticking points remain. Ukraine continues to demand security guarantees, which is a non-starter for Russia.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-09T23:46:00+00:00",
+          "fetched_at": "2026-11-10T02:09:31.526177+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_115856182950e41c3ecd",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+          "canonical_url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "summary": "France says European officials will attend this week's U.S.-mediated Russia-Ukraine talks in Abu Dhabi, the first three-way round of negotiations since February.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-08T19:25:30+00:00",
+          "fetched_at": "2026-11-10T02:09:31.781080+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7b8269864eed9656bb93",
+      "title": "Trump, Rubio defend Hegseth as impeachment bid nears",
+      "category": "军事安全",
+      "score": 70.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.9,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-09T20:15:00+00:00",
+      "last_updated": "2026-11-09T23:47:11+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "hegseth",
+        "war",
+        "trump",
+        "pentagon",
+        "chief",
+        "impeachment",
+        "iran",
+        "impeach"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Trump, Rubio defend Hegseth as impeachment bid nears”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Trump",
+          "Rubio",
+          "Hegseth",
+          "US",
+          "Pentagon",
+          "Iran"
+        ],
+        "latest_progress": [
+          "11月09日 23:47 UTC，Al Jazeera报道：“Trump, Rubio defend Hegseth as impeachment bid nears”。",
+          "11月09日 20:15 UTC，DW Top Stories报道：“US Pentagon chief Hegseth faces impeachment push over Iran war”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1a379e30cc0288b67d11",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-rubio-defend-hegseth-as-impeachment-bid-nears?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-rubio-defend-hegseth-as-impeachment-bid-nears?traffic_source=rss",
+          "title": "Trump, Rubio defend Hegseth as impeachment bid nears",
+          "summary": "President Trump has lashed out at efforts to impeach Defense Secretary Pete Hegseth over the US war on Iran.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-09T23:47:11+00:00",
+          "fetched_at": "2026-11-10T02:09:32.049265+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ecef58c6c1eca69811fb",
+          "url": "https://www.dw.com/en/us-pentagon-chief-hegseth-faces-impeachment-push-over-iran-war/a-79905323?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-pentagon-chief-hegseth-faces-impeachment-push-over-iran-war/a-79905323?maca=en-rss-en-top-1022-rdf",
+          "title": "US Pentagon chief Hegseth faces impeachment push over Iran war",
+          "summary": "Trump critic Thomas Massie is calling for a vote to impeach Pentagon chief Pete Hegseth, accusing Hegseth of waging war without congressional approval.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-09T20:15:00+00:00",
+          "fetched_at": "2026-11-10T02:09:31.526380+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_eb1e1dfe71e8158ecb45",
+      "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
+      "category": "军事安全",
+      "score": 68.9,
+      "score_breakdown": {
+        "coverage": 13.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.2,
+        "recency": 21.0,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-09T15:31:37+00:00",
-      "last_updated": "2026-11-09T15:31:37+00:00",
+      "first_seen": "2026-11-09T22:31:19+00:00",
+      "last_updated": "2026-11-10T01:00:00+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 3,
       "sources": [
         "Al Jazeera"
       ],
@@ -862,24 +853,28 @@
       "keywords": [
         "iran",
         "trump",
-        "sealed",
-        "off",
-        "can",
-        "task",
-        "force",
-        "stop"
+        "war",
+        "meeting",
+        "qatar",
+        "effectively",
+        "positive",
+        "momentum"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Trump says Iran is sealed off. But can new US task force stop weapons flow?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的3篇报道，当前关注的军事安全事件为“After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Trump",
           "Iran",
-          "But",
-          "US"
+          "Qatari",
+          "PM",
+          "US",
+          "Qatar"
         ],
         "latest_progress": [
-          "11月09日 15:31 UTC，Al Jazeera报道：“Trump says Iran is sealed off. But can new US task force stop weapons flow?”。"
+          "11月10日 01:00 UTC，Al Jazeera报道：“Trump signals ‘positive momentum’ with Iran after meeting Qatari PM”。",
+          "11月09日 23:55 UTC，Al Jazeera报道：“Iran war live: Iran demands US ‘surrender’ to its conditions”。",
+          "11月09日 22:31 UTC，Al Jazeera报道：“After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -892,15 +887,45 @@
       },
       "articles": [
         {
-          "article_id": "art_eaf3c5a51faac9bc17de",
-          "url": "https://www.aljazeera.com/news-analysis/2026/11/9/trump-says-iran-is-sealed-off-but-can-new-us-task-force-stop-weapons-flow?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news-analysis/2026/11/9/trump-says-iran-is-sealed-off-but-can-new-us-task-force-stop-weapons-flow?traffic_source=rss",
-          "title": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
-          "summary": "Analysts say a small intelligence-focused unit cannot seal Iran’s borders, and others warn it could expand the war.",
+          "article_id": "art_112245b5a6575f7b60d2",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
+          "title": "Trump signals ‘positive momentum’ with Iran after meeting Qatari PM",
+          "summary": "Trump says there is ‘positive momentum’ towards ending the war on Iran following a ceasefire proposal delivered by Qatar",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-09T15:31:37+00:00",
-          "fetched_at": "2026-11-09T18:49:23.805465+00:00",
+          "published_at": "2026-11-10T01:00:00+00:00",
+          "fetched_at": "2026-11-10T02:09:32.048617+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7c7c4ca93e6f65238add",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender?traffic_source=rss",
+          "title": "Iran war live: Iran demands US ‘surrender’ to its conditions",
+          "summary": "US President Donald Trump said the war was \"effectively over\" after meeting Qatar's prime minister in Washington, DC.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-09T23:55:23+00:00",
+          "fetched_at": "2026-11-10T02:09:32.049034+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9218afbf4e62c717e0eb",
+          "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
+          "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
+          "summary": "Iranian officials dismissed Trump's remarks as 'fake news' after he suggested keeping the 'status quo'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-09T22:31:19+00:00",
+          "fetched_at": "2026-11-10T02:09:32.049626+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -909,48 +934,53 @@
       ]
     },
     {
-      "event_id": "evt_b1e422c2fe6ac066f845",
-      "title": "Iran stands by demands to end the war as US ramps up military pressure",
+      "event_id": "evt_2d70f7c15dd9d594aa22",
+      "title": "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
       "category": "军事安全",
-      "score": 59.5,
+      "score": 68.2,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.5,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.0,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-09T14:39:32+00:00",
-      "last_updated": "2026-11-09T14:39:32+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-11-09T17:06:18+00:00",
+      "last_updated": "2026-11-09T19:56:45+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera"
+        "Al Jazeera",
+        "BBC World"
       ],
       "regions": [
+        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "iran",
-        "stands",
-        "demands",
-        "end",
-        "war",
-        "ramps",
-        "military",
-        "pressure"
+        "fight",
+        "ukraine",
+        "south",
+        "africa",
+        "recruited",
+        "russia",
+        "nine",
+        "zimbabweans"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran stands by demands to end the war as US ramps up military pressure”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iran",
-          "US"
+          "South Africa",
+          "Russian",
+          "Nine Zimbabweans",
+          "Ukraine"
         ],
         "latest_progress": [
-          "11月09日 14:39 UTC，Al Jazeera报道：“Iran stands by demands to end the war as US ramps up military pressure”。"
+          "11月09日 19:56 UTC，Al Jazeera报道：“South Africa detains foreigners suspected of heading to join Russian forces”。",
+          "11月09日 17:06 UTC，BBC World报道：“Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -963,18 +993,229 @@
       },
       "articles": [
         {
-          "article_id": "art_d8d439cbbe5fa19d6892",
-          "url": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure?traffic_source=rss",
-          "title": "Iran stands by demands to end the war as US ramps up military pressure",
-          "summary": "Talks aimed at preventing new major fighting between the US and Iran are ongoing.",
+          "article_id": "art_5cd308c85fd1c5f30e0b",
+          "url": "https://www.aljazeera.com/news/2026/11/9/south-africa-detains-foreigners-suspected-of-heading-to-join-russian-forces?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/9/south-africa-detains-foreigners-suspected-of-heading-to-join-russian-forces?traffic_source=rss",
+          "title": "South Africa detains foreigners suspected of heading to join Russian forces",
+          "summary": "Africans and others continue to be recruited to fight for Russia in its war on Ukraine.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-09T14:39:32+00:00",
-          "fetched_at": "2026-11-09T18:49:23.805898+00:00",
+          "published_at": "2026-11-09T19:56:45+00:00",
+          "fetched_at": "2026-11-10T02:09:32.050909+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9ba2c61c84431762b7fa",
+          "url": "https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo?at_campaign=rss&at_medium=RSS",
+          "title": "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
+          "summary": "Hundreds of people from different African countries have been recruited to fight for Russia, according to Ukraine.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-09T17:06:18+00:00",
+          "fetched_at": "2026-11-10T02:09:30.980970+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8c0/live/5d2b0080-dc36-11f1-95cf-a38331e6cb4b.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_85d05fb55aa82f0c728f",
+      "title": "盘点 国家队 买手清单 ： 进博 购物车 含 科 量足 _ 经济 _ 宏观频道首页 _ 财经网 - CAIJING . COM . CN",
+      "category": "经济金融",
+      "score": 65.6,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 7.5,
+        "impact": 11.7,
+        "velocity": 1.9
+      },
+      "first_seen": "2026-11-09T01:00:00+00:00",
+      "last_updated": "2026-11-10T01:00:00+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "economy.caijing.com.cn",
+        "finance.sina.com.cn"
+      ],
+      "regions": [
+        "China"
+      ],
+      "keywords": [
+        "新浪",
+        "财经",
+        "盘点",
+        "国家",
+        "家队",
+        "买手",
+        "手清",
+        "清单"
+      ],
+      "analysis": {
+        "what_happened": "据economy.caijing.com.cn、finance.sina.com.cn等来源的3篇报道，当前关注的经济金融事件为“盘点 国家队 买手清单 ： 进博 购物车 含 科 量足 _ 经济 _ 宏观频道首页 _ 财经网 - CAIJING . COM . CN”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "CAIJING",
+          "COM",
+          "CN"
+        ],
+        "latest_progress": [
+          "11月10日 01:00 UTC，finance.sina.com.cn报道：“科技成果从 书架 走上 货架 _ 新浪财经 _ 新浪网”。",
+          "11月09日 05:00 UTC，economy.caijing.com.cn报道：“盘点 国家队 买手清单 ： 进博 购物车 含 科 量足 _ 经济 _ 宏观频道首页 _ 财经网 - CAIJING . COM . CN”。",
+          "11月09日 01:00 UTC，finance.sina.com.cn报道：“盘点 国家队 买手清单 ： 进博 购物车 含 科 量足 _ 新浪财经 _ 新浪网”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_19681e644872750c72c4",
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyexvn9461205.shtml",
+          "canonical_url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyexvn9461205.shtml",
+          "title": "科技成果从 书架 走上 货架 _ 新浪财经 _ 新浪网",
+          "summary": "",
+          "source": "finance.sina.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-10T01:00:00+00:00",
+          "fetched_at": "2026-11-10T02:09:30.434621+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": "https://n.sinaimg.cn/spider20261110/538/w767h571/20261110/b825-0972cb4b82ea25a9ebf4f0b765f02265.jpg"
+        },
+        {
+          "article_id": "art_3fe9cfea1a4d090f4c85",
+          "url": "https://economy.caijing.com.cn/20261109/5192516.shtml",
+          "canonical_url": "https://economy.caijing.com.cn/20261109/5192516.shtml",
+          "title": "盘点 国家队 买手清单 ： 进博 购物车 含 科 量足 _ 经济 _ 宏观频道首页 _ 财经网 - CAIJING . COM . CN",
+          "summary": "",
+          "source": "economy.caijing.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-09T05:00:00+00:00",
+          "fetched_at": "2026-11-10T02:09:30.432452+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_98ba7de5cf5e699777bd",
+          "url": "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyacyq6963430.shtml",
+          "canonical_url": "https://finance.sina.com.cn/roll/2026-11-09/doc-iniyacyq6963430.shtml",
+          "title": "盘点 国家队 买手清单 ： 进博 购物车 含 科 量足 _ 新浪财经 _ 新浪网",
+          "summary": "",
+          "source": "finance.sina.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-09T01:00:00+00:00",
+          "fetched_at": "2026-11-10T02:09:30.432375+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": "https://n.sinaimg.cn/spider20261109/366/w700h466/20261109/9781-19b152bb45d98ea806610a99caf97768.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3e4a02c1e10d1af1fbf7",
+      "title": "Millions fill Buenos Aires streets to welcome Pope Leo XIV",
+      "category": "国际政治",
+      "score": 62.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 16.4,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-09T18:38:00+00:00",
+      "last_updated": "2026-11-09T19:09:27+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "pope",
+        "buenos",
+        "aires",
+        "leo",
+        "million",
+        "mass",
+        "draws",
+        "renews"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Millions fill Buenos Aires streets to welcome Pope Leo XIV”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Millions",
+          "Buenos Aires",
+          "Pope Leo",
+          "XIV",
+          "Milei"
+        ],
+        "latest_progress": [
+          "11月09日 19:09 UTC，BBC World报道：“Millions fill Buenos Aires streets to welcome Pope Leo XIV”。",
+          "11月09日 18:38 UTC，DW Top Stories报道：“Pope Leo draws 2.5 million in Buenos Aires, renews warning over Milei's austerity”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_76d0e55becd956a72ab8",
+          "url": "https://www.bbc.co.uk/news/videos/cvp8g82pled5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cvp8g82pled5o?at_campaign=rss&at_medium=RSS",
+          "title": "Millions fill Buenos Aires streets to welcome Pope Leo XIV",
+          "summary": "The Pope celebrated an outdoor Mass in Argentina's capital, the second stop on a 12-day tour of Latin America, just three weeks after having had surgery for lung cancer.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-09T19:09:27+00:00",
+          "fetched_at": "2026-11-10T02:09:30.981744+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cec/live/5a730010-dc70-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
+          "article_id": "art_e27fa54781a1c57cc922",
+          "url": "https://www.dw.com/en/pope-leo-draws-2-5-million-in-buenos-aires-renews-warning-over-milei-s-austerity/a-79904137?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/pope-leo-draws-2-5-million-in-buenos-aires-renews-warning-over-milei-s-austerity/a-79904137?maca=en-rss-en-top-1022-rdf",
+          "title": "Pope Leo draws 2.5 million in Buenos Aires, renews warning over Milei's austerity",
+          "summary": "Some 2.5 million people have attended Pope Leo's mass in Buenos Aires, his largest gathering yet. The pontiff once again called for protecting the vulnerable as President Milei cuts disability care and social services.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-09T18:38:00+00:00",
+          "fetched_at": "2026-11-10T02:09:31.526476+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
