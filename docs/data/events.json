@@ -1,39 +1,40 @@
 {
-  "generated_at": "2026-11-11T22:03:19.496726+00:00",
+  "generated_at": "2026-11-12T02:59:23.648807+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 131,
-    "articles_unique": 131,
+    "articles_fetched": 135,
+    "articles_unique": 135,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_b58740a050f1add707f2",
-      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "category": "军事安全",
-      "score": 78.7,
+      "event_id": "evt_dff025d0a8ff2b93579d",
+      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "category": "国际政治",
+      "score": 82.4,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
+        "coverage": 16.1,
+        "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 18.6,
+        "recency": 19.3,
         "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
+        "impact": 11.0,
+        "velocity": 4.3
       },
-      "first_seen": "2026-11-11T13:30:00+00:00",
-      "last_updated": "2026-11-11T18:04:58+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-11-11T09:54:54+00:00",
+      "last_updated": "2026-11-11T23:50:01+00:00",
+      "source_count": 4,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
+        "DW Top Stories",
         "NPR World"
       ],
       "regions": [
@@ -42,78 +43,94 @@
         "North America"
       ],
       "keywords": [
-        "talks",
-        "exchange",
-        "russia",
-        "ukraine",
-        "prisoner",
-        "abu",
-        "dhabi",
-        "end"
+        "strike",
+        "general",
+        "housing",
+        "workers",
+        "spain",
+        "thousands",
+        "barcelona",
+        "crisis"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的3篇报道，当前关注的军事安全事件为“Russia-Ukraine talks turn to post-war security but end without breakthrough”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的国际政治事件为“Clashes erupt in Barcelona after thousands join Spain general strike”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Russia",
-          "Ukraine",
-          "UAE"
+          "Barcelona",
+          "Clashes",
+          "Spain",
+          "Housing"
         ],
         "latest_progress": [
-          "11月11日 18:04 UTC，BBC World报道：“Russia-Ukraine talks turn to post-war security but end without breakthrough”。",
-          "11月11日 16:58 UTC，Al Jazeera报道：“Russia-Ukraine talks in UAE secure major prisoner exchange deal”。",
-          "11月11日 13:30 UTC，NPR World报道：“Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough”。"
+          "11月11日 23:50 UTC，Al Jazeera报道：“Barcelona erupts in violence after general strike”。",
+          "11月11日 22:07 UTC，BBC World报道：“Clashes erupt in Barcelona after thousands join Spain general strike”。",
+          "11月11日 21:58 UTC，DW Top Stories报道：“Spain: Housing crisis prompts general strike, mass nighttime protests”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_99aa86a3a586602987e2",
-          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_campaign=rss&at_medium=RSS",
-          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-          "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-11T18:04:58+00:00",
-          "fetched_at": "2026-11-11T22:03:17.479858+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cf0/live/2eb174e0-ddef-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_b9c391934221e2acbee1",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/russia-ukraine-talks-in-uae-secure-major-prisoner-exchange-deal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/russia-ukraine-talks-in-uae-secure-major-prisoner-exchange-deal?traffic_source=rss",
-          "title": "Russia-Ukraine talks in UAE secure major prisoner exchange deal",
-          "summary": "Russia and Ukraine have agreed to a major prisoner exchange following two days of US-mediated talks in Abu Dhabi",
+          "article_id": "art_7936d9280113a7f2d425",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/barcelona-erupts-in-violence-after-general-strike?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/barcelona-erupts-in-violence-after-general-strike?traffic_source=rss",
+          "title": "Barcelona erupts in violence after general strike",
+          "summary": "Protesters hurled fireworks at police and set rubbish bins ablaze in Barcelona after Spain’s general strike.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-11T16:58:32+00:00",
-          "fetched_at": "2026-11-11T22:03:17.879891+00:00",
+          "published_at": "2026-11-11T23:50:01+00:00",
+          "fetched_at": "2026-11-12T02:59:22.217711+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_c50afb97023828d19687",
-          "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-          "canonical_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
-          "summary": "Russia and Ukraine have agreed to a large exchange of prisoners of war. U.S.-mediated talks in Abu Dhabi led to this decision, marking the biggest humanitarian release since the war began in 2022.",
+          "article_id": "art_fad6a52e7e4bfea1a3cd",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_campaign=rss&at_medium=RSS",
+          "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+          "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-11T22:07:37+00:00",
+          "fetched_at": "2026-11-12T02:59:20.553491+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8f2/live/d0df2010-de11-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_d1916f28f07666ccc5dc",
+          "url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-top-1022-rdf",
+          "title": "Spain: Housing crisis prompts general strike, mass nighttime protests",
+          "summary": "Hundreds of thousands of citizens have hit the streets to protest Spain's housing crisis after millions of union workers staged a general strike. The crisis has triggered snap elections to take place on November 29.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-11T21:58:00+00:00",
+          "fetched_at": "2026-11-12T02:59:21.619021+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d1c3a27f3c8e603faf0d",
+          "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
+          "canonical_url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
+          "title": "Spain's workers hold a general strike over housing costs before national election",
+          "summary": "Millions of Spanish workers have shut down businesses and disrupted transportation in a protest over housing costs. The strike on Wednesday was the first general strike in Spain in 14 years, culminating in huge marches of tens of thousands of workers and average citizens in downtown Barcelona and Madrid, along with gatherings in other cities.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-11-11T13:30:00+00:00",
-          "fetched_at": "2026-11-11T22:03:17.735707+00:00",
+          "published_at": "2026-11-11T09:54:54+00:00",
+          "fetched_at": "2026-11-12T02:59:21.964039+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -122,15 +139,126 @@
       ]
     },
     {
-      "event_id": "evt_d2b9f3942ebeff629042",
-      "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+      "event_id": "evt_33ce0f15c71ffae8e10c",
+      "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
       "category": "国际政治",
-      "score": 76.6,
+      "score": 76.8,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.1,
+        "recency": 21.2,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-11T23:05:34+00:00",
+      "last_updated": "2026-11-12T02:09:08+00:00",
+      "source_count": 3,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "colom",
+        "senate",
+        "democrat",
+        "scott",
+        "mississippi",
+        "race",
+        "historic",
+        "seat"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Democrat Scott Colom wins closely watched US Senate race in Mississippi”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Democrat Scott Colom",
+          "Mississippi Senate",
+          "Republican Cindy Hyde",
+          "Smith Democrat Scott Colom",
+          "US",
+          "Senate",
+          "Mississippi"
+        ],
+        "latest_progress": [
+          "11月12日 02:09 UTC，BBC World报道：“Democrat Scott Colom seals historic win in Mississippi Senate race”。",
+          "11月11日 23:33 UTC，DW Top Stories报道：“Mississippi Senate race: Democrat Scott Colom defeats Republican Cindy Hyde-Smith”。",
+          "11月11日 23:05 UTC，Al Jazeera报道：“Democrat Scott Colom wins closely watched US Senate race in Mississippi”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c69d771ab41e5f831cea",
+          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_campaign=rss&at_medium=RSS",
+          "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+          "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-12T02:09:08+00:00",
+          "fetched_at": "2026-11-12T02:59:20.553702+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/884a/live/97210150-de3d-11f1-a9ed-658311f31da9.jpg"
+        },
+        {
+          "article_id": "art_94cdcfc6529fd37de7fa",
+          "url": "https://www.dw.com/en/mississippi-senate-race-democrat-scott-colom-defeats-republican-cindy-hyde-smith/a-79924938?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/mississippi-senate-race-democrat-scott-colom-defeats-republican-cindy-hyde-smith/a-79924938?maca=en-rss-en-top-1022-rdf",
+          "title": "Mississippi Senate race: Democrat Scott Colom defeats Republican Cindy Hyde-Smith",
+          "summary": "The southern US state of Mississippi has elected its first Black senator in more than 140 years. Democrat Scott Colom has won the seat in a historic upset, according to projections.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-11T23:33:00+00:00",
+          "fetched_at": "2026-11-12T02:59:21.618800+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_570b16b02b192cd22b2d",
+          "url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
+          "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
+          "summary": "The historic victory flips an eighth US Senate seat for Democrats after last week's pivotal midterm election.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-11T23:05:34+00:00",
+          "fetched_at": "2026-11-12T02:59:22.217832+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d2b9f3942ebeff629042",
+      "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+      "category": "国际政治",
+      "score": 72.7,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 17.2,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -194,7 +322,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-11T21:01:42+00:00",
-          "fetched_at": "2026-11-11T22:03:17.877838+00:00",
+          "fetched_at": "2026-11-12T02:59:22.218534+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -205,11 +333,11 @@
           "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_campaign=rss&at_medium=RSS",
           "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-          "summary": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public. It is not known if the incidents are linked.",
+          "summary": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public.",
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-11T18:38:45+00:00",
-          "fetched_at": "2026-11-11T22:03:17.480073+00:00",
+          "fetched_at": "2026-11-12T02:59:20.554486+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -224,7 +352,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-11T13:43:00+00:00",
-          "fetched_at": "2026-11-11T22:03:17.622319+00:00",
+          "fetched_at": "2026-11-12T02:59:21.619969+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -233,240 +361,131 @@
       ]
     },
     {
-      "event_id": "evt_dff025d0a8ff2b93579d",
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "category": "国际政治",
-      "score": 76.1,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.9,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 3.7
-      },
-      "first_seen": "2026-11-11T09:54:54+00:00",
-      "last_updated": "2026-11-11T21:58:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "strike",
-        "general",
-        "housing",
-        "workers",
-        "thousands",
-        "spain",
-        "crisis",
-        "spain's"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“Clashes erupt in Barcelona after thousands join Spain general strike”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Spain",
-          "Housing",
-          "Clashes",
-          "Barcelona"
-        ],
-        "latest_progress": [
-          "11月11日 21:58 UTC，DW Top Stories报道：“Spain: Housing crisis prompts general strike, mass nighttime protests”。",
-          "11月11日 20:52 UTC，BBC World报道：“Clashes erupt in Barcelona after thousands join Spain general strike”。",
-          "11月11日 09:54 UTC，NPR World报道：“Spain's workers hold a general strike over housing costs before national election”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d1916f28f07666ccc5dc",
-          "url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-top-1022-rdf",
-          "title": "Spain: Housing crisis prompts general strike, mass nighttime protests",
-          "summary": "Hundreds of thousands of citizens have hit the streets to protest Spain's housing crisis after millions of union workers staged a general strike. The crisis has triggered snap elections to take place on November 29.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-11T21:58:00+00:00",
-          "fetched_at": "2026-11-11T22:03:17.621560+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_fad6a52e7e4bfea1a3cd",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_campaign=rss&at_medium=RSS",
-          "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-          "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-11T20:52:52+00:00",
-          "fetched_at": "2026-11-11T22:03:17.479725+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8f2/live/d0df2010-de11-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_d1c3a27f3c8e603faf0d",
-          "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
-          "canonical_url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
-          "title": "Spain's workers hold a general strike over housing costs before national election",
-          "summary": "Millions of Spanish workers have shut down businesses and disrupted transportation in a protest over housing costs. The strike on Wednesday was the first general strike in Spain in 14 years, culminating in huge marches of tens of thousands of workers and average citizens in downtown Barcelona and Madrid, along with gatherings in other cities.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-11T09:54:54+00:00",
-          "fetched_at": "2026-11-11T22:03:17.735993+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_dd9d5772726af1facf11",
-      "title": "Polish unity on show as thousands join silent march for Krakow shooting victims",
-      "category": "军事安全",
-      "score": 71.3,
+      "event_id": "evt_81336629e009d0b8fdd8",
+      "title": "What could Chinese intelligence have learned from Nvidia CEO’s affair?",
+      "category": "科技AI",
+      "score": 71.4,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 1.1
+        "recency": 20.7,
+        "credibility": 9.8,
+        "impact": 9.8,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-10T05:38:53+00:00",
-      "last_updated": "2026-11-11T21:02:02+00:00",
+      "first_seen": "2026-11-12T00:01:00+00:00",
+      "last_updated": "2026-11-12T01:33:09+00:00",
       "source_count": 2,
       "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "BBC World"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "thousands",
-        "march",
-        "poland",
-        "independence",
-        "day",
-        "polish",
-        "unity",
-        "join"
+        "nvidia",
+        "board",
+        "huang",
+        "chinese",
+        "reportedly",
+        "suspected",
+        "spy",
+        "reports"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Polish unity on show as thousands join silent march for Krakow shooting victims”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的科技AI事件为“What could Chinese intelligence have learned from Nvidia CEO’s affair?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Thousands",
-          "Poland",
-          "Independence Day Tens",
-          "Independence Day",
-          "Polish",
-          "Krakow"
+          "What",
+          "Chinese",
+          "Nvidia",
+          "CEO",
+          "Huang"
         ],
         "latest_progress": [
-          "11月11日 21:02 UTC，Al Jazeera报道：“Thousands march to mark Poland’s Independence Day”。",
-          "11月11日 17:38 UTC，Al Jazeera报道：“Tens of thousands join Poland’s nationalist Independence Day march”。",
-          "11月10日 05:38 UTC，BBC World报道：“Polish unity on show as thousands join silent march for Krakow shooting victims”。"
+          "11月12日 01:33 UTC，Al Jazeera报道：“What could Chinese intelligence have learned from Nvidia CEO’s affair?”。",
+          "11月12日 00:43 UTC，Al Jazeera报道：“Nvidia shares plunge amid reports board to discuss CEO Huang’s future”。",
+          "11月12日 00:01 UTC，DW Top Stories报道：“Nvidia board reportedly weighs ousting Huang amid alleged affairs with exec and suspected Chinese spy”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_3b2582e1b3ce60a09108",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/thousands-march-to-mark-polands-independence-day?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/thousands-march-to-mark-polands-independence-day?traffic_source=rss",
-          "title": "Thousands march to mark Poland’s Independence Day",
-          "summary": "Thousands of people have taken to the streets of Warsaw for Poland's annual Independence Day march",
+          "article_id": "art_78249d6f4b32923bbcfa",
+          "url": "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+          "title": "What could Chinese intelligence have learned from Nvidia CEO’s affair?",
+          "summary": "Nvidia says no secrets were compromised, but experts question what sensitive information may have been exposed.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-11T21:02:02+00:00",
-          "fetched_at": "2026-11-11T22:03:17.877734+00:00",
+          "published_at": "2026-11-12T01:33:09+00:00",
+          "fetched_at": "2026-11-12T02:59:22.216409+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_1372af185096f181451d",
-          "url": "https://www.aljazeera.com/news/2026/11/11/tens-of-thousands-join-polands-nationalist-independence-day-march?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/11/tens-of-thousands-join-polands-nationalist-independence-day-march?traffic_source=rss",
-          "title": "Tens of thousands join Poland’s nationalist Independence Day march",
-          "summary": "Polish PM Donald Tusk calls for restraint, urging unity after deadly Krakow attack linked to far-right ideology.",
+          "article_id": "art_03907bc0457aba9c6b6e",
+          "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
+          "title": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
+          "summary": "Chip giant's stock price falls more than 8 percent amid speculation over co-founder's position.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-11T17:38:03+00:00",
-          "fetched_at": "2026-11-11T22:03:17.879710+00:00",
+          "published_at": "2026-11-12T00:43:26+00:00",
+          "fetched_at": "2026-11-12T02:59:22.216826+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_44874e5cfc48aa3e8fec",
-          "url": "https://www.bbc.co.uk/news/articles/cqkg5gm4nr4no?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqkg5gm4nr4no?at_campaign=rss&at_medium=RSS",
-          "title": "Polish unity on show as thousands join silent march for Krakow shooting victims",
-          "summary": "Fiercely proud of its reputation for safety, Poland has been profoundly shaken by Saturday's attack, writes Sarah Rainsford.",
-          "source": "BBC World",
+          "article_id": "art_c9347fd93539514bc613",
+          "url": "https://www.dw.com/en/nvidia-board-reportedly-weighs-ousting-huang-amid-alleged-affairs-with-exec-and-suspected-chinese-spy/a-79925002?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/nvidia-board-reportedly-weighs-ousting-huang-amid-alleged-affairs-with-exec-and-suspected-chinese-spy/a-79925002?maca=en-rss-en-top-1022-rdf",
+          "title": "Nvidia board reportedly weighs ousting Huang amid alleged affairs with exec and suspected Chinese spy",
+          "summary": "Nvidia's board is reportedly preparing to oust Jensen Huang amid reports of an affair with a suspected Chinese spy. The shake-up would leave the world's leading AI chip supplier without the co-founder who built it.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-10T05:38:53+00:00",
-          "fetched_at": "2026-11-11T22:03:17.481992+00:00",
+          "published_at": "2026-11-12T00:01:00+00:00",
+          "fetched_at": "2026-11-12T02:59:21.618662+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2788/live/5536cf80-dcdb-11f1-a701-fddedf244c16.jpg"
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_053266e6772c55730799",
-      "title": "Israeli army kills Palestinian footballer Mahmoud Kamal Abdel-Malek in Gaza",
+      "event_id": "evt_52092be1cc68ad04ed7f",
+      "title": "Israeli strikes hit medical complex as nine killed across Gaza",
       "category": "军事安全",
-      "score": 68.8,
+      "score": 70.8,
       "score_breakdown": {
-        "coverage": 13.9,
+        "coverage": 16.1,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.8,
+        "recency": 20.5,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-11T16:48:48+00:00",
-      "last_updated": "2026-11-11T20:44:34+00:00",
+      "first_seen": "2026-11-11T20:33:35+00:00",
+      "last_updated": "2026-11-12T01:20:55+00:00",
       "source_count": 1,
-      "article_count": 3,
+      "article_count": 4,
       "sources": [
         "Al Jazeera"
       ],
@@ -476,28 +495,28 @@
       "keywords": [
         "israeli",
         "gaza",
-        "palestinian",
-        "abdel-malek",
-        "strike",
         "killed",
-        "footballer",
-        "mahmoud"
+        "strike",
+        "nasser",
+        "palestinian",
+        "people",
+        "strikes"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的3篇报道，当前关注的军事安全事件为“Israeli army kills Palestinian footballer Mahmoud Kamal Abdel-Malek in Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的4篇报道，当前关注的军事安全事件为“Israeli strikes hit medical complex as nine killed across Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "Israel",
           "Gaza",
+          "Nasser Hospital Israeli",
+          "Gaza Gaza",
           "Israeli",
-          "Scenes",
-          "Palestinian",
-          "Mahmoud Kamal Abdel",
-          "Malek"
+          "Scenes"
         ],
         "latest_progress": [
-          "11月11日 20:44 UTC，Al Jazeera报道：“Gaza goalkeeper killed in Israeli attack”。",
-          "11月11日 20:33 UTC，Al Jazeera报道：“Scenes show aftermath of horrific Israeli strike on Gaza tents”。",
-          "11月11日 16:48 UTC，Al Jazeera报道：“Israeli army kills Palestinian footballer Mahmoud Kamal Abdel-Malek in Gaza”。"
+          "11月12日 01:20 UTC，Al Jazeera报道：“Israel strikes intensive care at Gaza’s Nasser Hospital”。",
+          "11月11日 22:55 UTC，Al Jazeera报道：“Israeli strikes hit medical complex as nine killed across Gaza”。",
+          "11月11日 20:44 UTC，Al Jazeera报道：“Gaza goalkeeper killed in Israeli attack”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -510,6 +529,36 @@
       },
       "articles": [
         {
+          "article_id": "art_4c392f3e6388a494fd7a",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+          "title": "Israel strikes intensive care at Gaza’s Nasser Hospital",
+          "summary": "Gaza's Civil Defence says an Israeli strike on Nasser Hospital has killed at least six people.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-12T01:20:55+00:00",
+          "fetched_at": "2026-11-12T02:59:22.216540+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5255560da8334c50190e",
+          "url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
+          "title": "Israeli strikes hit medical complex as nine killed across Gaza",
+          "summary": "Nasser Medical Complex in Khan Younis attacked as UN appeals for urgent aid to deal with heavy rains in the enclave.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-11T22:55:37+00:00",
+          "fetched_at": "2026-11-12T02:59:22.217946+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_1cb5e964d106ff98f874",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
@@ -518,7 +567,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-11T20:44:34+00:00",
-          "fetched_at": "2026-11-11T22:03:17.878031+00:00",
+          "fetched_at": "2026-11-12T02:59:22.218780+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -533,22 +582,275 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-11T20:33:35+00:00",
-          "fetched_at": "2026-11-11T22:03:17.878226+00:00",
+          "fetched_at": "2026-11-12T02:59:22.219000+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0145aaadaf55140547c5",
+      "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
+      "category": "军事安全",
+      "score": 66.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.3,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 2.7
+      },
+      "first_seen": "2026-11-11T11:24:00+00:00",
+      "last_updated": "2026-11-11T22:34:43+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "terrorist",
+        "iran",
+        "navy",
+        "air",
+        "force",
+        "move",
+        "classes",
+        "argentina"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Iran designates Argentinian navy, air force as ‘terrorist organisations’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "Argentinian",
+          "Argentina"
+        ],
+        "latest_progress": [
+          "11月11日 22:34 UTC，Al Jazeera报道：“Iran designates Argentinian navy, air force as ‘terrorist organisations’”。",
+          "11月11日 11:24 UTC，DW Top Stories报道：“Iran classes Argentina navy, air force as 'terrorist organizations'”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d71ee393783e44f8b442",
+          "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
+          "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
+          "summary": "The move comes months after the government of Javier Milei designated Iran's IRGC as a 'terrorist organisation'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-11T22:34:43+00:00",
+          "fetched_at": "2026-11-12T02:59:22.218067+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_e1e51d444741b50a4c7e",
-          "url": "https://www.aljazeera.com/sports/2026/11/11/israeli-army-kills-palestinian-footballer-mahmoud-kamal-abdel-malek-in-gaza?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/sports/2026/11/11/israeli-army-kills-palestinian-footballer-mahmoud-kamal-abdel-malek-in-gaza?traffic_source=rss",
-          "title": "Israeli army kills Palestinian footballer Mahmoud Kamal Abdel-Malek in Gaza",
-          "summary": "Abdel-Malek, the captain and goalkeeper of Gaza Sports Club, recently played in the Thousand Martyrs Cup final.",
+          "article_id": "art_4dfb1a3c063acc3606be",
+          "url": "https://www.dw.com/en/iran-classes-argentina-navy-air-force-as-terrorist-organizations/a-79916290?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/iran-classes-argentina-navy-air-force-as-terrorist-organizations/a-79916290?maca=en-rss-en-top-1022-rdf",
+          "title": "Iran classes Argentina navy, air force as 'terrorist organizations'",
+          "summary": "In a tit-for-tat move, Iran has said it now considers Argentina's navy and air force as \"terrorist organizations.\" Tehran claimed Buenos Aires is responsible for further consequences.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-11T11:24:00+00:00",
+          "fetched_at": "2026-11-12T02:59:21.620242+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b58740a050f1add707f2",
+      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "category": "军事安全",
+      "score": 66.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 15.2,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-11T13:30:00+00:00",
+      "last_updated": "2026-11-11T18:04:58+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "talks",
+        "russia",
+        "ukraine",
+        "exchange",
+        "end",
+        "breakthrough",
+        "war",
+        "abu"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、NPR World等来源的2篇报道，当前关注的军事安全事件为“Russia-Ukraine talks turn to post-war security but end without breakthrough”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russia",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "11月11日 18:04 UTC，BBC World报道：“Russia-Ukraine talks turn to post-war security but end without breakthrough”。",
+          "11月11日 13:30 UTC，NPR World报道：“Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_99aa86a3a586602987e2",
+          "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_campaign=rss&at_medium=RSS",
+          "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+          "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-11T18:04:58+00:00",
+          "fetched_at": "2026-11-12T02:59:20.553859+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cf0/live/2eb174e0-ddef-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_c50afb97023828d19687",
+          "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+          "canonical_url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+          "summary": "Russia and Ukraine have agreed to a large exchange of prisoners of war. U.S.-mediated talks in Abu Dhabi led to this decision, marking the biggest humanitarian release since the war began in 2022.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-11T13:30:00+00:00",
+          "fetched_at": "2026-11-12T02:59:21.963650+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_ef9dde1097907d352624",
+      "title": "Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier",
+      "category": "军事安全",
+      "score": 65.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-12T00:18:46+00:00",
+      "last_updated": "2026-11-12T00:42:37+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "hegseth",
+        "tomb",
+        "unknown",
+        "soldier",
+        "reprimanded",
+        "guard",
+        "scolded",
+        "security"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Hegseth",
+          "Tomb",
+          "Unknown Soldier Hegseth",
+          "Unknown Soldier"
+        ],
+        "latest_progress": [
+          "11月12日 00:42 UTC，Al Jazeera报道：“Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier”。",
+          "11月12日 00:18 UTC，Al Jazeera报道：“Hegseth scolded by security at Tomb of the Unknown Soldier”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7b2206081f09901dfc45",
+          "url": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+          "title": "Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier",
+          "summary": "Guard at memorial site can be heard yelling at group to 'maintain an atmosphere of silence and respect at all times'.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-11T16:48:48+00:00",
-          "fetched_at": "2026-11-11T22:03:17.879977+00:00",
+          "published_at": "2026-11-12T00:42:37+00:00",
+          "fetched_at": "2026-11-12T02:59:22.216956+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0349f75668a288803fac",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/hegseth-scolded-by-security-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/hegseth-scolded-by-security-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+          "title": "Hegseth scolded by security at Tomb of the Unknown Soldier",
+          "summary": "An army sentinel guarding the Tomb of the Unknown Soldier in the Arlington National Cemetery has reprimanded Hegseth.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-12T00:18:46+00:00",
+          "fetched_at": "2026-11-12T02:59:22.217334+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -560,12 +862,12 @@
       "event_id": "evt_5946d86fc82b890c22b9",
       "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
       "category": "社会突发",
-      "score": 64.4,
+      "score": 61.2,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 17.3,
+        "recency": 14.1,
         "credibility": 9.8,
         "impact": 11.7,
         "velocity": 5.0
@@ -621,7 +923,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-11T16:16:00+00:00",
-          "fetched_at": "2026-11-11T22:03:17.622003+00:00",
+          "fetched_at": "2026-11-12T02:59:21.619551+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -636,7 +938,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-11T12:53:11+00:00",
-          "fetched_at": "2026-11-11T22:03:17.480580+00:00",
+          "fetched_at": "2026-11-12T02:59:20.554997+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -645,256 +947,21 @@
       ]
     },
     {
-      "event_id": "evt_050837993784a216eade",
-      "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
-      "category": "军事安全",
-      "score": 62.1,
+      "event_id": "evt_3390a3d92ac828894427",
+      "title": "Indonesian VP resigns over education qualification row",
+      "category": "国际政治",
+      "score": 60.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-11T21:03:40+00:00",
-      "last_updated": "2026-11-11T21:03:40+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "hormuz",
-        "strait",
-        "never",
-        "return",
-        "pre-war",
-        "status",
-        "iran",
-        "ghalibaf"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Hormuz Strait",
-          "Iran",
-          "Ghalibaf"
-        ],
-        "latest_progress": [
-          "11月11日 21:03 UTC，Al Jazeera报道：“Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7c51c96bf8be47a3e7e3",
-          "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-          "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
-          "summary": "Iran's parliament speaker and top negotiator says Tehran is waiting for an official US response to its seven conditions.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-11T21:03:40+00:00",
-          "fetched_at": "2026-11-11T22:03:17.877608+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a35479329a7d8dfe7f1e",
-      "title": "Trump’s White House calls Democratic plans for congressional probes ‘abuse’",
-      "category": "军事安全",
-      "score": 61.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.8,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-11T20:39:50+00:00",
-      "last_updated": "2026-11-11T20:39:50+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "white",
-        "house",
-        "democratic",
-        "trump",
-        "calls",
-        "plans",
-        "congressional",
-        "probes"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Trump’s White House calls Democratic plans for congressional probes ‘abuse’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trump",
-          "White House",
-          "Democratic"
-        ],
-        "latest_progress": [
-          "11月11日 20:39 UTC，Al Jazeera报道：“Trump’s White House calls Democratic plans for congressional probes ‘abuse’”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_779c012eb3ad6bccdcf3",
-          "url": "https://www.aljazeera.com/news/2026/11/11/trumps-white-house-calls-democratic-plans-for-congressional-probes-abuse?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/11/trumps-white-house-calls-democratic-plans-for-congressional-probes-abuse?traffic_source=rss",
-          "title": "Trump’s White House calls Democratic plans for congressional probes ‘abuse’",
-          "summary": "Democratic lawmaker Robert Garcia denounced a White House letter as an unconstitutional attack on legislative branch.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-11T20:39:50+00:00",
-          "fetched_at": "2026-11-11T22:03:17.878129+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5e68f6c90c18fb3412be",
-      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-      "category": "军事安全",
-      "score": 60.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 14.3,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.1
-      },
-      "first_seen": "2026-11-11T02:04:00+00:00",
-      "last_updated": "2026-11-11T11:47:22+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "hegseth",
-        "pete",
-        "impeach",
-        "secretary",
-        "bid",
-        "trump",
-        "praising",
-        "outcome"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“US House blocks bid to impeach Defence Secretary Pete Hegseth”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US",
-          "House",
-          "Defence Secretary Pete Hegseth",
-          "Republicans",
-          "Defense Secretary Pete Hegseth"
-        ],
-        "latest_progress": [
-          "11月11日 11:47 UTC，BBC World报道：“US House blocks bid to impeach Defence Secretary Pete Hegseth”。",
-          "11月11日 02:04 UTC，DW Top Stories报道：“US Republicans derail push to impeach Defense Secretary Pete Hegseth”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_424b62e26905785e06b9",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_campaign=rss&at_medium=RSS",
-          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-          "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-11T11:47:22+00:00",
-          "fetched_at": "2026-11-11T22:03:17.481122+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5391/live/eb55ba30-dd67-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_50c48c9f1cac476bd122",
-          "url": "https://www.dw.com/en/us-republicans-derail-push-to-impeach-defense-secretary-pete-hegseth/a-79913761?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-republicans-derail-push-to-impeach-defense-secretary-pete-hegseth/a-79913761?maca=en-rss-en-top-1022-rdf",
-          "title": "US Republicans derail push to impeach Defense Secretary Pete Hegseth",
-          "summary": "Pentagon chief Pete Hegseth seems set to survive the impeachment bid launched by maverick Republican lawmaker Thomas Massie, with President Donald Trump praising the outcome of the vote.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-11T02:04:00+00:00",
-          "fetched_at": "2026-11-11T22:03:17.623075+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ea04197620be2d19f87c",
-      "title": "Oil production nears pre-Iran war levels, OPEC says",
-      "category": "能源资源",
-      "score": 59.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.8,
+        "recency": 21.4,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-11T20:45:30+00:00",
-      "last_updated": "2026-11-11T20:45:30+00:00",
+      "first_seen": "2026-11-12T02:22:48+00:00",
+      "last_updated": "2026-11-12T02:22:48+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -904,46 +971,45 @@
         "Middle East"
       ],
       "keywords": [
-        "oil",
-        "levels",
-        "production",
-        "nears",
-        "pre-iran",
-        "war",
-        "opec",
-        "saudi"
+        "indonesian",
+        "resigns",
+        "education",
+        "qualification",
+        "row",
+        "indonesia's",
+        "vice",
+        "president"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“Oil production nears pre-Iran war levels, OPEC says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Indonesian VP resigns over education qualification row”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Oil",
-          "Iran",
-          "OPEC"
+          "Indonesian",
+          "VP"
         ],
         "latest_progress": [
-          "11月11日 20:45 UTC，Al Jazeera报道：“Oil production nears pre-Iran war levels, OPEC says”。"
+          "11月12日 02:22 UTC，Al Jazeera报道：“Indonesian VP resigns over education qualification row”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_f9e2cf7512bb189e4686",
-          "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
-          "title": "Oil production nears pre-Iran war levels, OPEC says",
-          "summary": "Saudi Arabia reports oil outputs soared to highest levels in months despite continued shipping disruptions.",
+          "article_id": "art_4c43836cc07753ce8c93",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row?traffic_source=rss",
+          "title": "Indonesian VP resigns over education qualification row",
+          "summary": "Indonesia's Vice President Gibran Rakabuming Raka has resigned amid a dispute over his educational qualifications.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-11T20:45:30+00:00",
-          "fetched_at": "2026-11-11T22:03:17.877936+00:00",
+          "published_at": "2026-11-12T02:22:48+00:00",
+          "fetched_at": "2026-11-12T02:59:22.215967+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
