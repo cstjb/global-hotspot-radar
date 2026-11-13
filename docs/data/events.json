@@ -1,67 +1,69 @@
 {
-  "generated_at": "2026-11-13T16:22:10.535185+00:00",
+  "generated_at": "2026-11-13T22:38:13.061361+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 178,
-    "articles_unique": 174,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 132,
+    "articles_unique": 131,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_c0b6972e4b093092b530",
-      "title": "Microsoft outage live: Outlook, Teams recover as disruptions continue",
+      "event_id": "evt_83ae36a85c909450cde2",
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
       "category": "科技AI",
-      "score": 78.6,
+      "score": 75.6,
       "score_breakdown": {
         "coverage": 17.9,
-        "source_diversity": 10.8,
+        "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.2,
-        "credibility": 9.9,
+        "recency": 20.8,
+        "credibility": 10.0,
         "impact": 9.8,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-13T07:46:00+00:00",
-      "last_updated": "2026-11-13T14:21:26+00:00",
-      "source_count": 3,
+      "first_seen": "2026-11-13T11:43:27+00:00",
+      "last_updated": "2026-11-13T21:14:22+00:00",
+      "source_count": 2,
       "article_count": 5,
       "sources": [
         "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
+        "BBC World"
       ],
       "regions": [
         "Europe",
         "Middle East"
       ],
       "keywords": [
-        "microsoft",
         "outage",
-        "global",
-        "outlook",
+        "microsoft",
         "teams",
+        "outlook",
         "services",
-        "malicious",
-        "worldwide"
+        "global",
+        "server",
+        "including"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的科技AI事件为“Microsoft outage live: Outlook, Teams recover as disruptions continue”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的5篇报道，当前关注的科技AI事件为“Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Why",
           "Microsoft",
-          "You",
-          "Global Microsoft",
+          "Why",
+          "No",
+          "Workers",
           "Microsoft Teams",
-          "Outlook Microsoft",
-          "Outlook",
-          "Teams"
+          "Outlook"
         ],
         "latest_progress": [
-          "11月13日 14:21 UTC，BBC World报道：“Why is the Microsoft outage lasting so long?”。",
-          "11月13日 12:40 UTC，Al Jazeera报道：“You haven’t got mail: Global Microsoft outage disrupts services”。",
-          "11月13日 11:43 UTC，BBC World报道：“Watch: How a server outage took down Microsoft Teams and Outlook”。"
+          "11月13日 21:14 UTC，BBC World报道：“Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption”。",
+          "11月13日 20:16 UTC，Al Jazeera报道：“Microsoft says services still returning amid widespread outage”。",
+          "11月13日 18:36 UTC，BBC World报道：“Why is Microsoft's outage lasting so long and will emails be lost?”。"
         ],
         "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
         "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
@@ -74,30 +76,60 @@
       },
       "articles": [
         {
+          "article_id": "art_5884cd8d4a8bcc5a9d89",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_campaign=rss&at_medium=RSS",
+          "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+          "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-13T21:14:22+00:00",
+          "fetched_at": "2026-11-13T22:38:11.271641+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg"
+        },
+        {
+          "article_id": "art_129a3b37b25ba1956e7b",
+          "url": "https://www.aljazeera.com/news/2026/11/13/microsoft-says-services-still-returning-amid-widespread-outage?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/microsoft-says-services-still-returning-amid-widespread-outage?traffic_source=rss",
+          "title": "Microsoft says services still returning amid widespread outage",
+          "summary": "Governments, businesses, individuals were disrupted globally as server failures stretch into second day.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-13T20:16:13+00:00",
+          "fetched_at": "2026-11-13T22:38:11.939835+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_18469262ada2debba4f8",
           "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_campaign=rss&at_medium=RSS",
-          "title": "Why is the Microsoft outage lasting so long?",
-          "summary": "Microsoft says it is seeing \"improvements\" following a global outage but efforts to fully resume services are ongoing.",
+          "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+          "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-13T14:21:26+00:00",
-          "fetched_at": "2026-11-13T16:22:08.550400+00:00",
+          "published_at": "2026-11-13T18:36:57+00:00",
+          "fetched_at": "2026-11-13T22:38:11.271770+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg"
         },
         {
-          "article_id": "art_387ae1f5b3c2481f7d1d",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
-          "title": "You haven’t got mail: Global Microsoft outage disrupts services",
-          "summary": "Not receiving your work emails? That’s because Microsoft has been hit by a global outage.",
+          "article_id": "art_1f816e0da34359ddd6ad",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/no-emails-no-problem-workers-joke-about-microsoft-outage?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/no-emails-no-problem-workers-joke-about-microsoft-outage?traffic_source=rss",
+          "title": "No emails, no problem? Workers joke about Microsoft outage",
+          "summary": "Workers worldwide have been finding humour in a global Microsoft outage that disrupted Outlook, Teams and Copilot.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-13T12:40:11+00:00",
-          "fetched_at": "2026-11-13T16:22:09.378072+00:00",
+          "published_at": "2026-11-13T17:55:05+00:00",
+          "fetched_at": "2026-11-13T22:38:11.940656+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -112,152 +144,30 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-13T11:43:27+00:00",
-          "fetched_at": "2026-11-13T16:22:08.550502+00:00",
+          "fetched_at": "2026-11-13T22:38:11.271875+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_d64ff284a8d3087e4b25",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
-          "title": "Microsoft outage live: Outlook, Teams recover as disruptions continue",
-          "summary": "After disruption affects users worldwide, Microsoft says some services are getting back to normal.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-13T11:18:01+00:00",
-          "fetched_at": "2026-11-13T16:22:09.378487+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f99021e9522df28fca0d",
-          "url": "https://www.dw.com/en/microsoft-rules-out-malicious-activity-as-cause-for-global-outage/a-79935611?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/microsoft-rules-out-malicious-activity-as-cause-for-global-outage/a-79935611?maca=en-rss-en-top-1022-rdf",
-          "title": "Microsoft rules out 'malicious activity' as cause for global outage",
-          "summary": "A Microsoft outage disrupted Outlook and Teams worldwide, with reports from scores of countries and territories. The software giant said that it was \"not aware\" of malicious activity that could have caused the outage.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-13T07:46:00+00:00",
-          "fetched_at": "2026-11-13T16:22:09.036162+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_e862caf417573d898c37",
-      "title": "Iran threatens unlimited response over Strait of Hormuz after US attack",
-      "category": "军事安全",
-      "score": 72.2,
+      "event_id": "evt_0ba956389e457e7ce52d",
+      "title": "At least 24 killed after bus collides with truck in north-east India",
+      "category": "社会突发",
+      "score": 66.6,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.2,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-13T10:54:25+00:00",
-      "last_updated": "2026-11-13T15:32:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "iran",
-        "radar",
-        "bahrain",
-        "strait",
-        "hormuz",
-        "threatens",
-        "unlimited",
-        "response"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Iran threatens unlimited response over Strait of Hormuz after US attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Iran",
-          "US",
-          "Bahrain Iran",
-          "Strait",
-          "Hormuz"
-        ],
-        "latest_progress": [
-          "11月13日 15:32 UTC，DW Top Stories报道：“Iran targeted US radar system in Bahrain”。",
-          "11月13日 10:54 UTC，Al Jazeera报道：“Iran threatens unlimited response over Strait of Hormuz after US attack”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_15cf1d01f4392f77a6a5",
-          "url": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640?maca=en-rss-en-top-1022-rdf",
-          "title": "Iran targeted US radar system in Bahrain",
-          "summary": "Iran claimed it struck US radar systems in Bahrain, while the US said it had intercepted the attacks. Clashes continue in the Strait of Hormuz, as the war remains in a state of de-escalation.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-13T15:32:00+00:00",
-          "fetched_at": "2026-11-13T16:22:09.035289+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8ec3be04a5be1a15b938",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
-          "title": "Iran threatens unlimited response over Strait of Hormuz after US attack",
-          "summary": "Iran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-13T10:54:25+00:00",
-          "fetched_at": "2026-11-13T16:22:09.378623+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_71bcf64babd578df877b",
-      "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-      "category": "军事安全",
-      "score": 69.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.7,
+        "recency": 16.7,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-13T11:51:57+00:00",
-      "last_updated": "2026-11-13T12:28:28+00:00",
+      "first_seen": "2026-11-13T15:16:50+00:00",
+      "last_updated": "2026-11-13T16:01:45+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -269,470 +179,88 @@
         "Middle East"
       ],
       "keywords": [
-        "iran",
-        "nuclear",
-        "watchdog",
-        "enrichment",
-        "plant",
-        "calls",
-        "reopen",
-        "facilities"
+        "bus",
+        "least",
+        "killed",
+        "truck",
+        "india",
+        "several",
+        "collides",
+        "north-east"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“UN watchdog 'increasingly concerned' over uninspected Iran nuclear site”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“At least 24 killed after bus collides with truck in north-east India”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "UN",
-          "Iran"
+          "Truck",
+          "India",
+          "Assam",
+          "At"
         ],
         "latest_progress": [
-          "11月13日 12:28 UTC，BBC World报道：“UN watchdog 'increasingly concerned' over uninspected Iran nuclear site”。",
-          "11月13日 11:51 UTC，Al Jazeera报道：“UN watchdog calls on Iran to reopen nuclear facilities to inspection”。"
+          "11月13日 16:01 UTC，Al Jazeera报道：“Truck and bus crash in India’s Assam state kills at least 24 people”。",
+          "11月13日 15:16 UTC，BBC World报道：“At least 24 killed after bus collides with truck in north-east India”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_d52e705089cdebe03263",
-          "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_campaign=rss&at_medium=RSS",
-          "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-          "summary": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
+          "article_id": "art_08f463dd74bf31e7695b",
+          "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
+          "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
+          "summary": "Several children and the bus driver were among those killed, officials said, with the death toll expected to rise.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-13T16:01:45+00:00",
+          "fetched_at": "2026-11-13T22:38:11.941190+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_26713b63114e62886741",
+          "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_campaign=rss&at_medium=RSS",
+          "title": "At least 24 killed after bus collides with truck in north-east India",
+          "summary": "Several of the deceased are college students, according to local official Atul Bora, but they have not yet been publicly identified.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-13T12:28:28+00:00",
-          "fetched_at": "2026-11-13T16:22:08.550734+00:00",
+          "published_at": "2026-11-13T15:16:50+00:00",
+          "fetched_at": "2026-11-13T22:38:11.272718+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d06a/live/954609a0-df57-11f1-93e1-3b657b665bcf.jpg"
-        },
-        {
-          "article_id": "art_97a30dc29e82cf30ac3f",
-          "url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
-          "title": "UN watchdog calls on Iran to reopen nuclear facilities to inspection",
-          "summary": "IAEA says it cannot verify whether an underground Iranian enrichment plant contains nuclear material.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-13T11:51:57+00:00",
-          "fetched_at": "2026-11-13T16:22:09.378420+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_441b0a213ff4870fce4d",
-      "title": "Russia and Ukraine report overnight attacks amid US diplomatic push",
-      "category": "军事安全",
-      "score": 68.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.0,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-13T10:00:00+00:00",
-      "last_updated": "2026-11-13T10:11:38+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "ukraine",
-        "russia",
-        "second",
-        "car",
-        "bomb",
-        "two",
-        "days",
-        "overnight"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Russia and Ukraine report overnight attacks amid US diplomatic push”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russia",
-          "Ukraine",
-          "US"
-        ],
-        "latest_progress": [
-          "11月13日 10:11 UTC，Al Jazeera报道：“Russia and Ukraine report overnight attacks amid US diplomatic push”。",
-          "11月13日 10:00 UTC，DW Top Stories报道：“Ukraine updates: Russia hit with second car bomb attack in two days”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_0cb25a6d39d539f84668",
-          "url": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push?traffic_source=rss",
-          "title": "Russia and Ukraine report overnight attacks amid US diplomatic push",
-          "summary": "Russia and Ukraine continue attacks as US efforts to broker a ceasefire struggle to make progress.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-13T10:11:38+00:00",
-          "fetched_at": "2026-11-13T16:22:09.378827+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_eb12d3d55e38f8b484f2",
-          "url": "https://www.dw.com/en/ukraine-updates-russia-hit-with-second-car-bomb-attack-in-two-days/live-79937459?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-updates-russia-hit-with-second-car-bomb-attack-in-two-days/live-79937459?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine updates: Russia hit with second car bomb attack in two days",
-          "summary": "A second car bomb in two days exploded in Moscow, targeting an exiled Ukrainian political aide, according to Russian media. Meanwhile, Ukraine and Russia exchanged deadly strikes overnight. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-13T10:00:00+00:00",
-          "fetched_at": "2026-11-13T16:22:09.035703+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0b49e01513645c135dda",
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "category": "国际政治",
-      "score": 67.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.4,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 2.2
-      },
-      "first_seen": "2026-11-13T02:01:35+00:00",
-      "last_updated": "2026-11-13T15:43:39+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "europe",
-        "peace",
-        "talks",
-        "leaders",
-        "ukraine",
-        "zelensky",
-        "welcomes",
-        "bringing"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Europe",
-          "Ukraine",
-          "Zelensky",
-          "US",
-          "Russia"
-        ],
-        "latest_progress": [
-          "11月13日 15:43 UTC，Al Jazeera报道：“Europe seeks seat at Ukraine peace talks but lacks unified voice”。",
-          "11月13日 02:01 UTC，BBC World报道：“Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_13422bd7d17cd707e55d",
-          "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice?traffic_source=rss",
-          "title": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
-          "summary": "EU leaders believe a US-backed process will allow Moscow and Washington to decide the fate of a conflict.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-13T15:43:39+00:00",
-          "fetched_at": "2026-11-13T16:22:09.377285+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4e5b28f87f60c31fc2af",
-          "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_campaign=rss&at_medium=RSS",
-          "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-          "summary": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-13T02:01:35+00:00",
-          "fetched_at": "2026-11-13T16:22:08.550662+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9462/live/a60e9f80-df2b-11f1-a701-fddedf244c16.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_2ff4795ae1572b9b71d0",
-      "title": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
-      "category": "国际政治",
-      "score": 66.9,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.4,
-        "credibility": 9.7,
-        "impact": 11.0,
-        "velocity": 1.7
-      },
-      "first_seen": "2026-11-12T09:38:46+00:00",
-      "last_updated": "2026-11-13T12:06:56+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "talks",
-        "putin",
-        "abu",
-        "dhabi",
-        "meet",
-        "zelenskyy",
-        "ukraine",
-        "russian"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的3篇报道，当前关注的国际政治事件为“Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Why",
-          "Ukraine",
-          "Russian",
-          "Baltic Sea",
-          "Putin",
-          "Kremlin",
-          "Abu Dhabi",
-          "Zelenskyy"
-        ],
-        "latest_progress": [
-          "11月13日 12:06 UTC，Al Jazeera报道：“Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?”。",
-          "11月12日 15:26 UTC，NPR World报道：“U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi”。",
-          "11月12日 09:38 UTC，NPR World报道：“U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9c7ae3f290390ec36b28",
-          "url": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks?traffic_source=rss",
-          "title": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
-          "summary": "Finland says Ukraine struck a Russian warship near its coast as Kyiv and Moscow held US-brokered talks in Abu Dhabi.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-13T12:06:56+00:00",
-          "fetched_at": "2026-11-13T16:22:09.378220+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6b73f0b62348ddebd0db",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
-          "canonical_url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
-          "title": "U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
-          "summary": "Jared Kushner and Steve Witkoff went to the Kremlin to brief Russian President Vladimir Putin and are scheduled to fly later to Ireland for talks with Ukrainian President Volodymyr Zelenskyy.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-12T15:26:34+00:00",
-          "fetched_at": "2026-11-13T16:22:09.180541+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_116386692e0e1b28db85",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks",
-          "canonical_url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks",
-          "title": "U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks",
-          "summary": "U.S.-mediated talks in Abu Dhabi have wrapped up with an agreement on a Russia-Ukraine prisoner exchange. U.S. negotiators meet with Vladimir Putin on Thursday and Volodymyr Zelenskyy on Friday.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-12T09:38:46+00:00",
-          "fetched_at": "2026-11-13T16:22:09.180887+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0dc30587dd3e408cb08f",
-      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian emergency",
-      "category": "军事安全",
-      "score": 63.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.5,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 1.2
-      },
-      "first_seen": "2026-11-12T09:29:50+00:00",
-      "last_updated": "2026-11-13T09:30:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories",
-        "NPR World"
-      ],
-      "regions": [
-        "Europe",
-        "North America"
-      ],
-      "keywords": [
-        "gaza",
-        "humanitarian",
-        "israel",
-        "thousands",
-        "tents",
-        "peace",
-        "aid",
-        "groups"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的军事安全事件为“Aid groups call on Israel to allow shelters in Gaza amid a humanitarian emergency”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Humanitarian",
-          "Gaza",
-          "Aid",
-          "Israel"
-        ],
-        "latest_progress": [
-          "11月13日 09:30 UTC，DW Top Stories报道：“Humanitarian situation in Gaza worsens amid political deadlock”。",
-          "11月12日 09:29 UTC，NPR World报道：“Aid groups call on Israel to allow shelters in Gaza amid a humanitarian emergency”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2469ae2211e21010540c",
-          "url": "https://www.dw.com/en/humanitarian-situation-in-gaza-worsens-amid-political-deadlock/a-79931403?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/humanitarian-situation-in-gaza-worsens-amid-political-deadlock/a-79931403?maca=en-rss-en-top-1022-rdf",
-          "title": "Humanitarian situation in Gaza worsens amid political deadlock",
-          "summary": "In war-battered Gaza, heavy rain flooded and damaged thousands of tents. Several people died. Could pressure by Trump's Board of Peace on Israel and Hamas help to ease the humanitarian crisis amid stalled peace talks?",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-13T09:30:00+00:00",
-          "fetched_at": "2026-11-13T16:22:09.035760+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3d7ae6ba33672f45b8ee",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6035686/aid-groups-call-on-israel-to-allow-shelters-in-gaza-amid-a-humanitarian-emergency",
-          "canonical_url": "https://www.npr.org/2026/11/12/nx-s1-6035686/aid-groups-call-on-israel-to-allow-shelters-in-gaza-amid-a-humanitarian-emergency",
-          "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian emergency",
-          "summary": "Winter storms have brought flooding and deadly landslides to thousands living in tents in Gaza. Palestinians have no where to go after years of devasting war.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-12T09:29:50+00:00",
-          "fetched_at": "2026-11-13T16:22:09.181019+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6d0/live/abb1cd00-df75-11f1-b844-3146c4983677.jpg"
         }
       ]
     },
     {
       "event_id": "evt_2b463e34ef19277f7965",
-      "title": "Turkiye and Qatar sign mutual defence agreement",
+      "title": "Qatar and Turkiye send message of deterrence with new defence pact",
       "category": "军事安全",
-      "score": 62.6,
+      "score": 65.5,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.5,
+        "recency": 20.4,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-11-13T15:49:51+00:00",
-      "last_updated": "2026-11-13T15:49:51+00:00",
+      "last_updated": "2026-11-13T20:48:02+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "sources": [
         "Al Jazeera"
       ],
@@ -742,21 +270,22 @@
       "keywords": [
         "turkiye",
         "qatar",
-        "sign",
-        "mutual",
         "defence",
-        "agreement",
-        "breaking",
-        "story"
+        "pact",
+        "mutual",
+        "signed",
+        "sign",
+        "agreement"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Turkiye and Qatar sign mutual defence agreement”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Qatar and Turkiye send message of deterrence with new defence pact”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Turkiye",
-          "Qatar"
+          "Qatar",
+          "Turkiye"
         ],
         "latest_progress": [
+          "11月13日 20:48 UTC，Al Jazeera报道：“Qatar and Turkiye send message of deterrence with new defence pact”。",
           "11月13日 15:49 UTC，Al Jazeera报道：“Turkiye and Qatar sign mutual defence agreement”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -770,15 +299,30 @@
       },
       "articles": [
         {
+          "article_id": "art_5129560815f0aa4333b8",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+          "title": "Qatar and Turkiye send message of deterrence with new defence pact",
+          "summary": "Qatar and Turkiye have signed a mutual defence pact, deepening their partnership amid growing regional instability.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-13T20:48:02+00:00",
+          "fetched_at": "2026-11-13T22:38:11.939469+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_9ece6a28d13756cca544",
           "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
           "canonical_url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
           "title": "Turkiye and Qatar sign mutual defence agreement",
-          "summary": "This is a breaking news story.",
+          "summary": "The pact was signed after ​the President met Qatari Emir Sheikh Tamim ‌‌bin Hamad ​Al Thani in Istanbul on ⁠⁠Friday.",
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-13T15:49:51+00:00",
-          "fetched_at": "2026-11-13T16:22:09.377206+00:00",
+          "fetched_at": "2026-11-13T22:38:11.941275+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -787,50 +331,50 @@
       ]
     },
     {
-      "event_id": "evt_c963f476b85467e41c90",
-      "title": "Why does El Salvador's Bukele have troops in Haiti?",
+      "event_id": "evt_4e0f1e2b66db0eed3191",
+      "title": "What's Trump's strategy now with Iran? To keep things as they are",
       "category": "军事安全",
-      "score": 61.9,
+      "score": 59.5,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.3,
+        "recency": 18.9,
         "credibility": 9.5,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-13T15:37:00+00:00",
-      "last_updated": "2026-11-13T15:37:00+00:00",
+      "first_seen": "2026-11-13T19:02:04+00:00",
+      "last_updated": "2026-11-13T19:02:04+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "DW Top Stories"
+        "NPR World"
       ],
       "regions": [
-        "Europe"
+        "North America"
       ],
       "keywords": [
-        "does",
-        "salvador's",
-        "haiti",
-        "bukele",
-        "troops",
-        "haiti's",
-        "prime",
-        "minister"
+        "iran",
+        "what's",
+        "trump's",
+        "strategy",
+        "now",
+        "keep",
+        "things",
+        "they"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Why does El Salvador's Bukele have troops in Haiti?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“What's Trump's strategy now with Iran? To keep things as they are”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Why",
-          "El Salvador",
-          "Bukele",
-          "Haiti"
+          "What",
+          "Trump",
+          "Iran",
+          "To"
         ],
         "latest_progress": [
-          "11月13日 15:37 UTC，DW Top Stories报道：“Why does El Salvador's Bukele have troops in Haiti?”。"
+          "11月13日 19:02 UTC，NPR World报道：“What's Trump's strategy now with Iran? To keep things as they are”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -843,38 +387,38 @@
       },
       "articles": [
         {
-          "article_id": "art_f51ce8e1c609b382d9f1",
-          "url": "https://www.dw.com/en/why-does-el-salvador-s-bukele-have-troops-in-haiti/a-79940771?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/why-does-el-salvador-s-bukele-have-troops-in-haiti/a-79940771?maca=en-rss-en-top-1022-rdf",
-          "title": "Why does El Salvador's Bukele have troops in Haiti?",
-          "summary": "Haiti's Prime Minister congratulating El Salvador's President for a gang crackdown in Haiti has shone a light on the relationship between the two countries. What's going on, and where does the US stand?",
-          "source": "DW Top Stories",
+          "article_id": "art_bc814ae71b02d54fd196",
+          "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+          "canonical_url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+          "title": "What's Trump's strategy now with Iran? To keep things as they are",
+          "summary": "President Trump says the \"status quo\" is what Gulf Arab allies want as the Iran war hits a stalemate and the U.S. midterms force a pivot from threats of attacks to economic pressure.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-11-13T15:37:00+00:00",
-          "fetched_at": "2026-11-13T16:22:09.035222+00:00",
+          "published_at": "2026-11-13T19:02:04+00:00",
+          "fetched_at": "2026-11-13T22:38:11.794164+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_e78c34faf9cac6ccd8e4",
-      "title": "Will Democrats try to strip US-Israel initiative from Pentagon funding?",
+      "event_id": "evt_7ffa1adf074640392199",
+      "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
       "category": "军事安全",
-      "score": 61.9,
+      "score": 59.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.8,
+        "recency": 18.2,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-13T15:02:16+00:00",
-      "last_updated": "2026-11-13T15:02:16+00:00",
+      "first_seen": "2026-11-13T18:09:05+00:00",
+      "last_updated": "2026-11-13T18:09:05+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -884,26 +428,24 @@
         "Middle East"
       ],
       "keywords": [
-        "funding",
-        "democrats",
-        "try",
-        "strip",
-        "us-israel",
-        "initiative",
-        "pentagon",
-        "midterm"
+        "soldiers",
+        "iran-iraq",
+        "war",
+        "iran",
+        "honours",
+        "fallen",
+        "missile",
+        "display"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Will Democrats try to strip US-Israel initiative from Pentagon funding?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran honours fallen soldiers in Iran-Iraq war with missile display”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Will Democrats",
-          "US",
-          "Israel",
-          "Pentagon"
+          "Iran",
+          "Iraq"
         ],
         "latest_progress": [
-          "11月13日 15:02 UTC，Al Jazeera报道：“Will Democrats try to strip US-Israel initiative from Pentagon funding?”。"
+          "11月13日 18:09 UTC，Al Jazeera报道：“Iran honours fallen soldiers in Iran-Iraq war with missile display”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -916,19 +458,378 @@
       },
       "articles": [
         {
-          "article_id": "art_fe7437669760068d0ab7",
-          "url": "https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding?traffic_source=rss",
-          "title": "Will Democrats try to strip US-Israel initiative from Pentagon funding?",
-          "summary": "Midterm gains give party room to overhaul NDAA funding, including provision to integrate US-Israeli military industries.",
+          "article_id": "art_71c7be67a1fe0eeccae0",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+          "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
+          "summary": "Thousands gathered in Tehran for a mass funeral honouring 110 unidentified soldiers killed in the Iran-Iraq war.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-13T15:02:16+00:00",
-          "fetched_at": "2026-11-13T16:22:09.377359+00:00",
+          "published_at": "2026-11-13T18:09:05+00:00",
+          "fetched_at": "2026-11-13T22:38:11.940479+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9e990898efb8069a0b97",
+      "title": "Paraguay’s ex-president Pena faces new charge over Ueno bank collapse",
+      "category": "国际政治",
+      "score": 59.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.0,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-13T20:18:09+00:00",
+      "last_updated": "2026-11-13T20:18:09+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "charge",
+        "bank",
+        "collapse",
+        "paraguay",
+        "ex-president",
+        "pena",
+        "faces",
+        "ueno"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Paraguay’s ex-president Pena faces new charge over Ueno bank collapse”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Paraguay",
+          "Pena",
+          "Ueno"
+        ],
+        "latest_progress": [
+          "11月13日 20:18 UTC，Al Jazeera报道：“Paraguay’s ex-president Pena faces new charge over Ueno bank collapse”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7e0a595bab9685412d03",
+          "url": "https://www.aljazeera.com/news/2026/11/13/paraguays-ex-president-pena-faces-new-charge-over-ueno-bank-collapse?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/paraguays-ex-president-pena-faces-new-charge-over-ueno-bank-collapse?traffic_source=rss",
+          "title": "Paraguay’s ex-president Pena faces new charge over Ueno bank collapse",
+          "summary": "The criminal association charge over his alleged role in the collapse of the bank comes a week after his removal.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-13T20:18:09+00:00",
+          "fetched_at": "2026-11-13T22:38:11.939743+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1090a28d1c77d3675433",
+      "title": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
+      "category": "能源资源",
+      "score": 58.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.2,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-13T19:23:05+00:00",
+      "last_updated": "2026-11-13T19:23:05+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "irgc",
+        "caught",
+        "fire",
+        "hitting",
+        "mines",
+        "strait",
+        "hormuz",
+        "tanker"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“IRGC says tanker caught fire after hitting mines in Strait of Hormuz”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "IRGC",
+          "Strait",
+          "Hormuz"
+        ],
+        "latest_progress": [
+          "11月13日 19:23 UTC，Al Jazeera报道：“IRGC says tanker caught fire after hitting mines in Strait of Hormuz”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_54805544107fc2f07bcb",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+          "title": "IRGC says tanker caught fire after hitting mines in Strait of Hormuz",
+          "summary": "A liquefied gas carrier caught fire in the Strait of Hormuz after hitting naval mines, according to the IRGC.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-13T19:23:05+00:00",
+          "fetched_at": "2026-11-13T22:38:11.940126+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c832d3c4cf289ed0ad11",
+      "title": "The dangers of revising Europe's security architecture",
+      "category": "军事安全",
+      "score": 58.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 17.8,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-13T17:30:00+00:00",
+      "last_updated": "2026-11-13T17:30:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "security",
+        "revising",
+        "europe's",
+        "dangers",
+        "architecture",
+        "experts",
+        "warn",
+        "against"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“The dangers of revising Europe's security architecture”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Europe"
+        ],
+        "latest_progress": [
+          "11月13日 17:30 UTC，DW Top Stories报道：“The dangers of revising Europe's security architecture”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_8aa40c9d4e2006eedbb5",
+          "url": "https://www.dw.com/en/the-dangers-of-revising-europe-s-security-architecture/a-79943049?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/the-dangers-of-revising-europe-s-security-architecture/a-79943049?maca=en-rss-en-top-1022-rdf",
+          "title": "The dangers of revising Europe's security architecture",
+          "summary": "Experts warn against revising Europe's security framework because they say it would mean granting Moscow its longstanding wish of renegotiating postwar security on the continent.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-13T17:30:00+00:00",
+          "fetched_at": "2026-11-13T22:38:11.698653+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b9e39f9e85d40fcf42aa",
+      "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
+      "category": "军事安全",
+      "score": 58.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 17.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-13T16:44:56+00:00",
+      "last_updated": "2026-11-13T16:44:56+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "car",
+        "bombings",
+        "russia",
+        "kill",
+        "military",
+        "officer",
+        "injure",
+        "ex-ukraine"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Car",
+          "Russia",
+          "Ukraine",
+          "PM"
+        ],
+        "latest_progress": [
+          "11月13日 16:44 UTC，Al Jazeera报道：“Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_98dd0c8c74a50a5a8b9b",
+          "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss",
+          "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
+          "summary": "Moscow blames Kyiv for a series of car bombings that have targeted people linked to the war with Ukraine.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-13T16:44:56+00:00",
+          "fetched_at": "2026-11-13T22:38:11.940835+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c834deb1b0ba444d3546",
+      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "category": "军事安全",
+      "score": 58.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 17.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-13T16:40:31+00:00",
+      "last_updated": "2026-11-13T16:40:31+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "rosenberg",
+        "uncompromising",
+        "putin",
+        "ups",
+        "demands",
+        "peace",
+        "ukraine",
+        "fact"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Rosenberg: Uncompromising Putin ups demands for peace with Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Rosenberg",
+          "Uncompromising Putin",
+          "Ukraine"
+        ],
+        "latest_progress": [
+          "11月13日 16:40 UTC，BBC World报道：“Rosenberg: Uncompromising Putin ups demands for peace with Ukraine”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_30ed482e0c9372486da6",
+          "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_campaign=rss&at_medium=RSS",
+          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+          "summary": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-13T16:40:31+00:00",
+          "fetched_at": "2026-11-13T22:38:11.271975+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a8d/live/606ff370-df85-11f1-93e1-3b657b665bcf.jpg"
         }
       ]
     }
