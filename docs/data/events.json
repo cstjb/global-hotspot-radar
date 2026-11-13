@@ -1,23 +1,28 @@
 {
-  "generated_at": "2026-11-12T18:55:44.152637+00:00",
+  "generated_at": "2026-11-13T00:23:41.317203+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 187,
-    "articles_unique": 182,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 137,
+    "articles_unique": 136,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
       "event_id": "evt_c21145fe6dc2f378161d",
       "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
       "category": "军事安全",
-      "score": 88.8,
+      "score": 82.7,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 16.1,
         "source_diversity": 14.4,
         "region_diversity": 7.5,
-        "recency": 21.2,
+        "recency": 16.9,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
@@ -25,7 +30,7 @@
       "first_seen": "2026-11-12T09:29:30+00:00",
       "last_updated": "2026-11-12T18:03:02+00:00",
       "source_count": 4,
-      "article_count": 5,
+      "article_count": 4,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -43,27 +48,26 @@
         "strike",
         "israel",
         "israeli",
-        "nasser",
         "hamas",
-        "kills"
+        "kills",
+        "people"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的军事安全事件为“Israeli strike on Gaza hospital kills six Palestinians, health ministry says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“Israeli strike on Gaza hospital kills six Palestinians, health ministry says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Al Jazeera",
           "Gaza",
-          "Israel Jerusalem Daily",
-          "Nasser Hospital",
-          "Israeli",
+          "Israel Israeli",
           "Palestinians",
           "Israel",
-          "Hamas"
+          "Hamas",
+          "An Israeli"
         ],
         "latest_progress": [
           "11月12日 18:03 UTC，Al Jazeera报道：“Al Jazeera reports from Gaza hospital attacked by Israel”。",
-          "11月12日 16:55 UTC，Al Jazeera报道：“Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike”。",
-          "11月12日 16:54 UTC，BBC World报道：“Israeli strike on Gaza hospital kills six Palestinians, health ministry says”。"
+          "11月12日 16:54 UTC，BBC World报道：“Israeli strike on Gaza hospital kills six Palestinians, health ministry says”。",
+          "11月12日 11:27 UTC，DW Top Stories报道：“Israel strikes Gaza hospital, says Hamas senior figure inside”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -84,22 +88,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-12T18:03:02+00:00",
-          "fetched_at": "2026-11-12T18:55:42.559146+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_b096139e83fdabc90b54",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
-          "title": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
-          "summary": "For the seventh time, Israel has targeted Gaza’s Nasser Hospital in an air strike.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-12T16:55:10+00:00",
-          "fetched_at": "2026-11-12T18:55:42.559540+00:00",
+          "fetched_at": "2026-11-13T00:23:39.890662+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -114,7 +103,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-12T16:54:12+00:00",
-          "fetched_at": "2026-11-12T18:55:41.623747+00:00",
+          "fetched_at": "2026-11-13T00:23:39.223239+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -129,7 +118,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-12T11:27:00+00:00",
-          "fetched_at": "2026-11-12T18:55:42.189509+00:00",
+          "fetched_at": "2026-11-13T00:23:39.734261+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -139,12 +128,12 @@
           "article_id": "art_4b1d44aca47838194a83",
           "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
           "canonical_url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
-          "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
-          "summary": "The victims included a surgeon, and dozens more were injured. Israel said it was targeting a Hamas commander and other militants.",
+          "title": "An Israeli strike on a Gaza hospital kills 6 people, including a doctor and a child",
+          "summary": "The victims included a surgeon, and dozens more were injured. Israel said it was targeting a Hamas commander and other militants. The commander was not found among the dead.",
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-12T09:29:30+00:00",
-          "fetched_at": "2026-11-12T18:55:42.437545+00:00",
+          "fetched_at": "2026-11-13T00:23:39.812266+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -153,23 +142,23 @@
       ]
     },
     {
-      "event_id": "evt_cbd5d882f98fcaabb3c4",
-      "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
-      "category": "经济金融",
-      "score": 82.6,
+      "event_id": "evt_a6c898ebf7bc364cc340",
+      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "category": "科技AI",
+      "score": 79.6,
       "score_breakdown": {
-        "coverage": 19.5,
+        "coverage": 17.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 20.7,
+        "recency": 21.3,
         "credibility": 9.9,
-        "impact": 11.7,
+        "impact": 9.8,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-12T13:55:07+00:00",
-      "last_updated": "2026-11-12T17:25:58+00:00",
+      "first_seen": "2026-11-12T15:08:00+00:00",
+      "last_updated": "2026-11-12T23:34:05+00:00",
       "source_count": 3,
-      "article_count": 6,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
         "BBC World",
@@ -184,36 +173,84 @@
         "jensen",
         "nvidia",
         "ceo",
-        "affair",
         "down",
-        "resigns",
-        "tech"
+        "affair",
+        "spy",
+        "second"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的6篇报道，当前关注的经济金融事件为“The rise and fall of Jensen Huang - how the tech superstar became mired in scandal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的科技AI事件为“Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
+          "Scandal",
           "Nvidia",
           "CEO",
           "Jensen Huang",
-          "Spy",
-          "LIVE"
+          "AI",
+          "Why",
+          "Colette Kress",
+          "Spy"
         ],
         "latest_progress": [
-          "11月12日 17:25 UTC，Al Jazeera报道：“Nvidia CEO Jensen Huang steps down, more affair details revealed”。",
-          "11月12日 17:11 UTC，BBC World报道：“The rise and fall of Jensen Huang - how the tech superstar became mired in scandal”。",
-          "11月12日 15:08 UTC，DW Top Stories报道：“Jensen Huang: Spy row, second affair leaves Nvidia without its rockstar CEO”。"
+          "11月12日 23:34 UTC，BBC World报道：“Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil”。",
+          "11月12日 19:45 UTC，Al Jazeera报道：“Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?”。",
+          "11月12日 19:33 UTC，BBC World报道：“Jensen Huang has resigned, what's next for Nvidia?”。"
         ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_c2388c723a7348aa7b4e",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_campaign=rss&at_medium=RSS",
+          "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+          "summary": "US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-12T23:34:05+00:00",
+          "fetched_at": "2026-11-13T00:23:39.221836+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg"
+        },
+        {
+          "article_id": "art_97238466f698afcc9ab7",
+          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress?traffic_source=rss",
+          "title": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+          "summary": "Huang has stepped down amid revelations about extramarital affairs and allegations of Chinese espionage.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-12T19:45:40+00:00",
+          "fetched_at": "2026-11-13T00:23:39.889551+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f84aab3fe89770071666",
+          "url": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_campaign=rss&at_medium=RSS",
+          "title": "Jensen Huang has resigned, what's next for Nvidia?",
+          "summary": "The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-12T19:33:37+00:00",
+          "fetched_at": "2026-11-13T00:23:39.226087+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2742/live/64baf7c0-dece-11f1-93e1-3b657b665bcf.jpg"
+        },
         {
           "article_id": "art_fc03957bbad0deded96b",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/nvidia-ceo-jensen-huang-steps-down-more-affair-details-revealed?traffic_source=rss",
@@ -223,26 +260,11 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-12T17:25:58+00:00",
-          "fetched_at": "2026-11-12T18:55:42.559346+00:00",
+          "fetched_at": "2026-11-13T00:23:39.890961+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
-        {
-          "article_id": "art_b973c742fd322e193f0d",
-          "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_campaign=rss&at_medium=RSS",
-          "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
-          "summary": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-12T17:11:48+00:00",
-          "fetched_at": "2026-11-12T18:55:41.625584+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b83b/live/928866f0-deac-11f1-b441-2b33b063138f.jpg"
         },
         {
           "article_id": "art_c5e9fafbf2d8a2cbc778",
@@ -253,75 +275,30 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-12T15:08:00+00:00",
-          "fetched_at": "2026-11-12T18:55:42.189225+00:00",
+          "fetched_at": "2026-11-13T00:23:39.733794+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_4c8f69d5a489476bc518",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/12/live-jensen-huang-resigns-as-nvidia-ceo-as-affairs-raise-security-concerns?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/12/live-jensen-huang-resigns-as-nvidia-ceo-as-affairs-raise-security-concerns?traffic_source=rss",
-          "title": "LIVE: Jensen Huang resigns as Nvidia CEO as affairs raise security concerns",
-          "summary": "Jensen Huang, 63, has resigned as chief executive of AI giant Nvidia, according to the company.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-12T14:44:54+00:00",
-          "fetched_at": "2026-11-12T18:55:42.560482+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_bdded12e09c32f4fbc56",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/nvidia-ceo-jensen-huang-resigns?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/nvidia-ceo-jensen-huang-resigns?traffic_source=rss",
-          "title": "Nvidia CEO Jensen Huang resigns",
-          "summary": "Nvidia CEO Jensen Huang has resigned amid reports of a second affair with an executive.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-12T14:40:20+00:00",
-          "fetched_at": "2026-11-12T18:55:42.560566+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_11c2c73b1b044fee5f84",
-          "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo?traffic_source=rss",
-          "title": "Nvidia CEO Jensen Huang resigns amid spy scandal and market loss",
-          "summary": "Tech giant's market value drops below $4 trillion after Huang steps down following espionage and affair allegations.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-12T13:55:07+00:00",
-          "fetched_at": "2026-11-12T18:55:42.561032+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_f3b8b6771c3c39078305",
-      "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+      "event_id": "evt_2ff4795ae1572b9b71d0",
+      "title": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
       "category": "国际政治",
-      "score": 81.0,
+      "score": 79.3,
       "score_breakdown": {
         "coverage": 17.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.6,
+        "recency": 19.9,
         "credibility": 9.6,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-12T06:35:00+00:00",
-      "last_updated": "2026-11-12T18:28:59+00:00",
+      "first_seen": "2026-11-12T09:38:46+00:00",
+      "last_updated": "2026-11-12T22:00:00+00:00",
       "source_count": 3,
       "article_count": 5,
       "sources": [
@@ -336,30 +313,30 @@
       "keywords": [
         "talks",
         "putin",
-        "meet",
         "ukraine",
+        "meet",
         "abu",
         "dhabi",
-        "peace",
-        "envoys"
+        "zelenskyy",
+        "peace"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“US envoys head to meet Zelensky after talks with Putin in Moscow”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的国际政治事件为“US envoys meet Zelensky in Dublin after talks with Putin in Moscow”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "EU",
+          "Ukraine",
+          "Russia",
           "US",
           "Zelensky",
+          "Dublin",
           "Putin",
-          "Moscow What",
-          "Russia",
-          "Abu Dhabi",
-          "Ukraine",
-          "Kremlin"
+          "Moscow What"
         ],
         "latest_progress": [
-          "11月12日 18:28 UTC，BBC World报道：“US envoys head to meet Zelensky after talks with Putin in Moscow”。",
-          "11月12日 16:44 UTC，DW Top Stories报道：“What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?”。",
-          "11月12日 15:26 UTC，NPR World报道：“U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi”。"
+          "11月12日 22:00 UTC，DW Top Stories报道：“EU leaders tussle over who to send to Ukraine, Russia peace talks”。",
+          "11月12日 21:00 UTC，BBC World报道：“US envoys meet Zelensky in Dublin after talks with Putin in Moscow”。",
+          "11月12日 16:44 UTC，DW Top Stories报道：“What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -372,15 +349,30 @@
       },
       "articles": [
         {
+          "article_id": "art_6bbe00983f85ebf09bff",
+          "url": "https://www.dw.com/en/eu-leaders-tussle-over-who-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/eu-leaders-tussle-over-who-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-top-1022-rdf",
+          "title": "EU leaders tussle over who to send to Ukraine, Russia peace talks",
+          "summary": "A seat at the table for Europe now appears likely following comments by a US envoy who just held talks with Putin. But who will take that seat remains unclear.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-12T22:00:00+00:00",
+          "fetched_at": "2026-11-13T00:23:39.732239+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
           "article_id": "art_f059e128cbc053b4667e",
           "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_campaign=rss&at_medium=RSS",
-          "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+          "title": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
           "summary": "US envoy Steve Witkoff says President Putin has agreed to European negotiators joining the next round of Ukraine talks.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-12T18:28:59+00:00",
-          "fetched_at": "2026-11-12T18:55:41.623101+00:00",
+          "published_at": "2026-11-12T21:00:42+00:00",
+          "fetched_at": "2026-11-13T00:23:39.222045+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -395,7 +387,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-12T16:44:00+00:00",
-          "fetched_at": "2026-11-12T18:55:42.188830+00:00",
+          "fetched_at": "2026-11-13T00:23:39.733160+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -410,7 +402,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-12T15:26:34+00:00",
-          "fetched_at": "2026-11-12T18:55:42.436759+00:00",
+          "fetched_at": "2026-11-13T00:23:39.811030+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -425,45 +417,30 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-12T09:38:46+00:00",
-          "fetched_at": "2026-11-12T18:55:42.437277+00:00",
+          "fetched_at": "2026-11-13T00:23:39.811839+00:00",
           "language": "en",
           "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3675784aa07d582805f6",
-          "url": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-meet-with-putin-at-kremlin/live-79925580?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-meet-with-putin-at-kremlin/live-79925580?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine peace talks: US envoys meet with Putin at Kremlin",
-          "summary": "The US president's son-in-law Jared Kushner and envoy Steve Witkoff were in Russia to meet Vladimir Putin. The meeting comes after two days of trilateral talks in Abu Dhabi. Follow DW for more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-12T06:35:00+00:00",
-          "fetched_at": "2026-11-12T18:55:42.189958+00:00",
-          "language": "en",
-          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_f637f7ce7884f65ee9c9",
-      "title": "UK court finds two Iranian men guilty of spying for Iran",
+      "event_id": "evt_79e1167d06558c22b347",
+      "title": "Iranian men guilty of spying on British journalists",
       "category": "军事安全",
-      "score": 69.9,
+      "score": 69.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.0,
+        "recency": 18.0,
         "credibility": 9.8,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-12T15:15:48+00:00",
-      "last_updated": "2026-11-12T15:23:00+00:00",
+      "first_seen": "2026-11-12T15:23:00+00:00",
+      "last_updated": "2026-11-12T19:38:33+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -475,26 +452,26 @@
         "Middle East"
       ],
       "keywords": [
-        "court",
         "iranian",
-        "two",
         "men",
-        "guilty",
         "spying",
-        "iran",
-        "one"
+        "journalists",
+        "court",
+        "two",
+        "guilty",
+        "convicted"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“UK court finds two Iranian men guilty of spying for Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Iranian men guilty of spying on British journalists”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "UK",
           "Iranian",
-          "Iran"
+          "British",
+          "UK"
         ],
         "latest_progress": [
-          "11月12日 15:23 UTC，DW Top Stories报道：“UK court convicts 2 Iranian men of spying on journalists”。",
-          "11月12日 15:15 UTC，Al Jazeera报道：“UK court finds two Iranian men guilty of spying for Iran”。"
+          "11月12日 19:38 UTC，Al Jazeera报道：“Iranian men guilty of spying on British journalists”。",
+          "11月12日 15:23 UTC，DW Top Stories报道：“UK court convicts 2 Iranian men of spying on journalists”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -506,6 +483,21 @@
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_f7452bab6a474c61807c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iranian-men-guilty-of-spying-on-british-journalists?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iranian-men-guilty-of-spying-on-british-journalists?traffic_source=rss",
+          "title": "Iranian men guilty of spying on British journalists",
+          "summary": "Two Iranian men were convicted under Britain's National Security Act for spying on dissident journalists.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-12T19:38:33+00:00",
+          "fetched_at": "2026-11-13T00:23:39.889706+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
         {
           "article_id": "art_9ade7ea1adf63c2b872a",
           "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-top-1022-rdf",
@@ -515,78 +507,63 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-12T15:23:00+00:00",
-          "fetched_at": "2026-11-12T18:55:42.189066+00:00",
+          "fetched_at": "2026-11-13T00:23:39.733548+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_7131c8955dec30383c4b",
-          "url": "https://www.aljazeera.com/news/2026/11/12/uk-court-finds-two-iranian-men-guilty-of-spying-for-iran?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/uk-court-finds-two-iranian-men-guilty-of-spying-for-iran?traffic_source=rss",
-          "title": "UK court finds two Iranian men guilty of spying for Iran",
-          "summary": "The pair were promised rewards to send intelligence back to Iran, while one was prepared to commit a 'violent attack'.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-12T15:15:48+00:00",
-          "fetched_at": "2026-11-12T18:55:42.560211+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_d3e79e0d894b47bb4fe6",
-      "title": "‘No war, no peace’: Can Iran break the deadlock with the US?",
+      "event_id": "evt_2b7aedbadacb0ce497df",
+      "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
       "category": "军事安全",
-      "score": 67.7,
+      "score": 66.2,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 13.9,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.3,
+        "region_diversity": 2.5,
+        "recency": 17.7,
         "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 3.5
+        "velocity": 2.1
       },
-      "first_seen": "2026-11-12T05:50:00+00:00",
-      "last_updated": "2026-11-12T14:27:54+00:00",
+      "first_seen": "2026-11-11T21:43:35+00:00",
+      "last_updated": "2026-11-12T19:07:00+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
-        "Al Jazeera",
+        "BBC World",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "war",
-        "iran",
-        "us's",
-        "stands",
-        "midterms",
-        "almost",
-        "nine",
-        "months"
+        "soldier",
+        "hegseth",
+        "group",
+        "reprimanded",
+        "tomb",
+        "unknown",
+        "guard",
+        "secretary"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“‘No war, no peace’: Can Iran break the deadlock with the US?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Hegseth awards medal to war memorial guard who reprimanded him and group”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "No",
-          "Can Iran",
-          "US",
-          "Where",
-          "Iran"
+          "Pete Hegseth",
+          "Arlington",
+          "Hegseth",
+          "Tomb",
+          "Unknown Soldier"
         ],
         "latest_progress": [
-          "11月12日 14:27 UTC，Al Jazeera报道：“‘No war, no peace’: Can Iran break the deadlock with the US?”。",
-          "11月12日 05:50 UTC，DW Top Stories报道：“Where the US's war with Iran stands after the midterms”。"
+          "11月12日 19:07 UTC，DW Top Stories报道：“Pete Hegseth honors soldier who scolded him at Arlington cemetery”。",
+          "11月12日 18:47 UTC，BBC World报道：“Hegseth awards medal to war memorial guard who reprimanded him and group”。",
+          "11月11日 21:43 UTC，BBC World报道：“Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -599,34 +576,121 @@
       },
       "articles": [
         {
-          "article_id": "art_9ba3f7e5d6adf11afc26",
-          "url": "https://www.aljazeera.com/news/2026/11/12/no-war-no-peace-can-iran-break-the-deadlock-with-the-us?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/no-war-no-peace-can-iran-break-the-deadlock-with-the-us?traffic_source=rss",
-          "title": "‘No war, no peace’: Can Iran break the deadlock with the US?",
-          "summary": "Sustainable stalemate or slow-motion strangulation? The current 'equilibrium' is inherently unstable, experts say.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-12T14:27:54+00:00",
-          "fetched_at": "2026-11-12T18:55:42.560754+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_51203725450902bd9174",
-          "url": "https://www.dw.com/en/where-the-us-s-war-with-iran-stands-after-the-midterms/a-79918176?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/where-the-us-s-war-with-iran-stands-after-the-midterms/a-79918176?maca=en-rss-en-top-1022-rdf",
-          "title": "Where the US's war with Iran stands after the midterms",
-          "summary": "Almost nine months after it began, the war in Iran has calmed to the point where Donald Trump sees an end. But with the key issues of the conflict unresolved and political change in the US, what is the situation?",
+          "article_id": "art_f252c150e27257c0791d",
+          "url": "https://www.dw.com/en/pete-hegseth-honors-soldier-who-scolded-him-at-arlington-cemetery/a-79935075?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/pete-hegseth-honors-soldier-who-scolded-him-at-arlington-cemetery/a-79935075?maca=en-rss-en-top-1022-rdf",
+          "title": "Pete Hegseth honors soldier who scolded him at Arlington cemetery",
+          "summary": "The soldier had reprimanded the US Defense Secretary and his group after they were heard talking and laughing at the Tomb of the Unknown Soldier. The site is one of the most solemn military memorials in the US.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-12T05:50:00+00:00",
-          "fetched_at": "2026-11-12T18:55:42.190031+00:00",
+          "published_at": "2026-11-12T19:07:00+00:00",
+          "fetched_at": "2026-11-13T00:23:39.732528+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
+        },
+        {
+          "article_id": "art_05cc6f3a963c7ff7b2ab",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_campaign=rss&at_medium=RSS",
+          "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
+          "summary": "Specialist Thomas Iglesias had shouted at Hegseth's group to be quiet after they could be heard talking and laughing at the Tomb of the Unknown Soldier.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-12T18:47:35+00:00",
+          "fetched_at": "2026-11-13T00:23:39.222783+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9916/live/a7c0bac0-dec7-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_37adbbfdc577f94dc3fa",
+          "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_campaign=rss&at_medium=RSS",
+          "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
+          "summary": "Following a ceremony marking Veterans Day, a group that included Defence Secretary Pete Hegseth was shouted at to be quiet.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-11T21:43:35+00:00",
+          "fetched_at": "2026-11-13T00:23:39.225649+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff27/live/573e7b50-de18-11f1-93e1-3b657b665bcf.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fe9134ea1be9b654f274",
+      "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+      "category": "军事安全",
+      "score": 63.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 22.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-13T00:20:24+00:00",
+      "last_updated": "2026-11-13T00:20:24+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "neither",
+        "war",
+        "nor",
+        "peace",
+        "tigray",
+        "ethiopia's",
+        "conflict",
+        "really"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Neither",
+          "Tigray",
+          "Ethiopia"
+        ],
+        "latest_progress": [
+          "11月13日 00:20 UTC，BBC World报道：“Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_cf4a7a2fda925d2fc8b3",
+          "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_campaign=rss&at_medium=RSS",
+          "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+          "summary": "The army has taken control of most of Tigray's main towns - it is unclear if the TPLF is capable of fighting back.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-13T00:20:24+00:00",
+          "fetched_at": "2026-11-13T00:23:39.222220+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6dca/live/418b2150-de90-11f1-a701-fddedf244c16.jpg"
         }
       ]
     },
@@ -634,12 +698,12 @@
       "event_id": "evt_97f8afa60bfe78512718",
       "title": "《 福建省推动 人工智能+ 行动方案 （ 2026 2028年 ）》 印发|算法|大数据|智能化|智能体",
       "category": "科技AI",
-      "score": 65.5,
+      "score": 62.8,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 14.4,
         "region_diversity": 2.5,
-        "recency": 13.2,
+        "recency": 10.5,
         "credibility": 7.5,
         "impact": 9.8,
         "velocity": 2.0
@@ -700,7 +764,7 @@
           "source": "theory.gmw.cn",
           "source_type": "gdelt",
           "published_at": "2026-11-12T06:45:00+00:00",
-          "fetched_at": "2026-11-12T18:55:41.470701+00:00",
+          "fetched_at": "2026-11-13T00:23:39.141824+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -715,7 +779,7 @@
           "source": "163.com",
           "source_type": "gdelt",
           "published_at": "2026-11-12T05:30:00+00:00",
-          "fetched_at": "2026-11-12T18:55:41.469853+00:00",
+          "fetched_at": "2026-11-13T00:23:39.140313+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -730,7 +794,7 @@
           "source": "qstheory.cn",
           "source_type": "gdelt",
           "published_at": "2026-11-11T01:30:00+00:00",
-          "fetched_at": "2026-11-12T18:55:41.471727+00:00",
+          "fetched_at": "2026-11-13T00:23:39.143586+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -745,7 +809,7 @@
           "source": "opinion.people.com.cn",
           "source_type": "gdelt",
           "published_at": "2026-11-11T01:00:00+00:00",
-          "fetched_at": "2026-11-12T18:55:41.471117+00:00",
+          "fetched_at": "2026-11-13T00:23:39.142568+00:00",
           "language": "Chinese",
           "region": "China",
           "source_weight": 0.75,
@@ -754,50 +818,51 @@
       ]
     },
     {
-      "event_id": "evt_2b7aedbadacb0ce497df",
-      "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
+      "event_id": "evt_3d85764b612d43ec9e76",
+      "title": "Iran war live: Riyadh, China discuss Houthis as group claims Aramco attacks",
       "category": "军事安全",
-      "score": 63.4,
+      "score": 62.7,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.9,
+        "recency": 21.6,
         "credibility": 10.0,
         "impact": 13.0,
-        "velocity": 1.4
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-11T21:43:35+00:00",
-      "last_updated": "2026-11-12T18:47:35+00:00",
+      "first_seen": "2026-11-13T00:00:26+00:00",
+      "last_updated": "2026-11-13T00:00:26+00:00",
       "source_count": 1,
-      "article_count": 2,
+      "article_count": 1,
       "sources": [
-        "BBC World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "hegseth",
-        "reprimanded",
-        "guard",
+        "riyadh",
         "group",
-        "medal",
-        "advisers",
-        "tomb",
-        "unknown"
+        "claims",
+        "attacks",
+        "iran",
+        "war",
+        "china",
+        "discuss"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的军事安全事件为“Hegseth awards medal to war memorial guard who reprimanded him and group”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Riyadh, China discuss Houthis as group claims Aramco attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Hegseth",
-          "Tomb",
-          "Unknown Soldier"
+          "Iran",
+          "Riyadh",
+          "China",
+          "Houthis",
+          "Aramco"
         ],
         "latest_progress": [
-          "11月12日 18:47 UTC，BBC World报道：“Hegseth awards medal to war memorial guard who reprimanded him and group”。",
-          "11月11日 21:43 UTC，BBC World报道：“Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier”。"
+          "11月13日 00:00 UTC，Al Jazeera报道：“Iran war live: Riyadh, China discuss Houthis as group claims Aramco attacks”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -810,195 +875,38 @@
       },
       "articles": [
         {
-          "article_id": "art_05cc6f3a963c7ff7b2ab",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_campaign=rss&at_medium=RSS",
-          "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
-          "summary": "Specialist Thomas Iglesias was given a Joint Service Commendation Medal for the execution of his duties after Wednesday's incident.",
-          "source": "BBC World",
+          "article_id": "art_02dd2da87accf354da38",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
+          "title": "Iran war live: Riyadh, China discuss Houthis as group claims Aramco attacks",
+          "summary": "Saudi-led coalition intercepts Houthi drones heading for Riyadh as the rebel group claims attacks on energy facilities.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-12T18:47:35+00:00",
-          "fetched_at": "2026-11-12T18:55:41.623554+00:00",
+          "published_at": "2026-11-13T00:00:26+00:00",
+          "fetched_at": "2026-11-13T00:23:39.887275+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9916/live/a7c0bac0-dec7-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_37adbbfdc577f94dc3fa",
-          "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_campaign=rss&at_medium=RSS",
-          "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
-          "summary": "Following a ceremony marking Veterans Day, a group that included Defence Secretary Pete Hegseth was shouted at to be quiet.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-11T21:43:35+00:00",
-          "fetched_at": "2026-11-12T18:55:41.625395+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff27/live/573e7b50-de18-11f1-93e1-3b657b665bcf.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_ac1ddd13ddd4146d66fa",
-      "title": "Czechia braces for massive protest as anger over government's public media reform plans boils",
-      "category": "社会突发",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 9.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-12T18:26:00+00:00",
-      "last_updated": "2026-11-12T18:26:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "public",
-        "czechia",
-        "massive",
-        "protest",
-        "media",
-        "reform",
-        "braces",
-        "anger"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的社会突发事件为“Czechia braces for massive protest as anger over government's public media reform plans boils”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Czechia"
-        ],
-        "latest_progress": [
-          "11月12日 18:26 UTC，DW Top Stories报道：“Czechia braces for massive protest as anger over government's public media reform plans boils”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1ad3603637b9b851714a",
-          "url": "https://www.dw.com/en/czechia-braces-for-massive-protest-as-anger-over-government-s-public-media-reform-plans-boils/a-79933533?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/czechia-braces-for-massive-protest-as-anger-over-government-s-public-media-reform-plans-boils/a-79933533?maca=en-rss-en-top-1022-rdf",
-          "title": "Czechia braces for massive protest as anger over government's public media reform plans boils",
-          "summary": "A fast-tracked bill on public media funding reform has sparked strikes, rallies and fears for the independence of public broadcasting in Czechia. A massive protest is due to take place in Prague on November 15.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-12T18:26:00+00:00",
-          "fetched_at": "2026-11-12T18:55:42.188538+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_71a5c6a2a290c36a1fa9",
-      "title": "Mercedes-Benz halts all further investment at German facilities",
-      "category": "经济金融",
-      "score": 59.5,
+      "event_id": "evt_0d5a184baf3cc446d2a8",
+      "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+      "category": "军事安全",
+      "score": 62.6,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.3,
-        "credibility": 9.5,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-12T16:59:00+00:00",
-      "last_updated": "2026-11-12T16:59:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "german",
-        "mercedes-benz",
-        "halts",
-        "all",
-        "further",
-        "investment",
-        "facilities",
-        "announcement"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的经济金融事件为“Mercedes-Benz halts all further investment at German facilities”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Mercedes",
-          "Benz",
-          "German"
-        ],
-        "latest_progress": [
-          "11月12日 16:59 UTC，DW Top Stories报道：“Mercedes-Benz halts all further investment at German facilities”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d4b8dbf0a4dec6046650",
-          "url": "https://www.dw.com/en/mercedes-benz-halts-all-further-investment-at-german-facilities/a-79934509?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/mercedes-benz-halts-all-further-investment-at-german-facilities/a-79934509?maca=en-rss-en-top-1022-rdf",
-          "title": "Mercedes-Benz halts all further investment at German facilities",
-          "summary": "The announcement comes as the luxury German automaker faces increasing pressure from the works council and trade unions.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-12T16:59:00+00:00",
-          "fetched_at": "2026-11-12T18:55:42.188729+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_922d4090e6b437ead83d",
-      "title": "UAE says 14 killed, 30 injured in Fujairah traffic accident",
-      "category": "社会突发",
-      "score": 59.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.8,
+        "recency": 21.5,
         "credibility": 10.0,
-        "impact": 11.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-12T16:23:29+00:00",
-      "last_updated": "2026-11-12T16:23:29+00:00",
+      "first_seen": "2026-11-12T23:52:38+00:00",
+      "last_updated": "2026-11-12T23:52:38+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -1008,45 +916,117 @@
         "Middle East"
       ],
       "keywords": [
-        "uae",
-        "killed",
-        "injured",
-        "fujairah",
-        "traffic",
-        "accident",
-        "officials",
-        "say"
+        "yemen",
+        "houthis",
+        "renew",
+        "strikes",
+        "saudi",
+        "arabia",
+        "unsc",
+        "extends"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“UAE says 14 killed, 30 injured in Fujairah traffic accident”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "UAE",
-          "Fujairah"
+          "Yemen",
+          "Houthis",
+          "Saudi Arabia",
+          "UNSC"
         ],
         "latest_progress": [
-          "11月12日 16:23 UTC，Al Jazeera报道：“UAE says 14 killed, 30 injured in Fujairah traffic accident”。"
+          "11月12日 23:52 UTC，Al Jazeera报道：“Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_86d3b616838c61e8197c",
-          "url": "https://www.aljazeera.com/news/2026/11/12/uae-says-14-killed-30-injured-in-fujairah-traffic-accident?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/uae-says-14-killed-30-injured-in-fujairah-traffic-accident?traffic_source=rss",
-          "title": "UAE says 14 killed, 30 injured in Fujairah traffic accident",
-          "summary": "Officials say a driver lost control of his truck, causing a collision and fire involving 23 vehicles.",
+          "article_id": "art_201076f47ccbe20ba490",
+          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+          "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+          "summary": "Saudi-led coalition intercepts flurry of suspected Houthi drones targeting oil and military infrastructure.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-12T16:23:29+00:00",
-          "fetched_at": "2026-11-12T18:55:42.559846+00:00",
+          "published_at": "2026-11-12T23:52:38+00:00",
+          "fetched_at": "2026-11-13T00:23:39.887470+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_71f099ef3b9283f41d95",
+      "title": "Russian court jails rights lawyer for 12 years on treason charge",
+      "category": "军事安全",
+      "score": 62.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-12T23:18:50+00:00",
+      "last_updated": "2026-11-12T23:18:50+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "russian",
+        "court",
+        "jails",
+        "rights",
+        "lawyer",
+        "years",
+        "treason",
+        "charge"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Russian court jails rights lawyer for 12 years on treason charge”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russian"
+        ],
+        "latest_progress": [
+          "11月12日 23:18 UTC，Al Jazeera报道：“Russian court jails rights lawyer for 12 years on treason charge”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b971924ad343ed662631",
+          "url": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
+          "title": "Russian court jails rights lawyer for 12 years on treason charge",
+          "summary": "Prosecutors say the woman shared security details with Ukraine, while her lawyers argue the information was not secret.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-12T23:18:50+00:00",
+          "fetched_at": "2026-11-13T00:23:39.887637+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
