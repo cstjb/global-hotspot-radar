@@ -1,36 +1,174 @@
 {
-  "generated_at": "2026-11-15T09:25:24.996602+00:00",
+  "generated_at": "2026-11-15T17:10:05.262956+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 126,
-    "articles_unique": 126,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 182,
+    "articles_unique": 178,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_56c69962750f6276cbff",
-      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-      "category": "社会突发",
-      "score": 70.0,
+      "event_id": "evt_c107173f55b34c3019fb",
+      "title": "Nvidia risks losing critical supply chain deals without Jensen Huang , warns Elon Musk",
+      "category": "科技AI",
+      "score": 80.0,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 17.9,
+        "source_diversity": 18.0,
+        "region_diversity": 10.0,
+        "recency": 14.9,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 2.0
+      },
+      "first_seen": "2026-11-13T18:00:00+00:00",
+      "last_updated": "2026-11-15T07:45:00+00:00",
+      "source_count": 5,
+      "article_count": 5,
+      "sources": [
+        "bankingnews.gr",
+        "inewsgr.com",
+        "mk.ru",
+        "news.bg",
+        "tribuneindia.com"
+      ],
+      "regions": [
+        "Bulgaria",
+        "Greece",
+        "India",
+        "Russia"
+      ],
+      "keywords": [
+        "nvidia",
+        "jensen",
+        "huang",
+        "cia",
+        "orchestrated",
+        "ouster",
+        "seize",
+        "control"
+      ],
+      "analysis": {
+        "what_happened": "据bankingnews.gr、inewsgr.com、mk.ru、news.bg等来源的5篇报道，当前关注的科技AI事件为“Nvidia risks losing critical supply chain deals without Jensen Huang , warns Elon Musk”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "Nvidia",
+          "Jensen Huang",
+          "Elon Musk",
+          "CIA",
+          "AI"
+        ],
+        "latest_progress": [
+          "11月15日 07:45 UTC，mk.ru报道：“Скандал с Nvidia : Блюменталь призвал Лютника уйти в отставку”。",
+          "11月14日 21:00 UTC，tribuneindia.com报道：“Nvidia risks losing critical supply chain deals without Jensen Huang , warns Elon Musk”。",
+          "11月14日 21:00 UTC，inewsgr.com报道：“Από την αποθέωση στην κρίση των 573 δισ . δολαρίων η Nvidia”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_824acf8e0d2397843bd1",
+          "url": "https://www.mk.ru/politics/2026/11/15/skandal-s-nvidia-blyumental-prizval-lyutnika-uyti-v-otstavku.html",
+          "canonical_url": "https://www.mk.ru/politics/2026/11/15/skandal-s-nvidia-blyumental-prizval-lyutnika-uyti-v-otstavku.html",
+          "title": "Скандал с Nvidia : Блюменталь призвал Лютника уйти в отставку",
+          "summary": "",
+          "source": "mk.ru",
+          "source_type": "gdelt",
+          "published_at": "2026-11-15T07:45:00+00:00",
+          "fetched_at": "2026-11-15T17:10:01.765557+00:00",
+          "language": "Russian",
+          "region": "Russia",
+          "source_weight": 0.75,
+          "image_url": "https://static.mk.ru/upload/entities/2026/11/15/10/articles/facebookPicture/3a/73/44/83/f279ceed1711628b627e4c1c5bb74490.jpg"
+        },
+        {
+          "article_id": "art_f196b0b3a1ae106839ae",
+          "url": "https://www.tribuneindia.com/news/business/nvidia-risks-losing-critical-supply-chain-deals-without-jensen-huang-warns-elon-musk/",
+          "canonical_url": "https://www.tribuneindia.com/news/business/nvidia-risks-losing-critical-supply-chain-deals-without-jensen-huang-warns-elon-musk",
+          "title": "Nvidia risks losing critical supply chain deals without Jensen Huang , warns Elon Musk",
+          "summary": "",
+          "source": "tribuneindia.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-14T21:00:00+00:00",
+          "fetched_at": "2026-11-15T17:10:01.762877+00:00",
+          "language": "English",
+          "region": "India",
+          "source_weight": 0.75,
+          "image_url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTU0YTU5NWIwLWUwNDEtMTFmMS1hNzhjLWJmZGZhODg2ZTA2Yy5qcGc="
+        },
+        {
+          "article_id": "art_b3f2fe4514efd771f422",
+          "url": "https://www.inewsgr.com/500/apo-tin-apotheosi-stin-krisi-ton-573-dis-dolarion-i-Nvidia.htm",
+          "canonical_url": "https://www.inewsgr.com/500/apo-tin-apotheosi-stin-krisi-ton-573-dis-dolarion-i-Nvidia.htm",
+          "title": "Από την αποθέωση στην κρίση των 573 δισ . δολαρίων η Nvidia",
+          "summary": "",
+          "source": "inewsgr.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-14T21:00:00+00:00",
+          "fetched_at": "2026-11-15T17:10:01.763698+00:00",
+          "language": "Greek",
+          "region": "Greece",
+          "source_weight": 0.75,
+          "image_url": "https://images32.inewsgr.com/6083/60832465/1.jpg"
+        },
+        {
+          "article_id": "art_36304520ec5858c63889",
+          "url": "https://www.bankingnews.gr/diethni/articles/910933/cia-orchestrated-jensen-huang-s-ouster-to-seize-control-of-nvidia-s-ai-tech",
+          "canonical_url": "https://www.bankingnews.gr/diethni/articles/910933/cia-orchestrated-jensen-huang-s-ouster-to-seize-control-of-nvidia-s-ai-tech",
+          "title": "CIA orchestrated Jensen Huang ouster to seize control of Nvidia AI tech",
+          "summary": "",
+          "source": "bankingnews.gr",
+          "source_type": "gdelt",
+          "published_at": "2026-11-13T18:00:00+00:00",
+          "fetched_at": "2026-11-15T17:10:01.762966+00:00",
+          "language": "English",
+          "region": "Greece",
+          "source_weight": 0.75,
+          "image_url": "https://www.bankingnews.gr/media/k2/items/cache/dcf641c15a5a3a6a4294dfd0c3ee9f6d_XL.jpg?v=2"
+        },
+        {
+          "article_id": "art_c5c67ac15c0182391e88",
+          "url": "https://news.bg/int-politics/prizovaha-bivshiya-shef-na-nvidia-da-svidetelstva-pred-kongresa-zaradi-shpionskiya-skandal.html",
+          "canonical_url": "https://news.bg/int-politics/prizovaha-bivshiya-shef-na-nvidia-da-svidetelstva-pred-kongresa-zaradi-shpionskiya-skandal.html",
+          "title": "Призоваха бившия шеф на Nvidia да свидетелства пред Конгреса заради шпионския скандал",
+          "summary": "",
+          "source": "news.bg",
+          "source_type": "gdelt",
+          "published_at": "2026-11-13T18:00:00+00:00",
+          "fetched_at": "2026-11-15T17:10:01.763835+00:00",
+          "language": "Bulgarian",
+          "region": "Bulgaria",
+          "source_weight": 0.75,
+          "image_url": "https://webnews.bg/uploads/images/11/6611/786611/768x432.jpg?_=1794556761"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_635005f00d73e640d379",
+      "title": "Bahrain accuses Iran of attacking its territory to ‘settle’ score with US",
+      "category": "军事安全",
+      "score": 73.1,
+      "score_breakdown": {
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 21.0,
+        "recency": 19.1,
         "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 4.1
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-15T01:00:42+00:00",
-      "last_updated": "2026-11-15T08:17:41+00:00",
+      "first_seen": "2026-11-15T12:15:51+00:00",
+      "last_updated": "2026-11-15T13:42:58+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World"
@@ -40,206 +178,27 @@
         "Middle East"
       ],
       "keywords": [
-        "hamas",
-        "commander",
-        "younis",
-        "strike",
-        "kills",
-        "gaza",
-        "death",
-        "rafah"
+        "iran",
+        "bahrain",
+        "targets",
+        "military",
+        "radar",
+        "drone",
+        "air",
+        "base"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Israel kills Hamas commander in strike on Gaza camp, officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Israel",
-          "Hamas",
-          "Gaza",
-          "Israeli"
-        ],
-        "latest_progress": [
-          "11月15日 08:17 UTC，BBC World报道：“Israel kills Hamas commander in strike on Gaza camp, officials say”。",
-          "11月15日 01:00 UTC，Al Jazeera报道：“Israeli air strike kills senior Hamas commander in Gaza”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9575b4771232457a0761",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_campaign=rss&at_medium=RSS",
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "summary": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-15T08:17:41+00:00",
-          "fetched_at": "2026-11-15T09:25:23.047826+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg"
-        },
-        {
-          "article_id": "art_2d961d9c606d44e37cd7",
-          "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
-          "title": "Israeli air strike kills senior Hamas commander in Gaza",
-          "summary": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T01:00:42+00:00",
-          "fetched_at": "2026-11-15T09:25:23.697767+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_15556aa866eb033346a1",
-      "title": "Francophone summit opens in Cambodia amid Rwanda-DR Congo rift",
-      "category": "国际政治",
-      "score": 69.9,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.9,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T05:05:02+00:00",
-      "last_updated": "2026-11-15T08:12:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "congo",
-        "summit",
-        "opens",
-        "cambodia",
-        "should",
-        "lead",
-        "french-speaking",
-        "nations"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Francophone summit opens in Cambodia amid Rwanda-DR Congo rift”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Macron",
-          "Francophonie",
-          "Cambodia Francophone",
-          "Cambodia",
-          "Rwanda",
-          "DR",
-          "Congo"
-        ],
-        "latest_progress": [
-          "11月15日 08:12 UTC，DW Top Stories报道：“Macron urges unity as Francophonie summit opens in Cambodia”。",
-          "11月15日 05:05 UTC，Al Jazeera报道：“Francophone summit opens in Cambodia amid Rwanda-DR Congo rift”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_00be08df41ab6969c74a",
-          "url": "https://www.dw.com/en/macron-urges-unity-as-francophonie-summit-opens-in-cambodia/a-79951201?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/macron-urges-unity-as-francophonie-summit-opens-in-cambodia/a-79951201?maca=en-rss-en-top-1022-rdf",
-          "title": "Macron urges unity as Francophonie summit opens in Cambodia",
-          "summary": "Leaders of French-speaking nations gathered in Phnom Penh as a row over who should lead the Francophonie and Congo’s threat to quit put pressure on Macron to broker consensus.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-15T08:12:00+00:00",
-          "fetched_at": "2026-11-15T09:25:23.283718+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_caea8dc897abac2bb115",
-          "url": "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift?traffic_source=rss",
-          "title": "Francophone summit opens in Cambodia amid Rwanda-DR Congo rift",
-          "summary": "Democratic Republic of the Congo and Rwanda clash over who should lead the organisation of French-speaking nations.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T05:05:02+00:00",
-          "fetched_at": "2026-11-15T09:25:23.696131+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_9b942d938c7a5548bc09",
-      "title": "Jordan sentences three men to death by hanging after deadly church attack",
-      "category": "军事安全",
-      "score": 62.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T08:15:04+00:00",
-      "last_updated": "2026-11-15T08:15:04+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "three",
-        "men",
-        "church",
-        "attack",
-        "jordan",
-        "sentences",
-        "death",
-        "hanging"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Jordan sentences three men to death by hanging after deadly church attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Bahrain accuses Iran of attacking its territory to ‘settle’ score with US”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Jordan"
+          "Iran",
+          "US",
+          "Bahrain"
         ],
         "latest_progress": [
-          "11月15日 08:15 UTC，Al Jazeera报道：“Jordan sentences three men to death by hanging after deadly church attack”。"
+          "11月15日 13:42 UTC，BBC World报道：“Iran targets US military base in Bahrain with drone attack”。",
+          "11月15日 12:36 UTC，Al Jazeera报道：“Bahrain accuses Iran of attacking its territory to ‘settle’ score with US”。",
+          "11月15日 12:15 UTC，Al Jazeera报道：“Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -252,15 +211,45 @@
       },
       "articles": [
         {
-          "article_id": "art_82850fde6676df4cff26",
-          "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
-          "title": "Jordan sentences three men to death by hanging after deadly church attack",
-          "summary": "Three men have been convicted of carrying out an attack on a church in the Karak governorate that killed nine people.",
+          "article_id": "art_b6a16e2eb871a488540f",
+          "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_campaign=rss&at_medium=RSS",
+          "title": "Iran targets US military base in Bahrain with drone attack",
+          "summary": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-15T13:42:58+00:00",
+          "fetched_at": "2026-11-15T17:10:01.992331+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg"
+        },
+        {
+          "article_id": "art_12277055f2df85cc08ea",
+          "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us?traffic_source=rss",
+          "title": "Bahrain accuses Iran of attacking its territory to ‘settle’ score with US",
+          "summary": "Tehran says its air attacks on countries cooperating with the US are justified under international law.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-15T08:15:04+00:00",
-          "fetched_at": "2026-11-15T09:25:23.695060+00:00",
+          "published_at": "2026-11-15T12:36:19+00:00",
+          "fetched_at": "2026-11-15T17:10:03.562058+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7d1d7c4334750effb723",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+          "title": "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
+          "summary": "Iran’s IRGC says six drones were launched at a US radar installation at an air base in Bahrain.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-15T12:15:51+00:00",
+          "fetched_at": "2026-11-15T17:10:03.562293+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -269,21 +258,111 @@
       ]
     },
     {
-      "event_id": "evt_aa67fa584db8032a2623",
+      "event_id": "evt_f7f9ed25aeecea98dc8e",
+      "title": "Thousands rally in Czech Republic against state media funding changes",
+      "category": "国际政治",
+      "score": 70.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.5,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-15T16:32:22+00:00",
+      "last_updated": "2026-11-15T16:36:42+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "media",
+        "funding",
+        "rally",
+        "against",
+        "state",
+        "changes",
+        "say",
+        "government"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Thousands rally in Czech Republic against state media funding changes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Czechs",
+          "Thousands",
+          "Czech Republic"
+        ],
+        "latest_progress": [
+          "11月15日 16:36 UTC，BBC World报道：“Czechs rally against plan to switch funding of public media”。",
+          "11月15日 16:32 UTC，Al Jazeera报道：“Thousands rally in Czech Republic against state media funding changes”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d7b0313b0726f27bb1bb",
+          "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_campaign=rss&at_medium=RSS",
+          "title": "Czechs rally against plan to switch funding of public media",
+          "summary": "Protesters say the move will stifle media freedom, while the coalition government insists broadcasters need to cut costs.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-15T16:36:42+00:00",
+          "fetched_at": "2026-11-15T17:10:01.993049+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d10d/live/fe22eed0-e10e-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_1003cb06a25d55f6d160",
+          "url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss",
+          "title": "Thousands rally in Czech Republic against state media funding changes",
+          "summary": "Critics say proposed funding changes will give the government more control of state media.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-15T16:32:22+00:00",
+          "fetched_at": "2026-11-15T17:10:03.559708+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9c994d726e1cfc6f1980",
       "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
       "category": "能源资源",
-      "score": 61.9,
+      "score": 62.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.0,
+        "recency": 20.1,
         "credibility": 10.0,
         "impact": 11.0,
-        "velocity": 3.8
+        "velocity": 3.9
       },
-      "first_seen": "2026-11-14T23:11:27+00:00",
-      "last_updated": "2026-11-15T07:10:31+00:00",
+      "first_seen": "2026-11-15T07:10:31+00:00",
+      "last_updated": "2026-11-15T14:57:15+00:00",
       "source_count": 1,
       "article_count": 2,
       "sources": [
@@ -298,20 +377,20 @@
         "chaos",
         "caused",
         "equipment",
-        "telecoms",
-        "work",
-        "sparked"
+        "copper",
+        "wire",
+        "behind"
       ],
       "analysis": {
         "what_happened": "据BBC World等来源的2篇报道，当前关注的能源资源事件为“Copper wire upgrade behind US flight suspension, transport secretary says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Copper",
-          "US"
+          "US",
+          "Copper"
         ],
         "latest_progress": [
-          "11月15日 07:10 UTC，BBC World报道：“Copper wire upgrade behind US flight suspension, transport secretary says”。",
-          "11月14日 23:11 UTC，BBC World报道：“How telecoms upgrade work sparked US flight chaos”。"
+          "11月15日 14:57 UTC，BBC World报道：“How telecoms upgrade work sparked US flight chaos”。",
+          "11月15日 07:10 UTC，BBC World报道：“Copper wire upgrade behind US flight suspension, transport secretary says”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
         "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
@@ -324,6 +403,21 @@
       },
       "articles": [
         {
+          "article_id": "art_85c12f9c6ef58c1067fa",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_campaign=rss&at_medium=RSS",
+          "title": "How telecoms upgrade work sparked US flight chaos",
+          "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-15T14:57:15+00:00",
+          "fetched_at": "2026-11-15T17:10:01.995075+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg"
+        },
+        {
           "article_id": "art_9d6b7f66f5b1f6a6ece2",
           "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_campaign=rss&at_medium=RSS",
@@ -332,210 +426,30 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-15T07:10:31+00:00",
-          "fetched_at": "2026-11-15T09:25:23.047324+00:00",
+          "fetched_at": "2026-11-15T17:10:01.993840+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3177/live/2aeb3c20-e0c3-11f1-b441-2b33b063138f.jpg"
-        },
-        {
-          "article_id": "art_85c12f9c6ef58c1067fa",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_campaign=rss&at_medium=RSS",
-          "title": "How telecoms upgrade work sparked US flight chaos",
-          "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-14T23:11:27+00:00",
-          "fetched_at": "2026-11-15T09:25:23.049795+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_ee4e240465ba54fb06b6",
-      "title": "Thousands in Portugal protest against surging rental prices",
-      "category": "社会突发",
-      "score": 61.1,
+      "event_id": "evt_fbe6b5da6226ab12c9c5",
+      "title": "German economy returns to growth, so why is the country still worried?",
+      "category": "经济金融",
+      "score": 60.4,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.3,
-        "credibility": 10.0,
+        "recency": 21.1,
+        "credibility": 9.5,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-15T08:40:37+00:00",
-      "last_updated": "2026-11-15T08:40:37+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "thousands",
-        "portugal",
-        "rental",
-        "prices",
-        "protest",
-        "against",
-        "surging",
-        "people"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Thousands in Portugal protest against surging rental prices”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Thousands",
-          "Portugal"
-        ],
-        "latest_progress": [
-          "11月15日 08:40 UTC，Al Jazeera报道：“Thousands in Portugal protest against surging rental prices”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_760482504d9cdc71b97d",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/thousands-in-portugal-protest-against-surging-rental-prices?traffic_source=rss",
-          "title": "Thousands in Portugal protest against surging rental prices",
-          "summary": "Thousands of people across Portugal are angry about rising rental prices, demanding action to end the housing crisis.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T08:40:37+00:00",
-          "fetched_at": "2026-11-15T09:25:23.694692+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_4a158a24664a1a40b697",
-      "title": "Iran war live: Bahrain targeted as Gulf nations warned against US support",
-      "category": "军事安全",
-      "score": 60.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 14.9,
-        "credibility": 8.8,
-        "impact": 13.0,
-        "velocity": 1.0
-      },
-      "first_seen": "2026-11-13T18:00:00+00:00",
-      "last_updated": "2026-11-15T00:00:08+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "aljazeera.com"
-      ],
-      "regions": [
-        "Middle East",
-        "United States"
-      ],
-      "keywords": [
-        "iran",
-        "war",
-        "against",
-        "bahrain",
-        "gulf",
-        "treasury",
-        "warns",
-        "rate"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、aljazeera.com等来源的2篇报道，当前关注的军事安全事件为“Iran war live: Bahrain targeted as Gulf nations warned against US support”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Iran",
-          "Bahrain",
-          "Gulf",
-          "US",
-          "Treasury",
-          "Israel",
-          "Iran News"
-        ],
-        "latest_progress": [
-          "11月15日 00:00 UTC，Al Jazeera报道：“Iran war live: Bahrain targeted as Gulf nations warned against US support”。",
-          "11月13日 18:00 UTC，aljazeera.com报道：“US Treasury warns against rate hikes during US - Iran war energy shock | US - Israel war on Iran News”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_01b569d054913dbf7ad6",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss",
-          "title": "Iran war live: Bahrain targeted as Gulf nations warned against US support",
-          "summary": "Bahrain says it intercepted 'treacherous' Iranian attacks as tensions rise over heightened strikes in the Gulf.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T00:00:08+00:00",
-          "fetched_at": "2026-11-15T09:25:23.698217+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_867628d0d14c9831e5b2",
-          "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock",
-          "title": "US Treasury warns against rate hikes during US - Iran war energy shock | US - Israel war on Iran News",
-          "summary": "",
-          "source": "aljazeera.com",
-          "source_type": "gdelt",
-          "published_at": "2026-11-13T18:00:00+00:00",
-          "fetched_at": "2026-11-15T09:24:29.262742+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aee21e3-1793991139.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_48faa8473331e15c1b12",
-      "title": "Germany news: Germany holds national day of remembrance",
-      "category": "军事安全",
-      "score": 60.7,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.2,
-        "credibility": 9.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T07:23:00+00:00",
-      "last_updated": "2026-11-15T07:23:00+00:00",
+      "first_seen": "2026-11-15T16:12:00+00:00",
+      "last_updated": "2026-11-15T16:12:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -545,44 +459,44 @@
         "Europe"
       ],
       "keywords": [
-        "germany",
-        "day",
-        "holds",
-        "national",
-        "remembrance",
-        "events",
-        "being",
-        "held"
+        "german",
+        "economy",
+        "growing",
+        "returns",
+        "growth",
+        "country",
+        "still",
+        "worried"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Germany news: Germany holds national day of remembrance”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的经济金融事件为“German economy returns to growth, so why is the country still worried?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Germany"
+          "German"
         ],
         "latest_progress": [
-          "11月15日 07:23 UTC，DW Top Stories报道：“Germany news: Germany holds national day of remembrance”。"
+          "11月15日 16:12 UTC，DW Top Stories报道：“German economy returns to growth, so why is the country still worried?”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_6b94546aa3ad05c521be",
-          "url": "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-news-germany-holds-national-day-of-remembrance/live-79947500?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany news: Germany holds national day of remembrance",
-          "summary": "Events are being held for Volkstrauertag, a day commemorating victims of war and oppression. Meanwhile, experts say the country is headed for a budget crisis. DW has more.",
+          "article_id": "art_6b8a87ea6aad459c1b91",
+          "url": "https://www.dw.com/en/german-economy-returns-to-growth-so-why-is-the-country-still-worried/a-79932220?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/german-economy-returns-to-growth-so-why-is-the-country-still-worried/a-79932220?maca=en-rss-en-top-1022-rdf",
+          "title": "German economy returns to growth, so why is the country still worried?",
+          "summary": "The German economy is growing again, albeit slightly. However, economists warn that without reforms, higher productivity and solid public finances, a loss of prosperity and growing debt threaten future generations.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-15T07:23:00+00:00",
-          "fetched_at": "2026-11-15T09:25:23.283880+00:00",
+          "published_at": "2026-11-15T16:12:00+00:00",
+          "fetched_at": "2026-11-15T17:10:03.106643+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -591,188 +505,47 @@
       ]
     },
     {
-      "event_id": "evt_cfb6bf048aeaea0b510b",
-      "title": "Secret votes and vetoes: How will the next UN chief be picked?",
-      "category": "军事安全",
-      "score": 60.3,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.2,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T06:11:00+00:00",
-      "last_updated": "2026-11-15T06:11:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "secret",
-        "votes",
-        "vetoes",
-        "next",
-        "chief",
-        "picked",
-        "frontrunner",
-        "job"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Secret votes and vetoes: How will the next UN chief be picked?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Secret",
-          "UN"
-        ],
-        "latest_progress": [
-          "11月15日 06:11 UTC，Al Jazeera报道：“Secret votes and vetoes: How will the next UN chief be picked?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1259cf89fda0314591cc",
-          "url": "https://www.aljazeera.com/news/2026/11/15/secret-votes-and-vetoes-how-will-the-next-un-chief-be-picked?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/secret-votes-and-vetoes-how-will-the-next-un-chief-be-picked?traffic_source=rss",
-          "title": "Secret votes and vetoes: How will the next UN chief be picked?",
-          "summary": "With no frontrunner for the job, eight candidates are vying for the UN Security Council's recommendation.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T06:11:00+00:00",
-          "fetched_at": "2026-11-15T09:25:23.695989+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0b811877fb8612a4047b",
-      "title": "Philippines , Australia sign defence cooperation pact",
-      "category": "军事安全",
-      "score": 59.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.5,
-        "credibility": 7.5,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T07:45:00+00:00",
-      "last_updated": "2026-11-15T07:45:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "freemalaysiatoday.com"
-      ],
-      "regions": [
-        "Malaysia"
-      ],
-      "keywords": [
-        "philippines",
-        "australia",
-        "sign",
-        "defence",
-        "cooperation",
-        "pact"
-      ],
-      "analysis": {
-        "what_happened": "据freemalaysiatoday.com等来源的1篇报道，当前关注的军事安全事件为“Philippines , Australia sign defence cooperation pact”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Philippines",
-          "Australia"
-        ],
-        "latest_progress": [
-          "11月15日 07:45 UTC，freemalaysiatoday.com报道：“Philippines , Australia sign defence cooperation pact”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_d30cbc329134b786e4d7",
-          "url": "https://www.freemalaysiatoday.com/category/world/2026/11/15/philippines-australia-sign-defence-pact-with-eye-on-china",
-          "canonical_url": "https://www.freemalaysiatoday.com/category/world/2026/11/15/philippines-australia-sign-defence-pact-with-eye-on-china",
-          "title": "Philippines , Australia sign defence cooperation pact",
-          "summary": "",
-          "source": "freemalaysiatoday.com",
-          "source_type": "gdelt",
-          "published_at": "2026-11-15T07:45:00+00:00",
-          "fetched_at": "2026-11-15T09:24:29.264984+00:00",
-          "language": "English",
-          "region": "Malaysia",
-          "source_weight": 0.75,
-          "image_url": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/c7187fa2-c260-4a89-9140-804990fdd3f4-Australia-philippines-defence-pact-signinging-EPA-15112026-.webp"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_223189004601e1f59b71",
-      "title": "ASEAN summit: Who’s attending and what’s at stake?",
+      "event_id": "evt_7da27380de35770d6abf",
+      "title": "Cape Verde goes to the polls in presidential vote",
       "category": "国际政治",
-      "score": 59.1,
+      "score": 60.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.0,
-        "credibility": 10.0,
+        "recency": 21.7,
+        "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-15T07:11:24+00:00",
-      "last_updated": "2026-11-15T07:11:24+00:00",
+      "first_seen": "2026-11-15T16:47:00+00:00",
+      "last_updated": "2026-11-15T16:47:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "Al Jazeera"
+        "DW Top Stories"
       ],
       "regions": [
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "asean",
-        "summit",
-        "attending",
-        "stake",
-        "energy",
-        "disruptions",
-        "result",
-        "us-israel"
+        "vote",
+        "cape",
+        "verde",
+        "goes",
+        "polls",
+        "presidential",
+        "known",
+        "political"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“ASEAN summit: Who’s attending and what’s at stake?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“Cape Verde goes to the polls in presidential vote”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "ASEAN",
-          "Who"
+          "Cape Verde"
         ],
         "latest_progress": [
-          "11月15日 07:11 UTC，Al Jazeera报道：“ASEAN summit: Who’s attending and what’s at stake?”。"
+          "11月15日 16:47 UTC，DW Top Stories报道：“Cape Verde goes to the polls in presidential vote”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -785,19 +558,323 @@
       },
       "articles": [
         {
-          "article_id": "art_289b4113804f9d1e29ac",
-          "url": "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake?traffic_source=rss",
-          "title": "ASEAN summit: Who’s attending and what’s at stake?",
-          "summary": "Energy disruptions as a result of the US-Israel war on Iran is a key issue for the import-dependent bloc.",
+          "article_id": "art_f28fbb9a569c8986071c",
+          "url": "https://www.dw.com/en/cape-verde-goes-to-the-polls-in-presidential-vote/a-79952606?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/cape-verde-goes-to-the-polls-in-presidential-vote/a-79952606?maca=en-rss-en-top-1022-rdf",
+          "title": "Cape Verde goes to the polls in presidential vote",
+          "summary": "Known for its political stability and good governance, the island nation will vote for its next president. About 420,000 people are eligible to vote",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-15T16:47:00+00:00",
+          "fetched_at": "2026-11-15T17:10:03.106508+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_b35ef3df0827a2284b8b",
+      "title": "Explosive attack targets investigative journalist’s home in Panama",
+      "category": "军事安全",
+      "score": 60.1,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-15T13:43:11+00:00",
+      "last_updated": "2026-11-15T13:43:11+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "investigative",
+        "journalist",
+        "home",
+        "panama",
+        "explosive",
+        "attack",
+        "targets",
+        "attacked"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Explosive attack targets investigative journalist’s home in Panama”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Explosive",
+          "Panama"
+        ],
+        "latest_progress": [
+          "11月15日 13:43 UTC，Al Jazeera报道：“Explosive attack targets investigative journalist’s home in Panama”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_7193ed9e3bede2e9c160",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/explosive-attack-targets-investigative-journalists-home-in-panama?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/explosive-attack-targets-investigative-journalists-home-in-panama?traffic_source=rss",
+          "title": "Explosive attack targets investigative journalist’s home in Panama",
+          "summary": "An investigative journalist’s home in Panama was attacked in a suspected bombing.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-15T07:11:24+00:00",
-          "fetched_at": "2026-11-15T09:25:23.695529+00:00",
+          "published_at": "2026-11-15T13:43:11+00:00",
+          "fetched_at": "2026-11-15T17:10:03.561343+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2c75c4c6fce9739a293f",
+      "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
+      "category": "国际政治",
+      "score": 60.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.9,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-15T15:57:03+00:00",
+      "last_updated": "2026-11-15T15:57:03+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "golf",
+        "course",
+        "judge",
+        "blocks",
+        "trump",
+        "closure",
+        "trash",
+        "island'"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Judge",
+          "Trump",
+          "Trash Island",
+          "Washington",
+          "DC",
+          "Sunday"
+        ],
+        "latest_progress": [
+          "11月15日 15:57 UTC，BBC World报道：“Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d1f7e2a06421c73d1c3c",
+          "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_campaign=rss&at_medium=RSS",
+          "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
+          "summary": "The temporary order is part of a months-long challenge to the US president's plans to upgrade East Potomac Golf Links into a championship course.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-15T15:57:03+00:00",
+          "fetched_at": "2026-11-15T17:10:01.993275+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be0/live/054b94d0-e09e-11f1-a701-fddedf244c16.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a4e6bf46c8cb29926a9f",
+      "title": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
+      "category": "能源资源",
+      "score": 59.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.4,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-15T15:21:21+00:00",
+      "last_updated": "2026-11-15T15:21:21+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "iraq",
+        "smuggling",
+        "militias",
+        "oil",
+        "crackdown",
+        "disarm",
+        "without",
+        "conflict"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“Will Iraq’s oil smuggling crackdown disarm militias without a conflict?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Will Iraq"
+        ],
+        "latest_progress": [
+          "11月15日 15:21 UTC，Al Jazeera报道：“Will Iraq’s oil smuggling crackdown disarm militias without a conflict?”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1953088e42b50daf6087",
+          "url": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
+          "title": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
+          "summary": "Iraq has dismantled an alleged smuggling ring in Jurf al-Sakhar which could squeeze militias and avert internal strife",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-15T15:21:21+00:00",
+          "fetched_at": "2026-11-15T17:10:03.560082+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a92c3a53e1c034361b90",
+      "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+      "category": "产业供应链",
+      "score": 58.8,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 19.7,
+        "credibility": 10.0,
+        "impact": 10.4,
+        "velocity": 1.6
+      },
+      "first_seen": "2026-11-14T19:14:33+00:00",
+      "last_updated": "2026-11-15T14:33:59+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "tanker",
+        "orleans",
+        "cruise",
+        "ship",
+        "collision",
+        "lawsuit",
+        "watch",
+        "overturns"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的2篇报道，当前关注的产业供应链事件为“New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
+        "participants": [
+          "New Orleans",
+          "Mississippi",
+          "Cruise"
+        ],
+        "latest_progress": [
+          "11月15日 14:33 UTC，BBC World报道：“New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision”。",
+          "11月14日 19:14 UTC，BBC World报道：“Watch: Cruise ship overturns after collision with tanker in New Orleans”。"
+        ],
+        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
+        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
+        "watch_indicators": [
+          "港口和工厂运行率",
+          "交货周期与运价",
+          "企业订单及库存"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_647f8a274d3132bd35d5",
+          "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_campaign=rss&at_medium=RSS",
+          "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+          "summary": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-15T14:33:59+00:00",
+          "fetched_at": "2026-11-15T17:10:01.993623+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6592/live/907a90a0-e090-11f1-a701-fddedf244c16.jpg"
+        },
+        {
+          "article_id": "art_f4bc8d6bc8ff8df45168",
+          "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_campaign=rss&at_medium=RSS",
+          "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+          "summary": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-14T19:14:33+00:00",
+          "fetched_at": "2026-11-15T17:10:01.994638+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3089/live/3bf0cfe0-e027-11f1-a701-fddedf244c16.jpg"
         }
       ]
     }
