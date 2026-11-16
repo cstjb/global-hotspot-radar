@@ -1,34 +1,171 @@
 {
-  "generated_at": "2026-11-15T21:50:45.970517+00:00",
+  "generated_at": "2026-11-16T02:07:27.586487+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 126,
-    "articles_unique": 126,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 176,
+    "articles_unique": 173,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_f7f9ed25aeecea98dc8e",
-      "title": "Thousands rally in Czech Republic against state media funding changes",
+      "event_id": "evt_252d7a44f11aba5c76c7",
+      "title": "Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon",
+      "category": "能源资源",
+      "score": 81.5,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.8,
+        "credibility": 9.9,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-15T15:23:00+00:00",
+      "last_updated": "2026-11-16T01:52:12+00:00",
+      "source_count": 3,
+      "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "pope",
+        "amazon",
+        "peru",
+        "leo",
+        "tour",
+        "deforestation",
+        "indigenous",
+        "day"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的能源资源事件为“Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Pope",
+          "Peru",
+          "Indigenous",
+          "Amazon Pope",
+          "Amazon",
+          "Photos",
+          "Pope Leo",
+          "Andean"
+        ],
+        "latest_progress": [
+          "11月16日 01:52 UTC，Al Jazeera报道：“Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon”。",
+          "11月16日 01:44 UTC，Al Jazeera报道：“Pope urges end to Amazon deforestation”。",
+          "11月15日 20:54 UTC，Al Jazeera报道：“Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_5f13b104efdbf12a47dd",
+          "url": "https://www.aljazeera.com/news/2026/11/16/pope-condemns-murders-of-perus-indigenous-leaders-deforestation-of-amazon?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/16/pope-condemns-murders-of-perus-indigenous-leaders-deforestation-of-amazon?traffic_source=rss",
+          "title": "Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon",
+          "summary": "Pontiff says he supports Indigenous efforts to protect their lands, demands justice for slain environmental defenders.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-16T01:52:12+00:00",
+          "fetched_at": "2026-11-16T02:07:26.412711+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5b7e883b24eeb1063436",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-urges-end-to-amazon-deforestation?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-urges-end-to-amazon-deforestation?traffic_source=rss",
+          "title": "Pope urges end to Amazon deforestation",
+          "summary": "Pope Leo XIV warns deforestation and illegal mining are threatening the Amazon rainforest and the local communities.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-16T01:44:11+00:00",
+          "fetched_at": "2026-11-16T02:07:26.412819+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_7c9b2b258554e5017167",
+          "url": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
+          "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
+          "summary": "The pope has called for the preservation of Indigenous traditions in Peru as he wraps up a 12-day tour of Latin America.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-15T20:54:13+00:00",
+          "fetched_at": "2026-11-16T02:07:26.413903+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_cbb2409cceeef7edf02c",
+          "url": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_campaign=rss&at_medium=RSS",
+          "title": "Pope Leo rides in helicopter cockpit during Peru trip",
+          "summary": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-15T18:38:11+00:00",
+          "fetched_at": "2026-11-16T02:07:26.266988+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc34/live/e2a8fc70-e11e-11f1-b441-2b33b063138f.jpg"
+        },
+        {
+          "article_id": "art_e3981071a91ff4a6f870",
+          "url": "https://www.dw.com/en/pope-leo-heads-to-the-amazon-on-the-final-leg-of-his-south-american-tour/a-79952884?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/pope-leo-heads-to-the-amazon-on-the-final-leg-of-his-south-american-tour/a-79952884?maca=en-rss-en-top-1022-rdf",
+          "title": "Pope Leo heads to the Amazon on the final leg of his South American tour",
+          "summary": "The religious leader warned that deforestation, illegal mining and pollution threaten the Amazon and its inhabitants. In Peru, the pope also demanded justice for Indigenous leaders killed defending their ancestral lands.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-15T15:23:00+00:00",
+          "fetched_at": "2026-11-16T02:07:26.297687+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3b4182c7465ade0787aa",
+      "title": "Czechs rally against plan to switch funding of public media",
       "category": "国际政治",
-      "score": 76.9,
+      "score": 76.1,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.3,
+        "recency": 20.5,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-15T16:32:22+00:00",
-      "last_updated": "2026-11-15T21:03:40+00:00",
+      "first_seen": "2026-11-15T19:12:00+00:00",
+      "last_updated": "2026-11-16T00:26:32+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
@@ -43,27 +180,25 @@
       "keywords": [
         "media",
         "against",
-        "funding",
+        "public",
+        "czechs",
+        "protest",
+        "plan",
         "say",
-        "thousands",
-        "rally",
-        "state",
-        "changes"
+        "rally"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Thousands rally in Czech Republic against state media funding changes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“Czechs rally against plan to switch funding of public media”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Czechs",
           "Czechia",
-          "Scores",
-          "Thousands",
-          "Czech Republic"
+          "Scores"
         ],
         "latest_progress": [
+          "11月16日 00:26 UTC，Al Jazeera报道：“Czechs rally against gov’t threat to media independence”。",
           "11月15日 21:03 UTC，BBC World报道：“Czechs rally against plan to switch funding of public media”。",
-          "11月15日 19:12 UTC，DW Top Stories报道：“Czechia: Scores protest against public media reform”。",
-          "11月15日 16:32 UTC，Al Jazeera报道：“Thousands rally in Czech Republic against state media funding changes”。"
+          "11月15日 19:12 UTC，DW Top Stories报道：“Czechia: Scores protest against public media reform”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -76,6 +211,21 @@
       },
       "articles": [
         {
+          "article_id": "art_a6efe391215838484fb0",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss",
+          "title": "Czechs rally against gov’t threat to media independence",
+          "summary": "Czechs rallied in Prague over plans to shift public media funding to the state, raising fears of government influence.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-16T00:26:32+00:00",
+          "fetched_at": "2026-11-16T02:07:26.413112+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
           "article_id": "art_d7b0313b0726f27bb1bb",
           "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_campaign=rss&at_medium=RSS",
@@ -84,7 +234,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-15T21:03:40+00:00",
-          "fetched_at": "2026-11-15T21:50:44.263463+00:00",
+          "fetched_at": "2026-11-16T02:07:26.267170+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -99,25 +249,10 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-15T19:12:00+00:00",
-          "fetched_at": "2026-11-15T21:50:44.604819+00:00",
+          "fetched_at": "2026-11-16T02:07:26.297337+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_1003cb06a25d55f6d160",
-          "url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss",
-          "title": "Thousands rally in Czech Republic against state media funding changes",
-          "summary": "Critics say proposed funding changes will give the government more control of state media.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T16:32:22+00:00",
-          "fetched_at": "2026-11-15T21:50:44.882507+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
@@ -126,12 +261,12 @@
       "event_id": "evt_a939bff575f902e792b6",
       "title": "Estonia to close border crossings with Russia after attack on drone maker",
       "category": "国际政治",
-      "score": 72.8,
+      "score": 69.4,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.8,
+        "recency": 17.4,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
@@ -189,7 +324,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-15T20:31:18+00:00",
-          "fetched_at": "2026-11-15T21:50:44.881336+00:00",
+          "fetched_at": "2026-11-16T02:07:26.414143+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -204,7 +339,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-15T18:29:00+00:00",
-          "fetched_at": "2026-11-15T21:50:44.604898+00:00",
+          "fetched_at": "2026-11-16T02:07:26.297410+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -219,7 +354,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-15T18:07:02+00:00",
-          "fetched_at": "2026-11-15T21:50:44.881883+00:00",
+          "fetched_at": "2026-11-16T02:07:26.414664+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -231,12 +366,12 @@
       "event_id": "evt_38454e137157c3b27853",
       "title": "Jordan sentences three men to death over deadly church attack in Karak",
       "category": "社会突发",
-      "score": 68.7,
+      "score": 65.4,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.6,
+        "recency": 17.2,
         "credibility": 10.0,
         "impact": 11.7,
         "velocity": 3.3
@@ -293,7 +428,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-15T20:12:38+00:00",
-          "fetched_at": "2026-11-15T21:50:44.881426+00:00",
+          "fetched_at": "2026-11-16T02:07:26.414241+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -308,7 +443,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-15T11:06:32+00:00",
-          "fetched_at": "2026-11-15T21:50:44.263653+00:00",
+          "fetched_at": "2026-11-16T02:07:26.267337+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -317,15 +452,321 @@
       ]
     },
     {
-      "event_id": "evt_aa8f9f4b3d9e4871d883",
-      "title": "Yemen’s Houthis unilaterally release 600 war detainees",
+      "event_id": "evt_55ef330a6e6f98e5489b",
+      "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
       "category": "军事安全",
-      "score": 62.6,
+      "score": 63.7,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-15T20:37:43+00:00",
+      "last_updated": "2026-11-15T22:06:38+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "israel",
+        "gaza",
+        "aid",
+        "can",
+        "force",
+        "implement",
+        "ceasefire",
+        "deal"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Australia",
+          "Canada",
+          "Italy",
+          "UK",
+          "Israel",
+          "Gaza Who",
+          "Gaza"
+        ],
+        "latest_progress": [
+          "11月15日 22:06 UTC，Al Jazeera报道：“Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza”。",
+          "11月15日 20:37 UTC，Al Jazeera报道：“Who can force Israel to implement Gaza ceasefire deal?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3f5228410628a54fce8f",
+          "url": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss",
+          "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+          "summary": "The countries accuse Israel of preventing tents and other supplies from entering Gaza, despite the humanitarian crisis.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-15T22:06:38+00:00",
+          "fetched_at": "2026-11-16T02:07:26.413654+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b8f338b596b25cda3db5",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
+          "title": "Who can force Israel to implement Gaza ceasefire deal?",
+          "summary": "Storms batter Palestinian territory as Israel restricts entry of aid.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-15T20:37:43+00:00",
+          "fetched_at": "2026-11-16T02:07:26.414062+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c78662e5997d35b33f8f",
+      "title": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
+      "category": "军事安全",
+      "score": 61.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.5,
+        "recency": 20.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-16T00:00:00+00:00",
+      "last_updated": "2026-11-16T00:00:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "iran",
+        "war",
+        "third",
+        "carrier",
+        "arrives",
+        "warns",
+        "could",
+        "strike"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Third US carrier arrives, Iran warns it could strike first”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iran",
+          "Third",
+          "US"
+        ],
+        "latest_progress": [
+          "11月16日 00:00 UTC，Al Jazeera报道：“Iran war live: Third US carrier arrives, Iran warns it could strike first”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9a6dd8868652714bc994",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
+          "title": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
+          "summary": "The USS Theodore Roosevelt has arrived in the Middle East, while Iran warned it would not simply wait for an attack.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-16T00:00:00+00:00",
+          "fetched_at": "2026-11-16T02:07:26.413404+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9c9c01a90bd62e8bb517",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "category": "科技AI",
+      "score": 59.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.7,
+        "credibility": 10.0,
+        "impact": 9.8,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-16T01:47:57+00:00",
+      "last_updated": "2026-11-16T01:47:57+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "china",
+        "suspected",
+        "spy",
+        "linked",
+        "nvidia's",
+        "ex-boss",
+        "left",
+        "megaspeed"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的科技AI事件为“Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "Suspected China",
+          "Nvidia",
+          "Megaspeed"
+        ],
+        "latest_progress": [
+          "11月16日 01:47 UTC，BBC World报道：“Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_c58c89c7dd6ea7d2653c",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_campaign=rss&at_medium=RSS",
+          "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+          "summary": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-16T01:47:57+00:00",
+          "fetched_at": "2026-11-16T02:07:26.266685+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6c92776ffca91789a363",
+      "title": "Zambia’s copper boom attracts billions in investment, but who benefits?",
+      "category": "能源资源",
+      "score": 59.3,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.2,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-16T00:04:28+00:00",
+      "last_updated": "2026-11-16T00:04:28+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "zambia",
+        "copper",
+        "boom",
+        "attracts",
+        "billions",
+        "investment",
+        "benefits",
+        "workers'"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“Zambia’s copper boom attracts billions in investment, but who benefits?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Zambia"
+        ],
+        "latest_progress": [
+          "11月16日 00:04 UTC，Al Jazeera报道：“Zambia’s copper boom attracts billions in investment, but who benefits?”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_f97d15a5dd76e4539143",
+          "url": "https://www.aljazeera.com/news/2026/11/16/zambias-copper-boom-attracts-billions-in-investment-but-who-benefits?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/16/zambias-copper-boom-attracts-billions-in-investment-but-who-benefits?traffic_source=rss",
+          "title": "Zambia’s copper boom attracts billions in investment, but who benefits?",
+          "summary": "Workers' rights, environmental concerns and local businesses remain at the centre of the debate.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-16T00:04:28+00:00",
+          "fetched_at": "2026-11-16T02:07:26.413220+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_aa8f9f4b3d9e4871d883",
+      "title": "Yemen’s Houthis unilaterally release 600 war detainees",
+      "category": "军事安全",
+      "score": 59.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.0,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
@@ -379,7 +820,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-15T21:19:08+00:00",
-          "fetched_at": "2026-11-15T21:50:44.880903+00:00",
+          "fetched_at": "2026-11-16T02:07:26.413817+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -388,167 +829,21 @@
       ]
     },
     {
-      "event_id": "evt_55ef330a6e6f98e5489b",
-      "title": "Who can force Israel to implement Gaza ceasefire deal?",
-      "category": "军事安全",
-      "score": 62.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.9,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T20:37:43+00:00",
-      "last_updated": "2026-11-15T20:37:43+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "israel",
-        "can",
-        "force",
-        "implement",
-        "gaza",
-        "ceasefire",
-        "deal",
-        "storms"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Who can force Israel to implement Gaza ceasefire deal?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Who",
-          "Israel",
-          "Gaza"
-        ],
-        "latest_progress": [
-          "11月15日 20:37 UTC，Al Jazeera报道：“Who can force Israel to implement Gaza ceasefire deal?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_b8f338b596b25cda3db5",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
-          "title": "Who can force Israel to implement Gaza ceasefire deal?",
-          "summary": "Storms batter Palestinian territory as Israel restricts entry of aid.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T20:37:43+00:00",
-          "fetched_at": "2026-11-15T21:50:44.881242+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_e1e3ec815a6052e92302",
-      "title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
-      "category": "社会突发",
-      "score": 60.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.5,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T20:07:06+00:00",
-      "last_updated": "2026-11-15T20:07:06+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "outbreak",
-        "africa",
-        "cdc",
-        "ebola",
-        "congo",
-        "still",
-        "not",
-        "under"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Africa CDC says Ebola outbreak in DR Congo ‘still not under control’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
-        "participants": [
-          "Africa",
-          "CDC",
-          "Ebola",
-          "DR",
-          "Congo"
-        ],
-        "latest_progress": [
-          "11月15日 20:07 UTC，Al Jazeera报道：“Africa CDC says Ebola outbreak in DR Congo ‘still not under control’”。"
-        ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
-        "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_13ca86c4d6736b006032",
-          "url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss",
-          "title": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
-          "summary": "'If we don't stop this outbreak now, it would be the worst Ebola outbreak,' Africa ​CDC director says.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T20:07:06+00:00",
-          "fetched_at": "2026-11-15T21:50:44.881539+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_08b428903ef0bc1439e3",
-      "title": "Zelenskyy urges removal of Starshield limits on Ukraine",
+      "event_id": "evt_d06f89063882dcffdb90",
+      "title": "Yemen: Anti-Houthi forces pull back as rebels advance",
       "category": "国际政治",
-      "score": 59.5,
+      "score": 58.3,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.9,
+        "recency": 19.7,
         "credibility": 9.5,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-15T20:39:00+00:00",
-      "last_updated": "2026-11-15T20:39:00+00:00",
+      "first_seen": "2026-11-15T23:29:00+00:00",
+      "last_updated": "2026-11-15T23:29:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -558,25 +853,25 @@
         "Europe"
       ],
       "keywords": [
-        "zelenskyy",
-        "urges",
-        "removal",
-        "starshield",
-        "limits",
-        "ukraine",
-        "ukraine's",
-        "government"
+        "forces",
+        "yemen",
+        "anti-houthi",
+        "pull",
+        "back",
+        "rebels",
+        "advance",
+        "aligned"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“Zelenskyy urges removal of Starshield limits on Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“Yemen: Anti-Houthi forces pull back as rebels advance”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Zelenskyy",
-          "Starshield",
-          "Ukraine"
+          "Yemen",
+          "Anti",
+          "Houthi"
         ],
         "latest_progress": [
-          "11月15日 20:39 UTC，DW Top Stories报道：“Zelenskyy urges removal of Starshield limits on Ukraine”。"
+          "11月15日 23:29 UTC，DW Top Stories报道：“Yemen: Anti-Houthi forces pull back as rebels advance”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -589,235 +884,19 @@
       },
       "articles": [
         {
-          "article_id": "art_df09a4652121bc77f2b7",
-          "url": "https://www.dw.com/en/zelenskyy-urges-removal-of-starshield-limits-on-ukraine/a-79953300?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/zelenskyy-urges-removal-of-starshield-limits-on-ukraine/a-79953300?maca=en-rss-en-top-1022-rdf",
-          "title": "Zelenskyy urges removal of Starshield limits on Ukraine",
-          "summary": "Ukraine's government has said the throttling of satellite-based internet system prevents Kyiv from intercepting Russian attacks.",
+          "article_id": "art_88f5d6cd90960e46ef0c",
+          "url": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692?maca=en-rss-en-top-1022-rdf",
+          "title": "Yemen: Anti-Houthi forces pull back as rebels advance",
+          "summary": "Forces aligned with the Yemeni government and Saudi Arabia are seeking to strengthen control over the interim capital Aden as the Iran-backed Houthis approach.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-15T20:39:00+00:00",
-          "fetched_at": "2026-11-15T21:50:44.604734+00:00",
+          "published_at": "2026-11-15T23:29:00+00:00",
+          "fetched_at": "2026-11-16T02:07:26.297078+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_fb9a96dbbe0172f7f90c",
-      "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-      "category": "国际政治",
-      "score": 59.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.0,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T19:32:39+00:00",
-      "last_updated": "2026-11-15T19:32:39+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "zelensky",
-        "urges",
-        "musk",
-        "lift",
-        "starlink",
-        "restrictions",
-        "right",
-        "side"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Zelensky",
-          "US",
-          "Musk",
-          "Starlink"
-        ],
-        "latest_progress": [
-          "11月15日 19:32 UTC，BBC World报道：“Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a5d1637de92e1ec6de66",
-          "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_campaign=rss&at_medium=RSS",
-          "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-          "summary": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-15T19:32:39+00:00",
-          "fetched_at": "2026-11-15T21:50:44.263008+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_36eedd1d3bdaed915193",
-      "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
-      "category": "国际政治",
-      "score": 57.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 18.4,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T17:33:00+00:00",
-      "last_updated": "2026-11-15T17:33:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "forces",
-        "bab",
-        "al-mandeb",
-        "yemeni",
-        "government",
-        "redeploy",
-        "defend",
-        "aden"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Yemeni government forces redeploy from Bab al-Mandeb to defend Aden”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Yemeni",
-          "Bab",
-          "Mandeb",
-          "Aden"
-        ],
-        "latest_progress": [
-          "11月15日 17:33 UTC，Al Jazeera报道：“Yemeni government forces redeploy from Bab al-Mandeb to defend Aden”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1a8d9eda388585a4f070",
-          "url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden?traffic_source=rss",
-          "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
-          "summary": "Spokesman for the Southern Armed Forces says group is repositioning from Dhubab airport and areas around Bab al-Mandeb.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-15T17:33:00+00:00",
-          "fetched_at": "2026-11-15T21:50:44.882158+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_aa67fa584db8032a2623",
-      "title": "How telecoms upgrade work sparked US flight chaos",
-      "category": "军事安全",
-      "score": 57.5,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 16.5,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-15T14:57:15+00:00",
-      "last_updated": "2026-11-15T14:57:15+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "telecoms",
-        "upgrade",
-        "work",
-        "sparked",
-        "flight",
-        "chaos",
-        "officials",
-        "say"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“How telecoms upgrade work sparked US flight chaos”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "US"
-        ],
-        "latest_progress": [
-          "11月15日 14:57 UTC，BBC World报道：“How telecoms upgrade work sparked US flight chaos”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_85c12f9c6ef58c1067fa",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_campaign=rss&at_medium=RSS",
-          "title": "How telecoms upgrade work sparked US flight chaos",
-          "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-15T14:57:15+00:00",
-          "fetched_at": "2026-11-15T21:50:44.264581+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg"
         }
       ]
     }
