@@ -1,69 +1,76 @@
 {
-  "generated_at": "2026-11-17T13:24:40.322991+00:00",
+  "generated_at": "2026-11-17T22:24:11.746361+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 177,
-    "articles_unique": 169,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 83,
+    "articles_unique": 83,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      },
+      {
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+      }
+    ]
   },
   "events": [
     {
       "event_id": "evt_35744df22868c3cea36c",
-      "title": "Trump addresses Quad leaders at first summit since 2024",
+      "title": "Trump in Asia ahead of talks with Russian and Chinese presidents",
       "category": "国际政治",
-      "score": 90.2,
+      "score": 82.2,
       "score_breakdown": {
         "coverage": 22.0,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 21.1,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 20.3,
         "credibility": 9.6,
         "impact": 11.0,
-        "velocity": 4.5
+        "velocity": 3.5
       },
       "first_seen": "2026-11-16T10:00:00+00:00",
-      "last_updated": "2026-11-17T12:25:33+00:00",
-      "source_count": 4,
+      "last_updated": "2026-11-17T20:25:46+00:00",
+      "source_count": 3,
       "article_count": 8,
       "sources": [
-        "Al Jazeera",
         "BBC World",
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East",
         "North America"
       ],
       "keywords": [
         "trump",
-        "president",
         "asia",
         "putin",
-        "china",
+        "president",
         "meet",
-        "summit",
-        "trip"
+        "trip",
+        "china",
+        "summit"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的8篇报道，当前关注的国际政治事件为“Trump addresses Quad leaders at first summit since 2024”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的8篇报道，当前关注的国际政治事件为“Trump in Asia ahead of talks with Russian and Chinese presidents”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Trump",
-          "Quad",
           "Asia",
+          "Russian",
+          "Chinese",
+          "APEC",
+          "What Trump",
           "Xi",
-          "Putin",
-          "And",
-          "Huang",
-          "Nvidia Trump"
+          "Putin"
         ],
         "latest_progress": [
-          "11月17日 12:25 UTC，Al Jazeera报道：“Trump addresses Quad leaders at first summit since 2024”。",
-          "11月17日 12:20 UTC，NPR World报道：“Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia”。",
-          "11月17日 10:43 UTC，NPR World报道：“Trump arrives in Philippines to kick off Asia trip”。"
+          "11月17日 20:25 UTC，BBC World报道：“Trump in Asia ahead of talks with Russian and Chinese presidents”。",
+          "11月17日 14:25 UTC，DW Top Stories报道：“APEC summit: What Trump, Xi and Putin want”。",
+          "11月17日 12:20 UTC，NPR World报道：“Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -76,18 +83,33 @@
       },
       "articles": [
         {
-          "article_id": "art_f1b71069a2cb4bf4aaf3",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-addresses-quad-leaders-at-first-summit-since-2024?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-addresses-quad-leaders-at-first-summit-since-2024?traffic_source=rss",
-          "title": "Trump addresses Quad leaders at first summit since 2024",
-          "summary": "US President Donald Trump spoke to leaders of the Quad security bloc at their first summit since 2024.",
-          "source": "Al Jazeera",
+          "article_id": "art_cd3236407abfc5555068",
+          "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_campaign=rss&at_medium=RSS",
+          "title": "Trump in Asia ahead of talks with Russian and Chinese presidents",
+          "summary": "The US president said he would be open to a one-on-one meeting with Russia's Vladimir Putin \"if it's available\".",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-17T12:25:33+00:00",
-          "fetched_at": "2026-11-17T13:24:37.588713+00:00",
+          "published_at": "2026-11-17T20:25:46+00:00",
+          "fetched_at": "2026-11-17T22:24:09.310669+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b939/live/dca6f2e0-e291-11f1-99b6-a35a62fa4264.jpg"
+        },
+        {
+          "article_id": "art_f86932921928e757f2f3",
+          "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-top-1022-rdf",
+          "title": "APEC summit: What Trump, Xi and Putin want",
+          "summary": "Trump, Xi and Putin will hold their first trilateral meeting on the sidelines of APEC. With different priorities on trade, Ukraine, Iran and arms control, what does each leader hope to gain?",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-17T14:25:00+00:00",
+          "fetched_at": "2026-11-17T22:24:10.057403+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
@@ -99,7 +121,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-17T12:20:57+00:00",
-          "fetched_at": "2026-11-17T13:24:37.486482+00:00",
+          "fetched_at": "2026-11-17T22:24:10.479219+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -114,7 +136,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-17T10:43:55+00:00",
-          "fetched_at": "2026-11-17T13:24:37.486614+00:00",
+          "fetched_at": "2026-11-17T22:24:10.479343+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -129,7 +151,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-17T10:13:27+00:00",
-          "fetched_at": "2026-11-17T13:24:37.175332+00:00",
+          "fetched_at": "2026-11-17T22:24:09.311665+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -144,24 +166,9 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-17T09:46:00+00:00",
-          "fetched_at": "2026-11-17T13:24:37.486818+00:00",
+          "fetched_at": "2026-11-17T22:24:10.479574+00:00",
           "language": "en",
           "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_751ab6f5b9528eeec5cb",
-          "url": "https://www.dw.com/en/trump-kicks-off-asia-tour-ahead-of-major-talks-with-putin-xi-in-china/live-79964719?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/trump-kicks-off-asia-tour-ahead-of-major-talks-with-putin-xi-in-china/live-79964719?maca=en-rss-en-top-1022-rdf",
-          "title": "Trump kicks off Asia tour ahead of major talks with Putin, Xi in China",
-          "summary": "US President Donald Trump flew into Manila for a Quad meeting before he takes off to China for a much anticipated meet with Russian and Chinese counterparts. Follow live.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-17T07:34:00+00:00",
-          "fetched_at": "2026-11-17T13:24:37.379338+00:00",
-          "language": "en",
-          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
@@ -174,7 +181,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-16T12:08:14+00:00",
-          "fetched_at": "2026-11-17T13:24:37.487088+00:00",
+          "fetched_at": "2026-11-17T22:24:10.479909+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -189,7 +196,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-16T10:00:00+00:00",
-          "fetched_at": "2026-11-17T13:24:37.487265+00:00",
+          "fetched_at": "2026-11-17T22:24:10.480120+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -199,20 +206,20 @@
     },
     {
       "event_id": "evt_221c8deea3234f385209",
-      "title": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "category": "军事安全",
-      "score": 79.0,
+      "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+      "category": "国际政治",
+      "score": 73.2,
       "score_breakdown": {
         "coverage": 13.9,
         "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.6,
+        "recency": 17.8,
         "credibility": 9.7,
-        "impact": 13.0,
+        "impact": 11.0,
         "velocity": 5.0
       },
       "first_seen": "2026-11-17T09:50:45+00:00",
-      "last_updated": "2026-11-17T13:01:11+00:00",
+      "last_updated": "2026-11-17T17:19:57+00:00",
       "source_count": 3,
       "article_count": 3,
       "sources": [
@@ -226,55 +233,55 @@
       ],
       "keywords": [
         "bridge",
+        "russia",
         "ukraine",
         "russian",
+        "drones",
         "attacks",
-        "attack",
         "ukrainian",
-        "weeks",
-        "zelenskyy"
+        "kyiv"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的军事安全事件为“Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的国际政治事件为“'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Putin",
-          "Crimea",
-          "Zelensky",
-          "Ukraine Ukraine",
+          "It",
+          "Mother",
           "Russia",
+          "Kyiv",
           "Ukraine",
+          "Crimea",
           "Russian"
         ],
         "latest_progress": [
-          "11月17日 13:01 UTC，BBC World报道：“Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine”。",
+          "11月17日 17:19 UTC，BBC World报道：“'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge”。",
           "11月17日 11:13 UTC，DW Top Stories报道：“Ukraine updates: Russia-Crimea bridge appears destroyed after strike”。",
           "11月17日 09:50 UTC，NPR World报道：“Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_2bcfc50c8e922a7b577e",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_campaign=rss&at_medium=RSS",
-          "title": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-          "summary": "Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
+          "article_id": "art_1f402efbd44cfe1738c8",
+          "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_campaign=rss&at_medium=RSS",
+          "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+          "summary": "Moscow has targeted bridges in Kyiv, while Ukraine severely damaged a critical bridge linking Russia to occupied Crimea.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-17T13:01:11+00:00",
-          "fetched_at": "2026-11-17T13:24:37.174167+00:00",
+          "published_at": "2026-11-17T17:19:57+00:00",
+          "fetched_at": "2026-11-17T22:24:09.309952+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f084/live/ab522920-e29c-11f1-8dda-8925a81c3da5.jpg"
         },
         {
           "article_id": "art_706dab86f412104ae6ce",
@@ -285,7 +292,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-17T11:13:00+00:00",
-          "fetched_at": "2026-11-17T13:24:37.378949+00:00",
+          "fetched_at": "2026-11-17T22:24:10.057864+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -296,11 +303,11 @@
           "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
           "canonical_url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
           "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
-          "summary": "A Ukrainian drone and missile attack prepared over several weeks struck a vital Russian rail and road bridge to the occupied Crimean Peninsula, Ukrainian President Volodymyr Zelenskyy said Tuesday.",
+          "summary": "Ukrainian drones and missiles struck the Kerch Bridge linking Russia to occupied Crimean, Ukrainian President Volodymyr Zelenskyy said, as Russia reported its forces downed Ukrainian drones.",
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-17T09:50:45+00:00",
-          "fetched_at": "2026-11-17T13:24:37.486720+00:00",
+          "fetched_at": "2026-11-17T22:24:10.479456+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -309,112 +316,21 @@
       ]
     },
     {
-      "event_id": "evt_2551925a7de5be4aaad9",
-      "title": "Journalist who exposed alleged drug links shot dead in Costa Rica",
-      "category": "经济金融",
-      "score": 70.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.7,
-        "credibility": 10.0,
-        "impact": 11.7,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-17T09:18:37+00:00",
-      "last_updated": "2026-11-17T11:58:16+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "costa",
-        "journalist",
-        "alleged",
-        "links",
-        "shot",
-        "dead",
-        "rica",
-        "rican"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的经济金融事件为“Journalist who exposed alleged drug links shot dead in Costa Rica”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
-        "participants": [
-          "Gunmen",
-          "Costa Rican",
-          "Journalist",
-          "Costa Rica"
-        ],
-        "latest_progress": [
-          "11月17日 11:58 UTC，BBC World报道：“Gunmen kill Costa Rican journalist who reported on drugs trade”。",
-          "11月17日 09:18 UTC，Al Jazeera报道：“Journalist who exposed alleged drug links shot dead in Costa Rica”。"
-        ],
-        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
-        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
-        "watch_indicators": [
-          "央行与财政部门表态",
-          "通胀和就业数据",
-          "利率、汇率与资金流向"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a8c8aa8bef85880a2835",
-          "url": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_campaign=rss&at_medium=RSS",
-          "title": "Gunmen kill Costa Rican journalist who reported on drugs trade",
-          "summary": "Rodríguez had denounced alleged links between criminal organisations and powerful figures in Costa Rica.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-17T11:58:16+00:00",
-          "fetched_at": "2026-11-17T13:24:37.174814+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1bb5/live/140763d0-e26c-11f1-b19c-7b42f37bea48.jpg"
-        },
-        {
-          "article_id": "art_2d1ed2cc15c9ef663176",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/journalist-who-exposed-alleged-drug-links-shot-dead-in-costa-rica?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/journalist-who-exposed-alleged-drug-links-shot-dead-in-costa-rica?traffic_source=rss",
-          "title": "Journalist who exposed alleged drug links shot dead in Costa Rica",
-          "summary": "Costa Rican journalist Camilo Rodriguez has been shot dead near the capital San Jose.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-17T09:18:37+00:00",
-          "fetched_at": "2026-11-17T13:24:37.590021+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0902eba6d9dc0b50a4d4",
-      "title": "Mozambique opposition leader faces trial over deadly 2024 election unrest",
-      "category": "国际政治",
-      "score": 70.5,
+      "event_id": "evt_76aecefd5ccbc285622f",
+      "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+      "category": "军事安全",
+      "score": 72.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
         "recency": 21.3,
         "credibility": 10.0,
-        "impact": 11.0,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-17T12:10:53+00:00",
-      "last_updated": "2026-11-17T12:35:57+00:00",
+      "first_seen": "2026-11-17T20:44:54+00:00",
+      "last_updated": "2026-11-17T21:35:24+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -426,112 +342,28 @@
         "Middle East"
       ],
       "keywords": [
-        "faces",
-        "mozambique",
-        "opposition",
-        "leader",
-        "trial",
-        "deadly",
-        "protests",
-        "mondlane"
+        "military",
+        "soldier",
+        "police",
+        "spying",
+        "taken",
+        "custody",
+        "american",
+        "arrested"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Mozambique opposition leader faces trial over deadly 2024 election unrest”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Mozambique"
-        ],
-        "latest_progress": [
-          "11月17日 12:35 UTC，BBC World报道：“Mozambique opposition leader faces trial over deadly 2024 election unrest”。",
-          "11月17日 12:10 UTC，Al Jazeera报道：“Mozambique’s opposition leader stands trial over deadly 2024 protests”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_7298ed29f97495506d5e",
-          "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_campaign=rss&at_medium=RSS",
-          "title": "Mozambique opposition leader faces trial over deadly 2024 election unrest",
-          "summary": "Venâncio Mondlane faces several charges over 2024 post-election protests that left hundreds of people dead.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-17T12:35:57+00:00",
-          "fetched_at": "2026-11-17T13:24:37.175077+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8344/live/da8191f0-e27d-11f1-bd1e-f9c53347c5a6.jpg"
-        },
-        {
-          "article_id": "art_fff511ac817e891d3d7e",
-          "url": "https://www.aljazeera.com/news/2026/11/17/mozambiques-opposition-leader-stands-trial-over-deadly-2024-protests?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/17/mozambiques-opposition-leader-stands-trial-over-deadly-2024-protests?traffic_source=rss",
-          "title": "Mozambique’s opposition leader stands trial over deadly 2024 protests",
-          "summary": "Venancio Mondlane faces five charges, the most serious being instigating 'terrorism'.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-17T12:10:53+00:00",
-          "fetched_at": "2026-11-17T13:24:37.588806+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1ab32ea2421d64377b6b",
-      "title": "Japan sends up jets after alleged Russian incursion of its airspace",
-      "category": "军事安全",
-      "score": 65.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 17.4,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-17T03:29:00+00:00",
-      "last_updated": "2026-11-17T07:44:17+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "russian",
-        "japan",
-        "aircraft",
-        "jets",
-        "suspected",
-        "airspace",
-        "scrambles",
-        "counter"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Japan sends up jets after alleged Russian incursion of its airspace”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“American soldier arrested by UK police on suspicion of spying taken into US military custody”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Japan",
-          "Russian"
+          "UK",
+          "NATO",
+          "US",
+          "Russia",
+          "American"
         ],
         "latest_progress": [
-          "11月17日 07:44 UTC，BBC World报道：“Japan sends up jets after alleged Russian incursion of its airspace”。",
-          "11月17日 03:29 UTC，DW Top Stories报道：“Japan scrambles jets to counter suspected Russian aircraft”。"
+          "11月17日 21:35 UTC，Al Jazeera报道：“UK hands NATO-assigned US soldier accused of Russia spying to US military”。",
+          "11月17日 20:44 UTC，BBC World报道：“American soldier arrested by UK police on suspicion of spying taken into US military custody”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -544,259 +376,165 @@
       },
       "articles": [
         {
-          "article_id": "art_06cc74ed7b71985ea623",
-          "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_campaign=rss&at_medium=RSS",
-          "title": "Japan sends up jets after alleged Russian incursion of its airspace",
-          "summary": "Taiwan and South Korea also responded to Russian military aircraft detected near their airspaces.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-17T07:44:17+00:00",
-          "fetched_at": "2026-11-17T13:24:37.174990+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af8a/live/92244d70-e25b-11f1-8bed-2b9fd907b22d.jpg"
-        },
-        {
-          "article_id": "art_8b073ebe9a5096f85c43",
-          "url": "https://www.dw.com/en/japan-scrambles-jets-to-counter-suspected-russian-aircraft/a-79964537?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/japan-scrambles-jets-to-counter-suspected-russian-aircraft/a-79964537?maca=en-rss-en-top-1022-rdf",
-          "title": "Japan scrambles jets to counter suspected Russian aircraft",
-          "summary": "Japan said it lodged a \"very stern protest\" with Moscow after two suspected Russian aircraft violated Japanese airspace.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-17T03:29:00+00:00",
-          "fetched_at": "2026-11-17T13:24:37.379639+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_c244a7ca256e0f4f0654",
-      "title": "US President Trump arrives in Manila ahead of ASEAN summit",
-      "category": "国际政治",
-      "score": 63.4,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.3,
-        "credibility": 8.8,
-        "impact": 11.0,
-        "velocity": 1.2
-      },
-      "first_seen": "2026-11-16T08:15:00+00:00",
-      "last_updated": "2026-11-17T10:13:12+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "economictimes.indiatimes.com"
-      ],
-      "regions": [
-        "India",
-        "Middle East"
-      ],
-      "keywords": [
-        "trump",
-        "manila",
-        "ahead",
-        "president",
-        "asean",
-        "not",
-        "welcome",
-        "erupts"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、economictimes.indiatimes.com等来源的2篇报道，当前关注的国际政治事件为“US President Trump arrives in Manila ahead of ASEAN summit”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "US",
-          "President Trump",
-          "Manila",
-          "ASEAN",
-          "Trump",
-          "President Asean"
-        ],
-        "latest_progress": [
-          "11月17日 10:13 UTC，Al Jazeera报道：“US President Trump arrives in Manila ahead of ASEAN summit”。",
-          "11月16日 08:15 UTC，economictimes.indiatimes.com报道：“Trump not welcome : Manila erupts in protests ahead of US President Asean visit”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6124541e9df8ab1b45df",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/us-president-trump-arrives-in-manila-ahead-of-asean-summit?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/us-president-trump-arrives-in-manila-ahead-of-asean-summit?traffic_source=rss",
-          "title": "US President Trump arrives in Manila ahead of ASEAN summit",
-          "summary": "US President Donald Trump has landed in Manila ahead of a special ASEAN-US meeting.",
+          "article_id": "art_2e287a0c3858c653307c",
+          "url": "https://www.aljazeera.com/news/2026/11/17/uk-hands-nato-assigned-us-soldier-accused-of-russia-spying-to-us-military?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/17/uk-hands-nato-assigned-us-soldier-accused-of-russia-spying-to-us-military?traffic_source=rss",
+          "title": "UK hands NATO-assigned US soldier accused of Russia spying to US military",
+          "summary": "UK authorities have passed the investigation to the US 'in line with existing international protocols'.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-17T10:13:12+00:00",
-          "fetched_at": "2026-11-17T13:24:37.589689+00:00",
+          "published_at": "2026-11-17T21:35:24+00:00",
+          "fetched_at": "2026-11-17T22:24:10.763176+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_2b4b0d8960a9ad9e7d92",
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/trumps-not-welcome-manila-erupts-in-protests-ahead-of-us-presidents-asean-visit/articleshow/135875291.cms",
-          "canonical_url": "https://economictimes.indiatimes.com/news/international/world-news/trumps-not-welcome-manila-erupts-in-protests-ahead-of-us-presidents-asean-visit/articleshow/135875291.cms",
-          "title": "Trump not welcome : Manila erupts in protests ahead of US President Asean visit",
-          "summary": "",
-          "source": "economictimes.indiatimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-11-16T08:15:00+00:00",
-          "fetched_at": "2026-11-17T13:24:23.665286+00:00",
-          "language": "English",
-          "region": "India",
-          "source_weight": 0.75,
-          "image_url": "https://img.etimg.com/thumb/msid-135877521,width-1200,height-900,imgsize-315378,overlay-economictimes/articleshow.jpg"
+          "article_id": "art_7cd659ab9311880f1a3d",
+          "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_campaign=rss&at_medium=RSS",
+          "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+          "summary": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-17T20:44:54+00:00",
+          "fetched_at": "2026-11-17T22:24:09.310443+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26d1/live/31a610b0-e2b9-11f1-bee0-ef418afc697f.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_64d9e186c868b5560541",
-      "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-      "category": "科技AI",
-      "score": 63.0,
+      "event_id": "evt_ed4385e0f493538d9613",
+      "title": "Moment Russian military plane crashes in Siberia, killing 19",
+      "category": "军事安全",
+      "score": 72.3,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 20.1,
-        "credibility": 8.8,
-        "impact": 9.8,
-        "velocity": 1.1
+        "recency": 21.1,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-16T08:15:00+00:00",
-      "last_updated": "2026-11-17T11:17:32+00:00",
+      "first_seen": "2026-11-17T21:06:11+00:00",
+      "last_updated": "2026-11-17T21:25:43+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "BBC World",
-        "telecom.economictimes.indiatimes.com"
+        "Al Jazeera",
+        "BBC World"
       ],
       "regions": [
         "Europe",
-        "India"
+        "Middle East"
       ],
       "keywords": [
-        "megaspeed",
-        "nvidia",
-        "international",
-        "investigates",
-        "alice",
-        "huang",
-        "exit",
-        "scandal"
+        "russian",
+        "military",
+        "crashes",
+        "plane",
+        "killing",
+        "kemerovo",
+        "region",
+        "moment"
       ],
       "analysis": {
-        "what_happened": "据BBC World、telecom.economictimes.indiatimes.com等来源的2篇报道，当前关注的科技AI事件为“Nvidia partner Megaspeed being investigated by US government over chip exports”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Moment Russian military plane crashes in Siberia, killing 19”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Nvidia",
-          "Megaspeed",
-          "US",
-          "Megaspeed International",
-          "Megaspeed Investigates Alice Huang",
-          "Exit Amid Nvidia Scandal"
+          "Moment Russian",
+          "Siberia",
+          "Russian"
         ],
         "latest_progress": [
-          "11月17日 11:17 UTC，BBC World报道：“Nvidia partner Megaspeed being investigated by US government over chip exports”。",
-          "11月16日 08:15 UTC，telecom.economictimes.indiatimes.com报道：“Megaspeed International : Megaspeed Investigates Alice Huang Exit Amid Nvidia Scandal , ETTelecom”。"
+          "11月17日 21:25 UTC，Al Jazeera报道：“Moment Russian military plane crashes in Siberia, killing 19”。",
+          "11月17日 21:06 UTC，BBC World报道：“Russian military plane crashes killing all 19 on board”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_0a9887b204b3d458575e",
-          "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_campaign=rss&at_medium=RSS",
-          "title": "Nvidia partner Megaspeed being investigated by US government over chip exports",
-          "summary": "The Singapore-based company is suspected of helping to ship high-end AI chips from tech giant Nvidia to China, violating US export rules.",
+          "article_id": "art_917750539cbd143853fc",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss",
+          "title": "Moment Russian military plane crashes in Siberia, killing 19",
+          "summary": "Footage captures the moment a Russian military transport aircraft crashes in the Kemerovo region",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-17T21:25:43+00:00",
+          "fetched_at": "2026-11-17T22:24:10.763552+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6841cb31789d1cd38d1b",
+          "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_campaign=rss&at_medium=RSS",
+          "title": "Russian military plane crashes killing all 19 on board",
+          "summary": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-17T11:17:32+00:00",
-          "fetched_at": "2026-11-17T13:24:37.174513+00:00",
+          "published_at": "2026-11-17T21:06:11+00:00",
+          "fetched_at": "2026-11-17T22:24:09.310078+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a77e/live/31ebc580-e267-11f1-900c-895604014268.jpg"
-        },
-        {
-          "article_id": "art_ab2184f5a2407995bb13",
-          "url": "https://telecom.economictimes.indiatimes.com/news/devices/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout/135871334",
-          "canonical_url": "https://telecom.economictimes.indiatimes.com/news/devices/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout/135871334",
-          "title": "Megaspeed International : Megaspeed Investigates Alice Huang Exit Amid Nvidia Scandal , ETTelecom",
-          "summary": "",
-          "source": "telecom.economictimes.indiatimes.com",
-          "source_type": "gdelt",
-          "published_at": "2026-11-16T08:15:00+00:00",
-          "fetched_at": "2026-11-17T13:24:37.101602+00:00",
-          "language": "English",
-          "region": "India",
-          "source_weight": 0.75,
-          "image_url": "https://etimg.etb2bimg.com/thumb/msid-135871334,imgsize-86868,width-1200,height=627,overlay-ettelecom,resizemode-75/devices/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ead/live/4d71a050-e2bb-11f1-b083-69f1e69220f8.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_53b0e4c8456594d9bca9",
+      "event_id": "evt_c1e00fca4dded7376cf4",
       "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
       "category": "军事安全",
-      "score": 62.7,
+      "score": 71.5,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.7,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.3,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-17T13:02:17+00:00",
-      "last_updated": "2026-11-17T13:02:17+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-11-17T18:43:46+00:00",
+      "last_updated": "2026-11-17T20:30:20+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
+        "Al Jazeera",
         "BBC World"
       ],
       "regions": [
-        "Europe"
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
-        "settlers",
         "israeli",
+        "settlers",
         "palestinian",
         "woman",
+        "health",
+        "ministry",
         "shot",
-        "dead",
-        "west",
-        "bank"
+        "dead"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Palestinian",
@@ -804,7 +542,8 @@
           "West Bank"
         ],
         "latest_progress": [
-          "11月17日 13:02 UTC，BBC World报道：“Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says”。"
+          "11月17日 20:30 UTC，BBC World报道：“Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says”。",
+          "11月17日 18:43 UTC，Al Jazeera报道：“Israeli settler pogrom kills Palestinian woman, wounds 10 people”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -824,58 +563,80 @@
           "summary": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-17T13:02:17+00:00",
-          "fetched_at": "2026-11-17T13:24:37.174413+00:00",
+          "published_at": "2026-11-17T20:30:20+00:00",
+          "fetched_at": "2026-11-17T22:24:09.310320+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d277/live/17a72100-e286-11f1-a094-5fdc692f3e33.jpg"
+        },
+        {
+          "article_id": "art_8a61625ca3e23a0f0d47",
+          "url": "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people?traffic_source=rss",
+          "title": "Israeli settler pogrom kills Palestinian woman, wounds 10 people",
+          "summary": "The Palestinian Health Ministry says Fadda Mohammed Fheidat, 72, was shot dead by Israeli settlers.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-17T18:43:46+00:00",
+          "fetched_at": "2026-11-17T22:24:10.765528+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_d6f192a3134511741a49",
-      "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
+      "event_id": "evt_ac4a8d4dec8e97c93511",
+      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
       "category": "军事安全",
-      "score": 62.5,
+      "score": 69.1,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 13.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.5,
+        "recency": 21.1,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-17T12:50:12+00:00",
-      "last_updated": "2026-11-17T12:50:12+00:00",
+      "first_seen": "2026-11-17T15:38:10+00:00",
+      "last_updated": "2026-11-17T21:24:35+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 3,
       "sources": [
-        "Al Jazeera"
+        "BBC World"
       ],
       "regions": [
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "iranians",
-        "fear",
-        "more",
-        "civilian",
-        "infrastructure",
-        "could",
-        "targeted",
-        "war"
+        "attack",
+        "bridge",
+        "ukraine",
+        "crimean",
+        "kyiv",
+        "unfolded",
+        "one",
+        "key"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iranians fear more civilian infrastructure could be targeted in new US war”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World等来源的3篇报道，当前关注的军事安全事件为“Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iranians",
-          "US"
+          "Putin",
+          "Crimean Bridge",
+          "Zelensky",
+          "Ukraine",
+          "BBC",
+          "Kyiv",
+          "Russian"
         ],
         "latest_progress": [
-          "11月17日 12:50 UTC，Al Jazeera报道：“Iranians fear more civilian infrastructure could be targeted in new US war”。"
+          "11月17日 21:24 UTC，BBC World报道：“Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine”。",
+          "11月17日 15:54 UTC，BBC World报道：“BBC reports from Kyiv bridge hit by Russian attack”。",
+          "11月17日 15:38 UTC，BBC World报道：“How the attack on Crimean Bridge unfolded”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -888,15 +649,207 @@
       },
       "articles": [
         {
-          "article_id": "art_5b03668b72a320df612c",
-          "url": "https://www.aljazeera.com/news/2026/11/17/iranians-fear-more-civilian-infrastructure-could-be-targeted-in-new-us-war?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/17/iranians-fear-more-civilian-infrastructure-could-be-targeted-in-new-us-war?traffic_source=rss",
-          "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
-          "summary": "Energy facilities, industrial units, ports and bridges, schools, hospitals and apartment buildings have already been hit",
+          "article_id": "art_2bcfc50c8e922a7b577e",
+          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_campaign=rss&at_medium=RSS",
+          "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+          "summary": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-17T21:24:35+00:00",
+          "fetched_at": "2026-11-17T22:24:09.309493+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png"
+        },
+        {
+          "article_id": "art_a1cee3000d9435384dae",
+          "url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_campaign=rss&at_medium=RSS",
+          "title": "BBC reports from Kyiv bridge hit by Russian attack",
+          "summary": "The BBC's Sarah Rainsford spoke to residents near the site of the overnight strike.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-17T15:54:15+00:00",
+          "fetched_at": "2026-11-17T22:24:09.311453+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a20/live/d8ac30b0-e2b4-11f1-a094-5fdc692f3e33.jpg"
+        },
+        {
+          "article_id": "art_81051b021df3b54e6a86",
+          "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_campaign=rss&at_medium=RSS",
+          "title": "How the attack on Crimean Bridge unfolded",
+          "summary": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-17T15:38:10+00:00",
+          "fetched_at": "2026-11-17T22:24:09.309666+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82dd/live/f7995500-e29d-11f1-99a1-253766e7ad8b.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_874a69f2f8d164084cca",
+      "title": "Tensions rise over draft climate deal at COP31",
+      "category": "能源资源",
+      "score": 68.0,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 3.6
+      },
+      "first_seen": "2026-11-17T12:16:00+00:00",
+      "last_updated": "2026-11-17T20:40:29+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "climate",
+        "action",
+        "cop31",
+        "talks",
+        "flexes",
+        "muscle",
+        "despite",
+        "trump"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“Tensions rise over draft climate deal at COP31”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Tensions",
+          "US",
+          "Trump"
+        ],
+        "latest_progress": [
+          "11月17日 20:40 UTC，Al Jazeera报道：“Tensions rise over draft climate deal at COP31”。",
+          "11月17日 12:16 UTC，DW Top Stories报道：“US flexes climate action muscle at COP31 despite Trump no-show”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_d32070c93dbc13c82ef8",
+          "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31?traffic_source=rss",
+          "title": "Tensions rise over draft climate deal at COP31",
+          "summary": "Publication of the IPCC’s seventh assessment report becomes a sticking point at UN climate talks",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-17T12:50:12+00:00",
-          "fetched_at": "2026-11-17T13:24:37.588409+00:00",
+          "published_at": "2026-11-17T20:40:29+00:00",
+          "fetched_at": "2026-11-17T22:24:10.764009+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_d633b90147619c5bc78c",
+          "url": "https://www.dw.com/en/us-flexes-climate-action-muscle-at-cop31-despite-trump-no-show/a-79968666?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-flexes-climate-action-muscle-at-cop31-despite-trump-no-show/a-79968666?maca=en-rss-en-top-1022-rdf",
+          "title": "US flexes climate action muscle at COP31 despite Trump no-show",
+          "summary": "The US government is snubbing UN climate talks in Turkey. That's prompted a delegation of American lawmakers, mayors and governors to make the trip instead, aiming to show climate action in the US is alive and well.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-17T12:16:00+00:00",
+          "fetched_at": "2026-11-17T22:24:10.057579+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fd919bb0aaf24008ac29",
+      "title": "Whistleblower: Deadly drone strike in Kuwait could’ve been avoided",
+      "category": "军事安全",
+      "score": 62.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-17T21:14:31+00:00",
+      "last_updated": "2026-11-17T21:14:31+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "whistleblower",
+        "drone",
+        "strike",
+        "deadly",
+        "kuwait",
+        "could",
+        "avoided",
+        "accuses"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Whistleblower: Deadly drone strike in Kuwait could’ve been avoided”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Whistleblower",
+          "Deadly",
+          "Kuwait"
+        ],
+        "latest_progress": [
+          "11月17日 21:14 UTC，Al Jazeera报道：“Whistleblower: Deadly drone strike in Kuwait could’ve been avoided”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_26a4ccf3f2d49a9c13d6",
+          "url": "https://www.aljazeera.com/news/2026/11/17/whistleblower-deadly-drone-strike-in-kuwait-couldve-been-avoided?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/17/whistleblower-deadly-drone-strike-in-kuwait-couldve-been-avoided?traffic_source=rss",
+          "title": "Whistleblower: Deadly drone strike in Kuwait could’ve been avoided",
+          "summary": "Whistleblower accuses military of dismissing advanced security warnings of drone strike that killed six US soldiers.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-17T21:14:31+00:00",
+          "fetched_at": "2026-11-17T22:24:10.763664+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -905,21 +858,21 @@
       ]
     },
     {
-      "event_id": "evt_b966c22cd819fb0c3be8",
-      "title": "Is the US-Israel war on Iran turning into a ‘frozen conflict’?",
+      "event_id": "evt_315d609a6731d668d394",
+      "title": "US Navy chief says Iran war has put ‘strain’ on maritime forces",
       "category": "军事安全",
-      "score": 62.3,
+      "score": 61.8,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.2,
+        "recency": 20.7,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-17T12:33:51+00:00",
-      "last_updated": "2026-11-17T12:33:51+00:00",
+      "first_seen": "2026-11-17T20:57:56+00:00",
+      "last_updated": "2026-11-17T20:57:56+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -930,25 +883,24 @@
       ],
       "keywords": [
         "war",
+        "navy",
+        "chief",
         "iran",
-        "us-israel",
-        "turning",
-        "frozen",
-        "conflict",
-        "trump",
-        "washington"
+        "put",
+        "strain",
+        "maritime",
+        "forces"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Is the US-Israel war on Iran turning into a ‘frozen conflict’?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“US Navy chief says Iran war has put ‘strain’ on maritime forces”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Is",
           "US",
-          "Israel",
+          "Navy",
           "Iran"
         ],
         "latest_progress": [
-          "11月17日 12:33 UTC，Al Jazeera报道：“Is the US-Israel war on Iran turning into a ‘frozen conflict’?”。"
+          "11月17日 20:57 UTC，Al Jazeera报道：“US Navy chief says Iran war has put ‘strain’ on maritime forces”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -961,18 +913,91 @@
       },
       "articles": [
         {
-          "article_id": "art_62cc1bc1a9a600f9aea1",
-          "url": "https://www.aljazeera.com/news/2026/11/17/is-the-us-israel-war-on-iran-turning-into-a-frozen-conflict?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/17/is-the-us-israel-war-on-iran-turning-into-a-frozen-conflict?traffic_source=rss",
-          "title": "Is the US-Israel war on Iran turning into a ‘frozen conflict’?",
-          "summary": "Trump says Washington doesn't need a deal with Tehran, while Iran rejects 'no war, no peace'. Is the war at an impasse?",
+          "article_id": "art_2bb6f22ac03654dedde3",
+          "url": "https://www.aljazeera.com/news/2026/11/17/us-navy-chief-says-iran-war-has-put-strain-on-maritime-forces?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/17/us-navy-chief-says-iran-war-has-put-strain-on-maritime-forces?traffic_source=rss",
+          "title": "US Navy chief says Iran war has put ‘strain’ on maritime forces",
+          "summary": "Lawmakers hound Hung Cao over expanding war, opaque leadership shake-ups, and low crew morale at confirmation hearing.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-17T12:33:51+00:00",
-          "fetched_at": "2026-11-17T13:24:37.588620+00:00",
+          "published_at": "2026-11-17T20:57:56+00:00",
+          "fetched_at": "2026-11-17T22:24:10.763792+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_989276f2cb0210990e56",
+      "title": "Hashim Thaci's second conviction in The Hague reignites debate in Kosovo about justice and the Kosovo Specialist Chambers",
+      "category": "军事安全",
+      "score": 61.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.5,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-17T20:40:00+00:00",
+      "last_updated": "2026-11-17T20:40:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "kosovo",
+        "hashim",
+        "conviction",
+        "debate",
+        "about",
+        "specialist",
+        "chambers",
+        "convicted"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“Hashim Thaci's second conviction in The Hague reignites debate in Kosovo about justice and the Kosovo Specialist Chambers”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Hashim Thaci",
+          "The Hague",
+          "Kosovo",
+          "Kosovo Specialist Chambers"
+        ],
+        "latest_progress": [
+          "11月17日 20:40 UTC，DW Top Stories报道：“Hashim Thaci's second conviction in The Hague reignites debate in Kosovo about justice and the Kosovo Specialist Chambers”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0a93eed6be2bf71ae4be",
+          "url": "https://www.dw.com/en/hashim-thaci-s-second-conviction-in-the-hague-reignites-debate-in-kosovo-about-justice-and-the-kosovo-specialist-chambers/a-79975227?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/hashim-thaci-s-second-conviction-in-the-hague-reignites-debate-in-kosovo-about-justice-and-the-kosovo-specialist-chambers/a-79975227?maca=en-rss-en-top-1022-rdf",
+          "title": "Hashim Thaci's second conviction in The Hague reignites debate in Kosovo about justice and the Kosovo Specialist Chambers",
+          "summary": "Former President Hashim Thaci has been convicted of trying to influence witnesses in his war crimes trial. The conviction has reignited debate in Kosovo about the Kosovo Specialist Chambers, the court that convicted him.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-17T20:40:00+00:00",
+          "fetched_at": "2026-11-17T22:24:10.056321+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
