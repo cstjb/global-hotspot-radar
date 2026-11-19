@@ -1,72 +1,75 @@
 {
-  "generated_at": "2026-11-19T03:26:25.920310+00:00",
+  "generated_at": "2026-11-19T13:05:51.013194+00:00",
   "event_count": 10,
   "run": {
-    "status": "success",
-    "articles_fetched": 189,
-    "articles_unique": 177,
-    "errors": []
+    "status": "partial",
+    "articles_fetched": 140,
+    "articles_unique": 140,
+    "errors": [
+      {
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+      }
+    ]
   },
   "events": [
     {
-      "event_id": "evt_45ea1153adaaf7a98991",
-      "title": "China’s Xi greets Putin and Trump at APEC before historic summit",
+      "event_id": "evt_94bd8f5eccf32e24e53a",
+      "title": "Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC",
       "category": "国际政治",
-      "score": 92.6,
+      "score": 84.6,
       "score_breakdown": {
-        "coverage": 19.5,
-        "source_diversity": 18.0,
+        "coverage": 17.9,
+        "source_diversity": 14.4,
         "region_diversity": 10.0,
-        "recency": 21.6,
-        "credibility": 8.9,
+        "recency": 18.6,
+        "credibility": 9.3,
         "impact": 11.0,
-        "velocity": 3.5
+        "velocity": 3.3
       },
-      "first_seen": "2026-11-18T01:15:00+00:00",
-      "last_updated": "2026-11-19T03:01:27+00:00",
-      "source_count": 5,
-      "article_count": 6,
+      "first_seen": "2026-11-18T10:32:03+00:00",
+      "last_updated": "2026-11-19T09:07:00+00:00",
+      "source_count": 4,
+      "article_count": 5,
       "sources": [
         "Al Jazeera",
         "DW Top Stories",
         "NPR World",
-        "rionegro.com.ar",
-        "wral.com"
+        "rionegro.com.ar"
       ],
       "regions": [
         "Argentina",
         "Europe",
         "Middle East",
-        "North America",
-        "United States"
+        "North America"
       ],
       "keywords": [
         "trump",
-        "putin",
         "china",
+        "putin",
+        "russia",
+        "key",
+        "meetings",
         "president",
-        "summit",
-        "apec",
-        "jinping",
-        "vladimir"
+        "washington"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、NPR World、rionegro.com.ar等来源的6篇报道，当前关注的国际政治事件为“China’s Xi greets Putin and Trump at APEC before historic summit”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World、rionegro.com.ar等来源的5篇报道，当前关注的国际政治事件为“Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
+          "Iran",
           "China",
-          "Xi",
-          "Putin",
+          "Russia",
           "Trump",
-          "APEC",
-          "Xi Jinping",
-          "Ukrainian",
-          "Russian"
+          "Putin",
+          "Xi",
+          "US",
+          "APEC"
         ],
         "latest_progress": [
-          "11月19日 03:01 UTC，Al Jazeera报道：“China’s Xi greets Putin and Trump at APEC before historic summit”。",
-          "11月18日 17:30 UTC，rionegro.com.ar报道：“Trump , Putin y Xi Jinping se reúnen en China : los objetivos de cada potencia en una cumbre inédita”。",
-          "11月18日 10:32 UTC，NPR World报道：“Trump lands in China with key meetings with Xi and Putin on the agenda”。"
+          "11月19日 09:07 UTC，DW Top Stories报道：“Iran balances ties with China and Russia as Trump ramps up pressure”。",
+          "11月19日 08:32 UTC，Al Jazeera报道：“Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC”。",
+          "11月19日 08:31 UTC，Al Jazeera报道：“Is Trump helping rehabilitate Putin on the world stage?”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -79,15 +82,45 @@
       },
       "articles": [
         {
-          "article_id": "art_137082b8954a28350972",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit?traffic_source=rss",
-          "title": "China’s Xi greets Putin and Trump at APEC before historic summit",
-          "summary": "Chinese President Xi Jinping greeted Donald Trump and Vladimir Putin at APEC summit.",
+          "article_id": "art_f221319e495e12d1f309",
+          "url": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-top-1022-rdf",
+          "title": "Iran balances ties with China and Russia as Trump ramps up pressure",
+          "summary": "As Donald Trump seeks to tighten economic pressure on Iran, China remains its biggest oil customer and Russia a key partner. But both powers are balancing support for Tehran against broader interests with Washington.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-19T09:07:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.172708+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_756ea31a8b50333d187c",
+          "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+          "title": "Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC",
+          "summary": "US president calls both Putin and Xi a 'friend' in separate meetings ahead of rare three-way talks in China.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-19T03:01:27+00:00",
-          "fetched_at": "2026-11-19T03:26:24.880257+00:00",
+          "published_at": "2026-11-19T08:32:10+00:00",
+          "fetched_at": "2026-11-19T13:05:49.486904+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6052043d9a85c657180f",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/is-trump-helping-rehabilitate-putin-on-the-world-stage?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/is-trump-helping-rehabilitate-putin-on-the-world-stage?traffic_source=rss",
+          "title": "Is Trump helping rehabilitate Putin on the world stage?",
+          "summary": "Is Trump helping rehabilitate Putin on the world stage?",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-19T08:31:14+00:00",
+          "fetched_at": "2026-11-19T13:05:49.487048+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -102,7 +135,7 @@
           "source": "rionegro.com.ar",
           "source_type": "gdelt",
           "published_at": "2026-11-18T17:30:00+00:00",
-          "fetched_at": "2026-11-19T03:26:23.813412+00:00",
+          "fetched_at": "2026-11-19T13:05:48.961866+00:00",
           "language": "Spanish",
           "region": "Argentina",
           "source_weight": 0.75,
@@ -117,80 +150,35 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-18T10:32:03+00:00",
-          "fetched_at": "2026-11-19T03:26:24.726814+00:00",
+          "fetched_at": "2026-11-19T13:05:49.217919+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_e47dadc6bc0477efbffb",
-          "url": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
-          "canonical_url": "https://www.npr.org/2026/11/18/nx-s1-6044242/putin-to-meet-with-trump-and-xi-after-ukrainian-attack-on-russian-bridge",
-          "title": "Putin to meet with Trump and Xi after Ukrainian attack on Russian bridge",
-          "summary": "Russian President Vladimir Putin will meet Thursday with President Trump and Chinese President Xi, escaping the aftermath of a Ukrainian attack that partially collapsed a prized bridge.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T09:43:28+00:00",
-          "fetched_at": "2026-11-19T03:26:24.727072+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e6a52eb0ea2b227b1a6e",
-          "url": "https://www.dw.com/en/apec-summit-xi-trump-and-putin-to-hold-first-ever-trilateral-in-china/live-79964719?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/apec-summit-xi-trump-and-putin-to-hold-first-ever-trilateral-in-china/live-79964719?maca=en-rss-en-top-1022-rdf",
-          "title": "APEC summit: Xi, Trump and Putin to hold first-ever trilateral in China",
-          "summary": "Presidents Donald Trump, Xi Jinping and Vladimir Putin are scheduled to sit down for a three-way summit today. Follow live.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-18T09:23:00+00:00",
-          "fetched_at": "2026-11-19T03:26:24.584543+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c32c4c16da751573f2e7",
-          "url": "https://www.wral.com/news/ap/3fc81-trump-heads-to-china-betting-on-unscripted-diplomacy-with-xi-and-putin/",
-          "canonical_url": "https://www.wral.com/news/ap/3fc81-trump-heads-to-china-betting-on-unscripted-diplomacy-with-xi-and-putin",
-          "title": "Trump heads to China , betting on unscripted diplomacy with Xi and Putin",
-          "summary": "",
-          "source": "wral.com",
-          "source_type": "gdelt",
-          "published_at": "2026-11-18T01:15:00+00:00",
-          "fetched_at": "2026-11-19T03:25:54.994160+00:00",
-          "language": "English",
-          "region": "United States",
-          "source_weight": 0.75,
-          "image_url": "https://images.wral.com/6d5ff9fd-00de-5391-8be5-6997e8b278a5"
         }
       ]
     },
     {
-      "event_id": "evt_e23110669d5c7468986e",
-      "title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
-      "category": "国际政治",
-      "score": 80.2,
+      "event_id": "evt_c1142b74d0be17cec70c",
+      "title": "UN’s top court finds Myanmar guilty of genocide against Rohingya",
+      "category": "军事安全",
+      "score": 83.6,
       "score_breakdown": {
         "coverage": 16.1,
         "source_diversity": 10.8,
         "region_diversity": 7.5,
-        "recency": 21.6,
-        "credibility": 9.9,
-        "impact": 11.0,
-        "velocity": 3.3
+        "recency": 21.5,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-18T08:33:32+00:00",
-      "last_updated": "2026-11-19T02:57:19+00:00",
+      "first_seen": "2026-11-19T10:31:36+00:00",
+      "last_updated": "2026-11-19T12:29:41+00:00",
       "source_count": 3,
       "article_count": 4,
       "sources": [
         "Al Jazeera",
-        "BBC World",
+        "DW Top Stories",
         "NPR World"
       ],
       "regions": [
@@ -199,494 +187,157 @@
         "North America"
       ],
       "keywords": [
-        "putin",
-        "meeting",
-        "trump",
-        "historic",
-        "president",
-        "bbc",
-        "steve",
-        "rosenberg"
+        "myanmar",
+        "genocide",
+        "against",
+        "rohingya",
+        "court",
+        "committed",
+        "top",
+        "state"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的4篇报道，当前关注的国际政治事件为“Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据Al Jazeera、DW Top Stories、NPR World等来源的4篇报道，当前关注的军事安全事件为“UN’s top court finds Myanmar guilty of genocide against Rohingya”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "What",
-          "Trump",
-          "Putin",
-          "Xi",
-          "Shenzhen",
-          "Russia",
-          "China",
-          "Steve Rosenberg"
+          "Top",
+          "Myanmar",
+          "Rohingya",
+          "ICJ",
+          "Rohingya Myanmar",
+          "UN"
         ],
         "latest_progress": [
-          "11月19日 02:57 UTC，Al Jazeera报道：“What do Trump, Putin and Xi want from their Shenzhen meeting?”。",
-          "11月18日 11:57 UTC，NPR World报道：“Trump to meet with Russia's Putin and China's Xi for historic joint meeting”。",
-          "11月18日 10:53 UTC，BBC World报道：“Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin”。"
+          "11月19日 12:29 UTC，NPR World报道：“Top U.N. court rules Myanmar committed genocide against the Rohingya”。",
+          "11月19日 12:20 UTC，Al Jazeera报道：“ICJ rules Myanmar committed genocide against the Rohingya”。",
+          "11月19日 11:39 UTC，DW Top Stories报道：“Myanmar committed genocide against Rohingya, top UN court rules”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_9224b6f26f8c49ca34e7",
-          "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting?traffic_source=rss",
-          "title": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
-          "summary": "The US, Chinese and Russian leaders are to hold their first three-way talks on the sidelines of the APEC summit.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T02:57:19+00:00",
-          "fetched_at": "2026-11-19T03:26:24.880421+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_95be052010db8f368eeb",
-          "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
-          "canonical_url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
-          "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
-          "summary": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting.",
+          "article_id": "art_666ba17e29533e1ccf39",
+          "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+          "canonical_url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+          "title": "Top U.N. court rules Myanmar committed genocide against the Rohingya",
+          "summary": "The International Court of Justice found that Myanmar security forces \"acted with genocidal intent\" against the Rohingya during the 2017 military operations in the northern Rakhine State.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-11-18T11:57:10+00:00",
-          "fetched_at": "2026-11-19T03:26:24.726612+00:00",
+          "published_at": "2026-11-19T12:29:41+00:00",
+          "fetched_at": "2026-11-19T13:05:49.216690+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_173bb0ef856a0f867c8b",
-          "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_campaign=rss&at_medium=RSS",
-          "title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
-          "summary": "Thursday's meeting between the leaders of US, China and Russia will give Vladimir Putin a big stage - but it does not bring him closer to winning the war in Ukraine.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T10:53:21+00:00",
-          "fetched_at": "2026-11-19T03:26:23.931034+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg"
-        },
-        {
-          "article_id": "art_7583ed6762610ebb7ed1",
-          "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_campaign=rss&at_medium=RSS",
-          "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
-          "summary": "The BBC’s Laura Bicker, Steve Rosenberg and Nada Tawfik explain everything you need to know ahead of the unprecedented trilateral meeting.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T08:33:32+00:00",
-          "fetched_at": "2026-11-19T03:26:23.930848+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e20b/live/66ff6490-e323-11f1-a094-5fdc692f3e33.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_fef2f8b4011d0a4ed169",
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "category": "军事安全",
-      "score": 78.8,
-      "score_breakdown": {
-        "coverage": 16.1,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.0,
-        "credibility": 9.9,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-18T18:29:00+00:00",
-      "last_updated": "2026-11-18T23:53:21+00:00",
-      "source_count": 3,
-      "article_count": 4,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "gaza",
-        "israel",
-        "palestinians",
-        "ground",
-        "military",
-        "israeli",
-        "launches",
-        "operation"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的4篇报道，当前关注的军事安全事件为“Israeli military launches rare ground operation in Gaza beyond Yellow Line”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Israel",
-          "Gaza",
-          "Israeli",
-          "Yellow Line What",
-          "Palestinians"
-        ],
-        "latest_progress": [
-          "11月18日 23:53 UTC，Al Jazeera报道：“Israel uses Gaza swimming video to minimise winter hardships”。",
-          "11月18日 22:34 UTC，BBC World报道：“Israeli military launches rare ground operation in Gaza beyond Yellow Line”。",
-          "11月18日 20:38 UTC，Al Jazeera报道：“What does Israel’s new ground offensive mean for Palestinians in Gaza?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_cfbc79ffcd974079fa28",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israel-uses-gaza-swimming-video-to-minimise-winter-hardships?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israel-uses-gaza-swimming-video-to-minimise-winter-hardships?traffic_source=rss",
-          "title": "Israel uses Gaza swimming video to minimise winter hardships",
-          "summary": "Israel shared an Al Jazeera video of Palestinians swimming, to suggest winter storms in Gaza can’t be that bad.",
+          "article_id": "art_946b4934f0067f79ceb5",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/icj-rules-myanmar-committed-genocide-against-the-rohingya?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/icj-rules-myanmar-committed-genocide-against-the-rohingya?traffic_source=rss",
+          "title": "ICJ rules Myanmar committed genocide against the Rohingya",
+          "summary": "The ICJ has ruled that Myanmar committed genocide against the Rohingya in northern Rakhine State.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-18T23:53:21+00:00",
-          "fetched_at": "2026-11-19T03:26:24.881238+00:00",
+          "published_at": "2026-11-19T12:20:19+00:00",
+          "fetched_at": "2026-11-19T13:05:49.484727+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_32aeb8f4a74308684db6",
-          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_campaign=rss&at_medium=RSS",
-          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-          "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T22:34:56+00:00",
-          "fetched_at": "2026-11-19T03:26:23.929512+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee79/live/56061990-e382-11f1-a094-5fdc692f3e33.jpg"
-        },
-        {
-          "article_id": "art_eb0e7a768bf589164b06",
-          "url": "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza?traffic_source=rss",
-          "title": "What does Israel’s new ground offensive mean for Palestinians in Gaza?",
-          "summary": "Israeli tanks advance beyond the 'Yellow Line', forcing Palestinians to flee again in Gaza.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-18T20:38:06+00:00",
-          "fetched_at": "2026-11-19T03:26:24.881810+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_996ad8ffa74a68d7eefd",
-          "url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958?maca=en-rss-en-top-1022-rdf",
-          "title": "Israel launches new ground operation in Gaza",
-          "summary": "Israel has said its military is targeting Hamas infrastructure in central Gaza and urged civilians to avoid the area. The fight is unfolding against the backdrop of a dire food and shelter situation for Palestinians.",
+          "article_id": "art_c25c77194081669087d7",
+          "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-top-1022-rdf",
+          "title": "Myanmar committed genocide against Rohingya, top UN court rules",
+          "summary": "The International Court of Justice has upheld large parts of a genocide case against Myanmar linked to the 2017 conflict with its Rohingya minority. It called for it to pay reparations and let refugees return safely.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-18T18:29:00+00:00",
-          "fetched_at": "2026-11-19T03:26:24.583906+00:00",
+          "published_at": "2026-11-19T11:39:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.172165+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_776dcf92acf4e33b1372",
-      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-      "category": "军事安全",
-      "score": 77.2,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 20.9,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.8
-      },
-      "first_seen": "2026-11-18T14:27:00+00:00",
-      "last_updated": "2026-11-19T02:10:43+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "rohingya",
-        "genocide",
-        "myanmar",
-        "icj",
-        "rule",
-        "case",
-        "against",
-        "military"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Myanmar faces historic genocide verdict at UN court over Rohingya massacres”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "ICJ",
-          "Rohingya",
-          "Myanmar Myanmar",
-          "UN",
-          "Myanmar",
-          "What"
-        ],
-        "latest_progress": [
-          "11月19日 02:10 UTC，Al Jazeera报道：“ICJ to rule on Rohingya genocide case against Myanmar”。",
-          "11月18日 23:04 UTC，BBC World报道：“Myanmar faces historic genocide verdict at UN court over Rohingya massacres”。",
-          "11月18日 14:27 UTC，DW Top Stories报道：“ICJ to rule on Rohingya genocide case against Myanmar: What to know”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
+        },
         {
-          "article_id": "art_4e86afed898a76294149",
-          "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar?traffic_source=rss",
-          "title": "ICJ to rule on Rohingya genocide case against Myanmar",
-          "summary": "The Gambia accuses Myanmar of genocide following a 2017 military crackdown that displaced at least 730,000 Rohingya.",
+          "article_id": "art_d4b2e4f62af8893da72e",
+          "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide?traffic_source=rss",
+          "title": "UN’s top court finds Myanmar guilty of genocide against Rohingya",
+          "summary": "It is the first time a state has been found responsible for genocide at the International Court of Justice.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-19T02:10:43+00:00",
-          "fetched_at": "2026-11-19T03:26:24.880492+00:00",
+          "published_at": "2026-11-19T10:31:36+00:00",
+          "fetched_at": "2026-11-19T13:05:49.485994+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_10fc13d1e94aca5370c9",
-          "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_campaign=rss&at_medium=RSS",
-          "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-          "summary": "No state has ever been found guilty by an international court of committing genocide.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T23:04:06+00:00",
-          "fetched_at": "2026-11-19T03:26:23.929209+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/67fc/live/b89f41e0-e336-11f1-9479-d17d3e98c29d.jpg"
-        },
-        {
-          "article_id": "art_b1b586872519d717ce44",
-          "url": "https://www.dw.com/en/icj-to-rule-on-rohingya-genocide-case-against-myanmar-what-to-know/a-79981434?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/icj-to-rule-on-rohingya-genocide-case-against-myanmar-what-to-know/a-79981434?maca=en-rss-en-top-1022-rdf",
-          "title": "ICJ to rule on Rohingya genocide case against Myanmar: What to know",
-          "summary": "The ICJ is set to decide whether Myanmar's military operations in Rakhine State a decade ago were carried out with the intent to destroy the country's Rohingya minority, in whole or in part.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-18T14:27:00+00:00",
-          "fetched_at": "2026-11-19T03:26:24.584391+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_7b5e3af9dd9a1e28a936",
-      "title": "US Defence Secretary Hegseth reveals military partnership on Venezuela trip",
-      "category": "军事安全",
-      "score": 74.5,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.6,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-18T20:19:00+00:00",
-      "last_updated": "2026-11-19T01:48:46+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "hegseth",
-        "military",
-        "deal",
-        "venezuela",
-        "pete",
-        "visit",
-        "partnership",
-        "us-venezuela"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“US Defence Secretary Hegseth reveals military partnership on Venezuela trip”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Hegseth",
-          "US",
-          "Venezuela",
-          "Defence Secretary Hegseth",
-          "Pentagon"
-        ],
-        "latest_progress": [
-          "11月19日 01:48 UTC，Al Jazeera报道：“Hegseth unveils new US-Venezuela military deal”。",
-          "11月18日 21:01 UTC，Al Jazeera报道：“US Defence Secretary Hegseth reveals military partnership on Venezuela trip”。",
-          "11月18日 20:19 UTC，DW Top Stories报道：“US Pentagon chief Hegseth signs military deal in Venezuela”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_8a34bf0fb87a2a69cc88",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/hegseth-unveils-new-us-venezuela-military-deal?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/hegseth-unveils-new-us-venezuela-military-deal?traffic_source=rss",
-          "title": "Hegseth unveils new US-Venezuela military deal",
-          "summary": "Pete Hegseth has unveiled a new military deal with Venezuela in his first visit since the US capture of Nicolas Maduro.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T01:48:46+00:00",
-          "fetched_at": "2026-11-19T03:26:24.880559+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_f62367ceb07664537841",
-          "url": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss",
-          "title": "US Defence Secretary Hegseth reveals military partnership on Venezuela trip",
-          "summary": "Pete Hegseth says the agreement will include joint training and intelligence sharing with the Venezuelan military.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-18T21:01:05+00:00",
-          "fetched_at": "2026-11-19T03:26:24.881744+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_038467aec32642f2e351",
-          "url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607?maca=en-rss-en-top-1022-rdf",
-          "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
-          "summary": "On a visit to Caracas, Pete Hegseth signed a deal that signifies the \"reestablishment of our defense partnership.\" US-Venezuela ties were strained for years until US troops ousted ex-President Nicolas Maduro in January.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-18T20:19:00+00:00",
-          "fetched_at": "2026-11-19T03:26:24.583794+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_bac4fdbb89c840a25c9e",
-      "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+      "event_id": "evt_16161be3da18f047ec70",
+      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
       "category": "科技AI",
-      "score": 69.0,
+      "score": 72.7,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
         "region_diversity": 5.0,
-        "recency": 21.0,
-        "credibility": 10.0,
+        "recency": 21.4,
+        "credibility": 9.7,
         "impact": 9.8,
-        "velocity": 5.0
+        "velocity": 2.2
       },
-      "first_seen": "2026-11-19T00:20:03+00:00",
-      "last_updated": "2026-11-19T02:20:15+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-11-18T15:46:00+00:00",
+      "last_updated": "2026-11-19T12:26:01+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "North America"
       ],
       "keywords": [
-        "anthropic",
-        "biggest",
-        "giant",
-        "market",
-        "debut",
-        "raises",
-        "ipo",
-        "all"
+        "house",
+        "jeffries",
+        "speaker",
+        "democrats",
+        "nominate",
+        "hakeem",
+        "first",
+        "black"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的科技AI事件为“AI giant Anthropic valued at up to $1.5tn ahead of stock market debut”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的3篇报道，当前关注的科技AI事件为“Democrats nominate Hakeem Jeffries to be US Speaker of the House”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "AI",
           "Anthropic",
-          "IPO"
+          "IPO",
+          "And",
+          "Dems",
+          "Jeffries",
+          "House",
+          "Democrats",
+          "Hakeem Jeffries"
         ],
         "latest_progress": [
-          "11月19日 02:20 UTC，BBC World报道：“AI giant Anthropic valued at up to $1.5tn ahead of stock market debut”。",
-          "11月19日 00:20 UTC，Al Jazeera报道：“Anthropic raises $81.3bn in biggest IPO of all time”。"
+          "11月19日 12:26 UTC，NPR World报道：“Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker”。",
+          "11月18日 21:13 UTC，BBC World报道：“Democrats nominate Hakeem Jeffries to be US Speaker of the House”。",
+          "11月18日 15:46 UTC，DW Top Stories报道：“US House Democrats nominate Hakeem Jeffries for speaker”。"
         ],
         "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
         "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
@@ -699,55 +350,160 @@
       },
       "articles": [
         {
-          "article_id": "art_916c82b799cde7b5ad2a",
-          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_campaign=rss&at_medium=RSS",
-          "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
-          "summary": "The firm started just five years ago and is now one of the biggest names in artificial intelligence.",
+          "article_id": "art_8bb330a5cfc1fee19bf4",
+          "url": "https://www.npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic",
+          "canonical_url": "https://www.npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic",
+          "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
+          "summary": "Despite growing concern over a possible AI bubble, Anthropic had a record-breaking initial public offering. And, Hakeem Jeffries could become the first Black Speaker of the House.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-19T12:26:01+00:00",
+          "fetched_at": "2026-11-19T13:05:49.216860+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_3481e05686bf931a29b3",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_campaign=rss&at_medium=RSS",
+          "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+          "summary": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-19T02:20:15+00:00",
-          "fetched_at": "2026-11-19T03:26:23.929295+00:00",
+          "published_at": "2026-11-18T21:13:06+00:00",
+          "fetched_at": "2026-11-19T13:05:49.019188+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a11/live/4dfcb420-e37d-11f1-b879-03485a55c082.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/128f/live/04ac0df0-e366-11f1-9f51-4bfc31543510.jpg"
         },
         {
-          "article_id": "art_cef55bca16dfc18155a2",
-          "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time?traffic_source=rss",
-          "title": "Anthropic raises $81.3bn in biggest IPO of all time",
-          "summary": "AI giant prices shares at $83 in blockbuster market debut.",
+          "article_id": "art_7bb089f1a361a7d83b1a",
+          "url": "https://www.dw.com/en/us-house-democrats-nominate-hakeem-jeffries-for-speaker/a-79983827?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-house-democrats-nominate-hakeem-jeffries-for-speaker/a-79983827?maca=en-rss-en-top-1022-rdf",
+          "title": "US House Democrats nominate Hakeem Jeffries for speaker",
+          "summary": "Jeffries is set to be the first Black speaker of the US House of Representatives when Democrats take control of the chamber next year. He will be second in line to the presidency.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-18T15:46:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.174349+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_3dd57559c149746361ba",
+      "title": "Denmark parliament approves security deal with Greenland and US",
+      "category": "军事安全",
+      "score": 71.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.3,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-19T10:56:00+00:00",
+      "last_updated": "2026-11-19T11:09:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "deal",
+        "greenland",
+        "denmark",
+        "security",
+        "ratifies",
+        "provides",
+        "expanded",
+        "military"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Denmark parliament approves security deal with Greenland and US”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Denmark",
+          "Greenland",
+          "US"
+        ],
+        "latest_progress": [
+          "11月19日 11:09 UTC，Al Jazeera报道：“Denmark parliament approves security deal with Greenland and US”。",
+          "11月19日 10:56 UTC，DW Top Stories报道：“Denmark ratifies security deal with US and Greenland”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3a745f5d8f631edcbd04",
+          "url": "https://www.aljazeera.com/news/2026/11/19/denmark-parliament-approves-security-deal-with-greenland-and-us?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/denmark-parliament-approves-security-deal-with-greenland-and-us?traffic_source=rss",
+          "title": "Denmark parliament approves security deal with Greenland and US",
+          "summary": "All 109 Danish lawmakers present approved the deal, easing tensions over Trump's desire to annex the Arctic island.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-19T00:20:03+00:00",
-          "fetched_at": "2026-11-19T03:26:24.880969+00:00",
+          "published_at": "2026-11-19T11:09:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.485690+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_2b3ba9351e4ebcf5a26b",
+          "url": "https://www.dw.com/en/denmark-ratifies-security-deal-with-us-and-greenland/a-79988989?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/denmark-ratifies-security-deal-with-us-and-greenland/a-79988989?maca=en-rss-en-top-1022-rdf",
+          "title": "Denmark ratifies security deal with US and Greenland",
+          "summary": "The deal provides the US with expanded military access, on top of what it already had based on a previous agreement. It comes after threats by US President Trump to take Greenland with force.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-19T10:56:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.172449+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
       "event_id": "evt_a666749d91832165e1d2",
-      "title": "Crimean Bridge attacked again, Russian official says",
+      "title": "Crimean Bridge attacked again, Russia says",
       "category": "军事安全",
-      "score": 68.4,
+      "score": 67.8,
       "score_breakdown": {
-        "coverage": 11.0,
+        "coverage": 13.9,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 19.9,
-        "credibility": 9.8,
+        "recency": 17.4,
+        "credibility": 9.7,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 4.1
       },
       "first_seen": "2026-11-18T20:30:00+00:00",
-      "last_updated": "2026-11-19T01:05:03+00:00",
+      "last_updated": "2026-11-19T07:32:06+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "BBC World",
         "DW Top Stories"
@@ -757,26 +513,27 @@
       ],
       "keywords": [
         "bridge",
+        "crimean",
         "attack",
         "russia",
-        "crimean",
+        "attacked",
+        "again",
         "link",
-        "between",
-        "crimea",
-        "russian"
+        "between"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Crimean Bridge attacked again, Russian official says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Crimean Bridge attacked again, Russia says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Crimean Bridge",
+          "Russia",
           "Russian",
           "What",
-          "Crimean",
-          "Russia"
+          "Crimean"
         ],
         "latest_progress": [
-          "11月19日 01:05 UTC，BBC World报道：“Crimean Bridge attacked again, Russian official says”。",
+          "11月19日 07:32 UTC，BBC World报道：“Crimean Bridge attacked again, Russia says”。",
+          "11月19日 03:43 UTC，DW Top Stories报道：“Crimean Bridge has been attacked again, Russian official says”。",
           "11月18日 20:30 UTC，DW Top Stories报道：“What the Crimean bridge attack means for Russia”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -793,16 +550,31 @@
           "article_id": "art_8c0e241cfec8c2c9b941",
           "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_campaign=rss&at_medium=RSS",
-          "title": "Crimean Bridge attacked again, Russian official says",
+          "title": "Crimean Bridge attacked again, Russia says",
           "summary": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-19T01:05:03+00:00",
-          "fetched_at": "2026-11-19T03:26:23.929446+00:00",
+          "published_at": "2026-11-19T07:32:06+00:00",
+          "fetched_at": "2026-11-19T13:05:49.017445+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29a/live/4b7210d0-e3ad-11f1-b942-5da5bfac5a5a.jpg"
+        },
+        {
+          "article_id": "art_faaf68ffdbd2974e9d1e",
+          "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-top-1022-rdf",
+          "title": "Crimean Bridge has been attacked again, Russian official says",
+          "summary": "The Crimean Bridge has been attacked again, Crimea's Russian-installed governor said. The attack comes as Vladimir Putin prepares to sit down with Donald Trump and Xi Jinping for joint talks in China.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-19T03:43:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.173241+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
         },
         {
           "article_id": "art_c6e0fb5e2c9ea32f104b",
@@ -813,7 +585,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-18T20:30:00+00:00",
-          "fetched_at": "2026-11-19T03:26:24.583738+00:00",
+          "fetched_at": "2026-11-19T13:05:49.173730+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -822,165 +594,56 @@
       ]
     },
     {
-      "event_id": "evt_8f553f74bcd6e501ca6f",
-      "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
-      "category": "科技AI",
-      "score": 66.7,
+      "event_id": "evt_e23110669d5c7468986e",
+      "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
+      "category": "国际政治",
+      "score": 67.7,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 11.7,
-        "credibility": 9.0,
-        "impact": 9.8,
-        "velocity": 4.1
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.1,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 1.8
       },
-      "first_seen": "2026-11-18T01:15:00+00:00",
-      "last_updated": "2026-11-18T12:14:28+00:00",
-      "source_count": 3,
+      "first_seen": "2026-11-18T08:33:32+00:00",
+      "last_updated": "2026-11-19T09:44:40+00:00",
+      "source_count": 2,
       "article_count": 3,
       "sources": [
         "BBC World",
-        "NPR World",
-        "bnnbloomberg.ca"
+        "NPR World"
       ],
       "regions": [
-        "Canada",
         "Europe",
         "North America"
       ],
       "keywords": [
-        "huang",
-        "jensen",
-        "nvidia",
-        "reinstate",
-        "ceo",
-        "won't",
-        "mary",
-        "peltola"
+        "trump",
+        "putin",
+        "meeting",
+        "historic",
+        "president",
+        "meet",
+        "bbc",
+        "trilateral"
       ],
       "analysis": {
-        "what_happened": "据BBC World、NPR World、bnnbloomberg.ca等来源的3篇报道，当前关注的科技AI事件为“Nvidia says it won't reinstate Huang as it reports soaring sales”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
-        "participants": [
-          "Mary Peltola",
-          "Alaska",
-          "Senate",
-          "And",
-          "Nvidia",
-          "Jensen Huang Nvidia",
-          "Huang",
-          "Jensen Huang"
-        ],
-        "latest_progress": [
-          "11月18日 12:14 UTC，NPR World报道：“Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang”。",
-          "11月18日 01:18 UTC，BBC World报道：“Nvidia says it won't reinstate Huang as it reports soaring sales”。",
-          "11月18日 01:15 UTC，bnnbloomberg.ca报道：“Jensen Huang signals interest in return to role as Nvidia CEO”。"
-        ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
-        "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5daa65e9f5f65c630a05",
-          "url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
-          "canonical_url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
-          "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
-          "summary": "Former Democratic Rep. Mary Peltola has won one of the U.S.' most watched Senate races. And, Nvidia's board says it doesn't plan to reinstate former CEO Jensen Huang despite pressure from his allies.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T12:14:28+00:00",
-          "fetched_at": "2026-11-19T03:26:24.726543+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_5a4880985565541fe67c",
-          "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_campaign=rss&at_medium=RSS",
-          "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
-          "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T01:18:18+00:00",
-          "fetched_at": "2026-11-19T03:26:23.930289+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg"
-        },
-        {
-          "article_id": "art_c28b03cc6d647a893f94",
-          "url": "https://www.bnnbloomberg.ca/business/2026/11/17/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo/",
-          "canonical_url": "https://www.bnnbloomberg.ca/business/2026/11/17/nvidia-chairman-says-board-does-not-intend-to-reinstate-jensen-huang-as-ceo",
-          "title": "Jensen Huang signals interest in return to role as Nvidia CEO",
-          "summary": "",
-          "source": "bnnbloomberg.ca",
-          "source_type": "gdelt",
-          "published_at": "2026-11-18T01:15:00+00:00",
-          "fetched_at": "2026-11-19T03:26:23.814476+00:00",
-          "language": "English",
-          "region": "Canada",
-          "source_weight": 0.75,
-          "image_url": "https://www.bnnbloomberg.ca/resizer/v2/4Y2R2LHAVMBOHAXDUJEY4TBBE4.jpg?smart=true&auth=7e7c9492637faa954fd92410af7ee45082c1beeafb286a14723d4d20d871a397"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_bee7ce9b31397ef2a9e3",
-      "title": "'Coalition of the Willing' meets in Berlin: Europe remains committed to Ukraine",
-      "category": "国际政治",
-      "score": 61.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 2.6
-      },
-      "first_seen": "2026-11-18T15:03:00+00:00",
-      "last_updated": "2026-11-19T02:46:00+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "berlin",
-        "coalition",
-        "willing'",
-        "europe",
-        "ukraine",
-        "future",
-        "ukraine's",
-        "meets"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“'Coalition of the Willing' meets in Berlin: Europe remains committed to Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、NPR World等来源的3篇报道，当前关注的国际政治事件为“BBC correspondents discuss historic Trump, Xi and Putin meeting”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Ukraine",
-          "Berlin",
-          "Coalition",
-          "Willing",
-          "Europe"
+          "Trump",
+          "Xi",
+          "Putin",
+          "Russia",
+          "China",
+          "BBC"
         ],
         "latest_progress": [
-          "11月19日 02:46 UTC，DW Top Stories报道：“Ukraine's allies gather in Berlin for 'Coalition of the Willing' summit”。",
-          "11月18日 15:03 UTC，DW Top Stories报道：“'Coalition of the Willing' meets in Berlin: Europe remains committed to Ukraine”。"
+          "11月19日 09:44 UTC，NPR World报道：“Trump, Xi and Putin meet as global alliances hang in the balance”。",
+          "11月18日 11:57 UTC，NPR World报道：“Trump to meet with Russia's Putin and China's Xi for historic joint meeting”。",
+          "11月18日 08:33 UTC，BBC World报道：“BBC correspondents discuss historic Trump, Xi and Putin meeting”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -993,82 +656,99 @@
       },
       "articles": [
         {
-          "article_id": "art_5066c46ec44df402d24a",
-          "url": "https://www.dw.com/en/ukraine-s-allies-gather-in-berlin-for-coalition-of-the-willing-summit/live-79986520?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-s-allies-gather-in-berlin-for-coalition-of-the-willing-summit/live-79986520?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine's allies gather in Berlin for 'Coalition of the Willing' summit",
-          "summary": "Ukraine's European backers are convening in Berlin, with US envoys Steve Witkoff and Jared Kushner also set to attend the meeting. Follow the latest.",
-          "source": "DW Top Stories",
+          "article_id": "art_64ddb9b93f18a95b917f",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+          "canonical_url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+          "title": "Trump, Xi and Putin meet as global alliances hang in the balance",
+          "summary": "President Trump, Xi and Putin have met in Shenzhen for a historic trilateral meeting, with Ukraine, Iran and nuclear disarmament on the agenda.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-11-19T02:46:00+00:00",
-          "fetched_at": "2026-11-19T03:26:24.583538+00:00",
+          "published_at": "2026-11-19T09:44:40+00:00",
+          "fetched_at": "2026-11-19T13:05:49.217012+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_1a9032bc13733eb967c9",
-          "url": "https://www.dw.com/en/coalition-of-the-willing-meets-in-berlin-europe-remains-committed-to-ukraine/a-79974996?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/coalition-of-the-willing-meets-in-berlin-europe-remains-committed-to-ukraine/a-79974996?maca=en-rss-en-top-1022-rdf",
-          "title": "'Coalition of the Willing' meets in Berlin: Europe remains committed to Ukraine",
-          "summary": "The \"Coalition of the Willing\" supporting Ukraine is gathering in Berlin. One of the key issues under discussion is whether Europe will be able to play a role in future negotiations over the country's future.",
-          "source": "DW Top Stories",
+          "article_id": "art_95be052010db8f368eeb",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+          "canonical_url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+          "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+          "summary": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting.",
+          "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-11-18T15:03:00+00:00",
-          "fetched_at": "2026-11-19T03:26:24.584235+00:00",
+          "published_at": "2026-11-18T11:57:10+00:00",
+          "fetched_at": "2026-11-19T13:05:49.217488+00:00",
           "language": "en",
-          "region": "Europe",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
+        },
+        {
+          "article_id": "art_7583ed6762610ebb7ed1",
+          "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_campaign=rss&at_medium=RSS",
+          "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
+          "summary": "The BBC’s Laura Bicker, Steve Rosenberg and Nada Tawfik explain everything you need to know ahead of the unprecedented trilateral meeting.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-18T08:33:32+00:00",
+          "fetched_at": "2026-11-19T13:05:49.021140+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e20b/live/66ff6490-e323-11f1-a094-5fdc692f3e33.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_fc02f07eba7abcad8f7b",
-      "title": "Iran war live: Trump says Iran seeks new weapons; Houthis target Riyadh",
+      "event_id": "evt_2c8815ff674a294d08a7",
+      "title": "North Korea expanding uranium enrichment facility, UN nuclear watchdog says",
       "category": "军事安全",
-      "score": 60.1,
+      "score": 66.4,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.1,
-        "credibility": 10.0,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 18.8,
+        "credibility": 9.8,
         "impact": 13.0,
-        "velocity": 5.0
+        "velocity": 1.7
       },
-      "first_seen": "2026-11-19T00:01:02+00:00",
-      "last_updated": "2026-11-19T00:01:02+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-11-18T15:15:00+00:00",
+      "last_updated": "2026-11-19T09:16:47+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera"
+        "Al Jazeera",
+        "DW Top Stories"
       ],
       "regions": [
+        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "iran",
-        "trump",
-        "weapons",
-        "war",
-        "seeks",
-        "houthis",
-        "target",
-        "riyadh"
+        "north",
+        "uranium",
+        "korea",
+        "enrichment",
+        "iaea",
+        "expanded",
+        "plant",
+        "head"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Iran war live: Trump says Iran seeks new weapons; Houthis target Riyadh”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“North Korea expanding uranium enrichment facility, UN nuclear watchdog says”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Iran",
-          "Trump",
-          "Houthis",
-          "Riyadh"
+          "North Korea",
+          "UN",
+          "IAEA"
         ],
         "latest_progress": [
-          "11月19日 00:01 UTC，Al Jazeera报道：“Iran war live: Trump says Iran seeks new weapons; Houthis target Riyadh”。"
+          "11月19日 09:16 UTC，Al Jazeera报道：“North Korea expanding uranium enrichment facility, UN nuclear watchdog says”。",
+          "11月18日 15:15 UTC，DW Top Stories报道：“North Korea expanded uranium enrichment plant, says IAEA head”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1081,18 +761,303 @@
       },
       "articles": [
         {
-          "article_id": "art_f76fb1f1f3d20f45cdcb",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss",
-          "title": "Iran war live: Trump says Iran seeks new weapons; Houthis target Riyadh",
-          "summary": "Trump claims Iran is seeking to develop biological weapons, as the Saudi-led coalition combats Houthi missiles.",
+          "article_id": "art_f580b2fa3463b70aab86",
+          "url": "https://www.aljazeera.com/news/2026/11/19/north-korea-expanding-uranium-enrichment-facility-un-nuclear-watchdog-says?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/north-korea-expanding-uranium-enrichment-facility-un-nuclear-watchdog-says?traffic_source=rss",
+          "title": "North Korea expanding uranium enrichment facility, UN nuclear watchdog says",
+          "summary": "North Korea can produce both highly enriched uranium and weapons-grade plutonium at its facilities, according to IAEA.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-19T00:01:02+00:00",
-          "fetched_at": "2026-11-19T03:26:24.881173+00:00",
+          "published_at": "2026-11-19T09:16:47+00:00",
+          "fetched_at": "2026-11-19T13:05:49.486604+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_9a24358d388138abb13b",
+          "url": "https://www.dw.com/en/north-korea-expanded-uranium-enrichment-plant-says-iaea-head/a-79982758?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/north-korea-expanded-uranium-enrichment-plant-says-iaea-head/a-79982758?maca=en-rss-en-top-1022-rdf",
+          "title": "North Korea expanded uranium enrichment plant, says IAEA head",
+          "summary": "IAEA chief Rafael Grossi has said the ongoing expansion of North Korea's uranium enrichment program remains \"a cause for serious concern.\"",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-18T15:15:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.174583+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a12f29ebab559cb821d0",
+      "title": "What is a ‘nuclear briefcase’, spotted at the APEC summit?",
+      "category": "军事安全",
+      "score": 66.3,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.2,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-19T10:03:27+00:00",
+      "last_updated": "2026-11-19T12:11:42+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "nuclear",
+        "apec",
+        "summit",
+        "trump",
+        "calls",
+        "arms",
+        "reduction",
+        "briefcase"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“What is a ‘nuclear briefcase’, spotted at the APEC summit?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "What",
+          "APEC",
+          "Trump"
+        ],
+        "latest_progress": [
+          "11月19日 12:11 UTC，Al Jazeera报道：“What is a ‘nuclear briefcase’, spotted at the APEC summit?”。",
+          "11月19日 10:03 UTC，Al Jazeera报道：“Trump calls for nuclear arms reduction at APEC summit”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_0f89dcc6d4917449653b",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-is-a-nuclear-briefcase-spotted-at-the-apec-summit?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/what-is-a-nuclear-briefcase-spotted-at-the-apec-summit?traffic_source=rss",
+          "title": "What is a ‘nuclear briefcase’, spotted at the APEC summit?",
+          "summary": "Vladimir Putin's special briefcase - thought to carry access to nuclear weapons - made a rare appearance in Shenzhen.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-19T12:11:42+00:00",
+          "fetched_at": "2026-11-19T13:05:49.484888+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5cd1db34216682d3b638",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-calls-for-nuclear-arms-reduction-at-apec-summit?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-calls-for-nuclear-arms-reduction-at-apec-summit?traffic_source=rss",
+          "title": "Trump calls for nuclear arms reduction at APEC summit",
+          "summary": "Trump calls for nuclear arms reduction at APEC summit",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-19T10:03:27+00:00",
+          "fetched_at": "2026-11-19T13:05:49.486313+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_7b5e3af9dd9a1e28a936",
+      "title": "Why is Pete Hegseth strengthening US military ties with Venezuela?",
+      "category": "军事安全",
+      "score": 66.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.7,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 2.6
+      },
+      "first_seen": "2026-11-18T20:19:00+00:00",
+      "last_updated": "2026-11-19T07:52:30+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "hegseth",
+        "military",
+        "deal",
+        "venezuela",
+        "pete",
+        "ties",
+        "pentagon",
+        "chief"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Why is Pete Hegseth strengthening US military ties with Venezuela?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Why",
+          "Pete Hegseth",
+          "US",
+          "Venezuela",
+          "Pentagon",
+          "Hegseth"
+        ],
+        "latest_progress": [
+          "11月19日 07:52 UTC，Al Jazeera报道：“Why is Pete Hegseth strengthening US military ties with Venezuela?”。",
+          "11月18日 20:19 UTC，DW Top Stories报道：“US Pentagon chief Hegseth signs military deal in Venezuela”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e765172122689cdb6264",
+          "url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/why-is-pete-hegseth-strengthening-us-military-ties-with-venezuela?traffic_source=rss",
+          "title": "Why is Pete Hegseth strengthening US military ties with Venezuela?",
+          "summary": "Hegseth's new military deal with Venezuela raises questions about US influence, regional security and Maduro's removal.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-19T07:52:30+00:00",
+          "fetched_at": "2026-11-19T13:05:49.487384+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_038467aec32642f2e351",
+          "url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607?maca=en-rss-en-top-1022-rdf",
+          "title": "US Pentagon chief Hegseth signs military deal in Venezuela",
+          "summary": "On a visit to Caracas, Pete Hegseth signed a deal that signifies the \"reestablishment of our defense partnership.\" US-Venezuela ties were strained for years until US troops ousted ex-President Nicolas Maduro in January.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-18T20:19:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.173849+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fef2f8b4011d0a4ed169",
+      "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+      "category": "军事安全",
+      "score": 65.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.3,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 1.8
+      },
+      "first_seen": "2026-11-18T18:29:00+00:00",
+      "last_updated": "2026-11-19T11:07:37+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "gaza",
+        "military",
+        "israel",
+        "ground",
+        "operation",
+        "said",
+        "hamas",
+        "israeli"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Israeli military completes ground operation in Gaza beyond Yellow Line”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israeli",
+          "Gaza",
+          "Yellow Line Israel"
+        ],
+        "latest_progress": [
+          "11月19日 11:07 UTC，BBC World报道：“Israeli military completes ground operation in Gaza beyond Yellow Line”。",
+          "11月18日 18:29 UTC，DW Top Stories报道：“Israel launches new ground operation in Gaza”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_32aeb8f4a74308684db6",
+          "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_campaign=rss&at_medium=RSS",
+          "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+          "summary": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-19T11:07:37+00:00",
+          "fetched_at": "2026-11-19T13:05:49.018086+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee79/live/56061990-e382-11f1-a094-5fdc692f3e33.jpg"
+        },
+        {
+          "article_id": "art_996ad8ffa74a68d7eefd",
+          "url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958?maca=en-rss-en-top-1022-rdf",
+          "title": "Israel launches new ground operation in Gaza",
+          "summary": "Israel has said its military is targeting Hamas infrastructure in central Gaza and urged civilians to avoid the area. The fight is unfolding against the backdrop of a dire food and shelter situation for Palestinians.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-18T18:29:00+00:00",
+          "fetched_at": "2026-11-19T13:05:49.174107+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
