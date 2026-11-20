@@ -1,45 +1,194 @@
 {
-  "generated_at": "2026-11-19T21:33:58.745856+00:00",
+  "generated_at": "2026-11-20T03:14:13.483599+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 141,
-    "articles_unique": 141,
-    "errors": [
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 192,
+    "articles_unique": 190,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_8e9d603f82f445ac43cb",
-      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-      "category": "国际政治",
-      "score": 96.4,
+      "event_id": "evt_d23479551add92a33ac6",
+      "title": "Rohingya genocide survivor: ‘perpetrators will have to face consequences’",
+      "category": "军事安全",
+      "score": 86.2,
       "score_breakdown": {
-        "coverage": 22.0,
-        "source_diversity": 18.0,
-        "region_diversity": 10.0,
-        "recency": 21.2,
-        "credibility": 9.6,
-        "impact": 11.0,
-        "velocity": 4.6
+        "coverage": 19.5,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 16.9,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-18T11:57:10+00:00",
-      "last_updated": "2026-11-19T20:43:51+00:00",
-      "source_count": 5,
-      "article_count": 10,
+      "first_seen": "2026-11-19T11:39:00+00:00",
+      "last_updated": "2026-11-19T20:58:38+00:00",
+      "source_count": 4,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
         "BBC World",
         "DW Top Stories",
-        "NPR World",
-        "cronica.com.ar"
+        "NPR World"
       ],
       "regions": [
-        "Argentina",
+        "Europe",
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "genocide",
+        "rohingya",
+        "court",
+        "myanmar",
+        "committed",
+        "against",
+        "international",
+        "justice"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的军事安全事件为“Rohingya genocide survivor: ‘perpetrators will have to face consequences’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Rohingya",
+          "What",
+          "Myanmar",
+          "UN",
+          "Rohingya Myanmar"
+        ],
+        "latest_progress": [
+          "11月19日 20:58 UTC，Al Jazeera报道：“Rohingya genocide survivor: ‘perpetrators will have to face consequences’”。",
+          "11月19日 20:26 UTC，Al Jazeera报道：“What does the Myanmar genocide ruling mean for the Rohingya?”。",
+          "11月19日 20:07 UTC，BBC World报道：“Myanmar committed genocide against Rohingya minority, top UN court rules”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_b44bf1bc6fbe25a95831",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-genocide-survivor-perpetrators-will-have-to-face?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-genocide-survivor-perpetrators-will-have-to-face?traffic_source=rss",
+          "title": "Rohingya genocide survivor: ‘perpetrators will have to face consequences’",
+          "summary": "The International Court of Justice has ruled that Myanmar committed genocide against the Rohingya.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-19T20:58:38+00:00",
+          "fetched_at": "2026-11-20T03:14:11.711207+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ff393ff685ee4391054a",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/what-does-the-myanmar-genocide-ruling-mean-for-the-rohingya?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/what-does-the-myanmar-genocide-ruling-mean-for-the-rohingya?traffic_source=rss",
+          "title": "What does the Myanmar genocide ruling mean for the Rohingya?",
+          "summary": "Rohingya refugees in Bangladesh cheered an International Court of Justice finding that Myanmar committed genocide.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-19T20:26:09+00:00",
+          "fetched_at": "2026-11-20T03:14:11.711717+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_482f90dd282757602940",
+          "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_campaign=rss&at_medium=RSS",
+          "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+          "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-19T20:07:02+00:00",
+          "fetched_at": "2026-11-20T03:14:10.686221+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d789/live/7c1a8b30-e435-11f1-99b6-a35a62fa4264.jpg"
+        },
+        {
+          "article_id": "art_6859d8a6f07cf3991e50",
+          "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_campaign=rss&at_medium=RSS",
+          "title": "Rohingya genocide: What was said in court and what happens now?",
+          "summary": "The verdict marks the first time a state has ever been found to have committed genocide by an international court.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-19T17:35:05+00:00",
+          "fetched_at": "2026-11-20T03:14:10.688484+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dea/live/12de9420-e441-11f1-99a1-253766e7ad8b.jpg"
+        },
+        {
+          "article_id": "art_666ba17e29533e1ccf39",
+          "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+          "canonical_url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+          "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+          "summary": "The International Court of Justice found that Myanmar security forces \"acted with genocidal intent\" against the Rohingya during military operations in the northern Rakhine state in 2017.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-19T12:29:41+00:00",
+          "fetched_at": "2026-11-20T03:14:11.541154+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_c25c77194081669087d7",
+          "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-top-1022-rdf",
+          "title": "Myanmar committed genocide against Rohingya, top UN court rules",
+          "summary": "The International Court of Justice has upheld large parts of a genocide case against Myanmar linked to the 2017 conflict with its Rohingya minority. It called for it to pay reparations and let refugees return safely.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-19T11:39:00+00:00",
+          "fetched_at": "2026-11-20T03:14:11.420086+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_8e9d603f82f445ac43cb",
+      "title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
+      "category": "国际政治",
+      "score": 83.5,
+      "score_breakdown": {
+        "coverage": 20.8,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 16.8,
+        "credibility": 9.7,
+        "impact": 11.0,
+        "velocity": 3.2
+      },
+      "first_seen": "2026-11-18T11:57:10+00:00",
+      "last_updated": "2026-11-19T20:43:51+00:00",
+      "source_count": 4,
+      "article_count": 7,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
         "Europe",
         "Middle East",
         "North America"
@@ -47,15 +196,15 @@
       "keywords": [
         "trump",
         "putin",
-        "meeting",
-        "trilateral",
         "historic",
         "talks",
+        "meeting",
         "president",
-        "summit"
+        "trilateral",
+        "peace"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的10篇报道，当前关注的国际政治事件为“Trump, Putin and Xi release 'peace declaration' after historic meeting”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的国际政治事件为“BBC correspondents discuss what Trump, Xi and Putin got out of historic talks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
           "Will",
@@ -91,7 +240,7 @@
           "source": "Al Jazeera",
           "source_type": "rss",
           "published_at": "2026-11-19T20:43:51+00:00",
-          "fetched_at": "2026-11-19T21:33:57.780685+00:00",
+          "fetched_at": "2026-11-20T03:14:11.711389+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -106,7 +255,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-19T17:52:00+00:00",
-          "fetched_at": "2026-11-19T21:33:57.536122+00:00",
+          "fetched_at": "2026-11-20T03:14:11.419526+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -121,7 +270,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-19T17:38:22+00:00",
-          "fetched_at": "2026-11-19T21:33:56.963486+00:00",
+          "fetched_at": "2026-11-20T03:14:10.686438+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -131,46 +280,16 @@
           "article_id": "art_a2d81e5e20163f1bd22c",
           "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_campaign=rss&at_medium=RSS",
-          "title": "What did Trump, Xi and Putin get out of their historic meeting?",
+          "title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
           "summary": "Trump, Putin and Xi have issued a \"joint declaration of peace\" after historical trilateral talks, but what did they get out of meeting?",
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-19T17:23:29+00:00",
-          "fetched_at": "2026-11-19T21:33:56.965149+00:00",
+          "fetched_at": "2026-11-20T03:14:10.688566+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f353/live/34533260-e445-11f1-99b6-a35a62fa4264.jpg"
-        },
-        {
-          "article_id": "art_6dd5c28456101673c319",
-          "url": "https://www.cronica.com.ar/mundo/las-4-claves-de-la-declaracion-sobre-la-paz-de-putin-trump-y-xi-jinping/",
-          "canonical_url": "https://www.cronica.com.ar/mundo/las-4-claves-de-la-declaracion-sobre-la-paz-de-putin-trump-y-xi-jinping",
-          "title": "Las 4 claves de la declaración sobre la paz de Putin , Trump y Xi Jinping - Crónica",
-          "summary": "",
-          "source": "cronica.com.ar",
-          "source_type": "gdelt",
-          "published_at": "2026-11-19T17:15:00+00:00",
-          "fetched_at": "2026-11-19T21:32:47.304279+00:00",
-          "language": "Spanish",
-          "region": "Argentina",
-          "source_weight": 0.75,
-          "image_url": "https://www.cronica.com.ar/files/image/1736/1736341/6aff1c86d139b_600_315!.png?s=95652def82f3d6ab9e58963949b2565d&d=1795057200"
-        },
-        {
-          "article_id": "art_1d50d19417409dad9fa5",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-and-putin-hijacked-china-summit?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-and-putin-hijacked-china-summit?traffic_source=rss",
-          "title": "Trump and Putin ‘hijacked’ China summit",
-          "summary": "Trump and Putin’s statements during trilateral talks distracted from the planned agenda, Einar Tangen says.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T17:02:22+00:00",
-          "fetched_at": "2026-11-19T21:33:57.782025+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         },
         {
           "article_id": "art_bfb0242c6ef790ef08c6",
@@ -181,7 +300,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-19T13:05:00+00:00",
-          "fetched_at": "2026-11-19T21:33:57.536491+00:00",
+          "fetched_at": "2026-11-20T03:14:11.420019+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -196,26 +315,11 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-19T09:44:40+00:00",
-          "fetched_at": "2026-11-19T21:33:57.656151+00:00",
+          "fetched_at": "2026-11-20T03:14:11.541569+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
-        },
-        {
-          "article_id": "art_0a013b629143869301ae",
-          "url": "https://www.bbc.co.uk/news/videos/c6j9m19llmv3o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c6j9m19llmv3o?at_campaign=rss&at_medium=RSS",
-          "title": "Trump greets 'my friend' Putin as pair shake hands",
-          "summary": "The pair met ahead of a trilateral meeting later with Chinese leader Xi Jinping.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-19T08:31:09+00:00",
-          "fetched_at": "2026-11-19T21:33:56.965272+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9a0/live/61fabc20-e3f9-11f1-99a1-253766e7ad8b.jpg"
         },
         {
           "article_id": "art_95be052010db8f368eeb",
@@ -226,7 +330,7 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-18T11:57:10+00:00",
-          "fetched_at": "2026-11-19T21:33:57.656340+00:00",
+          "fetched_at": "2026-11-20T03:14:11.541820+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -235,206 +339,217 @@
       ]
     },
     {
-      "event_id": "evt_d23479551add92a33ac6",
-      "title": "Rohingya genocide survivor: ‘perpetrators will have to face consequences’",
-      "category": "军事安全",
-      "score": 93.3,
+      "event_id": "evt_da8ab72c97c030290b08",
+      "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
+      "category": "社会突发",
+      "score": 76.0,
       "score_breakdown": {
-        "coverage": 22.0,
-        "source_diversity": 14.4,
-        "region_diversity": 7.5,
-        "recency": 21.5,
-        "credibility": 9.9,
-        "impact": 13.0,
+        "coverage": 13.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.3,
+        "credibility": 8.3,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-19T11:39:00+00:00",
-      "last_updated": "2026-11-19T20:58:38+00:00",
-      "source_count": 4,
-      "article_count": 9,
+      "first_seen": "2026-11-19T20:59:20+00:00",
+      "last_updated": "2026-11-20T02:30:00+00:00",
+      "source_count": 3,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
-        "BBC World",
-        "DW Top Stories",
-        "NPR World"
+        "bahianoticias.com.br",
+        "brasil247.com"
       ],
       "regions": [
-        "Europe",
-        "Middle East",
-        "North America"
+        "Brazil",
+        "Middle East"
       ],
       "keywords": [
-        "genocide",
-        "rohingya",
-        "myanmar",
-        "court",
-        "against",
-        "committed",
-        "international",
-        "justice"
+        "anthropic",
+        "nasdaq",
+        "arrested",
+        "com",
+        "alta",
+        "three",
+        "during",
+        "ipo"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的9篇报道，当前关注的军事安全事件为“Rohingya genocide survivor: ‘perpetrators will have to face consequences’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、bahianoticias.com.br、brasil247.com等来源的3篇报道，当前关注的社会突发事件为“Three arrested during Anthropic IPO protest outside Nasdaq”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Rohingya",
-          "What",
-          "Myanmar",
-          "UN",
-          "Photos",
-          "Genocide",
-          "ICJ",
-          "Rohingya Rohingya"
+          "Anthropic",
+          "Nasdaq",
+          "Aes",
+          "Nasdaq Three",
+          "IPO"
         ],
         "latest_progress": [
-          "11月19日 20:58 UTC，Al Jazeera报道：“Rohingya genocide survivor: ‘perpetrators will have to face consequences’”。",
-          "11月19日 20:26 UTC，Al Jazeera报道：“What does the Myanmar genocide ruling mean for the Rohingya?”。",
-          "11月19日 20:07 UTC，BBC World报道：“Myanmar committed genocide against Rohingya minority, top UN court rules”。"
+          "11月20日 02:30 UTC，brasil247.com报道：“Anthropic estreia na Nasdaq com alta de 17 %”。",
+          "11月20日 02:30 UTC，bahianoticias.com.br报道：“Aes da Anthropic estreiam com alta de mais de 30 % na Nasdaq”。",
+          "11月19日 20:59 UTC，Al Jazeera报道：“Three arrested during Anthropic IPO protest outside Nasdaq”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_b44bf1bc6fbe25a95831",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-genocide-survivor-perpetrators-will-have-to-face?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-genocide-survivor-perpetrators-will-have-to-face?traffic_source=rss",
-          "title": "Rohingya genocide survivor: ‘perpetrators will have to face consequences’",
-          "summary": "The International Court of Justice has ruled that Myanmar committed genocide against the Rohingya.",
+          "article_id": "art_8c85419354b35bba6f6f",
+          "url": "https://www.brasil247.com/tecnologia-e-ia/anthropic-estreia-na-nasdaq-com-alta-de-17/",
+          "canonical_url": "https://www.brasil247.com/tecnologia-e-ia/anthropic-estreia-na-nasdaq-com-alta-de-17",
+          "title": "Anthropic estreia na Nasdaq com alta de 17 %",
+          "summary": "",
+          "source": "brasil247.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-20T02:30:00+00:00",
+          "fetched_at": "2026-11-20T03:14:10.486185+00:00",
+          "language": "Portuguese",
+          "region": "Brazil",
+          "source_weight": 0.75,
+          "image_url": "https://www.brasil247.com/wp-content/uploads/2026/07/Claude-Code-1.jpeg?&quality=88&strip=all"
+        },
+        {
+          "article_id": "art_6332255732292b9dc9ea",
+          "url": "https://www.bahianoticias.com.br/folha/noticia/417552-acoes-da-anthropic-estreiam-com-alta-de-mais-de-30-na-nasdaq",
+          "canonical_url": "https://www.bahianoticias.com.br/folha/noticia/417552-acoes-da-anthropic-estreiam-com-alta-de-mais-de-30-na-nasdaq",
+          "title": "Aes da Anthropic estreiam com alta de mais de 30 % na Nasdaq",
+          "summary": "",
+          "source": "bahianoticias.com.br",
+          "source_type": "gdelt",
+          "published_at": "2026-11-20T02:30:00+00:00",
+          "fetched_at": "2026-11-20T03:14:10.487393+00:00",
+          "language": "Portuguese",
+          "region": "Brazil",
+          "source_weight": 0.75,
+          "image_url": "https://www.bahianoticias.com.br/fotos/folha_noticias/417552/IMAGEM_NOTICIA_9.jpg?checksum=1795115703"
+        },
+        {
+          "article_id": "art_f641093852cf0024c41e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
+          "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
+          "summary": "As the AI giant Anthropic made its record-breaking stock market debut in New York, police arrested demonstrators",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-19T20:58:38+00:00",
-          "fetched_at": "2026-11-19T21:33:57.780533+00:00",
+          "published_at": "2026-11-19T20:59:20+00:00",
+          "fetched_at": "2026-11-20T03:14:11.711038+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_19f1b7178674577cd9d2",
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "category": "经济金融",
+      "score": 74.5,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.7,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-19T23:33:51+00:00",
+      "last_updated": "2026-11-20T02:54:22+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "anthropic",
+        "stock",
+        "debut",
+        "market",
+        "first",
+        "company",
+        "publicly",
+        "becomes"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的经济金融事件为“Anthropic becomes one of world's most valuable public companies in stock market debut”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "Asia",
+          "Anthropic",
+          "AI"
+        ],
+        "latest_progress": [
+          "11月20日 02:54 UTC，Al Jazeera报道：“Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears”。",
+          "11月19日 23:52 UTC，BBC World报道：“How did Anthropic's stock market debut unfold?”。",
+          "11月19日 23:33 UTC，BBC World报道：“Anthropic becomes one of world's most valuable public companies in stock market debut”。"
+        ],
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
+        "watch_indicators": [
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_ea341f03026720e868b9",
+          "url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears?traffic_source=rss",
+          "title": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
+          "summary": "Indexes in Japan, South Korea, Taiwan and Hong Kong fall amid tech sell-off.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-20T02:54:22+00:00",
+          "fetched_at": "2026-11-20T03:14:11.709507+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_ff393ff685ee4391054a",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/what-does-the-myanmar-genocide-ruling-mean-for-the-rohingya?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/what-does-the-myanmar-genocide-ruling-mean-for-the-rohingya?traffic_source=rss",
-          "title": "What does the Myanmar genocide ruling mean for the Rohingya?",
-          "summary": "Rohingya refugees in Bangladesh cheered an International Court of Justice finding that Myanmar committed genocide.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T20:26:09+00:00",
-          "fetched_at": "2026-11-19T21:33:57.780973+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_482f90dd282757602940",
-          "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_campaign=rss&at_medium=RSS",
-          "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-          "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+          "article_id": "art_4bf8c6ef95b7239829d1",
+          "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_campaign=rss&at_medium=RSS",
+          "title": "How did Anthropic's stock market debut unfold?",
+          "summary": "The BBC's Samira Hussain breaks down the AI company's first day as a publicly traded company, as shares closed up 17%.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-19T20:07:02+00:00",
-          "fetched_at": "2026-11-19T21:33:56.963383+00:00",
+          "published_at": "2026-11-19T23:52:25+00:00",
+          "fetched_at": "2026-11-20T03:14:10.688316+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d789/live/7c1a8b30-e435-11f1-99b6-a35a62fa4264.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d424/live/6731c740-e478-11f1-a094-5fdc692f3e33.jpg"
         },
         {
-          "article_id": "art_de7c154486be3e536c24",
-          "url": "https://www.aljazeera.com/gallery/2026/11/19/photos-genocide-ruling-spotlights-2017-rohingya-crisis-human-toll?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/gallery/2026/11/19/photos-genocide-ruling-spotlights-2017-rohingya-crisis-human-toll?traffic_source=rss",
-          "title": "Photos: Genocide ruling spotlights human toll of 2017 Rohingya crisis",
-          "summary": "Nearly a million Rohingya fled to Bangladesh in 2017, forming one of the world's largest refugee camps near Cox's Bazar.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T19:33:25+00:00",
-          "fetched_at": "2026-11-19T21:33:57.781173+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a5c334a3029f5a5a566e",
-          "url": "https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya?traffic_source=rss",
-          "title": "World reacts to ICJ finding Myanmar guilty of genocide against Rohingya",
-          "summary": "Landmark judgement in The Hague is the first time a state has been held responsible for genocide at the ICJ.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T19:19:06+00:00",
-          "fetched_at": "2026-11-19T21:33:57.781371+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_8bfabda087a683e08742",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-survivors-react-to-landmark-genocide-ruling-against-myanmar?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-survivors-react-to-landmark-genocide-ruling-against-myanmar?traffic_source=rss",
-          "title": "Rohingya survivors react to landmark genocide ruling against Myanmar",
-          "summary": "Rohingya refugees in Bangladesh and an activist in New York react as the UN's top court rules Myanmar committed genocide",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T19:16:34+00:00",
-          "fetched_at": "2026-11-19T21:33:57.781438+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6859d8a6f07cf3991e50",
-          "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_campaign=rss&at_medium=RSS",
-          "title": "Rohingya genocide: What was said in court and what happens now?",
-          "summary": "The verdict marks the first time a state has ever been found to have committed genocide by an international court.",
+          "article_id": "art_8ece7c5897ece2ab0006",
+          "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_campaign=rss&at_medium=RSS",
+          "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+          "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-19T17:35:05+00:00",
-          "fetched_at": "2026-11-19T21:33:56.965086+00:00",
+          "published_at": "2026-11-19T23:33:51+00:00",
+          "fetched_at": "2026-11-20T03:14:10.685986+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dea/live/12de9420-e441-11f1-99a1-253766e7ad8b.jpg"
-        },
-        {
-          "article_id": "art_666ba17e29533e1ccf39",
-          "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
-          "canonical_url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
-          "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
-          "summary": "The International Court of Justice found that Myanmar security forces \"acted with genocidal intent\" against the Rohingya during military operations in the northern Rakhine state in 2017.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-19T12:29:41+00:00",
-          "fetched_at": "2026-11-19T21:33:57.655851+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_c25c77194081669087d7",
-          "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-top-1022-rdf",
-          "title": "Myanmar committed genocide against Rohingya, top UN court rules",
-          "summary": "The International Court of Justice has upheld large parts of a genocide case against Myanmar linked to the 2017 conflict with its Rohingya minority. It called for it to pay reparations and let refugees return safely.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-19T11:39:00+00:00",
-          "fetched_at": "2026-11-19T21:33:57.536542+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b7d/live/94082910-e452-11f1-a094-5fdc692f3e33.jpg"
         }
       ]
     },
@@ -442,53 +557,51 @@
       "event_id": "evt_b82353d06f657412838b",
       "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
       "category": "军事安全",
-      "score": 79.3,
+      "score": 71.7,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.8,
-        "credibility": 9.8,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 20.4,
+        "credibility": 9.7,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-11-19T18:44:00+00:00",
-      "last_updated": "2026-11-19T21:21:43+00:00",
-      "source_count": 3,
+      "last_updated": "2026-11-20T01:27:00+00:00",
+      "source_count": 2,
       "article_count": 3,
       "sources": [
-        "Al Jazeera",
         "BBC World",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
         "ukraine",
-        "european",
         "talks",
+        "european",
         "leaders",
-        "peace",
-        "berlin",
         "united",
-        "push"
+        "push",
+        "peace",
+        "berlin"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Europe ready for talks with Russia on ending war in Ukraine, leaders say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Europe ready for talks with Russia on ending war in Ukraine, leaders say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
+          "New Ukraine",
           "Europe",
+          "Merz Europe",
           "Russia",
           "Ukraine",
-          "European",
-          "Berlin",
-          "Ukraine European"
+          "European"
         ],
         "latest_progress": [
-          "11月19日 21:21 UTC，BBC World报道：“Europe ready for talks with Russia on ending war in Ukraine, leaders say”。",
-          "11月19日 19:40 UTC，Al Jazeera报道：“European leaders unite in Berlin to reaffirm support for Ukraine”。",
+          "11月20日 01:27 UTC，DW Top Stories报道：“New Ukraine talks including Europe to be held 'soon' — Merz”。",
+          "11月20日 00:50 UTC，BBC World报道：“Europe ready for talks with Russia on ending war in Ukraine, leaders say”。",
           "11月19日 18:44 UTC，DW Top Stories报道：“European leaders present united front in push for peace in Ukraine”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -502,6 +615,21 @@
       },
       "articles": [
         {
+          "article_id": "art_c9ececa5e0b02c68bb18",
+          "url": "https://www.dw.com/en/new-ukraine-talks-including-europe-to-be-held-soon-merz/a-79997961?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/new-ukraine-talks-including-europe-to-be-held-soon-merz/a-79997961?maca=en-rss-en-top-1022-rdf",
+          "title": "New Ukraine talks including Europe to be held 'soon' — Merz",
+          "summary": "Germany's Chancellor Friedrich Merz says European leaders could take part in fresh Ukraine talks on \"neutral ground.\" The UK and EU countries have urged a seat at the table in meetings between the US, Russia and Ukraine.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-20T01:27:00+00:00",
+          "fetched_at": "2026-11-20T03:14:11.418851+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
           "article_id": "art_f7bb15d8149ec23b159c",
           "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_campaign=rss&at_medium=RSS",
@@ -509,27 +637,12 @@
           "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-19T21:21:43+00:00",
-          "fetched_at": "2026-11-19T21:33:56.963568+00:00",
+          "published_at": "2026-11-20T00:50:24+00:00",
+          "fetched_at": "2026-11-20T03:14:10.686339+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fd8/live/5c168a90-e44a-11f1-a094-5fdc692f3e33.jpg"
-        },
-        {
-          "article_id": "art_9417e7ae610942db2c4a",
-          "url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine?traffic_source=rss",
-          "title": "European leaders unite in Berlin to reaffirm support for Ukraine",
-          "summary": "German chancellor warns peace talks without Europe's involvement are doomed to fail, urging unity with Ukraine.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T19:40:23+00:00",
-          "fetched_at": "2026-11-19T21:33:57.781107+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
         },
         {
           "article_id": "art_8b38732f04908d3be693",
@@ -540,7 +653,7 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-19T18:44:00+00:00",
-          "fetched_at": "2026-11-19T21:33:57.536056+00:00",
+          "fetched_at": "2026-11-20T03:14:11.419439+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -549,108 +662,90 @@
       ]
     },
     {
-      "event_id": "evt_6c764ec3c71cb5911093",
-      "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
-      "category": "科技AI",
-      "score": 77.4,
+      "event_id": "evt_085883ddaa353bfda971",
+      "title": "Iran war live: Houthis escalate attacks on Saudi capital",
+      "category": "军事安全",
+      "score": 70.2,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 7.5,
-        "recency": 21.5,
-        "credibility": 9.0,
-        "impact": 9.8,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.2,
+        "credibility": 9.8,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-19T15:52:00+00:00",
-      "last_updated": "2026-11-19T20:59:20+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-11-19T23:22:00+00:00",
+      "last_updated": "2026-11-19T23:58:40+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories",
-        "ryt9.com"
+        "DW Top Stories"
       ],
       "regions": [
         "Europe",
-        "Middle East",
-        "Thailand"
+        "Middle East"
       ],
       "keywords": [
-        "anthropic",
-        "nasdaq",
-        "trading",
-        "ipo",
-        "arrested",
-        "tests",
-        "investors'",
-        "appetite"
+        "war",
+        "iran",
+        "price",
+        "billion",
+        "pentagon",
+        "attacks",
+        "tag",
+        "barrels"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories、ryt9.com等来源的3篇报道，当前关注的科技AI事件为“Three arrested during Anthropic IPO protest outside Nasdaq”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Iran war live: Houthis escalate attacks on Saudi capital”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Anthropic",
-          "IPO",
-          "Nasdaq Anthropic",
-          "Nasdaq",
-          "AI"
+          "Iran",
+          "Houthis",
+          "Saudi",
+          "Price",
+          "US"
         ],
         "latest_progress": [
-          "11月19日 20:59 UTC，Al Jazeera报道：“Three arrested during Anthropic IPO protest outside Nasdaq”。",
-          "11月19日 17:15 UTC，ryt9.com报道：“Anthropic จุดพลุ Nasdaq พุ่ง สวนทางดาวโจนส์ร่วง”。",
-          "11月19日 15:52 UTC，DW Top Stories报道：“Anthropic trading tests investors' appetite for AI”。"
+          "11月19日 23:58 UTC，Al Jazeera报道：“Iran war live: Houthis escalate attacks on Saudi capital”。",
+          "11月19日 23:22 UTC，DW Top Stories报道：“Price tag for US war in Iran barrels past $48 billion”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_f641093852cf0024c41e",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
-          "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
-          "summary": "As the AI giant Anthropic made its record-breaking stock market debut in New York, police arrested demonstrators",
+          "article_id": "art_51da2c254df8555f2565",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+          "title": "Iran war live: Houthis escalate attacks on Saudi capital",
+          "summary": "Houthi missile fire has rocked Riyadh's financial centre as the Iran war leaves 'lasting marks' on global energy.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-19T20:59:20+00:00",
-          "fetched_at": "2026-11-19T21:33:57.780362+00:00",
+          "published_at": "2026-11-19T23:58:40+00:00",
+          "fetched_at": "2026-11-20T03:14:11.710443+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_198ea5edfe9b68cb80ea",
-          "url": "https://www.ryt9.com/s/iq/12858158",
-          "canonical_url": "https://www.ryt9.com/s/iq/12858158",
-          "title": "Anthropic จุดพลุ Nasdaq พุ่ง สวนทางดาวโจนส์ร่วง",
-          "summary": "",
-          "source": "ryt9.com",
-          "source_type": "gdelt",
-          "published_at": "2026-11-19T17:15:00+00:00",
-          "fetched_at": "2026-11-19T21:32:47.304423+00:00",
-          "language": "Thai",
-          "region": "Thailand",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e33ffa2fcc54bb50781f",
-          "url": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-top-1022-rdf",
-          "title": "Anthropic trading tests investors' appetite for AI",
-          "summary": "Anthropic was valued at $2 trillion after shares started trading on the Nasdaq following a record $81 billion IPO. Its performance will put investor confidence in AI to the test.",
+          "article_id": "art_091be8f106a23bc8e586",
+          "url": "https://www.dw.com/en/price-tag-for-us-war-in-iran-barrels-past-48-billion/a-79998255?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/price-tag-for-us-war-in-iran-barrels-past-48-billion/a-79998255?maca=en-rss-en-top-1022-rdf",
+          "title": "Price tag for US war in Iran barrels past $48 billion",
+          "summary": "A Pentagon budget officer has said the price of the Iran war surpassed $48.3 billion last week. That does not include costs sustained in Iranian attacks on US bases — lawmakers want details the Pentagon is loath to give.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-19T15:52:00+00:00",
-          "fetched_at": "2026-11-19T21:33:57.536227+00:00",
+          "published_at": "2026-11-19T23:22:00+00:00",
+          "fetched_at": "2026-11-20T03:14:11.419039+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -660,20 +755,20 @@
     },
     {
       "event_id": "evt_ffe80d88b9b89634e462",
-      "title": "Palestinians in Gaza face new displacement after Israeli army operation",
+      "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
       "category": "军事安全",
-      "score": 70.8,
+      "score": 68.1,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 19.6,
+        "recency": 16.9,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
       "first_seen": "2026-11-19T17:03:23+00:00",
-      "last_updated": "2026-11-19T18:46:10+00:00",
+      "last_updated": "2026-11-19T20:58:41+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -685,26 +780,27 @@
         "Middle East"
       ],
       "keywords": [
+        "ground",
+        "gaza",
         "israeli",
         "military",
-        "operation",
-        "gaza",
-        "completes",
-        "ground",
         "beyond",
-        "yellow"
+        "yellow",
+        "line",
+        "israel"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Palestinians in Gaza face new displacement after Israeli army operation”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Israeli military completes ground operation in Gaza beyond Yellow Line”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Palestinians",
+          "Jerusalem Daily",
+          "Israel",
+          "Gaza Israeli",
           "Gaza",
-          "Israeli",
           "Yellow Line"
         ],
         "latest_progress": [
-          "11月19日 18:46 UTC，Al Jazeera报道：“Palestinians in Gaza face new displacement after Israeli army operation”。",
+          "11月19日 20:58 UTC，Al Jazeera报道：“Jerusalem Daily: Israel launches ground offensive in Gaza”。",
           "11月19日 17:03 UTC，BBC World报道：“Israeli military completes ground operation in Gaza beyond Yellow Line”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
@@ -718,15 +814,15 @@
       },
       "articles": [
         {
-          "article_id": "art_cf45ec72844a2b471640",
-          "url": "https://www.aljazeera.com/news/2026/11/19/palestinians-in-gaza-face-new-displacement-after-israeli-army-operation?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/palestinians-in-gaza-face-new-displacement-after-israeli-army-operation?traffic_source=rss",
-          "title": "Palestinians in Gaza face new displacement after Israeli army operation",
-          "summary": "Families in Nuseirat spend the night without shelter, while many fear returning despite Israel ending offensive.",
+          "article_id": "art_242b6e214e7286088c23",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
+          "title": "Jerusalem Daily: Israel launches ground offensive in Gaza",
+          "summary": "Israel launches its first major ground offensive in central Gaza, pushing beyond the ‘Yellow Line’ it controls",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-19T18:46:10+00:00",
-          "fetched_at": "2026-11-19T21:33:57.781697+00:00",
+          "published_at": "2026-11-19T20:58:41+00:00",
+          "fetched_at": "2026-11-20T03:14:11.711123+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -741,7 +837,7 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-19T17:03:23+00:00",
-          "fetched_at": "2026-11-19T21:33:56.964253+00:00",
+          "fetched_at": "2026-11-20T03:14:10.687550+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
@@ -750,383 +846,224 @@
       ]
     },
     {
-      "event_id": "evt_01d615f1d22051373f22",
-      "title": "Save the Children: Gaza’s children face ‘unmatched dangers’",
-      "category": "军事安全",
-      "score": 67.0,
+      "event_id": "evt_cb0f156bf110a8a075ac",
+      "title": "经济日报 ： 不要小看中国经济 稳 的分量 _ 新浪财经 _ 新浪网",
+      "category": "经济金融",
+      "score": 64.7,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.1,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 0.9
+        "region_diversity": 2.5,
+        "recency": 19.8,
+        "credibility": 7.5,
+        "impact": 11.7,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-18T11:00:00+00:00",
-      "last_updated": "2026-11-19T19:23:45+00:00",
+      "first_seen": "2026-11-19T23:30:00+00:00",
+      "last_updated": "2026-11-20T00:45:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "NPR World"
+        "finance.eastmoney.com",
+        "finance.sina.com.cn"
       ],
       "regions": [
-        "Middle East",
-        "North America"
+        "China"
       ],
       "keywords": [
-        "children",
-        "square",
-        "greetings",
-        "berlin",
-        "artist's",
-        "statue",
-        "watches",
-        "play"
+        "经济",
+        "不要",
+        "要小",
+        "小看",
+        "看中",
+        "中国",
+        "国经",
+        "的分"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“Save the Children: Gaza’s children face ‘unmatched dangers’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据finance.eastmoney.com、finance.sina.com.cn等来源的2篇报道，当前关注的经济金融事件为“经济日报 ： 不要小看中国经济 稳 的分量 _ 新浪财经 _ 新浪网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Save",
-          "Children",
-          "Gaza",
-          "Greetings",
-          "Berlin"
+          "finance.eastmoney.com",
+          "finance.sina.com.cn"
         ],
         "latest_progress": [
-          "11月19日 19:23 UTC，Al Jazeera报道：“Save the Children: Gaza’s children face ‘unmatched dangers’”。",
-          "11月18日 11:00 UTC，NPR World报道：“Greetings from a Berlin square, where an artist's statue watches over children at play”。"
+          "11月20日 00:45 UTC，finance.sina.com.cn报道：“经济日报 ： 不要小看中国经济 稳 的分量 _ 新浪财经 _ 新浪网”。",
+          "11月19日 23:30 UTC，finance.eastmoney.com报道：“不要小看中国经济 稳 的分量 _ 东方财富网”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_e9438e590c81e68f0c36",
-          "url": "https://www.aljazeera.com/news/2026/11/19/save-the-children-gazas-children-face-unmatched-dangers?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/save-the-children-gazas-children-face-unmatched-dangers?traffic_source=rss",
-          "title": "Save the Children: Gaza’s children face ‘unmatched dangers’",
-          "summary": "Aid group says one third of violations against children worldwide were in occupied Palestinian territory.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T19:23:45+00:00",
-          "fetched_at": "2026-11-19T21:33:57.781305+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "article_id": "art_632ba63f3266a51a7141",
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-20/doc-inizinvs4138499.shtml",
+          "canonical_url": "https://finance.sina.com.cn/jjxw/2026-11-20/doc-inizinvs4138499.shtml",
+          "title": "经济日报 ： 不要小看中国经济 稳 的分量 _ 新浪财经 _ 新浪网",
+          "summary": "",
+          "source": "finance.sina.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-20T00:45:00+00:00",
+          "fetched_at": "2026-11-20T03:13:44.054404+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": "https://n.sinaimg.cn/spider20261120/7/w475h332/20261120/70f2-1f78fc20cb6670cb2a3d711ed82f9f3d.jpg"
         },
         {
-          "article_id": "art_cd91052aeafacba69080",
-          "url": "https://www.npr.org/2026/11/18/nx-s1-6043021/berlin-kollwitzplatz-statue",
-          "canonical_url": "https://www.npr.org/2026/11/18/nx-s1-6043021/berlin-kollwitzplatz-statue",
-          "title": "Greetings from a Berlin square, where an artist's statue watches over children at play",
-          "summary": "Children frolic around the ever-watchful and calm Käthe Kollwitz cast in bronze, in a square named after the German artist, whose work often depicted children in the wake of World War I.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T11:00:00+00:00",
-          "fetched_at": "2026-11-19T21:33:57.656463+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
+          "article_id": "art_22c7225556ef269593f0",
+          "url": "https://finance.eastmoney.com/a/202611203935463738.html",
+          "canonical_url": "https://finance.eastmoney.com/a/202611203935463738.html",
+          "title": "不要小看中国经济 稳 的分量 _ 东方财富网",
+          "summary": "",
+          "source": "finance.eastmoney.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-19T23:30:00+00:00",
+          "fetched_at": "2026-11-20T03:13:44.054448+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_4f20230c0bd69f6745df",
-      "title": "China’s Xi urges US and Russia to join forces to safeguard world peace",
-      "category": "国际政治",
-      "score": 63.8,
+      "event_id": "evt_0bac72e8aa83cd36b18d",
+      "title": "聚焦APEC｜以创新汇聚增长之势 推动亚太共同体建设的中国 科技力 |apec",
+      "category": "科技AI",
+      "score": 64.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.8,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 1.0
+        "region_diversity": 2.5,
+        "recency": 21.6,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-18T11:57:06+00:00",
-      "last_updated": "2026-11-19T17:50:21+00:00",
+      "first_seen": "2026-11-20T02:45:00+00:00",
+      "last_updated": "2026-11-20T02:45:00+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "NPR World"
+        "163.com",
+        "stdaily.com"
       ],
       "regions": [
-        "Middle East",
-        "North America"
+        "China"
       ],
       "keywords": [
-        "china",
-        "president",
-        "russia",
-        "former",
-        "ambassador",
-        "trump's",
-        "leaders",
-        "safeguard"
+        "apec",
+        "以创",
+        "创新",
+        "新汇",
+        "汇聚",
+        "聚增",
+        "增长",
+        "长之"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的国际政治事件为“China’s Xi urges US and Russia to join forces to safeguard world peace”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "what_happened": "据163.com、stdaily.com等来源的2篇报道，当前关注的科技AI事件为“聚焦APEC｜以创新汇聚增长之势 推动亚太共同体建设的中国 科技力 |apec”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "China",
-          "Xi",
-          "US",
-          "Russia",
-          "Former",
-          "Trump"
+          "163.com",
+          "stdaily.com"
         ],
         "latest_progress": [
-          "11月19日 17:50 UTC，Al Jazeera报道：“China’s Xi urges US and Russia to join forces to safeguard world peace”。",
-          "11月18日 11:57 UTC，NPR World报道：“Former U.S. ambassador on Trump's joint summit with leaders of China and Russia”。"
+          "11月20日 02:45 UTC，163.com报道：“聚焦APEC｜以创新汇聚增长之势 推动亚太共同体建设的中国 科技力 |apec”。",
+          "11月20日 02:45 UTC，stdaily.com报道：“以创新汇聚增长之势 推动亚太共同体建设的中国 科技力”。"
         ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_cb9e94bb21705eddc1d0",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_chinas-xi-urges-us-and-russia-for-world-peace-191126?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_chinas-xi-urges-us-and-russia-for-world-peace-191126?traffic_source=rss",
-          "title": "China’s Xi urges US and Russia to join forces to safeguard world peace",
-          "summary": "Chinese President Xi urged US President Trump and Russian President Putin to work with China to safeguard world peace.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T17:50:21+00:00",
-          "fetched_at": "2026-11-19T21:33:57.781896+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "article_id": "art_42c935dcbb137ff696fd",
+          "url": "https://www.163.com/dy/article/LC5P9IIF0514R9OJ.html",
+          "canonical_url": "https://www.163.com/dy/article/LC5P9IIF0514R9OJ.html",
+          "title": "聚焦APEC｜以创新汇聚增长之势 推动亚太共同体建设的中国 科技力 |apec",
+          "summary": "",
+          "source": "163.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-20T02:45:00+00:00",
+          "fetched_at": "2026-11-20T03:13:44.054548+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         },
         {
-          "article_id": "art_1dadfa3df2893e8cc5d3",
-          "url": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia",
-          "canonical_url": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia",
-          "title": "Former U.S. ambassador on Trump's joint summit with leaders of China and Russia",
-          "summary": "NPR's Leila Fadel speaks to Nicholas Burns, former U.S. ambassador to China and NATO, about President Trump's planned meeting with the leaders of China and Russia.",
-          "source": "NPR World",
-          "source_type": "rss",
-          "published_at": "2026-11-18T11:57:06+00:00",
-          "fetched_at": "2026-11-19T21:33:57.656401+00:00",
-          "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
+          "article_id": "art_5a24af2b0a2f9cfb6e47",
+          "url": "https://www.stdaily.com/web/gdxw/2026-11/20/content_616187.html",
+          "canonical_url": "https://www.stdaily.com/web/gdxw/2026-11/20/content_616187.html",
+          "title": "以创新汇聚增长之势 推动亚太共同体建设的中国 科技力",
+          "summary": "",
+          "source": "stdaily.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-20T02:45:00+00:00",
+          "fetched_at": "2026-11-20T03:13:44.055440+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_2d114b4592c876d8c38a",
-      "title": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?",
+      "event_id": "evt_e5595b9eded6f772b2c9",
+      "title": "特朗普称不会仓促决定对伊行动 等待封锁效果与政治窗口 _ 军事频道 _ 中华网",
       "category": "军事安全",
-      "score": 62.4,
+      "score": 63.9,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.4,
-        "credibility": 10.0,
+        "recency": 21.3,
+        "credibility": 7.5,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-19T20:54:08+00:00",
-      "last_updated": "2026-11-19T20:54:08+00:00",
+      "first_seen": "2026-11-20T02:30:00+00:00",
+      "last_updated": "2026-11-20T02:30:00+00:00",
       "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "haiti",
-        "bukele",
-        "salvadoran",
-        "troops",
-        "they",
-        "achieved",
-        "crowds",
-        "rallying"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Why",
-          "Bukele",
-          "Salvadoran",
-          "Haiti"
-        ],
-        "latest_progress": [
-          "11月19日 20:54 UTC，Al Jazeera报道：“Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_41e4e432e00595be9e95",
-          "url": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved?traffic_source=rss",
-          "title": "Why are Bukele’s Salvadoran troops in Haiti and what have they achieved?",
-          "summary": "With crowds rallying behind El Salvador's deployment in Haiti, analysts question whether civilians are any safer.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T20:54:08+00:00",
-          "fetched_at": "2026-11-19T21:33:57.780611+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_bf7b8be9d7dc25db98bf",
-      "title": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
-      "category": "军事安全",
-      "score": 62.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-19T20:30:54+00:00",
-      "last_updated": "2026-11-19T20:30:54+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "republicans",
-        "measure",
-        "senate",
-        "reject",
-        "limit",
-        "trump",
-        "war",
-        "powers"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Senate Republicans in US reject measure to limit Trump’s war powers in Iran”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Senate Republicans",
-          "US",
-          "Trump",
-          "Iran"
-        ],
-        "latest_progress": [
-          "11月19日 20:30 UTC，Al Jazeera报道：“Senate Republicans in US reject measure to limit Trump’s war powers in Iran”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6e19f62aa7035af0b663",
-          "url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/19/senate-republicans-in-us-reject-measure-to-limit-trumps-war-powers-in-iran?traffic_source=rss",
-          "title": "Senate Republicans in US reject measure to limit Trump’s war powers in Iran",
-          "summary": "The resolution was defeated 51-48. Three Republicans broke rank, voting against the measure.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-19T20:30:54+00:00",
-          "fetched_at": "2026-11-19T21:33:57.780907+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_99bcaa0cf51f1cca9653",
-      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-      "category": "军事安全",
-      "score": 62.1,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 15.5,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.2
-      },
-      "first_seen": "2026-11-19T03:43:00+00:00",
-      "last_updated": "2026-11-19T13:07:35+00:00",
-      "source_count": 2,
       "article_count": 2,
       "sources": [
-        "BBC World",
-        "DW Top Stories"
+        "military.china.com"
       ],
       "regions": [
-        "Europe"
+        "China"
       ],
       "keywords": [
-        "crimean",
-        "bridge",
-        "attacked",
-        "again",
-        "attack",
-        "putin",
-        "russian",
-        "official"
+        "特朗",
+        "朗普",
+        "军事",
+        "事频",
+        "频道",
+        "中华",
+        "华网",
+        "普称"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据military.china.com等来源的2篇报道，当前关注的军事安全事件为“特朗普称不会仓促决定对伊行动 等待封锁效果与政治窗口 _ 军事频道 _ 中华网”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Putin",
-          "Ukraine",
-          "Crimean Bridge Crimean Bridge",
-          "Russian"
+          "military.china.com"
         ],
         "latest_progress": [
-          "11月19日 13:07 UTC，BBC World报道：“Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge”。",
-          "11月19日 03:43 UTC，DW Top Stories报道：“Crimean Bridge has been attacked again, Russian official says”。"
+          "11月20日 02:30 UTC，military.china.com报道：“特朗普称不会仓促决定对伊行动 等待封锁效果与政治窗口 _ 军事频道 _ 中华网”。",
+          "11月20日 02:30 UTC，military.china.com报道：“特朗普说APEC办得非常成功 白宫内斗下的真实底牌 _ 军事频道 _ 中华网”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1139,33 +1076,33 @@
       },
       "articles": [
         {
-          "article_id": "art_8c0e241cfec8c2c9b941",
-          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_campaign=rss&at_medium=RSS",
-          "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-          "summary": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-19T13:07:35+00:00",
-          "fetched_at": "2026-11-19T21:33:56.963724+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc7/live/1a9ba6c0-e424-11f1-b782-6bf340d7e154.jpg"
+          "article_id": "art_ad23d3cf4354e93ac319",
+          "url": "https://military.china.com/news/13004177/20261120/49889502.html",
+          "canonical_url": "https://military.china.com/news/13004177/20261120/49889502.html",
+          "title": "特朗普称不会仓促决定对伊行动 等待封锁效果与政治窗口 _ 军事频道 _ 中华网",
+          "summary": "",
+          "source": "military.china.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-20T02:30:00+00:00",
+          "fetched_at": "2026-11-20T03:13:44.054305+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
         },
         {
-          "article_id": "art_faaf68ffdbd2974e9d1e",
-          "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-top-1022-rdf",
-          "title": "Crimean Bridge has been attacked again, Russian official says",
-          "summary": "The Crimean Bridge has been attacked again, Crimea's Russian-installed governor said. The attack comes as Vladimir Putin prepares to sit down with Donald Trump and Xi Jinping for joint talks in China.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-19T03:43:00+00:00",
-          "fetched_at": "2026-11-19T21:33:57.536910+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "article_id": "art_36390ef2a3147e7309ea",
+          "url": "https://military.china.com/news/13004177/20261120/49889930.html",
+          "canonical_url": "https://military.china.com/news/13004177/20261120/49889930.html",
+          "title": "特朗普说APEC办得非常成功 白宫内斗下的真实底牌 _ 军事频道 _ 中华网",
+          "summary": "",
+          "source": "military.china.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-20T02:30:00+00:00",
+          "fetched_at": "2026-11-20T03:13:44.054990+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         }
       ]
