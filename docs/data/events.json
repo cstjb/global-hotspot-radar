@@ -1,838 +1,400 @@
 {
-  "generated_at": "2026-11-22T11:23:34.717084+00:00",
+  "generated_at": "2026-11-22T19:39:11.661220+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 134,
-    "articles_unique": 133,
+    "articles_fetched": 140,
+    "articles_unique": 138,
     "errors": [
       {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
+        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_0539dd8df1b8f4987fcd",
-      "title": "Russian cargo ship still on fire off Finland after drone attack",
-      "category": "军事安全",
-      "score": 73.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.9,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 2.8
-      },
-      "first_seen": "2026-11-21T19:20:22+00:00",
-      "last_updated": "2026-11-22T11:15:27+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "ship",
-        "finland",
-        "drone",
-        "attacked",
-        "russian",
-        "off",
-        "finnish",
-        "attack"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Russian cargo ship still on fire off Finland after drone attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Russian",
-          "Baltic Sea",
-          "Finland Russian",
-          "Finland",
-          "Russia",
-          "Gulf"
-        ],
-        "latest_progress": [
-          "11月22日 11:15 UTC，Al Jazeera报道：“Russian ship attacked by drone in Baltic Sea off Finland”。",
-          "11月22日 10:39 UTC，Al Jazeera报道：“Russian cargo ship still on fire off Finland after drone attack”。",
-          "11月21日 19:20 UTC，BBC World报道：“Russia-bound ship attacked in Gulf of Finland”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_9e42d99a8e73c45afc0a",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss",
-          "title": "Russian ship attacked by drone in Baltic Sea off Finland",
-          "summary": "Russian ship attacked by drone in Baltic Sea off Finland",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-22T11:15:27+00:00",
-          "fetched_at": "2026-11-22T11:23:33.558676+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0b20ac6f49635d845333",
-          "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
-          "title": "Russian cargo ship still on fire off Finland after drone attack",
-          "summary": "The ship, bound for Russia's Kaliningrad, was damaged in international waters before drifting into Finnish territory.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-22T10:39:50+00:00",
-          "fetched_at": "2026-11-22T11:23:33.558924+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_a1692a690c033874ab66",
-          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_campaign=rss&at_medium=RSS",
-          "title": "Russia-bound ship attacked in Gulf of Finland",
-          "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-21T19:20:22+00:00",
-          "fetched_at": "2026-11-22T11:23:32.424654+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cee/live/4e2fa7a0-e5c5-11f1-a738-4787e1a18cce.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_821d11dac376e6288651",
-      "title": "Three killed and dozens missing after fire at Indonesian factory",
-      "category": "产业供应链",
-      "score": 73.8,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 18.9,
-        "credibility": 9.8,
-        "impact": 10.4,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-22T06:05:00+00:00",
-      "last_updated": "2026-11-22T07:46:35+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "fire",
-        "factory",
-        "three",
-        "missing",
-        "killed",
-        "dozens",
-        "least",
-        "people"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的产业供应链事件为“Three killed and dozens missing after fire at Indonesian factory”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
-        "participants": [
-          "Indonesia",
-          "Dozens",
-          "Indonesian"
-        ],
-        "latest_progress": [
-          "11月22日 07:46 UTC，Al Jazeera报道：“Indonesia factory fire kills three, 36 missing”。",
-          "11月22日 06:14 UTC，DW Top Stories报道：“Dozens missing as deadly fire hits Indonesian candy factory”。",
-          "11月22日 06:05 UTC，BBC World报道：“Three killed and dozens missing after fire at Indonesian factory”。"
-        ],
-        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
-        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
-        "watch_indicators": [
-          "港口和工厂运行率",
-          "交货周期与运价",
-          "企业订单及库存"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_82c58e83ae90f0fa9339",
-          "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing?traffic_source=rss",
-          "title": "Indonesia factory fire kills three, 36 missing",
-          "summary": "At least 15 people rescued, including 4 taken to hospital, as authorities say cause of the fire is under investigation.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-22T07:46:35+00:00",
-          "fetched_at": "2026-11-22T11:23:33.559691+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_ca388e254a17a0408ce8",
-          "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-top-1022-rdf",
-          "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-          "summary": "A fire at a confectionery factory in Indonesia's Banten province has killed at least three people. Dozens are also unaccounted for after the blaze, which destroyed large parts of the facility.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-22T06:14:00+00:00",
-          "fetched_at": "2026-11-22T11:23:33.242298+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_640918c2861ef00deadb",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_campaign=rss&at_medium=RSS",
-          "title": "Three killed and dozens missing after fire at Indonesian factory",
-          "summary": "At least three people were killed and 36 are still missing after a fire at a confectionary factory.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-22T06:05:00+00:00",
-          "fetched_at": "2026-11-22T11:23:32.424880+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1cfec8e9c7a1c9ef473a",
-      "title": "« Η μάνα σου έπρεπε να είχε κάνει έκτρωση »: Οι αδιανόητες προσβολές και απειλές θανάτου του Τζένσεν Χουάνγκ στους υπαλλήλους της Nvidia",
+      "event_id": "evt_a733889ca42ce63aad0c",
+      "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
       "category": "能源资源",
-      "score": 69.9,
+      "score": 88.6,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 18.7,
-        "credibility": 7.5,
-        "impact": 11.0,
-        "velocity": 3.0
-      },
-      "first_seen": "2026-11-21T16:30:00+00:00",
-      "last_updated": "2026-11-22T07:30:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "finanznachrichten.de",
-        "newsit.gr",
-        "onvista.de"
-      ],
-      "regions": [
-        "Germany",
-        "Greece"
-      ],
-      "keywords": [
-        "nvidia",
-        "siemens",
-        "energy",
-        "palo",
-        "alto",
-        "aktien",
-        "gro",
-        "rsencheck"
-      ],
-      "analysis": {
-        "what_happened": "据finanznachrichten.de、newsit.gr、onvista.de等来源的3篇报道，当前关注的能源资源事件为“« Η μάνα σου έπρεπε να είχε κάνει έκτρωση »: Οι αδιανόητες προσβολές και απειλές θανάτου του Τζένσεν Χουάνγκ στους υπαλλήλους της Nvidia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Nvidia",
-          "NVIDIA",
-          "Siemens Energy",
-          "Palo Alto",
-          "KI",
-          "Aktien"
-        ],
-        "latest_progress": [
-          "11月22日 07:30 UTC，newsit.gr报道：“« Η μάνα σου έπρεπε να είχε κάνει έκτρωση »: Οι αδιανόητες προσβολές και απειλές θανάτου του Τζένσεν Χουάνγκ στους υπαλλήλους της Nvidia”。",
-          "11月21日 16:30 UTC，onvista.de报道：“NVIDIA , Siemens Energy & Palo Alto : 3 KI - Aktien im großen Börsencheck”。",
-          "11月21日 16:30 UTC，finanznachrichten.de报道：“NVIDIA , Siemens Energy & Palo Alto : 3 KI - Aktien im großen Börsencheck”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_98a5b116f22a8661ca76",
-          "url": "https://www.newsit.gr/kosmos/i-mana-sou-eprepe-na-eixe-kanei-ektrosi-oi-adianoites-prosvoles-kai-apeiles-thanatou-tou-tzensen-xouangk-stous-ypallilous-tis-nvidia/4827486/",
-          "canonical_url": "https://www.newsit.gr/kosmos/i-mana-sou-eprepe-na-eixe-kanei-ektrosi-oi-adianoites-prosvoles-kai-apeiles-thanatou-tou-tzensen-xouangk-stous-ypallilous-tis-nvidia/4827486",
-          "title": "« Η μάνα σου έπρεπε να είχε κάνει έκτρωση »: Οι αδιανόητες προσβολές και απειλές θανάτου του Τζένσεν Χουάνγκ στους υπαλλήλους της Nvidia",
-          "summary": "",
-          "source": "newsit.gr",
-          "source_type": "gdelt",
-          "published_at": "2026-11-22T07:30:00+00:00",
-          "fetched_at": "2026-11-22T11:23:32.269468+00:00",
-          "language": "Greek",
-          "region": "Greece",
-          "source_weight": 0.75,
-          "image_url": "https://www.newsit.gr/wp-content/uploads/2026/11/huang-1-1200x630.jpg?v=1795188533"
-        },
-        {
-          "article_id": "art_b354481485d62f384f32",
-          "url": "https://www.onvista.de/news/2026/11-21-nvidia-siemens-energy-palo-alto-3-ki-aktien-im-grossen-boersencheck-41123314-67-26579080",
-          "canonical_url": "https://www.onvista.de/news/2026/11-21-nvidia-siemens-energy-palo-alto-3-ki-aktien-im-grossen-boersencheck-41123314-67-26579080",
-          "title": "NVIDIA , Siemens Energy & Palo Alto : 3 KI - Aktien im großen Börsencheck",
-          "summary": "",
-          "source": "onvista.de",
-          "source_type": "gdelt",
-          "published_at": "2026-11-21T16:30:00+00:00",
-          "fetched_at": "2026-11-22T11:23:32.268782+00:00",
-          "language": "German",
-          "region": "Germany",
-          "source_weight": 0.75,
-          "image_url": "https://www.onvista.de/og/onvista.png?v=2"
-        },
-        {
-          "article_id": "art_d8c8fdd9065ac2b10ca6",
-          "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70195554-nvidia-siemens-energy-palo-alto-3-ki-aktien-im-grossen-boersencheck-268.htm",
-          "canonical_url": "https://www.finanznachrichten.de/nachrichten-2026-11/70195554-nvidia-siemens-energy-palo-alto-3-ki-aktien-im-grossen-boersencheck-268.htm",
-          "title": "NVIDIA , Siemens Energy & Palo Alto : 3 KI - Aktien im großen Börsencheck",
-          "summary": "",
-          "source": "finanznachrichten.de",
-          "source_type": "gdelt",
-          "published_at": "2026-11-21T16:30:00+00:00",
-          "fetched_at": "2026-11-22T11:23:32.268853+00:00",
-          "language": "German",
-          "region": "Germany",
-          "source_weight": 0.75,
-          "image_url": "https://www.finanznachrichten.de/chart-nvidia-corporation-aktie-intraklein-tradegate.png"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0c29adf9f3f36d61fa19",
-      "title": "COP31 climate talks on the brink as new draft deal faces scrutiny",
-      "category": "能源资源",
-      "score": 66.5,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 17.5,
+        "coverage": 19.5,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.4,
         "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-22T04:51:35+00:00",
-      "last_updated": "2026-11-22T05:50:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-11-22T13:18:00+00:00",
+      "last_updated": "2026-11-22T18:57:24+00:00",
+      "source_count": 4,
+      "article_count": 6,
       "sources": [
         "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "draft",
-        "climate",
-        "cop31",
-        "deal",
-        "global",
-        "warming",
-        "fossil",
-        "fuels"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的能源资源事件为“COP31 climate talks on the brink as new draft deal faces scrutiny”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
-        "participants": [
-          "Fossil",
-          "UN"
-        ],
-        "latest_progress": [
-          "11月22日 05:50 UTC，DW Top Stories报道：“COP31: Fossil fuels still missing from draft deal at UN climate summit”。",
-          "11月22日 04:51 UTC，Al Jazeera报道：“COP31 climate talks on the brink as new draft deal faces scrutiny”。"
-        ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
-        "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_359094d4e64c6e39df01",
-          "url": "https://www.dw.com/en/cop31-fossil-fuels-still-missing-from-draft-deal-at-un-climate-summit/live-79999516?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/cop31-fossil-fuels-still-missing-from-draft-deal-at-un-climate-summit/live-79999516?maca=en-rss-en-top-1022-rdf",
-          "title": "COP31: Fossil fuels still missing from draft deal at UN climate summit",
-          "summary": "The climate summit is in its second day of overtime, despite weeks of negotiations. Nations are now mulling over a new draft text that still doesn't mention fossil fuels, the main cause of global warming. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-22T05:50:00+00:00",
-          "fetched_at": "2026-11-22T11:23:33.242373+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0c2fdcaea77fd4371fa7",
-          "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
-          "title": "COP31 climate talks on the brink as new draft deal faces scrutiny",
-          "summary": "New draft would acknowledge for the first time that global ⁠⁠⁠⁠⁠⁠⁠⁠warming is on course to pass the 1.5C threshold.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-22T04:51:35+00:00",
-          "fetched_at": "2026-11-22T11:23:33.560532+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_3e090ba17b35fe18f340",
-      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-      "category": "军事安全",
-      "score": 62.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 14.5,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 4.3
-      },
-      "first_seen": "2026-11-21T18:30:00+00:00",
-      "last_updated": "2026-11-22T01:25:03+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
         "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "mexican",
-        "drug",
-        "chapo",
-        "fbi's",
-        "most",
-        "wanted",
-        "isidro",
-        "special"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Mexican",
-          "FBI",
-          "Chapo Isidro"
-        ],
-        "latest_progress": [
-          "11月22日 01:25 UTC，BBC World报道：“Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out”。",
-          "11月21日 18:30 UTC，DW Top Stories报道：“Mexican special forces arrest drug kingpin 'Chapo Isidro'”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_a610f3f7f70514cb9cc3",
-          "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_campaign=rss&at_medium=RSS",
-          "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-          "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-22T01:25:03+00:00",
-          "fetched_at": "2026-11-22T11:23:32.424762+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg"
-        },
-        {
-          "article_id": "art_933d9d276534507801d4",
-          "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-top-1022-rdf",
-          "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
-          "summary": "The alleged leader of the Beltran Leyva gang and one of the FBI's most wanted fugitives, known as \"Chapo Isidro,\" was captured by the Mexican military following a raid and a shootout in the coastal state of Sinaloa.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-21T18:30:00+00:00",
-          "fetched_at": "2026-11-22T11:23:33.242585+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_1f55813e99111a0fe87b",
-      "title": "Restored wells bring life back to Hebron’s occupied Old City",
-      "category": "军事安全",
-      "score": 61.4,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.4,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-22T09:33:16+00:00",
-      "last_updated": "2026-11-22T09:33:16+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "old",
-        "city",
-        "restored",
-        "wells",
-        "bring",
-        "life",
-        "back",
-        "hebron"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Restored wells bring life back to Hebron’s occupied Old City”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Restored",
-          "Hebron",
-          "Old City"
-        ],
-        "latest_progress": [
-          "11月22日 09:33 UTC，Al Jazeera报道：“Restored wells bring life back to Hebron’s occupied Old City”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_16c05dda666b6b3deead",
-          "url": "https://www.aljazeera.com/features/2026/11/22/restored-wells-bring-life-back-to-hebrons-occupied-old-city?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/features/2026/11/22/restored-wells-bring-life-back-to-hebrons-occupied-old-city?traffic_source=rss",
-          "title": "Restored wells bring life back to Hebron’s occupied Old City",
-          "summary": "Hebron's Old City has been under constant siege by Israeli settlers and the military.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-22T09:33:16+00:00",
-          "fetched_at": "2026-11-22T11:23:33.559120+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_7dbf0de5c78242ab472b",
-      "title": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
-      "category": "军事安全",
-      "score": 61.0,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.0,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-22T09:06:27+00:00",
-      "last_updated": "2026-11-22T09:06:27+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "trump",
-        "iran",
-        "blockade",
-        "exit",
-        "strategy",
-        "may",
-        "depend",
-        "quietly"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“‘Trump’s exit strategy may depend on quietly lifting Iran blockade’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Trump",
-          "Iran"
-        ],
-        "latest_progress": [
-          "11月22日 09:06 UTC，Al Jazeera报道：“‘Trump’s exit strategy may depend on quietly lifting Iran blockade’”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_c77b53948c2b26dd7285",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/trumps-exit-strategy-may-depend-on-quietly-lifting-iran?traffic_source=rss",
-          "title": "‘Trump’s exit strategy may depend on quietly lifting Iran blockade’",
-          "summary": "US President Donald Trump will have to ease the naval blockade on Iran if he wants the war to wind down, says analyst.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-22T09:06:27+00:00",
-          "fetched_at": "2026-11-22T11:23:33.559325+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_96ccc9b3ab8ff89574ae",
-      "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
-      "category": "军事安全",
-      "score": 60.1,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-22T07:59:29+00:00",
-      "last_updated": "2026-11-22T07:59:29+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "dashcam",
-        "missile",
-        "lviv",
-        "ukraine",
-        "captures",
-        "russian",
-        "strike",
-        "video"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Dashcam captures Russian missile strike on Lviv, Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Dashcam",
-          "Russian",
-          "Lviv",
-          "Ukraine"
-        ],
-        "latest_progress": [
-          "11月22日 07:59 UTC，Al Jazeera报道：“Dashcam captures Russian missile strike on Lviv, Ukraine”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_3dd9286e4042575616d4",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
-          "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
-          "summary": "Dashcam video captured the moment a missile struck a residential neighbourhood in Lviv, western Ukraine.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-22T07:59:29+00:00",
-          "fetched_at": "2026-11-22T11:23:33.559510+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_3bdb33ce8de94ba0789e",
-      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
-      "category": "科技AI",
-      "score": 59.5,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 9.1,
-        "credibility": 9.5,
-        "impact": 9.8,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-21T08:08:01+00:00",
-      "last_updated": "2026-11-21T14:18:17+00:00",
-      "source_count": 2,
-      "article_count": 3,
-      "sources": [
         "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
+        "Middle East",
         "North America"
       ],
       "keywords": [
+        "climate",
         "talks",
-        "killer",
-        "robots",
-        "rules",
-        "binding",
-        "more",
-        "geneva",
-        "extend"
+        "cop31",
+        "deal",
+        "countries",
+        "without",
+        "fossil",
+        "fuels"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories、NPR World等来源的3篇报道，当前关注的科技AI事件为“Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的6篇报道，当前关注的能源资源事件为“‘Disappointing’: Delegates react after COP31 climate talks end without deal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Killer",
+          "What",
           "UN",
-          "Nations",
-          "AI"
+          "Disappointing",
+          "Delegates",
+          "Climate"
         ],
         "latest_progress": [
-          "11月21日 14:18 UTC，NPR World报道：“Killer robots: U.N. talks fall short of hopes for legally binding rules”。",
-          "11月21日 09:18 UTC，DW Top Stories报道：“'Killer robots' talks at UN end with no legally binding ban”。",
-          "11月21日 08:08 UTC，NPR World报道：“Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in”。"
+          "11月22日 18:57 UTC，BBC World报道：“What's next after no deal at COP31 climate talks?”。",
+          "11月22日 18:17 UTC，BBC World报道：“COP31 fails to reach major climate deal as talks expose deep divisions”。",
+          "11月22日 18:04 UTC，Al Jazeera报道：“UN climate talks collapse without a deal”。"
         ],
-        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
-        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
         "watch_indicators": [
-          "产品与模型实际能力",
-          "监管与出口限制",
-          "企业资本开支和商业化数据"
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_f12e17e5c0d00f1e7ef0",
-          "url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
-          "canonical_url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
-          "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
-          "summary": "U.N. talks in Geneva have failed to deliver binding rules on autonomous weapons, as humanitarian groups warn that military AI is advancing far faster than diplomacy.",
+          "article_id": "art_f17097afc77ae539a81b",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_campaign=rss&at_medium=RSS",
+          "title": "What's next after no deal at COP31 climate talks?",
+          "summary": "The COP31 climate summit in Turkey has formally come to an end after countries failed to agree a deal.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-22T18:57:24+00:00",
+          "fetched_at": "2026-11-22T19:39:09.070352+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d3e/live/8a730770-e6a6-11f1-af06-85d9f9869f1b.jpg"
+        },
+        {
+          "article_id": "art_ca280e82c6b6ff3dcc66",
+          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_campaign=rss&at_medium=RSS",
+          "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
+          "summary": "The talks fail to make breakthrough on tackling climate change after a row about mentioning fossil fuels.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-22T18:17:59+00:00",
+          "fetched_at": "2026-11-22T19:39:09.070166+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afca/live/39aa8840-e69c-11f1-936e-1fd1d31671db.jpg"
+        },
+        {
+          "article_id": "art_8f5de30604270c937b6c",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss",
+          "title": "UN climate talks collapse without a deal",
+          "summary": "The longest UN climate summit in history ended without a deal in Turkiye, the first such failure since 2009.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T18:04:25+00:00",
+          "fetched_at": "2026-11-22T19:39:10.278554+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_469ad66dfb44ac81cca7",
+          "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
+          "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
+          "summary": "Draft text considered too weak to deal with climate change after oil-producing countries oppose the term 'fossil fuels'.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T16:33:26+00:00",
+          "fetched_at": "2026-11-22T19:39:10.279527+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_35cb6d5769c702625b29",
+          "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+          "canonical_url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+          "title": "Climate change talks fall apart in final hours over fossil fuels",
+          "summary": "Some 200 countries gathered in Antalya, Turkey, for COP31, the annual climate negotiations. Countries failed to reach an agreement over fossil fuels - the primary driver of global warming.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-11-21T14:18:17+00:00",
-          "fetched_at": "2026-11-22T11:23:33.372266+00:00",
+          "published_at": "2026-11-22T16:33:22+00:00",
+          "fetched_at": "2026-11-22T19:39:10.079790+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_bf1a68bedbd6795e644b",
-          "url": "https://www.dw.com/en/killer-robots-talks-at-un-end-with-no-legally-binding-ban/a-80008584?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/killer-robots-talks-at-un-end-with-no-legally-binding-ban/a-80008584?maca=en-rss-en-top-1022-rdf",
-          "title": "'Killer robots' talks at UN end with no legally binding ban",
-          "summary": "Countries have agreed to extend discussions over controls on lethal autonomous weapons systems for two years.",
+          "article_id": "art_0731935fb0ac2a4d0e2c",
+          "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-top-1022-rdf",
+          "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
+          "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-21T09:18:00+00:00",
-          "fetched_at": "2026-11-22T11:23:33.243101+00:00",
+          "published_at": "2026-11-22T13:18:00+00:00",
+          "fetched_at": "2026-11-22T19:39:09.825419+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_155944fe6a2c8b5ee485",
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "category": "军事安全",
+      "score": 81.2,
+      "score_breakdown": {
+        "coverage": 17.9,
+        "source_diversity": 10.8,
+        "region_diversity": 5.0,
+        "recency": 21.8,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 2.9
+      },
+      "first_seen": "2026-11-21T17:08:00+00:00",
+      "last_updated": "2026-11-22T19:26:54+00:00",
+      "source_count": 3,
+      "article_count": 5,
+      "sources": [
+        "Al Jazeera",
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "russian",
+        "suspected",
+        "drone",
+        "ship",
+        "libya",
+        "attack",
+        "benghazi",
+        "strike"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的5篇报道，当前关注的军事安全事件为“Explosion on Russian ship at Libya port caused by suspected drone attack, officials say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Explosion",
+          "Russian",
+          "Libya",
+          "Suspected",
+          "Libya Russian",
+          "Ukrainian",
+          "Benghazi",
+          "Benghazi Russian"
+        ],
+        "latest_progress": [
+          "11月22日 19:26 UTC，BBC World报道：“Explosion on Russian ship at Libya port caused by suspected drone attack, officials say”。",
+          "11月22日 18:11 UTC，Al Jazeera报道：“Suspected drone attack causes explosion on Russian ship in Libya”。",
+          "11月22日 17:12 UTC，Al Jazeera报道：“Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_20ce0ffba2533e0ca648",
+          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_campaign=rss&at_medium=RSS",
+          "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+          "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-22T19:26:54+00:00",
+          "fetched_at": "2026-11-22T19:39:09.070517+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0559/live/3e9dd1e0-e692-11f1-936e-1fd1d31671db.jpg"
+        },
+        {
+          "article_id": "art_d84625d68923cd6b59cc",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+          "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+          "summary": "A Russian ship has been struck in a suspected drone attack while docked at Libya’s Benghazi naval base.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T18:11:30+00:00",
+          "fetched_at": "2026-11-22T19:39:10.278402+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_0de2cd18c13a61a92fe9",
+          "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss",
+          "title": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port",
+          "summary": "There was no immediate reaction from Russia, and no one has claimed responsibility for the suspected attack.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T17:12:48+00:00",
+          "fetched_at": "2026-11-22T19:39:10.279217+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_86acc597b8ffa871bc16",
+          "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-top-1022-rdf",
+          "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
+          "summary": "A Russian vessel at an eastern Libyan naval base was hit by what is suspected to be a drone strike.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-22T16:50:00+00:00",
+          "fetched_at": "2026-11-22T19:39:09.825149+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_64d023909b39cab85e4c",
-          "url": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
-          "canonical_url": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
-          "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
-          "summary": "Efforts to establish rules for AI-powered killer robots and drones have run aground. U.N.-backed talks in Geneva ended Saturday with an agreement to extend discussions for two more years.",
+          "article_id": "art_950a23808c5134d1eb6c",
+          "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-top-1022-rdf",
+          "title": "Russian helicopter suspected of violating Finnish airspace",
+          "summary": "Finland's Defense Ministry thinks the incursion is linked to a drone strike earlier Saturday on a Russian cargo ship, which is on a US sanctions list.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-21T17:08:00+00:00",
+          "fetched_at": "2026-11-22T19:39:09.826892+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_6ae012f2578db534e314",
+      "title": "How El Chapo Isidro, alleged Mexican cartel leader, was captured",
+      "category": "军事安全",
+      "score": 65.2,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 17.8,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 1.5
+      },
+      "first_seen": "2026-11-21T18:08:55+00:00",
+      "last_updated": "2026-11-22T14:33:26+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "NPR World"
+      ],
+      "regions": [
+        "Middle East",
+        "North America"
+      ],
+      "keywords": [
+        "isidro",
+        "cartel",
+        "leader",
+        "captured",
+        "mexico",
+        "chapo",
+        "northern",
+        "bloody"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“How El Chapo Isidro, alleged Mexican cartel leader, was captured”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "How El Chapo Isidro",
+          "Mexican",
+          "Cartel",
+          "Mexico"
+        ],
+        "latest_progress": [
+          "11月22日 14:33 UTC，Al Jazeera报道：“How El Chapo Isidro, alleged Mexican cartel leader, was captured”。",
+          "11月21日 18:08 UTC，NPR World报道：“Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_78b15d0226616e6b0078",
+          "url": "https://www.aljazeera.com/news/2026/11/22/how-el-chapo-isidro-alleged-mexican-cartel-leader-was-captured?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/22/how-el-chapo-isidro-alleged-mexican-cartel-leader-was-captured?traffic_source=rss",
+          "title": "How El Chapo Isidro, alleged Mexican cartel leader, was captured",
+          "summary": "Operation in Sinaloa state resulted in deadly heavy battles between members of security forces and gunmen.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T14:33:26+00:00",
+          "fetched_at": "2026-11-22T19:39:10.280792+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5b76dfe3de30c0fc5f04",
+          "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+          "canonical_url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+          "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
+          "summary": "Fausto Isidro Meza Flores, better known as \"El Chapo Isidro,\" was one of the FBI's most wanted fugitives. His arrest in northwest Mexico on Saturday has sparked violence in the region.",
           "source": "NPR World",
           "source_type": "rss",
-          "published_at": "2026-11-21T08:08:01+00:00",
-          "fetched_at": "2026-11-22T11:23:33.372537+00:00",
+          "published_at": "2026-11-21T18:08:55+00:00",
+          "fetched_at": "2026-11-22T19:39:10.080406+00:00",
           "language": "en",
           "region": "North America",
           "source_weight": 0.95,
@@ -841,47 +403,140 @@
       ]
     },
     {
-      "event_id": "evt_de866072eeda870d6dd3",
-      "title": "South Korea education minister resigns over exam cheating scandal",
-      "category": "国际政治",
-      "score": 59.3,
+      "event_id": "evt_0d52466ae0c4fa8ec53a",
+      "title": "Israeli settlers attack multiple Palestinian villages as pogroms surge",
+      "category": "军事安全",
+      "score": 64.7,
       "score_breakdown": {
-        "coverage": 6.9,
+        "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 20.2,
+        "recency": 19.6,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-22T14:30:27+00:00",
+      "last_updated": "2026-11-22T16:50:48+00:00",
+      "source_count": 1,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "israeli",
+        "settlers",
+        "palestinian",
+        "jerusalem",
+        "daily",
+        "set",
+        "vehicles",
+        "ablaze"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Israeli settlers attack multiple Palestinian villages as pogroms surge”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Israeli",
+          "Palestinian",
+          "Jerusalem Daily"
+        ],
+        "latest_progress": [
+          "11月22日 16:50 UTC，Al Jazeera报道：“Israeli settlers attack multiple Palestinian villages as pogroms surge”。",
+          "11月22日 14:30 UTC，Al Jazeera报道：“Jerusalem Daily: Israeli settlers set Palestinian vehicles ablaze”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_95fb2fe1971e2a149f47",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/israeli-settlers-attack-multiple-palestinian-villages-as-pogroms-surge?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/israeli-settlers-attack-multiple-palestinian-villages-as-pogroms-surge?traffic_source=rss",
+          "title": "Israeli settlers attack multiple Palestinian villages as pogroms surge",
+          "summary": "Israeli settlers attacked several Palestinian towns and villages in the occupied West Bank on Sunday.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T16:50:48+00:00",
+          "fetched_at": "2026-11-22T19:39:10.279367+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_b2801e9be15f361001be",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/jerusalem-daily-israeli-settlers-set-palestinian-vehicles-ablaze?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/jerusalem-daily-israeli-settlers-set-palestinian-vehicles-ablaze?traffic_source=rss",
+          "title": "Jerusalem Daily: Israeli settlers set Palestinian vehicles ablaze",
+          "summary": "Jerusalem Daily: Israeli settlers set Palestinian vehicles ablaze",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T14:30:27+00:00",
+          "fetched_at": "2026-11-22T19:39:10.280935+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_a9a446eb6a528105eef1",
+      "title": "Drone attacks kill four near Sudan’s capital, damage UN building",
+      "category": "国际政治",
+      "score": 63.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.7,
         "credibility": 10.0,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-22T09:20:45+00:00",
-      "last_updated": "2026-11-22T09:20:45+00:00",
+      "first_seen": "2026-11-22T15:03:38+00:00",
+      "last_updated": "2026-11-22T18:12:07+00:00",
       "source_count": 1,
-      "article_count": 1,
+      "article_count": 2,
       "sources": [
-        "BBC World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "keywords": [
-        "exam",
-        "cheating",
-        "south",
-        "korea",
-        "education",
-        "minister",
-        "resigns",
-        "scandal"
+        "drone",
+        "sudan",
+        "rapid",
+        "support",
+        "forces",
+        "buildings",
+        "civilians",
+        "killed"
       ],
       "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“South Korea education minister resigns over exam cheating scandal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“Drone attacks kill four near Sudan’s capital, damage UN building”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "South Korea"
+          "Civilians",
+          "RSF",
+          "Sudan Drone",
+          "Sudan",
+          "UN"
         ],
         "latest_progress": [
-          "11月22日 09:20 UTC，BBC World报道：“South Korea education minister resigns over exam cheating scandal”。"
+          "11月22日 18:12 UTC，Al Jazeera报道：“Civilians killed in RSF drone strikes in Sudan”。",
+          "11月22日 15:03 UTC，Al Jazeera报道：“Drone attacks kill four near Sudan’s capital, damage UN building”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -894,19 +549,409 @@
       },
       "articles": [
         {
-          "article_id": "art_929307f066c8592e072f",
-          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_campaign=rss&at_medium=RSS",
-          "title": "South Korea education minister resigns over exam cheating scandal",
-          "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
+          "article_id": "art_e2d52f541ccfcfda3cd5",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss",
+          "title": "Civilians killed in RSF drone strikes in Sudan",
+          "summary": "Several civilians have been killed and several buildings damaged in drone strikes by Sudan’s Rapid Support Forces.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T18:12:07+00:00",
+          "fetched_at": "2026-11-22T19:39:10.278242+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_5ec4194b30342e0c7fbf",
+          "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum?traffic_source=rss",
+          "title": "Drone attacks kill four near Sudan’s capital, damage UN building",
+          "summary": "The Rapid Support Forces are blamed as drones reportedly hit UN and government buildings, as well as Khartoum's airport.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T15:03:38+00:00",
+          "fetched_at": "2026-11-22T19:39:10.280190+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_113b891ab4ee086c9b47",
+      "title": "On China, is Trump bucking the US national security establishment?",
+      "category": "军事安全",
+      "score": 62.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.9,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-22T19:30:00+00:00",
+      "last_updated": "2026-11-22T19:30:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "china",
+        "national",
+        "security",
+        "establishment",
+        "trump",
+        "bucking",
+        "torn",
+        "between"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“On China, is Trump bucking the US national security establishment?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "On China",
+          "Trump",
+          "US"
+        ],
+        "latest_progress": [
+          "11月22日 19:30 UTC，Al Jazeera报道：“On China, is Trump bucking the US national security establishment?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a07c7e43070a66683392",
+          "url": "https://www.aljazeera.com/video/the-bottom-line/2026/11/22/on-china-is-trump-bucking-the-us-national-security-establishment?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/the-bottom-line/2026/11/22/on-china-is-trump-bucking-the-us-national-security-establishment?traffic_source=rss",
+          "title": "On China, is Trump bucking the US national security establishment?",
+          "summary": "On China, US is torn between the fears of the national security establishment and the prospect of expanded trade.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-22T19:30:00+00:00",
+          "fetched_at": "2026-11-22T19:39:10.277533+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_fcb67387d0a064693b62",
+      "title": "Three killed and dozens missing after fire at Indonesian factory",
+      "category": "产业供应链",
+      "score": 62.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 2.5,
+        "recency": 17.4,
+        "credibility": 9.8,
+        "impact": 10.4,
+        "velocity": 3.8
+      },
+      "first_seen": "2026-11-22T06:14:00+00:00",
+      "last_updated": "2026-11-22T14:05:20+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "BBC World",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "fire",
+        "factory",
+        "three",
+        "people",
+        "killed",
+        "dozens",
+        "missing",
+        "indonesian"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的产业供应链事件为“Three killed and dozens missing after fire at Indonesian factory”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
+        "participants": [
+          "Indonesian",
+          "Dozens"
+        ],
+        "latest_progress": [
+          "11月22日 14:05 UTC，BBC World报道：“Three killed and dozens missing after fire at Indonesian factory”。",
+          "11月22日 06:14 UTC，DW Top Stories报道：“Dozens missing as deadly fire hits Indonesian candy factory”。"
+        ],
+        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
+        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
+        "watch_indicators": [
+          "港口和工厂运行率",
+          "交货周期与运价",
+          "企业订单及库存"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_640918c2861ef00deadb",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_campaign=rss&at_medium=RSS",
+          "title": "Three killed and dozens missing after fire at Indonesian factory",
+          "summary": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-22T09:20:45+00:00",
-          "fetched_at": "2026-11-22T11:23:32.424529+00:00",
+          "published_at": "2026-11-22T14:05:20+00:00",
+          "fetched_at": "2026-11-22T19:39:09.071162+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f58/live/2ab01bc0-e651-11f1-a094-5fdc692f3e33.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg"
+        },
+        {
+          "article_id": "art_ca388e254a17a0408ce8",
+          "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-top-1022-rdf",
+          "title": "Dozens missing as deadly fire hits Indonesian candy factory",
+          "summary": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tragedy.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-22T06:14:00+00:00",
+          "fetched_at": "2026-11-22T19:39:09.826424+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_61c237934a3e3ffe29e0",
+      "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+      "category": "军事安全",
+      "score": 62.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-22T18:29:46+00:00",
+      "last_updated": "2026-11-22T18:29:46+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "army",
+        "iowa",
+        "detonate",
+        "tonnes",
+        "unstable",
+        "explosives",
+        "despite",
+        "court"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“US Army to detonate tonnes of unstable explosives in Iowa despite court order”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "US",
+          "Army",
+          "Iowa"
+        ],
+        "latest_progress": [
+          "11月22日 18:29 UTC，BBC World报道：“US Army to detonate tonnes of unstable explosives in Iowa despite court order”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_e9f1bd049e51ca4d6eb6",
+          "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_campaign=rss&at_medium=RSS",
+          "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+          "summary": "The Army says \"swift action\" is necessary to protect its personnel and nearby communities around its ammunition plant in Iowa.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-22T18:29:46+00:00",
+          "fetched_at": "2026-11-22T19:39:09.071317+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c129/live/651f5c40-e68c-11f1-936e-1fd1d31671db.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0539dd8df1b8f4987fcd",
+      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+      "category": "军事安全",
+      "score": 61.0,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.0,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-22T17:18:26+00:00",
+      "last_updated": "2026-11-22T17:18:26+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "russia-bound",
+        "ship",
+        "towed",
+        "away",
+        "attacked",
+        "gulf",
+        "finland",
+        "finnish"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Russia-bound ship towed away after it was attacked in Gulf of Finland”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Russia",
+          "Gulf",
+          "Finland"
+        ],
+        "latest_progress": [
+          "11月22日 17:18 UTC，BBC World报道：“Russia-bound ship towed away after it was attacked in Gulf of Finland”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a1692a690c033874ab66",
+          "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_campaign=rss&at_medium=RSS",
+          "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+          "summary": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-22T17:18:26+00:00",
+          "fetched_at": "2026-11-22T19:39:09.070832+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6f9/live/a55b16b0-e66d-11f1-9e24-791c5321ff0f.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_e7bf77912887d152f4fa",
+      "title": "Lebanese villagers return to wrecked homes as the Israeli army pulls back",
+      "category": "军事安全",
+      "score": 60.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.3,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-22T17:44:52+00:00",
+      "last_updated": "2026-11-22T17:44:52+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "NPR World"
+      ],
+      "regions": [
+        "North America"
+      ],
+      "keywords": [
+        "lebanese",
+        "villagers",
+        "return",
+        "wrecked",
+        "israeli",
+        "army",
+        "homes",
+        "pulls"
+      ],
+      "analysis": {
+        "what_happened": "据NPR World等来源的1篇报道，当前关注的军事安全事件为“Lebanese villagers return to wrecked homes as the Israeli army pulls back”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Lebanese",
+          "Israeli"
+        ],
+        "latest_progress": [
+          "11月22日 17:44 UTC，NPR World报道：“Lebanese villagers return to wrecked homes as the Israeli army pulls back”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_3834fdac8899f73eb1cc",
+          "url": "https://www.npr.org/2026/11/22/nx-s1-6048710/lebanon-israel-army-conflict-homes",
+          "canonical_url": "https://www.npr.org/2026/11/22/nx-s1-6048710/lebanon-israel-army-conflict-homes",
+          "title": "Lebanese villagers return to wrecked homes as the Israeli army pulls back",
+          "summary": "In a pilot project in a village in southern Lebanon, Israeli forces have left and the Lebanese army moved it. But villagers who return find their houses wrecked.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-22T17:44:52+00:00",
+          "fetched_at": "2026-11-22T19:39:10.079622+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
         }
       ]
     }
