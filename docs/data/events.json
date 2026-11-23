@@ -1,72 +1,74 @@
 {
-  "generated_at": "2026-11-23T09:04:32.167990+00:00",
+  "generated_at": "2026-11-23T21:23:41.613397+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 141,
-    "articles_unique": 141,
+    "articles_fetched": 139,
+    "articles_unique": 138,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_155944fe6a2c8b5ee485",
+      "event_id": "evt_8cf26d78feb1e7ef3da0",
       "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
       "category": "军事安全",
-      "score": 85.5,
+      "score": 92.0,
       "score_breakdown": {
-        "coverage": 22.0,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 21.9,
-        "credibility": 9.8,
+        "coverage": 20.8,
+        "source_diversity": 14.4,
+        "region_diversity": 7.5,
+        "recency": 21.5,
+        "credibility": 9.9,
         "impact": 13.0,
-        "velocity": 3.0
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-21T17:08:00+00:00",
-      "last_updated": "2026-11-23T09:01:00+00:00",
-      "source_count": 3,
-      "article_count": 8,
+      "first_seen": "2026-11-23T05:33:17+00:00",
+      "last_updated": "2026-11-23T20:48:35+00:00",
+      "source_count": 4,
+      "article_count": 7,
       "sources": [
         "Al Jazeera",
         "BBC World",
-        "DW Top Stories"
+        "DW Top Stories",
+        "NPR World"
       ],
       "regions": [
         "Europe",
-        "Middle East"
+        "Middle East",
+        "North America"
       ],
       "keywords": [
         "russian",
-        "drone",
-        "attack",
-        "airspace",
-        "strike",
         "libya",
         "ukraine",
-        "zelenskyy"
+        "warship",
+        "attack",
+        "strike",
+        "sank",
+        "ship"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的8篇报道，当前关注的军事安全事件为“Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、DW Top Stories、NPR World等来源的7篇报道，当前关注的军事安全事件为“Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "NATO",
+          "What",
           "Russian",
-          "Ukrainian",
           "Libya",
-          "Zelensky",
           "Ukraine",
-          "Kyiv",
+          "What Russian",
+          "Ukrainian",
+          "Zelensky",
           "Libya Zelenskyy"
         ],
         "latest_progress": [
-          "11月23日 09:01 UTC，DW Top Stories报道：“NATO members to discuss Russian airspace violations”。",
-          "11月23日 08:36 UTC，BBC World报道：“Russian ships hit by Ukrainian drones off Libya coast, Zelensky says”。",
-          "11月23日 07:42 UTC，DW Top Stories报道：“Ukraine updates: Kyiv claims strike that sunk Russian ship off Libya”。"
+          "11月23日 20:48 UTC，BBC World报道：“What strike on Russian ship in Libya says about spread of Ukraine war”。",
+          "11月23日 18:25 UTC，Al Jazeera报道：“What Russian warship did Ukraine just sink?”。",
+          "11月23日 15:41 UTC，BBC World报道：“Russian warship hit by Ukrainian drones in Libya, Zelensky says”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -79,63 +81,93 @@
       },
       "articles": [
         {
-          "article_id": "art_0482aa1b4abb03226f34",
-          "url": "https://www.dw.com/en/nato-members-to-discuss-russian-airspace-violations/live-80016415?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/nato-members-to-discuss-russian-airspace-violations/live-80016415?maca=en-rss-en-top-1022-rdf",
-          "title": "NATO members to discuss Russian airspace violations",
-          "summary": "Ukrainian President Zelenskyy and German Foreign Minister Wadephul are set to address the NATO Parliamentary Assembly in Berlin while NATO representatives discuss Russian airspace violations in Brussels. DW has more.",
-          "source": "DW Top Stories",
+          "article_id": "art_e8e113b8ffa1b68bf552",
+          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_campaign=rss&at_medium=RSS",
+          "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-23T09:01:00+00:00",
-          "fetched_at": "2026-11-23T09:04:30.846787+00:00",
+          "published_at": "2026-11-23T20:48:35+00:00",
+          "fetched_at": "2026-11-23T21:23:39.551654+00:00",
           "language": "en",
           "region": "Europe",
-          "source_weight": 0.95,
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/363b/live/dab0da20-e771-11f1-99a1-253766e7ad8b.jpg"
+        },
+        {
+          "article_id": "art_2610073d292106fbf9a4",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/what-russian-warship-did-ukraine-just-sink?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/what-russian-warship-did-ukraine-just-sink?traffic_source=rss",
+          "title": "What Russian warship did Ukraine just sink?",
+          "summary": "Ukraine says it sank the Russian warship Merkury off the coast of Libya. Here's why the vessel is significant.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-23T18:25:55+00:00",
+          "fetched_at": "2026-11-23T21:23:40.177086+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         },
         {
           "article_id": "art_20ce0ffba2533e0ca648",
           "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_campaign=rss&at_medium=RSS",
-          "title": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
-          "summary": "Libya's eastern government says a sunken warship had stopped for fuel and supplies on its way back to Russia.",
+          "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+          "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-23T08:36:57+00:00",
-          "fetched_at": "2026-11-23T09:04:30.292088+00:00",
+          "published_at": "2026-11-23T15:41:23+00:00",
+          "fetched_at": "2026-11-23T21:23:39.551470+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a198/live/5b2f71d0-e6ae-11f1-a094-5fdc692f3e33.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f684/live/02351f90-e74d-11f1-99b6-a35a62fa4264.jpg"
         },
         {
-          "article_id": "art_b8301db985265c9c845c",
-          "url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sunk-russian-ship-off-libya/live-80015859?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sunk-russian-ship-off-libya/live-80015859?maca=en-rss-en-top-1022-rdf",
-          "title": "Ukraine updates: Kyiv claims strike that sunk Russian ship off Libya",
-          "summary": "President Volodymyr Zelenskyy said the attack was carried out with Ukrainian-made naval drones. Meanwhile, NATO members are meeting to discuss an alleged Russian violation of Polish airspace. DW has more.",
-          "source": "DW Top Stories",
+          "article_id": "art_ac9b4c74ae248913bb9d",
+          "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_campaign=rss&at_medium=RSS",
+          "title": "Ukraine shares video of strikes on Russian ships off Libya",
+          "summary": "President Zelensky said a Russia warship was sunk, with a Russian cargo ship also hit.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-23T07:42:00+00:00",
-          "fetched_at": "2026-11-23T09:04:30.846876+00:00",
+          "published_at": "2026-11-23T11:34:10+00:00",
+          "fetched_at": "2026-11-23T21:23:39.555285+00:00",
           "language": "en",
           "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cc6/live/7a950f50-e738-11f1-99b6-a35a62fa4264.jpg"
+        },
+        {
+          "article_id": "art_af520c61c8b014f30ffc",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+          "canonical_url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+          "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+          "summary": "Ukraine carried out an attack on a Russian warship moored at a port in Libya, President Volodymyr Zelenskyy said, claiming that sea drones sank the navy vessel in a surprise assault.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-23T10:16:33+00:00",
+          "fetched_at": "2026-11-23T21:23:40.070252+00:00",
+          "language": "en",
+          "region": "North America",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_6e3cc82c463e7615bcc9",
-          "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
-          "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
-          "summary": "President Zelenskyy says Ukrainian forces sank the Russian warship Merkury in an \"exemplary\" sea drone operation.",
-          "source": "Al Jazeera",
+          "article_id": "art_b10cc9e9ffbefe839dd8",
+          "url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sank-russian-ship-off-libya/live-80015859?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sank-russian-ship-off-libya/live-80015859?maca=en-rss-en-top-1022-rdf",
+          "title": "Ukraine updates: Kyiv claims strike that sank Russian ship off Libya",
+          "summary": "President Volodymyr Zelenskyy said the attack was carried out with Ukrainian-made naval drones. Meanwhile, NATO members are meeting to discuss an alleged Russian violation of Polish airspace. DW has more.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-23T07:37:09+00:00",
-          "fetched_at": "2026-11-23T09:04:31.239359+00:00",
+          "published_at": "2026-11-23T07:42:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.943591+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         },
         {
@@ -147,110 +179,68 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-23T05:33:17+00:00",
-          "fetched_at": "2026-11-23T09:04:30.292009+00:00",
+          "fetched_at": "2026-11-23T21:23:39.553817+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cce0/live/b754c730-e6bd-11f1-a023-d502158f79f8.jpg"
-        },
-        {
-          "article_id": "art_b46f94b191a6614a1eec",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
-          "title": "Child rescued in Ukraine after Russian drone attack kills 10",
-          "summary": "A seven-year-old boy called David was rescued after spending 14 hours trapped in the rubble of a Russian drone attack.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-23T04:38:14+00:00",
-          "fetched_at": "2026-11-23T09:04:31.240085+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_86acc597b8ffa871bc16",
-          "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-top-1022-rdf",
-          "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
-          "summary": "A Russian vessel at an eastern Libyan naval base was hit by what is suspected to be a drone strike.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-22T16:50:00+00:00",
-          "fetched_at": "2026-11-23T09:04:30.847170+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_950a23808c5134d1eb6c",
-          "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-top-1022-rdf",
-          "title": "Russian helicopter suspected of violating Finnish airspace",
-          "summary": "Finland's Defense Ministry thinks the incursion is linked to a drone strike earlier Saturday on a Russian cargo ship, which is on a US sanctions list.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-21T17:08:00+00:00",
-          "fetched_at": "2026-11-23T09:04:30.847946+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_a733889ca42ce63aad0c",
-      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+      "event_id": "evt_a1aae3a47a94e4c62e3e",
+      "title": "Why did COP31 climate talks collapse without a deal?",
       "category": "能源资源",
-      "score": 78.7,
+      "score": 80.9,
       "score_breakdown": {
-        "coverage": 17.9,
+        "coverage": 19.5,
         "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.8,
+        "region_diversity": 7.5,
+        "recency": 18.6,
         "credibility": 9.8,
         "impact": 11.0,
-        "velocity": 4.3
+        "velocity": 3.6
       },
-      "first_seen": "2026-11-22T13:18:00+00:00",
-      "last_updated": "2026-11-23T06:33:50+00:00",
+      "first_seen": "2026-11-22T16:33:22+00:00",
+      "last_updated": "2026-11-23T17:24:25+00:00",
       "source_count": 3,
-      "article_count": 5,
+      "article_count": 6,
       "sources": [
+        "Al Jazeera",
         "BBC World",
-        "DW Top Stories",
         "NPR World"
       ],
       "regions": [
         "Europe",
+        "Middle East",
         "North America"
       ],
       "keywords": [
         "climate",
         "talks",
         "cop31",
+        "deal",
+        "history",
         "countries",
-        "end",
-        "fossil",
-        "fuels",
-        "without"
+        "change",
+        "final"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories、NPR World等来源的5篇报道，当前关注的能源资源事件为“Longest-ever UN climate talks end with no deal as deep divisions exposed”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World、NPR World等来源的6篇报道，当前关注的能源资源事件为“Why did COP31 climate talks collapse without a deal?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
         "participants": [
-          "Five",
           "What",
-          "Longest",
-          "UN",
+          "Why",
+          "Democrats",
+          "House",
+          "And",
+          "Five",
           "Climate"
         ],
         "latest_progress": [
-          "11月23日 06:33 UTC，BBC World报道：“Five takeaways from the failed climate talks COP31”。",
-          "11月23日 05:34 UTC，BBC World报道：“What's next after no deal at COP31 climate talks?”。",
-          "11月23日 05:15 UTC，BBC World报道：“Longest-ever UN climate talks end with no deal as deep divisions exposed”。"
+          "11月23日 17:24 UTC，BBC World报道：“What failure of COP31 reveals about a divided world”。",
+          "11月23日 16:38 UTC，Al Jazeera报道：“Why did COP31 climate talks collapse without a deal?”。",
+          "11月23日 12:42 UTC，NPR World报道：“Democrats win House by largest margin in 50 years. And, COP31 ends with no deal”。"
         ],
         "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
         "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
@@ -263,6 +253,51 @@
       },
       "articles": [
         {
+          "article_id": "art_7913699b10d16ea3905a",
+          "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_campaign=rss&at_medium=RSS",
+          "title": "What failure of COP31 reveals about a divided world",
+          "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-23T17:24:25+00:00",
+          "fetched_at": "2026-11-23T21:23:39.552161+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c650/live/3a868c20-e767-11f1-99a1-253766e7ad8b.jpg"
+        },
+        {
+          "article_id": "art_577cee9bb31c81a56df7",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/why-did-cop31-climate-talks-collapse-without-a-deal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/why-did-cop31-climate-talks-collapse-without-a-deal?traffic_source=rss",
+          "title": "Why did COP31 climate talks collapse without a deal?",
+          "summary": "The longest UN climate summit in history collapsed without a final deal in Turkiye, the first such failure in 17 years.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-23T16:38:30+00:00",
+          "fetched_at": "2026-11-23T21:23:40.177703+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_105d8c8463a32652b19d",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+          "canonical_url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+          "title": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
+          "summary": "Democrats have currently flipped 47 House seats and could flip 49 total. And, climate change talks at COP31 ran two days longer than expected, becoming the longest conference in the summit's history.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-23T12:42:03+00:00",
+          "fetched_at": "2026-11-23T21:23:40.070085+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
           "article_id": "art_fbe62532d644f9425412",
           "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
           "canonical_url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_campaign=rss&at_medium=RSS",
@@ -271,11 +306,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-23T06:33:50+00:00",
-          "fetched_at": "2026-11-23T09:04:30.291923+00:00",
+          "fetched_at": "2026-11-23T21:23:39.556011+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ce9/live/11961550-e704-11f1-8d78-e5a497181e56.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55f7/live/e38ff1a0-e71f-11f1-99b6-a35a62fa4264.jpg"
         },
         {
           "article_id": "art_f17097afc77ae539a81b",
@@ -286,26 +321,11 @@
           "source": "BBC World",
           "source_type": "rss",
           "published_at": "2026-11-23T05:34:39+00:00",
-          "fetched_at": "2026-11-23T09:04:30.293829+00:00",
+          "fetched_at": "2026-11-23T21:23:39.555568+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
           "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4edf/live/0b9a5c60-e70e-11f1-a094-5fdc692f3e33.jpg"
-        },
-        {
-          "article_id": "art_ca280e82c6b6ff3dcc66",
-          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_campaign=rss&at_medium=RSS",
-          "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
-          "summary": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-23T05:15:06+00:00",
-          "fetched_at": "2026-11-23T09:04:30.291816+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66f2/live/6fcf3080-e708-11f1-99a1-253766e7ad8b.jpg"
         },
         {
           "article_id": "art_35cb6d5769c702625b29",
@@ -316,266 +336,192 @@
           "source": "NPR World",
           "source_type": "rss",
           "published_at": "2026-11-22T16:33:22+00:00",
-          "fetched_at": "2026-11-23T09:04:31.107758+00:00",
+          "fetched_at": "2026-11-23T21:23:40.070861+00:00",
           "language": "en",
           "region": "North America",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_0731935fb0ac2a4d0e2c",
-          "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-top-1022-rdf",
-          "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
-          "summary": "After two weeks of tough talks, the COP31 climate summit has closed without a consensus on how to quit fossil fuels or fund countries struggling to adapt to a hotter world.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-22T13:18:00+00:00",
-          "fetched_at": "2026-11-23T09:04:30.847284+00:00",
-          "language": "en",
-          "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_8e3bde4a878415597434",
-      "title": "Badenoch and Farage round on Burnham EU - UK deal as Labour seek support for nationalising water and energy",
-      "category": "能源资源",
-      "score": 70.0,
+      "event_id": "evt_083355e3948af55aa78c",
+      "title": "Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth",
+      "category": "国际政治",
+      "score": 78.8,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 16.7,
+        "coverage": 19.5,
+        "source_diversity": 18.0,
+        "region_diversity": 10.0,
+        "recency": 7.8,
         "credibility": 7.5,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-22T22:30:00+00:00",
-      "last_updated": "2026-11-23T02:30:00+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-11-22T18:45:00+00:00",
+      "last_updated": "2026-11-22T20:30:00+00:00",
+      "source_count": 6,
+      "article_count": 6,
       "sources": [
-        "canberratimes.com.au",
-        "lbc.co.uk",
-        "manchestereveningnews.co.uk"
+        "afghanistansun.com",
+        "arabherald.com",
+        "irishsun.com",
+        "londonmercury.com",
+        "newyorkstatesman.com",
+        "sandiegosun.com"
       ],
       "regions": [
-        "Australia",
-        "United Kingdom"
+        "Afghanistan",
+        "Ireland",
+        "Syria",
+        "United Kingdom",
+        "United States"
       ],
       "keywords": [
-        "burnham",
-        "deal",
-        "badenoch",
-        "terrible",
-        "farage",
-        "kemi",
-        "criticises",
-        "andy"
+        "whole",
+        "acknowledging",
+        "union",
+        "minister",
+        "gajendra",
+        "shekhawat",
+        "trump",
+        "praise"
       ],
       "analysis": {
-        "what_happened": "据canberratimes.com.au、lbc.co.uk、manchestereveningnews.co.uk等来源的3篇报道，当前关注的能源资源事件为“Badenoch and Farage round on Burnham EU - UK deal as Labour seek support for nationalising water and energy”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "what_happened": "据afghanistansun.com、arabherald.com、irishsun.com、londonmercury.com等来源的6篇报道，当前关注的国际政治事件为“Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Terrible",
-          "British",
-          "PM",
-          "Burnham",
-          "EU",
-          "Badenoch",
-          "Farage",
-          "UK"
+          "Whole",
+          "Union Minister Gajendra Shekhawat",
+          "Trump",
+          "India",
+          "GDP"
         ],
         "latest_progress": [
-          "11月23日 02:30 UTC，canberratimes.com.au报道：“Terrible : British PM Burnham EU deal slammed”。",
-          "11月23日 00:30 UTC，lbc.co.uk报道：“Badenoch and Farage round on Burnham EU - UK deal as Labour seek support for nationalising water and energy”。",
-          "11月22日 22:30 UTC，manchestereveningnews.co.uk报道：“Kemi Badenoch criticises Andy Burnham terrible EU deal as Nigel Farage warns of rejoin disaster”。"
+          "11月22日 20:30 UTC，londonmercury.com报道：“Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth”。",
+          "11月22日 19:00 UTC，sandiegosun.com报道：“Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth”。",
+          "11月22日 19:00 UTC，afghanistansun.com报道：“Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth”。"
         ],
-        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
-        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
         "watch_indicators": [
-          "产量与库存",
-          "运输设施运行",
-          "现货、期货与运费变化"
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_1f2081cb869a641412a5",
-          "url": "https://www.canberratimes.com.au/story/9396445/terrible-british-pm-burnhams-eu-deal-slammed/",
-          "canonical_url": "https://www.canberratimes.com.au/story/9396445/terrible-british-pm-burnhams-eu-deal-slammed",
-          "title": "Terrible : British PM Burnham EU deal slammed",
+          "article_id": "art_b1004b5481ab8f6c4d67",
+          "url": "http://www.londonmercury.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "canonical_url": "https://www.londonmercury.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "title": "Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth",
           "summary": "",
-          "source": "canberratimes.com.au",
+          "source": "londonmercury.com",
           "source_type": "gdelt",
-          "published_at": "2026-11-23T02:30:00+00:00",
-          "fetched_at": "2026-11-23T09:03:19.922309+00:00",
-          "language": "English",
-          "region": "Australia",
-          "source_weight": 0.75,
-          "image_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-feed-data/399bd024-a1ba-4a5d-90f2-034bee50079e.jpg/r0_90_800_510_w1200_h630_fmax.jpg"
-        },
-        {
-          "article_id": "art_ef735d78e0ee4847adb3",
-          "url": "https://www.lbc.co.uk/article/kemi-badenoch-farage-eu-deal-andy-burnham-louise-haigh-5HjdnPH_2/",
-          "canonical_url": "https://www.lbc.co.uk/article/kemi-badenoch-farage-eu-deal-andy-burnham-louise-haigh-5HjdnPH_2",
-          "title": "Badenoch and Farage round on Burnham EU - UK deal as Labour seek support for nationalising water and energy",
-          "summary": "",
-          "source": "lbc.co.uk",
-          "source_type": "gdelt",
-          "published_at": "2026-11-23T00:30:00+00:00",
-          "fetched_at": "2026-11-23T09:03:19.922079+00:00",
+          "published_at": "2026-11-22T20:30:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.251368+00:00",
           "language": "English",
           "region": "United Kingdom",
           "source_weight": 0.75,
-          "image_url": "https://images.globalplayer.com/images/857494?crop=16_9&signature=K2FGqWUNl4aOEatcrks8ZM6aCh0="
+          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/4b56af4/f612d5ea-c756-4bcd-a324-bbb83d777d94/0/ANI-20261122133827-600x315.jpg"
         },
         {
-          "article_id": "art_6ff7f9802003c0337a2c",
-          "url": "https://www.manchestereveningnews.co.uk/news/uk-news/kemi-badenoch-criticises-andy-burnhams-34950991",
-          "canonical_url": "https://www.manchestereveningnews.co.uk/news/uk-news/kemi-badenoch-criticises-andy-burnhams-34950991",
-          "title": "Kemi Badenoch criticises Andy Burnham terrible EU deal as Nigel Farage warns of rejoin disaster",
+          "article_id": "art_df9b17e448a2a31b399a",
+          "url": "http://www.sandiegosun.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "canonical_url": "https://www.sandiegosun.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "title": "Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth",
           "summary": "",
-          "source": "manchestereveningnews.co.uk",
+          "source": "sandiegosun.com",
           "source_type": "gdelt",
-          "published_at": "2026-11-22T22:30:00+00:00",
-          "fetched_at": "2026-11-23T09:03:19.920693+00:00",
+          "published_at": "2026-11-22T19:00:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.251191+00:00",
           "language": "English",
-          "region": "United Kingdom",
+          "region": "United States",
           "source_weight": 0.75,
-          "image_url": "https://i2-prod.manchestereveningnews.co.uk/article34950996.ece/ALTERNATES/s1200d/1_Kemi-Badenoch-London-visit.jpg"
+          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/4b56af4/f612d5ea-c756-4bcd-a324-bbb83d777d94/0/ANI-20261122133827-600x315.jpg"
+        },
+        {
+          "article_id": "art_3300bc4c4f7117c4b84f",
+          "url": "http://www.afghanistansun.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "canonical_url": "https://www.afghanistansun.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "title": "Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth",
+          "summary": "",
+          "source": "afghanistansun.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-22T19:00:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.251283+00:00",
+          "language": "English",
+          "region": "Afghanistan",
+          "source_weight": 0.75,
+          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/4b56af4/f612d5ea-c756-4bcd-a324-bbb83d777d94/0/ANI-20261122133827-600x315.jpg"
+        },
+        {
+          "article_id": "art_c6b3aca6f7db65ae0147",
+          "url": "http://www.newyorkstatesman.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "canonical_url": "https://www.newyorkstatesman.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "title": "Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth",
+          "summary": "",
+          "source": "newyorkstatesman.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-22T18:45:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.251453+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/4b56af4/f612d5ea-c756-4bcd-a324-bbb83d777d94/0/ANI-20261122133827-600x315.jpg"
+        },
+        {
+          "article_id": "art_52f8a66c226edde090cf",
+          "url": "http://www.arabherald.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "canonical_url": "https://www.arabherald.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "title": "Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth",
+          "summary": "",
+          "source": "arabherald.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-22T18:45:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.251536+00:00",
+          "language": "English",
+          "region": "Syria",
+          "source_weight": 0.75,
+          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/4b56af4/f612d5ea-c756-4bcd-a324-bbb83d777d94/0/ANI-20261122133827-600x315.jpg"
+        },
+        {
+          "article_id": "art_ad2b3c0ddb1cf1309095",
+          "url": "http://www.irishsun.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "canonical_url": "https://www.irishsun.com/news/279448925/whole-world-acknowledging-this-union-minister-gajendra-shekhawat-on-trump-praise-of-india-gdp-growth",
+          "title": "Whole world acknowledging this : Union Minister Gajendra Shekhawat on Trump praise of India GDP growth",
+          "summary": "",
+          "source": "irishsun.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-22T18:45:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.251620+00:00",
+          "language": "English",
+          "region": "Ireland",
+          "source_weight": 0.75,
+          "image_url": "https://chitra-api.kreatio.com/api/v1/wps/4b56af4/f612d5ea-c756-4bcd-a324-bbb83d777d94/0/ANI-20261122133827-600x315.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_fcb67387d0a064693b62",
-      "title": "Indonesia confirms 24 killed in candy factory fire as search continues",
-      "category": "产业供应链",
-      "score": 68.9,
+      "event_id": "evt_b6e36a3b19d92f5f576c",
+      "title": "Israeli strikes kill at least three, including UNRWA worker, in Gaza",
+      "category": "军事安全",
+      "score": 72.5,
       "score_breakdown": {
         "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 16.8,
-        "credibility": 9.8,
-        "impact": 10.4,
-        "velocity": 2.2
-      },
-      "first_seen": "2026-11-22T06:14:00+00:00",
-      "last_updated": "2026-11-23T02:35:42+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "fire",
-        "factory",
-        "people",
-        "killed",
-        "missing",
-        "three",
-        "dozens",
-        "indonesian"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的产业供应链事件为“Indonesia confirms 24 killed in candy factory fire as search continues”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
-        "participants": [
-          "Indonesia",
-          "Indonesian",
-          "Dozens"
-        ],
-        "latest_progress": [
-          "11月23日 02:35 UTC，Al Jazeera报道：“Indonesia confirms 24 killed in candy factory fire as search continues”。",
-          "11月22日 14:05 UTC，BBC World报道：“Three killed and dozens missing after fire at Indonesian factory”。",
-          "11月22日 06:14 UTC，DW Top Stories报道：“Dozens missing as deadly fire hits Indonesian candy factory”。"
-        ],
-        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
-        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
-        "watch_indicators": [
-          "港口和工厂运行率",
-          "交货周期与运价",
-          "企业订单及库存"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_2dced9a8b0d3a12c2737",
-          "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site?traffic_source=rss",
-          "title": "Indonesia confirms 24 killed in candy factory fire as search continues",
-          "summary": "Rescuers search for 30 people still missing.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-23T02:35:42+00:00",
-          "fetched_at": "2026-11-23T09:04:31.240348+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_640918c2861ef00deadb",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_campaign=rss&at_medium=RSS",
-          "title": "Three killed and dozens missing after fire at Indonesian factory",
-          "summary": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-22T14:05:20+00:00",
-          "fetched_at": "2026-11-23T09:04:30.292655+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg"
-        },
-        {
-          "article_id": "art_ca388e254a17a0408ce8",
-          "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-top-1022-rdf",
-          "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-          "summary": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tragedy.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-22T06:14:00+00:00",
-          "fetched_at": "2026-11-23T09:04:30.847722+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_61c237934a3e3ffe29e0",
-      "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-      "category": "军事安全",
-      "score": 66.6,
-      "score_breakdown": {
-        "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 5.0,
-        "recency": 16.5,
+        "recency": 18.4,
         "credibility": 10.0,
         "impact": 13.0,
-        "velocity": 3.9
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-22T18:29:46+00:00",
-      "last_updated": "2026-11-23T02:09:15+00:00",
+      "first_seen": "2026-11-23T16:35:28+00:00",
+      "last_updated": "2026-11-23T17:07:25+00:00",
       "source_count": 2,
-      "article_count": 2,
+      "article_count": 3,
       "sources": [
         "Al Jazeera",
         "BBC World"
@@ -585,117 +531,29 @@
         "Middle East"
       ],
       "keywords": [
-        "army",
-        "iowa",
-        "detonate",
-        "tonnes",
-        "despite",
-        "lead",
-        "unstable",
-        "explosives"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“US Army to detonate tonnes of unstable explosives in Iowa despite court order”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Extremely",
-          "Inside",
-          "US",
-          "Army",
-          "Iowa"
-        ],
-        "latest_progress": [
-          "11月23日 02:09 UTC，Al Jazeera报道：“‘Extremely concerning’: Inside a US Army plan to detonate Iowa lead stores”。",
-          "11月22日 18:29 UTC，BBC World报道：“US Army to detonate tonnes of unstable explosives in Iowa despite court order”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ad1100d21d2627514333",
-          "url": "https://www.aljazeera.com/news/2026/11/23/extremely-concerning-inside-a-us-army-plan-to-detonate-iowa-lead-stores?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/23/extremely-concerning-inside-a-us-army-plan-to-detonate-iowa-lead-stores?traffic_source=rss",
-          "title": "‘Extremely concerning’: Inside a US Army plan to detonate Iowa lead stores",
-          "summary": "Army plans to invoke emergency powers to detonate 4 tonnes of lead azide in an Iowa town, despite a court-ordered stay.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-23T02:09:15+00:00",
-          "fetched_at": "2026-11-23T09:04:31.240484+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_e9f1bd049e51ca4d6eb6",
-          "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_campaign=rss&at_medium=RSS",
-          "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-          "summary": "The Army says \"swift action\" is necessary to protect its personnel and nearby communities around its ammunition plant in Iowa.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-22T18:29:46+00:00",
-          "fetched_at": "2026-11-23T09:04:30.292587+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c129/live/651f5c40-e68c-11f1-936e-1fd1d31671db.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_954570b6045740971dd1",
-      "title": "Israeli forces continue house demolitions in southern Lebanon",
-      "category": "军事安全",
-      "score": 63.2,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 16.2,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 1.1
-      },
-      "first_seen": "2026-11-21T22:01:32+00:00",
-      "last_updated": "2026-11-23T01:43:29+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "NPR World"
-      ],
-      "regions": [
-        "Middle East",
-        "North America"
-      ],
-      "keywords": [
-        "lebanon",
-        "southern",
+        "gaza",
         "israeli",
-        "forces",
-        "house",
-        "grieving",
-        "family",
-        "returns"
+        "unrwa",
+        "worker",
+        "killed",
+        "attacks",
+        "across",
+        "mourns"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、NPR World等来源的2篇报道，当前关注的军事安全事件为“Israeli forces continue house demolitions in southern Lebanon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、BBC World等来源的3篇报道，当前关注的军事安全事件为“Israeli strikes kill at least three, including UNRWA worker, in Gaza”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
           "Israeli",
-          "Lebanon"
+          "Gaza",
+          "Oxfam",
+          "UNRWA",
+          "Gaza Gaza"
         ],
         "latest_progress": [
-          "11月23日 01:43 UTC，Al Jazeera报道：“Israeli forces continue house demolitions in southern Lebanon”。",
-          "11月21日 22:01 UTC，NPR World报道：“A grieving family in Lebanon returns to their village”。"
+          "11月23日 17:07 UTC，BBC World报道：“Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says”。",
+          "11月23日 16:36 UTC，Al Jazeera报道：“Israeli strikes kill at least three, including UNRWA worker, in Gaza”。",
+          "11月23日 16:35 UTC，Al Jazeera报道：“Gaza mourns UNRWA worker killed in Israeli strike”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -708,154 +566,99 @@
       },
       "articles": [
         {
-          "article_id": "art_4221c3a1682df2242870",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israeli-forces-continue-house-demolitions-in-southern-lebanon?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israeli-forces-continue-house-demolitions-in-southern-lebanon?traffic_source=rss",
-          "title": "Israeli forces continue house demolitions in southern Lebanon",
-          "summary": "Israeli forces continue house demolitions in southern Lebanon",
+          "article_id": "art_a162e46c0e68d657223c",
+          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_campaign=rss&at_medium=RSS",
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "summary": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-23T17:07:25+00:00",
+          "fetched_at": "2026-11-23T21:23:39.552329+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/810a/live/c0542f80-e73d-11f1-99a1-253766e7ad8b.jpg"
+        },
+        {
+          "article_id": "art_cff992afc49d41ba4f31",
+          "url": "https://www.aljazeera.com/news/2026/11/23/israeli-drone-strike-kills-unrwa-worker-in-gaza?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/23/israeli-drone-strike-kills-unrwa-worker-in-gaza?traffic_source=rss",
+          "title": "Israeli strikes kill at least three, including UNRWA worker, in Gaza",
+          "summary": "Israel continues to launch attacks across the enclave, despite an October 2025 'ceasefire' deal.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-23T01:43:29+00:00",
-          "fetched_at": "2026-11-23T09:04:31.240679+00:00",
+          "published_at": "2026-11-23T16:36:22+00:00",
+          "fetched_at": "2026-11-23T21:23:40.177867+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_6734de109aeaa9337907",
-          "url": "https://www.npr.org/2026/11/21/nx-s1-6012085/a-grieving-family-in-lebanon-returns-to-their-village",
-          "canonical_url": "https://www.npr.org/2026/11/21/nx-s1-6012085/a-grieving-family-in-lebanon-returns-to-their-village",
-          "title": "A grieving family in Lebanon returns to their village",
-          "summary": "In Southern Lebanon, the Army is taking over after Israeli forces withdraw. One grieving family returns to their village to find almost everything in their house destroyed.",
-          "source": "NPR World",
+          "article_id": "art_6df463ab3e6b778a0e7e",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-mourns-unrwa-worker-killed-in-israeli-strike?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-mourns-unrwa-worker-killed-in-israeli-strike?traffic_source=rss",
+          "title": "Gaza mourns UNRWA worker killed in Israeli strike",
+          "summary": "Palestinians mourned UNRWA employee Adel al-Helou, who was killed on Monday in an Israeli airstrike while on duty",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-21T22:01:32+00:00",
-          "fetched_at": "2026-11-23T09:04:31.107974+00:00",
+          "published_at": "2026-11-23T16:35:28+00:00",
+          "fetched_at": "2026-11-23T21:23:40.178022+00:00",
           "language": "en",
-          "region": "North America",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_44dbde088dc4aadbe78c",
-      "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+      "event_id": "evt_8a5519dadeb56fc85519",
+      "title": "Danish top court’s ‘ghetto law’ ruling supports hardline immigration policy",
       "category": "国际政治",
-      "score": 60.7,
+      "score": 69.9,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.6,
-        "credibility": 10.0,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.9,
+        "credibility": 9.8,
         "impact": 11.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-23T08:41:08+00:00",
-      "last_updated": "2026-11-23T08:41:08+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "tell",
-        "mps",
-        "deal",
-        "burnham",
-        "landmark'",
-        "could",
-        "make",
-        "next"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的1篇报道，当前关注的国际政治事件为“Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Burnham",
-          "EU"
-        ],
-        "latest_progress": [
-          "11月23日 08:41 UTC，BBC World报道：“Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_06ba1d29624d7b0d5a57",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_campaign=rss&at_medium=RSS",
-          "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
-          "summary": "The prime minister will tell MPs the deal agreed on Friday is a \"choice between a broken status quo or change\".",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-23T08:41:08+00:00",
-          "fetched_at": "2026-11-23T09:04:30.292238+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3431/live/0e8b4920-e6be-11f1-a023-d502158f79f8.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a73f4ead2ae481768eec",
-      "title": "Germany news: Metalworkers go on strike as pay dispute heats up",
-      "category": "国际政治",
-      "score": 59.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 20.3,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 1.3
-      },
-      "first_seen": "2026-11-22T08:07:00+00:00",
-      "last_updated": "2026-11-23T07:11:00+00:00",
-      "source_count": 1,
+      "first_seen": "2026-11-23T18:00:23+00:00",
+      "last_updated": "2026-11-23T20:08:00+00:00",
+      "source_count": 2,
       "article_count": 2,
       "sources": [
+        "Al Jazeera",
         "DW Top Stories"
       ],
       "regions": [
-        "Europe"
+        "Europe",
+        "Middle East"
       ],
       "keywords": [
-        "union",
-        "strike",
-        "germany's",
-        "pay",
-        "germany",
-        "metall",
-        "biggest",
-        "calling"
+        "court",
+        "top",
+        "ghetto",
+        "law",
+        "hardline",
+        "immigration",
+        "not",
+        "discrimination"
       ],
       "analysis": {
-        "what_happened": "据DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Germany news: Metalworkers go on strike as pay dispute heats up”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Danish top court’s ‘ghetto law’ ruling supports hardline immigration policy”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Germany",
-          "Metalworkers",
-          "IG",
-          "Metall"
+          "Denmark",
+          "Top",
+          "Danish"
         ],
         "latest_progress": [
-          "11月23日 07:11 UTC，DW Top Stories报道：“Germany news: Metalworkers go on strike as pay dispute heats up”。",
-          "11月22日 08:07 UTC，DW Top Stories报道：“Germany news: IG Metall union calls for new 24-hour strike”。"
+          "11月23日 20:08 UTC，DW Top Stories报道：“Denmark: Top court backs hardline immigration \"ghetto law\"”。",
+          "11月23日 18:00 UTC，Al Jazeera报道：“Danish top court’s ‘ghetto law’ ruling supports hardline immigration policy”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -868,53 +671,234 @@
       },
       "articles": [
         {
-          "article_id": "art_7e1c133a079627ddad33",
-          "url": "https://www.dw.com/en/germany-news-metalworkers-go-on-strike-as-pay-dispute-heats-up/live-80015633?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-news-metalworkers-go-on-strike-as-pay-dispute-heats-up/live-80015633?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany news: Metalworkers go on strike as pay dispute heats up",
-          "summary": "Germany's biggest union is calling for more strikes over heated pay disputes with car makers like Mercedes and shipyards among the companies impacted. Meanwhile, a Berlin hospital fire leaves many injured. Follow DW.",
+          "article_id": "art_9955db48121c08e3e71d",
+          "url": "https://www.dw.com/en/denmark-top-court-backs-hardline-immigration-ghetto-law/a-80026478?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/denmark-top-court-backs-hardline-immigration-ghetto-law/a-80026478?maca=en-rss-en-top-1022-rdf",
+          "title": "Denmark: Top court backs hardline immigration \"ghetto law\"",
+          "summary": "Denmark's Supreme Court has found that evictions of \"non-Western\" residents do not amount to discrimination. The government in Copenhagen argues its \"ghetto law\" encourages integration.",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-23T07:11:00+00:00",
-          "fetched_at": "2026-11-23T09:04:30.846940+00:00",
+          "published_at": "2026-11-23T20:08:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.941436+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
           "image_url": null
         },
         {
-          "article_id": "art_690dd30045c8fec0535b",
-          "url": "https://www.dw.com/en/germany-news-ig-metall-union-calls-for-new-24-hour-strike/live-80008430?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/germany-news-ig-metall-union-calls-for-new-24-hour-strike/live-80008430?maca=en-rss-en-top-1022-rdf",
-          "title": "Germany news: IG Metall union calls for new 24-hour strike",
-          "summary": "Germany's biggest single union, IG Metall, is calling on car and shipyard workers to strike amid a pay row. Meanwhile, Germany's president is setting off on an Africa trip. DW has more.",
-          "source": "DW Top Stories",
+          "article_id": "art_e200d3de530018b1741d",
+          "url": "https://www.aljazeera.com/news/2026/11/23/danish-top-courts-ghetto-law-ruling-supports-hardline-immigration-policy?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/23/danish-top-courts-ghetto-law-ruling-supports-hardline-immigration-policy?traffic_source=rss",
+          "title": "Danish top court’s ‘ghetto law’ ruling supports hardline immigration policy",
+          "summary": "The country's top court said eviction of 'non-Western' families did not constitute discrimination.",
+          "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-22T08:07:00+00:00",
-          "fetched_at": "2026-11-23T09:04:30.847558+00:00",
+          "published_at": "2026-11-23T18:00:23+00:00",
+          "fetched_at": "2026-11-23T21:23:40.177411+00:00",
           "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_551e808098bddfb66fb0",
-      "title": "As Syria-EU talks progress, diplomats fear focus will be on repatriation",
-      "category": "经济金融",
-      "score": 59.2,
+      "event_id": "evt_0fd20ca193fa3e793d66",
+      "title": "Tajikistan moves to leave ICC amid US push against court",
+      "category": "国际政治",
+      "score": 68.6,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.6,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-23T17:36:17+00:00",
+      "last_updated": "2026-11-23T18:40:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "tajikistan",
+        "icc",
+        "court",
+        "russian",
+        "president",
+        "vladimir",
+        "putin",
+        "moves"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“Tajikistan moves to leave ICC amid US push against court”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "Tajikistan",
+          "US",
+          "ICC"
+        ],
+        "latest_progress": [
+          "11月23日 18:40 UTC，DW Top Stories报道：“Tajikistan follows US call, withdraws from ICC”。",
+          "11月23日 17:36 UTC，Al Jazeera报道：“Tajikistan moves to leave ICC amid US push against court”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_77f781a28cdd8ac7374b",
+          "url": "https://www.dw.com/en/tajikistan-follows-us-call-withdraws-from-icc/a-80023903?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/tajikistan-follows-us-call-withdraws-from-icc/a-80023903?maca=en-rss-en-top-1022-rdf",
+          "title": "Tajikistan follows US call, withdraws from ICC",
+          "summary": "Tajikistan has initiated its withdrawal from the International Criminal Court as the US calls for it to be \"dismantled.\" The decision was made during a recent visit from Russian President Vladimir Putin.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-23T18:40:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.941579+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_fb2b2ecb1ee5226f713b",
+          "url": "https://www.aljazeera.com/news/2026/11/23/tajikistan-moves-to-leave-icc-amid-us-push-against-court?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/23/tajikistan-moves-to-leave-icc-amid-us-push-against-court?traffic_source=rss",
+          "title": "Tajikistan moves to leave ICC amid US push against court",
+          "summary": "The ICC found that Tajikistan failed to comply with its request to arrest Russian President Vladimir Putin.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-23T17:36:17+00:00",
+          "fetched_at": "2026-11-23T21:23:40.177559+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_c4e40ef305b1dff16753",
+      "title": "India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi",
+      "category": "国际政治",
+      "score": 68.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.3,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-23T13:39:30+00:00",
+      "last_updated": "2026-11-23T18:12:55+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "BBC World"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "nepal",
+        "india",
+        "pledges",
+        "prime",
+        "minister",
+        "balendra",
+        "shah",
+        "reset"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "India",
+          "Nepal",
+          "Balendra Shah",
+          "Modi India"
+        ],
+        "latest_progress": [
+          "11月23日 18:12 UTC，Al Jazeera报道：“India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi”。",
+          "11月23日 13:39 UTC，BBC World报道：“India pledges $1.6bn to Nepal in reset of ties”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_fa0ea9c5506ce6e4f745",
+          "url": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss",
+          "title": "India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi",
+          "summary": "Nepal's Prime Minister Balendra Shah is in New Delhi for a two-day visit — his first since coming to power in March.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-23T18:12:55+00:00",
+          "fetched_at": "2026-11-23T21:23:40.177245+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_f8a438d0612d3d788d7b",
+          "url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_campaign=rss&at_medium=RSS",
+          "title": "India pledges $1.6bn to Nepal in reset of ties",
+          "summary": "As Nepal rebuilds after deadly floods, its prime minister sets contentious issues aside to secure Indian funding, port access and a new train service.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-23T13:39:30+00:00",
+          "fetched_at": "2026-11-23T21:23:39.552478+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25f9/live/8fa3a390-e71d-11f1-914b-6d226d813a52.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_0e16f1af2930295424f3",
+      "title": "Russia threatens ‘hostile’ Estonia with ‘open war’",
+      "category": "军事安全",
+      "score": 61.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.5,
+        "recency": 20.2,
         "credibility": 10.0,
-        "impact": 11.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-23T06:08:13+00:00",
-      "last_updated": "2026-11-23T06:08:13+00:00",
+      "first_seen": "2026-11-23T19:20:30+00:00",
+      "last_updated": "2026-11-23T19:20:30+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -924,24 +908,96 @@
         "Middle East"
       ],
       "keywords": [
-        "talks",
-        "syria-eu",
-        "progress",
-        "diplomats",
-        "fear",
-        "focus",
-        "repatriation",
-        "syria"
+        "hostile",
+        "russia",
+        "threatens",
+        "estonia",
+        "open",
+        "war",
+        "moscow",
+        "accuses"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的经济金融事件为“As Syria-EU talks progress, diplomats fear focus will be on repatriation”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Russia threatens ‘hostile’ Estonia with ‘open war’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "As Syria",
-          "EU"
+          "Russia",
+          "Estonia"
         ],
         "latest_progress": [
-          "11月23日 06:08 UTC，Al Jazeera报道：“As Syria-EU talks progress, diplomats fear focus will be on repatriation”。"
+          "11月23日 19:20 UTC，Al Jazeera报道：“Russia threatens ‘hostile’ Estonia with ‘open war’”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_8635bc256f2315761176",
+          "url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss",
+          "title": "Russia threatens ‘hostile’ Estonia with ‘open war’",
+          "summary": "Moscow accuses Tallinn of 'hostile actions' citing border closure and claiming it is allowing Ukraine to launch attacks.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-23T19:20:30+00:00",
+          "fetched_at": "2026-11-23T21:23:40.176752+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_74f5ba818a32fde101eb",
+      "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
+      "category": "经济金融",
+      "score": 58.2,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.5,
+        "credibility": 10.0,
+        "impact": 11.7,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-23T17:14:50+00:00",
+      "last_updated": "2026-11-23T17:14:50+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "comedian",
+        "trade",
+        "talks",
+        "press",
+        "impersonates",
+        "trump's",
+        "dance",
+        "moves"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的经济金融事件为“Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
+        "participants": [
+          "Comedian",
+          "Trump",
+          "Canada"
+        ],
+        "latest_progress": [
+          "11月23日 17:14 UTC，BBC World报道：“Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner”。"
         ],
         "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
         "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
@@ -954,65 +1010,66 @@
       },
       "articles": [
         {
-          "article_id": "art_ac41edf25840da167953",
-          "url": "https://www.aljazeera.com/features/2026/11/23/as-syria-eu-talks-progress-diplomats-fear-focus-will-be-on-repatriation?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/features/2026/11/23/as-syria-eu-talks-progress-diplomats-fear-focus-will-be-on-repatriation?traffic_source=rss",
-          "title": "As Syria-EU talks progress, diplomats fear focus will be on repatriation",
-          "summary": "Syria and the EU are in talks on trade and political ties, but migration will likely be the key issue for discussion.",
-          "source": "Al Jazeera",
+          "article_id": "art_5fdae9acc7f6d9304139",
+          "url": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_campaign=rss&at_medium=RSS",
+          "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
+          "summary": "The impersonator, Canadian comedian Mark Critch, poked fun at the US president's search for a new press secretary and US-Canada trade talks.",
+          "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-23T06:08:13+00:00",
-          "fetched_at": "2026-11-23T09:04:31.239805+00:00",
+          "published_at": "2026-11-23T17:14:50+00:00",
+          "fetched_at": "2026-11-23T21:23:39.552957+00:00",
           "language": "en",
-          "region": "Middle East",
+          "region": "Europe",
           "source_weight": 1.0,
-          "image_url": null
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f36/live/7d4e5560-e758-11f1-b407-33329b1ec67a.png"
         }
       ]
     },
     {
-      "event_id": "evt_4da4333adaf36ab699d5",
-      "title": "Libya’s military says ‘fully prepared’ after Benghazi attacks",
+      "event_id": "evt_74aea75ced604048b50e",
+      "title": "After Japan's APEC snub, what's next for its China ties?",
       "category": "军事安全",
-      "score": 57.3,
+      "score": 58.1,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 16.3,
-        "credibility": 10.0,
+        "recency": 17.5,
+        "credibility": 9.5,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-23T01:51:32+00:00",
-      "last_updated": "2026-11-23T01:51:32+00:00",
+      "first_seen": "2026-11-23T15:57:00+00:00",
+      "last_updated": "2026-11-23T15:57:00+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
-        "Al Jazeera"
+        "DW Top Stories"
       ],
       "regions": [
-        "Middle East"
+        "Europe"
       ],
       "keywords": [
-        "military",
-        "fully",
-        "prepared",
-        "benghazi",
-        "libya",
-        "attacks",
-        "libyan",
-        "port"
+        "apec",
+        "ties",
+        "japan's",
+        "snub",
+        "what's",
+        "next",
+        "china",
+        "japan"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Libya’s military says ‘fully prepared’ after Benghazi attacks”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的军事安全事件为“After Japan's APEC snub, what's next for its China ties?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Libya",
-          "Benghazi"
+          "After Japan",
+          "APEC",
+          "China"
         ],
         "latest_progress": [
-          "11月23日 01:51 UTC，Al Jazeera报道：“Libya’s military says ‘fully prepared’ after Benghazi attacks”。"
+          "11月23日 15:57 UTC，DW Top Stories报道：“After Japan's APEC snub, what's next for its China ties?”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -1025,18 +1082,18 @@
       },
       "articles": [
         {
-          "article_id": "art_44f336840b6d2d1fc9c2",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss",
-          "title": "Libya’s military says ‘fully prepared’ after Benghazi attacks",
-          "summary": "Libyan military says Benghazi port is ‘under control’ and it is ‘fully prepared’ to respond to threats.",
-          "source": "Al Jazeera",
+          "article_id": "art_34a5b1d220e55960cfdc",
+          "url": "https://www.dw.com/en/after-japan-s-apec-snub-what-s-next-for-its-china-ties/a-80020823?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/after-japan-s-apec-snub-what-s-next-for-its-china-ties/a-80020823?maca=en-rss-en-top-1022-rdf",
+          "title": "After Japan's APEC snub, what's next for its China ties?",
+          "summary": "Japan has long-running concerns over Chinese military expansionism, and Beijing has bristled at Sanae Takaichi's comments on Taiwan. The frosty ties were on full display at the APEC summit.",
+          "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-23T01:51:32+00:00",
-          "fetched_at": "2026-11-23T09:04:31.240616+00:00",
+          "published_at": "2026-11-23T15:57:00+00:00",
+          "fetched_at": "2026-11-23T21:23:39.941984+00:00",
           "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
