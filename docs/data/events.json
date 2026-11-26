@@ -1,177 +1,241 @@
 {
-  "generated_at": "2026-11-26T05:03:55.961712+00:00",
+  "generated_at": "2026-11-26T15:15:11.429181+00:00",
   "event_count": 10,
   "run": {
-    "status": "partial",
-    "articles_fetched": 86,
-    "articles_unique": 86,
-    "errors": [
-      {
-        "source": "GDELT: (conflict OR election OR economy OR technolog",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
-      },
-      {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
-      }
-    ]
+    "status": "success",
+    "articles_fetched": 189,
+    "articles_unique": 187,
+    "errors": []
   },
   "events": [
     {
-      "event_id": "evt_d7ab07da1bd4615b8322",
-      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-      "category": "社会突发",
-      "score": 73.2,
+      "event_id": "evt_9fe5d94face26e705d11",
+      "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+      "category": "科技AI",
+      "score": 76.6,
       "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 17.0,
-        "credibility": 9.8,
-        "impact": 11.7,
+        "coverage": 20.8,
+        "source_diversity": 18.0,
+        "region_diversity": 2.5,
+        "recency": 13.1,
+        "credibility": 7.5,
+        "impact": 9.8,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-25T21:37:00+00:00",
-      "last_updated": "2026-11-25T22:48:47+00:00",
-      "source_count": 3,
-      "article_count": 3,
+      "first_seen": "2026-11-26T01:15:00+00:00",
+      "last_updated": "2026-11-26T02:45:00+00:00",
+      "source_count": 7,
+      "article_count": 7,
       "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
+        "abcnews.com",
+        "capitalgazette.com",
+        "citizensvoice.com",
+        "clickondetroit.com",
+        "dailypress.com",
+        "ksl.com",
+        "wral.com"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "United States"
       ],
       "keywords": [
-        "truck",
-        "ring",
-        "road",
-        "cairo",
-        "fire",
-        "egypt",
-        "fuel",
-        "overturns"
+        "trump",
+        "arizona",
+        "high",
+        "stakes",
+        "expansion",
+        "tsmc",
+        "computer",
+        "chip"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的社会突发事件为“Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据abcnews.com、capitalgazette.com、citizensvoice.com、clickondetroit.com等来源的7篇报道，当前关注的科技AI事件为“Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
         "participants": [
-          "Deadly",
-          "Egypt",
-          "Thirty",
-          "Cairo",
-          "At"
+          "Trump",
+          "Arizona",
+          "TSMC"
         ],
         "latest_progress": [
-          "11月25日 22:48 UTC，Al Jazeera报道：“Deadly truck fire is latest of Egypt’s transport disasters”。",
-          "11月25日 22:18 UTC，BBC World报道：“Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway”。",
-          "11月25日 21:37 UTC，DW Top Stories报道：“Egypt: At least 31 dead after fuel truck overturns on highway”。"
+          "11月26日 02:45 UTC，clickondetroit.com报道：“Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories”。",
+          "11月26日 02:45 UTC，capitalgazette.com报道：“Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories”。",
+          "11月26日 02:30 UTC，ksl.com报道：“Trump will head to Arizona for a high - stakes expansion of TSMC computer chip factories”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_3fc11f3d9355edd6597b",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/deadly-truck-fire-is-latest-of-egypts-transport-disasters?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/deadly-truck-fire-is-latest-of-egypts-transport-disasters?traffic_source=rss",
-          "title": "Deadly truck fire is latest of Egypt’s transport disasters",
-          "summary": "Dozens were killed and injured when a truck carrying gas cylinders caught fire near Cairo’s Ring Road.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-25T22:48:47+00:00",
-          "fetched_at": "2026-11-26T05:03:54.913021+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
+          "article_id": "art_1ff076e4d1f86577c007",
+          "url": "https://www.clickondetroit.com/business/2026/11/25/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories/",
+          "canonical_url": "https://www.clickondetroit.com/business/2026/11/25/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "clickondetroit.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T02:45:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.361772+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/Q65ET7AN7VE7LDZU4HGTLTYEYQ.jpg?api_key=clickondetroit_06f87fefb2123598"
         },
         {
-          "article_id": "art_e9d8419d912917c1ec20",
-          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_campaign=rss&at_medium=RSS",
-          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-          "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-25T22:18:06+00:00",
-          "fetched_at": "2026-11-26T05:03:53.980020+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d4b/live/5e57daf0-e91f-11f1-9108-c5b270b0703d.jpg"
+          "article_id": "art_623a0767af7e2701266f",
+          "url": "https://www.capitalgazette.com/2026/11/25/trump-tsmc/",
+          "canonical_url": "https://www.capitalgazette.com/2026/11/25/trump-tsmc",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "capitalgazette.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T02:45:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.362718+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.capitalgazette.com/wp-content/uploads/2026/11/APTOPIX_Trump_7381__27d6b5.jpg"
         },
         {
-          "article_id": "art_116148d45758b3793fb8",
-          "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-top-1022-rdf",
-          "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
-          "summary": "The accident occurred on the packed Ring Road in Giza near Cairo. Dozens of ambulances responded to the crash, and Egyptian health authorities say the death toll could rise.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-25T21:37:00+00:00",
-          "fetched_at": "2026-11-26T05:03:54.593910+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
+          "article_id": "art_cbd8902f41505686ec1e",
+          "url": "https://www.ksl.com:443/article/51648194/trump-will-head-to-arizona-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
+          "canonical_url": "https://www.ksl.com/article/51648194/trump-will-head-to-arizona-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
+          "title": "Trump will head to Arizona for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "ksl.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T02:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.361683+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://img.ksl.com/slc/3209/320967/32096794.jpg?filter=kslv2/responsive_story_lg"
+        },
+        {
+          "article_id": "art_6cac54ca4104f46dcf17",
+          "url": "https://www.wral.com/news/ap/cdc7f-trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories/",
+          "canonical_url": "https://www.wral.com/news/ap/cdc7f-trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "wral.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T01:45:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.361514+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://images.wral.com/759575b9-ecac-594c-9217-36816aeb3904"
+        },
+        {
+          "article_id": "art_f88e04bb4350e357deab",
+          "url": "https://www.citizensvoice.com/2026/11/25/trump-tsmc/",
+          "canonical_url": "https://www.citizensvoice.com/2026/11/25/trump-tsmc",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "citizensvoice.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T01:45:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.362106+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.citizensvoice.com/wp-content/uploads/2026/11/APTOPIX_Trump_7381__27d6b5.jpg"
+        },
+        {
+          "article_id": "art_b4fba4d22f01e92b5298",
+          "url": "https://www.dailypress.com/2026/11/25/trump-tsmc/",
+          "canonical_url": "https://www.dailypress.com/2026/11/25/trump-tsmc",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "dailypress.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T01:15:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.362466+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.dailypress.com/wp-content/uploads/2026/11/APTOPIX_Trump_7381__27d6b5.jpg"
+        },
+        {
+          "article_id": "art_a73fa6a306104c4a16c0",
+          "url": "https://abcnews.com/US/wireStory/trump-heads-arizona-week-high-stakes-expansion-tsmcs-138455173",
+          "canonical_url": "https://abcnews.com/US/wireStory/trump-heads-arizona-week-high-stakes-expansion-tsmcs-138455173",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "abcnews.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T01:15:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.362629+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://i.abcnewsfe.com/a/8e13e360-a0bf-4647-afa1-36a7fd833181/wirestory_cdc7faa84895ddeb19bd114061e9dd85_16x9.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_fb1e6c9ac116342179c9",
-      "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
+      "event_id": "evt_f434a60dcec50dad4422",
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
       "category": "军事安全",
-      "score": 72.2,
+      "score": 73.0,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 21.2,
-        "credibility": 9.8,
+        "coverage": 22.0,
+        "source_diversity": 18.0,
+        "region_diversity": 2.5,
+        "recency": 5.0,
+        "credibility": 7.5,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-26T02:03:03+00:00",
-      "last_updated": "2026-11-26T04:12:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-11-24T21:30:00+00:00",
+      "last_updated": "2026-11-25T03:30:00+00:00",
+      "source_count": 14,
+      "article_count": 14,
       "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
+        "13wham.com",
+        "fox23maine.com",
+        "foxreno.com",
+        "foxsanantonio.com",
+        "kfdm.com",
+        "kfoxtv.com",
+        "ktxs.com",
+        "nbcmontana.com",
+        "news3lv.com",
+        "wach.com",
+        "wcti12.com",
+        "weartv.com",
+        "wgxa.tv",
+        "wsbt.com"
       ],
       "regions": [
-        "Europe",
-        "Middle East"
+        "United States"
       ],
       "keywords": [
+        "western",
+        "intelligence",
+        "warns",
+        "russia",
+        "could",
+        "launch",
         "nuclear",
-        "kim",
-        "jong",
-        "north",
-        "tactical",
-        "country's",
-        "status",
-        "material"
+        "weapon"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Kim Jong Un says North Korea should widen deployment of tactical nukes”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据13wham.com、fox23maine.com、foxreno.com、foxsanantonio.com等来源的14篇报道，当前关注的军事安全事件为“Western intelligence warns Russia could launch nuclear weapon into space soon”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Kim Jong Un",
-          "North Korea"
+          "Western",
+          "Russia"
         ],
         "latest_progress": [
-          "11月26日 04:12 UTC，DW Top Stories报道：“Kim Jong Un tours nuclear material sites, urges wider use of tactical nuclear weapons”。",
-          "11月26日 02:03 UTC，Al Jazeera报道：“Kim Jong Un says North Korea should widen deployment of tactical nukes”。"
+          "11月25日 03:30 UTC，13wham.com报道：“Western intelligence warns Russia could launch nuclear weapon into space soon”。",
+          "11月24日 22:30 UTC，wsbt.com报道：“Western intelligence warns Russia could launch nuclear weapon into space soon”。",
+          "11月24日 22:30 UTC，kfdm.com报道：“Western intelligence warns Russia could launch nuclear weapon into space soon”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -183,6 +247,472 @@
         "analysis_mode": "规则模板"
       },
       "articles": [
+        {
+          "article_id": "art_6463f1a7c18376e49c38",
+          "url": "https://13wham.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://13wham.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "13wham.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-25T03:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.358493+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://13wham.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_96f46c23e733549131ac",
+          "url": "https://wsbt.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://wsbt.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "wsbt.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T22:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.358601+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://wsbt.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_f1df370695e880e8238f",
+          "url": "https://kfdm.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://kfdm.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "kfdm.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T22:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.358703+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://kfdm.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_e73cefdf0b246f188183",
+          "url": "https://news3lv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://news3lv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "news3lv.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T22:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.358903+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://news3lv.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_a375ab6b8938feecfe97",
+          "url": "https://foxreno.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://foxreno.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "foxreno.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T22:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.360312+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://foxreno.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_23a4fb423c2b41aed04d",
+          "url": "https://wach.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://wach.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "wach.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T22:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.360409+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://wach.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_fe2a3fdedca4ad63698c",
+          "url": "https://kfoxtv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://kfoxtv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "kfoxtv.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T22:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.360494+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://kfoxtv.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_4edaa9571cd17fe9613c",
+          "url": "https://fox23maine.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://fox23maine.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "fox23maine.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T22:15:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.360873+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://fox23maine.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_d25a74f0aad4a39af410",
+          "url": "https://weartv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://weartv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "weartv.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T21:45:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.360589+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://weartv.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_9b566724698e6c2aec69",
+          "url": "https://wgxa.tv/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://wgxa.tv/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "wgxa.tv",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T21:45:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.360680+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://wgxa.tv/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_371b6cb23fe9ead885df",
+          "url": "https://wcti12.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://wcti12.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "wcti12.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T21:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.358389+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://wcti12.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_c169aa5cca62fdec7a05",
+          "url": "https://nbcmontana.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://nbcmontana.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "nbcmontana.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T21:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.359195+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://nbcmontana.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_452827dde44794d6bfe7",
+          "url": "https://foxsanantonio.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://foxsanantonio.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "foxsanantonio.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T21:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.360766+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://foxsanantonio.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        },
+        {
+          "article_id": "art_62dee4425f53e0b1f4e8",
+          "url": "https://ktxs.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "canonical_url": "https://ktxs.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+          "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+          "summary": "",
+          "source": "ktxs.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-24T21:30:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.360984+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://ktxs.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_2e8f27ee16cc372ab85d",
+      "title": "Ukraine drone attack kills five in Russian-occupied Zaporizhia",
+      "category": "军事安全",
+      "score": 72.9,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.9,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-26T10:02:09+00:00",
+      "last_updated": "2026-11-26T15:11:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "attack",
+        "drone",
+        "kills",
+        "italians",
+        "one",
+        "ukraine",
+        "five",
+        "russian-occupied"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Ukraine drone attack kills five in Russian-occupied Zaporizhia”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Iranian",
+          "Italians",
+          "Kuwait Ukraine",
+          "Russian",
+          "Zaporizhia"
+        ],
+        "latest_progress": [
+          "11月26日 15:11 UTC，DW Top Stories报道：“Iranian drone attack kills 2 Italians in Kuwait”。",
+          "11月26日 10:02 UTC，Al Jazeera报道：“Ukraine drone attack kills five in Russian-occupied Zaporizhia”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_a807235b8b1f86132d77",
+          "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-top-1022-rdf",
+          "title": "Iranian drone attack kills 2 Italians in Kuwait",
+          "summary": "The Italians were employed as technicians for the Italian branch of German arms manufacturer Rheinmetall. One Kuwaiti and one Pakistani national were also injured in the attack.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-26T15:11:00+00:00",
+          "fetched_at": "2026-11-26T15:15:09.067864+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_441067c9154d6faf9952",
+          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-drone-attack-kills-five-in-russian-occupied-zaporizhia?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/ukraine-drone-attack-kills-five-in-russian-occupied-zaporizhia?traffic_source=rss",
+          "title": "Ukraine drone attack kills five in Russian-occupied Zaporizhia",
+          "summary": "Russian forces launch ballistic missile attack on Ukrainian capital Kyiv, hitting a shopping centre and other buildings.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-26T10:02:09+00:00",
+          "fetched_at": "2026-11-26T15:15:09.418945+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_1fa21a243bad95f63d78",
+      "title": "FIFA says personal and business information stolen in cyberattack",
+      "category": "国际政治",
+      "score": 70.5,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-26T12:31:46+00:00",
+      "last_updated": "2026-11-26T14:45:00+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "fifa",
+        "personal",
+        "business",
+        "cyberattack",
+        "information",
+        "targeted",
+        "stolen",
+        "files"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“FIFA says personal and business information stolen in cyberattack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "FIFA"
+        ],
+        "latest_progress": [
+          "11月26日 14:45 UTC，DW Top Stories报道：“FIFA says a cyberattack against it targeted a 'limited set of personal and business information'”。",
+          "11月26日 12:31 UTC，Al Jazeera报道：“FIFA says personal and business information stolen in cyberattack”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_575074c955b4201c08e6",
+          "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-top-1022-rdf",
+          "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+          "summary": "World football's governing body says the cyberattack targeted personal and business information. They struck at a sensitive time for the under-fire organization and its president, Gianni Infantino.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-26T14:45:00+00:00",
+          "fetched_at": "2026-11-26T15:15:09.068318+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        },
+        {
+          "article_id": "art_56c399bf1bcea3fc90cd",
+          "url": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack?traffic_source=rss",
+          "title": "FIFA says personal and business information stolen in cyberattack",
+          "summary": "No files from the abandoned FIFA Forward Enterprise project were accessed, according to media reports.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-26T12:31:46+00:00",
+          "fetched_at": "2026-11-26T15:15:09.417060+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_d4c419d47419097638af",
+      "title": "Kim Jong Un tours nuclear material sites, urges wider use of tactical nuclear weapons",
+      "category": "军事安全",
+      "score": 69.4,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 20.5,
+        "credibility": 9.5,
+        "impact": 13.0,
+        "velocity": 3.2
+      },
+      "first_seen": "2026-11-26T04:12:00+00:00",
+      "last_updated": "2026-11-26T13:31:28+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "DW Top Stories",
+        "NPR World"
+      ],
+      "regions": [
+        "Europe",
+        "North America"
+      ],
+      "keywords": [
+        "nuclear",
+        "kim",
+        "weapons",
+        "jong",
+        "material",
+        "sites",
+        "tactical",
+        "north"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories、NPR World等来源的2篇报道，当前关注的军事安全事件为“Kim Jong Un tours nuclear material sites, urges wider use of tactical nuclear weapons”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "North Korea",
+          "Kim",
+          "Trump",
+          "Kim Jong Un"
+        ],
+        "latest_progress": [
+          "11月26日 13:31 UTC，NPR World报道：“North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture”。",
+          "11月26日 04:12 UTC，DW Top Stories报道：“Kim Jong Un tours nuclear material sites, urges wider use of tactical nuclear weapons”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_53235b40ca7b0044de8b",
+          "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+          "canonical_url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "summary": "Leader Kim Jong Un reportedly visited facilities that produce nuclear ingredients and called for building more nuclear weapons to cope with threats from the U.S. and South Korea.",
+          "source": "NPR World",
+          "source_type": "rss",
+          "published_at": "2026-11-26T13:31:28+00:00",
+          "fetched_at": "2026-11-26T15:15:09.292729+00:00",
+          "language": "en",
+          "region": "North America",
+          "source_weight": 0.95,
+          "image_url": null
+        },
         {
           "article_id": "art_8b51e9126a9f5749895b",
           "url": "https://www.dw.com/en/kim-jong-un-tours-nuclear-material-sites-urges-wider-use-of-tactical-nuclear-weapons/a-80055887?maca=en-rss-en-top-1022-rdf",
@@ -192,164 +722,212 @@
           "source": "DW Top Stories",
           "source_type": "rss",
           "published_at": "2026-11-26T04:12:00+00:00",
-          "fetched_at": "2026-11-26T05:03:54.593585+00:00",
+          "fetched_at": "2026-11-26T15:15:09.070220+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_268d27d19b07351ff0d2",
-          "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
-          "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
-          "summary": "North Korean leader warns attempts to deny country's nuclear status will be seen as \"an open declaration of war\".",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-26T02:03:03+00:00",
-          "fetched_at": "2026-11-26T05:03:54.911442+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_b58ee7e98535162828f8",
-      "title": "Macy's postpones Thanksgiving parade due to severe weather",
-      "category": "社会突发",
-      "score": 68.3,
+      "event_id": "evt_a76316b7ad00fb14e09f",
+      "title": "八大重点任务之二 ： 坚持创新驱动 ， 加紧培育壮大新动能 新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）",
+      "category": "经济金融",
+      "score": 66.0,
       "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
+        "coverage": 19.5,
+        "source_diversity": 14.4,
         "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 9.8,
+        "recency": 5.4,
+        "credibility": 7.5,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-26T02:47:00+00:00",
-      "last_updated": "2026-11-26T04:04:14+00:00",
-      "source_count": 2,
-      "article_count": 2,
+      "first_seen": "2026-11-25T01:15:00+00:00",
+      "last_updated": "2026-11-25T05:45:00+00:00",
+      "source_count": 4,
+      "article_count": 6,
       "sources": [
-        "BBC World",
-        "DW Top Stories"
+        "163.com",
+        "finance.people.com.cn",
+        "news.china.com.cn",
+        "news.dayoo.com"
       ],
       "regions": [
-        "Europe"
+        "China"
       ],
       "keywords": [
-        "thanksgiving",
-        "weather",
-        "macy's",
-        "parade",
-        "first",
-        "time",
-        "extreme",
-        "threatens"
+        "一步",
+        "经济",
+        "新动",
+        "动能",
+        "八大",
+        "大重",
+        "重点",
+        "点任"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Macy's postpones Thanksgiving parade due to severe weather”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据163.com、finance.people.com.cn、news.china.com.cn、news.dayoo.com等来源的6篇报道，当前关注的经济金融事件为“八大重点任务之二 ： 坚持创新驱动 ， 加紧培育壮大新动能 新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "Macy",
-          "Thanksgiving",
-          "Extreme",
-          "US"
+          "163.com",
+          "finance.people.com.cn",
+          "news.china.com.cn",
+          "news.dayoo.com"
         ],
         "latest_progress": [
-          "11月26日 04:04 UTC，BBC World报道：“Macy's postpones Thanksgiving parade due to severe weather”。",
-          "11月26日 02:47 UTC，DW Top Stories报道：“Extreme weather threatens Thanksgiving festivities in US”。"
+          "11月25日 05:45 UTC，news.dayoo.com报道：“新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）_ 广州日报大洋网”。",
+          "11月25日 03:30 UTC，163.com报道：“八大重点任务之二 ： 坚持创新驱动 ， 加紧培育壮大新动能 新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）”。",
+          "11月25日 03:30 UTC，news.china.com.cn报道：“新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
+        "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "央行与财政部门表态",
+          "通胀和就业数据",
+          "利率、汇率与资金流向"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_5833e94dd32211086156",
-          "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_campaign=rss&at_medium=RSS",
-          "title": "Macy's postpones Thanksgiving parade due to severe weather",
-          "summary": "The was the first time ever that the iconic celebration was delayed because of storms. New York expects damaging winds and heavy rainfall over the Thanksgiving holiday.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-26T04:04:14+00:00",
-          "fetched_at": "2026-11-26T05:03:53.980975+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d43/live/3a3ebde0-e94d-11f1-bfb6-fd0f1685abfb.jpg"
+          "article_id": "art_a72554cad0d8f74e46b7",
+          "url": "https://news.dayoo.com/china/202611/25/139997_55027278.htm",
+          "canonical_url": "https://news.dayoo.com/china/202611/25/139997_55027278.htm",
+          "title": "新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）_ 广州日报大洋网",
+          "summary": "",
+          "source": "news.dayoo.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-25T05:45:00+00:00",
+          "fetched_at": "2026-11-26T15:14:03.381421+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
         },
         {
-          "article_id": "art_e9699ba19a8dd80fbe35",
-          "url": "https://www.dw.com/en/extreme-weather-threatens-thanksgiving-festivities-in-us/a-80055880?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/extreme-weather-threatens-thanksgiving-festivities-in-us/a-80055880?maca=en-rss-en-top-1022-rdf",
-          "title": "Extreme weather threatens Thanksgiving festivities in US",
-          "summary": "A major storm is forecast to move up the US East Coast and is likely to cause travel delays. Weather warnings were enough to postpone Macy's Thanksgiving Day Parade for the first time in its 100 years.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-26T02:47:00+00:00",
-          "fetched_at": "2026-11-26T05:03:54.593700+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
+          "article_id": "art_733213ad381f144b2b2f",
+          "url": "https://www.163.com/news/article/LCIU2832000189FH.html",
+          "canonical_url": "https://www.163.com/news/article/LCIU2832000189FH.html",
+          "title": "八大重点任务之二 ： 坚持创新驱动 ， 加紧培育壮大新动能 新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）",
+          "summary": "",
+          "source": "163.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-25T03:30:00+00:00",
+          "fetched_at": "2026-11-26T15:14:03.380415+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_931edb880fdc99e7b95c",
+          "url": "http://news.china.com.cn/2026-11/25/content_118788655.shtml",
+          "canonical_url": "https://news.china.com.cn/2026-11/25/content_118788655.shtml",
+          "title": "新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）",
+          "summary": "",
+          "source": "news.china.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-25T03:30:00+00:00",
+          "fetched_at": "2026-11-26T15:14:03.381324+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_fd34417abf610ddbfee5",
+          "url": "http://finance.people.com.cn/n1/2026/1125/c1004-40839892.html",
+          "canonical_url": "https://finance.people.com.cn/n1/2026/1125/c1004-40839892.html",
+          "title": "在形势变化中增强大就业观 （ 每周经济评论 ） -- 经济 · 科技 -- 人民网",
+          "summary": "",
+          "source": "finance.people.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-25T01:45:00+00:00",
+          "fetched_at": "2026-11-26T15:14:03.378955+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_6f624cc43974ab07c728",
+          "url": "http://finance.people.com.cn/n1/2026/1125/c1004-40839903.html",
+          "canonical_url": "https://finance.people.com.cn/n1/2026/1125/c1004-40839903.html",
+          "title": "AI加持 ， 新材料向高端价值链攀升 -- 经济 · 科技 -- 人民网",
+          "summary": "",
+          "source": "finance.people.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-25T01:45:00+00:00",
+          "fetched_at": "2026-11-26T15:15:08.362547+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
+          "image_url": null
+        },
+        {
+          "article_id": "art_57e3a599365782f3747e",
+          "url": "http://finance.people.com.cn/n1/2026/1125/c1004-40839844.html",
+          "canonical_url": "https://finance.people.com.cn/n1/2026/1125/c1004-40839844.html",
+          "title": "新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ） -- 经济 · 科技 -- 人民网",
+          "summary": "",
+          "source": "finance.people.com.cn",
+          "source_type": "gdelt",
+          "published_at": "2026-11-25T01:15:00+00:00",
+          "fetched_at": "2026-11-26T15:14:03.380669+00:00",
+          "language": "Chinese",
+          "region": "China",
+          "source_weight": 0.75,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_70afa676cb173b060482",
-      "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+      "event_id": "evt_ebbd6677c216591aaff7",
+      "title": "How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region",
       "category": "国际政治",
-      "score": 68.2,
+      "score": 64.2,
       "score_breakdown": {
         "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.5,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
         "credibility": 10.0,
         "impact": 11.0,
-        "velocity": 3.4
+        "velocity": 5.0
       },
-      "first_seen": "2026-11-25T18:41:33+00:00",
-      "last_updated": "2026-11-26T03:23:24+00:00",
-      "source_count": 2,
+      "first_seen": "2026-11-26T11:23:29+00:00",
+      "last_updated": "2026-11-26T14:10:00+00:00",
+      "source_count": 1,
       "article_count": 2,
       "sources": [
-        "Al Jazeera",
-        "BBC World"
+        "Al Jazeera"
       ],
       "regions": [
-        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "supermarket",
-        "president",
-        "colombian",
-        "held",
-        "hostage",
-        "police",
-        "storm",
-        "free"
+        "region",
+        "iraq",
+        "reports",
+        "towards",
+        "kurdish",
+        "denies",
+        "troop",
+        "movements"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的国际政治事件为“Colombian police storm supermarket to free 76 held hostage for 17 hours”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的国际政治事件为“How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
         "participants": [
-          "Colombian"
+          "Baghdad",
+          "Iraq",
+          "Kurdish"
         ],
         "latest_progress": [
-          "11月26日 03:23 UTC，Al Jazeera报道：“Colombian president taunts arrested supermarket hostage-takers”。",
-          "11月25日 18:41 UTC，BBC World报道：“Colombian police storm supermarket to free 76 held hostage for 17 hours”。"
+          "11月26日 14:10 UTC，Al Jazeera报道：“How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region”。",
+          "11月26日 11:23 UTC，Al Jazeera报道：“Iraq denies reports of troop movements towards Kurdish region”。"
         ],
         "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
         "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
@@ -362,143 +940,53 @@
       },
       "articles": [
         {
-          "article_id": "art_93da937b383504549c97",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers?traffic_source=rss",
-          "title": "Colombian president taunts arrested supermarket hostage-takers",
-          "summary": "Colombia’s president has confronted the men who held 76 people hostage at a Cartagena supermarket.",
+          "article_id": "art_6dce6fdc5f426bb9d4a2",
+          "url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss",
+          "title": "How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region",
+          "summary": "Prime Minister al-Zaidi's move to take control of border crossings and oilfields has drawn a sharp response from Erbil.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-26T03:23:24+00:00",
-          "fetched_at": "2026-11-26T05:03:54.911028+00:00",
+          "published_at": "2026-11-26T14:10:00+00:00",
+          "fetched_at": "2026-11-26T15:15:09.415810+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_2c10770a5828bb5cf702",
-          "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_campaign=rss&at_medium=RSS",
-          "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
-          "summary": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-25T18:41:33+00:00",
-          "fetched_at": "2026-11-26T05:03:53.981867+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/997a/live/4f4b3940-e8c4-11f1-ac76-db9e97f93d67.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_0001b1e9231a755b48bf",
-      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-      "category": "军事安全",
-      "score": 68.0,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 19.1,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 2.8
-      },
-      "first_seen": "2026-11-25T14:46:41+00:00",
-      "last_updated": "2026-11-26T01:39:46+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "BBC World"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "ukraine",
-        "five",
-        "russian",
-        "military",
-        "airfield",
-        "struck",
-        "jets",
-        "hit"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的军事安全事件为“Five Russian military jets hit in airfield strike, says Ukraine”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Ukraine",
-          "Russian",
-          "Five Russian"
-        ],
-        "latest_progress": [
-          "11月26日 01:39 UTC，Al Jazeera报道：“Ukraine attacks Russian military base, says five planes struck”。",
-          "11月25日 14:46 UTC，BBC World报道：“Five Russian military jets hit in airfield strike, says Ukraine”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5506dc40140bfabe8e4d",
-          "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
-          "title": "Ukraine attacks Russian military base, says five planes struck",
-          "summary": "The Ukrainian General Staff says its forces struck an airbase in the Nizhny Novgorod region east of Moscow.",
+          "article_id": "art_b79fc3f17432370b043d",
+          "url": "https://www.aljazeera.com/news/2026/11/26/iraq-denies-reports-of-troop-movements-towards-kurdish-region?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/iraq-denies-reports-of-troop-movements-towards-kurdish-region?traffic_source=rss",
+          "title": "Iraq denies reports of troop movements towards Kurdish region",
+          "summary": "Government says there is 'no truth' to media reports that Iraqi army units were moving towards the Kurdistan region.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-26T01:39:46+00:00",
-          "fetched_at": "2026-11-26T05:03:54.911717+00:00",
+          "published_at": "2026-11-26T11:23:29+00:00",
+          "fetched_at": "2026-11-26T15:15:09.417864+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
-        },
-        {
-          "article_id": "art_28366c256bc34d4f1ef4",
-          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_campaign=rss&at_medium=RSS",
-          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-          "summary": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-25T14:46:41+00:00",
-          "fetched_at": "2026-11-26T05:03:53.981649+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/263d/live/670b2250-e8df-11f1-a3b9-79c60ec9ab33.jpg"
         }
       ]
     },
     {
-      "event_id": "evt_7e306751a257ddf81601",
-      "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-      "category": "军事安全",
-      "score": 65.0,
+      "event_id": "evt_301f84acb33cc5a6a060",
+      "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+      "category": "社会突发",
+      "score": 64.0,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 7.2,
         "region_diversity": 2.5,
-        "recency": 18.1,
+        "recency": 19.7,
         "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 3.4
+        "impact": 11.7,
+        "velocity": 2.2
       },
-      "first_seen": "2026-11-25T15:38:00+00:00",
-      "last_updated": "2026-11-26T00:23:05+00:00",
+      "first_seen": "2026-11-25T22:53:00+00:00",
+      "last_updated": "2026-11-26T12:33:23+00:00",
       "source_count": 2,
       "article_count": 2,
       "sources": [
@@ -509,62 +997,62 @@
         "Europe"
       ],
       "keywords": [
-        "army",
-        "blast",
-        "explosives",
-        "iowa",
-        "controlled",
-        "far",
-        "detonates",
-        "unstable"
+        "duran",
+        "taylor",
+        "andy",
+        "guitarist",
+        "dies",
+        "first",
+        "revealed",
+        "battling"
       ],
       "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“US Army says controlled blast of explosives in Iowa was 'huge success'”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的社会突发事件为“Tributes for Duran Duran guitarist Andy Taylor after his death aged 65”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "US",
-          "Army",
-          "Iowa"
+          "Tributes",
+          "Duran Duran",
+          "Andy Taylor"
         ],
         "latest_progress": [
-          "11月26日 00:23 UTC，BBC World报道：“US Army says controlled blast of explosives in Iowa was 'huge success'”。",
-          "11月25日 15:38 UTC，DW Top Stories报道：“US Army detonates unstable lead-based explosives in Iowa”。"
+          "11月26日 12:33 UTC，BBC World报道：“Tributes for Duran Duran guitarist Andy Taylor after his death aged 65”。",
+          "11月25日 22:53 UTC，DW Top Stories报道：“Duran Duran guitarist Andy Taylor dies at 65”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_0b063b2e3d51819d00c0",
-          "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_campaign=rss&at_medium=RSS",
-          "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-          "summary": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
+          "article_id": "art_8a87d3626363e8d4ebd6",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_campaign=rss&at_medium=RSS",
+          "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+          "summary": "Simon Le Bon and his other bandmates say Taylor \"brought an indelible fire and swagger to our music\".",
           "source": "BBC World",
           "source_type": "rss",
-          "published_at": "2026-11-26T00:23:05+00:00",
-          "fetched_at": "2026-11-26T05:03:53.980511+00:00",
+          "published_at": "2026-11-26T12:33:23+00:00",
+          "fetched_at": "2026-11-26T15:15:08.435143+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg"
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c5d/live/e49fa530-e996-11f1-b880-15b494ba858d.jpg"
         },
         {
-          "article_id": "art_83fbbbd8cce9ecb60d3d",
-          "url": "https://www.dw.com/en/us-army-detonates-unstable-lead-based-explosives-in-iowa/a-80043319?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-army-detonates-unstable-lead-based-explosives-in-iowa/a-80043319?maca=en-rss-en-top-1022-rdf",
-          "title": "US Army detonates unstable lead-based explosives in Iowa",
-          "summary": "The US Army says a controlled blast is the safest way to deal with explosive chemicals that began crystallizing in storage. US President Donald Trump said \"mitigation efforts have far exceeded expectations.\"",
+          "article_id": "art_ad118879f6c96895c41d",
+          "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654?maca=en-rss-en-top-1022-rdf",
+          "title": "Duran Duran guitarist Andy Taylor dies at 65",
+          "summary": "Andy Taylor first revealed he was battling cancer in 2022 when Duran Duran was inducted into the Rock & Roll Hall of Fame. The band had numerous hits in the 1980s, including \"Girls on Film\" and \"Hungry Like The Wolf.\"",
           "source": "DW Top Stories",
           "source_type": "rss",
-          "published_at": "2026-11-25T15:38:00+00:00",
-          "fetched_at": "2026-11-26T05:03:54.594417+00:00",
+          "published_at": "2026-11-25T22:53:00+00:00",
+          "fetched_at": "2026-11-26T15:15:09.070494+00:00",
           "language": "en",
           "region": "Europe",
           "source_weight": 0.95,
@@ -573,110 +1061,21 @@
       ]
     },
     {
-      "event_id": "evt_4cf0ebaafdf4c5fc0efd",
-      "title": "US announces new tariffs on host of countries including China",
-      "category": "产业供应链",
-      "score": 64.3,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 21.2,
-        "credibility": 9.8,
-        "impact": 10.4,
-        "velocity": 2.3
-      },
-      "first_seen": "2026-11-25T14:54:00+00:00",
-      "last_updated": "2026-11-26T04:10:58+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "china",
-        "tariffs",
-        "including",
-        "plans",
-        "others",
-        "trump",
-        "administration",
-        "planning"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的产业供应链事件为“US announces new tariffs on host of countries including China”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "生产、物流或贸易规则变化可能造成跨行业交付与成本冲击。",
-        "participants": [
-          "US",
-          "China",
-          "EU"
-        ],
-        "latest_progress": [
-          "11月26日 04:10 UTC，BBC World报道：“US announces new tariffs on host of countries including China”。",
-          "11月25日 14:54 UTC，DW Top Stories报道：“US plans new tariffs on EU, China and 12 others”。"
-        ],
-        "china_impact": "关注出口订单、关键零部件供给、航运成本及产业链迁移。",
-        "market_impact": "制造、航运、港口和受影响行业公司的盈利预期可能变化。",
-        "watch_indicators": [
-          "港口和工厂运行率",
-          "交货周期与运价",
-          "企业订单及库存"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_5ba5a5acaa7dc18bf772",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_campaign=rss&at_medium=RSS",
-          "title": "US announces new tariffs on host of countries including China",
-          "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-26T04:10:58+00:00",
-          "fetched_at": "2026-11-26T05:03:53.979690+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg"
-        },
-        {
-          "article_id": "art_6ceb2e2f0ca2b3f79643",
-          "url": "https://www.dw.com/en/us-plans-new-tariffs-on-eu-china-and-12-others/a-80050872?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/us-plans-new-tariffs-on-eu-china-and-12-others/a-80050872?maca=en-rss-en-top-1022-rdf",
-          "title": "US plans new tariffs on EU, China and 12 others",
-          "summary": "The Trump administration is planning new import duties of up to 20% to counter excessive manufacturing abroad. The measures could put further pressure on US consumers already struggling with high living costs.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-25T14:54:00+00:00",
-          "fetched_at": "2026-11-26T05:03:54.594775+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5076950ee82e132e4348",
-      "title": "Two Syrian security personnel killed in ISIL suicide attack",
-      "category": "军事安全",
-      "score": 63.6,
+      "event_id": "evt_553b6144c878fba28002",
+      "title": "Highway explosion in Giza: How deadly are Egypt’s roads and railways?",
+      "category": "社会突发",
+      "score": 63.5,
       "score_breakdown": {
         "coverage": 11.0,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 18.5,
+        "recency": 19.7,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-26T00:41:49+00:00",
-      "last_updated": "2026-11-26T00:51:17+00:00",
+      "first_seen": "2026-11-26T11:22:59+00:00",
+      "last_updated": "2026-11-26T12:34:10+00:00",
       "source_count": 1,
       "article_count": 2,
       "sources": [
@@ -686,61 +1085,63 @@
         "Middle East"
       ],
       "keywords": [
-        "isil",
-        "suicide",
-        "attack",
-        "two",
-        "syrian",
-        "security",
-        "killed",
-        "northeastern"
+        "deadly",
+        "egypt",
+        "explosion",
+        "eyewitnesses",
+        "describe",
+        "scenes",
+        "vehicle",
+        "fire"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的军事安全事件为“Two Syrian security personnel killed in ISIL suicide attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera等来源的2篇报道，当前关注的社会突发事件为“Highway explosion in Giza: How deadly are Egypt’s roads and railways?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "ISIL",
-          "Syria Two Syrian"
+          "Eyewitnesses",
+          "Egypt",
+          "Highway",
+          "Giza"
         ],
         "latest_progress": [
-          "11月26日 00:51 UTC，Al Jazeera报道：“ISIL blamed for multiple suicide attacks in Syria”。",
-          "11月26日 00:41 UTC，Al Jazeera报道：“Two Syrian security personnel killed in ISIL suicide attack”。"
+          "11月26日 12:34 UTC，Al Jazeera报道：“Eyewitnesses describe scenes of Egypt’s deadly vehicle fire”。",
+          "11月26日 11:22 UTC，Al Jazeera报道：“Highway explosion in Giza: How deadly are Egypt’s roads and railways?”。"
         ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
         "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_cc06800fe1c0211aae5c",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/isil-blamed-for-multiple-suicide-attacks-in-syria?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/isil-blamed-for-multiple-suicide-attacks-in-syria?traffic_source=rss",
-          "title": "ISIL blamed for multiple suicide attacks in Syria",
-          "summary": "ISIL suicide attack kills two in an assault on a security post in northeastern Syria.",
+          "article_id": "art_0fa5c13b1f24a3ce0abd",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/eyewitnesses-describe-scenes-of-egypts-deadly-vehicle-fire?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/eyewitnesses-describe-scenes-of-egypts-deadly-vehicle-fire?traffic_source=rss",
+          "title": "Eyewitnesses describe scenes of Egypt’s deadly vehicle fire",
+          "summary": "Eyewitnesses describe scenes of Egypt’s deadly vehicle fire",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-26T00:51:17+00:00",
-          "fetched_at": "2026-11-26T05:03:54.912191+00:00",
+          "published_at": "2026-11-26T12:34:10+00:00",
+          "fetched_at": "2026-11-26T15:15:09.416916+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_450363a6a5c01567424e",
-          "url": "https://www.aljazeera.com/news/2026/11/26/two-syrian-security-personnel-killed-in-isil-suicide-attack?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/two-syrian-security-personnel-killed-in-isil-suicide-attack?traffic_source=rss",
-          "title": "Two Syrian security personnel killed in ISIL suicide attack",
-          "summary": "Syrian forces say the attack in northeastern Syria's city of Hasakah involved four assailants who were all killed.",
+          "article_id": "art_5d385dccc9089bfd8d3e",
+          "url": "https://www.aljazeera.com/news/2026/11/26/highway-explosion-in-giza-how-deadly-are-egypts-roads-and-railways?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/highway-explosion-in-giza-how-deadly-are-egypts-roads-and-railways?traffic_source=rss",
+          "title": "Highway explosion in Giza: How deadly are Egypt’s roads and railways?",
+          "summary": "Egypt has suffered another tragedy as a deadly road explosion kills 31 and injures dozens.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-26T00:41:49+00:00",
-          "fetched_at": "2026-11-26T05:03:54.912307+00:00",
+          "published_at": "2026-11-26T11:22:59+00:00",
+          "fetched_at": "2026-11-26T15:15:09.418046+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -749,21 +1150,21 @@
       ]
     },
     {
-      "event_id": "evt_6ac77aa14b0ae6499079",
-      "title": "Racecourse office blown away in Brazil",
-      "category": "社会突发",
-      "score": 61.0,
+      "event_id": "evt_1a7efa09f34b27ac3b90",
+      "title": "Can Trump continue with Iran war despite funding restrictions?",
+      "category": "军事安全",
+      "score": 62.2,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 21.3,
+        "recency": 21.1,
         "credibility": 10.0,
-        "impact": 11.7,
+        "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-26T04:17:31+00:00",
-      "last_updated": "2026-11-26T04:17:31+00:00",
+      "first_seen": "2026-11-26T14:17:21+00:00",
+      "last_updated": "2026-11-26T14:17:21+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -773,137 +1174,48 @@
         "Middle East"
       ],
       "keywords": [
-        "office",
-        "brazil",
-        "racecourse",
-        "blown",
-        "away",
-        "powerful",
-        "storm",
-        "shattered"
+        "trump",
+        "war",
+        "could",
+        "can",
+        "continue",
+        "iran",
+        "despite",
+        "funding"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的社会突发事件为“Racecourse office blown away in Brazil”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Can Trump continue with Iran war despite funding restrictions?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Racecourse",
-          "Brazil"
+          "Can Trump",
+          "Iran"
         ],
         "latest_progress": [
-          "11月26日 04:17 UTC，Al Jazeera报道：“Racecourse office blown away in Brazil”。"
+          "11月26日 14:17 UTC，Al Jazeera报道：“Can Trump continue with Iran war despite funding restrictions?”。"
         ],
-        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
-        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
         "watch_indicators": [
-          "伤亡和受影响范围",
-          "救援与基础设施恢复",
-          "次生灾害或跨境扩散"
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
         ],
         "analysis_mode": "规则模板"
       },
       "articles": [
         {
-          "article_id": "art_f4779cae54981727321d",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/racecourse-office-blown-away-in-brazil?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/racecourse-office-blown-away-in-brazil?traffic_source=rss",
-          "title": "Racecourse office blown away in Brazil",
-          "summary": "A powerful storm shattered windows and sent debris flying inside a racetrack office in Brazil.",
+          "article_id": "art_99ee7309bc62adc21cf9",
+          "url": "https://www.aljazeera.com/news/2026/11/26/can-trump-continue-with-iran-war-despite-funding-restrictions?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/can-trump-continue-with-iran-war-despite-funding-restrictions?traffic_source=rss",
+          "title": "Can Trump continue with Iran war despite funding restrictions?",
+          "summary": "A Congress budget bill could serve as a pressure tactic on Trump to end the war but could also trigger a shutdown.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-26T04:17:31+00:00",
-          "fetched_at": "2026-11-26T05:03:54.910858+00:00",
+          "published_at": "2026-11-26T14:17:21+00:00",
+          "fetched_at": "2026-11-26T15:15:09.415643+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_64c157248f0a6a1ac271",
-      "title": "North Korea expels Swiss diplomat in sanctions row",
-      "category": "国际政治",
-      "score": 60.6,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 2.5,
-        "recency": 16.3,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 2.8
-      },
-      "first_seen": "2026-11-25T11:12:00+00:00",
-      "last_updated": "2026-11-25T21:51:17+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "north",
-        "swiss",
-        "korea",
-        "sanctions",
-        "expels",
-        "camp",
-        "accused",
-        "indoctrinating"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“North Korea expels Swiss diplomat in sanctions row”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "North Korea",
-          "Swiss",
-          "Ukrainian"
-        ],
-        "latest_progress": [
-          "11月25日 21:51 UTC，BBC World报道：“North Korea expels Swiss diplomat in sanctions row”。",
-          "11月25日 11:12 UTC，DW Top Stories报道：“North Korea expels Swiss envoy over sanctions on camp accused of indoctrinating Ukrainian children”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_bbcd262e8bbb74356ba2",
-          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_campaign=rss&at_medium=RSS",
-          "title": "North Korea expels Swiss diplomat in sanctions row",
-          "summary": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-25T21:51:17+00:00",
-          "fetched_at": "2026-11-26T05:03:53.981204+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b4ee/live/fcd47260-e8fc-11f1-99b6-a35a62fa4264.jpg"
-        },
-        {
-          "article_id": "art_1c3cb52fb51949c16310",
-          "url": "https://www.dw.com/en/north-korea-expels-swiss-envoy-over-sanctions-on-camp-accused-of-indoctrinating-ukrainian-children/a-80043648?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/north-korea-expels-swiss-envoy-over-sanctions-on-camp-accused-of-indoctrinating-ukrainian-children/a-80043648?maca=en-rss-en-top-1022-rdf",
-          "title": "North Korea expels Swiss envoy over sanctions on camp accused of indoctrinating Ukrainian children",
-          "summary": "North Korea has ordered Switzerland to close its newly reopened diplomatic office. The dispute centers on Swiss sanctions against a camp accused of indoctrinating Ukrainian children from Russian-occupied territories.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-25T11:12:00+00:00",
-          "fetched_at": "2026-11-26T05:03:54.595458+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
