@@ -1,451 +1,79 @@
 {
-  "generated_at": "2026-11-26T23:52:55.905411+00:00",
+  "generated_at": "2026-11-27T08:30:34.171666+00:00",
   "event_count": 10,
   "run": {
     "status": "partial",
-    "articles_fetched": 135,
-    "articles_unique": 134,
+    "articles_fetched": 138,
+    "articles_unique": 137,
     "errors": [
       {
-        "source": "GDELT: (geopolitics OR security OR supply chain OR a",
-        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28geopolitics+OR+security+OR+supply+chain+OR+artificial+intelligence%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=2026"
+        "source": "GDELT: (conflict OR election OR economy OR technolog",
+        "error": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28conflict+OR+election+OR+economy+OR+technology+OR+energy+OR+disaster%29&mode=ArtList&maxrecords=50&format=json&sort=HybridRel&startdatetime=202"
       }
     ]
   },
   "events": [
     {
-      "event_id": "evt_7d7b6dcb3e8f926b0542",
-      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-      "category": "军事安全",
-      "score": 77.3,
-      "score_breakdown": {
-        "coverage": 13.9,
-        "source_diversity": 10.8,
-        "region_diversity": 5.0,
-        "recency": 19.8,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-26T15:11:00+00:00",
-      "last_updated": "2026-11-26T21:17:53+00:00",
-      "source_count": 3,
-      "article_count": 3,
-      "sources": [
-        "Al Jazeera",
-        "BBC World",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "kuwait",
-        "italians",
-        "iran",
-        "drone",
-        "italian",
-        "technicians",
-        "german",
-        "rheinmetall"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、BBC World、DW Top Stories等来源的3篇报道，当前关注的军事安全事件为“Two Italians killed in strike in Kuwait, as Iran denies responsibility”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Two Italians",
-          "Kuwait",
-          "Iran",
-          "Kuwait Iranian",
-          "Italian",
-          "Meloni"
-        ],
-        "latest_progress": [
-          "11月26日 21:17 UTC，BBC World报道：“Two Italians killed in strike in Kuwait, as Iran denies responsibility”。",
-          "11月26日 16:32 UTC，Al Jazeera报道：“Two Italians killed by ‘drone strike debris’ in Kuwait”。",
-          "11月26日 15:11 UTC，DW Top Stories报道：“Iranian drone kills 2 Italian workers in Kuwait, Meloni says”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_e277b380b4b606095f26",
-          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_campaign=rss&at_medium=RSS",
-          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-          "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-26T21:17:53+00:00",
-          "fetched_at": "2026-11-26T23:52:53.523240+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cbd/live/babaff60-e9ac-11f1-a094-5fdc692f3e33.png"
-        },
-        {
-          "article_id": "art_ddd8685aeb8fab77cdfc",
-          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-          "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-          "summary": "Iran has strongly denied any involvement in the fatal incident.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-26T16:32:31+00:00",
-          "fetched_at": "2026-11-26T23:52:54.107938+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        },
-        {
-          "article_id": "art_6a2820898cd882ff8e95",
-          "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-top-1022-rdf",
-          "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
-          "summary": "The Italians were employed as technicians for the Italian branch of German arms manufacturer Rheinmetall. One Kuwaiti and one Pakistani national were also injured in the attack. Iran has denied involvement.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-26T15:11:00+00:00",
-          "fetched_at": "2026-11-26T23:52:53.703862+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_be1670a19aaabeaa0931",
-      "title": "Guinea-Bissau military leaders delay presidential election until 2028",
-      "category": "军事安全",
-      "score": 69.8,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 18.8,
-        "credibility": 9.8,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-26T18:07:18+00:00",
-      "last_updated": "2026-11-26T20:09:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "presidential",
-        "military",
-        "guinea-bissau",
-        "leaders",
-        "now",
-        "november",
-        "junta",
-        "delay"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Guinea-Bissau military leaders delay presidential election until 2028”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Guinea",
-          "Bissau"
-        ],
-        "latest_progress": [
-          "11月26日 20:09 UTC，DW Top Stories报道：“Guinea-Bissau junta delays presidential vote for 2 years”。",
-          "11月26日 18:07 UTC，Al Jazeera报道：“Guinea-Bissau military leaders delay presidential election until 2028”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_31442086dfbe6938326c",
-          "url": "https://www.dw.com/en/guinea-bissau-junta-delays-presidential-vote-for-2-years/a-80068910?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/guinea-bissau-junta-delays-presidential-vote-for-2-years/a-80068910?maca=en-rss-en-top-1022-rdf",
-          "title": "Guinea-Bissau junta delays presidential vote for 2 years",
-          "summary": "The decision came exactly one year after the military took power on November 26, 2025. The junta said the conditions were insufficient to hold presidential elections for now.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-26T20:09:00+00:00",
-          "fetched_at": "2026-11-26T23:52:53.703282+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_3e0ba0e4900c118fb645",
-          "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years?traffic_source=rss",
-          "title": "Guinea-Bissau military leaders delay presidential election until 2028",
-          "summary": "Military leaders say presidential and legislative poll scheduled for December 6 will now take place in November 2028.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-26T18:07:18+00:00",
-          "fetched_at": "2026-11-26T23:52:54.107422+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_deb9cec8e064bf24e35f",
-      "title": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
-      "category": "国际政治",
-      "score": 69.2,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 7.2,
-        "region_diversity": 5.0,
-        "recency": 20.2,
-        "credibility": 9.8,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-26T17:53:44+00:00",
-      "last_updated": "2026-11-26T21:47:00+00:00",
-      "source_count": 2,
-      "article_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe",
-        "Middle East"
-      ],
-      "keywords": [
-        "budget",
-        "summit",
-        "leaders",
-        "agree",
-        "european",
-        "more",
-        "they",
-        "struggle"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的国际政治事件为“EU leaders struggle to agree on long-term budget, $49bn Ukraine loan”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "At",
-          "EU",
-          "European",
-          "DW",
-          "Ukraine"
-        ],
-        "latest_progress": [
-          "11月26日 21:47 UTC，DW Top Stories报道：“At odds over the EU budget, European leaders cut summit short - DW has more”。",
-          "11月26日 17:53 UTC，Al Jazeera报道：“EU leaders struggle to agree on long-term budget, $49bn Ukraine loan”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_cbca7853954b44cb2a93",
-          "url": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short-dw-has-more/live-80056415?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short-dw-has-more/live-80056415?maca=en-rss-en-top-1022-rdf",
-          "title": "At odds over the EU budget, European leaders cut summit short - DW has more",
-          "summary": "Even before they met, it was clear the gap between European leaders' demands for the EU budget would make negotiations difficult. They ended a summit meeting early and aim to agree on EU funding in December. DW has more.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-26T21:47:00+00:00",
-          "fetched_at": "2026-11-26T23:52:53.702989+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
-          "image_url": null
-        },
-        {
-          "article_id": "art_cb913a1768e9ff785dce",
-          "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine?traffic_source=rss",
-          "title": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
-          "summary": "The bloc is holding an extraordinary summit in Brussels to discuss its budget proposal for 2028 to 2034.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-26T17:53:44+00:00",
-          "fetched_at": "2026-11-26T23:52:54.107508+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_5661de7cad4a591c8edc",
-      "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
-      "category": "国际政治",
-      "score": 64.2,
-      "score_breakdown": {
-        "coverage": 11.0,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.1,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-26T22:06:20+00:00",
-      "last_updated": "2026-11-26T22:49:27+00:00",
-      "source_count": 1,
-      "article_count": 2,
-      "sources": [
-        "BBC World"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "bbc",
-        "zelensky",
-        "president",
-        "tells",
-        "vladimir",
-        "putin",
-        "not",
-        "friend"
-      ],
-      "analysis": {
-        "what_happened": "据BBC World等来源的2篇报道，当前关注的国际政治事件为“US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "US",
-          "Middle East",
-          "Russia",
-          "Zelensky",
-          "BBC",
-          "Trump",
-          "Putin"
-        ],
-        "latest_progress": [
-          "11月26日 22:49 UTC，BBC World报道：“US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC”。",
-          "11月26日 22:06 UTC，BBC World报道：“Zelensky questions 'strange' Trump-Putin friendship in BBC interview”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_ff492375fb2018d362b6",
-          "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_campaign=rss&at_medium=RSS",
-          "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
-          "summary": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-26T22:49:27+00:00",
-          "fetched_at": "2026-11-26T23:52:53.522520+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20f7/live/d0e75f10-e9e6-11f1-ab41-f1f84c0c758a.jpg"
-        },
-        {
-          "article_id": "art_02bf04f4da3628ff73e2",
-          "url": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
-          "canonical_url": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_campaign=rss&at_medium=RSS",
-          "title": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
-          "summary": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
-          "source": "BBC World",
-          "source_type": "rss",
-          "published_at": "2026-11-26T22:06:20+00:00",
-          "fetched_at": "2026-11-26T23:52:53.524316+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 1.0,
-          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5957/live/94851140-e9e4-11f1-ab41-f1f84c0c758a.jpg"
-        }
-      ]
-    },
-    {
-      "event_id": "evt_a76316b7ad00fb14e09f",
-      "title": "八大重点任务之二 ： 坚持创新驱动 ， 加紧培育壮大新动能 新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）",
+      "event_id": "evt_75658e69bc4b52b713f9",
+      "title": "New trade war could be brewing following tariff proposal",
       "category": "经济金融",
-      "score": 62.8,
+      "score": 83.1,
       "score_breakdown": {
-        "coverage": 17.9,
-        "source_diversity": 14.4,
+        "coverage": 22.0,
+        "source_diversity": 18.0,
         "region_diversity": 2.5,
-        "recency": 3.8,
+        "recency": 16.4,
         "credibility": 7.5,
         "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-25T01:15:00+00:00",
-      "last_updated": "2026-11-25T05:45:00+00:00",
-      "source_count": 4,
-      "article_count": 5,
+      "first_seen": "2026-11-26T22:15:00+00:00",
+      "last_updated": "2026-11-27T01:30:00+00:00",
+      "source_count": 15,
+      "article_count": 15,
       "sources": [
-        "163.com",
-        "finance.people.com.cn",
-        "news.china.com.cn",
-        "news.dayoo.com"
+        "13wham.com",
+        "abc6onyourside.com",
+        "bakersfieldnow.com",
+        "cnycentral.com",
+        "katv.com",
+        "kfdm.com",
+        "komonews.com",
+        "ktul.com",
+        "kval.com",
+        "news3lv.com",
+        "turnto10.com",
+        "upnorthlive.com",
+        "wcti12.com",
+        "wset.com",
+        "wwmt.com"
       ],
       "regions": [
-        "China"
+        "United States"
       ],
       "keywords": [
-        "一步",
-        "经济",
-        "新动",
-        "动能",
-        "八大",
-        "大重",
-        "重点",
-        "点任"
+        "trade",
+        "war",
+        "could",
+        "brewing",
+        "following",
+        "tariff",
+        "proposal"
       ],
       "analysis": {
-        "what_happened": "据163.com、finance.people.com.cn、news.china.com.cn、news.dayoo.com等来源的5篇报道，当前关注的经济金融事件为“八大重点任务之二 ： 坚持创新驱动 ， 加紧培育壮大新动能 新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据13wham.com、abc6onyourside.com、bakersfieldnow.com、cnycentral.com等来源的15篇报道，当前关注的经济金融事件为“New trade war could be brewing following tariff proposal”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "宏观政策与金融条件变化会影响全球增长、融资成本和资产定价。",
         "participants": [
-          "163.com",
-          "finance.people.com.cn",
-          "news.china.com.cn",
-          "news.dayoo.com"
+          "13wham.com",
+          "abc6onyourside.com",
+          "bakersfieldnow.com",
+          "cnycentral.com",
+          "katv.com"
         ],
         "latest_progress": [
-          "11月25日 05:45 UTC，news.dayoo.com报道：“新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）_ 广州日报大洋网”。",
-          "11月25日 03:30 UTC，163.com报道：“八大重点任务之二 ： 坚持创新驱动 ， 加紧培育壮大新动能 新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）”。",
-          "11月25日 03:30 UTC，news.china.com.cn报道：“新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）”。"
+          "11月27日 01:30 UTC，wset.com报道：“New trade war could be brewing following tariff proposal”。",
+          "11月27日 01:30 UTC，kval.com报道：“New trade war could be brewing following tariff proposal”。",
+          "11月27日 01:15 UTC，wcti12.com报道：“New trade war could be brewing following tariff proposal”。"
         ],
         "china_impact": "关注外需、人民币汇率、跨境资金以及国内政策对冲空间。",
         "market_impact": "利率、汇率、股票与大宗商品可能根据数据和政策预期重新定价。",
@@ -458,126 +86,694 @@
       },
       "articles": [
         {
-          "article_id": "art_a72554cad0d8f74e46b7",
-          "url": "https://news.dayoo.com/china/202611/25/139997_55027278.htm",
-          "canonical_url": "https://news.dayoo.com/china/202611/25/139997_55027278.htm",
-          "title": "新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）_ 广州日报大洋网",
+          "article_id": "art_b9c5053b86b6f7a92f02",
+          "url": "https://wset.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://wset.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
           "summary": "",
-          "source": "news.dayoo.com",
+          "source": "wset.com",
           "source_type": "gdelt",
-          "published_at": "2026-11-25T05:45:00+00:00",
-          "fetched_at": "2026-11-26T23:51:49.456728+00:00",
-          "language": "Chinese",
-          "region": "China",
+          "published_at": "2026-11-27T01:30:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725110+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://wset.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_fedf843a50a308eda991",
+          "url": "https://kval.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://kval.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "kval.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-27T01:30:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725629+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://kval.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_fa78bcdede77e0de942c",
+          "url": "https://wcti12.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://wcti12.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "wcti12.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-27T01:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.724992+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://wcti12.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_af50d360bb423ffbe8d4",
+          "url": "https://katv.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://katv.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "katv.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-27T01:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725335+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://katv.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_8fef61c22685163faf8c",
+          "url": "https://komonews.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://komonews.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "komonews.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-27T00:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.724921+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://komonews.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_72d849928eed6b004b0e",
+          "url": "https://news3lv.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://news3lv.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "news3lv.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-27T00:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725533+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://news3lv.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_53598dbe33e461af48a0",
+          "url": "https://cnycentral.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://cnycentral.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "cnycentral.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-27T00:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725725+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://cnycentral.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_2657f03f2adce01b0bb5",
+          "url": "https://ktul.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://ktul.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "ktul.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T23:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725482+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://ktul.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_6d922085728ec54829a1",
+          "url": "https://wwmt.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://wwmt.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "wwmt.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T22:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725217+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://wwmt.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_8553137dd12873a32848",
+          "url": "https://abc6onyourside.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://abc6onyourside.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "abc6onyourside.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T22:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725285+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://abc6onyourside.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_09dbd51f93847c9f7541",
+          "url": "https://bakersfieldnow.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://bakersfieldnow.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "bakersfieldnow.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T22:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725868+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bakersfieldnow.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_7e2cc0b95c27c8f56c52",
+          "url": "https://13wham.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://13wham.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "13wham.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T22:30:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725165+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://13wham.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_ec967e4ee4c8fbaa5e8e",
+          "url": "https://upnorthlive.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://upnorthlive.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "upnorthlive.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T22:30:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725583+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://upnorthlive.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_cb0f9ef628449761a331",
+          "url": "https://turnto10.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://turnto10.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "turnto10.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T22:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725386+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://turnto10.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        },
+        {
+          "article_id": "art_cf0ad968149e2b85b1dd",
+          "url": "https://kfdm.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "canonical_url": "https://kfdm.com/news/nation-world/new-trade-war-could-be-brewing-following-tariff-proposal-china-eu-india-japan",
+          "title": "New trade war could be brewing following tariff proposal",
+          "summary": "",
+          "source": "kfdm.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T22:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.725434+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://kfdm.com/resources/media2/16x9/4000/1320/0x209/90/228e407d-c05f-440e-9e13-f76f6bf403bb-GettyImages2287817497.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_9fe5d94face26e705d11",
+      "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+      "category": "科技AI",
+      "score": 79.1,
+      "score_breakdown": {
+        "coverage": 22.0,
+        "source_diversity": 18.0,
+        "region_diversity": 2.5,
+        "recency": 14.3,
+        "credibility": 7.5,
+        "impact": 9.8,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-26T01:15:00+00:00",
+      "last_updated": "2026-11-26T22:15:00+00:00",
+      "source_count": 10,
+      "article_count": 10,
+      "sources": [
+        "abcnews.com",
+        "capitalgazette.com",
+        "citizensvoice.com",
+        "clickondetroit.com",
+        "dailypress.com",
+        "gjsentinel.com",
+        "isp.netscape.com",
+        "ksl.com",
+        "wcvb.com",
+        "wral.com"
+      ],
+      "regions": [
+        "United States"
+      ],
+      "keywords": [
+        "trump",
+        "arizona",
+        "high",
+        "stakes",
+        "expansion",
+        "tsmc",
+        "computer",
+        "chip"
+      ],
+      "analysis": {
+        "what_happened": "据abcnews.com、capitalgazette.com、citizensvoice.com、clickondetroit.com等来源的10篇报道，当前关注的科技AI事件为“Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "技术突破与监管变化可能重塑产业竞争、资本开支和标准体系。",
+        "participants": [
+          "Trump",
+          "Arizona",
+          "TSMC"
+        ],
+        "latest_progress": [
+          "11月26日 22:15 UTC，wcvb.com报道：“Trump heads to Arizona for high - stakes expansion of TSMC computer chip factories”。",
+          "11月26日 03:15 UTC，isp.netscape.com报道：“Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories”。",
+          "11月26日 02:45 UTC，clickondetroit.com报道：“Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories”。"
+        ],
+        "china_impact": "关注关键技术获取、国产替代、监管衔接与中国企业的全球竞争位置。",
+        "market_impact": "芯片、云计算、软件和设备产业链的估值与订单预期可能调整。",
+        "watch_indicators": [
+          "产品与模型实际能力",
+          "监管与出口限制",
+          "企业资本开支和商业化数据"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_1da3a560a0ba8396552b",
+          "url": "https://www.wcvb.com/article/trump-arizona-tsmc-chip-groundbreaking/74541430",
+          "canonical_url": "https://www.wcvb.com/article/trump-arizona-tsmc-chip-groundbreaking/74541430",
+          "title": "Trump heads to Arizona for high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "wcvb.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T22:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.727301+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://kubrick.htvapps.com/htv-prod/images/e126daca-0766-40bf-96fe-68d37594dfc6.jpg?crop=1.00xw%3A0.846xh%3B0%2C0.154xh"
+        },
+        {
+          "article_id": "art_5f6970e513982c8816cc",
+          "url": "https://isp.netscape.com:443/pf/story/0001/20261125/cdc7faa84895ddeb19bd114061e9dd85",
+          "canonical_url": "https://isp.netscape.com/pf/story/0001/20261125/cdc7faa84895ddeb19bd114061e9dd85",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "isp.netscape.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T03:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.727151+00:00",
+          "language": "English",
+          "region": "United States",
           "source_weight": 0.75,
           "image_url": null
         },
         {
-          "article_id": "art_733213ad381f144b2b2f",
-          "url": "https://www.163.com/news/article/LCIU2832000189FH.html",
-          "canonical_url": "https://www.163.com/news/article/LCIU2832000189FH.html",
-          "title": "八大重点任务之二 ： 坚持创新驱动 ， 加紧培育壮大新动能 新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）",
+          "article_id": "art_1ff076e4d1f86577c007",
+          "url": "https://www.clickondetroit.com/business/2026/11/25/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories/",
+          "canonical_url": "https://www.clickondetroit.com/business/2026/11/25/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
           "summary": "",
-          "source": "163.com",
+          "source": "clickondetroit.com",
           "source_type": "gdelt",
-          "published_at": "2026-11-25T03:30:00+00:00",
-          "fetched_at": "2026-11-26T23:51:49.456325+00:00",
-          "language": "Chinese",
-          "region": "China",
+          "published_at": "2026-11-26T02:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.726558+00:00",
+          "language": "English",
+          "region": "United States",
           "source_weight": 0.75,
+          "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/Q65ET7AN7VE7LDZU4HGTLTYEYQ.jpg?api_key=clickondetroit_06f87fefb2123598"
+        },
+        {
+          "article_id": "art_623a0767af7e2701266f",
+          "url": "https://www.capitalgazette.com/2026/11/25/trump-tsmc/",
+          "canonical_url": "https://www.capitalgazette.com/2026/11/25/trump-tsmc",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "capitalgazette.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T02:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.726925+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.capitalgazette.com/wp-content/uploads/2026/11/APTOPIX_Trump_7381__27d6b5.jpg"
+        },
+        {
+          "article_id": "art_28ad0a9b3a36f8434499",
+          "url": "https://www.gjsentinel.com/news/us/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip/article_83fcc7a9-1153-5287-89c9-6628bc45c04b.html",
+          "canonical_url": "https://www.gjsentinel.com/news/us/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip/article_83fcc7a9-1153-5287-89c9-6628bc45c04b.html",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "gjsentinel.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T02:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.727198+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://bloximages.newyork1.vip.townnews.com/gjsentinel.com/content/tncms/assets/v3/editorial/7/36/73632adf-2528-5f39-9eed-35f61027cc1c/6b062210368fe.image.jpg?crop=1763%2C926%2C0%2C125"
+        },
+        {
+          "article_id": "art_cbd8902f41505686ec1e",
+          "url": "https://www.ksl.com:443/article/51648194/trump-will-head-to-arizona-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
+          "canonical_url": "https://www.ksl.com/article/51648194/trump-will-head-to-arizona-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
+          "title": "Trump will head to Arizona for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "ksl.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T02:30:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.726509+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://img.ksl.com/slc/3209/320967/32096794.jpg?filter=kslv2/responsive_story_lg"
+        },
+        {
+          "article_id": "art_6cac54ca4104f46dcf17",
+          "url": "https://www.wral.com/news/ap/cdc7f-trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories/",
+          "canonical_url": "https://www.wral.com/news/ap/cdc7f-trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "wral.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T01:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.726457+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://images.wral.com/759575b9-ecac-594c-9217-36816aeb3904"
+        },
+        {
+          "article_id": "art_f88e04bb4350e357deab",
+          "url": "https://www.citizensvoice.com/2026/11/25/trump-tsmc/",
+          "canonical_url": "https://www.citizensvoice.com/2026/11/25/trump-tsmc",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "citizensvoice.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T01:45:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.726745+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.citizensvoice.com/wp-content/uploads/2026/11/APTOPIX_Trump_7381__27d6b5.jpg"
+        },
+        {
+          "article_id": "art_b4fba4d22f01e92b5298",
+          "url": "https://www.dailypress.com/2026/11/25/trump-tsmc/",
+          "canonical_url": "https://www.dailypress.com/2026/11/25/trump-tsmc",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "dailypress.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T01:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.726838+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://www.dailypress.com/wp-content/uploads/2026/11/APTOPIX_Trump_7381__27d6b5.jpg"
+        },
+        {
+          "article_id": "art_a73fa6a306104c4a16c0",
+          "url": "https://abcnews.com/US/wireStory/trump-heads-arizona-week-high-stakes-expansion-tsmcs-138455173",
+          "canonical_url": "https://abcnews.com/US/wireStory/trump-heads-arizona-week-high-stakes-expansion-tsmcs-138455173",
+          "title": "Trump heads to Arizona next week for a high - stakes expansion of TSMC computer chip factories",
+          "summary": "",
+          "source": "abcnews.com",
+          "source_type": "gdelt",
+          "published_at": "2026-11-26T01:15:00+00:00",
+          "fetched_at": "2026-11-27T08:30:31.726882+00:00",
+          "language": "English",
+          "region": "United States",
+          "source_weight": 0.75,
+          "image_url": "https://i.abcnewsfe.com/a/8e13e360-a0bf-4647-afa1-36a7fd833181/wirestory_cdc7faa84895ddeb19bd114061e9dd85_16x9.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_15e93179f04f7b78a6d4",
+      "title": "New Zealand election results set up tricky talks for conservative incumbent",
+      "category": "国际政治",
+      "score": 73.4,
+      "score_breakdown": {
+        "coverage": 13.9,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 21.5,
+        "credibility": 9.8,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-27T03:13:00+00:00",
+      "last_updated": "2026-11-27T07:55:32+00:00",
+      "source_count": 2,
+      "article_count": 3,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "zealand",
+        "election",
+        "parliament",
+        "bloc",
+        "left",
+        "opportunity",
+        "party",
+        "kingmaker"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的3篇报道，当前关注的国际政治事件为“New Zealand election results set up tricky talks for conservative incumbent”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "New Zealand",
+          "Opportunity Party"
+        ],
+        "latest_progress": [
+          "11月27日 07:55 UTC，Al Jazeera报道：“New Zealand election results set up tricky talks for conservative incumbent”。",
+          "11月27日 04:59 UTC，Al Jazeera报道：“New Zealand’s Opportunity Party poised to become election kingmaker”。",
+          "11月27日 03:13 UTC，DW Top Stories报道：“New Zealand election ends in hung parliament”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_66cdc1c42b72860ad7fd",
+          "url": "https://www.aljazeera.com/news/2026/11/27/new-zealand-election-results-set-up-tricky-talks-for-conservative-incumbent?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/27/new-zealand-election-results-set-up-tricky-talks-for-conservative-incumbent?traffic_source=rss",
+          "title": "New Zealand election results set up tricky talks for conservative incumbent",
+          "summary": "Conservative PM Luxon and populist coalition partners face negotiations with centrist kingmaker.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-27T07:55:32+00:00",
+          "fetched_at": "2026-11-27T08:30:32.766800+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_931edb880fdc99e7b95c",
-          "url": "http://news.china.com.cn/2026-11/25/content_118788655.shtml",
-          "canonical_url": "https://news.china.com.cn/2026-11/25/content_118788655.shtml",
-          "title": "新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ）",
-          "summary": "",
-          "source": "news.china.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-11-25T03:30:00+00:00",
-          "fetched_at": "2026-11-26T23:51:49.456638+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
+          "article_id": "art_8f25d43282f67083cbac",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/new-zealands-opportunity-party-poised-to-become-election-kingmaker?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/new-zealands-opportunity-party-poised-to-become-election-kingmaker?traffic_source=rss",
+          "title": "New Zealand’s Opportunity Party poised to become election kingmaker",
+          "summary": "The newly-elected Opportunity party is now in a position to swing New Zealand’s next parliament to the left or right.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-27T04:59:53+00:00",
+          "fetched_at": "2026-11-27T08:30:32.768086+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
           "image_url": null
         },
         {
-          "article_id": "art_fd34417abf610ddbfee5",
-          "url": "http://finance.people.com.cn/n1/2026/1125/c1004-40839892.html",
-          "canonical_url": "https://finance.people.com.cn/n1/2026/1125/c1004-40839892.html",
-          "title": "在形势变化中增强大就业观 （ 每周经济评论 ） -- 经济 · 科技 -- 人民网",
-          "summary": "",
-          "source": "finance.people.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-11-25T01:45:00+00:00",
-          "fetched_at": "2026-11-26T23:51:49.455570+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
-          "image_url": null
-        },
-        {
-          "article_id": "art_57e3a599365782f3747e",
-          "url": "http://finance.people.com.cn/n1/2026/1125/c1004-40839844.html",
-          "canonical_url": "https://finance.people.com.cn/n1/2026/1125/c1004-40839844.html",
-          "title": "新动能是一步一步闯出来的 （ 经济新方位 · 八大重点任务看落实 ） -- 经济 · 科技 -- 人民网",
-          "summary": "",
-          "source": "finance.people.com.cn",
-          "source_type": "gdelt",
-          "published_at": "2026-11-25T01:15:00+00:00",
-          "fetched_at": "2026-11-26T23:51:49.456410+00:00",
-          "language": "Chinese",
-          "region": "China",
-          "source_weight": 0.75,
+          "article_id": "art_ff61a91001a80949f7f2",
+          "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-top-1022-rdf",
+          "title": "New Zealand election ends in hung parliament",
+          "summary": "A final vote count showed that neither the center-right bloc nor the opposition left bloc was able to secure a majority.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-27T03:13:00+00:00",
+          "fetched_at": "2026-11-27T08:30:32.575457+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
           "image_url": null
         }
       ]
     },
     {
-      "event_id": "evt_ac0960e180deeb8227e5",
-      "title": "Israeli settlers damage Palestinian family’s homes in West Bank attack",
-      "category": "军事安全",
-      "score": 62.4,
+      "event_id": "evt_ee22f3ce44390099bb10",
+      "title": "Thanksgiving storms leave nearly a million without power across the US",
+      "category": "社会突发",
+      "score": 69.1,
       "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 21.3,
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 19.2,
         "credibility": 10.0,
-        "impact": 13.0,
+        "impact": 11.7,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-26T23:07:36+00:00",
-      "last_updated": "2026-11-26T23:07:36+00:00",
-      "source_count": 1,
-      "article_count": 1,
+      "first_seen": "2026-11-27T04:34:43+00:00",
+      "last_updated": "2026-11-27T05:15:26+00:00",
+      "source_count": 2,
+      "article_count": 2,
       "sources": [
-        "Al Jazeera"
+        "Al Jazeera",
+        "BBC World"
       ],
       "regions": [
+        "Europe",
         "Middle East"
       ],
       "keywords": [
-        "israeli",
-        "settlers",
-        "family",
-        "damage",
-        "palestinian",
-        "homes",
-        "west",
-        "bank"
+        "across",
+        "thanksgiving",
+        "storms",
+        "million",
+        "power",
+        "flight",
+        "delays",
+        "flooding"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Israeli settlers damage Palestinian family’s homes in West Bank attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "what_happened": "据Al Jazeera、BBC World等来源的2篇报道，当前关注的社会突发事件为“Thanksgiving storms leave nearly a million without power across the US”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "突发事件通常具有高不确定性，可能迅速扩大人道、治理和经济影响。",
         "participants": [
-          "Israeli",
-          "Palestinian",
-          "West Bank"
+          "Major Thanksgiving",
+          "US",
+          "Thanksgiving"
         ],
         "latest_progress": [
-          "11月26日 23:07 UTC，Al Jazeera报道：“Israeli settlers damage Palestinian family’s homes in West Bank attack”。"
+          "11月27日 05:15 UTC，BBC World报道：“Major Thanksgiving storm brings flooding, flight delays across US”。",
+          "11月27日 04:34 UTC，Al Jazeera报道：“Thanksgiving storms leave nearly a million without power across the US”。"
+        ],
+        "china_impact": "关注当地中国公民和项目安全、救援协作以及相关商品供给。",
+        "market_impact": "影响通常集中在当地资产、保险、交通和相关商品，需观察是否外溢。",
+        "watch_indicators": [
+          "伤亡和受影响范围",
+          "救援与基础设施恢复",
+          "次生灾害或跨境扩散"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_22f1707c747225e7bd6b",
+          "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_campaign=rss&at_medium=RSS",
+          "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+          "summary": "Almost one million customers in the US had no power on Thursday evening as storms descended on both US coasts, bringing wind gusts, heavy rain and flooding.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-27T05:15:26+00:00",
+          "fetched_at": "2026-11-27T08:30:31.884520+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5163/live/6a7c75a0-ea2f-11f1-b33b-b39c81e690e4.jpg"
+        },
+        {
+          "article_id": "art_cb76ace6a631ee375096",
+          "url": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
+          "title": "Thanksgiving storms leave nearly a million without power across the US",
+          "summary": "Severe weather across the US causes outages and flight delays as families and friends gather for the annual holiday.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-27T04:34:43+00:00",
+          "fetched_at": "2026-11-27T08:30:32.768269+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_cfa8c27d3363849649ec",
+      "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+      "category": "军事安全",
+      "score": 66.1,
+      "score_breakdown": {
+        "coverage": 11.0,
+        "source_diversity": 7.2,
+        "region_diversity": 5.0,
+        "recency": 16.9,
+        "credibility": 9.8,
+        "impact": 13.0,
+        "velocity": 3.2
+      },
+      "first_seen": "2026-11-26T16:54:00+00:00",
+      "last_updated": "2026-11-27T02:14:25+00:00",
+      "source_count": 2,
+      "article_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe",
+        "Middle East"
+      ],
+      "keywords": [
+        "trump",
+        "putin",
+        "pull",
+        "military",
+        "aggression",
+        "europe",
+        "urged",
+        "back'"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera、DW Top Stories等来源的2篇报道，当前关注的军事安全事件为“Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Zelenskyy",
+          "Russian",
+          "Trump",
+          "Putin",
+          "Europe"
+        ],
+        "latest_progress": [
+          "11月27日 02:14 UTC，Al Jazeera报道：“Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’”。",
+          "11月26日 16:54 UTC，DW Top Stories报道：“Trump says he urged Putin to 'pull back' military aggression in Europe”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -590,15 +786,101 @@
       },
       "articles": [
         {
-          "article_id": "art_62a77f8e0080f285eea2",
-          "url": "https://www.aljazeera.com/news/2026/11/26/israeli-settlers-damage-palestinian-familys-homes-in-west-bank-attack?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/israeli-settlers-damage-palestinian-familys-homes-in-west-bank-attack?traffic_source=rss",
-          "title": "Israeli settlers damage Palestinian family’s homes in West Bank attack",
-          "summary": "The Tubasi family was forced out months ago and has been denied a return by settlers despite an Israeli court order.",
+          "article_id": "art_103d3589ce27620244e8",
+          "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+          "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+          "summary": "Trump says he urged Putin to 'pull back' military aggression in Europe amid escalating Russian and Ukrainian attacks.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-26T23:07:36+00:00",
-          "fetched_at": "2026-11-26T23:52:54.105898+00:00",
+          "published_at": "2026-11-27T02:14:25+00:00",
+          "fetched_at": "2026-11-27T08:30:32.768700+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        },
+        {
+          "article_id": "art_ad5f79f5ff2e8b1ef228",
+          "url": "https://www.dw.com/en/trump-says-he-urged-putin-to-pull-back-military-aggression-in-europe/a-80067722?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/trump-says-he-urged-putin-to-pull-back-military-aggression-in-europe/a-80067722?maca=en-rss-en-top-1022-rdf",
+          "title": "Trump says he urged Putin to 'pull back' military aggression in Europe",
+          "summary": "US President Donald Trump claimed that he talked with Vladimir Putin about ceasing Russia's military aggression in Europe and expressed his belief in the possibility of a deal between Russia and Ukraine.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-26T16:54:00+00:00",
+          "fetched_at": "2026-11-27T08:30:32.576084+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_5bea1f004f269d1e2ad4",
+      "title": "Can the Mecca pact turn its collective defence promise into real support?",
+      "category": "军事安全",
+      "score": 61.9,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 20.9,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-27T07:16:30+00:00",
+      "last_updated": "2026-11-27T07:16:30+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "can",
+        "mecca",
+        "pact",
+        "turn",
+        "collective",
+        "defence",
+        "promise",
+        "real"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Can the Mecca pact turn its collective defence promise into real support?”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Can",
+          "Mecca"
+        ],
+        "latest_progress": [
+          "11月27日 07:16 UTC，Al Jazeera报道：“Can the Mecca pact turn its collective defence promise into real support?”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_36c75c2f65686dae163b",
+          "url": "https://www.aljazeera.com/news-analysis/2026/11/27/can-the-mecca-pact-turn-its-collective-defence-promise-into-real-support?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news-analysis/2026/11/27/can-the-mecca-pact-turn-its-collective-defence-promise-into-real-support?traffic_source=rss",
+          "title": "Can the Mecca pact turn its collective defence promise into real support?",
+          "summary": "Pakistan, Saudi Arabia and Turkiye meet in Islamabad as Houthi attacks on the kingdom continue and Iran talks stay open.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-27T07:16:30+00:00",
+          "fetched_at": "2026-11-27T08:30:32.767241+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
@@ -607,21 +889,234 @@
       ]
     },
     {
-      "event_id": "evt_7a1d4018ba5f9d1261a9",
-      "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+      "event_id": "evt_75fdef3872f6eb95049d",
+      "title": "Houthi attacks test Saudi Arabia's image of security",
       "category": "军事安全",
-      "score": 60.2,
+      "score": 60.9,
       "score_breakdown": {
         "coverage": 6.9,
         "source_diversity": 3.6,
         "region_diversity": 2.5,
-        "recency": 19.2,
+        "recency": 19.9,
         "credibility": 10.0,
         "impact": 13.0,
         "velocity": 5.0
       },
-      "first_seen": "2026-11-26T20:34:34+00:00",
-      "last_updated": "2026-11-26T20:34:34+00:00",
+      "first_seen": "2026-11-27T06:04:51+00:00",
+      "last_updated": "2026-11-27T06:04:51+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "BBC World"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "houthi",
+        "attacks",
+        "test",
+        "saudi",
+        "arabia's",
+        "image",
+        "security",
+        "despite"
+      ],
+      "analysis": {
+        "what_happened": "据BBC World等来源的1篇报道，当前关注的军事安全事件为“Houthi attacks test Saudi Arabia's image of security”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
+        "participants": [
+          "Houthi",
+          "Saudi Arabia"
+        ],
+        "latest_progress": [
+          "11月27日 06:04 UTC，BBC World报道：“Houthi attacks test Saudi Arabia's image of security”。"
+        ],
+        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
+        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
+        "watch_indicators": [
+          "冲突范围与烈度",
+          "停火或斡旋进展",
+          "关键航线与基础设施状态"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_20483f433c207d563971",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss",
+          "canonical_url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_campaign=rss&at_medium=RSS",
+          "title": "Houthi attacks test Saudi Arabia's image of security",
+          "summary": "Despite the strikes, markets and restaurants in Riyadh remain busy as residents express trust in the government to protect them.",
+          "source": "BBC World",
+          "source_type": "rss",
+          "published_at": "2026-11-27T06:04:51+00:00",
+          "fetched_at": "2026-11-27T08:30:31.886786+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 1.0,
+          "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c4/live/551558a0-e96f-11f1-99a1-253766e7ad8b.jpg"
+        }
+      ]
+    },
+    {
+      "event_id": "evt_69d055cdc49fdf585173",
+      "title": "‘Borrowing to make ends meet’: The rising cost of living in Europe",
+      "category": "能源资源",
+      "score": 60.5,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.4,
+        "credibility": 10.0,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-27T07:53:59+00:00",
+      "last_updated": "2026-11-27T07:53:59+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "regions": [
+        "Middle East"
+      ],
+      "keywords": [
+        "europe",
+        "borrowing",
+        "make",
+        "ends",
+        "meet",
+        "rising",
+        "cost",
+        "living"
+      ],
+      "analysis": {
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的能源资源事件为“‘Borrowing to make ends meet’: The rising cost of living in Europe”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "能源与关键资源供需变化会传导至通胀、工业成本和国家安全。",
+        "participants": [
+          "Borrowing",
+          "Europe"
+        ],
+        "latest_progress": [
+          "11月27日 07:53 UTC，Al Jazeera报道：“‘Borrowing to make ends meet’: The rising cost of living in Europe”。"
+        ],
+        "china_impact": "关注进口成本、供应稳定性、战略储备以及新能源产业链影响。",
+        "market_impact": "油气、金属、电力及相关运输和化工资产可能率先反应。",
+        "watch_indicators": [
+          "产量与库存",
+          "运输设施运行",
+          "现货、期货与运费变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_bd1e3d50a2def149dc23",
+          "url": "https://www.aljazeera.com/news/2026/11/27/borrowing-to-make-ends-meet-the-rising-cost-of-living-in-europe?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/27/borrowing-to-make-ends-meet-the-rising-cost-of-living-in-europe?traffic_source=rss",
+          "title": "‘Borrowing to make ends meet’: The rising cost of living in Europe",
+          "summary": "Prices are climbing again across Europe as energy costs surge.",
+          "source": "Al Jazeera",
+          "source_type": "rss",
+          "published_at": "2026-11-27T07:53:59+00:00",
+          "fetched_at": "2026-11-27T08:30:32.766917+00:00",
+          "language": "en",
+          "region": "Middle East",
+          "source_weight": 1.0,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_10284a97a16aa3082ff9",
+      "title": "India's Modi government calls special sitting of parliament",
+      "category": "国际政治",
+      "score": 59.6,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 21.0,
+        "credibility": 9.5,
+        "impact": 11.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-27T07:23:00+00:00",
+      "last_updated": "2026-11-27T07:23:00+00:00",
+      "source_count": 1,
+      "article_count": 1,
+      "sources": [
+        "DW Top Stories"
+      ],
+      "regions": [
+        "Europe"
+      ],
+      "keywords": [
+        "sitting",
+        "parliament",
+        "india's",
+        "modi",
+        "government",
+        "calls",
+        "special",
+        "indian"
+      ],
+      "analysis": {
+        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“India's Modi government calls special sitting of parliament”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
+        "participants": [
+          "India",
+          "Modi"
+        ],
+        "latest_progress": [
+          "11月27日 07:23 UTC，DW Top Stories报道：“India's Modi government calls special sitting of parliament”。"
+        ],
+        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
+        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
+        "watch_indicators": [
+          "官方声明与后续会谈",
+          "制裁或政策文本落地",
+          "主要经济体立场变化"
+        ],
+        "analysis_mode": "规则模板"
+      },
+      "articles": [
+        {
+          "article_id": "art_9b4d7df4150a6926d3a4",
+          "url": "https://www.dw.com/en/india-s-modi-government-calls-special-sitting-of-parliament/live-80070511?maca=en-rss-en-top-1022-rdf",
+          "canonical_url": "https://www.dw.com/en/india-s-modi-government-calls-special-sitting-of-parliament/live-80070511?maca=en-rss-en-top-1022-rdf",
+          "title": "India's Modi government calls special sitting of parliament",
+          "summary": "The sitting of the Indian parliament comes after its monsoon session was adjourned indefinitely in August. Follow DW.",
+          "source": "DW Top Stories",
+          "source_type": "rss",
+          "published_at": "2026-11-27T07:23:00+00:00",
+          "fetched_at": "2026-11-27T08:30:32.575357+00:00",
+          "language": "en",
+          "region": "Europe",
+          "source_weight": 0.95,
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "event_id": "evt_62878c49a2976b277f3f",
+      "title": "At least 13 Niger soldiers killed in Sanam armed attack",
+      "category": "军事安全",
+      "score": 59.4,
+      "score_breakdown": {
+        "coverage": 6.9,
+        "source_diversity": 3.6,
+        "region_diversity": 2.5,
+        "recency": 18.3,
+        "credibility": 10.0,
+        "impact": 13.0,
+        "velocity": 5.0
+      },
+      "first_seen": "2026-11-27T04:06:52+00:00",
+      "last_updated": "2026-11-27T04:06:52+00:00",
       "source_count": 1,
       "article_count": 1,
       "sources": [
@@ -632,24 +1127,24 @@
       ],
       "keywords": [
         "attack",
-        "saudi",
-        "jazan",
-        "refinery",
-        "kills",
-        "one",
-        "person",
-        "disrupts"
+        "least",
+        "niger",
+        "soldiers",
+        "killed",
+        "sanam",
+        "armed",
+        "remains"
       ],
       "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Attack on Saudi’s Jazan refinery kills one person, disrupts operations”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
+        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“At least 13 Niger soldiers killed in Sanam armed attack”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
         "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
         "participants": [
-          "Attack",
-          "Saudi",
-          "Jazan"
+          "At",
+          "Niger",
+          "Sanam"
         ],
         "latest_progress": [
-          "11月26日 20:34 UTC，Al Jazeera报道：“Attack on Saudi’s Jazan refinery kills one person, disrupts operations”。"
+          "11月27日 04:06 UTC，Al Jazeera报道：“At least 13 Niger soldiers killed in Sanam armed attack”。"
         ],
         "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
         "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
@@ -662,231 +1157,18 @@
       },
       "articles": [
         {
-          "article_id": "art_1d8ed179c0d8f1723d62",
-          "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
-          "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
-          "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.",
+          "article_id": "art_532f9831d8c26d732ea2",
+          "url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
+          "canonical_url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
+          "title": "At least 13 Niger soldiers killed in Sanam armed attack",
+          "summary": "It remains unclear who carried out the attack on Niger's National Guard in Tillaberi, near the Mali border.",
           "source": "Al Jazeera",
           "source_type": "rss",
-          "published_at": "2026-11-26T20:34:34+00:00",
-          "fetched_at": "2026-11-26T23:52:54.106426+00:00",
+          "published_at": "2026-11-27T04:06:52+00:00",
+          "fetched_at": "2026-11-27T08:30:32.768363+00:00",
           "language": "en",
           "region": "Middle East",
           "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_258eda77daf5acce974f",
-      "title": "Kushner explains the ‘good thing’ about Gaza’s destruction",
-      "category": "军事安全",
-      "score": 58.6,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 17.6,
-        "credibility": 10.0,
-        "impact": 13.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-26T18:30:36+00:00",
-      "last_updated": "2026-11-26T18:30:36+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "kushner",
-        "good",
-        "thing",
-        "about",
-        "gaza",
-        "explains",
-        "destruction",
-        "jared"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的军事安全事件为“Kushner explains the ‘good thing’ about Gaza’s destruction”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "安全局势升级会带来人员、贸易通道和地缘政治层面的连锁反应。",
-        "participants": [
-          "Kushner",
-          "Gaza"
-        ],
-        "latest_progress": [
-          "11月26日 18:30 UTC，Al Jazeera报道：“Kushner explains the ‘good thing’ about Gaza’s destruction”。"
-        ],
-        "china_impact": "关注中国公民与企业安全、航运通道、能源进口和地区外交空间。",
-        "market_impact": "避险资产、能源价格、航运费率及国防板块可能出现波动。",
-        "watch_indicators": [
-          "冲突范围与烈度",
-          "停火或斡旋进展",
-          "关键航线与基础设施状态"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_6f2d7c396033d6579f40",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/kushner-explains-the-good-thing-about-gazas-destruction?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/kushner-explains-the-good-thing-about-gazas-destruction?traffic_source=rss",
-          "title": "Kushner explains the ‘good thing’ about Gaza’s destruction",
-          "summary": "Jared Kushner says the “good thing” about Israel’s genocidal war on Gaza is that it can be built into “something new”.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-26T18:30:36+00:00",
-          "fetched_at": "2026-11-26T23:52:54.107228+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_9e5f4cf851f9a5ce24d9",
-      "title": "Mexico seeks US talks about suspected SpaceX debris",
-      "category": "国际政治",
-      "score": 58.2,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.1,
-        "credibility": 10.0,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-26T20:31:50+00:00",
-      "last_updated": "2026-11-26T20:31:50+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "regions": [
-        "Middle East"
-      ],
-      "keywords": [
-        "mexico",
-        "spacex",
-        "seeks",
-        "talks",
-        "about",
-        "suspected",
-        "debris",
-        "concerned"
-      ],
-      "analysis": {
-        "what_happened": "据Al Jazeera等来源的1篇报道，当前关注的国际政治事件为“Mexico seeks US talks about suspected SpaceX debris”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Mexico",
-          "US"
-        ],
-        "latest_progress": [
-          "11月26日 20:31 UTC，Al Jazeera报道：“Mexico seeks US talks about suspected SpaceX debris”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_1ec98806fba7b80cb8aa",
-          "url": "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris?traffic_source=rss",
-          "canonical_url": "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris?traffic_source=rss",
-          "title": "Mexico seeks US talks about suspected SpaceX debris",
-          "summary": "Mexico concerned as SpaceX ramps up rocket launches from Starbase near border in Texas.",
-          "source": "Al Jazeera",
-          "source_type": "rss",
-          "published_at": "2026-11-26T20:31:50+00:00",
-          "fetched_at": "2026-11-26T23:52:54.106612+00:00",
-          "language": "en",
-          "region": "Middle East",
-          "source_weight": 1.0,
-          "image_url": null
-        }
-      ]
-    },
-    {
-      "event_id": "evt_45bf4661a88d71b65a1c",
-      "title": "Albania's youth are protesting in Flamingo Revolution, not leaving the country anymore",
-      "category": "国际政治",
-      "score": 57.9,
-      "score_breakdown": {
-        "coverage": 6.9,
-        "source_diversity": 3.6,
-        "region_diversity": 2.5,
-        "recency": 19.3,
-        "credibility": 9.5,
-        "impact": 11.0,
-        "velocity": 5.0
-      },
-      "first_seen": "2026-11-26T20:44:00+00:00",
-      "last_updated": "2026-11-26T20:44:00+00:00",
-      "source_count": 1,
-      "article_count": 1,
-      "sources": [
-        "DW Top Stories"
-      ],
-      "regions": [
-        "Europe"
-      ],
-      "keywords": [
-        "youth",
-        "albania's",
-        "protesting",
-        "flamingo",
-        "revolution",
-        "not",
-        "leaving",
-        "country"
-      ],
-      "analysis": {
-        "what_happened": "据DW Top Stories等来源的1篇报道，当前关注的国际政治事件为“Albania's youth are protesting in Flamingo Revolution, not leaving the country anymore”。以下内容依据标题和摘要自动整理；具体事实请核对原文。",
-        "why_important": "事件可能改变外交关系、政策预期或地区力量平衡。",
-        "participants": [
-          "Albania",
-          "Flamingo Revolution"
-        ],
-        "latest_progress": [
-          "11月26日 20:44 UTC，DW Top Stories报道：“Albania's youth are protesting in Flamingo Revolution, not leaving the country anymore”。"
-        ],
-        "china_impact": "关注相关外交立场、双边经贸安排以及对中国企业海外经营环境的影响。",
-        "market_impact": "政策与制裁预期可能通过风险偏好、汇率和跨境资本流动影响市场。",
-        "watch_indicators": [
-          "官方声明与后续会谈",
-          "制裁或政策文本落地",
-          "主要经济体立场变化"
-        ],
-        "analysis_mode": "规则模板"
-      },
-      "articles": [
-        {
-          "article_id": "art_fe623e8d923225db0fe9",
-          "url": "https://www.dw.com/en/albania-s-youth-are-protesting-in-flamingo-revolution-not-leaving-the-country-anymore/a-80068939?maca=en-rss-en-top-1022-rdf",
-          "canonical_url": "https://www.dw.com/en/albania-s-youth-are-protesting-in-flamingo-revolution-not-leaving-the-country-anymore/a-80068939?maca=en-rss-en-top-1022-rdf",
-          "title": "Albania's youth are protesting in Flamingo Revolution, not leaving the country anymore",
-          "summary": "Youth protests against a rigid political system and corruption have shaken the government of Albanian Prime Minister Edi Rama. They also show that fewer young people are willing to emigrate in search of a better future.",
-          "source": "DW Top Stories",
-          "source_type": "rss",
-          "published_at": "2026-11-26T20:44:00+00:00",
-          "fetched_at": "2026-11-26T23:52:53.703111+00:00",
-          "language": "en",
-          "region": "Europe",
-          "source_weight": 0.95,
           "image_url": null
         }
       ]
